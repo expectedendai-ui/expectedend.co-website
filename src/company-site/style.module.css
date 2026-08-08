@@ -269,7 +269,9 @@
 
 .servicesSection { padding-top: 5rem; }
 .servicesSection .sectionHead { max-width: 1060px; margin-inline: auto; text-align: center; }
-.servicesSection .sectionHead > p:last-child { margin-inline: auto; }
+.servicesSection .servicesIntro { max-width: 630px; margin: 1.3rem auto 0; color: var(--muted); font-size: 1rem; line-height: 1.7; }
+.servicesSection .servicesGuidance { max-width: 630px; margin: .65rem auto 0; color: var(--gold-soft); font-size: .82rem; font-weight: 700; line-height: 1.55; }
+.site[data-site-theme="white"] .servicesGuidance { color: #987126; }
 .services { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .service { min-height: 230px; padding: 1.6rem; border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--ink); background: transparent; cursor: pointer; font: inherit; text-align: left; transition: background 180ms ease, transform 180ms ease; }
 .service:hover { background: var(--surface); transform: translateY(-3px); }
