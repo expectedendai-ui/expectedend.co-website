@@ -11,7 +11,7 @@ type HomePageProps = {
 
 export function HomePage({ onNavigate }: HomePageProps) {
   const [activeBio, setActiveBio] = React.useState<string | null>(null);
-  const [activeService, setActiveService] = React.useState<string | null>(null);
+  const [activeService, setActiveService] = React.useState<{ reason: string; opener: HTMLButtonElement } | null>(null);
 
   return (
     <main className={styles.home}>
@@ -92,11 +92,17 @@ export function HomePage({ onNavigate }: HomePageProps) {
         <div className={styles.sectionHead}>
           <p className={styles.kicker}>Selected services</p>
           <h2 id="services-title">You dream it — <em>we build it</em></h2>
-          <p>Our products come first. When the fit is right, we bring the same thoughtfulness to selected work for others.</p>
+          <p className={styles.servicesIntro}>Our products come first. When the fit is right, we bring the same thoughtfulness to selected work for others.</p>
+          <p className={styles.servicesGuidance}>Please include a price range for all inquiries and mention in your message if an NDA is needed.</p>
         </div>
         <div className={styles.services}>
           {SERVICES.map(([number, title, description, contactReason]) => (
-            <button className={styles.service} type="button" key={number} onClick={() => setActiveService(contactReason)}>
+            <button
+              className={styles.service}
+              type="button"
+              key={number}
+              onClick={(event) => setActiveService({ reason: contactReason, opener: event.currentTarget })}
+            >
               <span>{number}</span>
               <h3>{title}</h3>
               <p>{description}</p>
@@ -106,7 +112,13 @@ export function HomePage({ onNavigate }: HomePageProps) {
       </section>
 
       {activeBio && <BioDialog projectName={activeBio} onClose={() => setActiveBio(null)} />}
-      {activeService && <ContactDialog initialReason={activeService} onClose={() => setActiveService(null)} />}
+      {activeService && (
+        <ContactDialog
+          initialReason={activeService.reason}
+          returnFocusTo={activeService.opener}
+          onClose={() => setActiveService(null)}
+        />
+      )}
     </main>
   );
 }

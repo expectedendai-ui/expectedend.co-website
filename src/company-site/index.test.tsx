@@ -82,6 +82,57 @@ describe("Expected End public site", () => {
     });
   });
 
+  it("renders the complete approved service lineup and concise inquiry guidance", () => {
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+
+    const servicesHeading = screen.getByRole("heading", { level: 2, name: "You dream it — we build it" });
+    const servicesSection = servicesHeading.closest("section");
+    expect(servicesSection).not.toBeNull();
+    expect(within(servicesSection as HTMLElement).getAllByText(/^0[1-8]$/).map((number) => number.textContent)).toEqual([
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+    ]);
+    const serviceHeadings = within(servicesSection as HTMLElement).getAllByRole("heading", { level: 3 });
+    expect(serviceHeadings.map((heading) => heading.textContent)).toEqual([
+      "Apps",
+      "Websites",
+      "AI systems",
+      "Creative",
+      "HeadQuarters",
+      "Automations",
+      "Client Portals",
+      "Digital Rescue",
+    ]);
+    expect(within(servicesSection as HTMLElement).getByText(
+      "Your custom business home. CRM, finance, projects, team tools, and whatever capability you need next—all in one place.",
+    )).toBeInTheDocument();
+    expect(within(servicesSection as HTMLElement).getByText(
+      "Replace repetitive work with connected workflows that keep your business moving.",
+    )).toBeInTheDocument();
+    expect(within(servicesSection as HTMLElement).getByText(
+      "Give customers or members one polished place to communicate, book, share files, and track progress.",
+    )).toBeInTheDocument();
+    expect(within(servicesSection as HTMLElement).getByText(
+      "Repair, modernize, or rebuild software that no longer works for your business.",
+    )).toBeInTheDocument();
+
+    const sectionCopy = Array.from(servicesHeading.parentElement?.children ?? []).filter(
+      (element) => element.tagName === "P",
+    );
+    expect(sectionCopy[1]).toHaveTextContent(
+      "Our products come first. When the fit is right, we bring the same thoughtfulness to selected work for others.",
+    );
+    expect(sectionCopy[2]).toHaveTextContent(
+      "Please include a price range for all inquiries and mention in your message if an NDA is needed.",
+    );
+  });
+
   it("opens the guided contact form from a selected service", async () => {
     const user = userEvent.setup();
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
@@ -91,9 +142,55 @@ describe("Expected End public site", () => {
     expect(dialog).toBeInTheDocument();
     expect(within(dialog).getByLabelText("What is this about?")).toHaveValue("AI system or productivity tool");
     expect(within(dialog).getByLabelText("Which project?")).toHaveValue("A new idea");
+    expect(within(dialog).getByLabelText("Price range")).toBeRequired();
 
     await user.click(within(dialog).getByRole("button", { name: "Close contact form" }));
     expect(screen.queryByRole("dialog", { name: "Start with a little context." })).not.toBeInTheDocument();
+  });
+
+  it("routes a new service through the existing contact dialog without an NDA workflow", async () => {
+    const user = userEvent.setup();
+    const { container } = render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+    const headquartersButton = screen.getByRole("button", { name: /HeadQuarters/ });
+
+    await user.click(headquartersButton);
+    const dialog = screen.getByRole("dialog", { name: "Start with a little context." });
+    const reasonSelect = within(dialog).getByLabelText("What is this about?");
+    expect(reasonSelect).toHaveValue("HeadQuarters");
+    expect(within(reasonSelect).getAllByRole("option").map((option) => option.textContent)).toEqual([
+      "Choose one",
+      "Building an app or software idea",
+      "Website or digital experience",
+      "AI system or productivity tool",
+      "Creative direction or design",
+      "HeadQuarters",
+      "Automations",
+      "Client Portals",
+      "Digital Rescue",
+      "Partnership or collaboration",
+      "Press or media",
+      "General question",
+    ]);
+    expect(within(dialog).getByLabelText("Which project?")).toHaveValue("A new idea");
+    expect(within(dialog).queryByRole("radio")).not.toBeInTheDocument();
+    expect(within(dialog).queryByRole("checkbox")).not.toBeInTheDocument();
+    expect(container.querySelector('input[type="file"]')).not.toBeInTheDocument();
+
+    await user.click(within(dialog).getByRole("button", { name: "Close contact form" }));
+    expect(headquartersButton).toHaveFocus();
+  });
+
+  it("restores focus to a pointer-activated service when Escape closes the dialog", () => {
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+    const headquartersButton = screen.getByRole("button", { name: /HeadQuarters/ });
+
+    fireEvent.click(headquartersButton);
+    const dialog = screen.getByRole("dialog", { name: "Start with a little context." });
+    expect(headquartersButton).not.toHaveFocus();
+    fireEvent(dialog, new Event("cancel", { cancelable: true }));
+
+    expect(screen.queryByRole("dialog", { name: "Start with a little context." })).not.toBeInTheDocument();
+    expect(headquartersButton).toHaveFocus();
   });
 
   it("opens the Water Check story dialog and restores focus", async () => {
@@ -259,5 +356,6 @@ describe("Expected End public site", () => {
     expect(window.location.pathname).toBe("/about");
     expect(window.location.hash).toBe("#contact");
     expect(screen.getByRole("heading", { level: 2, name: "Start with a little context." })).toBeInTheDocument();
+    expect(screen.getByLabelText("Price range")).toBeRequired();
   });
 });

@@ -1,5 +1,6 @@
-import * as React from "react";
+import type * as React from "react";
 import { ArrowUpRightIcon } from "./action-icons";
+import { SERVICES } from "./content";
 import styles from "./style.module.css";
 
 type ContactDetails = {
@@ -7,6 +8,7 @@ type ContactDetails = {
   replyEmail: string;
   project: string;
   reason: string;
+  priceRange: string;
   timeline: string;
   discovery: string;
   message: string;
@@ -38,6 +40,7 @@ export const buildContactMailto = (details: ContactDetails, source: string) => {
     `Reply email: ${details.replyEmail}`,
     `Project: ${details.project}`,
     `Reason: ${details.reason}`,
+    `Price range: ${details.priceRange}`,
     `Timeline: ${details.timeline}`,
     `Found Expected End through: ${details.discovery}`,
     "",
@@ -66,6 +69,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         replyEmail: readField(formData, "replyEmail"),
         project: readField(formData, "project"),
         reason: readField(formData, "reason"),
+        priceRange: readField(formData, "priceRange"),
         timeline: readField(formData, "timeline"),
         discovery: readField(formData, "discovery"),
         message: readField(formData, "message"),
@@ -103,10 +107,9 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
           <span>What is this about?</span>
           <select name="reason" defaultValue={initialReason} required>
             <option value="" disabled>Choose one</option>
-            <option>Building an app or software idea</option>
-            <option>Website or digital experience</option>
-            <option>AI system or productivity tool</option>
-            <option>Creative direction or design</option>
+            {SERVICES.map(([, , , contactReason]) => (
+              <option key={contactReason}>{contactReason}</option>
+            ))}
             <option>Partnership or collaboration</option>
             <option>Press or media</option>
             <option>General question</option>
@@ -121,6 +124,18 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
             <option>MyBibleLens</option>
             <option>The Water Check</option>
             <option>A new idea</option>
+          </select>
+        </label>
+
+        <label className={styles.contactField}>
+          <span>Price range</span>
+          <select name="priceRange" defaultValue="" required>
+            <option value="" disabled>Choose one</option>
+            <option>$100-$1,000</option>
+            <option>$1,000-$2,000</option>
+            <option>$2,000-$10,000</option>
+            <option>$10,000-$50,000</option>
+            <option>$50,000-$500,000+</option>
           </select>
         </label>
 

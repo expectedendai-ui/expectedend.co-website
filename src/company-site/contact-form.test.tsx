@@ -23,15 +23,30 @@ describe("Expected End contact composer", () => {
     await user.type(screen.getByLabelText("Your email"), "visitor@example.com");
     await user.selectOptions(screen.getByLabelText("What is this about?"), "Building an app or software idea");
     await user.selectOptions(screen.getByLabelText("Which project?"), "Expected End");
+    const priceRange = screen.getByLabelText("Price range");
+    expect(priceRange).toBeRequired();
+    expect(screen.getAllByRole("option", { name: /\$/ }).map((option) => option.textContent)).toEqual([
+      "$100-$1,000",
+      "$1,000-$2,000",
+      "$2,000-$10,000",
+      "$10,000-$50,000",
+      "$50,000-$500,000+",
+    ]);
+    await user.selectOptions(priceRange, "$2,000-$10,000");
     await user.selectOptions(screen.getByLabelText("Ideal timeline"), "Within three months");
     await user.selectOptions(screen.getByLabelText("How did you find us?"), "Instagram");
+    const message = screen.getByLabelText("Tell us what you have in mind");
+    await user.clear(message);
+    await user.type(message, "I need a client portal. An NDA may be needed.");
     await user.click(screen.getByRole("button", { name: /Prepare email/ }));
 
     const preparedEmail = decodeURIComponent(preparedHref);
     expect(preparedEmail).toContain("mailto:info@expectedend.co");
     expect(preparedEmail).toContain("Expected End inquiry — Building an app or software idea");
     expect(preparedEmail).toContain("Reply email: visitor@example.com");
+    expect(preparedEmail).toContain("Price range: $2,000-$10,000");
     expect(preparedEmail).toContain("Found Expected End through: Instagram");
+    expect(preparedEmail).toContain("I need a client portal. An NDA may be needed.");
     expect(preparedEmail).toContain("utm_source=instagram");
     expect(preparedEmail).not.toContain("do-not-forward");
   });

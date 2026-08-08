@@ -5,23 +5,22 @@ import styles from "./style.module.css";
 type ContactDialogProps = {
   initialReason: string;
   onClose: () => void;
+  returnFocusTo: HTMLElement;
 };
 
-export function ContactDialog({ initialReason, onClose }: ContactDialogProps) {
+export function ContactDialog({ initialReason, onClose, returnFocusTo }: ContactDialogProps) {
   const dialogRef = React.useRef<HTMLDialogElement>(null);
   const closeRef = React.useRef<HTMLButtonElement>(null);
-  const openerRef = React.useRef<HTMLElement | null>(null);
 
   React.useEffect(() => {
-    openerRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     const dialog = dialogRef.current;
     if (!dialog) return;
     if (typeof dialog.showModal === "function") dialog.showModal();
     else dialog.setAttribute("open", "");
     closeRef.current?.focus();
 
-    return () => openerRef.current?.focus();
-  }, []);
+    return () => returnFocusTo.focus();
+  }, [returnFocusTo]);
 
   return (
     <dialog
