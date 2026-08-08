@@ -16,7 +16,7 @@ describe("Water Check Coming Soon page", () => {
       /explores possible patterns.*not body composition or a diagnosis/i
     );
     expect(within(hero).getByText("Coming Soon")).toBeInTheDocument();
-    expect(within(hero).getByText("For adults 18+")).toBeInTheDocument();
+    expect(within(hero).queryByText("For adults 18+")).not.toBeInTheDocument();
 
     expect(screen.queryByRole("button", { name: /app store/i })).not.toBeInTheDocument();
     expect(screen.queryByRole("button", { name: /google play/i })).not.toBeInTheDocument();

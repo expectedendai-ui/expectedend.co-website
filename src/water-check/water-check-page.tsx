@@ -287,7 +287,6 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps) {
             <h1 className={styles.srOnly}>The Water Check</h1>
             <div className={styles.badges}>
               <span className={styles.comingSoon}>Coming Soon</span>
-              <span className={styles.age}>For adults 18+</span>
             </div>
             <p className={styles.eyebrow}>A future drink + bloat journal</p>
             <h2 className={styles.heroTitle}>You’re not fat, just bloated.</h2>

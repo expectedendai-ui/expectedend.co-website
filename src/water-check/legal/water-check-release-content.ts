@@ -43,7 +43,7 @@ export const WATER_CHECK_RELEASE_RECORD: WaterCheckReleaseRecord = {
     },
     approvedBy: "Denzel Rigaud",
     approvedAt: "2026-08-08",
-    governedContentDigest: "sha256:da81b85cfbd03c0acba1dcb7ed2d71d95758e51d245cbe93d8ad6f8ca9824577",
+    governedContentDigest: "sha256:d9dc2729e2fb555c82828d8a2bc6dd17db0dfff838a3a092e17e2c5e232eec39",
   },
   deploymentInventoryApproval: {
     approvedBy: "Denzel Rigaud",

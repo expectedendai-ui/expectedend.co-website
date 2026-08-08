@@ -111,8 +111,7 @@
   margin-bottom: 1.55rem;
 }
 
-.comingSoon,
-.age {
+.comingSoon {
   display: inline-flex;
   min-height: 1.9rem;
   align-items: center;
@@ -128,12 +127,6 @@
   color: #153e60;
   background: var(--sky);
   box-shadow: 0 10px 32px rgba(52, 131, 189, 0.2);
-}
-
-.age {
-  border: 1px solid rgba(16, 44, 73, 0.16);
-  color: #36556d;
-  background: rgba(255, 255, 255, 0.38);
 }
 
 .page .eyebrow,
