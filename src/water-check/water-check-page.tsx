@@ -331,28 +331,6 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps) {
             <time dateTime="2026-08">Aug 2026</time>
             <h2 id="founder-story-title">What we’re building, and why</h2>
             <p className={styles.founderByline}>Denzel Rigaud, Founder of Expected End</p>
-            <nav className={styles.founderSocials} aria-label="Denzel Rigaud social profiles">
-              <a
-                aria-label="Denzel Rigaud on LinkedIn"
-                className={styles.founderSocialLink}
-                href="https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className={styles.founderSocialIcon} src="/linkedin-icon.webp" alt="" width="28" height="28" />
-                <span>LinkedIn</span>
-              </a>
-              <a
-                aria-label="Denzel Rigaud on Instagram"
-                className={styles.founderSocialLink}
-                href="https://www.instagram.com/smiledenzel/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className={styles.founderSocialIcon} src="/instagram-logo.webp" alt="" width="28" height="28" />
-                <span>Instagram</span>
-              </a>
-            </nav>
           </div>
 
           <div className={styles.founderStoryBody}>
@@ -388,6 +366,27 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps) {
               you blame your body.
             </p>
           </div>
+
+          <nav className={styles.founderSocials} aria-label="Denzel Rigaud social profiles">
+            <a
+              aria-label="Denzel Rigaud on LinkedIn"
+              className={styles.founderSocialLink}
+              href="https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className={styles.founderSocialIcon} src="/linkedin-icon.webp" alt="" width="28" height="28" />
+            </a>
+            <a
+              aria-label="Denzel Rigaud on Instagram"
+              className={styles.founderSocialLink}
+              href="https://www.instagram.com/smiledenzel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className={styles.founderSocialIcon} src="/instagram-logo.webp" alt="" width="28" height="28" />
+            </a>
+          </nav>
         </section>
 
         <section className={styles.personalizationSection} aria-labelledby="personalization-title">

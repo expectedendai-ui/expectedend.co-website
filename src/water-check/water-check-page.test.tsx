@@ -94,6 +94,8 @@ describe("Water Check Coming Soon page", () => {
     ).toBeInTheDocument();
     const linkedIn = within(founderStory).getByRole("link", { name: "Denzel Rigaud on LinkedIn" });
     const instagram = within(founderStory).getByRole("link", { name: "Denzel Rigaud on Instagram" });
+    const founderSocials = within(founderStory).getByRole("navigation", { name: "Denzel Rigaud social profiles" });
+    const founderClosing = within(founderStory).getByText(/you deserve information before you blame your body/i);
     expect(linkedIn).toHaveAttribute("href", "https://www.linkedin.com/in/denzel-rigaud-2b0200210/");
     expect(instagram).toHaveAttribute("href", "https://www.instagram.com/smiledenzel/");
     expect(linkedIn.querySelector("img")).toHaveAttribute("src", "/linkedin-icon.webp");
@@ -103,6 +105,9 @@ describe("Water Check Coming Soon page", () => {
       expect(social).toHaveAttribute("rel", expect.stringMatching(/noopener/));
       expect(social).toHaveAttribute("rel", expect.stringMatching(/noreferrer/));
     }
+    expect(founderClosing.compareDocumentPosition(founderSocials)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
+    expect(within(founderSocials).queryByText("LinkedIn")).not.toBeInTheDocument();
+    expect(within(founderSocials).queryByText("Instagram")).not.toBeInTheDocument();
     expect(
       within(personalization).getByText(
         "We are designing the future app so you can decide which context belongs in your journal. Personalization should help the record fit your life without turning a sensitive detail into a label."
