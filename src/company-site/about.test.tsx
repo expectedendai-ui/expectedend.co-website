@@ -82,6 +82,22 @@ describe("Expected End About page", () => {
     expect(screen.getByRole("link", { name: "Two" })).toHaveAttribute("href", "https://unicourt.com/case/fl-pal-rigaud-denzel-v-hall-aaron-914059");
     expect(screen.getByRole("link", { name: "father" })).toHaveAttribute("href", "https://www.google.com/search?q=clifford+rigaud");
     expect(screen.getByRole("link", { name: "chivalry" })).toHaveAttribute("href", "https://www.youtube.com/watch?v=SHVKb2j6rfc&list=RDSHVKb2j6rfc&start_radio=1");
+    const bloomTaxonomy = screen.getByRole("link", { name: "Bloom’s Taxonomy" });
+    const eriksonStages = screen.getByRole("link", { name: "Erikson stages of life" });
+    expect(bloomTaxonomy).toHaveAttribute(
+      "href",
+      "https://www.google.com/search?q=Bloom%E2%80%99s+Taxonomy&rlz=1C5CHFA_enUS943US944&oq=Bloom%E2%80%99s+Taxonomy&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiRAhiABBiKBTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzYxM2owajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8#sv=CAMSVhozKhFpYy1HNmY1Y0hkMnBHTXd3TTIORzZmNWNIZDJwR013d006DlJma0VGQmdwZUNVZzRNIAQqGwoEc3ZpbRIRaWMtRzZmNWNIZDJwR013d00YATABGAcgs57hCA"
+    );
+    expect(eriksonStages).toHaveAttribute(
+      "href",
+      "https://www.google.com/search?sca_esv=d99a864848ea4cca&rlz=1C5CHFA_enUS943US944&sxsrf=APpeQnunCsq8WpbDElkjRbmEZUbf8b9yuw:1786282564310&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYSIu8Q64jU5EwQ-803VaKbd8XGNh2EAGT96nVa30badWZdQJOrgSsOpll5rxyNcIceuSHrD98r42QCy2VpGaYtAW8zKT6mHypPIWJGeeRm7tzF71PjUOVFXsXUiM6lom55kLPulHeTkVQO3xs0VJ3Z6hOEzmQ&q=Erikson+stages+of+life&sa=X&ved=2ahUKEwjy6dqN1ZOWAxUiSzABHXMiOC8QtKgLegQIGRAB&biw=859&bih=872&dpr=2"
+    );
+    for (const referenceLink of [bloomTaxonomy, eriksonStages]) {
+      expect(referenceLink).toHaveAttribute("target", "_blank");
+      expect(referenceLink).toHaveAttribute("rel", expect.stringMatching(/noopener/));
+      expect(referenceLink).toHaveAttribute("rel", expect.stringMatching(/noreferrer/));
+      expect(referenceLink.closest("strong")).toHaveTextContent(referenceLink.textContent ?? "");
+    }
     expect(screen.getByText(/Finding God led me to learn more about myself/i)).toBeInTheDocument();
     expect(screen.getByText(/The Water Check belongs to that mission/i)).toBeInTheDocument();
     expect(screen.getByText(/helps you become the most capable version of that person/i)).toBeInTheDocument();
