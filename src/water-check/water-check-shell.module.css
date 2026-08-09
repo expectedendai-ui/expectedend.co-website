@@ -1,4 +1,6 @@
 .shell {
+  --water-font-display: "Instrument Serif", Georgia, serif;
+  --water-font-body: "DM Sans", system-ui, sans-serif;
   position: relative;
   z-index: 100;
   display: grid;
@@ -10,7 +12,7 @@
     radial-gradient(circle at 12% 18%, rgba(91, 203, 228, 0.28), transparent 26rem),
     radial-gradient(circle at 88% 8%, rgba(99, 139, 219, 0.18), transparent 30rem),
     linear-gradient(165deg, #f7fdff, #dff5f7 58%, #cbe9ef);
-  font-family: "DM Sans", system-ui, sans-serif;
+  font-family: var(--water-font-body);
   transition: opacity 400ms ease;
 }
 
@@ -52,7 +54,7 @@
 }
 
 .productMark {
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(1.45rem, 3vw, 2rem);
   letter-spacing: -0.025em;
 }
