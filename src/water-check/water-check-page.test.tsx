@@ -70,15 +70,21 @@ describe("Water Check Coming Soon page", () => {
     }
   });
 
-  it("places Denzel's governed founder story before the product walkthrough", () => {
+  it("places Denzel's governed founder story and future personalization context before the product walkthrough", () => {
     const { container } = render(<WaterCheckPage onNavigate={vi.fn()} />);
     const founderStory = screen.getByRole("region", { name: "What we’re building, and why" });
+    const personalization = screen.getByRole("region", { name: "How will it be special to you?" });
     const walkthroughKicker = screen.getByText("One drink. One check-in. More context.");
     const founderText = founderStory.textContent ?? "";
+    const personalizationText = personalization.textContent ?? "";
 
     expect(within(founderStory).getByText("Aug 2026")).toBeInTheDocument();
     expect(within(founderStory).getByText("Denzel Rigaud, Founder of Expected End")).toBeInTheDocument();
-    expect(within(founderStory).getByText(/household with 4 women.+my mom, her wife, and my 2 sisters/i)).toBeInTheDocument();
+    expect(
+      within(founderStory).getByText(
+        "I grew up around women I love and heard how quickly feeling different could turn into harsh judgment about their bodies. I wanted to create a gentler pause: a way to notice what changed, keep the day in context, and ask better questions before blaming your body. Bloating can have many causes, and lasting or concerning symptoms deserve a conversation with a qualified healthcare professional."
+      )
+    ).toBeInTheDocument();
     expect(within(founderStory).getByText(/carried The Water Check with me for 6 years/i)).toBeInTheDocument();
     expect(within(founderStory).getByText(/hydration needs vary with the person/i)).toBeInTheDocument();
     expect(
@@ -95,10 +101,37 @@ describe("Water Check Coming Soon page", () => {
       expect(social).toHaveAttribute("rel", expect.stringMatching(/noopener/));
       expect(social).toHaveAttribute("rel", expect.stringMatching(/noreferrer/));
     }
+    expect(
+      within(personalization).getByText(
+        "We are designing the future app so you can decide which context belongs in your journal. Personalization should help the record fit your life without turning a sensitive detail into a label."
+      )
+    ).toBeInTheDocument();
+    const personalizationItems = within(personalization).getAllByRole("listitem");
+    expect(personalizationItems).toHaveLength(5);
+    expect(personalizationItems.map((item) => item.querySelector("strong")?.textContent)).toEqual([
+      "Context you choose.",
+      "Your own patterns.",
+      "Cycle context, if it applies to you.",
+      "Your choice comes first.",
+      "Inclusive evaluation.",
+    ]);
+    expect(personalizationItems[2]).toHaveTextContent(
+      "Optional cycle check-ins could sit beside drink and bloating notes to help you notice possible patterns over time. They will not set universal phase targets or explain a symptom."
+    );
+    expect(personalizationItems[3]).toHaveTextContent("The current Water Check page has no health or demographic fields.");
+    expect(personalizationItems[4]).toHaveTextContent(
+      "adults across age groups, cultures, skin tones, body types, and life stages"
+    );
+    expect(personalizationItems[4]).toHaveTextContent(
+      "Ethnicity and racial identity will not become hydration profile fields or biological shortcuts."
+    );
     expect(founderStory.compareDocumentPosition(walkthroughKicker)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
+    expect(founderStory.compareDocumentPosition(personalization)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
+    expect(personalization.compareDocumentPosition(walkthroughKicker)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
     expect(founderStory.querySelector("time")).toHaveAttribute("datetime", "2026-08");
     expect(founderText).not.toMatch(/water (?:flushes|flushed).*vitamin/i);
     expect(founderText).not.toMatch(/everyone (?:needs|should drink) (?:a )?gallon/i);
+    expect(personalizationText).not.toMatch(/(?:enter|provide|submit|select) (?:your )?(?:ethnicity|race|cycle|menstrual)/i);
     expect(container.querySelector("form, input, select, textarea")).not.toBeInTheDocument();
   });
 });

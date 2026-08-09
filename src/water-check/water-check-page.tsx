@@ -360,10 +360,10 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps) {
 
           <div className={styles.founderStoryBody}>
             <p>
-              I grew up hearing women I care about look at themselves and say, “I’m fat.” I grew up in a household with 4 women:
-              my mom, her wife, and my 2 sisters, so I heard that judgment up close. I wanted to slow that judgment down: could it
-              be bloating, and could we give the body some grace before deciding what it means? Bloating is not the answer every
-              time, and lasting or concerning symptoms deserve a conversation with a qualified healthcare professional.
+              I grew up around women I love and heard how quickly feeling different could turn into harsh judgment about their
+              bodies. I wanted to create a gentler pause: a way to notice what changed, keep the day in context, and ask better
+              questions before blaming your body. Bloating can have many causes, and lasting or concerning symptoms deserve a
+              conversation with a qualified healthcare professional.
             </p>
             <p>
               I watched people skip meals or restrict themselves because they did not know why their body felt different that day.
@@ -391,6 +391,38 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps) {
               you blame your body.
             </p>
           </div>
+        </section>
+
+        <section className={styles.personalizationSection} aria-labelledby="personalization-title">
+          <h2 id="personalization-title">How will it be special to you?</h2>
+          <p className={styles.personalizationIntro}>
+            We are designing the future app so you can decide which context belongs in your journal. Personalization should help
+            the record fit your life without turning a sensitive detail into a label.
+          </p>
+          <ol className={styles.personalizationList}>
+            <li>
+              <strong>Context you choose.</strong> The future app is being designed to let activity, climate, routine, and life
+              stage sit beside your journal when you decide that context is useful.
+            </li>
+            <li>
+              <strong>Your own patterns.</strong> Look back at your entries instead of measuring yourself against another
+              person&apos;s hydration target.
+            </li>
+            <li>
+              <strong>Cycle context, if it applies to you.</strong> Optional cycle check-ins could sit beside drink and bloating
+              notes to help you notice possible patterns over time. They will not set universal phase targets or explain a
+              symptom.
+            </li>
+            <li>
+              <strong>Your choice comes first.</strong> We plan to keep sensitive context optional and explain why it is useful
+              before asking for it. The current Water Check page has no health or demographic fields.
+            </li>
+            <li>
+              <strong>Inclusive evaluation.</strong> We plan to test with adults across age groups, cultures, skin tones, body
+              types, and life stages. Ethnicity and racial identity will not become hydration profile fields or biological
+              shortcuts.
+            </li>
+          </ol>
         </section>
 
         <section className={styles.storySection} aria-labelledby="story-title">

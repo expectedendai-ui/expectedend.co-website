@@ -474,6 +474,67 @@
   line-height: 1.4;
 }
 
+.personalizationSection {
+  width: min(42rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(4.5rem, 9vw, 8rem) 0;
+  border-bottom: 1px solid rgba(30, 102, 146, 0.16);
+}
+
+.personalizationSection h2 {
+  margin: 0;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(3rem, 5.4vw, 5.4rem);
+  font-weight: 400;
+  letter-spacing: -0.052em;
+  line-height: 0.94;
+  text-wrap: balance;
+}
+
+.page .personalizationIntro {
+  max-width: none;
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.25vw, 1.1rem);
+  line-height: 1.78;
+}
+
+.personalizationList {
+  margin: clamp(2.5rem, 6vw, 4rem) 0 0;
+  padding: 0;
+  border-top: 1px solid rgba(30, 102, 146, 0.16);
+  counter-reset: personalization-item;
+  list-style: none;
+}
+
+.personalizationList li {
+  position: relative;
+  padding: 1.6rem 0 1.6rem 3.2rem;
+  border-bottom: 1px solid rgba(30, 102, 146, 0.16);
+  color: var(--muted);
+  counter-increment: personalization-item;
+  font-size: clamp(0.96rem, 1.15vw, 1.05rem);
+  line-height: 1.72;
+}
+
+.personalizationList li::before {
+  position: absolute;
+  top: 1.75rem;
+  left: 0;
+  color: #2d83b5;
+  content: counter(personalization-item, decimal-leading-zero);
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.personalizationList strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--ink);
+  font-size: 1.05em;
+}
+
 .storySection,
 .featuresSection,
 .faqSection,
@@ -1496,10 +1557,15 @@
 
   .storySection,
   .founderStory,
+  .personalizationSection,
   .featuresSection,
   .faqSection,
   .finalSection {
     width: 100%;
+  }
+
+  .personalizationSection {
+    padding-inline: 1rem;
   }
 
   .journalStage {
@@ -1576,9 +1642,18 @@
 
   .storySection,
   .founderStory,
+  .personalizationSection,
   .featuresSection,
   .faqSection {
     padding-block: 4.5rem;
+  }
+
+  .personalizationSection h2 {
+    font-size: clamp(3rem, 15vw, 4rem);
+  }
+
+  .personalizationList li {
+    padding-left: 2.75rem;
   }
 
   .sectionIntro h2,
