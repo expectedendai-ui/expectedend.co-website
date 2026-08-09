@@ -65,9 +65,8 @@ export function AboutPage() {
               <div className={styles.founderIntro}>
                 <p className={styles.kicker}>Founder story</p>
                 <h2>Hi, my name is Denzel Rigaud.</h2>
-                <p className={styles.founderLead}>I am a jack of all trades. I take an idea, learn what it needs, and stay with it until people can use it.</p>
-                <p>Technology has been part of my life since fifth grade. School had frustrated me from an early age. I failed second grade while facing a language barrier, and I did not believe that failure should define me. I became curious about the systems around me and started testing how they worked.</p>
-                <p>That curiosity carried me into coding, automation, machine learning, online communities, digital growth, and the underground side of the internet. I learned how much technology could do. Some choices also taught me to use better judgment.</p>
+                <p>Technology has been part of my life since fifth grade. School had frustrated me from an early age. I failed second grade while facing a language barrier, and I did not believe that failure should define me. I decided to start by hacking my grades. It began small, but when I realized how far I could penetrate systems and jailbreak technology, I became curious about the systems around me and started having fun.</p>
+                <p>That curiosity carried me into Instagram bot farming, coding, automation, machine learning, online communities, digital growth, and the darkest corners of the internet. I learned how powerful technology could be. Some choices also taught me to use better judgment.</p>
               </div>
 
               <section className={styles.storyChapter} aria-labelledby="family-title">
@@ -76,8 +75,8 @@ export function AboutPage() {
                   <h3 id="family-title">My first web wizard.</h3>
                 </div>
                 <div className={styles.storyCopy}>
-                  <p>My father and brother were the smartest people I knew. They taught me to understand what technology could become before I had the words to explain it. My father was a web wizard, and I believed there was nothing he could not figure out.</p>
-                  <p>In 2021, I moved to Florida and got to live with my father for the first time. Six months later, he died. I closed the door on technology because every skill reminded me of him.</p>
+                  <p>My father and <a href="https://www.linkedin.com/in/kareem-rigaud-2b61b97a" target="_blank" rel="noopener noreferrer">brother</a> were the smartest people I knew, but I rarely saw them. We had a phone-call relationship. Every second I got to speak with them, they taught me something I needed to know. In time, I learned that I still had to decide what was right for me. My father was a web wizard, and I felt unstoppable on the internet. My brother works for the NSA.</p>
+                  <p>In 2021, I moved to Florida after 17 years of living with my two mothers and two sisters. I survived, haha. Then I got to live with my father for the first time. Six months later, he died, so I closed the door on technology because every skill reminded me of him.</p>
                   <p>My father had been Muslim for much of his life. I followed Islam in part because I wanted to be like him. Before he died, he gave his life to Christ. His decision stayed with me long after I put my own tools away.</p>
                 </div>
               </section>
@@ -88,8 +87,8 @@ export function AboutPage() {
                   <h3 id="return-title">I opened the door again.</h3>
                 </div>
                 <div className={styles.storyCopy}>
-                  <p>I spent years avoiding the part of myself that reminded me of my father. I still touched technology from time to time, but grief made it hard to stay. I tried to fill that loss in ways that pulled me farther from the person I wanted to become.</p>
-                  <p>In January 2026, I knew I needed to change. On February 25, 2026, I gave my life to Christ.</p>
+                  <p>I spent years avoiding the part of myself that reminded me of my father. I still touched technology from time to time, but grief made it hard to stay. I filled that empty space with the sin of lust and moved farther from the person I could have become.</p>
+                  <p>In January 2026, I knew I needed to change. On February 25, 2026, I gave my life to Christ, and I’ve been up ever since. WOOAH.</p>
                   <p>MyBibleLens came from that decision. I did not have a complete plan. I began building and kept moving. The work let me open the door I had closed after my father died. I brought back The Water Check and started picking up dreams I had carried since childhood.</p>
                 </div>
               </section>
