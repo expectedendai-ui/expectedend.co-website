@@ -2,15 +2,22 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { getWaterCheckRenderedReleaseFacts } from "../water-check/legal/water-check-release-content";
-import { validateWaterCheckRelease, WATER_CHECK_RELEASE_EVIDENCE } from "../water-check/legal/water-check-release-evidence";
+import {
+  createWaterCheckGovernedDigest,
+  validateWaterCheckRelease,
+  WATER_CHECK_RELEASE_EVIDENCE,
+} from "../water-check/legal/water-check-release-evidence";
 import { CONTACT_HREF, PUBLIC_CONTENT_APPROVED } from "./content";
 import { getRouteMetadata } from "./routes";
 
 const WATER_CHECK_GOVERNED_SOURCE_PATHS = [
   "src/water-check/water-check-page.tsx",
+  "src/water-check/water-check-page.module.css",
   "src/water-check/water-check-shell.tsx",
+  "src/water-check/water-check-shell.module.css",
   "src/water-check/legal/water-check-legal-content.ts",
   "src/water-check/legal/water-check-legal-page.tsx",
+  "src/water-check/legal/water-check-legal-page.module.css",
   "docs/legal/water-check-deployment-data-inventory.md",
 ] as const;
 
@@ -118,6 +125,26 @@ describe("public-content deployment guard", () => {
     expect(runbook).toMatch(/rollback/i);
     expect(runbook).toMatch(/quarterly/i);
     expect(runbook).toMatch(/cannot make public content secret/i);
+  });
+
+  it("binds Water Check presentation stylesheets to the governed digest", () => {
+    const presentationStylesheets = [
+      "src/water-check/water-check-page.module.css",
+      "src/water-check/water-check-shell.module.css",
+      "src/water-check/legal/water-check-legal-page.module.css",
+    ] as const;
+    const governedSources = readWaterCheckGovernedSources();
+    const governedDigest = createWaterCheckGovernedDigest(governedSources);
+
+    expect(WATER_CHECK_GOVERNED_SOURCE_PATHS).toEqual(expect.arrayContaining([...presentationStylesheets]));
+
+    for (const path of presentationStylesheets) {
+      const sourceIndex = WATER_CHECK_GOVERNED_SOURCE_PATHS.indexOf(path);
+      const changedSources = governedSources.map((source, index) =>
+        index === sourceIndex ? `${source}\n/* synthetic change */` : source
+      );
+      expect(createWaterCheckGovernedDigest(changedSources)).not.toBe(governedDigest);
+    }
   });
 });
 

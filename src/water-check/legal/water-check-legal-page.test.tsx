@@ -96,7 +96,7 @@ describe("Water Check legal pages", () => {
     const article = screen.getByRole("article", { name: heading });
     expect(within(article).getByRole("heading", { level: 1, name: heading })).toBeInTheDocument();
     expect(within(article).getByText(/entity: expected end llc/i)).toBeInTheDocument();
-    expect(within(article).getByText(/effective date: 2026-08-08/i)).toBeInTheDocument();
+    expect(within(article).getByText(/effective date: 2026-08-09/i)).toBeInTheDocument();
     expect(within(article).getByRole("link", { name: "/about#contact" })).toHaveAttribute("href", "/about#contact");
     expect(within(article).queryByText(/product-specific information will be published here/i)).not.toBeInTheDocument();
     expect(within(article).getByRole("link", { name: /return to the water check/i })).toHaveAttribute("href", "/thewatercheck");
@@ -112,33 +112,42 @@ describe("Water Check legal pages", () => {
     expect(window.location.pathname).toBe("/thewatercheck");
   });
 
-  it("states the current no-submission contract without claiming zero operational processing", () => {
-    render(<WaterCheckLegalPage content={WATER_CHECK_LEGAL_CONTENT.privacy} onNavigate={vi.fn()} />);
-    const article = screen.getByRole("article", { name: "Privacy" });
+  it.each([
+    ["Privacy", WATER_CHECK_LEGAL_CONTENT.privacy],
+    ["Consumer Health Data", WATER_CHECK_LEGAL_CONTENT["consumer-health-data"]],
+  ])("states the Water Check intake and general Contact boundary on %s", (title, content) => {
+    render(<WaterCheckLegalPage content={content} onNavigate={vi.fn()} />);
+    const article = screen.getByRole("article", { name: title });
 
     expect(article).toHaveTextContent(/current coming soon website/i);
-    expect(article).toHaveTextContent(/does not provide a way to submit health information/i);
+    expect(article).toHaveTextContent(/no dedicated (?:water check )?health or demographic intake/i);
     expect(article).toHaveTextContent(
-      /product scans, ai conversations, email addresses, accounts, age, gender, ethnicity, or racial identity/i
+      /does not ask for age, gender, ethnicity, racial identity, menstrual-cycle information, or similar sensitive context/i
     );
-    expect(article).toHaveTextContent(/18\+.*eligibility.*not.*collect/i);
-    expect(article).toHaveTextContent(/cloudflare pages hosts and delivers this website/i);
+    expect(article).toHaveTextContent(/general contact experience.*prepared email.*visitor(?:'|’)s email app/i);
+    expect(article).toHaveTextContent(/visitor-entered free text/i);
+    expect(article).toHaveTextContent(/do not include health or other sensitive context/i);
+    expect(article).toHaveTextContent(/cloudflare pages.*(?:hosts|operational)/i);
     expect(article).toHaveTextContent(/ip address.*requested host and path.*security or network signals/i);
-    expect(article).toHaveTextContent(/no server-side water check function.*application database.*health journal/i);
-    expect(article).toHaveTextContent(/does not set a cookie or write to local storage or session storage/i);
-    expect(article).not.toHaveTextContent(/collect(?:s|ed)? no (?:personal|technical|operational) (?:data|information)/i);
+    expect(article).not.toHaveTextContent(/does not provide a way to submit/i);
+    expect(article).not.toHaveTextContent(/collect(?:s|ed)? (?:nothing|no (?:personal|technical|operational)? ?data)/i);
     expect(article.querySelector("form, input, select, textarea")).not.toBeInTheDocument();
   });
 
-  it("keeps future app intentions conditional and avoids unsupported current rights or vendors", () => {
+  it("keeps future sensitive context conditional, optional, purpose-specific, and reviewed", () => {
     const allLegalCopy = JSON.stringify(WATER_CHECK_LEGAL_CONTENT);
+    const privacy = JSON.stringify(WATER_CHECK_LEGAL_CONTENT.privacy);
+    const consumerHealth = JSON.stringify(WATER_CHECK_LEGAL_CONTENT["consumer-health-data"]);
 
     expect(allLegalCopy).toMatch(/future app/i);
     expect(allLegalCopy).toMatch(/planned/i);
     expect(allLegalCopy).toMatch(/new notice/i);
-    expect(allLegalCopy).toMatch(/optional.*purpose-specific/i);
-    expect(allLegalCopy).toMatch(/prefer not to say/i);
-    expect(allLegalCopy).toMatch(/privacy and equity review/i);
+    expect(privacy).toMatch(/ethnicity and racial identity.*not planned hydration profile fields.*biological proxies/i);
+    expect(privacy).toMatch(/age-range, gender-related, or life-stage field.*defined feature/i);
+    expect(privacy).toMatch(/optional.*explain.*purpose.*prefer not to say.*privacy and equity review/i);
+    expect(consumerHealth).toMatch(/age, life-stage, or cycle context.*optional.*purpose-specific/i);
+    expect(consumerHealth).toMatch(/privacy, security, health-claims, and equity review/i);
+    expect(consumerHealth).toMatch(/gender will not be used to infer.*menstruates or tracks a cycle/i);
     expect(allLegalCopy).not.toMatch(/cal ai|flo health/i);
     expect(allLegalCopy).not.toMatch(/you (?:may|can) (?:delete|export|download) your data/i);
     expect(allLegalCopy).not.toMatch(/retained? for \d+ (?:days?|months?|years?)/i);
@@ -158,7 +167,7 @@ describe("Water Check legal pages", () => {
     expect(disclaimer).toMatch(/does not diagnose, treat, or prevent/i);
     expect(disclaimer).toMatch(/definitive cause/i);
     expect(consumerHealth).toMatch(/current coming soon website/i);
-    expect(consumerHealth).toMatch(/does not provide a way to submit consumer health data/i);
+    expect(consumerHealth).toMatch(/no dedicated (?:water check )?health or demographic intake/i);
     expect(consumerHealth).toMatch(/does not assert that any particular consumer-health law applies/i);
   });
 
@@ -166,6 +175,16 @@ describe("Water Check legal pages", () => {
     const allLegalCopy = JSON.stringify(WATER_CHECK_LEGAL_CONTENT);
     expect(allLegalCopy).not.toMatch(/you(?:'|’)re not fat/i);
     expect(allLegalCopy).not.toMatch(/snap\. track\. debloat/i);
+  });
+
+  it("uses the proposed effective date in every literal Water Check legal date", () => {
+    const literalEffectiveDates = JSON.stringify(WATER_CHECK_LEGAL_CONTENT).match(/effective August \d{1,2}, \d{4}/g);
+
+    expect(literalEffectiveDates).toEqual([
+      "effective August 9, 2026",
+      "effective August 9, 2026",
+      "effective August 9, 2026",
+    ]);
   });
 });
 
@@ -187,7 +206,7 @@ describe("Water Check release evidence", () => {
     expect(WATER_CHECK_RELEASE_EVIDENCE.approvedContent?.facts).toEqual({
       entityName: "Expected End LLC",
       contactPath: "/about#contact",
-      effectiveDate: "2026-08-08",
+      effectiveDate: "2026-08-09",
     });
     expect(WATER_CHECK_RELEASE_EVIDENCE.approvedContent?.approvedBy).toBe("Denzel Rigaud");
     expect(WATER_CHECK_RELEASE_EVIDENCE.deploymentInventoryApproval?.approvedBy).toBe("Denzel Rigaud");

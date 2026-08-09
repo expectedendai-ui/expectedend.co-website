@@ -39,7 +39,7 @@ export const WATER_CHECK_RELEASE_RECORD: WaterCheckReleaseRecord = {
     facts: {
       entityName: "Expected End LLC",
       contactPath: "/about#contact",
-      effectiveDate: "2026-08-08",
+      effectiveDate: "2026-08-09",
     },
     approvedBy: "Denzel Rigaud",
     approvedAt: "2026-08-08",

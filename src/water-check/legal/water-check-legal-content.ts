@@ -24,7 +24,8 @@ export const WATER_CHECK_LEGAL_CONTENT = {
       {
         heading: "What this website asks you to provide",
         paragraphs: [
-          "The current Coming Soon website does not provide a way to submit health information, drink or product scans, AI conversations, email addresses, accounts, age, gender, ethnicity, or racial identity. It has no waitlist, account registration, health questionnaire, symptom entry, or demographic prompt.",
+          "The current Coming Soon website has no dedicated Water Check health or demographic intake. Water Check does not ask for age, gender, ethnicity, racial identity, menstrual-cycle information, or similar sensitive context. It has no waitlist, account registration, health questionnaire, symptom entry, or demographic prompt.",
+          "The linked general Contact experience is separate from Water Check. It opens a prepared email in the visitor’s email app and can carry visitor-entered free text. Do not include health or other sensitive context there.",
           "The planned product is for adults 18 and older. That 18+ statement is an eligibility rule only; this website does not collect an age or date of birth to enforce it.",
         ],
       },
@@ -52,13 +53,14 @@ export const WATER_CHECK_LEGAL_CONTENT = {
       {
         heading: "Future demographic information",
         paragraphs: [
-          "Demographic collection is outside this website release. If a later app proposes collecting gender, ethnicity, racial identity, age, or similar information, that collection must be optional, purpose-specific, include a “prefer not to say” choice, and complete privacy and equity review before launch.",
+          "Ethnicity and racial identity are not planned hydration profile fields or biological proxies. If a future app proposes an age-range, gender-related, or life-stage field for a defined feature, the field must be optional, explain its purpose, offer “prefer not to say,” and complete privacy and equity review before launch.",
+          "Any future age, life-stage, or cycle context must be optional and purpose-specific and complete privacy, security, health-claims, and equity review before implementation. Gender will not be used to infer whether someone menstruates or tracks a cycle.",
         ],
       },
       {
         heading: "Changes and contact",
         paragraphs: [
-          "Expected End LLC provides this notice effective August 8, 2026. Use the contact link above for questions about this website. This notice must be revised before the website or a future app begins a materially different information practice.",
+          "Expected End LLC provides this notice effective August 9, 2026. Use the contact link above for questions about this website. This notice must be revised before the website or a future app begins a materially different information practice.",
         ],
       },
     ],
@@ -107,7 +109,7 @@ export const WATER_CHECK_LEGAL_CONTENT = {
       {
         heading: "Changes and contact",
         paragraphs: [
-          "Expected End LLC provides these website terms effective August 8, 2026. Use the contact link above for questions. Material changes will be identified by a new effective date. These terms do not state a governing-law or venue provision.",
+          "Expected End LLC provides these website terms effective August 9, 2026. Use the contact link above for questions. Material changes will be identified by a new effective date. These terms do not state a governing-law or venue provision.",
         ],
       },
     ],
@@ -163,7 +165,8 @@ export const WATER_CHECK_LEGAL_CONTENT = {
       {
         heading: "Current website behavior",
         paragraphs: [
-          "The current Coming Soon website does not provide a way to submit consumer health data, bloat or symptom check-ins, drink or product scans, hydration or nutrient logs, AI conversations, demographic details, account information, or an email address.",
+          "The current Coming Soon website has no dedicated Water Check health or demographic intake. Water Check does not ask for age, gender, ethnicity, racial identity, menstrual-cycle information, or similar sensitive context.",
+          "The linked general Contact experience is separate from Water Check. It opens a prepared email in the visitor’s email app and can carry visitor-entered free text. Do not include health or other sensitive context there.",
           "The 18+ label describes who the planned experience is for. The website does not ask for age or identity information to verify eligibility.",
         ],
       },
@@ -182,9 +185,10 @@ export const WATER_CHECK_LEGAL_CONTENT = {
         ],
       },
       {
-        heading: "Demographic information is outside this release",
+        heading: "Future sensitive context",
         paragraphs: [
-          "This website does not collect gender, ethnicity, racial identity, age, or similar demographic information. If a later app proposes those fields, they must be optional, purpose-specific, offer “prefer not to say,” and complete privacy and equity review before launch.",
+          "Ethnicity and racial identity are not planned hydration profile fields or biological proxies. If a future app proposes an age-range, gender-related, or life-stage field for a defined feature, the field must be optional, explain its purpose, offer “prefer not to say,” and complete privacy and equity review before launch.",
+          "Any future age, life-stage, or cycle context must be optional and purpose-specific and receive privacy, security, health-claims, and equity review before implementation. Gender will not be used to infer whether someone menstruates or tracks a cycle.",
         ],
       },
       {
@@ -196,7 +200,7 @@ export const WATER_CHECK_LEGAL_CONTENT = {
       {
         heading: "Updates and contact",
         paragraphs: [
-          "Expected End LLC provides this notice effective August 8, 2026. Use the contact link above for questions. It must be updated before the future app handles consumer health data or when the website begins a materially different information practice.",
+          "Expected End LLC provides this notice effective August 9, 2026. Use the contact link above for questions. It must be updated before the future app handles consumer health data or when the website begins a materially different information practice.",
         ],
       },
     ],
