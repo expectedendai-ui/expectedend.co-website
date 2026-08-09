@@ -15,8 +15,9 @@ describe("Water Check Coming Soon page", () => {
     expect(within(hero).getByText(/bloating can have many causes/i)).toHaveTextContent(
       /explores possible patterns.*not body composition or a diagnosis/i
     );
-    expect(within(hero).getByText("Coming Soon")).toBeInTheDocument();
+    expect(within(hero).queryByText("Coming Soon")).not.toBeInTheDocument();
     expect(within(hero).queryByText("For adults 18+")).not.toBeInTheDocument();
+    expect(screen.getByText("Coming Soon · 18+")).toBeInTheDocument();
 
     expect(screen.queryByRole("button", { name: /app store/i })).not.toBeInTheDocument();
     expect(screen.queryByRole("button", { name: /google play/i })).not.toBeInTheDocument();
@@ -66,6 +67,7 @@ describe("Water Check Coming Soon page", () => {
       expect(instagram).toHaveAttribute("target", "_blank");
       expect(instagram).toHaveAttribute("rel", expect.stringMatching(/noopener/));
       expect(instagram).toHaveAttribute("rel", expect.stringMatching(/noreferrer/));
+      expect(within(instagram).getByText("Join our community to help you stay hydrated!")).toBeInTheDocument();
       expect(within(instagram).getByRole("img", { name: "Instagram" })).toHaveAttribute("src", "/instagram-logo.webp");
     }
   });
