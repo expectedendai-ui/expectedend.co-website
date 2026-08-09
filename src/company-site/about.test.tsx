@@ -68,6 +68,16 @@ describe("Expected End About page", () => {
     expect(storyToggle).toHaveAttribute("aria-expanded", "false");
     await user.click(storyToggle);
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();
+    expect(screen.queryByText(/I am a jack of all trades/i)).not.toBeInTheDocument();
+    expect(screen.getByText(/I decided to start by hacking my grades/i)).toBeInTheDocument();
+    expect(screen.getByText(/Instagram bot farming/i)).toBeInTheDocument();
+    const brother = screen.getByRole("link", { name: "brother" });
+    expect(brother).toHaveAttribute("href", "https://www.linkedin.com/in/kareem-rigaud-2b61b97a");
+    expect(brother).toHaveAttribute("target", "_blank");
+    expect(brother).toHaveAttribute("rel", expect.stringMatching(/noopener/));
+    expect(brother).toHaveAttribute("rel", expect.stringMatching(/noreferrer/));
+    expect(screen.getByText(/I filled that empty space with the sin of lust/i)).toBeInTheDocument();
+    expect(screen.getByText(/I’ve been up ever since\. WOOAH\./i)).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "“The Truth Behind the Code”" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Two" })).toHaveAttribute("href", "https://unicourt.com/case/fl-pal-rigaud-denzel-v-hall-aaron-914059");
     expect(screen.getByRole("link", { name: "father" })).toHaveAttribute("href", "https://www.google.com/search?q=clifford+rigaud");
