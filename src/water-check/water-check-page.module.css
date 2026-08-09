@@ -144,7 +144,7 @@
 .heroTitle {
   max-width: 49rem;
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(4.3rem, 8vw, 8.1rem);
   font-weight: 400;
   letter-spacing: -0.068em;
@@ -156,7 +156,7 @@
   max-width: none;
   margin: 1.6rem 0 0;
   color: #2d83b5;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(1.9rem, 3.6vw, 3.2rem);
   line-height: 1;
 }
@@ -378,7 +378,7 @@
 .founderStoryHeader h2 {
   max-width: 29rem;
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(3rem, 5.4vw, 5.4rem);
   font-weight: 400;
   letter-spacing: -0.052em;
@@ -462,14 +462,14 @@
   float: left;
   margin: 0.08em 0.12em 0 0;
   color: #287da9;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: 4.2rem;
   line-height: 0.78;
 }
 
 .page .founderStoryBody p:last-child {
   color: var(--ink);
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(1.35rem, 2.2vw, 1.85rem);
   line-height: 1.4;
 }
@@ -491,7 +491,7 @@
 .sectionIntro h2,
 .finalSection h2 {
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(3rem, 6.5vw, 6.2rem);
   font-weight: 400;
   letter-spacing: -0.052em;
@@ -643,7 +643,7 @@
 
 .timelineCard h3 {
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(1.35rem, 3vw, 2rem);
   font-weight: 400;
   letter-spacing: -0.02em;
@@ -1251,7 +1251,7 @@
 .featureCard h3 {
   max-width: 26rem;
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: clamp(2rem, 4vw, 3.25rem);
   font-weight: 400;
   letter-spacing: -0.035em;
@@ -1286,14 +1286,14 @@
   border: 1px solid rgba(255, 255, 255, 0.19);
   border-radius: 999px;
   color: var(--water-blue-bright);
-  font-family: Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: 1.15rem;
   font-style: italic;
 }
 
 .limitationBand h3 {
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--water-font-display);
   font-size: 1.8rem;
   font-weight: 400;
 }

@@ -59,6 +59,10 @@ html {
   overscroll-behavior: none;
 }
 
+html:has([data-site-theme="water-check"]) {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   padding: 0;

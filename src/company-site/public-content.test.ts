@@ -88,6 +88,20 @@ describe("public-content deployment guard", () => {
     expect(globalStyles).toContain('url("/fonts/instrument-serif-italic-latin.woff2") format("woff2")');
   });
 
+  it("gives Water Check a readable, route-scoped typography system", () => {
+    const globalStyles = readFileSync("src/index.css", "utf8");
+    const shellStyles = readFileSync("src/water-check/water-check-shell.module.css", "utf8");
+    const pageStyles = readFileSync("src/water-check/water-check-page.module.css", "utf8");
+    const legalStyles = readFileSync("src/water-check/legal/water-check-legal-page.module.css", "utf8");
+
+    expect(globalStyles).toMatch(/html:has\(\[data-site-theme="water-check"\]\)\s*{[^}]*font-size:\s*16px/);
+    expect(shellStyles).toContain('--water-font-display: "Instrument Serif", Georgia, serif;');
+    expect(shellStyles).toContain('--water-font-body: "DM Sans", system-ui, sans-serif;');
+    expect(shellStyles).toContain("font-family: var(--water-font-body);");
+    expect(pageStyles).toContain("font-family: var(--water-font-display);");
+    expect(legalStyles).toContain("font-family: var(--water-font-display);");
+  });
+
   it("keeps ordinary indexing open while disallowing the documented AI crawler inventory", () => {
     const indexHtml = readFileSync("index.html", "utf8");
     const robots = readFileSync("public/robots.txt", "utf8");
