@@ -15,6 +15,14 @@
 }
 
 @font-face {
+  font-family: "Water Check Inter";
+  src: url("/fonts/inter-medium-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Instrument Serif";
   src: url("/fonts/instrument-serif-latin.woff2") format("woff2");
   font-style: normal;

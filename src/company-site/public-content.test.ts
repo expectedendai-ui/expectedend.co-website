@@ -84,6 +84,7 @@ describe("public-content deployment guard", () => {
     expect(indexHtml).not.toMatch(/fonts\.(?:googleapis|gstatic)\.com/);
     expect(globalStyles).toContain('url("/fonts/dm-sans-latin.woff2") format("woff2")');
     expect(globalStyles).toContain('url("/fonts/hammersmith-one-latin.woff2") format("woff2")');
+    expect(globalStyles).toContain('url("/fonts/inter-medium-latin.woff2") format("woff2")');
     expect(globalStyles).toContain('url("/fonts/instrument-serif-latin.woff2") format("woff2")');
     expect(globalStyles).toContain('url("/fonts/instrument-serif-italic-latin.woff2") format("woff2")');
   });
