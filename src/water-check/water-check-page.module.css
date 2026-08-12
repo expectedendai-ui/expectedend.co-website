@@ -142,23 +142,26 @@
 }
 
 .heroTitle {
-  max-width: 49rem;
+  max-width: 10.8ch;
   margin: 0;
-  font-family: var(--water-font-display);
-  font-size: clamp(4.3rem, 8vw, 8.1rem);
-  font-weight: 400;
-  letter-spacing: -0.068em;
-  line-height: 0.78;
+  font-family: "Water Check Inter", system-ui, sans-serif;
+  font-size: clamp(4rem, 6.2vw, 6.2rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.92;
   text-wrap: balance;
 }
 
 .page .tagline {
-  max-width: none;
+  max-width: 100%;
   margin: 1.6rem 0 0;
   color: #2d83b5;
-  font-family: var(--water-font-display);
-  font-size: clamp(1.9rem, 3.6vw, 3.2rem);
-  line-height: 1;
+  font-family: "Water Check Inter", system-ui, sans-serif;
+  font-size: clamp(1.65rem, 2.5vw, 2.35rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+  text-wrap: balance;
 }
 
 .page .heroLimit {
@@ -1482,7 +1485,10 @@
   }
 
   .heroTitle {
-    font-size: clamp(4rem, 19vw, 5.6rem);
+    max-width: 11.2ch;
+    font-size: clamp(3.4rem, 14vw, 5rem);
+    letter-spacing: -0.052em;
+    line-height: 0.93;
   }
 
   .communityLink {
@@ -1554,8 +1560,15 @@
   }
 
   .heroTitle {
-    font-size: clamp(3.75rem, 18.4vw, 4.45rem);
-    letter-spacing: -0.065em;
+    max-width: 11.5ch;
+    font-size: clamp(2.85rem, 13.5vw, 3.3rem);
+    letter-spacing: -0.048em;
+    line-height: 0.94;
+  }
+
+  .page .tagline {
+    max-width: 100%;
+    font-size: 1.55rem;
   }
 
   .page .heroLimit {
@@ -1609,6 +1622,20 @@
 
   .page .faqItem p {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .heroTitle {
+    max-width: 100%;
+    font-size: clamp(2.45rem, 12.8vw, 2.85rem);
+    letter-spacing: -0.044em;
+    line-height: 0.96;
+  }
+
+  .page .tagline {
+    font-size: 1.4rem;
+    line-height: 1.12;
   }
 }
 

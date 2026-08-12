@@ -100,6 +100,9 @@ describe("public-content deployment guard", () => {
     expect(shellStyles).toContain('--water-font-body: "DM Sans", system-ui, sans-serif;');
     expect(shellStyles).toContain("font-family: var(--water-font-body);");
     expect(pageStyles).toContain("font-family: var(--water-font-display);");
+    expect(pageStyles.match(/font-family: "Water Check Inter", system-ui, sans-serif;/g)).toHaveLength(2);
+    expect(pageStyles).toMatch(/\.heroTitle\s*{[^}]*font-family: "Water Check Inter", system-ui, sans-serif;[^}]*font-weight: 500;/);
+    expect(pageStyles).toMatch(/\.page \.tagline\s*{[^}]*font-family: "Water Check Inter", system-ui, sans-serif;[^}]*font-weight: 500;/);
     expect(legalStyles).toContain("font-family: var(--water-font-display);");
   });
 
