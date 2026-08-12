@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Water Check Bricolage";
+  font-family: "Bricolage Grotesque Variable";
   src: url("/fonts/bricolage-grotesque-variable-latin.woff2") format("woff2");
   font-style: normal;
   font-weight: 200 800;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "Water Check Inter";
+  font-family: "Inter Variable";
   src: url("/fonts/inter-variable-latin.woff2") format("woff2");
   font-style: normal;
   font-weight: 100 900;

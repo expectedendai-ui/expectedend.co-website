@@ -1,6 +1,6 @@
 .shell {
-  --water-font-display: "Water Check Bricolage", system-ui, sans-serif;
-  --water-font-body: "Water Check Inter", system-ui, sans-serif;
+  --water-font-display: "Bricolage Grotesque Variable", system-ui, sans-serif;
+  --water-font-body: "Inter Variable", system-ui, sans-serif;
   position: relative;
   z-index: 100;
   display: grid;

@@ -1,4 +1,6 @@
 .site {
+  --expected-font-display: "Bricolage Grotesque Variable", system-ui, sans-serif;
+  --expected-font-body: "Inter Variable", system-ui, sans-serif;
   --blue-deep: #071c55;
   --blue: #102f80;
   --blue-bright: #1b50c8;
@@ -21,7 +23,7 @@
     radial-gradient(circle at 84% 8%, rgba(64, 116, 255, .3), transparent 29rem),
     radial-gradient(circle at 3% 34%, rgba(215, 177, 87, .12), transparent 26rem),
     linear-gradient(155deg, var(--paper-deep), var(--paper) 48%, #123b99 130%);
-  font-family: "DM Sans", system-ui, sans-serif;
+  font-family: var(--expected-font-body);
   transition: opacity 400ms ease, background-color 350ms ease, color 350ms ease;
 }
 
@@ -115,17 +117,17 @@
 .heroTitle {
   max-width: 980px;
   margin: 0 auto;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--expected-font-display);
   font-size: clamp(4.2rem, 10vw, 8.7rem);
-  font-weight: 400;
-  letter-spacing: -.055em;
-  line-height: .82;
+  font-weight: 500;
+  letter-spacing: -.065em;
+  line-height: .86;
   text-wrap: balance;
 }
-.heroTitle em { display: block; color: var(--gold-soft); font-weight: 400; }
+.heroTitle em { display: block; color: var(--gold-soft); font-weight: 500; }
 .site[data-site-theme="white"] .heroTitle em { color: #b17d1f; }
 .heroStatement { max-width: 780px; margin: 2.5rem auto 0; color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.28rem); line-height: 1.65; text-wrap: balance; }
-.heroStatement em { color: var(--ink); font-family: "Instrument Serif", Georgia, serif; font-size: 1.13em; }
+.heroStatement em { color: var(--ink); font-family: var(--expected-font-display); font-size: 1.13em; font-weight: 500; }
 .primaryAction {
   display: inline-flex;
   min-height: 48px;
@@ -146,13 +148,13 @@
 .sectionHead { max-width: 760px; margin-bottom: 2.8rem; }
 .sectionHead h2, .missionCard h2 {
   margin: 0;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: var(--expected-font-display);
   font-size: clamp(3rem, 6vw, 5.6rem);
-  font-weight: 400;
-  letter-spacing: -.04em;
+  font-weight: 500;
+  letter-spacing: -.055em;
   line-height: .94;
 }
-.sectionHead h2 em { color: var(--gold-soft); font-weight: 400; }
+.sectionHead h2 em { color: var(--gold-soft); font-weight: 500; }
 .site[data-site-theme="white"] .sectionHead h2 em { color: #aa7920; }
 .sectionHead > p:last-child { max-width: 630px; margin: 1.3rem 0 0; color: var(--muted); font-size: 1rem; line-height: 1.7; }
 
@@ -259,10 +261,10 @@
 .projectText { margin-top: 1.55rem; }
 .status { margin: 0 0 .4rem; color: var(--gold-soft); font-size: 10px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .site[data-site-theme="white"] .status { color: #987126; }
-.project h3 { margin: 0; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 400; letter-spacing: -.025em; }
-.project h3.mblTitle { font-family: "Hammersmith One", "DM Sans", sans-serif; font-size: clamp(1.7rem, 3vw, 2.5rem); letter-spacing: -.04em; }
+.project h3 { margin: 0; font-family: var(--expected-font-display); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 500; letter-spacing: -.04em; }
+.project h3.mblTitle { font-family: var(--expected-font-display); font-size: clamp(1.7rem, 3vw, 2.5rem); letter-spacing: -.04em; }
 .projectActions { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: .75rem; }
-.projectActions button, .projectActions a { border: 0; color: var(--muted); background: none; cursor: pointer; font: 700 12px/1.2 "DM Sans", sans-serif; }
+.projectActions button, .projectActions a { border: 0; color: var(--muted); background: none; cursor: pointer; font: 700 12px/1.2 var(--expected-font-body); }
 .projectActions .bioAction { padding: 9px; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 4px; }
 .projectActions a { padding: 9px 0; }
 .projectActions a:hover, .projectActions button:hover { color: var(--ink); }
@@ -278,7 +280,7 @@
 .service:focus-visible { position: relative; z-index: 1; outline: 2px solid var(--gold-soft); outline-offset: -2px; }
 .service > span { color: var(--gold-soft); font-size: 10px; font-weight: 800; letter-spacing: .16em; }
 .site[data-site-theme="white"] .service > span { color: #987126; }
-.service h3 { margin: 4.3rem 0 .7rem; font-family: "Instrument Serif", Georgia, serif; font-size: 2rem; font-weight: 400; }
+.service h3 { margin: 4.3rem 0 .7rem; font-family: var(--expected-font-display); font-size: 2rem; font-weight: 500; }
 .service p { margin: 0; color: var(--muted); font-size: .88rem; line-height: 1.6; }
 
 .aboutMain, .infoMain, .notFound { min-height: 78svh; padding: 10rem 1.5rem 7rem; }
@@ -444,8 +446,8 @@
   box-shadow: var(--shadow);
 }
 .contactHeader { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(240px, .85fr); gap: 2rem; align-items: end; padding-bottom: 2.5rem; border-bottom: 1px solid var(--line); }
-.contactHeader h2 { max-width: 620px; margin: .5rem 0 0; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(3rem, 6vw, 5rem); font-weight: 400; letter-spacing: -.04em; line-height: .94; }
-.contactHeader h2 em { color: var(--gold-soft); font-weight: 400; }
+.contactHeader h2 { max-width: 620px; margin: .5rem 0 0; font-family: var(--expected-font-display); font-size: clamp(3rem, 6vw, 5rem); font-weight: 500; letter-spacing: -.055em; line-height: .94; }
+.contactHeader h2 em { color: var(--gold-soft); font-weight: 500; }
 .site[data-site-theme="white"] .contactHeader h2 em { color: #aa7920; }
 .contactHeader > p { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.7; }
 .contactForm { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; padding-top: 2.5rem; }
@@ -458,7 +460,7 @@
   color: var(--ink);
   background: var(--surface-solid);
   padding: .9rem 1rem;
-  font: 500 15px/1.5 "DM Sans", sans-serif;
+  font: 500 15px/1.5 var(--expected-font-body);
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
 .contactField input, .contactField select { min-height: 52px; }
@@ -467,7 +469,7 @@
 .contactMessage { grid-column: 1 / -1; }
 .contactSubmit { grid-column: 1 / -1; display: flex; gap: 1.5rem; align-items: center; justify-content: space-between; padding-top: .4rem; }
 .contactSubmit p { max-width: 450px; margin: 0; color: var(--muted); font-size: .78rem; line-height: 1.55; }
-.contactSubmit button { min-height: 50px; padding: 0 1.2rem; border: 1px solid var(--gold); border-radius: 999px; color: #15285d; background: var(--gold-soft); cursor: pointer; font: 800 12px/1 "DM Sans", sans-serif; transition: transform 180ms ease, box-shadow 180ms ease; }
+.contactSubmit button { min-height: 50px; padding: 0 1.2rem; border: 1px solid var(--gold); border-radius: 999px; color: #15285d; background: var(--gold-soft); cursor: pointer; font: 800 12px/1 var(--expected-font-body); transition: transform 180ms ease, box-shadow 180ms ease; }
 .contactSubmit button:hover { transform: translateY(-2px); box-shadow: 0 14px 35px rgba(0, 5, 30, .22); }
 .eggButton {
   display: grid;
@@ -499,14 +501,14 @@
 
 .footer { width: min(1180px, calc(100% - 40px)); margin: 4rem auto 0; padding: 3rem 0 1.5rem; border-top: 1px solid var(--line); }
 .footerTop { display: flex; align-items: flex-start; justify-content: space-between; gap: 3rem; padding-bottom: 3rem; }
-.footerWordmark { font-family: "Instrument Serif", Georgia, serif; font-size: 2rem; }
+.footerWordmark { font-family: var(--expected-font-display); font-size: 2rem; font-weight: 500; }
 .footerLinks { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 1rem 1.6rem; max-width: 690px; }
 .footerLinks a { color: var(--muted); font-size: .78rem; font-weight: 600; }
 .footerLinks a:hover { color: var(--ink); }
 .footerBottom { display: flex; justify-content: space-between; gap: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .footerBottom p { margin: 0; }
 .footerBlessing { display: flex; align-items: center; gap: .25rem; margin: -12px 0 -12px auto; }
-.footerBottom .blessing { color: var(--gold-soft); font-family: "Instrument Serif", Georgia, serif; font-size: .9rem; font-weight: 400; letter-spacing: .04em; text-transform: none; }
+.footerBottom .blessing { color: var(--gold-soft); font-family: var(--expected-font-display); font-size: .9rem; font-weight: 500; letter-spacing: .04em; text-transform: none; }
 .site[data-site-theme="white"] .footerBottom .blessing { color: #987126; }
 
 .bioDialog {
@@ -521,7 +523,7 @@
 .bioDialog::backdrop { background: rgba(3, 10, 31, .66); backdrop-filter: blur(8px); }
 .bioDialogInner { min-height: 250px; padding: 1.4rem; }
 .bioDialogHead { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
-.bioDialogHead h2 { margin: 0; font-family: "Instrument Serif", Georgia, serif; font-size: 1.65rem; font-weight: 400; }
+.bioDialogHead h2 { margin: 0; font-family: var(--expected-font-display); font-size: 1.65rem; font-weight: 500; }
 .bioDialogHead button { display: grid; width: 44px; height: 44px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: transparent; cursor: pointer; font-size: 1.5rem; }
 .bioBlank { min-height: 150px; }
 .waterBioDialog { width: min(680px, calc(100% - 32px)); max-height: min(92svh, 920px); overflow-y: auto; }
@@ -541,14 +543,14 @@
 .waterBioStory a { border-bottom: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); }
 .waterBioSource { display: inline-block; font-size: .72rem; letter-spacing: .04em; opacity: .65; }
 .waterBioStat { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: .5rem .75rem; margin-top: 1.7rem; padding-top: 1.5rem; border-top: 1px solid var(--line); text-align: center; }
-.waterBioStatFrom { font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.55rem, 4vw, 2rem); font-weight: 700; opacity: .62; text-decoration: line-through; }
+.waterBioStatFrom { font-family: var(--expected-font-display); font-size: clamp(1.55rem, 4vw, 2rem); font-weight: 700; opacity: .62; text-decoration: line-through; }
 .waterBioStatArrow { color: var(--gold-soft); }
-.waterBioStatTo { color: var(--gold-soft); font-family: "Instrument Serif", Georgia, serif; font-size: 2rem; }
+.waterBioStatTo { color: var(--gold-soft); font-family: var(--expected-font-display); font-size: 2rem; }
 .site[data-site-theme="white"] .waterBioStatArrow,
 .site[data-site-theme="white"] .waterBioStatTo { color: #8d651d; }
 .waterBioStatCaption { flex-basis: 100%; color: var(--muted); font-size: .65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .waterBioWhat { margin-top: 2.3rem; padding-top: 1.8rem; border-top: 1px solid var(--line); }
-.waterBioWhat h3 { margin: 0 0 1.2rem; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 400; }
+.waterBioWhat h3 { margin: 0 0 1.2rem; font-family: var(--expected-font-display); font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 500; }
 .waterBioPhone { position: relative; width: min(300px, 82%); margin: 1.8rem auto .4rem; padding: 11px; border: 1px solid color-mix(in srgb, var(--gold) 34%, var(--line)); border-radius: 42px; background: linear-gradient(160deg, #292929, #0a0a0a); box-shadow: 0 24px 60px -20px rgba(0, 0, 0, .82), 0 0 40px -14px color-mix(in srgb, var(--gold) 32%, transparent); }
 .waterBioPhoneNotch { position: absolute; z-index: 2; top: 19px; left: 50%; width: 34%; height: 20px; border-radius: 0 0 14px 14px; background: #050505; pointer-events: none; transform: translateX(-50%); }
 .waterBioVideo { display: block; width: 100%; aspect-ratio: 1170 / 2532; border-radius: 30px; background: #000; object-fit: cover; }

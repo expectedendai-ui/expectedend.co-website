@@ -87,9 +87,6 @@ const findFamilyDeclarations = (sources: CssSource[], family: string) =>
     .filter(({ value }) => cssFamilyListIncludes(value, family))
     .map(({ path, selector, property }) => ({ path, selector, property }));
 
-const findWaterCheckFamilyDeclarations = (family: "Water Check Bricolage" | "Water Check Inter") =>
-  findFamilyDeclarations(readSourceCssFiles(), family);
-
 describe("public-content deployment guard", () => {
   it("runs the approval gate before production deploy", () => {
     const packageJson = JSON.parse(readFileSync("package.json", "utf8")) as {
@@ -127,10 +124,10 @@ describe("public-content deployment guard", () => {
     expect(globalStyles).toContain('url("/fonts/dm-sans-latin.woff2") format("woff2")');
     expect(globalStyles).toContain('url("/fonts/hammersmith-one-latin.woff2") format("woff2")');
     expect(globalStyles).toMatch(
-      /font-family: "Water Check Bricolage";\s*src: url\("\/fonts\/bricolage-grotesque-variable-latin\.woff2"\) format\("woff2"\);\s*font-style: normal;\s*font-weight: 200 800;\s*font-display: swap;/
+      /font-family: "Bricolage Grotesque Variable";\s*src: url\("\/fonts\/bricolage-grotesque-variable-latin\.woff2"\) format\("woff2"\);\s*font-style: normal;\s*font-weight: 200 800;\s*font-display: swap;/
     );
     expect(globalStyles).toMatch(
-      /font-family: "Water Check Inter";\s*src: url\("\/fonts\/inter-variable-latin\.woff2"\) format\("woff2"\);\s*font-style: normal;\s*font-weight: 100 900;\s*font-display: swap;/
+      /font-family: "Inter Variable";\s*src: url\("\/fonts\/inter-variable-latin\.woff2"\) format\("woff2"\);\s*font-style: normal;\s*font-weight: 100 900;\s*font-display: swap;/
     );
     expect(globalStyles).toContain('url("/fonts/instrument-serif-latin.woff2") format("woff2")');
     expect(globalStyles).toContain('url("/fonts/instrument-serif-italic-latin.woff2") format("woff2")');
@@ -151,14 +148,16 @@ describe("public-content deployment guard", () => {
     expect(existsSync("public/fonts/inter-medium-latin.woff2")).toBe(false);
   });
 
-  it("gives Water Check a readable, route-scoped typography system", () => {
+  it("shares the variable typography system without duplicating font assets", () => {
     const globalStyles = readFileSync("src/index.css", "utf8");
     const shellStyles = readFileSync("src/water-check/water-check-shell.module.css", "utf8");
     const pageStyles = readFileSync("src/water-check/water-check-page.module.css", "utf8");
     const legalStyles = readFileSync("src/water-check/legal/water-check-legal-page.module.css", "utf8");
-    const bricolageDeclarations = findWaterCheckFamilyDeclarations("Water Check Bricolage");
-    const interDeclarations = findWaterCheckFamilyDeclarations("Water Check Inter");
-    const waterCheckCssSources = readSourceCssFiles("src/water-check");
+    const cssSources = readSourceCssFiles();
+    const companyStyles = cssSources.find(({ path }) => path === "src/company-site/style.module.css")?.styles ?? "";
+    const bricolageDeclarations = findFamilyDeclarations(cssSources, "Bricolage Grotesque Variable");
+    const interDeclarations = findFamilyDeclarations(cssSources, "Inter Variable");
+    const waterCheckCssSources = cssSources.filter(({ path }) => path.startsWith("src/water-check/"));
     const legacyFamilyDeclarations = findCssDeclarations(waterCheckCssSources)
       .filter(({ property }) => property === "font-family" || property.startsWith("--water-font-"))
       .filter(({ value }) =>
@@ -166,15 +165,20 @@ describe("public-content deployment guard", () => {
       );
 
     expect(globalStyles).toMatch(/html:has\(\[data-site-theme="water-check"\]\)\s*{[^}]*font-size:\s*16px/);
-    expect(shellStyles).toContain('--water-font-display: "Water Check Bricolage", system-ui, sans-serif;');
-    expect(shellStyles).toContain('--water-font-body: "Water Check Inter", system-ui, sans-serif;');
+    expect(shellStyles).toContain('--water-font-display: "Bricolage Grotesque Variable", system-ui, sans-serif;');
+    expect(shellStyles).toContain('--water-font-body: "Inter Variable", system-ui, sans-serif;');
+    expect(companyStyles).toContain('--expected-font-display: "Bricolage Grotesque Variable", system-ui, sans-serif;');
+    expect(companyStyles).toContain('--expected-font-body: "Inter Variable", system-ui, sans-serif;');
+    expect(companyStyles).toContain("font-family: var(--expected-font-body);");
     expect(shellStyles).toContain("font-family: var(--water-font-body);");
     expect(pageStyles).toContain("font-family: var(--water-font-display);");
     expect(bricolageDeclarations).toEqual([
+      { path: "src/company-site/style.module.css", selector: ".site", property: "--expected-font-display" },
       { path: "src/index.css", selector: "@font-face", property: "font-family" },
       { path: "src/water-check/water-check-shell.module.css", selector: ".shell", property: "--water-font-display" },
     ]);
     expect(interDeclarations).toEqual([
+      { path: "src/company-site/style.module.css", selector: ".site", property: "--expected-font-body" },
       { path: "src/index.css", selector: "@font-face", property: "font-family" },
       { path: "src/water-check/water-check-shell.module.css", selector: ".shell", property: "--water-font-body" },
     ]);
@@ -184,24 +188,29 @@ describe("public-content deployment guard", () => {
     expect(pageStyles).toMatch(/\.page \.tagline\s*{[^}]*font-family: var\(--water-font-body\);[^}]*font-weight: 500;/);
     expect(pageStyles).toMatch(/\.sectionIntro h2,\s*\.finalSection h2\s*{[^}]*font-family: var\(--water-font-display\);/);
     expect(legalStyles).toContain("font-family: var(--water-font-display);");
+    expect(companyStyles).toMatch(/\.heroTitle\s*{[^}]*font-family: var\(--expected-font-display\);[^}]*font-weight: 500;/);
+    expect(companyStyles).toMatch(/\.heroStatement\s*{[^}]*font-size:[^}]*line-height:/);
+    expect(companyStyles).toMatch(/\.sectionHead h2, \.missionCard h2\s*{[^}]*font-family: var\(--expected-font-display\);/);
+    expect(companyStyles).toMatch(/\.projectActions button, \.projectActions a\s*{[^}]*font:[^;}]*var\(--expected-font-body\);/);
+    expect(companyStyles).toMatch(/\.contactHeader h2\s*{[^}]*font-family: var\(--expected-font-display\);[^}]*font-weight: 500;/);
   });
 
   it("detects non-route Water Check family declarations in equivalent CSS syntax", () => {
     const fixture = [
       {
         path: "src/company-site/non-route-fixture.css",
-        styles: ".single { font-family: 'Water Check Inter', sans-serif; }",
+        styles: ".single { font-family: 'Inter Variable', sans-serif; }",
       },
       {
         path: "src/company-site/non-route-fixture.css",
-        styles: ".unquoted { --water-font-display: Water Check Bricolage, sans-serif; }",
+        styles: ".unquoted { --water-font-display: Bricolage Grotesque Variable, sans-serif; }",
       },
     ];
 
-    expect(findFamilyDeclarations(fixture, "Water Check Inter")).toEqual([
+    expect(findFamilyDeclarations(fixture, "Inter Variable")).toEqual([
       { path: "src/company-site/non-route-fixture.css", selector: ".single", property: "font-family" },
     ]);
-    expect(findFamilyDeclarations(fixture, "Water Check Bricolage")).toEqual([
+    expect(findFamilyDeclarations(fixture, "Bricolage Grotesque Variable")).toEqual([
       { path: "src/company-site/non-route-fixture.css", selector: ".unquoted", property: "--water-font-display" },
     ]);
   });
