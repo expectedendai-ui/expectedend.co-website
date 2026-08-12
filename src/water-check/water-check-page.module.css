@@ -144,7 +144,7 @@
 .heroTitle {
   max-width: 10.8ch;
   margin: 0;
-  font-family: "Water Check Inter", system-ui, sans-serif;
+  font-family: var(--water-font-display);
   font-size: clamp(4rem, 6.2vw, 6.2rem);
   font-weight: 500;
   letter-spacing: -0.055em;
@@ -156,7 +156,7 @@
   max-width: 100%;
   margin: 1.6rem 0 0;
   color: #2d83b5;
-  font-family: "Water Check Inter", system-ui, sans-serif;
+  font-family: var(--water-font-body);
   font-size: clamp(1.65rem, 2.5vw, 2.35rem);
   font-weight: 500;
   letter-spacing: -0.035em;

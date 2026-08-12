@@ -15,10 +15,18 @@
 }
 
 @font-face {
-  font-family: "Water Check Inter";
-  src: url("/fonts/inter-medium-latin.woff2") format("woff2");
+  font-family: "Water Check Bricolage";
+  src: url("/fonts/bricolage-grotesque-variable-latin.woff2") format("woff2");
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Water Check Inter";
+  src: url("/fonts/inter-variable-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
   font-display: swap;
 }
 
