@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
@@ -52,6 +53,22 @@ const readPublicTextFiles = (directory: string): string[] =>
     return /\.(?:html|json|txt|xml|webmanifest)$/i.test(entry.name) ? [readFileSync(path, "utf8")] : [];
   });
 
+const readSourceCssFiles = (directory = "src"): Array<{ path: string; styles: string }> =>
+  readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const path = join(directory, entry.name);
+    if (entry.isDirectory()) return readSourceCssFiles(path);
+    return entry.name.endsWith(".css") ? [{ path, styles: readFileSync(path, "utf8") }] : [];
+  });
+
+const findWaterCheckInterDeclarations = () =>
+  readSourceCssFiles().flatMap(({ path, styles }) =>
+    Array.from(styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)).flatMap(([, selector, declarations]) =>
+      /font-family:\s*"Water Check Inter"(?:\s*,[^;]+)?\s*;/.test(declarations)
+        ? [{ path, selector: selector.trim() }]
+        : []
+    )
+  );
+
 describe("public-content deployment guard", () => {
   it("runs the approval gate before production deploy", () => {
     const packageJson = JSON.parse(readFileSync("package.json", "utf8")) as {
@@ -80,6 +97,8 @@ describe("public-content deployment guard", () => {
   it("loads fonts from same-origin assets instead of Google Fonts", () => {
     const indexHtml = readFileSync("index.html", "utf8");
     const globalStyles = readFileSync("src/index.css", "utf8");
+    const interFont = readFileSync("public/fonts/inter-medium-latin.woff2");
+    const interLicense = readFileSync("public/fonts/OFL-Inter.txt", "utf8");
 
     expect(indexHtml).not.toMatch(/fonts\.(?:googleapis|gstatic)\.com/);
     expect(globalStyles).toContain('url("/fonts/dm-sans-latin.woff2") format("woff2")');
@@ -87,6 +106,12 @@ describe("public-content deployment guard", () => {
     expect(globalStyles).toContain('url("/fonts/inter-medium-latin.woff2") format("woff2")');
     expect(globalStyles).toContain('url("/fonts/instrument-serif-latin.woff2") format("woff2")');
     expect(globalStyles).toContain('url("/fonts/instrument-serif-italic-latin.woff2") format("woff2")');
+    expect(interFont.subarray(0, 4).toString("ascii")).toBe("wOF2");
+    expect(createHash("sha256").update(interFont).digest("hex")).toBe(
+      "a1eab7f4970e8a2f70137b1b7379ccad15fd227f2c9c0e65412f280ae9aad73c"
+    );
+    expect(interLicense).toMatch(/The Inter Project Authors/);
+    expect(interLicense).toMatch(/SIL OPEN FONT LICENSE Version 1\.1/);
   });
 
   it("gives Water Check a readable, route-scoped typography system", () => {
@@ -94,13 +119,20 @@ describe("public-content deployment guard", () => {
     const shellStyles = readFileSync("src/water-check/water-check-shell.module.css", "utf8");
     const pageStyles = readFileSync("src/water-check/water-check-page.module.css", "utf8");
     const legalStyles = readFileSync("src/water-check/legal/water-check-legal-page.module.css", "utf8");
+    const interDeclarations = findWaterCheckInterDeclarations();
 
     expect(globalStyles).toMatch(/html:has\(\[data-site-theme="water-check"\]\)\s*{[^}]*font-size:\s*16px/);
     expect(shellStyles).toContain('--water-font-display: "Instrument Serif", Georgia, serif;');
     expect(shellStyles).toContain('--water-font-body: "DM Sans", system-ui, sans-serif;');
     expect(shellStyles).toContain("font-family: var(--water-font-body);");
     expect(pageStyles).toContain("font-family: var(--water-font-display);");
-    expect(pageStyles.match(/font-family: "Water Check Inter", system-ui, sans-serif;/g)).toHaveLength(2);
+    expect(interDeclarations.filter(({ selector }) => selector === "@font-face")).toEqual([
+      { path: "src/index.css", selector: "@font-face" },
+    ]);
+    expect(interDeclarations.filter(({ selector }) => selector !== "@font-face")).toEqual([
+      { path: "src/water-check/water-check-page.module.css", selector: ".heroTitle" },
+      { path: "src/water-check/water-check-page.module.css", selector: ".page .tagline" },
+    ]);
     expect(pageStyles).toMatch(/\.heroTitle\s*{[^}]*font-family: "Water Check Inter", system-ui, sans-serif;[^}]*font-weight: 500;/);
     expect(pageStyles).toMatch(/\.page \.tagline\s*{[^}]*font-family: "Water Check Inter", system-ui, sans-serif;[^}]*font-weight: 500;/);
     expect(legalStyles).toContain("font-family: var(--water-font-display);");
