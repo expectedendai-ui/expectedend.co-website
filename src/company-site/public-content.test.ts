@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
@@ -59,16 +60,35 @@ const readSourceCssFiles = (directory = "src"): Array<{ path: string; styles: st
     return entry.name.endsWith(".css") ? [{ path, styles: readFileSync(path, "utf8") }] : [];
   });
 
-const findWaterCheckFamilyDeclarations = (family: "Water Check Bricolage" | "Water Check Inter") =>
-  readSourceCssFiles().flatMap(({ path, styles }) =>
+type CssSource = { path: string; styles: string };
+
+const findCssDeclarations = (sources: CssSource[]) =>
+  sources.flatMap(({ path, styles }) =>
     Array.from(styles.matchAll(/([^{}]+)\{([^{}]*)\}/g)).flatMap(([, selector, declarations]) =>
       declarations
         .split(";")
         .map((declaration) => declaration.match(/^\s*([-\w]+)\s*:\s*(.+)$/))
-        .filter((match): match is RegExpMatchArray => Boolean(match?.[2].includes(`"${family}"`)))
-        .map((match) => ({ path, selector: selector.trim(), property: match[1] }))
+        .filter((match): match is RegExpMatchArray => Boolean(match))
+        .map((match) => ({ path, selector: selector.trim(), property: match[1], value: match[2].trim() }))
     )
   );
+
+const cssFamilyListIncludes = (value: string, family: string) =>
+  value.split(",").some((item) => {
+    const candidate = item.trim();
+    const quote = candidate[0];
+    return quote === '"' || quote === "'"
+      ? candidate.at(-1) === quote && candidate.slice(1, -1) === family
+      : candidate === family;
+  });
+
+const findFamilyDeclarations = (sources: CssSource[], family: string) =>
+  findCssDeclarations(sources)
+    .filter(({ value }) => cssFamilyListIncludes(value, family))
+    .map(({ path, selector, property }) => ({ path, selector, property }));
+
+const findWaterCheckFamilyDeclarations = (family: "Water Check Bricolage" | "Water Check Inter") =>
+  findFamilyDeclarations(readSourceCssFiles(), family);
 
 describe("public-content deployment guard", () => {
   it("runs the approval gate before production deploy", () => {
@@ -116,6 +136,12 @@ describe("public-content deployment guard", () => {
     expect(globalStyles).toContain('url("/fonts/instrument-serif-italic-latin.woff2") format("woff2")');
     expect(bricolageFont.subarray(0, 4).toString("ascii")).toBe("wOF2");
     expect(interFont.subarray(0, 4).toString("ascii")).toBe("wOF2");
+    expect(createHash("sha256").update(bricolageFont).digest("hex")).toBe(
+      "4fd48b2c1ab27220e71f15f990550261b35245c3bdfd8d8025b4bdac0459ee2d"
+    );
+    expect(createHash("sha256").update(interFont).digest("hex")).toBe(
+      "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+    );
     expect(bricolageFont.byteLength).toBeGreaterThan(40_000);
     expect(interFont.byteLength).toBeGreaterThan(40_000);
     expect(bricolageLicense).toMatch(/The Bricolage Grotesque Project Authors/);
@@ -132,9 +158,12 @@ describe("public-content deployment guard", () => {
     const legalStyles = readFileSync("src/water-check/legal/water-check-legal-page.module.css", "utf8");
     const bricolageDeclarations = findWaterCheckFamilyDeclarations("Water Check Bricolage");
     const interDeclarations = findWaterCheckFamilyDeclarations("Water Check Inter");
-    const waterCheckStyles = readSourceCssFiles("src/water-check")
-      .map(({ styles }) => styles)
-      .join("\n");
+    const waterCheckCssSources = readSourceCssFiles("src/water-check");
+    const legacyFamilyDeclarations = findCssDeclarations(waterCheckCssSources)
+      .filter(({ property }) => property === "font-family" || property.startsWith("--water-font-"))
+      .filter(({ value }) =>
+        ["DM Sans", "Instrument Serif"].some((family) => cssFamilyListIncludes(value, family))
+      );
 
     expect(globalStyles).toMatch(/html:has\(\[data-site-theme="water-check"\]\)\s*{[^}]*font-size:\s*16px/);
     expect(shellStyles).toContain('--water-font-display: "Water Check Bricolage", system-ui, sans-serif;');
@@ -149,12 +178,32 @@ describe("public-content deployment guard", () => {
       { path: "src/index.css", selector: "@font-face", property: "font-family" },
       { path: "src/water-check/water-check-shell.module.css", selector: ".shell", property: "--water-font-body" },
     ]);
-    expect(waterCheckStyles).not.toMatch(/font-family:\s*(?:"DM Sans"|"Instrument Serif"|"Water Check (?:Bricolage|Inter)")/);
+    expect(legacyFamilyDeclarations).toEqual([]);
     expect(shellStyles).toMatch(/\.productMark\s*{[^}]*font-family: var\(--water-font-display\);/);
     expect(pageStyles).toMatch(/\.heroTitle\s*{[^}]*font-family: var\(--water-font-display\);[^}]*font-weight: 500;/);
     expect(pageStyles).toMatch(/\.page \.tagline\s*{[^}]*font-family: var\(--water-font-body\);[^}]*font-weight: 500;/);
     expect(pageStyles).toMatch(/\.sectionIntro h2,\s*\.finalSection h2\s*{[^}]*font-family: var\(--water-font-display\);/);
     expect(legalStyles).toContain("font-family: var(--water-font-display);");
+  });
+
+  it("detects non-route Water Check family declarations in equivalent CSS syntax", () => {
+    const fixture = [
+      {
+        path: "src/company-site/non-route-fixture.css",
+        styles: ".single { font-family: 'Water Check Inter', sans-serif; }",
+      },
+      {
+        path: "src/company-site/non-route-fixture.css",
+        styles: ".unquoted { --water-font-display: Water Check Bricolage, sans-serif; }",
+      },
+    ];
+
+    expect(findFamilyDeclarations(fixture, "Water Check Inter")).toEqual([
+      { path: "src/company-site/non-route-fixture.css", selector: ".single", property: "font-family" },
+    ]);
+    expect(findFamilyDeclarations(fixture, "Water Check Bricolage")).toEqual([
+      { path: "src/company-site/non-route-fixture.css", selector: ".unquoted", property: "--water-font-display" },
+    ]);
   });
 
   it("keeps ordinary indexing open while disallowing the documented AI crawler inventory", () => {
