@@ -42,8 +42,8 @@ export const WATER_CHECK_RELEASE_RECORD: WaterCheckReleaseRecord = {
       effectiveDate: "2026-08-08",
     },
     approvedBy: "Denzel Rigaud",
-    approvedAt: "2026-08-08",
-    governedContentDigest: "sha256:d9dc2729e2fb555c82828d8a2bc6dd17db0dfff838a3a092e17e2c5e232eec39",
+    approvedAt: "2026-08-18",
+    governedContentDigest: "sha256:b0df2e1f2b9715c1ad9b01d72adbc8475228e4db9705456dc69447d5ceb2e23a",
   },
   deploymentInventoryApproval: {
     approvedBy: "Denzel Rigaud",

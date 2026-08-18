@@ -21,14 +21,14 @@ describe("Expected End public site", () => {
       "https://mybiblelens.us/legal.html#about"
     );
     const waterCheckArtwork = screen.getByRole("link", { name: "Visit The Water Check" });
-    expect(waterCheckArtwork).toHaveAttribute("href", "/thewatercheck");
-    expect(waterCheckArtwork).not.toHaveAttribute("target");
-    expect(waterCheckArtwork).not.toHaveAttribute("rel");
+    expect(waterCheckArtwork).toHaveAttribute("href", "https://www.instagram.com/thewatercheck/");
+    expect(waterCheckArtwork).toHaveAttribute("target", "_blank");
+    expect(waterCheckArtwork).toHaveAttribute("rel", "noreferrer");
 
-    const waterCheckAction = screen.getByRole("link", { name: "Visit product page" });
-    expect(waterCheckAction).toHaveAttribute("href", "/thewatercheck");
-    expect(waterCheckAction).not.toHaveAttribute("target");
-    expect(waterCheckAction).not.toHaveAttribute("rel");
+    const waterCheckAction = screen.getByRole("link", { name: "Visit Instagram" });
+    expect(waterCheckAction).toHaveAttribute("href", "https://www.instagram.com/thewatercheck/");
+    expect(waterCheckAction).toHaveAttribute("target", "_blank");
+    expect(waterCheckAction).toHaveAttribute("rel", "noreferrer");
 
     const myBibleLensArtwork = screen.getByRole("link", { name: "Visit MyBibleLens" });
     expect(myBibleLensArtwork).toHaveAttribute("target", "_blank");
@@ -39,27 +39,12 @@ describe("Expected End public site", () => {
     expect(screen.queryByRole("heading", { name: "Ideas can feel meaningful and easy to enter." })).not.toBeInTheDocument();
   });
 
-  it.each([
-    ["artwork", "Visit The Water Check"],
-    ["primary action", "Visit product page"],
-  ])("navigates from the Water Check %s through the existing SPA callback", async (_, accessibleName) => {
-    const user = userEvent.setup();
-    vi.spyOn(window, "scrollTo").mockImplementation(() => undefined);
-    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
-
-    await user.click(screen.getByRole("link", { name: accessibleName }));
-
-    expect(window.location.pathname).toBe("/thewatercheck");
-    expect(screen.getByRole("navigation", { name: "Water Check navigation" })).toBeInTheDocument();
-    expect(screen.queryByRole("navigation", { name: "Main navigation" })).not.toBeInTheDocument();
-  });
-
   it("does not intercept modified clicks on project destinations", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
     const stopJSDOMNavigation = (event: MouseEvent) => event.preventDefault();
     window.addEventListener("click", stopJSDOMNavigation);
 
-    fireEvent.click(screen.getByRole("link", { name: "Visit product page" }), {
+    fireEvent.click(screen.getByRole("link", { name: "Visit Instagram" }), {
       ctrlKey: true,
     });
     fireEvent.click(screen.getByRole("link", { name: "Visit app" }), {
@@ -75,7 +60,7 @@ describe("Expected End public site", () => {
 
     expect(container.textContent).not.toMatch(/[↗↓]/);
     const actionIcons = container.querySelectorAll("svg[data-action-icon]");
-    expect(actionIcons).toHaveLength(2);
+    expect(actionIcons).toHaveLength(3);
     actionIcons.forEach((icon) => {
       expect(icon).toHaveAttribute("aria-hidden", "true");
       expect(icon).toHaveAttribute("focusable", "false");
@@ -204,6 +189,7 @@ describe("Expected End public site", () => {
     expect(within(dialog).getByText("200,000 followers")).toBeInTheDocument();
     expect(within(dialog).getByText("A simple reminder people loved.")).toBeInTheDocument();
     expect(within(dialog).getByText("Look how many people loved it.")).toBeInTheDocument();
+    expect(within(dialog).getByText(/the app is paused for now/i)).toBeInTheDocument();
     await user.click(within(dialog).getByRole("button", { name: "Close bio" }));
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
     expect(bioButton).toHaveFocus();
@@ -245,48 +231,13 @@ describe("Expected End public site", () => {
     expect(document.title).toBe("Privacy Statement — Expected End");
   });
 
-  it("renders direct Water Check routes in a separate product shell", async () => {
+  it("keeps the paused Water Check landing page hidden", () => {
     window.history.replaceState({}, "", "/thewatercheck/");
-    const user = userEvent.setup();
-    const onOpenArtWorld = vi.fn();
-    const { container } = render(<CompanySite leaving={false} onOpenArtWorld={onOpenArtWorld} />);
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
-    expect(container.firstElementChild).toHaveAttribute("data-site-theme", "water-check");
-    expect(screen.getByRole("heading", { level: 1, name: "The Water Check" })).toBeInTheDocument();
-    expect(screen.queryByRole("navigation", { name: "Main navigation" })).not.toBeInTheDocument();
-    expect(screen.queryByRole("navigation", { name: "Footer navigation" })).not.toBeInTheDocument();
-
-    const productNavigation = screen.getByRole("navigation", { name: "Water Check navigation" });
-    expect(within(productNavigation).getAllByRole("link").map((link) => link.textContent)).toEqual([
-      "The Water Check",
-      "Expected End",
-    ]);
-    expect(within(productNavigation).getByRole("link", { name: "The Water Check" })).toHaveAttribute(
-      "href",
-      "/thewatercheck"
-    );
-    expect(within(productNavigation).getByRole("link", { name: "Expected End" })).toHaveAttribute("href", "/");
-
-    const legalNavigation = screen.getByRole("navigation", { name: "Water Check legal navigation" });
-    expect(within(legalNavigation).getAllByRole("link").map((link) => link.textContent)).toEqual([
-      "Privacy",
-      "Terms",
-      "Health & AI Disclaimer",
-      "Consumer Health Data",
-      "Instagram",
-      "Expected End",
-    ]);
-    expect(within(legalNavigation).getByRole("link", { name: "Instagram" })).toHaveAttribute(
-      "href",
-      "https://www.instagram.com/thewatercheck/"
-    );
-
-    await user.click(within(legalNavigation).getByRole("link", { name: "Privacy" }));
-    expect(window.location.pathname).toBe("/thewatercheck/privacy");
-    expect(screen.getByRole("heading", { level: 1, name: "Privacy" })).toBeInTheDocument();
-    expect(within(legalNavigation).getByRole("link", { name: "Privacy" })).toHaveAttribute("aria-current", "page");
-    expect(document.title).toBe("Privacy — The Water Check");
-    expect(onOpenArtWorld).not.toHaveBeenCalled();
+    expect(screen.getByRole("heading", { level: 1, name: "That page isn’t here." })).toBeInTheDocument();
+    expect(screen.getByRole("navigation", { name: "Main navigation" })).toBeInTheDocument();
+    expect(screen.queryByRole("navigation", { name: "Water Check navigation" })).not.toBeInTheDocument();
   });
 
   it.each([

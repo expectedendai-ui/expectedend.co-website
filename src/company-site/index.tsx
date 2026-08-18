@@ -1,7 +1,6 @@
 import * as React from "react";
 import { WATER_CHECK_LEGAL_CONTENT, type WaterCheckLegalKey } from "../water-check/legal/water-check-legal-content";
 import { WaterCheckLegalPage } from "../water-check/legal/water-check-legal-page";
-import { WaterCheckPage } from "../water-check/water-check-page";
 import { WaterCheckShell } from "../water-check/water-check-shell";
 import { AboutPage } from "./about";
 import { Footer } from "./footer";
@@ -91,7 +90,7 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   };
 
   const renderCompanyRoute = () => {
-    if (route.key === "home") return <HomePage onNavigate={onNavigate} />;
+    if (route.key === "home") return <HomePage />;
     if (route.key === "about") return <AboutPage />;
     if (route.key === "terms" || route.key === "privacy" || route.key === "accessibility") {
       return <InfoPage content={LEGAL_CONTENT[route.key]} />;
@@ -108,18 +107,13 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   };
 
   if (route.family === "water-check") {
-    const legalContentKeys: Record<Exclude<WaterCheckRouteKey, "water-check-home">, WaterCheckLegalKey> = {
+    const legalContentKeys: Record<WaterCheckRouteKey, WaterCheckLegalKey> = {
       "water-check-privacy": "privacy",
       "water-check-terms": "terms",
       "water-check-health-and-ai-disclaimer": "health-and-ai-disclaimer",
       "water-check-consumer-health-data": "consumer-health-data",
     };
-    const content =
-      route.key === "water-check-home" ? (
-        <WaterCheckPage onNavigate={onNavigate} />
-      ) : (
-        <WaterCheckLegalPage content={WATER_CHECK_LEGAL_CONTENT[legalContentKeys[route.key]]} onNavigate={onNavigate} />
-      );
+    const content = <WaterCheckLegalPage content={WATER_CHECK_LEGAL_CONTENT[legalContentKeys[route.key]]} onNavigate={onNavigate} />;
 
     return (
       <WaterCheckShell activePath={route.path} leaving={leaving} onNavigate={onNavigate}>

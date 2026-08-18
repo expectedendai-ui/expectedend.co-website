@@ -1,5 +1,4 @@
 import { render, screen, within } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
 import { describe, expect, it, vi } from "vitest";
 import { CompanySite } from "../../company-site";
 import { WATER_CHECK_LEGAL_CONTENT, type WaterCheckLegalKey } from "./water-check-legal-content";
@@ -87,10 +86,9 @@ const releaseArtifacts = (
 });
 
 describe("Water Check legal pages", () => {
-  it.each(ROUTES)("renders substantive product-owned content at %s", async (path, key, heading) => {
+  it.each(ROUTES)("renders substantive product-owned content at %s", (path, key, heading) => {
     window.history.replaceState({}, "", path);
     vi.spyOn(window, "scrollTo").mockImplementation(() => undefined);
-    const user = userEvent.setup();
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     const article = screen.getByRole("article", { name: heading });
@@ -99,7 +97,10 @@ describe("Water Check legal pages", () => {
     expect(within(article).getByText(/effective date: 2026-08-08/i)).toBeInTheDocument();
     expect(within(article).getByRole("link", { name: "/about#contact" })).toHaveAttribute("href", "/about#contact");
     expect(within(article).queryByText(/product-specific information will be published here/i)).not.toBeInTheDocument();
-    expect(within(article).getByRole("link", { name: /return to the water check/i })).toHaveAttribute("href", "/thewatercheck");
+    const instagramLink = within(article).getByRole("link", { name: /visit the water check on instagram/i });
+    expect(instagramLink).toHaveAttribute("href", "https://www.instagram.com/thewatercheck/");
+    expect(instagramLink).toHaveAttribute("target", "_blank");
+    expect(instagramLink).toHaveAttribute("rel", "noreferrer");
     expect(within(article).getAllByRole("heading", { level: 2 }).length).toBeGreaterThanOrEqual(4);
 
     const footer = screen.getByRole("navigation", { name: "Water Check legal navigation" });
@@ -107,17 +108,15 @@ describe("Water Check legal pages", () => {
       "aria-current",
       "page"
     );
-
-    await user.click(within(article).getByRole("link", { name: /return to the water check/i }));
-    expect(window.location.pathname).toBe("/thewatercheck");
   });
 
   it("states the current no-submission contract without claiming zero operational processing", () => {
     render(<WaterCheckLegalPage content={WATER_CHECK_LEGAL_CONTENT.privacy} onNavigate={vi.fn()} />);
     const article = screen.getByRole("article", { name: "Privacy" });
 
-    expect(article).toHaveTextContent(/current coming soon website/i);
-    expect(article).toHaveTextContent(/does not provide a way to submit health information/i);
+    expect(article).toHaveTextContent(/archived water check information pages/i);
+    expect(article).toHaveTextContent(/app is paused/i);
+    expect(article).toHaveTextContent(/do not provide a way to submit health information/i);
     expect(article).toHaveTextContent(
       /product scans, ai conversations, email addresses, accounts, age, gender, ethnicity, or racial identity/i
     );
@@ -157,8 +156,9 @@ describe("Water Check legal pages", () => {
     expect(disclaimer).toMatch(/potentially incomplete/i);
     expect(disclaimer).toMatch(/does not diagnose, treat, or prevent/i);
     expect(disclaimer).toMatch(/definitive cause/i);
-    expect(consumerHealth).toMatch(/current coming soon website/i);
-    expect(consumerHealth).toMatch(/does not provide a way to submit consumer health data/i);
+    expect(consumerHealth).toMatch(/archived water check information pages/i);
+    expect(consumerHealth).toMatch(/if work resumes/i);
+    expect(consumerHealth).toMatch(/do not provide a way to submit consumer health data/i);
     expect(consumerHealth).toMatch(/does not assert that any particular consumer-health law applies/i);
   });
 
@@ -166,6 +166,7 @@ describe("Water Check legal pages", () => {
     const allLegalCopy = JSON.stringify(WATER_CHECK_LEGAL_CONTENT);
     expect(allLegalCopy).not.toMatch(/you(?:'|’)re not fat/i);
     expect(allLegalCopy).not.toMatch(/snap\. track\. debloat/i);
+    expect(allLegalCopy).not.toMatch(/coming soon/i);
   });
 });
 

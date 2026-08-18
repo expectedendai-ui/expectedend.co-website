@@ -60,7 +60,7 @@ export function BioDialog({ projectName, onClose }: BioDialogProps) {
                 Then my <a href="https://www.linkedin.com/in/cliffordrigaud/" target="_blank" rel="noreferrer">father</a> passed away unexpectedly on <strong>July 10, 2021.</strong> I went into survival mode, wondering where my life was going. To deal with the pain of his death, I shut the door on being the web wizard my father once taught me to be—until <strong>January 2026.</strong>
               </p>
               <p>
-                Will I ever go back to thewatercheck? <strong>Yes!</strong> thewatercheck is coming back later this year—with an app and a whole new chapter. This is only the beginning. <strong>Stay tuned!</strong>
+                The Water Check community still matters to me, but <strong>the app is paused for now.</strong> Follow @thewatercheck on Instagram for any future updates.
               </p>
             </div>
 
