@@ -1,7 +1,6 @@
 export type CompanyRouteKey = "home" | "about" | "terms" | "privacy" | "accessibility" | "not-found";
 
 export type WaterCheckRouteKey =
-  | "water-check-home"
   | "water-check-privacy"
   | "water-check-terms"
   | "water-check-health-and-ai-disclaimer"
@@ -54,13 +53,6 @@ const ROUTES: PublicRoute[] = [
     path: "/accessibility",
     title: "Accessibility — Expected End",
     description: "Expected End's commitment to an accessible website experience.",
-  },
-  {
-    key: "water-check-home",
-    family: "water-check",
-    path: "/thewatercheck",
-    title: "The Water Check — Coming Soon",
-    description: "The Water Check is a forthcoming health and wellness experience from Expected End.",
   },
   {
     key: "water-check-privacy",

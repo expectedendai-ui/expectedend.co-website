@@ -50,8 +50,8 @@ export function WaterCheckLegalPage({ content, onNavigate }: WaterCheckLegalPage
         </div>
 
         <aside className={styles.returnCard} aria-label="Return to product page">
-          <a href="/thewatercheck" onClick={onNavigate}>
-            Return to The Water Check
+          <a href="https://www.instagram.com/thewatercheck/" target="_blank" rel="noreferrer">
+            Visit The Water Check on Instagram
           </a>
         </aside>
       </article>

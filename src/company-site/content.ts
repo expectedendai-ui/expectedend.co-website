@@ -9,7 +9,6 @@ export const PROJECTS = [
     name: "MyBibleLens",
     category: "Christianity app",
     destination: {
-      kind: "external",
       href: "https://mybiblelens.us/",
       actionLabel: "Visit app",
     },
@@ -20,11 +19,10 @@ export const PROJECTS = [
   },
   {
     name: "The Water Check",
-    category: "Health app · Coming Soon",
+    category: "Hydration community",
     destination: {
-      kind: "internal",
-      href: "/thewatercheck",
-      actionLabel: "Visit product page",
+      href: "https://www.instagram.com/thewatercheck/",
+      actionLabel: "Visit Instagram",
     },
     bioHref: null,
     image: "/brand/thewatercheck.png",

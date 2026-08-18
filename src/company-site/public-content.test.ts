@@ -34,7 +34,6 @@ const REPRESENTATIVE_AI_CRAWLERS = [
 ] as const;
 
 const WATER_CHECK_PATHS = [
-  "/thewatercheck",
   "/thewatercheck/privacy",
   "/thewatercheck/terms",
   "/thewatercheck/health-and-ai-disclaimer",
@@ -101,15 +100,19 @@ describe("public-content deployment guard", () => {
     expect(publicText).not.toMatch(/"email"\s*:/);
   });
 
-  it("publishes the Water Check route family in static discovery surfaces", () => {
+  it("keeps Water Check legal pages discoverable without publishing the paused app page", () => {
     const indexHtml = readFileSync("index.html", "utf8");
     const sitemap = readFileSync("public/sitemap.xml", "utf8");
+    const redirects = readFileSync("public/_redirects", "utf8");
 
     for (const path of WATER_CHECK_PATHS) {
       expect(sitemap).toContain(`<loc>https://expectedend.co${path}</loc>`);
     }
-    expect(indexHtml).toContain('"url": "https://expectedend.co/thewatercheck"');
-    expect(indexHtml).toContain('"sameAs": [\n              "https://www.instagram.com/thewatercheck/"\n            ]');
+    expect(sitemap).not.toContain("<loc>https://expectedend.co/thewatercheck</loc>");
+    expect(indexHtml).toContain('"url": "https://www.instagram.com/thewatercheck/"');
+    expect(indexHtml).not.toContain('"url": "https://expectedend.co/thewatercheck"');
+    expect(redirects).toContain("/thewatercheck https://www.instagram.com/thewatercheck/ 302");
+    expect(redirects).toContain("/thewatercheck/ https://www.instagram.com/thewatercheck/ 302");
   });
 
   it("loads fonts from same-origin assets instead of Google Fonts", () => {

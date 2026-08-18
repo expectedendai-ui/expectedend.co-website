@@ -11,13 +11,13 @@ describe("company-site routes", () => {
     expect(getRoute("/not-a-real-page").key).toBe("not-found");
   });
 
-  it("resolves the Water Check landing route with or without a trailing slash", () => {
+  it("keeps the paused Water Check landing page hidden", () => {
     const directRoute = getRoute("/thewatercheck");
     const trailingSlashRoute = getRoute("/thewatercheck/");
 
-    expect(directRoute).toMatchObject({ key: "water-check-home", family: "water-check" });
+    expect(directRoute).toMatchObject({ key: "not-found", family: "company" });
     expect(trailingSlashRoute).toEqual(directRoute);
-    expect(getRouteMetadata("/thewatercheck/").canonical).toBe("https://expectedend.co/thewatercheck");
+    expect(getRouteMetadata("/thewatercheck/").canonical).toBe("https://expectedend.co/");
   });
 
   it.each([

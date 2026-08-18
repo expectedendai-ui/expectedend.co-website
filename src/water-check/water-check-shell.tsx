@@ -27,7 +27,12 @@ export function WaterCheckShell({ activePath, children, leaving, onNavigate }: W
     <div className={`${styles.shell} ${leaving ? styles.leaving : ""}`} data-site-theme="water-check">
       <header className={styles.header}>
         <nav className={styles.headerNavigation} aria-label="Water Check navigation">
-          <a className={styles.productMark} href="/thewatercheck" onClick={onNavigate}>
+          <a
+            className={styles.productMark}
+            href="https://www.instagram.com/thewatercheck/"
+            target="_blank"
+            rel="noreferrer"
+          >
             The Water Check
           </a>
           <a className={styles.companyReturn} href="/" onClick={onNavigate}>
@@ -45,7 +50,7 @@ export function WaterCheckShell({ activePath, children, leaving, onNavigate }: W
               {label}
             </a>
           ))}
-          <a href="https://www.instagram.com/thewatercheck/" onClick={onNavigate}>
+          <a href="https://www.instagram.com/thewatercheck/" target="_blank" rel="noreferrer">
             Instagram
           </a>
           <a href="/" onClick={onNavigate}>

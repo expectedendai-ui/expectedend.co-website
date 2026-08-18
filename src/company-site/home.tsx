@@ -5,11 +5,7 @@ import { ContactDialog } from "./contact-dialog";
 import { PROJECTS, SERVICES } from "./content";
 import styles from "./style.module.css";
 
-type HomePageProps = {
-  onNavigate: React.MouseEventHandler<HTMLAnchorElement>;
-};
-
-export function HomePage({ onNavigate }: HomePageProps) {
+export function HomePage() {
   const [activeBio, setActiveBio] = React.useState<string | null>(null);
   const [activeService, setActiveService] = React.useState<{ reason: string; opener: HTMLButtonElement } | null>(null);
 
@@ -38,9 +34,8 @@ export function HomePage({ onNavigate }: HomePageProps) {
                 className={styles.projectArt}
                 data-art-variant={project.artVariant}
                 href={project.destination.href}
-                onClick={project.destination.kind === "internal" ? onNavigate : undefined}
-                target={project.destination.kind === "external" ? "_blank" : undefined}
-                rel={project.destination.kind === "external" ? "noreferrer" : undefined}
+                target="_blank"
+                rel="noreferrer"
                 aria-label={`Visit ${project.name}`}
               >
                 <span className={styles.projectArtClip}>
@@ -74,12 +69,11 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   <a
                     className={styles.actionWithIcon}
                     href={project.destination.href}
-                    onClick={project.destination.kind === "internal" ? onNavigate : undefined}
-                    target={project.destination.kind === "external" ? "_blank" : undefined}
-                    rel={project.destination.kind === "external" ? "noreferrer" : undefined}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     {project.destination.actionLabel}
-                    {project.destination.kind === "external" && <ArrowUpRightIcon className={styles.actionIcon} />}
+                    <ArrowUpRightIcon className={styles.actionIcon} />
                   </a>
                 </div>
               </div>
