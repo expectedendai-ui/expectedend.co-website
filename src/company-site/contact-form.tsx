@@ -63,6 +63,18 @@ export const buildOutlookComposeUrl = (details: ContactDetails, source: string) 
   return `https://outlook.office.com/mail/deeplink/compose?${parameters}`;
 };
 
+export const buildGmailComposeUrl = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
+  const parameters = new URLSearchParams({ view: "cm", fs: "1", to: CONTACT_ADDRESS, su: subject, body });
+  return `https://mail.google.com/mail/?${parameters}`;
+};
+
+export const buildYahooComposeUrl = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
+  const parameters = new URLSearchParams({ to: CONTACT_ADDRESS, subj: subject, body });
+  return `https://compose.mail.yahoo.com/?${parameters}`;
+};
+
 const readField = (formData: FormData, name: string) => String(formData.get(name) ?? "").trim();
 
 type ContactFormProps = {
@@ -72,7 +84,9 @@ type ContactFormProps = {
 
 export function ContactForm({ initialProject = "", initialReason = "" }: ContactFormProps = {}) {
   const [preparedEmail, setPreparedEmail] = React.useState("");
+  const [gmailComposeUrl, setGmailComposeUrl] = React.useState("");
   const [outlookComposeUrl, setOutlookComposeUrl] = React.useState("");
+  const [yahooComposeUrl, setYahooComposeUrl] = React.useState("");
 
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -89,7 +103,9 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
     };
     const href = buildContactMailto(details, getContactSource(window.location.href));
     setPreparedEmail(href);
+    setGmailComposeUrl(buildGmailComposeUrl(details, getContactSource(window.location.href)));
     setOutlookComposeUrl(buildOutlookComposeUrl(details, getContactSource(window.location.href)));
+    setYahooComposeUrl(buildYahooComposeUrl(details, getContactSource(window.location.href)));
     const emailLink = document.createElement("a");
     emailLink.href = href;
     document.body.append(emailLink);
@@ -193,7 +209,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         <div className={styles.contactSubmit}>
           <p>
             Nothing is sent until you review it and press Send in your email app.
-            {preparedEmail && outlookComposeUrl ? <> If it did not open, use <a href={preparedEmail}>Open your email app</a> or <a href={outlookComposeUrl}>Open in Outlook</a>.</> : null}
+            {preparedEmail && gmailComposeUrl && outlookComposeUrl && yahooComposeUrl ? <> Choose <a href={preparedEmail}>your email app</a>, <a href={gmailComposeUrl}>Gmail</a>, <a href={outlookComposeUrl}>Outlook</a>, or <a href={yahooComposeUrl}>Yahoo Mail</a>.</> : null}
           </p>
           <button className={styles.actionWithIcon} type="submit">
             Prepare email <ArrowUpRightIcon className={styles.actionIcon} />
