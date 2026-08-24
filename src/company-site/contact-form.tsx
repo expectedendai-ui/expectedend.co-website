@@ -14,6 +14,8 @@ type ContactDetails = {
   message: string;
 };
 
+const CONTACT_ADDRESS = "expectedendai@gmail.com";
+
 const CONTACT_SOURCE_PARAMETERS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "ref"];
 
 export const getContactSource = (href: string) => {
@@ -29,6 +31,27 @@ export const getContactSource = (href: string) => {
   return source.toString();
 };
 
+export const buildContactMailto = (details: ContactDetails, source: string) => {
+  const subject = `Expected End inquiry — ${details.reason}`;
+  const body = [
+    "Hi Expected End,",
+    "",
+    `Name: ${details.name}`,
+    `Reply email: ${details.replyEmail}`,
+    `Project: ${details.project}`,
+    `Reason: ${details.reason}`,
+    `Price range: ${details.priceRange}`,
+    `Timeline: ${details.timeline}`,
+    `Found Expected End through: ${details.discovery}`,
+    "",
+    details.message,
+    "",
+    `Source: ${source}`,
+  ].join("\n");
+
+  return `mailto:${CONTACT_ADDRESS}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+};
+
 const readField = (formData: FormData, name: string) => String(formData.get(name) ?? "").trim();
 
 type ContactFormProps = {
@@ -37,9 +60,7 @@ type ContactFormProps = {
 };
 
 export function ContactForm({ initialProject = "", initialReason = "" }: ContactFormProps = {}) {
-  const [submissionStatus, setSubmissionStatus] = React.useState<"idle" | "sending" | "success" | "error">("idle");
-
-  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
     const details: ContactDetails = {
@@ -52,21 +73,9 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
       discovery: readField(formData, "discovery"),
       message: readField(formData, "message"),
     };
-
-    setSubmissionStatus("sending");
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...details, source: getContactSource(window.location.href) }),
-      });
-
-      if (!response.ok) throw new Error("Contact delivery failed");
-      setSubmissionStatus("success");
-    } catch {
-      setSubmissionStatus("error");
-    }
+    const emailLink = document.createElement("a");
+    emailLink.href = buildContactMailto(details, getContactSource(window.location.href));
+    emailLink.click();
   };
 
   return (
@@ -76,7 +85,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
           <p className={styles.kicker}>Contact Expected End</p>
           <h2 id="contact-title">Start with a little <em>context.</em></h2>
         </div>
-        <p>Choose a few details and we’ll send your inquiry directly to Expected End.</p>
+        <p>Choose a few details and we’ll prepare a clear email for you. Your email app opens before anything is sent.</p>
       </div>
 
       <form className={styles.contactForm} onSubmit={onSubmit}>
@@ -163,15 +172,9 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         </label>
 
         <div className={styles.contactSubmit}>
-          <p aria-live="polite">
-            {submissionStatus === "success"
-              ? "Thanks — your inquiry has been sent."
-              : submissionStatus === "error"
-                ? "We couldn’t send your inquiry. Please try again shortly."
-                : "Your inquiry is sent directly to Expected End."}
-          </p>
-          <button className={styles.actionWithIcon} type="submit" disabled={submissionStatus === "sending"}>
-            {submissionStatus === "sending" ? "Sending…" : "Send inquiry"} <ArrowUpRightIcon className={styles.actionIcon} />
+          <p>Nothing is sent until you review it and press Send in your email app.</p>
+          <button className={styles.actionWithIcon} type="submit">
+            Prepare email <ArrowUpRightIcon className={styles.actionIcon} />
           </button>
         </div>
       </form>

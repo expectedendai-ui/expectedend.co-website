@@ -1,3 +1,0 @@
-# Copy to .dev.vars for local Pages Functions development. Never commit the real values.
-RESEND_API_KEY=re_your_resend_api_key
-CONTACT_FROM=Expected End <contact@expectedend.co>
