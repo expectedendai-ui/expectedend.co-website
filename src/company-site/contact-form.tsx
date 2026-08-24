@@ -75,7 +75,9 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
     };
     const emailLink = document.createElement("a");
     emailLink.href = buildContactMailto(details, getContactSource(window.location.href));
+    document.body.append(emailLink);
     emailLink.click();
+    emailLink.remove();
   };
 
   return (

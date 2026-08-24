@@ -9,8 +9,10 @@ describe("Expected End contact composer", () => {
   it("requires structured context and opens a prepared email addressed to the owner", async () => {
     const user = userEvent.setup();
     let preparedHref = "";
+    let wasAttachedToDocument = false;
     vi.spyOn(HTMLAnchorElement.prototype, "click").mockImplementation(function capturePreparedEmail(this: HTMLAnchorElement) {
       preparedHref = this.href;
+      wasAttachedToDocument = this.isConnected;
     });
     window.history.replaceState({}, "", "/about?utm_source=instagram&token=do-not-forward#contact");
 
@@ -40,6 +42,7 @@ describe("Expected End contact composer", () => {
     await user.click(screen.getByRole("button", { name: /Prepare email/ }));
 
     const preparedEmail = decodeURIComponent(preparedHref);
+    expect(wasAttachedToDocument).toBe(true);
     expect(preparedEmail).toContain("mailto:expectedendai@gmail.com");
     expect(preparedEmail).toContain("Expected End inquiry — Building an app or software idea");
     expect(preparedEmail).toContain("Reply email: visitor@example.com");
