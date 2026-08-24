@@ -44,6 +44,11 @@ describe("Expected End contact composer", () => {
     const preparedEmail = decodeURIComponent(preparedHref);
     expect(wasAttachedToDocument).toBe(true);
     expect(preparedEmail).toContain("mailto:expectedendai@gmail.com");
+    expect(screen.getByRole("link", { name: "Open your email app" })).toHaveAttribute("href", preparedHref);
+    const outlookUrl = new URL(screen.getByRole("link", { name: "Open in Outlook" }).getAttribute("href") ?? "");
+    expect(outlookUrl.origin).toBe("https://outlook.office.com");
+    expect(outlookUrl.searchParams.get("to")).toBe("expectedendai@gmail.com");
+    expect(outlookUrl.searchParams.get("subject")).toBe("Expected End inquiry — Building an app or software idea");
     expect(preparedEmail).toContain("Expected End inquiry — Building an app or software idea");
     expect(preparedEmail).toContain("Reply email: visitor@example.com");
     expect(preparedEmail).toContain("Price range: $2,000-$10,000");

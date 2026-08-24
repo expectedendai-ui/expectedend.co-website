@@ -31,7 +31,7 @@ export const getContactSource = (href: string) => {
   return source.toString();
 };
 
-export const buildContactMailto = (details: ContactDetails, source: string) => {
+const buildContactEmail = (details: ContactDetails, source: string) => {
   const subject = `Expected End inquiry — ${details.reason}`;
   const body = [
     "Hi Expected End,",
@@ -49,7 +49,18 @@ export const buildContactMailto = (details: ContactDetails, source: string) => {
     `Source: ${source}`,
   ].join("\n");
 
+  return { subject, body };
+};
+
+export const buildContactMailto = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
   return `mailto:${CONTACT_ADDRESS}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+};
+
+export const buildOutlookComposeUrl = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
+  const parameters = new URLSearchParams({ to: CONTACT_ADDRESS, subject, body });
+  return `https://outlook.office.com/mail/deeplink/compose?${parameters}`;
 };
 
 const readField = (formData: FormData, name: string) => String(formData.get(name) ?? "").trim();
@@ -60,6 +71,9 @@ type ContactFormProps = {
 };
 
 export function ContactForm({ initialProject = "", initialReason = "" }: ContactFormProps = {}) {
+  const [preparedEmail, setPreparedEmail] = React.useState("");
+  const [outlookComposeUrl, setOutlookComposeUrl] = React.useState("");
+
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
@@ -73,8 +87,11 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
       discovery: readField(formData, "discovery"),
       message: readField(formData, "message"),
     };
+    const href = buildContactMailto(details, getContactSource(window.location.href));
+    setPreparedEmail(href);
+    setOutlookComposeUrl(buildOutlookComposeUrl(details, getContactSource(window.location.href)));
     const emailLink = document.createElement("a");
-    emailLink.href = buildContactMailto(details, getContactSource(window.location.href));
+    emailLink.href = href;
     document.body.append(emailLink);
     emailLink.click();
     emailLink.remove();
@@ -174,7 +191,10 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         </label>
 
         <div className={styles.contactSubmit}>
-          <p>Nothing is sent until you review it and press Send in your email app.</p>
+          <p>
+            Nothing is sent until you review it and press Send in your email app.
+            {preparedEmail && outlookComposeUrl ? <> If it did not open, use <a href={preparedEmail}>Open your email app</a> or <a href={outlookComposeUrl}>Open in Outlook</a>.</> : null}
+          </p>
           <button className={styles.actionWithIcon} type="submit">
             Prepare email <ArrowUpRightIcon className={styles.actionIcon} />
           </button>
