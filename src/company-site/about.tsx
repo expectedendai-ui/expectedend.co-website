@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ArrowDownIcon } from "./action-icons";
+import { ArrowDownIcon, InstagramIcon, LinkedInIcon } from "./action-icons";
 import { ContactForm } from "./contact-form";
 import styles from "./style.module.css";
 import { VerseDialog } from "./verse-dialog";
@@ -67,6 +67,14 @@ export function AboutPage() {
                 <h2>Hi, my name is Denzel Rigaud.</h2>
                 <p>Technology has been part of my life since fifth grade. School had frustrated me from an early age. I failed second grade while facing a language barrier, and I did not believe that failure should define me. I decided to start by hacking my grades. It began small, but when I realized how far I could penetrate systems and jailbreak technology, I became curious about the systems around me and started having fun.</p>
                 <p>That curiosity carried me into Instagram bot farming, coding, automation, machine learning, online communities, digital growth, and the darkest corners of the internet. I learned how powerful technology could be. Some choices also taught me to use better judgment.</p>
+                <nav className={styles.founderSocials} aria-label="Denzel Rigaud social profiles">
+                  <a href="https://www.instagram.com/smiledenzel/" target="_blank" rel="noopener noreferrer" aria-label="Denzel Rigaud on Instagram">
+                    <InstagramIcon />
+                  </a>
+                  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="Denzel Rigaud on LinkedIn">
+                    <LinkedInIcon />
+                  </a>
+                </nav>
               </div>
 
               <section className={styles.storyChapter} aria-labelledby="family-title">

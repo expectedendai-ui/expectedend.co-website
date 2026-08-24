@@ -16,6 +16,20 @@ export function HomePage({ onNavigate }: HomePageProps) {
   return (
     <main className={styles.home}>
       <section className={styles.hero} aria-labelledby="hero-title">
+        <video
+          className={styles.heroVideo}
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-hidden="true"
+          tabIndex={-1}
+          poster="/media/expected-end-hero-poster.jpg"
+          preload="metadata"
+        >
+          <source src="/media/expected-end-hero.webm" type="video/webm" />
+          <source src="/media/expected-end-hero.mp4" type="video/mp4" />
+        </video>
         <div className={styles.heroGlow} aria-hidden="true" />
         <div className={styles.heroInner}>
           <p className={styles.kicker}>Expected End</p>

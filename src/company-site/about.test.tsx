@@ -71,6 +71,8 @@ describe("Expected End About page", () => {
     expect(screen.queryByText(/I am a jack of all trades/i)).not.toBeInTheDocument();
     expect(screen.getByText(/I decided to start by hacking my grades/i)).toBeInTheDocument();
     expect(screen.getByText(/Instagram bot farming/i)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Denzel Rigaud on Instagram" })).toHaveAttribute("href", "https://www.instagram.com/smiledenzel/");
+    expect(screen.getByRole("link", { name: "Denzel Rigaud on LinkedIn" })).toHaveAttribute("href", "https://www.linkedin.com/feed/");
     const brother = screen.getByRole("link", { name: "brother" });
     expect(brother).toHaveAttribute("href", "https://www.linkedin.com/in/kareem-rigaud-2b61b97a");
     expect(brother).toHaveAttribute("target", "_blank");

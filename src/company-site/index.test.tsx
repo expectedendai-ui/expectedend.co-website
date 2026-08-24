@@ -10,9 +10,18 @@ describe("Expected End public site", () => {
   });
 
   it("renders the approved mission and compact project destinations", () => {
-    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+    const { container } = render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     expect(screen.getByRole("heading", { level: 1, name: "Purpose, built beautifully." })).toBeInTheDocument();
+    const heroVideo = container.querySelector("video");
+    expect(heroVideo).toHaveAttribute("aria-hidden", "true");
+    expect(heroVideo).toHaveAttribute("autoplay");
+    expect(heroVideo).toHaveAttribute("loop");
+    expect(heroVideo).toHaveProperty("muted", true);
+    expect(heroVideo).toHaveAttribute("playsinline");
+    expect(heroVideo).toHaveAttribute("poster", "/media/expected-end-hero-poster.jpg");
+    expect(heroVideo?.querySelector('source[type="video/webm"]')).toHaveAttribute("src", "/media/expected-end-hero.webm");
+    expect(heroVideo?.querySelector('source[type="video/mp4"]')).toHaveAttribute("src", "/media/expected-end-hero.mp4");
     const approvedMission = "We create thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!";
     expect(screen.getByText((_, element) => element?.tagName === "P" && element.textContent === approvedMission)).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Visit MyBibleLens" })).toHaveAttribute("href", "https://mybiblelens.us/");
@@ -34,6 +43,7 @@ describe("Expected End public site", () => {
     expect(myBibleLensArtwork).toHaveAttribute("target", "_blank");
     expect(myBibleLensArtwork).toHaveAttribute("rel", "noreferrer");
     expect(screen.getByRole("link", { name: "Visit app" })).toHaveAttribute("target", "_blank");
+    expect(screen.getByText(/Everything I build under this company points toward the same mission/i)).toBeInTheDocument();
     expect(screen.queryByText("JARVIS")).not.toBeInTheDocument();
     expect(screen.queryByText("THE MENU")).not.toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Ideas can feel meaningful and easy to enter." })).not.toBeInTheDocument();
