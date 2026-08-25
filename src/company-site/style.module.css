@@ -151,17 +151,17 @@
 .heroTitle {
   max-width: 980px;
   margin: 0 auto;
-  font-family: "Instrument Serif", Georgia, serif;
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
   font-size: clamp(4.2rem, 10vw, 8.7rem);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -.055em;
   line-height: .82;
   text-wrap: balance;
 }
-.heroTitle em { display: block; color: var(--gold-soft); font-weight: 400; }
+.heroTitle em { display: block; color: var(--gold-soft); font-weight: 500; font-style: normal; }
 .site[data-site-theme="white"] .heroTitle em { color: #b17d1f; }
 .heroStatement { max-width: 780px; margin: 2.5rem auto 0; color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.28rem); line-height: 1.65; text-wrap: balance; }
-.heroStatement em { color: var(--ink); font-family: "Instrument Serif", Georgia, serif; font-size: 1.13em; }
+.heroStatement em { color: var(--ink); font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: 1.05em; font-style: normal; font-weight: 600; }
 .primaryAction {
   display: inline-flex;
   min-height: 48px;
@@ -551,52 +551,6 @@
 .footerBlessing { display: flex; align-items: center; gap: .25rem; margin: -12px 0 -12px auto; }
 .footerBottom .blessing { color: var(--gold-soft); font-family: "Instrument Serif", Georgia, serif; font-size: .9rem; font-weight: 400; letter-spacing: .04em; text-transform: none; }
 .site[data-site-theme="white"] .footerBottom .blessing { color: #987126; }
-
-.bioDialog {
-  width: min(440px, calc(100% - 32px));
-  padding: 0;
-  border: 1px solid var(--line);
-  border-radius: 24px;
-  color: var(--ink);
-  background: var(--surface-solid);
-  box-shadow: 0 34px 100px rgba(0, 5, 30, .5);
-}
-.bioDialog::backdrop { background: rgba(3, 10, 31, .66); backdrop-filter: blur(8px); }
-.bioDialogInner { min-height: 250px; padding: 1.4rem; }
-.bioDialogHead { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
-.bioDialogHead h2 { margin: 0; font-family: "Instrument Serif", Georgia, serif; font-size: 1.65rem; font-weight: 400; }
-.bioDialogHead button { display: grid; width: 44px; height: 44px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: transparent; cursor: pointer; font-size: 1.5rem; }
-.bioBlank { min-height: 150px; }
-.waterBioDialog { width: min(680px, calc(100% - 32px)); max-height: min(92svh, 920px); overflow-y: auto; }
-.waterBioDialog .bioDialogInner { padding: clamp(1.4rem, 4vw, 2.5rem); }
-.waterBioDialog .bioDialogHead { align-items: flex-start; }
-.waterBioDialog .bioDialogHead h2 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: .98; }
-.waterBioDialog .bioDialogHead .waterBioEyebrow { font-size: clamp(.82rem, 2vw, 1rem); }
-.waterBioEyebrow { margin: 0 0 .65rem; color: var(--gold-soft); font-size: .65rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
-.site[data-site-theme="white"] .waterBioEyebrow { color: #8d651d; }
-.waterBioContent { margin-top: 2rem; }
-.waterBioStory { text-align: left; }
-.waterBioStory p { margin: 0 0 1rem; color: var(--muted); font-size: .94rem; line-height: 1.75; }
-.waterBioStory em, .waterBioStory strong, .waterBioStory a { color: var(--gold-soft); }
-.site[data-site-theme="white"] .waterBioStory em,
-.site[data-site-theme="white"] .waterBioStory strong,
-.site[data-site-theme="white"] .waterBioStory a { color: #8d651d; }
-.waterBioStory a { border-bottom: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); }
-.waterBioSource { display: inline-block; font-size: .72rem; letter-spacing: .04em; opacity: .65; }
-.waterBioStat { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: .5rem .75rem; margin-top: 1.7rem; padding-top: 1.5rem; border-top: 1px solid var(--line); text-align: center; }
-.waterBioStatFrom { font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.55rem, 4vw, 2rem); font-weight: 700; opacity: .62; text-decoration: line-through; }
-.waterBioStatArrow { color: var(--gold-soft); }
-.waterBioStatTo { color: var(--gold-soft); font-family: "Instrument Serif", Georgia, serif; font-size: 2rem; }
-.site[data-site-theme="white"] .waterBioStatArrow,
-.site[data-site-theme="white"] .waterBioStatTo { color: #8d651d; }
-.waterBioStatCaption { flex-basis: 100%; color: var(--muted); font-size: .65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.waterBioWhat { margin-top: 2.3rem; padding-top: 1.8rem; border-top: 1px solid var(--line); }
-.waterBioWhat h3 { margin: 0 0 1.2rem; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 400; }
-.waterBioPhone { position: relative; width: min(300px, 82%); margin: 1.8rem auto .4rem; padding: 11px; border: 1px solid color-mix(in srgb, var(--gold) 34%, var(--line)); border-radius: 42px; background: linear-gradient(160deg, #292929, #0a0a0a); box-shadow: 0 24px 60px -20px rgba(0, 0, 0, .82), 0 0 40px -14px color-mix(in srgb, var(--gold) 32%, transparent); }
-.waterBioPhoneNotch { position: absolute; z-index: 2; top: 19px; left: 50%; width: 34%; height: 20px; border-radius: 0 0 14px 14px; background: #050505; pointer-events: none; transform: translateX(-50%); }
-.waterBioVideo { display: block; width: 100%; aspect-ratio: 1170 / 2532; border-radius: 30px; background: #000; object-fit: cover; }
-.waterBioVideoCaption { margin: .9rem 0 0; color: var(--gold-soft); font-size: .68rem; font-weight: 700; letter-spacing: .14em; text-align: center; text-transform: uppercase; opacity: .7; }
-.site[data-site-theme="white"] .waterBioVideoCaption { color: #8d651d; }
 
 .contactDialog { width: min(980px, calc(100% - 32px)); max-height: min(92svh, 940px); padding: 0; overflow-y: auto; border: 1px solid var(--line); border-radius: 32px; color: var(--ink); background: var(--surface-solid); box-shadow: 0 40px 120px rgba(0, 5, 30, .58); }
 .contactDialog::backdrop { background: rgba(3, 10, 31, .72); backdrop-filter: blur(12px); }

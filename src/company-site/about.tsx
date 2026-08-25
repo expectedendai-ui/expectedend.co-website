@@ -26,7 +26,7 @@ export function AboutPage() {
         <div className={styles.aboutCopy}>
           <p className={styles.aboutLead}>Expected End LLC creates software, productivity tools, digital experiences, and communities that bring people closer to God.</p>
           <p>We design products that help people learn, create, work, and find peace while leaving room for family, friends, and life beyond the screen.</p>
-          <p>MyBibleLens and The Water Check are the first expressions of that mission. Each project meets a different need, and both make technology feel useful, human, and easy to leave when its work is done.</p>
+          <p>MyBibleLens and The Water Check community are the first expressions of that mission. Each meets a different need and helps make technology feel useful, human, and easy to leave when its work is done.</p>
         </div>
       </section>
 

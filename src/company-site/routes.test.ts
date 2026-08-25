@@ -11,28 +11,19 @@ describe("company-site routes", () => {
     expect(getRoute("/not-a-real-page").key).toBe("not-found");
   });
 
-  it("resolves the Water Check landing route with or without a trailing slash", () => {
-    const directRoute = getRoute("/thewatercheck");
-    const trailingSlashRoute = getRoute("/thewatercheck/");
-
-    expect(directRoute).toMatchObject({ key: "water-check-home", family: "water-check" });
-    expect(trailingSlashRoute).toEqual(directRoute);
-    expect(getRouteMetadata("/thewatercheck/").canonical).toBe("https://expectedend.co/thewatercheck");
-  });
-
   it.each([
-    ["/thewatercheck/privacy", "water-check-privacy", "Privacy"],
-    ["/thewatercheck/terms", "water-check-terms", "Terms"],
-    ["/thewatercheck/health-and-ai-disclaimer", "water-check-health-and-ai-disclaimer", "Health & AI Disclaimer"],
-    ["/thewatercheck/consumer-health-data", "water-check-consumer-health-data", "Consumer Health Data"],
-  ])("resolves %s with distinct product metadata", (path, key, title) => {
-    const route = getRoute(`${path}/`);
-    const metadata = getRouteMetadata(path);
-
-    expect(route).toMatchObject({ key, family: "water-check", path });
-    expect(metadata.title).toContain(title);
-    expect(metadata.description).toContain("Water Check");
-    expect(metadata.canonical).toBe(`https://expectedend.co${path}`);
+    "/thewatercheck",
+    "/thewatercheck/",
+    "/thewatercheck/privacy",
+    "/thewatercheck/terms",
+    "/thewatercheck/health-and-ai-disclaimer",
+    "/thewatercheck/consumer-health-data",
+  ])("retires %s as a not-found route", (path) => {
+    expect(getRoute(path).key).toBe("not-found");
+    expect(getRouteMetadata(path)).toMatchObject({
+      title: "Page not found — Expected End",
+      canonical: "https://expectedend.co/",
+    });
   });
 
   it("provides route-aware title, description, and canonical metadata", () => {

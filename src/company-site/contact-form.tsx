@@ -153,7 +153,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
             <option value="" disabled>Choose one</option>
             <option>Expected End</option>
             <option>MyBibleLens</option>
-            <option>The Water Check</option>
+            <option>The Water Check community</option>
             <option>A new idea</option>
           </select>
         </label>
@@ -188,7 +188,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
             <option value="" disabled>Choose one</option>
             <option>Instagram</option>
             <option>MyBibleLens</option>
-            <option>The Water Check</option>
+            <option>The Water Check community</option>
             <option>Search</option>
             <option>A referral</option>
             <option>Somewhere else</option>

@@ -1,16 +1,10 @@
 import * as React from "react";
 import { ArrowDownIcon, ArrowUpRightIcon } from "./action-icons";
-import { BioDialog } from "./bio-dialog";
 import { ContactDialog } from "./contact-dialog";
 import { PROJECTS, SERVICES } from "./content";
 import styles from "./style.module.css";
 
-type HomePageProps = {
-  onNavigate: React.MouseEventHandler<HTMLAnchorElement>;
-};
-
-export function HomePage({ onNavigate }: HomePageProps) {
-  const [activeBio, setActiveBio] = React.useState<string | null>(null);
+export function HomePage() {
   const [activeService, setActiveService] = React.useState<{ reason: string; opener: HTMLButtonElement } | null>(null);
 
   return (
@@ -52,9 +46,8 @@ export function HomePage({ onNavigate }: HomePageProps) {
                 className={styles.projectArt}
                 data-art-variant={project.artVariant}
                 href={project.destination.href}
-                onClick={project.destination.kind === "internal" ? onNavigate : undefined}
-                target={project.destination.kind === "external" ? "_blank" : undefined}
-                rel={project.destination.kind === "external" ? "noreferrer" : undefined}
+                target="_blank"
+                rel="noreferrer"
                 aria-label={`Visit ${project.name}`}
               >
                 <span className={styles.projectArtClip}>
@@ -65,35 +58,23 @@ export function HomePage({ onNavigate }: HomePageProps) {
                 <p className={styles.status}>{project.category}</p>
                 <h3 className={project.titleClassName ? styles[project.titleClassName] : ""}>{project.name}</h3>
                 <div className={styles.projectActions}>
-                  {project.bioHref ? (
-                    <a
-                      className={styles.bioAction}
-                      href={project.bioHref}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`Bio for ${project.name}`}
-                    >
-                      Bio
-                    </a>
-                  ) : (
-                    <button
-                      className={styles.bioAction}
-                      type="button"
-                      aria-label={`Bio for ${project.name}`}
-                      onClick={() => setActiveBio(project.name)}
-                    >
-                      Bio
-                    </button>
-                  )}
+                  <a
+                    className={styles.bioAction}
+                    href={project.secondaryAction.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`${project.secondaryAction.label} for ${project.name}`}
+                  >
+                    {project.secondaryAction.label}
+                  </a>
                   <a
                     className={styles.actionWithIcon}
                     href={project.destination.href}
-                    onClick={project.destination.kind === "internal" ? onNavigate : undefined}
-                    target={project.destination.kind === "external" ? "_blank" : undefined}
-                    rel={project.destination.kind === "external" ? "noreferrer" : undefined}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     {project.destination.actionLabel}
-                    {project.destination.kind === "external" && <ArrowUpRightIcon className={styles.actionIcon} />}
+                    <ArrowUpRightIcon className={styles.actionIcon} />
                   </a>
                 </div>
               </div>
@@ -125,7 +106,6 @@ export function HomePage({ onNavigate }: HomePageProps) {
         </div>
       </section>
 
-      {activeBio && <BioDialog projectName={activeBio} onClose={() => setActiveBio(null)} />}
       {activeService && (
         <ContactDialog
           initialReason={activeService.reason}
