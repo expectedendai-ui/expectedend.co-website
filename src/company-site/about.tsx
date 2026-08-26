@@ -47,7 +47,9 @@ export function AboutPage() {
           <div className={styles.founderRevealIntro}>
             <p className={styles.kicker}>Behind the company</p>
             <h2 id="founder-reveal-title">The story behind Expected End.</h2>
-            <p>The personal road from fifth-grade technology experiments to grief, faith, MyBibleLens, and a new beginning.</p>
+            <p>
+              The personal road from fifth-grade technology experiments to grief, faith, MyBibleLens, and a new beginning. <span className={styles.founderReadMore}>Read more</span>
+            </p>
           </div>
           <button
             className={styles.founderToggle}
@@ -56,8 +58,8 @@ export function AboutPage() {
             aria-controls="founder-story-content"
             onClick={() => setShowFounderStory((isOpen) => !isOpen)}
           >
-            <span>{showFounderStory ? "Close Founder Story" : "The Founder Story"}</span>
-            <span aria-hidden="true">{showFounderStory ? "−" : "+"}</span>
+            <span>{showFounderStory ? "Close Founder Story" : "The Founder Story, Denzel Rigaud"}</span>
+            <ArrowDownIcon className={styles.founderToggleIcon} />
           </button>
 
           {showFounderStory && (

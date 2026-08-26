@@ -27,10 +27,6 @@ export const PROJECTS = [
       href: "https://www.instagram.com/thewatercheck/",
       actionLabel: "Visit community",
     },
-    secondaryAction: {
-      label: "Instagram",
-      href: "https://www.instagram.com/thewatercheck/",
-    },
     image: "/brand/thewatercheck.png",
     artVariant: "watercheck",
     titleClassName: "",

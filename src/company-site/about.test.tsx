@@ -64,7 +64,7 @@ describe("Expected End About page", () => {
     expect(screen.getByRole("heading", { name: "Tell the story with us." })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).not.toBeInTheDocument();
 
-    const storyToggle = screen.getByRole("button", { name: "The Founder Story" });
+    const storyToggle = screen.getByRole("button", { name: "The Founder Story, Denzel Rigaud" });
     expect(storyToggle).toHaveAttribute("aria-expanded", "false");
     await user.click(storyToggle);
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();

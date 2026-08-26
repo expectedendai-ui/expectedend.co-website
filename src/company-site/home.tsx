@@ -1,10 +1,12 @@
 import * as React from "react";
 import { ArrowDownIcon, ArrowUpRightIcon } from "./action-icons";
+import { BioDialog } from "./bio-dialog";
 import { ContactDialog } from "./contact-dialog";
 import { PROJECTS, SERVICES } from "./content";
 import styles from "./style.module.css";
 
 export function HomePage() {
+  const [bioOpener, setBioOpener] = React.useState<HTMLButtonElement | null>(null);
   const [activeService, setActiveService] = React.useState<{ reason: string; opener: HTMLButtonElement } | null>(null);
 
   return (
@@ -58,15 +60,26 @@ export function HomePage() {
                 <p className={styles.status}>{project.category}</p>
                 <h3 className={project.titleClassName ? styles[project.titleClassName] : ""}>{project.name}</h3>
                 <div className={styles.projectActions}>
-                  <a
-                    className={styles.bioAction}
-                    href={project.secondaryAction.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${project.secondaryAction.label} for ${project.name}`}
-                  >
-                    {project.secondaryAction.label}
-                  </a>
+                  {project.name === "The Water Check" ? (
+                    <button
+                      className={styles.bioAction}
+                      type="button"
+                      aria-label="Bio for The Water Check"
+                      onClick={(event) => setBioOpener(event.currentTarget)}
+                    >
+                      Bio
+                    </button>
+                  ) : (
+                    <a
+                      className={styles.bioAction}
+                      href={project.secondaryAction.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${project.secondaryAction.label} for ${project.name}`}
+                    >
+                      {project.secondaryAction.label}
+                    </a>
+                  )}
                   <a
                     className={styles.actionWithIcon}
                     href={project.destination.href}
@@ -113,6 +126,8 @@ export function HomePage() {
           onClose={() => setActiveService(null)}
         />
       )}
+
+      {bioOpener && <BioDialog returnFocusTo={bioOpener} onClose={() => setBioOpener(null)} />}
     </main>
   );
 }

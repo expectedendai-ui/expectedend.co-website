@@ -38,10 +38,7 @@ describe("Expected End public site", () => {
     expect(waterCheckAction).toHaveAttribute("href", "https://www.instagram.com/thewatercheck/");
     expect(waterCheckAction).toHaveAttribute("target", "_blank");
     expect(waterCheckAction).toHaveAttribute("rel", "noreferrer");
-    expect(screen.getByRole("link", { name: "Instagram for The Water Check" })).toHaveAttribute(
-      "href",
-      "https://www.instagram.com/thewatercheck/"
-    );
+    expect(screen.getByRole("button", { name: "Bio for The Water Check" })).toBeInTheDocument();
 
     const myBibleLensArtwork = screen.getByRole("link", { name: "Visit MyBibleLens" });
     expect(myBibleLensArtwork).toHaveAttribute("target", "_blank");
@@ -67,6 +64,20 @@ describe("Expected End public site", () => {
     window.removeEventListener("click", stopJSDOMNavigation);
 
     expect(window.location.pathname).toBe("/");
+  });
+
+  it("opens the Water Check bio dialog and restores focus when it closes", async () => {
+    const user = userEvent.setup();
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+    const bioButton = screen.getByRole("button", { name: "Bio for The Water Check" });
+
+    await user.click(bioButton);
+    const dialog = screen.getByRole("dialog", { name: "What happened to @thewatercheck?" });
+    expect(within(dialog).getByText("200,000 followers")).toBeInTheDocument();
+
+    await user.click(within(dialog).getByRole("button", { name: "Close bio" }));
+    expect(screen.queryByRole("dialog", { name: "What happened to @thewatercheck?" })).not.toBeInTheDocument();
+    expect(bioButton).toHaveFocus();
   });
 
   it("uses vector action arrows instead of platform-dependent arrow characters", () => {
