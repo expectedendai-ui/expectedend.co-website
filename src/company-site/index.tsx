@@ -6,6 +6,7 @@ import { InfoPage } from "./info-page";
 import { LEGAL_CONTENT } from "./legal-content";
 import { Navigation } from "./navigation";
 import { getRoute, getRouteMetadata, isInternalHref } from "./routes";
+import { Storefront } from "./storefront";
 import styles from "./style.module.css";
 
 type CompanySiteProps = {
@@ -87,7 +88,9 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   };
 
   const renderCompanyRoute = () => {
-    if (route.key === "home") return <HomePage />;
+    if (route.key === "home") return <HomePage onNavigate={onNavigate} />;
+    if (route.key === "mybiblelens-store") return <Storefront brand="mybiblelens" onNavigate={onNavigate} />;
+    if (route.key === "watercheck-store") return <Storefront brand="watercheck" onNavigate={onNavigate} />;
     if (route.key === "about") return <AboutPage />;
     if (route.key === "terms" || route.key === "privacy" || route.key === "accessibility") {
       return <InfoPage content={LEGAL_CONTENT[route.key]} />;
@@ -105,9 +108,13 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
 
   return (
     <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue">
-      <Navigation isHome={route.key === "home"} onNavigate={onNavigate} />
+      {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
+        <Navigation isHome={route.key === "home"} onNavigate={onNavigate} />
+      )}
       {renderCompanyRoute()}
-      <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "about" ? onOpenArtWorld : undefined} />
+      {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
+        <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "about" ? onOpenArtWorld : undefined} />
+      )}
     </div>
   );
 }

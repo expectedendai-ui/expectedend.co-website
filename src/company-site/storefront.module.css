@@ -1,0 +1,873 @@
+.store {
+  --bg: #25170f;
+  --surface: #3a2415;
+  --paper: #f4e9cf;
+  --ink: #25170f;
+  --accent: #e6bf72;
+  --muted: #cdb998;
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+  color: var(--paper);
+  background: var(--bg);
+  font-family: "DM Sans", sans-serif;
+}
+.store[data-store-brand="watercheck"] {
+  --bg: #08638c;
+  --surface: #0b7da8;
+  --paper: #f1fdff;
+  --ink: #04314d;
+  --accent: #8aefff;
+  --muted: #c5edf5;
+  background:
+    radial-gradient(circle at 16% 8%, rgba(139, 239, 255, 0.28), transparent 28%),
+    radial-gradient(circle at 86% 34%, rgba(54, 197, 235, 0.24), transparent 32%),
+    linear-gradient(180deg, #0b79a8 0%, #07628f 46%, #064f7a 100%);
+}
+.waterField {
+  display: none;
+}
+.store[data-store-brand="watercheck"] .waterField {
+  position: fixed;
+  z-index: 0;
+  inset: -18vh -24vw;
+  display: block;
+  pointer-events: none;
+  opacity: 0.82;
+  background:
+    radial-gradient(ellipse at 24% 14%, rgba(218, 254, 255, 0.46), transparent 26%),
+    radial-gradient(ellipse at 76% 38%, rgba(82, 218, 246, 0.42), transparent 31%),
+    radial-gradient(ellipse at 44% 82%, rgba(1, 72, 139, 0.32), transparent 36%);
+  filter: blur(16px);
+  animation: water-drift 14s ease-in-out infinite alternate;
+}
+.store[data-store-brand="watercheck"] .waterField::before {
+  position: absolute;
+  inset: -12%;
+  content: "";
+  opacity: 0.52;
+  background-image: repeating-radial-gradient(
+    ellipse at 50% -8%,
+    transparent 0 52px,
+    rgba(214, 252, 255, 0.34) 54px 57px,
+    transparent 61px 112px
+  );
+  background-size: 300px 150px;
+  mix-blend-mode: screen;
+  transform: rotate(-7deg) scale(1.16);
+  animation: water-current-slide 18s linear infinite;
+}
+.store[data-store-brand="watercheck"] .waterField::after {
+  position: absolute;
+  inset: 4% -8%;
+  content: "";
+  opacity: 0.58;
+  background:
+    linear-gradient(112deg, transparent 16%, rgba(222, 254, 255, 0.22) 29%, transparent 42%),
+    linear-gradient(104deg, transparent 50%, rgba(105, 224, 249, 0.2) 62%, transparent 74%);
+  filter: blur(20px);
+  animation: water-caustic-shimmer 9s ease-in-out infinite alternate;
+}
+.waterIntro {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: linear-gradient(180deg, #edfdff, #bceefa);
+  animation: water-intro-shell 4.2s both;
+}
+.waterIntroLogo {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  width: clamp(150px, 22vw, 260px);
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid rgba(222, 253, 255, 0.88);
+  border-radius: 48% 52% 46% 54% / 52% 46% 54% 48%;
+  background: radial-gradient(
+    circle at 32% 24%,
+    rgba(255, 255, 255, 0.95),
+    rgba(94, 219, 250, 0.62) 24%,
+    rgba(5, 85, 166, 0.84) 72%
+  );
+  box-shadow:
+    inset 15px 18px 28px rgba(236, 254, 255, 0.48),
+    inset -18px -22px 34px rgba(0, 42, 124, 0.36),
+    0 28px 70px rgba(0, 44, 109, 0.28);
+  transform: translate(-50%, -50%);
+  animation: water-intro-logo 4.2s both;
+}
+.waterIntroLogo img {
+  display: block;
+  width: 66%;
+  height: auto;
+  filter: drop-shadow(0 12px 16px rgba(0, 30, 92, 0.24));
+}
+.waterIntroFill {
+  position: absolute;
+  z-index: 3;
+  inset: 0 -8%;
+  background: linear-gradient(180deg, #45cbed, #0668b8 52%, #003d8d);
+  will-change: transform;
+}
+.waterIntroFill svg {
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 24vh;
+  fill: #45cbed;
+}
+.waterIntroFillBack {
+  z-index: 3;
+  opacity: 0.72;
+  background: #6adcf2;
+  animation: water-intro-rise-back 4.2s cubic-bezier(0.65, 0, 0.22, 1) both;
+}
+.waterIntroFillBack svg {
+  fill: #6adcf2;
+  animation: water-intro-wave-sway 1.15s ease-in-out infinite alternate;
+}
+.waterIntroFillFront {
+  z-index: 4;
+  animation: water-intro-rise-front 4.2s cubic-bezier(0.65, 0, 0.22, 1) both;
+}
+.waterIntroFillFront svg {
+  animation: water-intro-wave-sway 0.95s ease-in-out -0.3s infinite alternate-reverse;
+}
+.waterIntroWordmark {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  bottom: 9vh;
+  left: 0;
+  margin: 0;
+  color: white;
+  font:
+    400 clamp(2.4rem, 7vw, 6rem) / 0.88 "Instrument Serif",
+    Georgia,
+    serif;
+  letter-spacing: -0.055em;
+  text-align: center;
+  text-shadow: 0 8px 30px rgba(0, 37, 100, 0.32);
+  animation: water-intro-wordmark 4.2s both;
+}
+.nav,
+.hero,
+.collection,
+.dropNote,
+.footer {
+  position: relative;
+  z-index: 1;
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 0;
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.nav a {
+  color: var(--paper);
+  text-decoration: none;
+}
+.collectionLink,
+.heroAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+.collectionLink svg,
+.heroAction svg,
+.buyButton svg {
+  width: 1rem;
+  height: 1rem;
+}
+.hero {
+  min-height: min(720px, 82svh);
+  display: grid;
+  align-content: center;
+  padding: 4rem 0 8rem;
+}
+.hero::after {
+  position: absolute;
+  right: 3%;
+  bottom: 7%;
+  width: min(37vw, 440px);
+  aspect-ratio: 1;
+  border: 1px solid color-mix(in srgb, var(--accent) 48%, transparent);
+  border-radius: 45% 55% 58% 42% / 48% 42% 58% 52%;
+  content: "";
+  opacity: 0.65;
+  box-shadow:
+    inset 0 0 80px color-mix(in srgb, var(--accent) 14%, transparent),
+    0 0 100px color-mix(in srgb, var(--accent) 10%, transparent);
+  transform: rotate(-18deg);
+  animation: store-orbit 12s ease-in-out infinite alternate;
+}
+.heroGlow {
+  position: absolute;
+  inset: 12% auto auto -15%;
+  width: 32rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  opacity: 0.55;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 38%, transparent), transparent 68%);
+  filter: blur(12px);
+}
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.hero h1 {
+  position: relative;
+  z-index: 1;
+  max-width: 920px;
+  margin: 0.8rem 0 0;
+  color: var(--paper);
+  font-weight: 400;
+  line-height: 0.88;
+}
+.mbl {
+  max-width: 64%;
+  font-family: "Hammersmith One", "DM Sans", sans-serif;
+  font-size: clamp(3.4rem, 8.5vw, 7rem);
+  letter-spacing: -0.075em;
+}
+.watercheck {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(5rem, 14vw, 11rem);
+  letter-spacing: -0.07em;
+}
+.headline {
+  max-width: 540px;
+  margin: 2.2rem 0 0;
+  color: var(--paper);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1;
+}
+.intro {
+  max-width: 440px;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.heroAction {
+  width: fit-content;
+  margin-top: 2rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 62%, transparent);
+  border-radius: 999px;
+  color: var(--paper);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition:
+    transform 180ms ease,
+    background 180ms ease;
+}
+.heroAction:hover {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  transform: translateY(-2px);
+}
+.store[data-store-brand="mybiblelens"] .hero::after {
+  display: none;
+}
+.store[data-store-brand="watercheck"] .hero::after {
+  display: none;
+}
+.mblHeroArt {
+  position: absolute;
+  z-index: 2;
+  right: 3%;
+  bottom: 7%;
+  width: min(37vw, 440px);
+  aspect-ratio: 1;
+  isolation: isolate;
+  perspective: 1100px;
+}
+.mblHeroArt::before {
+  position: absolute;
+  z-index: 0;
+  inset: 10%;
+  border: 1px solid color-mix(in srgb, var(--accent) 58%, transparent);
+  border-radius: 50%;
+  content: "";
+  background: radial-gradient(circle at 34% 28%, rgba(255, 235, 178, 0.13), rgba(75, 39, 17, 0.2) 55%, rgba(16, 7, 2, 0.48));
+  box-shadow:
+    inset 0 0 70px rgba(230, 191, 114, 0.14),
+    0 0 0 12px rgba(230, 191, 114, 0.045),
+    0 28px 70px rgba(8, 3, 0, 0.42);
+}
+.mblFlipStage {
+  position: absolute;
+  z-index: 2;
+  inset: 22%;
+  border-radius: 50%;
+  filter: drop-shadow(0 24px 30px rgba(6, 2, 0, 0.48));
+}
+.mblFlipCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: mbl-logo-flip 7s cubic-bezier(0.68, -0.2, 0.32, 1.2) infinite;
+}
+.mblLogoFace {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.mblLogoBack {
+  transform: rotateY(180deg);
+}
+.mblHeroSticker {
+  position: absolute;
+  z-index: 3;
+  width: 19%;
+  height: auto;
+  filter: drop-shadow(0 10px 10px rgba(14, 5, 0, 0.4));
+  animation: mbl-sticker-float 4.6s ease-in-out infinite alternate;
+}
+.mblStickerCross {
+  top: 9%;
+  left: 1%;
+  transform: rotate(-13deg);
+}
+.mblStickerDove {
+  top: 8%;
+  right: 1%;
+  transform: rotate(11deg);
+  animation-delay: -1.2s;
+}
+.mblStickerLion {
+  bottom: 8%;
+  left: 1%;
+  transform: rotate(9deg);
+  animation-delay: -2.6s;
+}
+.mblStickerBible {
+  right: 1%;
+  bottom: 7%;
+  transform: rotate(-10deg);
+  animation-delay: -3.4s;
+}
+.mblStickerLight {
+  top: 0;
+  left: 42%;
+  width: 16%;
+  transform: rotate(3deg);
+  animation-delay: -1.9s;
+}
+.waterHeroArt {
+  position: absolute;
+  z-index: 2;
+  right: 3%;
+  bottom: 7%;
+  width: min(37vw, 440px);
+  aspect-ratio: 1;
+  isolation: isolate;
+}
+.waterHeroBubble {
+  position: absolute;
+  z-index: 2;
+  inset: 12%;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(220, 252, 255, 0.76);
+  border-radius: 47% 53% 45% 55% / 54% 44% 56% 46%;
+  background: radial-gradient(
+    circle at 30% 22%,
+    rgba(255, 255, 255, 0.92),
+    rgba(93, 220, 253, 0.45) 22%,
+    rgba(1, 89, 173, 0.34) 58%,
+    rgba(0, 38, 112, 0.68)
+  );
+  box-shadow:
+    inset 14px 18px 30px rgba(224, 253, 255, 0.38),
+    inset -18px -22px 38px rgba(0, 35, 115, 0.42),
+    0 30px 72px rgba(0, 18, 77, 0.42);
+  backdrop-filter: blur(8px);
+  animation: water-hero-float 5.4s ease-in-out infinite alternate;
+}
+.waterHeroBubble img {
+  display: block;
+  width: 64%;
+  height: auto;
+  filter: drop-shadow(0 12px 16px rgba(0, 22, 83, 0.32));
+}
+.waterHeroDroplet {
+  position: absolute;
+  z-index: 3;
+  aspect-ratio: 1;
+  border: 1px solid rgba(225, 253, 255, 0.78);
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 24%, white, rgba(108, 226, 255, 0.4) 35%, rgba(2, 71, 157, 0.18) 70%);
+  box-shadow: inset -4px -5px 10px rgba(0, 48, 137, 0.2);
+  animation: water-bubble-drift 4.8s ease-in-out infinite alternate;
+}
+.waterHeroDropletOne {
+  top: 4%;
+  right: 10%;
+  width: 12%;
+}
+.waterHeroDropletTwo {
+  bottom: 14%;
+  left: 1%;
+  width: 8%;
+  animation-delay: -1.8s;
+}
+.waterHeroDropletThree {
+  right: 2%;
+  bottom: 23%;
+  width: 6%;
+  animation-delay: -3.1s;
+}
+.collection {
+  padding: 5rem 0 7rem;
+}
+.collectionHead {
+  max-width: 620px;
+}
+.collectionHead h2,
+.dropNote h2 {
+  margin: 0.65rem 0 0;
+  color: var(--paper);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(3rem, 6vw, 5.6rem);
+  font-weight: 400;
+  letter-spacing: -0.055em;
+  line-height: 0.9;
+}
+.collectionHead > p:last-child,
+.dropNote > p:last-child {
+  max-width: 580px;
+  margin: 1.25rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-top: 3rem;
+}
+.product {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--paper) 19%, transparent);
+  border-radius: 28px;
+  background: color-mix(in srgb, var(--surface) 85%, black 15%);
+}
+.productArt {
+  position: relative;
+  display: grid;
+  min-height: clamp(250px, 34vw, 410px);
+  place-items: center;
+  overflow: hidden;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent) 20%, var(--surface)), var(--surface));
+}
+.productArt::before,
+.productArt::after {
+  position: absolute;
+  border: 1px solid color-mix(in srgb, var(--paper) 33%, transparent);
+  border-radius: 50%;
+  content: "";
+}
+.productArt::before {
+  width: 78%;
+  aspect-ratio: 1;
+  opacity: 0.45;
+}
+.productArt::after {
+  width: 48%;
+  aspect-ratio: 1;
+  opacity: 0.3;
+  transform: translate(38%, -32%);
+}
+.productNumber {
+  position: absolute;
+  z-index: 2;
+  top: 1.25rem;
+  left: 1.25rem;
+  color: var(--paper);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+.productObject {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 42%;
+  height: 61%;
+  border: 2px solid color-mix(in srgb, var(--paper) 77%, transparent);
+  border-radius: 7px;
+  box-shadow:
+    16px 20px 0 color-mix(in srgb, var(--ink) 24%, transparent),
+    inset 0 0 42px color-mix(in srgb, var(--accent) 27%, transparent);
+  transform: rotate(-7deg);
+  transition: transform 350ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.product:hover .productObject {
+  transform: translateY(-10px) rotate(-3deg);
+}
+.productArt[data-product-art="pin"] .productObject {
+  width: 30%;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: rotate(9deg);
+}
+.productArt[data-product-art="tee"] .productObject {
+  width: 45%;
+  height: 54%;
+  clip-path: polygon(25% 0, 39% 11%, 61% 11%, 75% 0, 100% 19%, 80% 39%, 77% 100%, 23% 100%, 20% 39%, 0 19%);
+  border: 0;
+  border-radius: 0;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--paper) 86%, transparent),
+    color-mix(in srgb, var(--accent) 65%, var(--paper))
+  );
+  box-shadow: 16px 20px 0 color-mix(in srgb, var(--ink) 24%, transparent);
+}
+.productArt[data-product-art="hoodie"] .productObject {
+  width: 45%;
+  height: 58%;
+  border-radius: 28% 28% 8px 8px;
+  clip-path: polygon(22% 0, 50% 12%, 78% 0, 100% 22%, 82% 40%, 80% 100%, 20% 100%, 18% 40%, 0 22%);
+  background: color-mix(in srgb, var(--paper) 88%, var(--accent));
+  box-shadow: 16px 20px 0 color-mix(in srgb, var(--ink) 24%, transparent);
+}
+.productInfo {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.35rem;
+}
+.productInfo p {
+  margin: 0 0 0.4rem;
+  color: var(--accent);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.productInfo h3 {
+  margin: 0;
+  color: var(--paper);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(1.65rem, 3vw, 2.35rem);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1;
+}
+.productInfo span {
+  display: block;
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.comingSoon,
+.buyButton {
+  flex: 0 0 auto;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--paper) 35%, transparent);
+  border-radius: 999px;
+  color: var(--paper);
+  background: transparent;
+  font:
+    800 0.66rem / 1 "DM Sans",
+    sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.comingSoon {
+  opacity: 0.68;
+  cursor: not-allowed;
+}
+.buyButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--paper);
+  text-decoration: none;
+}
+.dropNote {
+  margin-bottom: 7rem;
+  padding: clamp(2rem, 6vw, 4rem);
+  border: 1px solid color-mix(in srgb, var(--paper) 20%, transparent);
+  border-radius: 32px;
+  background: linear-gradient(140deg, color-mix(in srgb, var(--accent) 16%, transparent), transparent 70%);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 2.5rem 0;
+  border-top: 1px solid color-mix(in srgb, var(--paper) 19%, transparent);
+}
+.footerMark {
+  margin: 0;
+  color: var(--paper);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 1.5rem;
+}
+.footerNote {
+  max-width: 380px;
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.6;
+}
+.policyLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: start;
+  gap: 0.8rem 1rem;
+  max-width: 440px;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+.policyLinks a {
+  color: var(--paper);
+  text-decoration: none;
+}
+@keyframes store-orbit {
+  to {
+    transform: translate(-2%, 4%) rotate(14deg);
+  }
+}
+@keyframes water-drift {
+  to {
+    transform: translate(8%, -4%) scale(1.1);
+  }
+}
+@keyframes water-current-slide {
+  to {
+    background-position: 300px 150px;
+    transform: rotate(-4deg) scale(1.2);
+  }
+}
+@keyframes water-caustic-shimmer {
+  to {
+    opacity: 0.82;
+    transform: translate(-7%, 5%) skewX(-3deg);
+  }
+}
+@keyframes water-intro-shell {
+  0%,
+  88% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes water-intro-logo {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -44%) scale(0.72) rotate(-8deg);
+  }
+  14%,
+  38% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotate(0);
+  }
+  54% {
+    opacity: 1;
+    transform: translate(-50%, -58%) scale(1.04) rotate(3deg);
+  }
+  72%,
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -92%) scale(0.88) rotate(-4deg);
+  }
+}
+@keyframes water-intro-rise-back {
+  0%,
+  12% {
+    transform: translateY(118%);
+  }
+  56% {
+    transform: translateY(2%);
+  }
+  72% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(-130%);
+  }
+}
+@keyframes water-intro-rise-front {
+  0%,
+  17% {
+    transform: translateY(122%);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  74% {
+    transform: translateY(-7%);
+  }
+  100% {
+    transform: translateY(-132%);
+  }
+}
+@keyframes water-intro-wave-sway {
+  to {
+    transform: translateX(3%) scaleX(1.04);
+  }
+}
+@keyframes water-intro-wordmark {
+  0%,
+  42% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  55%,
+  74% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  88%,
+  100% {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+}
+@keyframes water-hero-float {
+  to {
+    transform: translateY(-10px) rotate(2deg);
+  }
+}
+@keyframes water-bubble-drift {
+  to {
+    transform: translate(5px, -12px) scale(1.05);
+  }
+}
+@keyframes mbl-logo-flip {
+  0%,
+  28% {
+    transform: rotateY(0);
+  }
+  48%,
+  52% {
+    transform: rotateY(180deg);
+  }
+  72%,
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes mbl-sticker-float {
+  to {
+    translate: 0 -9px;
+  }
+}
+@media (max-width: 900px) {
+  .mblHeroArt {
+    right: -2%;
+    width: min(39vw, 390px);
+  }
+}
+@media (max-width: 650px) {
+  .nav,
+  .hero,
+  .collection,
+  .dropNote,
+  .footer {
+    width: calc(100% - 30px);
+  }
+  .nav {
+    padding-block: 1.1rem;
+  }
+  .collectionLink {
+    display: none;
+  }
+  .hero {
+    min-height: 77svh;
+    padding-bottom: 5rem;
+  }
+  .hero::after {
+    width: 72vw;
+    right: -7%;
+    bottom: 5%;
+  }
+  .mbl {
+    max-width: 100%;
+  }
+  .mblHeroArt {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: min(92vw, 430px);
+    margin: 2.5rem auto 0;
+    transform: none;
+  }
+  .waterHeroArt {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: min(88vw, 410px);
+    margin: 2.5rem auto 0;
+  }
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+  .productArt {
+    min-height: 330px;
+  }
+  .productInfo {
+    padding: 1.2rem;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  .policyLinks {
+    justify-content: flex-start;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .store *,
+  .store *::before,
+  .store *::after {
+    animation-duration: 1ms;
+    transition-duration: 1ms;
+  }
+  .mblFlipCard,
+  .mblHeroSticker,
+  .waterHeroBubble,
+  .waterHeroDroplet {
+    animation: none;
+  }
+  .waterIntro {
+    display: none;
+  }
+}

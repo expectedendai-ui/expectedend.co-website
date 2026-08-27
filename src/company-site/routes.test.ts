@@ -8,6 +8,8 @@ describe("company-site routes", () => {
     expect(getRoute("/terms").key).toBe("terms");
     expect(getRoute("/privacy").key).toBe("privacy");
     expect(getRoute("/accessibility").key).toBe("accessibility");
+    expect(getRoute("/mybiblelensstore").key).toBe("mybiblelens-store");
+    expect(getRoute("/thewatercheckstore/").key).toBe("watercheck-store");
     expect(getRoute("/not-a-real-page").key).toBe("not-found");
   });
 
@@ -31,6 +33,10 @@ describe("company-site routes", () => {
     expect(metadata.title).toContain("Privacy");
     expect(metadata.description).toContain("Expected End");
     expect(metadata.canonical).toBe("https://expectedend.co/privacy");
+
+    const storeMetadata = getRouteMetadata("/mybiblelensstore");
+    expect(storeMetadata.title).toContain("MyBibleLens Store");
+    expect(storeMetadata.canonical).toBe("https://expectedend.co/mybiblelensstore");
   });
 
   it("only intercepts same-origin public links", () => {

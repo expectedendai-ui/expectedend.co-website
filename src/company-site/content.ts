@@ -31,6 +31,28 @@ export const PROJECTS = [
     artVariant: "watercheck",
     titleClassName: "",
   },
+  {
+    name: "MyBibleLens Store",
+    category: "Goods for the journey",
+    destination: {
+      href: "/mybiblelensstore",
+      actionLabel: "Enter store",
+    },
+    image: "/brand/mybiblelens-store/store-mark.png",
+    artVariant: "mybiblelens-store",
+    titleClassName: "mblTitle",
+  },
+  {
+    name: "The Water Check Store",
+    category: "First drop coming soon",
+    destination: {
+      href: "/thewatercheckstore",
+      actionLabel: "Enter store",
+    },
+    image: "/brand/watercheck-store/c-mark-magic-eraser.png",
+    artVariant: "watercheck-store",
+    titleClassName: "",
+  },
 ] as const;
 
 export const SERVICES = [

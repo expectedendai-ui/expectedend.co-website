@@ -1,4 +1,4 @@
-export type CompanyRouteKey = "home" | "about" | "terms" | "privacy" | "accessibility" | "not-found";
+export type CompanyRouteKey = "home" | "about" | "terms" | "privacy" | "accessibility" | "mybiblelens-store" | "watercheck-store" | "not-found";
 
 type RouteMetadata = {
   path: string;
@@ -43,6 +43,20 @@ const ROUTES: PublicRoute[] = [
     path: "/accessibility",
     title: "Accessibility — Expected End",
     description: "Expected End's commitment to an accessible website experience.",
+  },
+  {
+    key: "mybiblelens-store",
+    family: "company",
+    path: "/mybiblelensstore",
+    title: "MyBibleLens Store — Expected End",
+    description: "Thoughtful goods for a closer walk with the Word. The MyBibleLens store is coming soon.",
+  },
+  {
+    key: "watercheck-store",
+    family: "company",
+    path: "/thewatercheckstore",
+    title: "The Water Check Store — Expected End",
+    description: "Hydration-inspired essentials from The Water Check. The first drop is coming soon.",
   },
 ];
 

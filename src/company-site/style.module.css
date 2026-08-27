@@ -222,6 +222,20 @@
   --art-shadow: rgba(14, 79, 179, .25);
   --art-shade: rgba(4, 50, 126, .18);
 }
+.projectArt[data-art-variant="mybiblelens-store"] {
+  --shine-edge: rgba(255, 218, 148, .18);
+  --shine-center: rgba(255, 247, 218, .82);
+  --art-rim: #76501f;
+  --art-shadow: rgba(57, 31, 7, .3);
+  background: #f5ebd4;
+}
+.projectArt[data-art-variant="watercheck-store"] {
+  --shine-edge: rgba(104, 225, 255, .25);
+  --shine-center: rgba(224, 255, 255, .92);
+  --art-rim: #0c6e9c;
+  --art-shadow: rgba(0, 100, 154, .3);
+  background: #042e4c;
+}
 .projectArtClip {
   position: relative;
   isolation: isolate;
@@ -285,6 +299,149 @@
 }
 .projectArt img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
 .projectArt[data-art-variant="mybiblelens"] img { transform: scale(1.075); }
+.projectArt[data-art-variant="mybiblelens-store"] .projectArtClip {
+  background:
+    radial-gradient(circle at 18% 14%, rgba(255, 255, 255, .92), transparent 22%),
+    repeating-linear-gradient(0deg, rgba(71, 39, 17, .035) 0 1px, transparent 1px 8px),
+    linear-gradient(145deg, #fffaf0, #ead6ad);
+}
+.storeCollage { position: absolute; inset: 0; display: block; overflow: hidden; }
+.storeCollage::before {
+  position: absolute;
+  inset: 8%;
+  border: 1px dashed rgba(104, 62, 20, .22);
+  border-radius: 32%;
+  content: "";
+  transform: rotate(7deg);
+}
+.projectArt .storeMark {
+  position: absolute;
+  z-index: 3;
+  top: 27%;
+  left: 27%;
+  width: 46%;
+  height: auto;
+  filter: drop-shadow(0 12px 12px rgba(52, 29, 11, .28));
+  transform: rotate(-4deg);
+  transition: transform 500ms cubic-bezier(.2, .8, .2, 1);
+}
+.projectArt:hover .storeMark { transform: translateY(-4px) rotate(2deg) scale(1.04); }
+.projectArt .pixelSticker {
+  position: absolute;
+  z-index: 2;
+  width: 28%;
+  height: auto;
+  filter: drop-shadow(0 6px 6px rgba(64, 35, 13, .2));
+  transition: transform 500ms cubic-bezier(.2, .8, .2, 1);
+}
+.projectArt .pixelCross { top: -2%; left: 4%; transform: rotate(-13deg); }
+.projectArt .pixelDove { top: 1%; right: -3%; width: 34%; transform: rotate(12deg); }
+.projectArt .pixelChurch { right: -1%; bottom: -3%; width: 30%; transform: rotate(8deg); }
+.projectArt:hover .pixelCross { transform: translate(-2px, -4px) rotate(-18deg); }
+.projectArt:hover .pixelDove { transform: translate(3px, -5px) rotate(17deg); }
+.projectArt:hover .pixelChurch { transform: translate(4px, 1px) rotate(13deg); }
+.merchSticker {
+  position: absolute;
+  z-index: 4;
+  width: 29%;
+  overflow: visible;
+  filter: drop-shadow(0 6px 6px rgba(64, 35, 13, .22));
+  transition: transform 500ms cubic-bezier(.2, .8, .2, 1);
+}
+.merchSticker.tee { bottom: -2%; left: 2%; transform: rotate(12deg); }
+.merchSticker.hoodie { bottom: 3%; left: 32%; width: 25%; transform: rotate(-8deg); }
+.projectArt:hover .merchSticker.tee { transform: translate(-2px, 2px) rotate(17deg); }
+.projectArt:hover .merchSticker.hoodie { transform: translateY(4px) rotate(-3deg); }
+.merchStickerEdge { fill: #fff; stroke: rgba(64, 35, 13, .25); stroke-width: 8; stroke-linejoin: round; }
+.merchStickerBody { fill: #8d5418; stroke: #3d210e; stroke-width: 4; stroke-linejoin: round; transform: scale(.88); transform-box: fill-box; transform-origin: center; }
+.merchStickerCross { fill: #ffd45c; }
+.projectArt[data-art-variant="watercheck-store"] .projectArtClip {
+  background:
+    radial-gradient(circle at 72% 18%, rgba(151, 242, 255, .36), transparent 16%),
+    radial-gradient(circle at 24% 80%, rgba(0, 177, 255, .35), transparent 24%),
+    linear-gradient(145deg, #071b4b 0%, #075f9b 45%, #05afd5 100%);
+}
+.waterStoreCollage { position: absolute; inset: 0; display: block; overflow: hidden; isolation: isolate; }
+.waterStoreCollage::before,
+.waterStoreCollage::after {
+  position: absolute;
+  z-index: 0;
+  width: 145%;
+  height: 44%;
+  border-radius: 46%;
+  content: "";
+  background: rgba(126, 233, 255, .18);
+  filter: blur(1px);
+  animation: water-card-flow 7s ease-in-out infinite alternate;
+}
+.waterStoreCollage::before { top: -11%; left: -24%; transform: rotate(-8deg); }
+.waterStoreCollage::after { right: -26%; bottom: -15%; opacity: .72; animation-delay: -3s; transform: rotate(11deg); }
+.waterRipple {
+  position: absolute;
+  z-index: 1;
+  top: 18%;
+  left: 18%;
+  width: 64%;
+  aspect-ratio: 1;
+  border: 1px solid rgba(207, 251, 255, .32);
+  border-radius: 50%;
+  box-shadow: 0 0 0 13px rgba(120, 224, 255, .08), 0 0 0 29px rgba(120, 224, 255, .055);
+  animation: water-ripple-breathe 4.8s ease-in-out infinite;
+}
+.waterOrb {
+  position: absolute;
+  z-index: 3;
+  top: 20%;
+  left: 25%;
+  display: grid;
+  width: 50%;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid rgba(220, 252, 255, .74);
+  border-radius: 48% 52% 46% 54% / 52% 43% 57% 48%;
+  background: radial-gradient(circle at 31% 22%, rgba(255,255,255,.92), rgba(95, 221, 255, .35) 17%, rgba(2, 92, 180, .18) 56%, rgba(0, 41, 114, .38));
+  box-shadow: inset 10px 12px 22px rgba(220, 252, 255, .32), inset -12px -14px 28px rgba(0, 38, 120, .38), 0 18px 36px rgba(0, 20, 82, .36);
+  backdrop-filter: blur(6px);
+  animation: water-orb-float 5.4s ease-in-out infinite;
+}
+.waterOrb::before { position: absolute; top: 12%; left: 18%; width: 22%; aspect-ratio: 1; border-radius: 50%; content: ""; background: rgba(255,255,255,.58); filter: blur(2px); }
+.projectArt .waterStoreMark { width: 72%; height: auto; filter: drop-shadow(0 9px 11px rgba(0, 18, 82, .28)); transform: none; }
+.waterBubble { position: absolute; z-index: 2; aspect-ratio: 1; border: 1px solid rgba(225, 253, 255, .75); border-radius: 50%; background: radial-gradient(circle at 31% 24%, white, rgba(118, 230, 255, .3) 36%, rgba(4, 76, 158, .12) 68%); box-shadow: inset -3px -4px 8px rgba(0, 50, 142, .18); animation: water-bubble-rise 5s ease-in-out infinite; }
+.waterBubbleTwo { top: 43%; left: 8%; width: 6%; animation-delay: -1.7s; }
+.waterBubbleThree { right: 8%; bottom: 27%; width: 5%; animation-delay: -3.1s; }
+.waterStoreCollage .merchSticker { z-index: 5; }
+.waterStoreCollage .merchSticker.tee { bottom: -1%; left: 1%; width: 31%; transform: rotate(9deg); }
+.waterStoreCollage .merchSticker.hoodie { right: -1%; bottom: -1%; left: auto; width: 31%; transform: rotate(-8deg); }
+.waterApparel .merchStickerEdge { fill: #eaffff; stroke: rgba(0, 34, 102, .3); }
+.waterApparel .merchStickerBody { fill: #082f75; stroke: #91f0ff; }
+.waterApparel .merchStickerCross { fill: #50d9f4; }
+.projectArt:hover .waterStoreCollage .merchSticker.tee { transform: translate(-2px, -4px) rotate(14deg); }
+.projectArt:hover .waterStoreCollage .merchSticker.hoodie { transform: translate(2px, -4px) rotate(-13deg); }
+.waterApparelBadge {
+  position: absolute;
+  z-index: 6;
+  top: 7%;
+  left: 5%;
+  display: grid;
+  gap: 1px;
+  padding: 7px 8px;
+  border: 1px solid rgba(223, 253, 255, .65);
+  border-radius: 10px;
+  color: #eaffff;
+  background: rgba(2, 38, 103, .66);
+  box-shadow: 0 7px 16px rgba(0, 19, 75, .22);
+  transform: rotate(-8deg);
+  backdrop-filter: blur(8px);
+  text-align: left;
+  text-transform: uppercase;
+}
+.waterApparelBadge strong { font: 800 7px/1 "DM Sans", sans-serif; letter-spacing: .08em; }
+.waterApparelBadge small { color: #7fe9ff; font: 800 5px/1 "DM Sans", sans-serif; letter-spacing: .12em; }
+
+@keyframes water-card-flow { to { transform: translate(7%, 8%) rotate(8deg) scale(1.08); } }
+@keyframes water-ripple-breathe { 50% { opacity: .65; transform: scale(1.08); } }
+@keyframes water-orb-float { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-9px) rotate(4deg); } }
+@keyframes water-bubble-rise { 0%, 100% { transform: translateY(4px) scale(.94); } 50% { transform: translateY(-9px) scale(1.06); } }
 
 @keyframes project-shine {
   0%, 52% { left: -70%; opacity: 0; }
