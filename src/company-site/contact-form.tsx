@@ -1,4 +1,4 @@
-import type * as React from "react";
+import * as React from "react";
 import { ArrowUpRightIcon } from "./action-icons";
 import { SERVICES } from "./content";
 import styles from "./style.module.css";
@@ -14,7 +14,7 @@ type ContactDetails = {
   message: string;
 };
 
-const CONTACT_ADDRESS = ["info", "expectedend.co"].join("@");
+const CONTACT_ADDRESS = "expectedendai@gmail.com";
 
 const CONTACT_SOURCE_PARAMETERS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "ref"];
 
@@ -31,7 +31,7 @@ export const getContactSource = (href: string) => {
   return source.toString();
 };
 
-export const buildContactMailto = (details: ContactDetails, source: string) => {
+const buildContactEmail = (details: ContactDetails, source: string) => {
   const subject = `Expected End inquiry — ${details.reason}`;
   const body = [
     "Hi Expected End,",
@@ -49,7 +49,30 @@ export const buildContactMailto = (details: ContactDetails, source: string) => {
     `Source: ${source}`,
   ].join("\n");
 
+  return { subject, body };
+};
+
+export const buildContactMailto = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
   return `mailto:${CONTACT_ADDRESS}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+};
+
+export const buildOutlookComposeUrl = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
+  const parameters = new URLSearchParams({ to: CONTACT_ADDRESS, subject, body });
+  return `https://outlook.office.com/mail/deeplink/compose?${parameters}`;
+};
+
+export const buildGmailComposeUrl = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
+  const parameters = new URLSearchParams({ view: "cm", fs: "1", to: CONTACT_ADDRESS, su: subject, body });
+  return `https://mail.google.com/mail/?${parameters}`;
+};
+
+export const buildYahooComposeUrl = (details: ContactDetails, source: string) => {
+  const { subject, body } = buildContactEmail(details, source);
+  const parameters = new URLSearchParams({ to: CONTACT_ADDRESS, subj: subject, body });
+  return `https://compose.mail.yahoo.com/?${parameters}`;
 };
 
 const readField = (formData: FormData, name: string) => String(formData.get(name) ?? "").trim();
@@ -60,26 +83,34 @@ type ContactFormProps = {
 };
 
 export function ContactForm({ initialProject = "", initialReason = "" }: ContactFormProps = {}) {
+  const [preparedEmail, setPreparedEmail] = React.useState("");
+  const [gmailComposeUrl, setGmailComposeUrl] = React.useState("");
+  const [outlookComposeUrl, setOutlookComposeUrl] = React.useState("");
+  const [yahooComposeUrl, setYahooComposeUrl] = React.useState("");
+
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
-    const href = buildContactMailto(
-      {
-        name: readField(formData, "name"),
-        replyEmail: readField(formData, "replyEmail"),
-        project: readField(formData, "project"),
-        reason: readField(formData, "reason"),
-        priceRange: readField(formData, "priceRange"),
-        timeline: readField(formData, "timeline"),
-        discovery: readField(formData, "discovery"),
-        message: readField(formData, "message"),
-      },
-      getContactSource(window.location.href),
-    );
-
+    const details: ContactDetails = {
+      name: readField(formData, "name"),
+      replyEmail: readField(formData, "replyEmail"),
+      project: readField(formData, "project"),
+      reason: readField(formData, "reason"),
+      priceRange: readField(formData, "priceRange"),
+      timeline: readField(formData, "timeline"),
+      discovery: readField(formData, "discovery"),
+      message: readField(formData, "message"),
+    };
+    const href = buildContactMailto(details, getContactSource(window.location.href));
+    setPreparedEmail(href);
+    setGmailComposeUrl(buildGmailComposeUrl(details, getContactSource(window.location.href)));
+    setOutlookComposeUrl(buildOutlookComposeUrl(details, getContactSource(window.location.href)));
+    setYahooComposeUrl(buildYahooComposeUrl(details, getContactSource(window.location.href)));
     const emailLink = document.createElement("a");
     emailLink.href = href;
+    document.body.append(emailLink);
     emailLink.click();
+    emailLink.remove();
   };
 
   return (
@@ -122,7 +153,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
             <option value="" disabled>Choose one</option>
             <option>Expected End</option>
             <option>MyBibleLens</option>
-            <option>The Water Check</option>
+            <option>The Water Check community</option>
             <option>A new idea</option>
           </select>
         </label>
@@ -157,7 +188,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
             <option value="" disabled>Choose one</option>
             <option>Instagram</option>
             <option>MyBibleLens</option>
-            <option>The Water Check</option>
+            <option>The Water Check community</option>
             <option>Search</option>
             <option>A referral</option>
             <option>Somewhere else</option>
@@ -176,7 +207,10 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         </label>
 
         <div className={styles.contactSubmit}>
-          <p>Nothing is sent until you review it and press Send in your email app.</p>
+          <p>
+            Nothing is sent until you review it and press Send in your email app.
+            {preparedEmail && gmailComposeUrl && outlookComposeUrl && yahooComposeUrl ? <> Choose <a href={preparedEmail}>your email app</a>, <a href={gmailComposeUrl}>Gmail</a>, <a href={outlookComposeUrl}>Outlook</a>, or <a href={yahooComposeUrl}>Yahoo Mail</a>.</> : null}
+          </p>
           <button className={styles.actionWithIcon} type="submit">
             Prepare email <ArrowUpRightIcon className={styles.actionIcon} />
           </button>

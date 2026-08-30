@@ -96,14 +96,50 @@
   position: relative;
   display: grid;
   min-height: 92svh;
+  overflow: hidden;
   place-items: center;
   padding: 9.5rem 1.5rem 7rem;
+  background: linear-gradient(145deg, #061944, #0a286e 56%, #123c94);
   isolation: isolate;
+}
+
+.heroVideo {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+}
+
+.hero::before,
+.hero::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+}
+
+.hero::before {
+  background:
+    linear-gradient(to bottom, transparent 38%, rgba(10, 36, 103, .2) 56%, rgba(10, 36, 103, .72) 78%, var(--paper) 100%),
+    linear-gradient(105deg, rgba(3, 17, 55, .72), rgba(8, 43, 125, .46) 48%, rgba(3, 17, 55, .68)),
+    linear-gradient(to bottom, rgba(5, 20, 61, .14), rgba(5, 20, 61, .5));
+}
+
+.hero::after {
+  background-image: linear-gradient(rgba(255,255,255,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.055) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(to bottom, black 58%, transparent 94%);
+  opacity: .5;
 }
 
 .heroGlow {
   position: absolute;
-  z-index: -1;
+  z-index: 2;
   width: min(76vw, 820px);
   aspect-ratio: 1.8;
   border-radius: 50%;
@@ -111,7 +147,7 @@
   filter: blur(15px);
 }
 
-.heroInner { width: min(1050px, 100%); margin: auto; text-align: center; }
+.heroInner { position: relative; z-index: 3; width: min(1050px, 100%); margin: auto; text-align: center; }
 .kicker { margin: 0 0 1rem; color: var(--gold-soft); font-size: 11px; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; }
 .site[data-site-theme="white"] .kicker { color: #987126; }
 .heroTitle {
@@ -124,10 +160,10 @@
   line-height: .86;
   text-wrap: balance;
 }
-.heroTitle em { display: block; color: var(--gold-soft); font-weight: 500; }
+.heroTitle em { display: block; color: var(--gold-soft); font-weight: 500; font-style: normal; }
 .site[data-site-theme="white"] .heroTitle em { color: #b17d1f; }
 .heroStatement { max-width: 780px; margin: 2.5rem auto 0; color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.28rem); line-height: 1.65; text-wrap: balance; }
-.heroStatement em { color: var(--ink); font-family: var(--expected-font-display); font-size: 1.13em; font-weight: 500; }
+.heroStatement em { color: var(--ink); font-family: var(--expected-font-display); font-size: 1.13em; font-style: normal; font-weight: 500; }
 .primaryAction {
   display: inline-flex;
   min-height: 48px;
@@ -182,11 +218,26 @@
   transition: transform 420ms cubic-bezier(.2, .8, .2, 1), box-shadow 420ms cubic-bezier(.2, .8, .2, 1);
 }
 .projectArt[data-art-variant="watercheck"] {
+  --art-radius: 50%;
   --shine-edge: rgba(31, 126, 255, .28);
   --shine-center: rgba(82, 193, 255, .72);
   --art-rim: #0d55ba;
   --art-shadow: rgba(14, 79, 179, .25);
   --art-shade: rgba(4, 50, 126, .18);
+}
+.projectArt[data-art-variant="mybiblelens-store"] {
+  --shine-edge: rgba(255, 218, 148, .18);
+  --shine-center: rgba(255, 247, 218, .82);
+  --art-rim: #76501f;
+  --art-shadow: rgba(57, 31, 7, .3);
+  background: #f5ebd4;
+}
+.projectArt[data-art-variant="watercheck-store"] {
+  --shine-edge: rgba(104, 225, 255, .25);
+  --shine-center: rgba(224, 255, 255, .92);
+  --art-rim: #0c6e9c;
+  --art-shadow: rgba(0, 100, 154, .3);
+  background: #042e4c;
 }
 .projectArtClip {
   position: relative;
@@ -251,6 +302,149 @@
 }
 .projectArt img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
 .projectArt[data-art-variant="mybiblelens"] img { transform: scale(1.075); }
+.projectArt[data-art-variant="mybiblelens-store"] .projectArtClip {
+  background:
+    radial-gradient(circle at 18% 14%, rgba(255, 255, 255, .92), transparent 22%),
+    repeating-linear-gradient(0deg, rgba(71, 39, 17, .035) 0 1px, transparent 1px 8px),
+    linear-gradient(145deg, #fffaf0, #ead6ad);
+}
+.storeCollage { position: absolute; inset: 0; display: block; overflow: hidden; }
+.storeCollage::before {
+  position: absolute;
+  inset: 8%;
+  border: 1px dashed rgba(104, 62, 20, .22);
+  border-radius: 32%;
+  content: "";
+  transform: rotate(7deg);
+}
+.projectArt .storeMark {
+  position: absolute;
+  z-index: 3;
+  top: 27%;
+  left: 27%;
+  width: 46%;
+  height: auto;
+  filter: drop-shadow(0 12px 12px rgba(52, 29, 11, .28));
+  transform: rotate(-4deg);
+  transition: transform 500ms cubic-bezier(.2, .8, .2, 1);
+}
+.projectArt:hover .storeMark { transform: translateY(-4px) rotate(2deg) scale(1.04); }
+.projectArt .pixelSticker {
+  position: absolute;
+  z-index: 2;
+  width: 28%;
+  height: auto;
+  filter: drop-shadow(0 6px 6px rgba(64, 35, 13, .2));
+  transition: transform 500ms cubic-bezier(.2, .8, .2, 1);
+}
+.projectArt .pixelCross { top: -2%; left: 4%; transform: rotate(-13deg); }
+.projectArt .pixelDove { top: 1%; right: -3%; width: 34%; transform: rotate(12deg); }
+.projectArt .pixelChurch { right: -1%; bottom: -3%; width: 30%; transform: rotate(8deg); }
+.projectArt:hover .pixelCross { transform: translate(-2px, -4px) rotate(-18deg); }
+.projectArt:hover .pixelDove { transform: translate(3px, -5px) rotate(17deg); }
+.projectArt:hover .pixelChurch { transform: translate(4px, 1px) rotate(13deg); }
+.merchSticker {
+  position: absolute;
+  z-index: 4;
+  width: 29%;
+  overflow: visible;
+  filter: drop-shadow(0 6px 6px rgba(64, 35, 13, .22));
+  transition: transform 500ms cubic-bezier(.2, .8, .2, 1);
+}
+.merchSticker.tee { bottom: -2%; left: 2%; transform: rotate(12deg); }
+.merchSticker.hoodie { bottom: 3%; left: 32%; width: 25%; transform: rotate(-8deg); }
+.projectArt:hover .merchSticker.tee { transform: translate(-2px, 2px) rotate(17deg); }
+.projectArt:hover .merchSticker.hoodie { transform: translateY(4px) rotate(-3deg); }
+.merchStickerEdge { fill: #fff; stroke: rgba(64, 35, 13, .25); stroke-width: 8; stroke-linejoin: round; }
+.merchStickerBody { fill: #8d5418; stroke: #3d210e; stroke-width: 4; stroke-linejoin: round; transform: scale(.88); transform-box: fill-box; transform-origin: center; }
+.merchStickerCross { fill: #ffd45c; }
+.projectArt[data-art-variant="watercheck-store"] .projectArtClip {
+  background:
+    radial-gradient(circle at 72% 18%, rgba(151, 242, 255, .36), transparent 16%),
+    radial-gradient(circle at 24% 80%, rgba(0, 177, 255, .35), transparent 24%),
+    linear-gradient(145deg, #071b4b 0%, #075f9b 45%, #05afd5 100%);
+}
+.waterStoreCollage { position: absolute; inset: 0; display: block; overflow: hidden; isolation: isolate; }
+.waterStoreCollage::before,
+.waterStoreCollage::after {
+  position: absolute;
+  z-index: 0;
+  width: 145%;
+  height: 44%;
+  border-radius: 46%;
+  content: "";
+  background: rgba(126, 233, 255, .18);
+  filter: blur(1px);
+  animation: water-card-flow 7s ease-in-out infinite alternate;
+}
+.waterStoreCollage::before { top: -11%; left: -24%; transform: rotate(-8deg); }
+.waterStoreCollage::after { right: -26%; bottom: -15%; opacity: .72; animation-delay: -3s; transform: rotate(11deg); }
+.waterRipple {
+  position: absolute;
+  z-index: 1;
+  top: 18%;
+  left: 18%;
+  width: 64%;
+  aspect-ratio: 1;
+  border: 1px solid rgba(207, 251, 255, .32);
+  border-radius: 50%;
+  box-shadow: 0 0 0 13px rgba(120, 224, 255, .08), 0 0 0 29px rgba(120, 224, 255, .055);
+  animation: water-ripple-breathe 4.8s ease-in-out infinite;
+}
+.waterOrb {
+  position: absolute;
+  z-index: 3;
+  top: 20%;
+  left: 25%;
+  display: grid;
+  width: 50%;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid rgba(220, 252, 255, .74);
+  border-radius: 48% 52% 46% 54% / 52% 43% 57% 48%;
+  background: radial-gradient(circle at 31% 22%, rgba(255,255,255,.92), rgba(95, 221, 255, .35) 17%, rgba(2, 92, 180, .18) 56%, rgba(0, 41, 114, .38));
+  box-shadow: inset 10px 12px 22px rgba(220, 252, 255, .32), inset -12px -14px 28px rgba(0, 38, 120, .38), 0 18px 36px rgba(0, 20, 82, .36);
+  backdrop-filter: blur(6px);
+  animation: water-orb-float 5.4s ease-in-out infinite;
+}
+.waterOrb::before { position: absolute; top: 12%; left: 18%; width: 22%; aspect-ratio: 1; border-radius: 50%; content: ""; background: rgba(255,255,255,.58); filter: blur(2px); }
+.projectArt .waterStoreMark { width: 72%; height: auto; filter: drop-shadow(0 9px 11px rgba(0, 18, 82, .28)); transform: none; }
+.waterBubble { position: absolute; z-index: 2; aspect-ratio: 1; border: 1px solid rgba(225, 253, 255, .75); border-radius: 50%; background: radial-gradient(circle at 31% 24%, white, rgba(118, 230, 255, .3) 36%, rgba(4, 76, 158, .12) 68%); box-shadow: inset -3px -4px 8px rgba(0, 50, 142, .18); animation: water-bubble-rise 5s ease-in-out infinite; }
+.waterBubbleTwo { top: 43%; left: 8%; width: 6%; animation-delay: -1.7s; }
+.waterBubbleThree { right: 8%; bottom: 27%; width: 5%; animation-delay: -3.1s; }
+.waterStoreCollage .merchSticker { z-index: 5; }
+.waterStoreCollage .merchSticker.tee { bottom: -1%; left: 1%; width: 31%; transform: rotate(9deg); }
+.waterStoreCollage .merchSticker.hoodie { right: -1%; bottom: -1%; left: auto; width: 31%; transform: rotate(-8deg); }
+.waterApparel .merchStickerEdge { fill: #eaffff; stroke: rgba(0, 34, 102, .3); }
+.waterApparel .merchStickerBody { fill: #082f75; stroke: #91f0ff; }
+.waterApparel .merchStickerCross { fill: #50d9f4; }
+.projectArt:hover .waterStoreCollage .merchSticker.tee { transform: translate(-2px, -4px) rotate(14deg); }
+.projectArt:hover .waterStoreCollage .merchSticker.hoodie { transform: translate(2px, -4px) rotate(-13deg); }
+.waterApparelBadge {
+  position: absolute;
+  z-index: 6;
+  top: 7%;
+  left: 5%;
+  display: grid;
+  gap: 1px;
+  padding: 7px 8px;
+  border: 1px solid rgba(223, 253, 255, .65);
+  border-radius: 10px;
+  color: #eaffff;
+  background: rgba(2, 38, 103, .66);
+  box-shadow: 0 7px 16px rgba(0, 19, 75, .22);
+  transform: rotate(-8deg);
+  backdrop-filter: blur(8px);
+  text-align: left;
+  text-transform: uppercase;
+}
+.waterApparelBadge strong { font: 800 7px/1 "DM Sans", sans-serif; letter-spacing: .08em; }
+.waterApparelBadge small { color: #7fe9ff; font: 800 5px/1 "DM Sans", sans-serif; letter-spacing: .12em; }
+
+@keyframes water-card-flow { to { transform: translate(7%, 8%) rotate(8deg) scale(1.08); } }
+@keyframes water-ripple-breathe { 50% { opacity: .65; transform: scale(1.08); } }
+@keyframes water-orb-float { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-9px) rotate(4deg); } }
+@keyframes water-bubble-rise { 0%, 100% { transform: translateY(4px) scale(.94); } 50% { transform: translateY(-9px) scale(1.06); } }
 
 @keyframes project-shine {
   0%, 52% { left: -70%; opacity: 0; }
@@ -361,6 +555,7 @@
   line-height: .96;
 }
 .founderRevealIntro > p:last-child { max-width: 600px; margin: 1.25rem 0 0; color: var(--muted); line-height: 1.7; }
+.founderReadMore { color: var(--gold-soft); font-weight: 700; }
 .founderToggle {
   display: flex;
   width: auto;
@@ -380,13 +575,19 @@
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 .founderToggle:hover { box-shadow: 0 14px 35px rgba(0, 5, 30, .2); transform: translateY(-2px); }
-.founderToggle span:last-child { font-size: 1.6rem; font-weight: 400; }
+.founderToggleIcon { width: 1.6rem; height: 1.6rem; flex: 0 0 auto; transition: transform 180ms ease; }
+.founderToggle[aria-expanded="true"] .founderToggleIcon { transform: rotate(180deg); }
+
 .founderPanel { display: grid; gap: clamp(3.5rem, 7vw, 5.5rem); padding: clamp(2rem, 5vw, 4rem); border-top: 1px solid var(--line); }
 .founderPanel .storyHeading { position: static; }
 .founderIntro { display: grid; max-width: 730px; gap: 1.15rem; }
 .founderIntro h2 { margin-bottom: .5rem; }
 .founderIntro p { margin: 0; color: var(--muted); font-size: 1.02rem; line-height: 1.75; }
 .founderIntro .founderLead { color: var(--ink); font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.7rem, 4vw, 2.5rem); line-height: 1.2; }
+.founderSocials { display: flex; gap: .65rem; margin-top: .45rem; }
+.founderSocials a { display: grid; width: 42px; height: 42px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: var(--surface); transition: border-color 180ms ease, color 180ms ease, transform 180ms ease; }
+.founderSocials a:hover { border-color: var(--gold); color: var(--gold-soft); transform: translateY(-2px); }
+.founderSocials svg { width: 18px; height: 18px; }
 .truthBehindCode {
   display: grid;
   gap: clamp(2.8rem, 6vw, 4.8rem);
@@ -505,63 +706,39 @@
 .footerLinks { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 1rem 1.6rem; max-width: 690px; }
 .footerLinks a { color: var(--muted); font-size: .78rem; font-weight: 600; }
 .footerLinks a:hover { color: var(--ink); }
+.footerMission { max-width: 720px; padding: 0 0 3rem; }
+.footerMission p { margin: 0; color: var(--muted); font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.6rem); line-height: 1.45; }
+.footerMission .footerVerse { margin-top: .8rem; color: var(--gold-soft); font: 800 .68rem/1 "DM Sans", sans-serif; letter-spacing: .15em; text-transform: uppercase; }
 .footerBottom { display: flex; justify-content: space-between; gap: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .footerBottom p { margin: 0; }
 .footerBlessing { display: flex; align-items: center; gap: .25rem; margin: -12px 0 -12px auto; }
 .footerBottom .blessing { color: var(--gold-soft); font-family: var(--expected-font-display); font-size: .9rem; font-weight: 500; letter-spacing: .04em; text-transform: none; }
 .site[data-site-theme="white"] .footerBottom .blessing { color: #987126; }
 
-.bioDialog {
-  width: min(440px, calc(100% - 32px));
-  padding: 0;
-  border: 1px solid var(--line);
-  border-radius: 24px;
-  color: var(--ink);
-  background: var(--surface-solid);
-  box-shadow: 0 34px 100px rgba(0, 5, 30, .5);
-}
-.bioDialog::backdrop { background: rgba(3, 10, 31, .66); backdrop-filter: blur(8px); }
-.bioDialogInner { min-height: 250px; padding: 1.4rem; }
-.bioDialogHead { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
-.bioDialogHead h2 { margin: 0; font-family: var(--expected-font-display); font-size: 1.65rem; font-weight: 500; }
-.bioDialogHead button { display: grid; width: 44px; height: 44px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: transparent; cursor: pointer; font-size: 1.5rem; }
-.bioBlank { min-height: 150px; }
-.waterBioDialog { width: min(680px, calc(100% - 32px)); max-height: min(92svh, 920px); overflow-y: auto; }
-.waterBioDialog .bioDialogInner { padding: clamp(1.4rem, 4vw, 2.5rem); }
-.waterBioDialog .bioDialogHead { align-items: flex-start; }
-.waterBioDialog .bioDialogHead h2 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: .98; }
-.waterBioDialog .bioDialogHead .waterBioEyebrow { font-size: clamp(.82rem, 2vw, 1rem); }
-.waterBioEyebrow { margin: 0 0 .65rem; color: var(--gold-soft); font-size: .65rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
-.site[data-site-theme="white"] .waterBioEyebrow { color: #8d651d; }
-.waterBioContent { margin-top: 2rem; }
-.waterBioStory { text-align: left; }
-.waterBioStory p { margin: 0 0 1rem; color: var(--muted); font-size: .94rem; line-height: 1.75; }
-.waterBioStory em, .waterBioStory strong, .waterBioStory a { color: var(--gold-soft); }
-.site[data-site-theme="white"] .waterBioStory em,
-.site[data-site-theme="white"] .waterBioStory strong,
-.site[data-site-theme="white"] .waterBioStory a { color: #8d651d; }
-.waterBioStory a { border-bottom: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); }
-.waterBioSource { display: inline-block; font-size: .72rem; letter-spacing: .04em; opacity: .65; }
-.waterBioStat { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: .5rem .75rem; margin-top: 1.7rem; padding-top: 1.5rem; border-top: 1px solid var(--line); text-align: center; }
-.waterBioStatFrom { font-family: var(--expected-font-display); font-size: clamp(1.55rem, 4vw, 2rem); font-weight: 700; opacity: .62; text-decoration: line-through; }
-.waterBioStatArrow { color: var(--gold-soft); }
-.waterBioStatTo { color: var(--gold-soft); font-family: var(--expected-font-display); font-size: 2rem; }
-.site[data-site-theme="white"] .waterBioStatArrow,
-.site[data-site-theme="white"] .waterBioStatTo { color: #8d651d; }
-.waterBioStatCaption { flex-basis: 100%; color: var(--muted); font-size: .65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.waterBioWhat { margin-top: 2.3rem; padding-top: 1.8rem; border-top: 1px solid var(--line); }
-.waterBioWhat h3 { margin: 0 0 1.2rem; font-family: var(--expected-font-display); font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 500; }
-.waterBioPhone { position: relative; width: min(300px, 82%); margin: 1.8rem auto .4rem; padding: 11px; border: 1px solid color-mix(in srgb, var(--gold) 34%, var(--line)); border-radius: 42px; background: linear-gradient(160deg, #292929, #0a0a0a); box-shadow: 0 24px 60px -20px rgba(0, 0, 0, .82), 0 0 40px -14px color-mix(in srgb, var(--gold) 32%, transparent); }
-.waterBioPhoneNotch { position: absolute; z-index: 2; top: 19px; left: 50%; width: 34%; height: 20px; border-radius: 0 0 14px 14px; background: #050505; pointer-events: none; transform: translateX(-50%); }
-.waterBioVideo { display: block; width: 100%; aspect-ratio: 1170 / 2532; border-radius: 30px; background: #000; object-fit: cover; }
-.waterBioVideoCaption { margin: .9rem 0 0; color: var(--gold-soft); font-size: .68rem; font-weight: 700; letter-spacing: .14em; text-align: center; text-transform: uppercase; opacity: .7; }
-.site[data-site-theme="white"] .waterBioVideoCaption { color: #8d651d; }
-
 .contactDialog { width: min(980px, calc(100% - 32px)); max-height: min(92svh, 940px); padding: 0; overflow-y: auto; border: 1px solid var(--line); border-radius: 32px; color: var(--ink); background: var(--surface-solid); box-shadow: 0 40px 120px rgba(0, 5, 30, .58); }
 .contactDialog::backdrop { background: rgba(3, 10, 31, .72); backdrop-filter: blur(12px); }
 .contactDialogClose { position: sticky; z-index: 3; top: 1.1rem; float: right; display: grid; width: 44px; height: 44px; margin: 1.1rem 1.1rem -55px 0; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: var(--surface-solid); cursor: pointer; font-size: 1.5rem; }
 .contactDialog .contactSection { width: 100%; margin: 0; padding: clamp(1.5rem, 5vw, 3.5rem); border: 0; border-radius: 0; background: transparent; box-shadow: none; }
 .contactDialog .contactHeader { padding-right: 3rem; }
+
+.bioDialog { width: min(680px, calc(100% - 32px)); max-height: min(92svh, 920px); padding: 0; overflow-y: auto; border: 1px solid var(--line); border-radius: 24px; color: var(--ink); background: var(--surface-solid); box-shadow: 0 34px 100px rgba(0, 5, 30, .5); }
+.bioDialog::backdrop { background: rgba(3, 10, 31, .66); backdrop-filter: blur(8px); }
+.bioDialogInner { padding: clamp(1.4rem, 4vw, 2.5rem); }
+.bioDialogHead { display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; }
+.bioDialogHead h2 { margin: 0; font-family: var(--expected-font-display); font-size: clamp(2rem, 6vw, 3.5rem); font-weight: 500; line-height: .98; }
+.bioDialogHead button { display: grid; width: 44px; height: 44px; flex: 0 0 auto; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: transparent; cursor: pointer; font-size: 1.5rem; }
+.waterBioEyebrow { margin: 0 0 .65rem; color: var(--gold-soft); font-size: .65rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.site[data-site-theme="white"] .waterBioEyebrow { color: #8d651d; }
+.waterBioContent { margin-top: 2rem; text-align: left; }
+.waterBioContent p { margin: 0 0 1.1rem; line-height: 1.65; }
+.waterBioContent a { color: inherit; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+.waterBioSource { color: var(--muted); font-size: .88em; }
+.waterBioStat { display: grid; grid-template-columns: 1fr auto 1fr; gap: .55rem; align-items: center; margin: 2rem 0; padding: 1.25rem; border: 1px solid var(--line); border-radius: 18px; text-align: center; }
+.waterBioStatFrom, .waterBioStatTo { font-family: var(--expected-font-display); font-size: clamp(1.55rem, 4vw, 2.25rem); }
+.waterBioStatArrow { color: var(--gold-soft); font-size: 1.4rem; }
+.waterBioStatCaption { grid-column: 1 / -1; color: var(--muted); font-size: .8rem; }
+.waterBioWhat { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.waterBioWhat h3 { margin: 0 0 1rem; font-family: var(--expected-font-display); font-size: clamp(1.6rem, 4vw, 2.3rem); font-weight: 500; }
 
 .verseDialog {
   width: min(620px, calc(100% - 32px));
@@ -625,6 +802,10 @@
   .contactMessage, .contactSubmit { grid-column: auto; }
   .contactSubmit { align-items: stretch; flex-direction: column; }
   .contactSubmit button { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroVideo { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

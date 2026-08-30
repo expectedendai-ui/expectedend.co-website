@@ -1,7 +1,7 @@
 export const CONTACT_HREF = "/about#contact";
 
-// Denzel Rigaud approved the governed public content, service/inquiry copy,
-// and self-hosted-font disclosure for production release on 2026-08-08.
+// Denzel Rigaud approved the existing site copy on 2026-08-08 and the new
+// Water Check page copy on 2026-08-30.
 export const PUBLIC_CONTENT_APPROVED = true;
 
 export const PROJECTS = [
@@ -12,7 +12,10 @@ export const PROJECTS = [
       href: "https://mybiblelens.us/",
       actionLabel: "Visit app",
     },
-    bioHref: "https://mybiblelens.us/legal.html#about",
+    secondaryAction: {
+      label: "Bio",
+      href: "https://mybiblelens.us/legal.html#about",
+    },
     image: "/brand/mybiblelens.png",
     artVariant: "mybiblelens",
     titleClassName: "mblTitle",
@@ -21,12 +24,33 @@ export const PROJECTS = [
     name: "The Water Check",
     category: "Hydration community",
     destination: {
-      href: "https://www.instagram.com/thewatercheck/",
-      actionLabel: "Visit Instagram",
+      href: "/thewatercheckpage",
+      actionLabel: "Check your baseline",
     },
-    bioHref: null,
     image: "/brand/thewatercheck.png",
     artVariant: "watercheck",
+    titleClassName: "",
+  },
+  {
+    name: "MyBibleLens Store",
+    category: "Store · Coming soon",
+    destination: {
+      href: "/mybiblelensstore",
+      actionLabel: "Enter store",
+    },
+    image: "/brand/mybiblelens-store/store-mark.png",
+    artVariant: "mybiblelens-store",
+    titleClassName: "mblTitle",
+  },
+  {
+    name: "The Water Check Store",
+    category: "Store · Coming soon",
+    destination: {
+      href: "/thewatercheckstore",
+      actionLabel: "Enter store",
+    },
+    image: "/brand/watercheck-store/c-mark-magic-eraser.png",
+    artVariant: "watercheck-store",
     titleClassName: "",
   },
 ] as const;

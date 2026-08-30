@@ -20,4 +20,10 @@ describe("Expected End information pages", () => {
     const links = screen.getByRole("contentinfo").querySelectorAll("a");
     expect([...links].every((link) => link.getAttribute("href") !== "#")).toBe(true);
   });
+
+  it("shows the current privacy statement effective date", () => {
+    window.history.replaceState({}, "", "/privacy");
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+    expect(screen.getByText("Effective August 30, 2026")).toBeInTheDocument();
+  });
 });

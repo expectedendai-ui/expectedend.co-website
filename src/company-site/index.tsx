@@ -1,15 +1,14 @@
 import * as React from "react";
-import { WATER_CHECK_LEGAL_CONTENT, type WaterCheckLegalKey } from "../water-check/legal/water-check-legal-content";
-import { WaterCheckLegalPage } from "../water-check/legal/water-check-legal-page";
-import { WaterCheckShell } from "../water-check/water-check-shell";
 import { AboutPage } from "./about";
 import { Footer } from "./footer";
 import { HomePage } from "./home";
 import { InfoPage } from "./info-page";
 import { LEGAL_CONTENT } from "./legal-content";
 import { Navigation } from "./navigation";
-import { getRoute, getRouteMetadata, isInternalHref, type WaterCheckRouteKey } from "./routes";
+import { getRoute, getRouteMetadata, isInternalHref } from "./routes";
+import { Storefront } from "./storefront";
 import styles from "./style.module.css";
+import { WaterCheckPage } from "./water-check-page";
 
 type CompanySiteProps = {
   leaving: boolean;
@@ -90,7 +89,10 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   };
 
   const renderCompanyRoute = () => {
-    if (route.key === "home") return <HomePage />;
+    if (route.key === "home") return <HomePage onNavigate={onNavigate} />;
+    if (route.key === "mybiblelens-store") return <Storefront brand="mybiblelens" onNavigate={onNavigate} />;
+    if (route.key === "watercheck-store") return <Storefront brand="watercheck" onNavigate={onNavigate} />;
+    if (route.key === "watercheck-page") return <WaterCheckPage />;
     if (route.key === "about") return <AboutPage />;
     if (route.key === "terms" || route.key === "privacy" || route.key === "accessibility") {
       return <InfoPage content={LEGAL_CONTENT[route.key]} />;
@@ -106,27 +108,15 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
     );
   };
 
-  if (route.family === "water-check") {
-    const legalContentKeys: Record<WaterCheckRouteKey, WaterCheckLegalKey> = {
-      "water-check-privacy": "privacy",
-      "water-check-terms": "terms",
-      "water-check-health-and-ai-disclaimer": "health-and-ai-disclaimer",
-      "water-check-consumer-health-data": "consumer-health-data",
-    };
-    const content = <WaterCheckLegalPage content={WATER_CHECK_LEGAL_CONTENT[legalContentKeys[route.key]]} onNavigate={onNavigate} />;
-
-    return (
-      <WaterCheckShell activePath={route.path} leaving={leaving} onNavigate={onNavigate}>
-        {content}
-      </WaterCheckShell>
-    );
-  }
-
   return (
     <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue">
-      <Navigation isHome={route.key === "home"} onNavigate={onNavigate} />
+      {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
+        <Navigation isHome={route.key === "home"} onNavigate={onNavigate} />
+      )}
       {renderCompanyRoute()}
-      <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "about" ? onOpenArtWorld : undefined} />
+      {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
+        <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "about" ? onOpenArtWorld : undefined} />
+      )}
     </div>
   );
 }

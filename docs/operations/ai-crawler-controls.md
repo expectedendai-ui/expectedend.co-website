@@ -65,7 +65,7 @@ Complete this table after authenticated configuration. Do not enter credentials 
 
 After the configuration is active:
 
-1. Request the production homepage and `/thewatercheck` with representative identities from each enabled AI category. Record the date, identity, route, response status, and whether Cloudflare classified the request. A manually supplied user agent may not reproduce paid Bot Management classification, so pair probe results with Cloudflare event evidence.
+1. Request the production homepage with representative identities from each enabled AI category. Record the date, identity, route, response status, and whether Cloudflare classified the request. A manually supplied user agent may not reproduce paid Bot Management classification, so pair probe results with Cloudflare event evidence.
 2. Request the same routes with a normal browser identity and confirm the pages remain available.
 3. Confirm `https://expectedend.co/robots.txt` and `https://expectedend.co/ai.txt` match the deployed repository files.
 4. Confirm the page still publishes `index, follow` for conventional search.

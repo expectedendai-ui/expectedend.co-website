@@ -6,17 +6,18 @@ import { ContactForm } from "./contact-form";
 describe("Expected End contact composer", () => {
   afterEach(() => vi.restoreAllMocks());
 
-  it("requires structured context and prepares an email without displaying the private inbox", async () => {
+  it("requires structured context and opens a prepared email addressed to the owner", async () => {
     const user = userEvent.setup();
     let preparedHref = "";
+    let wasAttachedToDocument = false;
     vi.spyOn(HTMLAnchorElement.prototype, "click").mockImplementation(function capturePreparedEmail(this: HTMLAnchorElement) {
       preparedHref = this.href;
+      wasAttachedToDocument = this.isConnected;
     });
     window.history.replaceState({}, "", "/about?utm_source=instagram&token=do-not-forward#contact");
 
     const { container } = render(<ContactForm />);
 
-    expect(screen.queryByText("expectedendai@gmail.com")).not.toBeInTheDocument();
     expect(container.textContent).not.toContain("↗");
     expect(screen.getByRole("button", { name: /Prepare email/ }).querySelector("svg[data-action-icon]")).toBeInTheDocument();
     await user.type(screen.getByLabelText("Your name"), "A Visitor");
@@ -41,7 +42,21 @@ describe("Expected End contact composer", () => {
     await user.click(screen.getByRole("button", { name: /Prepare email/ }));
 
     const preparedEmail = decodeURIComponent(preparedHref);
-    expect(preparedEmail).toContain("mailto:info@expectedend.co");
+    expect(wasAttachedToDocument).toBe(true);
+    expect(preparedEmail).toContain("mailto:expectedendai@gmail.com");
+    expect(screen.getByRole("link", { name: "your email app" })).toHaveAttribute("href", preparedHref);
+    const gmailUrl = new URL(screen.getByRole("link", { name: "Gmail" }).getAttribute("href") ?? "");
+    expect(gmailUrl.origin).toBe("https://mail.google.com");
+    expect(gmailUrl.searchParams.get("to")).toBe("expectedendai@gmail.com");
+    expect(gmailUrl.searchParams.get("su")).toBe("Expected End inquiry — Building an app or software idea");
+    const outlookUrl = new URL(screen.getByRole("link", { name: "Outlook" }).getAttribute("href") ?? "");
+    expect(outlookUrl.origin).toBe("https://outlook.office.com");
+    expect(outlookUrl.searchParams.get("to")).toBe("expectedendai@gmail.com");
+    expect(outlookUrl.searchParams.get("subject")).toBe("Expected End inquiry — Building an app or software idea");
+    const yahooUrl = new URL(screen.getByRole("link", { name: "Yahoo Mail" }).getAttribute("href") ?? "");
+    expect(yahooUrl.origin).toBe("https://compose.mail.yahoo.com");
+    expect(yahooUrl.searchParams.get("to")).toBe("expectedendai@gmail.com");
+    expect(yahooUrl.searchParams.get("subj")).toBe("Expected End inquiry — Building an app or software idea");
     expect(preparedEmail).toContain("Expected End inquiry — Building an app or software idea");
     expect(preparedEmail).toContain("Reply email: visitor@example.com");
     expect(preparedEmail).toContain("Price range: $2,000-$10,000");

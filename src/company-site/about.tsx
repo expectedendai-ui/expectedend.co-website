@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ArrowDownIcon } from "./action-icons";
+import { ArrowDownIcon, InstagramIcon, LinkedInIcon } from "./action-icons";
 import { ContactForm } from "./contact-form";
 import styles from "./style.module.css";
 import { VerseDialog } from "./verse-dialog";
@@ -26,7 +26,7 @@ export function AboutPage() {
         <div className={styles.aboutCopy}>
           <p className={styles.aboutLead}>Expected End LLC creates software, productivity tools, digital experiences, and communities that bring people closer to God.</p>
           <p>We design products that help people learn, create, work, and find peace while leaving room for family, friends, and life beyond the screen.</p>
-          <p>MyBibleLens and The Water Check are the first expressions of that mission. Each project meets a different need, and both make technology feel useful, human, and easy to leave when its work is done.</p>
+          <p>MyBibleLens and The Water Check community are the first expressions of that mission. Each meets a different need and helps make technology feel useful, human, and easy to leave when its work is done.</p>
         </div>
       </section>
 
@@ -47,7 +47,9 @@ export function AboutPage() {
           <div className={styles.founderRevealIntro}>
             <p className={styles.kicker}>Behind the company</p>
             <h2 id="founder-reveal-title">The story behind Expected End.</h2>
-            <p>The personal road from fifth-grade technology experiments to grief, faith, MyBibleLens, and a new beginning.</p>
+            <p>
+              The personal road from fifth-grade technology experiments to grief, faith, MyBibleLens, and a new beginning. <span className={styles.founderReadMore}>Read more</span>
+            </p>
           </div>
           <button
             className={styles.founderToggle}
@@ -56,8 +58,8 @@ export function AboutPage() {
             aria-controls="founder-story-content"
             onClick={() => setShowFounderStory((isOpen) => !isOpen)}
           >
-            <span>{showFounderStory ? "Close Founder Story" : "The Founder Story"}</span>
-            <span aria-hidden="true">{showFounderStory ? "−" : "+"}</span>
+            <span>{showFounderStory ? "Close Founder Story" : "The Founder Story, Denzel Rigaud"}</span>
+            <ArrowDownIcon className={styles.founderToggleIcon} />
           </button>
 
           {showFounderStory && (
@@ -67,6 +69,14 @@ export function AboutPage() {
                 <h2>Hi, my name is Denzel Rigaud.</h2>
                 <p>Technology has been part of my life since fifth grade. School had frustrated me from an early age. I failed second grade while facing a language barrier, and I did not believe that failure should define me. I decided to start by hacking my grades. It began small, but when I realized how far I could penetrate systems and jailbreak technology, I became curious about the systems around me and started having fun.</p>
                 <p>That curiosity carried me into Instagram bot farming, coding, automation, machine learning, online communities, digital growth, and the darkest corners of the internet. I learned how powerful technology could be. Some choices also taught me to use better judgment.</p>
+                <nav className={styles.founderSocials} aria-label="Denzel Rigaud social profiles">
+                  <a href="https://www.instagram.com/smiledenzel/" target="_blank" rel="noopener noreferrer" aria-label="Denzel Rigaud on Instagram">
+                    <InstagramIcon />
+                  </a>
+                  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="Denzel Rigaud on LinkedIn">
+                    <LinkedInIcon />
+                  </a>
+                </nav>
               </div>
 
               <section className={styles.storyChapter} aria-labelledby="family-title">

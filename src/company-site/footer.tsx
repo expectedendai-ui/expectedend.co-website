@@ -22,6 +22,10 @@ export function Footer({ onNavigate, onOpenArtWorld }: FooterProps) {
           <a href={CONTACT_HREF} onClick={onNavigate}>Contact</a>
         </nav>
       </div>
+      <div className={styles.footerMission}>
+        <p>Everything I build under this company points toward the same mission: bring people closer to God and help them use technology to live, create, love, and serve with intention. That is the expected ending I am working toward.</p>
+        <p className={styles.footerVerse}>Jeremiah 29:11</p>
+      </div>
       <div className={styles.footerBottom}>
         <p>© 2026 EXPECTED END LLC. All rights reserved.</p>
         <div className={styles.footerBlessing}>

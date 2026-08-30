@@ -1,10 +1,13 @@
-export type CompanyRouteKey = "home" | "about" | "terms" | "privacy" | "accessibility" | "not-found";
-
-export type WaterCheckRouteKey =
-  | "water-check-privacy"
-  | "water-check-terms"
-  | "water-check-health-and-ai-disclaimer"
-  | "water-check-consumer-health-data";
+export type CompanyRouteKey =
+  | "home"
+  | "about"
+  | "terms"
+  | "privacy"
+  | "accessibility"
+  | "mybiblelens-store"
+  | "watercheck-store"
+  | "watercheck-page"
+  | "not-found";
 
 type RouteMetadata = {
   path: string;
@@ -12,11 +15,7 @@ type RouteMetadata = {
   description: string;
 };
 
-export type PublicRoute = RouteMetadata &
-  (
-    | { key: CompanyRouteKey; family: "company" }
-    | { key: WaterCheckRouteKey; family: "water-check" }
-  );
+export type PublicRoute = RouteMetadata & { key: CompanyRouteKey; family: "company" };
 
 const ROUTES: PublicRoute[] = [
   {
@@ -55,32 +54,25 @@ const ROUTES: PublicRoute[] = [
     description: "Expected End's commitment to an accessible website experience.",
   },
   {
-    key: "water-check-privacy",
-    family: "water-check",
-    path: "/thewatercheck/privacy",
-    title: "Privacy — The Water Check",
-    description: "Privacy information for The Water Check website and future product.",
+    key: "mybiblelens-store",
+    family: "company",
+    path: "/mybiblelensstore",
+    title: "MyBibleLens Store — Expected End",
+    description: "Thoughtful goods for a closer walk with the Word. The MyBibleLens store is coming soon.",
   },
   {
-    key: "water-check-terms",
-    family: "water-check",
-    path: "/thewatercheck/terms",
-    title: "Terms — The Water Check",
-    description: "Terms governing use of The Water Check website.",
+    key: "watercheck-store",
+    family: "company",
+    path: "/thewatercheckstore",
+    title: "The Water Check Store — Expected End",
+    description: "Hydration-inspired essentials from The Water Check. The first drop is coming soon.",
   },
   {
-    key: "water-check-health-and-ai-disclaimer",
-    family: "water-check",
-    path: "/thewatercheck/health-and-ai-disclaimer",
-    title: "Health & AI Disclaimer — The Water Check",
-    description: "Health and AI limitations for The Water Check website and future product.",
-  },
-  {
-    key: "water-check-consumer-health-data",
-    family: "water-check",
-    path: "/thewatercheck/consumer-health-data",
-    title: "Consumer Health Data — The Water Check",
-    description: "Consumer health data information for The Water Check website and future product.",
+    key: "watercheck-page",
+    family: "company",
+    path: "/thewatercheckpage",
+    title: "Hydration Calculator — The Water Check",
+    description: "A private hydration estimate, practical water habits, and The Water Check community.",
   },
 ];
 

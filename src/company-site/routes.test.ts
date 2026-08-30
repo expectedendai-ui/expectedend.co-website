@@ -8,31 +8,25 @@ describe("company-site routes", () => {
     expect(getRoute("/terms").key).toBe("terms");
     expect(getRoute("/privacy").key).toBe("privacy");
     expect(getRoute("/accessibility").key).toBe("accessibility");
+    expect(getRoute("/mybiblelensstore").key).toBe("mybiblelens-store");
+    expect(getRoute("/thewatercheckstore/").key).toBe("watercheck-store");
+    expect(getRoute("/thewatercheckpage/").key).toBe("watercheck-page");
     expect(getRoute("/not-a-real-page").key).toBe("not-found");
   });
 
-  it("keeps the paused Water Check landing page hidden", () => {
-    const directRoute = getRoute("/thewatercheck");
-    const trailingSlashRoute = getRoute("/thewatercheck/");
-
-    expect(directRoute).toMatchObject({ key: "not-found", family: "company" });
-    expect(trailingSlashRoute).toEqual(directRoute);
-    expect(getRouteMetadata("/thewatercheck/").canonical).toBe("https://expectedend.co/");
-  });
-
   it.each([
-    ["/thewatercheck/privacy", "water-check-privacy", "Privacy"],
-    ["/thewatercheck/terms", "water-check-terms", "Terms"],
-    ["/thewatercheck/health-and-ai-disclaimer", "water-check-health-and-ai-disclaimer", "Health & AI Disclaimer"],
-    ["/thewatercheck/consumer-health-data", "water-check-consumer-health-data", "Consumer Health Data"],
-  ])("resolves %s with distinct product metadata", (path, key, title) => {
-    const route = getRoute(`${path}/`);
-    const metadata = getRouteMetadata(path);
-
-    expect(route).toMatchObject({ key, family: "water-check", path });
-    expect(metadata.title).toContain(title);
-    expect(metadata.description).toContain("Water Check");
-    expect(metadata.canonical).toBe(`https://expectedend.co${path}`);
+    "/thewatercheck",
+    "/thewatercheck/",
+    "/thewatercheck/privacy",
+    "/thewatercheck/terms",
+    "/thewatercheck/health-and-ai-disclaimer",
+    "/thewatercheck/consumer-health-data",
+  ])("retires %s as a not-found route", (path) => {
+    expect(getRoute(path).key).toBe("not-found");
+    expect(getRouteMetadata(path)).toMatchObject({
+      title: "Page not found — Expected End",
+      canonical: "https://expectedend.co/",
+    });
   });
 
   it("provides route-aware title, description, and canonical metadata", () => {
@@ -40,6 +34,15 @@ describe("company-site routes", () => {
     expect(metadata.title).toContain("Privacy");
     expect(metadata.description).toContain("Expected End");
     expect(metadata.canonical).toBe("https://expectedend.co/privacy");
+
+    const storeMetadata = getRouteMetadata("/mybiblelensstore");
+    expect(storeMetadata.title).toContain("MyBibleLens Store");
+    expect(storeMetadata.canonical).toBe("https://expectedend.co/mybiblelensstore");
+
+    const waterCheckMetadata = getRouteMetadata("/thewatercheckpage");
+    expect(waterCheckMetadata.title).toContain("Hydration Calculator");
+    expect(waterCheckMetadata.description).toContain("hydration estimate");
+    expect(waterCheckMetadata.canonical).toBe("https://expectedend.co/thewatercheckpage");
   });
 
   it("only intercepts same-origin public links", () => {

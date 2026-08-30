@@ -8,7 +8,7 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**/*.{ts,js,tsx,jsx,css,json,jsonc,md,mdx,gql,graphql}", "!**/.react-router", "!**/public", "!**/node_modules"]
+    "includes": ["**/*.{ts,js,tsx,jsx,css,json,jsonc,md,mdx,gql,graphql}", "!**/.react-router", "!**/public", "!**/node_modules", "!src/company-site/water-check-page.css"]
   },
   "assist": {
     "actions": {

@@ -13,7 +13,7 @@ export function InfoPage({ content }: InfoPageProps) {
           <p className={styles.kicker}>{content.eyebrow}</p>
           <h1>{content.title}</h1>
           <p>{content.intro}</p>
-          <span>Effective July 31, 2026</span>
+          <span>Effective {content.effectiveDate}</span>
         </header>
         <div className={styles.infoBody}>
           {content.sections.map((section) => (

@@ -6,7 +6,7 @@
     <meta name="google-site-verification" content="2oDPC_PThXMb_JLBCieY_vewAHTZsa65vP_VaKOSkEg" />
     <title>Expected End — Purpose, built beautifully</title>
     <meta name="description" content="Expected End creates thoughtful software, productivity tools, digital experiences, and communities." />
-    <meta name="author" content="Expected End LLC" />
+    <meta name="author" content="Denzel Rigaud, Owner and Founder of Expected End LLC" />
     <meta name="copyright" content="© 2026 Expected End LLC. All rights reserved." />
     <meta name="robots" content="index, follow, noimageai, max-image-preview:large" />
     <meta name="theme-color" content="#102f80" />
@@ -22,6 +22,18 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ8HBVZXMT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      const localPreviewHosts = ['localhost', '127.0.0.1', '::1', '[::1]'];
+      if (!localPreviewHosts.includes(window.location.hostname)) {
+        gtag('config', 'G-SJ8HBVZXMT');
+      }
+    </script>
     <script>document.documentElement.className = "js";</script>
     <script type="application/ld+json">
       {
@@ -33,7 +45,14 @@
         "description": "Expected End creates thoughtful software, productivity tools, digital experiences, and communities.",
         "founder": {
           "@type": "Person",
-          "name": "Denzel Rigaud"
+          "@id": "https://expectedend.co/#denzel-rigaud",
+          "name": "Denzel Rigaud",
+          "jobTitle": "Owner and Founder",
+          "url": "https://expectedend.co/about",
+          "sameAs": [
+            "https://www.instagram.com/smiledenzel/",
+            "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+          ]
         },
         "sameAs": [
           "https://mybiblelens.us/"
@@ -48,7 +67,11 @@
           {
             "@type": "Project",
             "name": "The Water Check",
-            "url": "https://www.instagram.com/thewatercheck/"
+            "description": "A private hydration estimate and practical water habits.",
+            "url": "https://expectedend.co/thewatercheckpage",
+            "sameAs": [
+              "https://www.instagram.com/thewatercheck/"
+            ]
           }
         ]
       }
