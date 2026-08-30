@@ -10,6 +10,7 @@ describe("company-site routes", () => {
     expect(getRoute("/accessibility").key).toBe("accessibility");
     expect(getRoute("/mybiblelensstore").key).toBe("mybiblelens-store");
     expect(getRoute("/thewatercheckstore/").key).toBe("watercheck-store");
+    expect(getRoute("/thewatercheckpage/").key).toBe("watercheck-page");
     expect(getRoute("/not-a-real-page").key).toBe("not-found");
   });
 
@@ -37,6 +38,11 @@ describe("company-site routes", () => {
     const storeMetadata = getRouteMetadata("/mybiblelensstore");
     expect(storeMetadata.title).toContain("MyBibleLens Store");
     expect(storeMetadata.canonical).toBe("https://expectedend.co/mybiblelensstore");
+
+    const waterCheckMetadata = getRouteMetadata("/thewatercheckpage");
+    expect(waterCheckMetadata.title).toContain("Hydration Calculator");
+    expect(waterCheckMetadata.description).toContain("hydration estimate");
+    expect(waterCheckMetadata.canonical).toBe("https://expectedend.co/thewatercheckpage");
   });
 
   it("only intercepts same-origin public links", () => {

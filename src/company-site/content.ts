@@ -1,7 +1,7 @@
 export const CONTACT_HREF = "/about#contact";
 
-// Denzel Rigaud approved the governed public content, service/inquiry copy,
-// and self-hosted-font disclosure for production release on 2026-08-08.
+// Denzel Rigaud approved the existing site copy on 2026-08-08 and the new
+// Water Check page copy on 2026-08-30.
 export const PUBLIC_CONTENT_APPROVED = true;
 
 export const PROJECTS = [
@@ -24,8 +24,8 @@ export const PROJECTS = [
     name: "The Water Check",
     category: "Hydration community",
     destination: {
-      href: "https://www.instagram.com/thewatercheck/",
-      actionLabel: "Visit community",
+      href: "/thewatercheckpage",
+      actionLabel: "Check your baseline",
     },
     image: "/brand/thewatercheck.png",
     artVariant: "watercheck",
@@ -33,7 +33,7 @@ export const PROJECTS = [
   },
   {
     name: "MyBibleLens Store",
-    category: "Goods for the journey",
+    category: "Store · Coming soon",
     destination: {
       href: "/mybiblelensstore",
       actionLabel: "Enter store",
@@ -44,7 +44,7 @@ export const PROJECTS = [
   },
   {
     name: "The Water Check Store",
-    category: "First drop coming soon",
+    category: "Store · Coming soon",
     destination: {
       href: "/thewatercheckstore",
       actionLabel: "Enter store",

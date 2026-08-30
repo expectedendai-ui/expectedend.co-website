@@ -8,6 +8,7 @@ import { Navigation } from "./navigation";
 import { getRoute, getRouteMetadata, isInternalHref } from "./routes";
 import { Storefront } from "./storefront";
 import styles from "./style.module.css";
+import { WaterCheckPage } from "./water-check-page";
 
 type CompanySiteProps = {
   leaving: boolean;
@@ -91,6 +92,7 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
     if (route.key === "home") return <HomePage onNavigate={onNavigate} />;
     if (route.key === "mybiblelens-store") return <Storefront brand="mybiblelens" onNavigate={onNavigate} />;
     if (route.key === "watercheck-store") return <Storefront brand="watercheck" onNavigate={onNavigate} />;
+    if (route.key === "watercheck-page") return <WaterCheckPage />;
     if (route.key === "about") return <AboutPage />;
     if (route.key === "terms" || route.key === "privacy" || route.key === "accessibility") {
       return <InfoPage content={LEGAL_CONTENT[route.key]} />;

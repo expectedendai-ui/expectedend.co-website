@@ -216,6 +216,7 @@
   transition: transform 420ms cubic-bezier(.2, .8, .2, 1), box-shadow 420ms cubic-bezier(.2, .8, .2, 1);
 }
 .projectArt[data-art-variant="watercheck"] {
+  --art-radius: 50%;
   --shine-edge: rgba(31, 126, 255, .28);
   --shine-center: rgba(82, 193, 255, .72);
   --art-rim: #0d55ba;

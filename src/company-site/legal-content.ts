@@ -7,6 +7,7 @@ export type LegalPageContent = {
   eyebrow: string;
   title: string;
   intro: string;
+  effectiveDate: string;
   sections: LegalSection[];
 };
 
@@ -15,6 +16,7 @@ export const LEGAL_CONTENT = {
     eyebrow: "Company information",
     title: "Website Terms of Use",
     intro: "These terms govern your use of the Expected End website. By accessing the site, you agree to these terms. If you do not agree, please do not use the site.",
+    effectiveDate: "July 31, 2026",
     sections: [
       { heading: "About this website", paragraphs: ["This website shares general information about Expected End LLC, its projects, and selected services. Website content may change as the company and its work develop.", "Nothing on this website is a binding offer, professional advice, or a guarantee that a project, feature, service, price, or timeline will be available."] },
       { heading: "Project and service inquiries", paragraphs: ["Preparing or sending a message through the Contact page does not create a client relationship, partnership, confidentiality obligation, or contract. Any paid work will require a separate written agreement signed by the appropriate parties.", "Please do not send passwords, financial account information, trade secrets, or other highly sensitive or confidential information through the Contact page unless Expected End has agreed in writing to receive it securely."] },
@@ -31,8 +33,10 @@ export const LEGAL_CONTENT = {
     eyebrow: "Company information",
     title: "Privacy Statement",
     intro: "Expected End LLC aims to collect as little personal information as this public website needs. This statement explains the current website and Contact experience; separate Expected End projects may provide their own privacy notices.",
+    effectiveDate: "August 30, 2026",
     sections: [
-      { heading: "Information used on your device", paragraphs: ["This website has no public accounts, advertising trackers, analytics, or payment flow. The website may use essential browser features needed to display pages and preserve basic functionality, but it does not currently use a public account system."] },
+      { heading: "Information used on your device", paragraphs: ["This website has no public accounts, payment flow, or targeted advertising. The website uses essential browser features needed to display pages and preserve basic functionality."] },
+      { heading: "Website analytics", paragraphs: ["Expected End uses Google Analytics to understand how people find and use this website and to improve its content and performance. Google Analytics may collect pages viewed, session activity, approximate location, and browser and device information. It may also store a client identifier in a first-party cookie named _ga.", "Google processes this analytics information as a service provider under its own terms and privacy practices. Expected End does not intentionally send names, email addresses, Contact message contents, or other directly identifying Contact details to Google Analytics. You can limit or block analytics cookies through your browser settings, although doing so may reduce measurement accuracy."] },
       { heading: "Contact messages", paragraphs: ["The guided Contact form prepares a message in your own email application. Expected End does not receive the form details unless you review and send that email.", "If you send the message, Expected End receives the name, reply email, inquiry selections, message, and source information displayed in the prepared email. Source information is limited to the Expected End page and supported campaign parameters. Expected End uses this information to review the inquiry, respond, keep appropriate business records, prevent abuse, and protect its rights."] },
       { heading: "Hosting and technical information", paragraphs: ["Expected End uses service providers to deliver, route, and protect the website and company email. Those providers may process standard technical information such as IP address, browser type, requested pages, timestamps, and security logs as needed to provide their services."] },
       { heading: "Fonts and external destinations", paragraphs: ["The site serves its font files locally, so loading a page does not request fonts from an external font provider. The website also links to MyBibleLens, Instagram, and other destinations. An external provider receives a request only after you intentionally follow its link, and that provider then handles information under its own terms and privacy practices."] },
@@ -47,6 +51,7 @@ export const LEGAL_CONTENT = {
     eyebrow: "Company information",
     title: "Accessibility",
     intro: "Expected End wants its website and digital experiences to be welcoming and usable for as many people as possible.",
+    effectiveDate: "July 31, 2026",
     sections: [
       { heading: "Our approach", paragraphs: ["We work toward clear structure, keyboard access, readable contrast, meaningful labels, responsive layouts, and reduced-motion support across this site."] },
       { heading: "Ongoing work", paragraphs: ["Accessibility is an ongoing practice. As the site changes, we will continue to test its core paths and improve barriers we find."] },

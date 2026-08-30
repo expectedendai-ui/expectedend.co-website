@@ -13,6 +13,163 @@
   isolation: isolate;
 }
 
+[data-water-check-page] h1,
+[data-water-check-page] h2,
+[data-water-check-page] output {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+}
+
+.waterCheckPage {
+  background: #f4eff4;
+}
+
+.waterCheckHero {
+  background:
+    radial-gradient(circle at 16% 8%, rgba(203, 250, 255, 0.34), transparent 29%),
+    radial-gradient(circle at 84% 34%, rgba(90, 224, 249, 0.32), transparent 31%),
+    linear-gradient(180deg, #0b80ad 0%, #08709e 52%, #07618e 100%);
+}
+
+[data-water-field] {
+  background:
+    radial-gradient(ellipse at 24% 14%, rgba(218, 254, 255, 0.3), transparent 26%),
+    radial-gradient(ellipse at 76% 38%, rgba(82, 218, 246, 0.32), transparent 31%),
+    radial-gradient(ellipse at 44% 82%, rgba(1, 72, 139, 0.22), transparent 36%);
+}
+
+[data-water-field]::before,
+[data-water-field]::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+}
+
+[data-water-field]::before {
+  animation: water-check-current-slide 18s linear infinite;
+  background-image: repeating-radial-gradient(
+    ellipse at 50% -8%,
+    transparent 0 52px,
+    rgba(214, 252, 255, 0.3) 54px 57px,
+    transparent 61px 112px
+  );
+  background-size: 300px 150px;
+  inset: -12%;
+  mix-blend-mode: screen;
+  opacity: 0.46;
+  transform: rotate(-7deg) scale(1.16);
+}
+
+[data-water-field]::after {
+  animation: water-check-caustic-shimmer 9s ease-in-out infinite alternate;
+  background:
+    linear-gradient(112deg, transparent 16%, rgba(222, 254, 255, 0.2) 29%, transparent 42%),
+    linear-gradient(104deg, transparent 50%, rgba(105, 224, 249, 0.2) 62%, transparent 74%);
+  filter: blur(20px);
+  inset: 4% -8%;
+  opacity: 0.54;
+}
+
+.waterCheckCalculatorSection {
+  background: linear-gradient(180deg, transparent 0 5rem, #dcebef 16rem, #f4eff4 100%);
+}
+
+.waterCheckCalculatorCard {
+  background: rgba(252, 248, 246, 0.95);
+  border: 1px solid rgba(235, 220, 229, 0.94);
+  box-shadow: 0 2rem 6rem rgba(76, 52, 78, 0.17);
+  backdrop-filter: blur(18px);
+}
+
+.waterCheckResult {
+  background:
+    radial-gradient(circle at 88% 10%, rgba(138, 239, 255, 0.2), transparent 28%),
+    linear-gradient(135deg, #0878a7, #055983 72%, #043f67);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.waterCheckTipsSection {
+  background: linear-gradient(180deg, #f4eff4, #f8f5f1 72%, #e8dfea);
+}
+
+.waterCheckAuthorSection {
+  background: linear-gradient(180deg, #e8dfea, #f3eaf0 70%, #d6e9ee);
+}
+
+.waterCheckCommunitySection {
+  background: linear-gradient(180deg, #d6e9ee 0, #0b79a8 8rem, #07577f 34rem, #064b70 100%);
+}
+
+.waterCheckInstagramButton {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  height: 45px;
+  isolation: isolate;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  transition: transform 300ms ease;
+  width: 45px;
+}
+
+.waterCheckInstagramIcon {
+  align-items: center;
+  backdrop-filter: blur(4px);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.46);
+  border-radius: 10px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  transition: background-color 300ms ease;
+  width: 100%;
+  z-index: 2;
+}
+
+.waterCheckInstagramIcon svg {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.waterCheckInstagramGradient {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-radius: 9px;
+  height: 100%;
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: transform 300ms ease;
+  width: 100%;
+  z-index: 1;
+}
+
+.waterCheckInstagramButton:hover .waterCheckInstagramGradient,
+.waterCheckInstagramButton:focus-visible .waterCheckInstagramGradient {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.waterCheckInstagramButton:hover .waterCheckInstagramIcon,
+.waterCheckInstagramButton:focus-visible .waterCheckInstagramIcon {
+  background: rgba(156, 156, 156, 0.46);
+}
+
+.waterCheckInstagramButton:focus-visible {
+  outline: 3px solid #f7c7dd;
+  outline-offset: 5px;
+}
+
+.waterCheckInstagramButton:active {
+  transform: scale(0.94);
+}
+
 [data-water-check-page] input[type="range"] {
   accent-color: var(--water-blue);
   cursor: pointer;
@@ -24,6 +181,294 @@
   border-radius: 999px;
   outline: 3px solid rgba(15, 124, 213, 0.35);
   outline-offset: 4px;
+}
+
+.waterCheckUnitSwitch {
+  align-items: center;
+  background: #eee6ee;
+  border: 1px solid #dfd0dc;
+  border-radius: 999px;
+  display: inline-flex;
+  gap: 0.25rem;
+  padding: 0.3rem;
+}
+
+.waterCheckUnitSwitch legend {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.waterCheckUnitSwitch label {
+  cursor: pointer;
+  position: relative;
+}
+
+.waterCheckUnitSwitch input {
+  inset: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+.waterCheckUnitSwitch span {
+  border-radius: 999px;
+  color: #315a73;
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 0.62rem 1rem;
+  transition: background-color 180ms ease, box-shadow 180ms ease, color 180ms ease;
+}
+
+.waterCheckUnitSwitch input:checked + span {
+  background: white;
+  box-shadow: 0 0.35rem 1rem rgba(8, 77, 119, 0.12);
+  color: var(--water-ink);
+}
+
+.waterCheckUnitSwitch input:focus-visible + span {
+  outline: 3px solid rgba(15, 124, 213, 0.38);
+  outline-offset: 2px;
+}
+
+.waterCheckField,
+.waterCheckToggle {
+  background: #f7f2f6;
+  border: 1px solid #e4d8e1;
+  border-radius: 1.25rem;
+  color: var(--water-ink);
+  min-width: 0;
+}
+
+.waterCheckField {
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem;
+}
+
+.waterCheckField > span,
+.waterCheckToggle > span:nth-child(2) {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.waterCheckField strong,
+.waterCheckToggle strong {
+  font-size: 0.98rem;
+  line-height: 1.3;
+}
+
+.waterCheckField small,
+.waterCheckToggle small {
+  color: #745f73;
+  font-size: 0.76rem;
+  line-height: 1.45;
+}
+
+.waterCheckField input,
+.waterCheckField select {
+  appearance: none;
+  background: white;
+  border: 1px solid #d9c8d5;
+  border-radius: 0.85rem;
+  color: var(--water-ink);
+  font: inherit;
+  font-weight: 800;
+  min-height: 3rem;
+  padding: 0.65rem 0.85rem;
+  width: 100%;
+}
+
+.waterCheckField select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #0f7cd5 50%),
+    linear-gradient(135deg, #0f7cd5 50%, transparent 50%);
+  background-position:
+    calc(100% - 1.15rem) 1.25rem,
+    calc(100% - 0.85rem) 1.25rem;
+  background-repeat: no-repeat;
+  background-size: 0.32rem 0.32rem, 0.32rem 0.32rem;
+  padding-right: 2.4rem;
+}
+
+.waterCheckField input:focus-visible,
+.waterCheckField select:focus-visible {
+  outline: 3px solid rgba(15, 124, 213, 0.35);
+  outline-offset: 2px;
+}
+
+.waterCheckToggle {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 0.9rem;
+  min-height: 7rem;
+  padding: 1.15rem;
+  position: relative;
+}
+
+.waterCheckToggleIcon {
+  align-items: center;
+  background: #eee2ee;
+  border-radius: 0.85rem;
+  color: var(--water-blue);
+  display: flex;
+  flex: 0 0 auto;
+  height: 2.7rem;
+  justify-content: center;
+  width: 2.7rem;
+}
+
+.waterCheckToggle input {
+  height: 1px;
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.waterCheckSwitch {
+  background: #aacbd8;
+  border-radius: 999px;
+  flex: 0 0 auto;
+  height: 1.55rem;
+  position: relative;
+  transition: background-color 180ms ease;
+  width: 2.8rem;
+}
+
+.waterCheckSwitch::after {
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0.15rem 0.35rem rgba(8, 45, 82, 0.22);
+  content: "";
+  height: 1.15rem;
+  left: 0.2rem;
+  position: absolute;
+  top: 0.2rem;
+  transition: transform 180ms ease;
+  width: 1.15rem;
+}
+
+.waterCheckToggle input:checked + .waterCheckSwitch {
+  background: var(--water-blue);
+}
+
+.waterCheckToggle input:checked + .waterCheckSwitch::after {
+  transform: translateX(1.25rem);
+}
+
+.waterCheckToggle:has(input:focus-visible) {
+  outline: 3px solid rgba(15, 124, 213, 0.35);
+  outline-offset: 2px;
+}
+
+.waterCheckResultPart {
+  background: rgba(224, 248, 255, 0.11);
+  border: 1px solid rgba(217, 248, 255, 0.16);
+  border-radius: 1rem;
+  display: grid;
+  gap: 0.3rem;
+  padding: 0.9rem 1rem;
+}
+
+.waterCheckResult > fieldset {
+  border: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+.waterCheckResultPart span {
+  color: #bce7f7;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.waterCheckResultPart strong {
+  font-size: 1rem;
+}
+
+.waterCheckResultPartWarm {
+  background: rgba(255, 226, 232, 0.13);
+  border-color: rgba(255, 224, 232, 0.25);
+}
+
+.waterCheckResultPartWarm span {
+  color: #ffd6df;
+}
+
+.waterCheckInlineGrace {
+  background:
+    radial-gradient(circle at 90% 10%, rgba(255, 255, 255, 0.78), transparent 32%),
+    linear-gradient(135deg, #f6eaf1, #eee7f2);
+  border: 1px solid #e3d2df;
+  box-shadow: 0 1.2rem 3rem rgba(93, 62, 91, 0.08);
+}
+
+.waterCheckOverhydration {
+  background: #fff1f2;
+  border-left: 4px solid #ef4444;
+  box-shadow: 0 1rem 2.5rem rgba(127, 29, 29, 0.07);
+}
+
+.waterCheckWarningIcon {
+  align-items: center;
+  background: #fee2e2;
+  border-radius: 0.85rem;
+  color: #dc2626;
+  display: flex;
+  flex: 0 0 auto;
+  height: 2.8rem;
+  justify-content: center;
+  width: 2.8rem;
+}
+
+.waterCheckOverhydration a {
+  color: #7f1d1d;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.18rem;
+}
+
+.waterCheckAuthorMark {
+  background:
+    radial-gradient(circle at 35% 28%, rgba(255, 255, 255, 0.9), transparent 22%),
+    linear-gradient(145deg, #d9c9dc, #bca7c5);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.75), 0 1.8rem 4rem rgba(83, 57, 87, 0.13);
+  color: #6f5578;
+}
+
+.waterCheckEvidenceNotes p {
+  color: #315a73;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.waterCheckEvidenceNotes strong {
+  color: var(--water-ink);
+}
+
+.waterCheckSources a {
+  color: #0b6daf;
+  text-decoration: underline;
+  text-decoration-color: rgba(11, 109, 175, 0.3);
+  text-underline-offset: 0.2rem;
+}
+
+.waterCheckSources a:hover {
+  color: #074b7d;
+  text-decoration-color: currentColor;
+}
+
+@media (max-width: 39.999rem) {
+  .waterCheckSources {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 .waterCheckRipple {
@@ -49,8 +494,190 @@
   transform: rotate(-9deg);
 }
 
-.waterCheckResultGlow {
-  animation: water-check-breathe 5s ease-in-out infinite;
+.waterCheckLogoStage {
+  position: relative;
+  width: min(100%, 25rem);
+}
+
+.waterCheckLogoStage > a {
+  align-items: center;
+  color: white;
+  display: grid;
+  justify-items: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.waterCheckLogoStage > a:focus-visible {
+  border-radius: 2rem;
+  outline: 3px solid var(--water-bright);
+  outline-offset: 0.75rem;
+}
+
+.waterCheckLogoOrb {
+  animation: water-check-logo-float 6s ease-in-out infinite;
+  aspect-ratio: 1;
+  background: radial-gradient(
+    circle at 30% 22%,
+    rgba(255, 255, 255, 0.94),
+    rgba(93, 220, 253, 0.48) 23%,
+    rgba(1, 89, 173, 0.36) 59%,
+    rgba(0, 38, 112, 0.7)
+  );
+  border: 1px solid rgba(220, 252, 255, 0.8);
+  border-radius: 47% 53% 45% 55% / 54% 44% 56% 46%;
+  box-shadow:
+    inset 0.9rem 1.1rem 2rem rgba(224, 253, 255, 0.4),
+    inset -1.1rem -1.4rem 2.4rem rgba(0, 35, 115, 0.42),
+    0 0 0 0.5rem rgba(138, 239, 255, 0.08),
+    0 2rem 5rem rgba(0, 36, 92, 0.35);
+  display: block;
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 500ms ease, transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  width: clamp(15rem, 28vw, 24rem);
+}
+
+.waterCheckLogoOrb::after {
+  background: radial-gradient(circle at 32% 20%, rgba(255, 255, 255, 0.9), transparent 18%);
+  border-radius: inherit;
+  box-shadow: inset -1.2rem -1.5rem 2.4rem rgba(1, 56, 143, 0.2);
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 5;
+}
+
+.waterCheckLogoOrb img {
+  display: block;
+  filter: drop-shadow(0 0.75rem 1rem rgba(0, 22, 83, 0.3));
+  height: auto;
+  left: 18%;
+  position: absolute;
+  top: 18%;
+  width: 64%;
+  z-index: 3;
+}
+
+.waterCheckLogoCaustics {
+  animation: water-check-caustics 8s linear infinite;
+  background:
+    repeating-radial-gradient(ellipse at 18% 22%, transparent 0 8%, rgba(173, 235, 255, 0.52) 10%, transparent 14% 22%),
+    repeating-radial-gradient(ellipse at 78% 70%, rgba(18, 127, 255, 0.25) 0 5%, transparent 9% 18%),
+    conic-gradient(from 40deg at 50% 50%, transparent, rgba(255, 255, 255, 0.72), transparent 22%, rgba(47, 184, 255, 0.38), transparent 52%);
+  border-radius: 50%;
+  inset: -8%;
+  mix-blend-mode: screen;
+  opacity: 0.46;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.waterCheckLogoRings {
+  inset: -14%;
+  pointer-events: none;
+  position: absolute;
+}
+
+.waterCheckLogoRings i {
+  animation: water-check-logo-ring 4.8s ease-out infinite;
+  border: 1px solid rgba(130, 214, 251, 0.5);
+  border-radius: 50%;
+  inset: 12%;
+  opacity: 0;
+  position: absolute;
+}
+
+.waterCheckLogoRings i:nth-child(2) {
+  animation-delay: 1.6s;
+}
+
+.waterCheckLogoRings i:nth-child(3) {
+  animation-delay: 3.2s;
+}
+
+.waterCheckLogoBubble {
+  animation: water-check-logo-bubble 4.5s ease-in-out infinite;
+  background: radial-gradient(circle at 34% 28%, white 0 8%, #9ae1ff 24%, rgba(19, 119, 216, 0.38) 62%, rgba(255, 255, 255, 0.2) 66%);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 50%;
+  box-shadow: 0 0.45rem 1rem rgba(0, 51, 136, 0.25);
+  position: absolute;
+  z-index: 6;
+}
+
+.waterCheckLogoBubbleOne {
+  height: 2.2rem;
+  right: 11%;
+  top: 15%;
+  width: 2.2rem;
+}
+
+.waterCheckLogoBubbleTwo {
+  animation-delay: -2.1s;
+  bottom: 21%;
+  height: 1.25rem;
+  left: 14%;
+  width: 1.25rem;
+}
+
+.waterCheckLogoPrompt {
+  align-items: center;
+  backdrop-filter: blur(1rem);
+  background: rgba(5, 27, 47, 0.76);
+  border: 1px solid rgba(130, 214, 251, 0.42);
+  border-radius: 999px;
+  bottom: -1.1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 8, 24, 0.32);
+  display: flex;
+  gap: 0.85rem;
+  justify-content: center;
+  min-width: 13rem;
+  padding: 0.75rem 1.1rem;
+  position: absolute;
+  transition: background-color 250ms ease, transform 250ms ease;
+  z-index: 8;
+}
+
+.waterCheckLogoPrompt span {
+  display: grid;
+  gap: 0.05rem;
+}
+
+.waterCheckLogoPrompt strong,
+.waterCheckLogoPrompt small {
+  display: block;
+}
+
+.waterCheckLogoPrompt strong {
+  font-size: 0.92rem;
+  line-height: 1.15;
+}
+
+.waterCheckLogoPrompt small {
+  color: #a9d7eb;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+}
+
+.waterCheckLogoStage > a:hover .waterCheckLogoOrb,
+.waterCheckLogoStage > a:focus-visible .waterCheckLogoOrb {
+  animation: none;
+  box-shadow:
+    inset 0.9rem 1.1rem 2rem rgba(224, 253, 255, 0.5),
+    inset -1.1rem -1.4rem 2.4rem rgba(0, 35, 115, 0.38),
+    0 0 0 0.75rem rgba(138, 239, 255, 0.14),
+    0 2.4rem 6rem rgba(0, 36, 92, 0.42);
+  transform: translateY(-0.2rem) scale(1.035);
+}
+
+.waterCheckLogoStage > a:hover .waterCheckLogoPrompt,
+.waterCheckLogoStage > a:focus-visible .waterCheckLogoPrompt {
+  background: rgba(15, 124, 213, 0.9);
+  transform: translateY(-0.25rem);
 }
 
 @keyframes water-check-ripple {
@@ -76,20 +703,80 @@
   }
 }
 
-@keyframes water-check-breathe {
+@keyframes water-check-current-slide {
+  to {
+    background-position: 300px 150px;
+    transform: rotate(-4deg) scale(1.2);
+  }
+}
+
+@keyframes water-check-caustic-shimmer {
+  to {
+    opacity: 0.78;
+    transform: translate(-7%, 5%) skewX(-3deg);
+  }
+}
+
+@keyframes water-check-logo-float {
   0%,
   100% {
-    box-shadow: 0 18px 50px rgba(4, 85, 137, 0.16);
+    transform: translate3d(0, -0.35rem, 0) rotate(-1deg);
   }
   50% {
-    box-shadow: 0 24px 70px rgba(28, 153, 219, 0.28);
+    transform: translate3d(0, 0.65rem, 0) rotate(1.3deg);
+  }
+}
+
+@keyframes water-check-caustics {
+  from {
+    transform: rotate(0deg) scale(1.05);
+  }
+  to {
+    transform: rotate(360deg) scale(1.05);
+  }
+}
+
+@keyframes water-check-logo-ring {
+  0% {
+    opacity: 0;
+    transform: scale(0.72);
+  }
+  18% {
+    opacity: 0.58;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.28);
+  }
+}
+
+@keyframes water-check-logo-bubble {
+  0%,
+  100% {
+    transform: translate3d(0, 0.35rem, 0) scale(0.92);
+  }
+  50% {
+    transform: translate3d(0.35rem, -0.6rem, 0) scale(1.08);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .waterCheckRipple,
   .waterCheckRefraction,
-  .waterCheckResultGlow {
+  .waterCheckLogoOrb,
+  .waterCheckLogoCaustics,
+  .waterCheckLogoRings i,
+  .waterCheckLogoBubble,
+  [data-water-field]::before,
+  [data-water-field]::after {
     animation: none;
+  }
+
+  .waterCheckLogoOrb,
+  .waterCheckLogoPrompt,
+  .waterCheckInstagramButton,
+  .waterCheckInstagramIcon,
+  .waterCheckInstagramGradient {
+    transition: none;
   }
 }

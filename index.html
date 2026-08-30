@@ -22,6 +22,18 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ8HBVZXMT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      const localPreviewHosts = ['localhost', '127.0.0.1', '::1', '[::1]'];
+      if (!localPreviewHosts.includes(window.location.hostname)) {
+        gtag('config', 'G-SJ8HBVZXMT');
+      }
+    </script>
     <script>document.documentElement.className = "js";</script>
     <script type="application/ld+json">
       {
@@ -55,8 +67,8 @@
           {
             "@type": "Project",
             "name": "The Water Check",
-            "description": "A hydration community.",
-            "url": "https://www.instagram.com/thewatercheck/",
+            "description": "A private hydration estimate and practical water habits.",
+            "url": "https://expectedend.co/thewatercheckpage",
             "sameAs": [
               "https://www.instagram.com/thewatercheck/"
             ]

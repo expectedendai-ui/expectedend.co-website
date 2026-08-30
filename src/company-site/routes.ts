@@ -1,4 +1,13 @@
-export type CompanyRouteKey = "home" | "about" | "terms" | "privacy" | "accessibility" | "mybiblelens-store" | "watercheck-store" | "not-found";
+export type CompanyRouteKey =
+  | "home"
+  | "about"
+  | "terms"
+  | "privacy"
+  | "accessibility"
+  | "mybiblelens-store"
+  | "watercheck-store"
+  | "watercheck-page"
+  | "not-found";
 
 type RouteMetadata = {
   path: string;
@@ -57,6 +66,13 @@ const ROUTES: PublicRoute[] = [
     path: "/thewatercheckstore",
     title: "The Water Check Store — Expected End",
     description: "Hydration-inspired essentials from The Water Check. The first drop is coming soon.",
+  },
+  {
+    key: "watercheck-page",
+    family: "company",
+    path: "/thewatercheckpage",
+    title: "Hydration Calculator — The Water Check",
+    description: "A private hydration estimate, practical water habits, and The Water Check community.",
   },
 ];
 

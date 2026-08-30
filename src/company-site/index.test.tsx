@@ -31,14 +31,14 @@ describe("Expected End public site", () => {
       "https://mybiblelens.us/legal.html#about"
     );
     const waterCheckArtwork = screen.getByRole("link", { name: "Visit The Water Check" });
-    expect(waterCheckArtwork).toHaveAttribute("href", "https://www.instagram.com/thewatercheck/");
-    expect(waterCheckArtwork).toHaveAttribute("target", "_blank");
-    expect(waterCheckArtwork).toHaveAttribute("rel", "noreferrer");
+    expect(waterCheckArtwork).toHaveAttribute("href", "/thewatercheckpage");
+    expect(waterCheckArtwork).not.toHaveAttribute("target");
+    expect(waterCheckArtwork).not.toHaveAttribute("rel");
 
-    const waterCheckAction = screen.getByRole("link", { name: "Visit community" });
-    expect(waterCheckAction).toHaveAttribute("href", "https://www.instagram.com/thewatercheck/");
-    expect(waterCheckAction).toHaveAttribute("target", "_blank");
-    expect(waterCheckAction).toHaveAttribute("rel", "noreferrer");
+    const waterCheckAction = screen.getByRole("link", { name: "Check your baseline" });
+    expect(waterCheckAction).toHaveAttribute("href", "/thewatercheckpage");
+    expect(waterCheckAction).not.toHaveAttribute("target");
+    expect(waterCheckAction).not.toHaveAttribute("rel");
     expect(screen.getByRole("button", { name: "Bio for The Water Check" })).toBeInTheDocument();
 
     const myBibleLensArtwork = screen.getByRole("link", { name: "Visit MyBibleLens" });
@@ -46,6 +46,7 @@ describe("Expected End public site", () => {
     expect(myBibleLensArtwork).toHaveAttribute("rel", "noreferrer");
     expect(screen.getByRole("link", { name: "Visit app" })).toHaveAttribute("target", "_blank");
     expect(screen.getAllByRole("link", { name: "Enter store" })).toHaveLength(2);
+    expect(screen.getAllByText("Store · Coming soon")).toHaveLength(2);
     const myBibleLensStoreArtwork = screen.getByRole("link", { name: "Visit MyBibleLens Store" });
     expect(myBibleLensStoreArtwork.querySelector("[data-store-collage='mybiblelens']")).toBeInTheDocument();
     expect(myBibleLensStoreArtwork.querySelectorAll("img")).toHaveLength(4);
@@ -67,7 +68,7 @@ describe("Expected End public site", () => {
     const stopJSDOMNavigation = (event: MouseEvent) => event.preventDefault();
     window.addEventListener("click", stopJSDOMNavigation);
 
-    fireEvent.click(screen.getByRole("link", { name: "Visit community" }), {
+    fireEvent.click(screen.getByRole("link", { name: "Check your baseline" }), {
       ctrlKey: true,
     });
     fireEvent.click(screen.getByRole("link", { name: "Visit app" }), {
@@ -76,6 +77,15 @@ describe("Expected End public site", () => {
     window.removeEventListener("click", stopJSDOMNavigation);
 
     expect(window.location.pathname).toBe("/");
+  });
+
+  it("opens the Water Check page from its internal homepage card", async () => {
+    const user = userEvent.setup();
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+
+    await user.click(screen.getByRole("link", { name: "Visit The Water Check" }));
+    expect(window.location.pathname).toBe("/thewatercheckpage");
+    expect(screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })).toBeInTheDocument();
   });
 
   it("opens the Water Check bio dialog and restores focus when it closes", async () => {
@@ -267,6 +277,28 @@ describe("Expected End public site", () => {
     expect(screen.getByRole("heading", { level: 1, name: "That page isn’t here." })).toBeInTheDocument();
     expect(screen.getByRole("navigation", { name: "Main navigation" })).toBeInTheDocument();
     expect(document.title).toBe("Page not found — Expected End");
+  });
+
+  it("renders the Water Check page with shared chrome and route metadata", () => {
+    window.history.replaceState({}, "", "/thewatercheckpage");
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+
+    expect(screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })).toBeInTheDocument();
+    expect(screen.getByRole("navigation", { name: "Main navigation" })).toBeInTheDocument();
+    expect(screen.getByRole("navigation", { name: "Footer navigation" })).toBeInTheDocument();
+    expect(document.title).toBe("Hydration Calculator — The Water Check");
+    expect(document.querySelector('meta[name="description"]')).toHaveAttribute(
+      "content",
+      "A private hydration estimate, practical water habits, and The Water Check community.",
+    );
+    expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute(
+      "href",
+      "https://expectedend.co/thewatercheckpage",
+    );
+    expect(document.querySelector("meta[property='og:url']")).toHaveAttribute(
+      "content",
+      "https://expectedend.co/thewatercheckpage",
+    );
   });
 
   it("keeps the public site blue without showing a theme control", () => {
