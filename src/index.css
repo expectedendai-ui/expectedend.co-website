@@ -15,10 +15,18 @@
 }
 
 @font-face {
-  font-family: "Bricolage Grotesque";
-  src: url("/fonts/bricolage-grotesque-variable.ttf") format("truetype");
+  font-family: "Bricolage Grotesque Variable";
+  src: url("/fonts/bricolage-grotesque-variable-latin.woff2") format("woff2");
   font-style: normal;
   font-weight: 200 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Variable";
+  src: url("/fonts/inter-variable-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
   font-display: swap;
 }
 
@@ -65,6 +73,10 @@
 html {
   background-color: var(--color-background);
   overscroll-behavior: none;
+}
+
+html:has([data-site-theme="water-check"]) {
+  font-size: 16px;
 }
 
 body {
