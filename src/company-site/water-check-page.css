@@ -1,0 +1,95 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+@import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
+
+[data-water-check-page] {
+  --water-ink: #082d52;
+  --water-blue: #0f7cd5;
+  --water-bright: #63c9f7;
+  --water-pale: #e8f6fc;
+  --water-line: rgba(17, 116, 178, 0.2);
+  color: var(--water-ink);
+  font-family: "DM Sans", sans-serif;
+  isolation: isolate;
+}
+
+[data-water-check-page] input[type="range"] {
+  accent-color: var(--water-blue);
+  cursor: pointer;
+  min-height: 2.75rem;
+  width: 100%;
+}
+
+[data-water-check-page] input[type="range"]:focus-visible {
+  border-radius: 999px;
+  outline: 3px solid rgba(15, 124, 213, 0.35);
+  outline-offset: 4px;
+}
+
+.waterCheckRipple {
+  animation: water-check-ripple 7s ease-in-out infinite;
+  border: 1px solid rgba(99, 201, 247, 0.28);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.waterCheckRipple:nth-child(2) {
+  animation-delay: -2.3s;
+}
+
+.waterCheckRipple:nth-child(3) {
+  animation-delay: -4.6s;
+}
+
+.waterCheckRefraction {
+  animation: water-check-refraction 10s ease-in-out infinite alternate;
+  background: linear-gradient(105deg, transparent 16%, rgba(113, 213, 255, 0.14) 42%, transparent 68%);
+  filter: blur(12px);
+  position: absolute;
+  transform: rotate(-9deg);
+}
+
+.waterCheckResultGlow {
+  animation: water-check-breathe 5s ease-in-out infinite;
+}
+
+@keyframes water-check-ripple {
+  0%,
+  100% {
+    opacity: 0.12;
+    transform: scale(0.86);
+  }
+  50% {
+    opacity: 0.48;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes water-check-refraction {
+  from {
+    opacity: 0.28;
+    transform: translate3d(-8%, -2%, 0) rotate(-9deg);
+  }
+  to {
+    opacity: 0.72;
+    transform: translate3d(9%, 3%, 0) rotate(-5deg);
+  }
+}
+
+@keyframes water-check-breathe {
+  0%,
+  100% {
+    box-shadow: 0 18px 50px rgba(4, 85, 137, 0.16);
+  }
+  50% {
+    box-shadow: 0 24px 70px rgba(28, 153, 219, 0.28);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .waterCheckRipple,
+  .waterCheckRefraction,
+  .waterCheckResultGlow {
+    animation: none;
+  }
+}
