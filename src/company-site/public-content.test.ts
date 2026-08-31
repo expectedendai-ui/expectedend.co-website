@@ -51,6 +51,7 @@ describe("public-content deployment guard", () => {
     expect(indexHtml).toContain('"description": "A private hydration estimate and practical water habits."');
     expect(indexHtml).toContain('"https://www.instagram.com/thewatercheck/"');
     expect(sitemap).toContain("https://expectedend.co/thewatercheckpage");
+    expect(sitemap).toContain("https://expectedend.co/denzel-rigaud");
     expect(sitemap).not.toContain("/thewatercheck<");
   });
 

@@ -1,6 +1,7 @@
 export type CompanyRouteKey =
   | "home"
   | "about"
+  | "denzel-rigaud"
   | "terms"
   | "privacy"
   | "accessibility"
@@ -13,6 +14,8 @@ type RouteMetadata = {
   path: string;
   title: string;
   description: string;
+  image?: string;
+  type?: "website" | "profile";
 };
 
 export type PublicRoute = RouteMetadata & { key: CompanyRouteKey; family: "company" };
@@ -31,6 +34,15 @@ const ROUTES: PublicRoute[] = [
     path: "/about",
     title: "About — Expected End",
     description: "Denzel Rigaud's founder story, the mission behind Expected End, and the projects built from faith and purpose.",
+  },
+  {
+    key: "denzel-rigaud",
+    family: "company",
+    path: "/denzel-rigaud",
+    title: "Denzel Rigaud — Founder of Expected End",
+    description: "Meet Denzel Rigaud, founder of Expected End, and read the story of grief, faith, technology, MyBibleLens, and beginning again.",
+    image: "https://expectedend.co/media/denzel-rigaud-founder.png",
+    type: "profile",
   },
   {
     key: "terms",
@@ -101,6 +113,8 @@ export const getRouteMetadata = (pathname: string) => {
     title: route.title,
     description: route.description,
     canonical: `https://expectedend.co${canonicalPath === "/" ? "/" : canonicalPath}`,
+    image: route.image,
+    type: route.type ?? "website",
   };
 };
 

@@ -1,4 +1,4 @@
-import { act, fireEvent, render, screen } from "@testing-library/react";
+import { act, fireEvent, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { CompanySite } from ".";
@@ -6,6 +6,12 @@ import { CompanySite } from ".";
 describe("Expected End About page", () => {
   beforeEach(() => {
     window.history.replaceState({}, "", "/about");
+    vi.stubGlobal("scrollTo", vi.fn());
+    vi.stubGlobal("requestAnimationFrame", (callback: FrameRequestCallback) => {
+      callback(0);
+      return 1;
+    });
+    vi.stubGlobal("cancelAnimationFrame", vi.fn());
   });
 
   afterEach(() => {
@@ -55,7 +61,7 @@ describe("Expected End About page", () => {
     expect(vi.getTimerCount()).toBe(0);
   });
 
-  it("leads with company information and expands the founder story in place", async () => {
+  it("leads with company information and opens the founder story as its own page", async () => {
     const user = userEvent.setup();
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
@@ -64,15 +70,49 @@ describe("Expected End About page", () => {
     expect(screen.getByRole("heading", { name: "Tell the story with us." })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).not.toBeInTheDocument();
 
-    const storyToggle = screen.getByRole("button", { name: "The Founder Story, Denzel Rigaud" });
-    expect(storyToggle).toHaveAttribute("aria-expanded", "false");
-    await user.click(storyToggle);
+    const founderStory = screen.getByRole("region", { name: "The story behind Expected End." });
+    const missionStory = screen.getByRole("region", { name: "Technology should help you return to your life." });
+    expect(founderStory.compareDocumentPosition(missionStory) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+
+    const storyLink = screen.getByRole("link", { name: "The Founder Story, Denzel Rigaud" });
+    expect(storyLink).toHaveAttribute("href", "/denzel-rigaud");
+    await user.click(storyLink);
+    expect(window.location.pathname).toBe("/denzel-rigaud");
+    expect(
+      screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" }),
+    ).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();
+    const founderVideo = document.querySelector<HTMLVideoElement>("video[data-scroll-scrub='founder']");
+    expect(founderVideo).toHaveAttribute("poster", "/media/denzel-founder-scroll-poster.jpg");
+    expect(founderVideo).toHaveAttribute("preload", "auto");
+    expect(founderVideo?.querySelector('source[type="video/webm"]')).toHaveAttribute("src", "/media/denzel-founder-scroll.webm");
+    expect(founderVideo?.querySelector('source[type="video/mp4"]')).toHaveAttribute("src", "/media/denzel-founder-scroll.mp4");
+    expect(screen.queryByRole("img", { name: /Denzel Rigaud wearing dark orange glasses/i })).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Scroll" })).toHaveAttribute("href", "#memoir");
+    expect(screen.queryByText("Scroll to enter the memoir")).not.toBeInTheDocument();
+
+    const hero = founderVideo?.closest("section");
+    expect(hero).not.toBeNull();
+    Object.defineProperty(founderVideo, "duration", { configurable: true, value: 3.166 });
+    Object.defineProperty(hero, "offsetHeight", { configurable: true, value: 2000 });
+    vi.spyOn(hero as HTMLElement, "getBoundingClientRect").mockReturnValue({
+      top: -616,
+      bottom: 1384,
+      left: 0,
+      right: 1280,
+      width: 1280,
+      height: 2000,
+      x: 0,
+      y: -616,
+      toJSON: () => ({}),
+    });
+    fireEvent.scroll(window);
+    expect(founderVideo?.currentTime).toBeCloseTo(1.583, 2);
     expect(screen.queryByText(/I am a jack of all trades/i)).not.toBeInTheDocument();
     expect(screen.getByText(/I decided to start by hacking my grades/i)).toBeInTheDocument();
     expect(screen.getByText(/Instagram bot farming/i)).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Denzel Rigaud on Instagram" })).toHaveAttribute("href", "https://www.instagram.com/smiledenzel/");
-    expect(screen.getByRole("link", { name: "Denzel Rigaud on LinkedIn" })).toHaveAttribute("href", "https://www.linkedin.com/feed/");
+    expect(screen.getByRole("link", { name: "Denzel Rigaud on LinkedIn" })).toHaveAttribute("href", "https://www.linkedin.com/in/denzel-rigaud-2b0200210/");
     const brother = screen.getByRole("link", { name: "brother" });
     expect(brother).toHaveAttribute("href", "https://www.linkedin.com/in/kareem-rigaud-2b61b97a");
     expect(brother).toHaveAttribute("target", "_blank");
@@ -103,7 +143,20 @@ describe("Expected End About page", () => {
     expect(screen.getByText(/Finding God led me to learn more about myself/i)).toBeInTheDocument();
     expect(screen.getByText(/The Water Check belongs to that mission/i)).toBeInTheDocument();
     expect(screen.getByText(/helps you become the most capable version of that person/i)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Close Founder Story" })).toHaveAttribute("aria-expanded", "true");
+    const memoryArchive = screen.getByRole("region", { name: "Memory archive" });
+    expect(within(memoryArchive).getAllByRole("img")).toHaveLength(4);
+    const memoryDownloads = within(memoryArchive).getAllByRole("link", { name: /^Download memory /i });
+    expect(memoryDownloads).toHaveLength(4);
+    expect(new Set(memoryDownloads.map((link) => link.getAttribute("href"))).size).toBe(4);
+    for (const download of memoryDownloads) {
+      expect(download).toHaveAttribute("download");
+    }
+    expect(document.title).toBe("Denzel Rigaud — Founder of Expected End");
+    expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute("href", "https://expectedend.co/denzel-rigaud");
+    expect(document.querySelector('meta[property="og:image"]')).toHaveAttribute(
+      "content",
+      "https://expectedend.co/media/denzel-rigaud-founder.png",
+    );
 
     await user.click(screen.getByRole("button", { name: /Jeremiah 29:11/ }));
     expect(screen.getByRole("dialog", { name: "Jeremiah 29:11" })).toHaveTextContent("to give you an expected end");
@@ -111,7 +164,7 @@ describe("Expected End About page", () => {
     expect(screen.queryByRole("dialog", { name: "Jeremiah 29:11" })).not.toBeInTheDocument();
   });
 
-  it("opens the founder story when linked from MyBibleLens", () => {
+  it("keeps legacy founder-story links on the About preview", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     act(() => {
@@ -119,8 +172,11 @@ describe("Expected End About page", () => {
       window.dispatchEvent(new HashChangeEvent("hashchange"));
     });
 
-    expect(screen.getByRole("button", { name: "Close Founder Story" })).toHaveAttribute("aria-expanded", "true");
-    expect(screen.getByRole("heading", { name: "“The Truth Behind the Code”" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "The Founder Story, Denzel Rigaud" })).toHaveAttribute(
+      "href",
+      "/denzel-rigaud",
+    );
+    expect(screen.queryByRole("heading", { name: "“The Truth Behind the Code”" })).not.toBeInTheDocument();
   });
 
   it("uses a vector arrow for the press inquiry action", () => {

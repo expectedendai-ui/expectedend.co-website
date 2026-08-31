@@ -5,6 +5,7 @@ describe("company-site routes", () => {
   it("resolves every public route and falls back safely", () => {
     expect(getRoute("/").key).toBe("home");
     expect(getRoute("/about/").key).toBe("about");
+    expect(getRoute("/denzel-rigaud/").key).toBe("denzel-rigaud");
     expect(getRoute("/terms").key).toBe("terms");
     expect(getRoute("/privacy").key).toBe("privacy");
     expect(getRoute("/accessibility").key).toBe("accessibility");
@@ -43,6 +44,12 @@ describe("company-site routes", () => {
     expect(waterCheckMetadata.title).toContain("Hydration Calculator");
     expect(waterCheckMetadata.description).toContain("hydration estimate");
     expect(waterCheckMetadata.canonical).toBe("https://expectedend.co/thewatercheckpage");
+
+    const founderMetadata = getRouteMetadata("/denzel-rigaud");
+    expect(founderMetadata.title).toBe("Denzel Rigaud — Founder of Expected End");
+    expect(founderMetadata.description).toContain("founder of Expected End");
+    expect(founderMetadata.canonical).toBe("https://expectedend.co/denzel-rigaud");
+    expect(founderMetadata.image).toBe("https://expectedend.co/media/denzel-rigaud-founder.png");
   });
 
   it("only intercepts same-origin public links", () => {
