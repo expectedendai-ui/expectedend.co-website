@@ -574,6 +574,7 @@
   text-align: left;
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
+.founderToggle > span, .founderToggleIcon { color: var(--blue-deep); }
 .founderToggle:hover { box-shadow: 0 14px 35px rgba(0, 5, 30, .2); transform: translateY(-2px); }
 .founderToggleIcon { width: 1.6rem; height: 1.6rem; flex: 0 0 auto; transition: transform 180ms ease; }
 .founderToggle[aria-expanded="true"] .founderToggleIcon { transform: rotate(180deg); }
