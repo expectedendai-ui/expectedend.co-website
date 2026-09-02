@@ -23,6 +23,7 @@ const PERSON_SCHEMA = {
   sameAs: [
     "https://www.instagram.com/smiledenzel/",
     "https://www.linkedin.com/in/denzel-rigaud-2b0200210/",
+    "https://www.wikidata.org/wiki/Q140198525",
   ],
 };
 

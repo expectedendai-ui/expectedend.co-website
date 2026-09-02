@@ -46,10 +46,27 @@ describe("public-content deployment guard", () => {
   it("publishes the Water Check utility page and keeps Instagram as its community profile", () => {
     const indexHtml = readFileSync("index.html", "utf8");
     const sitemap = readFileSync("public/sitemap.xml", "utf8");
+    const organizationSchemaSource = indexHtml.match(/<script type="application\/ld\+json">\s*([\s\S]*?)<\/script>/)?.[1];
+
+    expect(organizationSchemaSource).toBeDefined();
+    const organizationSchema = JSON.parse(organizationSchemaSource as string) as {
+      founder: { sameAs: string[] };
+      sameAs?: string[];
+      owns: Array<{ "@id": string; sameAs: string[] }>;
+    };
+    const myBibleLens = organizationSchema.owns.find((entity) => entity["@id"] === "https://mybiblelens.us/#application");
+    const waterCheck = organizationSchema.owns.find(
+      (entity) => entity["@id"] === "https://expectedend.co/thewatercheckpage#application",
+    );
 
     expect(indexHtml).toContain('"url": "https://expectedend.co/thewatercheckpage"');
     expect(indexHtml).toContain('"description": "A private hydration estimate and practical water habits."');
-    expect(indexHtml).toContain('"https://www.instagram.com/thewatercheck/"');
+    expect(organizationSchema.founder.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
+    expect(organizationSchema.sameAs).toBeUndefined();
+    expect(myBibleLens?.sameAs).toContain("https://www.wikidata.org/wiki/Q141251174");
+    expect(waterCheck?.sameAs).toEqual(
+      expect.arrayContaining(["https://www.instagram.com/thewatercheck/", "https://www.wikidata.org/wiki/Q141251206"]),
+    );
     expect(sitemap).toContain("https://expectedend.co/thewatercheckpage");
     expect(sitemap).toContain("https://expectedend.co/denzel-rigaud");
     expect(sitemap).not.toContain("/thewatercheck<");

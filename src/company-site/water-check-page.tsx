@@ -21,6 +21,28 @@ const ESTIMATE_GUIDANCE =
 const GRACE_NOTE =
   "The mirror and the way your clothes fit can change from water retention, digestion, hormones, sleep, and other normal shifts. One bloated day does not define your body. Drink with care, give yourself time, and let curiosity replace shame. Persistent bloating, swelling, rapid weight changes, or symptoms that worry you deserve a conversation with a healthcare professional.";
 
+const WATER_CHECK_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "@id": "https://expectedend.co/thewatercheckpage#application",
+  name: "The Water Check",
+  url: "https://expectedend.co/thewatercheckpage",
+  description: "A private hydration estimate, practical water habits, and The Water Check community.",
+  operatingSystem: "Web",
+  creator: {
+    "@type": "Person",
+    "@id": "https://expectedend.co/denzel-rigaud#person",
+    name: "Denzel Rigaud",
+    url: "https://expectedend.co/denzel-rigaud",
+  },
+  about: {
+    "@type": "Thing",
+    name: "hydration",
+    sameAs: "https://www.wikidata.org/wiki/Q25394518",
+  },
+  sameAs: ["https://www.instagram.com/thewatercheck/", "https://www.wikidata.org/wiki/Q141251206"],
+};
+
 const TIPS = [
   {
     title: "The Schedule",
@@ -72,6 +94,7 @@ export function WaterCheckPage() {
 
   return (
     <main data-water-check-page className="waterCheckPage tw:overflow-hidden">
+      <script type="application/ld+json">{JSON.stringify(WATER_CHECK_SCHEMA)}</script>
       <section
         className="waterCheckHero tw:relative tw:isolate tw:min-h-[42rem] tw:overflow-hidden tw:px-6 tw:py-24 tw:text-white tw:sm:px-10 tw:lg:px-16"
         aria-labelledby="water-check-title"

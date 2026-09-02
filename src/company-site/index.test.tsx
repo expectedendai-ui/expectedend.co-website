@@ -299,6 +299,18 @@ describe("Expected End public site", () => {
       "content",
       "https://expectedend.co/thewatercheckpage",
     );
+    const waterCheckSchema = JSON.parse(
+      document.querySelector('main[data-water-check-page] script[type="application/ld+json"]')?.textContent ?? "{}",
+    ) as {
+      "@id"?: string;
+      creator?: { "@id": string };
+      sameAs?: string[];
+    };
+    expect(waterCheckSchema["@id"]).toBe("https://expectedend.co/thewatercheckpage#application");
+    expect(waterCheckSchema.creator?.["@id"]).toBe("https://expectedend.co/denzel-rigaud#person");
+    expect(waterCheckSchema.sameAs).toEqual(
+      expect.arrayContaining(["https://www.wikidata.org/wiki/Q141251206", "https://www.instagram.com/thewatercheck/"]),
+    );
   });
 
   it("keeps the public site blue without showing a theme control", () => {

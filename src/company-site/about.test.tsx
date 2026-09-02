@@ -157,6 +157,10 @@ describe("Expected End About page", () => {
       "content",
       "https://expectedend.co/media/denzel-rigaud-founder.png",
     );
+    const personSchema = JSON.parse(
+      document.querySelector('main script[type="application/ld+json"]')?.textContent ?? "{}",
+    ) as { sameAs?: string[] };
+    expect(personSchema.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
 
     await user.click(screen.getByRole("button", { name: /Jeremiah 29:11/ }));
     expect(screen.getByRole("dialog", { name: "Jeremiah 29:11" })).toHaveTextContent("to give you an expected end");
