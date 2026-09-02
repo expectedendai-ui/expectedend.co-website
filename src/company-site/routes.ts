@@ -1,7 +1,10 @@
+import { FOUNDER_DESCRIPTION } from "./content";
+
 export type CompanyRouteKey =
   | "home"
   | "about"
   | "denzel-rigaud"
+  | "press"
   | "terms"
   | "privacy"
   | "accessibility"
@@ -40,10 +43,18 @@ const ROUTES: PublicRoute[] = [
     family: "company",
     path: "/denzel-rigaud",
     title: "Denzel Rigaud — Founder of Expected End",
-    description:
-      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
+    description: FOUNDER_DESCRIPTION,
     image: "https://expectedend.co/media/denzel-rigaud-founder.png",
     type: "profile",
+  },
+  {
+    key: "press",
+    family: "company",
+    path: "/press",
+    title: "Press & Media — Expected End",
+    description:
+      "Approved biographies, verified facts, entity links, and downloadable media for coverage of Expected End and Denzel Rigaud.",
+    image: "https://expectedend.co/media/denzel-rigaud-founder.png",
   },
   {
     key: "terms",

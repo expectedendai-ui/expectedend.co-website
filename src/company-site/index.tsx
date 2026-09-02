@@ -6,6 +6,7 @@ import { HomePage } from "./home";
 import { InfoPage } from "./info-page";
 import { LEGAL_CONTENT } from "./legal-content";
 import { Navigation } from "./navigation";
+import { PressPage } from "./press-page";
 import { getRoute, getRouteMetadata, isInternalHref } from "./routes";
 import { Storefront } from "./storefront";
 import styles from "./style.module.css";
@@ -41,11 +42,21 @@ const updateDocumentMetadata = (pathname: string) => {
     ["meta[property='og:description']", "property", "og:description", metadata.description],
     ["meta[property='og:url']", "property", "og:url", metadata.canonical],
     ["meta[property='og:type']", "property", "og:type", metadata.type],
-    ["meta[property='og:image']", "property", "og:image", metadata.image ?? "https://expectedend.co/media/expected-end-hero-poster.jpg"],
+    [
+      "meta[property='og:image']",
+      "property",
+      "og:image",
+      metadata.image ?? "https://expectedend.co/media/expected-end-hero-poster.jpg",
+    ],
     ["meta[name='twitter:card']", "name", "twitter:card", "summary_large_image"],
     ["meta[name='twitter:title']", "name", "twitter:title", metadata.title],
     ["meta[name='twitter:description']", "name", "twitter:description", metadata.description],
-    ["meta[name='twitter:image']", "name", "twitter:image", metadata.image ?? "https://expectedend.co/media/expected-end-hero-poster.jpg"],
+    [
+      "meta[name='twitter:image']",
+      "name",
+      "twitter:image",
+      metadata.image ?? "https://expectedend.co/media/expected-end-hero-poster.jpg",
+    ],
   ] as const;
 
   for (const [selector, attribute, name, content] of socialMetadata) {
@@ -102,6 +113,7 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
     if (route.key === "watercheck-page") return <WaterCheckPage />;
     if (route.key === "about") return <AboutPage onNavigate={onNavigate} />;
     if (route.key === "denzel-rigaud") return <DenzelPage onNavigate={onNavigate} />;
+    if (route.key === "press") return <PressPage onNavigate={onNavigate} />;
     if (route.key === "terms" || route.key === "privacy" || route.key === "accessibility") {
       return <InfoPage content={LEGAL_CONTENT[route.key]} />;
     }

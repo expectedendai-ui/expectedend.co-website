@@ -23,8 +23,11 @@ describe("Expected End public site", () => {
     expect(heroVideo).toHaveAttribute("poster", "/media/expected-end-hero-poster.jpg");
     expect(heroVideo?.querySelector('source[type="video/webm"]')).toHaveAttribute("src", "/media/expected-end-hero.webm");
     expect(heroVideo?.querySelector('source[type="video/mp4"]')).toHaveAttribute("src", "/media/expected-end-hero.mp4");
-    const approvedMission = "We create thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!";
-    expect(screen.getByText((_, element) => element?.tagName === "P" && element.textContent === approvedMission)).toBeInTheDocument();
+    const approvedMission =
+      "We create thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!";
+    expect(
+      screen.getByText((_, element) => element?.tagName === "P" && element.textContent === approvedMission)
+    ).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Visit MyBibleLens" })).toHaveAttribute("href", "https://mybiblelens.us/");
     expect(screen.getByRole("link", { name: "Bio for MyBibleLens" })).toHaveAttribute(
       "href",
@@ -85,7 +88,9 @@ describe("Expected End public site", () => {
 
     await user.click(screen.getByRole("link", { name: "Visit The Water Check" }));
     expect(window.location.pathname).toBe("/thewatercheckpage");
-    expect(screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })
+    ).toBeInTheDocument();
   });
 
   it("opens the Water Check bio dialog and restores focus when it closes", async () => {
@@ -132,10 +137,7 @@ describe("Expected End public site", () => {
     expect(screen.getByRole("heading", { level: 1, name: "The Water Check" })).toBeInTheDocument();
     expect(document.querySelector("[data-water-intro]")).toBeInTheDocument();
     const waterCheckStoreLogo = screen.getByRole("img", { name: "The Water Check liquid logo bubble" });
-    expect(waterCheckStoreLogo.querySelector("img")).toHaveAttribute(
-      "src",
-      "/brand/watercheck-store/c-mark-magic-eraser.png",
-    );
+    expect(waterCheckStoreLogo.querySelector("img")).toHaveAttribute("src", "/brand/watercheck-store/c-mark-magic-eraser.png");
     expect(screen.getByRole("button", { name: "Refill Hoodie coming soon" })).toBeDisabled();
   });
 
@@ -145,16 +147,11 @@ describe("Expected End public site", () => {
     const servicesHeading = screen.getByRole("heading", { level: 2, name: "You dream it — we build it" });
     const servicesSection = servicesHeading.closest("section");
     expect(servicesSection).not.toBeNull();
-    expect(within(servicesSection as HTMLElement).getAllByText(/^0[1-8]$/).map((number) => number.textContent)).toEqual([
-      "01",
-      "02",
-      "03",
-      "04",
-      "05",
-      "06",
-      "07",
-      "08",
-    ]);
+    expect(
+      within(servicesSection as HTMLElement)
+        .getAllByText(/^0[1-8]$/)
+        .map((number) => number.textContent)
+    ).toEqual(["01", "02", "03", "04", "05", "06", "07", "08"]);
     const serviceHeadings = within(servicesSection as HTMLElement).getAllByRole("heading", { level: 3 });
     expect(serviceHeadings.map((heading) => heading.textContent)).toEqual([
       "Apps",
@@ -166,27 +163,33 @@ describe("Expected End public site", () => {
       "Client Portals",
       "Digital Rescue",
     ]);
-    expect(within(servicesSection as HTMLElement).getByText(
-      "Your custom business home. CRM, finance, projects, team tools, and whatever capability you need next—all in one place.",
-    )).toBeInTheDocument();
-    expect(within(servicesSection as HTMLElement).getByText(
-      "Replace repetitive work with connected workflows that keep your business moving.",
-    )).toBeInTheDocument();
-    expect(within(servicesSection as HTMLElement).getByText(
-      "Give customers or members one polished place to communicate, book, share files, and track progress.",
-    )).toBeInTheDocument();
-    expect(within(servicesSection as HTMLElement).getByText(
-      "Repair, modernize, or rebuild software that no longer works for your business.",
-    )).toBeInTheDocument();
+    expect(
+      within(servicesSection as HTMLElement).getByText(
+        "Your custom business home. CRM, finance, projects, team tools, and whatever capability you need next—all in one place."
+      )
+    ).toBeInTheDocument();
+    expect(
+      within(servicesSection as HTMLElement).getByText(
+        "Replace repetitive work with connected workflows that keep your business moving."
+      )
+    ).toBeInTheDocument();
+    expect(
+      within(servicesSection as HTMLElement).getByText(
+        "Give customers or members one polished place to communicate, book, share files, and track progress."
+      )
+    ).toBeInTheDocument();
+    expect(
+      within(servicesSection as HTMLElement).getByText(
+        "Repair, modernize, or rebuild software that no longer works for your business."
+      )
+    ).toBeInTheDocument();
 
-    const sectionCopy = Array.from(servicesHeading.parentElement?.children ?? []).filter(
-      (element) => element.tagName === "P",
-    );
+    const sectionCopy = Array.from(servicesHeading.parentElement?.children ?? []).filter((element) => element.tagName === "P");
     expect(sectionCopy[1]).toHaveTextContent(
-      "Our products come first. When the fit is right, we bring the same thoughtfulness to selected work for others.",
+      "Our products come first. When the fit is right, we bring the same thoughtfulness to selected work for others."
     );
     expect(sectionCopy[2]).toHaveTextContent(
-      "Please include a price range for all inquiries and mention in your message if an NDA is needed.",
+      "Please include a price range for all inquiries and mention in your message if an NDA is needed."
     );
   });
 
@@ -214,7 +217,11 @@ describe("Expected End public site", () => {
     const dialog = screen.getByRole("dialog", { name: "Start with a little context." });
     const reasonSelect = within(dialog).getByLabelText("What is this about?");
     expect(reasonSelect).toHaveValue("HeadQuarters");
-    expect(within(reasonSelect).getAllByRole("option").map((option) => option.textContent)).toEqual([
+    expect(
+      within(reasonSelect)
+        .getAllByRole("option")
+        .map((option) => option.textContent)
+    ).toEqual([
       "Choose one",
       "Building an app or software idea",
       "Website or digital experience",
@@ -283,24 +290,23 @@ describe("Expected End public site", () => {
     window.history.replaceState({}, "", "/thewatercheckpage");
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
-    expect(screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })
+    ).toBeInTheDocument();
     expect(screen.getByRole("navigation", { name: "Main navigation" })).toBeInTheDocument();
     expect(screen.getByRole("navigation", { name: "Footer navigation" })).toBeInTheDocument();
     expect(document.title).toBe("Hydration Calculator — The Water Check");
     expect(document.querySelector('meta[name="description"]')).toHaveAttribute(
       "content",
-      "A private hydration estimate, practical water habits, and The Water Check community.",
+      "A private hydration estimate, practical water habits, and The Water Check community."
     );
-    expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute(
-      "href",
-      "https://expectedend.co/thewatercheckpage",
-    );
+    expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute("href", "https://expectedend.co/thewatercheckpage");
     expect(document.querySelector("meta[property='og:url']")).toHaveAttribute(
       "content",
-      "https://expectedend.co/thewatercheckpage",
+      "https://expectedend.co/thewatercheckpage"
     );
     const waterCheckSchema = JSON.parse(
-      document.querySelector('main[data-water-check-page] script[type="application/ld+json"]')?.textContent ?? "{}",
+      document.querySelector('main[data-water-check-page] script[type="application/ld+json"]')?.textContent ?? "{}"
     ) as {
       "@id"?: string;
       creator?: { "@id": string };
@@ -309,8 +315,21 @@ describe("Expected End public site", () => {
     expect(waterCheckSchema["@id"]).toBe("https://expectedend.co/thewatercheckpage#application");
     expect(waterCheckSchema.creator?.["@id"]).toBe("https://expectedend.co/denzel-rigaud#person");
     expect(waterCheckSchema.sameAs).toEqual(
-      expect.arrayContaining(["https://www.wikidata.org/wiki/Q141251206", "https://www.instagram.com/thewatercheck/"]),
+      expect.arrayContaining(["https://www.wikidata.org/wiki/Q141251206", "https://www.instagram.com/thewatercheck/"])
     );
+  });
+
+  it("renders the press kit with shared chrome and route metadata", () => {
+    window.history.replaceState({}, "", "/press");
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+
+    expect(screen.getByRole("heading", { level: 1, name: "Press resources for Expected End." })).toBeInTheDocument();
+    expect(screen.getByRole("navigation", { name: "Main navigation" })).toBeInTheDocument();
+    expect(screen.getByRole("navigation", { name: "Footer navigation" })).toBeInTheDocument();
+    expect(document.title).toBe("Press & Media — Expected End");
+    expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute("href", "https://expectedend.co/press");
+    expect(screen.getByRole("link", { name: "Expected End LLC" })).toBeInTheDocument();
+    expect(screen.queryByText("Expected End Inc")).not.toBeInTheDocument();
   });
 
   it("keeps the public site blue without showing a theme control", () => {
