@@ -50,7 +50,7 @@ describe("public-content deployment guard", () => {
 
     expect(organizationSchemaSource).toBeDefined();
     const organizationSchema = JSON.parse(organizationSchemaSource as string) as {
-      founder: { sameAs: string[] };
+      founder: { sameAs: string[]; jobTitle: string; description: string };
       sameAs?: string[];
       owns: Array<{ "@id": string; sameAs: string[] }>;
     };
@@ -62,6 +62,10 @@ describe("public-content deployment guard", () => {
     expect(indexHtml).toContain('"url": "https://expectedend.co/thewatercheckpage"');
     expect(indexHtml).toContain('"description": "A private hydration estimate and practical water habits."');
     expect(organizationSchema.founder.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
+    expect(organizationSchema.founder.jobTitle).toBe("Founder and Full-Stack Developer");
+    expect(organizationSchema.founder.description).toBe(
+      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
+    );
     expect(organizationSchema.sameAs).toBeUndefined();
     expect(myBibleLens?.sameAs).toContain("https://www.wikidata.org/wiki/Q141251174");
     expect(waterCheck?.sameAs).toEqual(

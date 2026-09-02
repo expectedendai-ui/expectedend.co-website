@@ -40,7 +40,8 @@ const ROUTES: PublicRoute[] = [
     family: "company",
     path: "/denzel-rigaud",
     title: "Denzel Rigaud — Founder of Expected End",
-    description: "Meet Denzel Rigaud, founder of Expected End, and read the story of grief, faith, technology, MyBibleLens, and beginning again.",
+    description:
+      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
     image: "https://expectedend.co/media/denzel-rigaud-founder.png",
     type: "profile",
   },

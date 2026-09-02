@@ -14,7 +14,9 @@ const PERSON_SCHEMA = {
   name: "Denzel Rigaud",
   url: "https://expectedend.co/denzel-rigaud",
   image: "https://expectedend.co/media/denzel-rigaud-founder.png",
-  jobTitle: "Founder",
+  jobTitle: "Founder and Full-Stack Developer",
+  description:
+    "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
   worksFor: {
     "@type": "Organization",
     name: "Expected End",
@@ -124,7 +126,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
           </div>
 
           <div className={pageStyles.heroCopy}>
-            <p className={pageStyles.eyebrow}>Denzel Rigaud / Founder of Expected End</p>
+            <p className={pageStyles.eyebrow}>Denzel Rigaud / Founder &amp; Solo Full-Stack Developer</p>
             <h1 id="denzel-hero-title">The Mind Behind Expected End</h1>
             <p className={pageStyles.heroStatement}>A story about curiosity, grief, faith, and turning technology into a way forward.</p>
           </div>

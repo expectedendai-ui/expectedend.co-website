@@ -159,8 +159,12 @@ describe("Expected End About page", () => {
     );
     const personSchema = JSON.parse(
       document.querySelector('main script[type="application/ld+json"]')?.textContent ?? "{}",
-    ) as { sameAs?: string[] };
+    ) as { sameAs?: string[]; jobTitle?: string; description?: string };
     expect(personSchema.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
+    expect(personSchema.jobTitle).toBe("Founder and Full-Stack Developer");
+    expect(personSchema.description).toBe(
+      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
+    );
 
     await user.click(screen.getByRole("button", { name: /Jeremiah 29:11/ }));
     expect(screen.getByRole("dialog", { name: "Jeremiah 29:11" })).toHaveTextContent("to give you an expected end");

@@ -47,7 +47,9 @@ describe("company-site routes", () => {
 
     const founderMetadata = getRouteMetadata("/denzel-rigaud");
     expect(founderMetadata.title).toBe("Denzel Rigaud — Founder of Expected End");
-    expect(founderMetadata.description).toContain("founder of Expected End");
+    expect(founderMetadata.description).toBe(
+      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
+    );
     expect(founderMetadata.canonical).toBe("https://expectedend.co/denzel-rigaud");
     expect(founderMetadata.image).toBe("https://expectedend.co/media/denzel-rigaud-founder.png");
   });
