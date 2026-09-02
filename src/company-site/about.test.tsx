@@ -117,6 +117,14 @@ describe("Expected End About page", () => {
       "href",
       "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
     );
+    expect(screen.getByRole("link", { name: "World Athletics profile" })).toHaveAttribute(
+      "href",
+      "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195"
+    );
+    expect(screen.getByRole("link", { name: "Lynn University athlete profile" })).toHaveAttribute(
+      "href",
+      "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913"
+    );
     const brother = screen.getByRole("link", { name: "brother" });
     expect(brother).toHaveAttribute("href", "https://www.linkedin.com/in/kareem-rigaud-2b61b97a");
     expect(brother).toHaveAttribute("target", "_blank");
@@ -172,11 +180,45 @@ describe("Expected End About page", () => {
     );
     const profileSchema = JSON.parse(document.querySelector('main script[type="application/ld+json"]')?.textContent ?? "{}") as {
       "@type"?: string;
-      mainEntity?: { sameAs?: string[]; jobTitle?: string; description?: string; "@id"?: string };
+      mainEntity?: {
+        sameAs?: string[];
+        jobTitle?: string;
+        description?: string;
+        "@id"?: string;
+        image?: { contentUrl?: string; width?: number; height?: number; license?: string };
+        memberOf?: { "@id"?: string; name?: string };
+        owns?: Array<{ "@id"?: string; name?: string; sameAs?: string[] }>;
+      };
     };
     expect(profileSchema["@type"]).toBe("ProfilePage");
     expect(profileSchema.mainEntity?.["@id"]).toBe("https://expectedend.co/denzel-rigaud#person");
     expect(profileSchema.mainEntity?.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
+    expect(profileSchema.mainEntity?.sameAs).toEqual(
+      expect.arrayContaining([
+        "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195",
+        "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913",
+      ])
+    );
+    expect(profileSchema.mainEntity?.image).toMatchObject({
+      contentUrl: "https://expectedend.co/media/denzel-rigaud-founder.png",
+      width: 1058,
+      height: 1487,
+      license: "https://creativecommons.org/licenses/by-sa/4.0/",
+    });
+    expect(profileSchema.mainEntity?.memberOf).toMatchObject({
+      "@id": "https://www.wikidata.org/wiki/Q3269570",
+      name: "Lynn University",
+    });
+    expect(profileSchema.mainEntity?.owns?.map((entity) => entity["@id"])).toEqual([
+      "https://expectedend.co/#mybiblelens",
+      "https://expectedend.co/thewatercheckpage#application",
+    ]);
+    expect(profileSchema.mainEntity?.owns?.[0]?.sameAs).toEqual(
+      expect.arrayContaining([
+        "https://www.wikidata.org/wiki/Q141251174",
+        "https://apps.apple.com/us/app/mybiblelens/id6764069602",
+      ])
+    );
     expect(profileSchema.mainEntity?.jobTitle).toBe("Founder and Full-Stack Developer");
     expect(profileSchema.mainEntity?.description).toBe(
       "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."

@@ -8,13 +8,35 @@ type DenzelPageProps = {
   onNavigate: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 };
 
+const EXTERNAL_RECORDS = [
+  {
+    label: "World Athletics profile",
+    href: "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195",
+  },
+  {
+    label: "Lynn University athlete profile",
+    href: "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913",
+  },
+  { label: "Wikidata", href: "https://www.wikidata.org/wiki/Q140198525" },
+] as const;
+
 const PERSON_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://expectedend.co/denzel-rigaud#person",
   name: "Denzel Rigaud",
   url: "https://expectedend.co/denzel-rigaud",
-  image: "https://expectedend.co/media/denzel-rigaud-founder.png",
+  image: {
+    "@type": "ImageObject",
+    "@id": "https://expectedend.co/press#founder-portrait",
+    contentUrl: "https://expectedend.co/media/denzel-rigaud-founder.png",
+    width: 1058,
+    height: 1487,
+    caption: "Denzel Rigaud, founder of Expected End",
+    creditText: "Denzel Rigaud / Expected End",
+    license: "https://creativecommons.org/licenses/by-sa/4.0/",
+    acquireLicensePage: "https://expectedend.co/press#licensing",
+  },
   jobTitle: "Founder and Full-Stack Developer",
   description: FOUNDER_DESCRIPTION,
   worksFor: {
@@ -24,10 +46,32 @@ const PERSON_SCHEMA = {
     legalName: "Expected End LLC",
     url: "https://expectedend.co/",
   },
+  memberOf: {
+    "@type": "CollegeOrUniversity",
+    "@id": "https://www.wikidata.org/wiki/Q3269570",
+    name: "Lynn University",
+    url: "https://www.lynn.edu/",
+  },
+  owns: [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://expectedend.co/#mybiblelens",
+      name: "MyBibleLens",
+      url: "https://mybiblelens.us/",
+      sameAs: ["https://www.wikidata.org/wiki/Q141251174", "https://apps.apple.com/us/app/mybiblelens/id6764069602"],
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://expectedend.co/thewatercheckpage#application",
+      name: "The Water Check",
+      url: "https://expectedend.co/thewatercheckpage",
+      sameAs: ["https://www.wikidata.org/wiki/Q141251206", "https://www.instagram.com/thewatercheck/"],
+    },
+  ],
   sameAs: [
     "https://www.instagram.com/smiledenzel/",
     "https://www.linkedin.com/in/denzel-rigaud-2b0200210/",
-    "https://www.wikidata.org/wiki/Q140198525",
+    ...EXTERNAL_RECORDS.map(({ href }) => href),
   ],
 };
 
@@ -221,6 +265,14 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
             >
               <LinkedInIcon />
             </a>
+          </nav>
+          <nav className={pageStyles.profileRecords} aria-label="Independent identity records">
+            <span>External records</span>
+            {EXTERNAL_RECORDS.map(({ label, href }) => (
+              <a key={href} href={href} target="_blank" rel="noopener noreferrer">
+                {label}
+              </a>
+            ))}
           </nav>
         </header>
 

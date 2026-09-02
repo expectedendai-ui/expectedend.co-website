@@ -225,6 +225,10 @@
 .socials a { display: grid; width: 2.7rem; aspect-ratio: 1; place-items: center; border: 1px solid rgba(255,255,255,.16); border-radius: 50%; background: rgba(255,255,255,.05); transition: transform 180ms ease, border-color 180ms ease; }
 .socials a:hover { border-color: #ff8b4a; transform: translateY(-3px); }
 .socials svg { width: 1.35rem; height: 1.35rem; }
+.profileRecords { grid-column: 2; display: flex; flex-wrap: wrap; align-items: center; gap: .55rem 1rem; color: #d8e2f9; font-size: .75rem; }
+.profileRecords span { color: #ff9b5c; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; }
+.profileRecords a { color: #d8e2f9; text-decoration: underline; text-decoration-color: rgba(255, 155, 92, .38); text-underline-offset: .24em; }
+.profileRecords a:hover { color: #ffb078; }
 
 .chapter { display: grid; grid-template-columns: minmax(250px, .78fr) minmax(0, 1.22fr); gap: clamp(3rem, 8vw, 8rem); padding: 9rem 0; border-bottom: 1px solid rgba(255,255,255,.14); }
 .chapterHeading { position: sticky; top: 8rem; align-self: start; }
@@ -306,6 +310,7 @@
   .coordinates strong { margin-top: 3rem; }
   .memoirIntro { gap: 2rem; }
   .socials { grid-column: 1; }
+  .profileRecords { grid-column: 1; }
   .chapterHeading { position: static; }
   .draft { padding: 3rem 1.5rem; }
   .memoryHeader { grid-template-columns: 1fr; gap: 1.4rem; }
