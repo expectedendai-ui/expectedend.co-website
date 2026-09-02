@@ -197,6 +197,7 @@ describe("Expected End About page", () => {
       expect.arrayContaining([
         "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195",
         "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913",
+        "https://github.com/blackdynamitee",
       ])
     );
     expect(profileSchema.mainEntity?.image).toMatchObject({

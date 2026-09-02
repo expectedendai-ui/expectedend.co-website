@@ -71,6 +71,7 @@ const PERSON_SCHEMA = {
   sameAs: [
     "https://www.instagram.com/smiledenzel/",
     "https://www.linkedin.com/in/denzel-rigaud-2b0200210/",
+    "https://github.com/blackdynamitee",
     ...EXTERNAL_RECORDS.map(({ href }) => href),
   ],
 };
