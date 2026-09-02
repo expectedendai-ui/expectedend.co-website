@@ -1,0 +1,440 @@
+.page {
+  min-height: 100svh;
+  padding: 8rem 1.5rem 0;
+}
+
+.page h1,
+.page h2,
+.page h3 {
+  margin: 0;
+  font-family: var(--expected-font-display);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+.page p {
+  text-wrap: pretty;
+}
+
+.hero {
+  display: grid;
+  width: min(1180px, 100%);
+  min-height: 660px;
+  align-items: center;
+  gap: clamp(3rem, 8vw, 7rem);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
+  margin: 0 auto;
+  padding: 3rem 0 6rem;
+}
+
+.heroCopy h1 {
+  max-width: 760px;
+  font-size: clamp(4rem, 8vw, 7.4rem);
+  line-height: 0.88;
+}
+
+.kicker {
+  margin: 0 0 1rem;
+  color: var(--gold-soft);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.intro {
+  max-width: 650px;
+  margin: 2rem 0 0;
+  color: var(--muted);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.7;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.2rem;
+}
+
+.primaryAction,
+.secondaryAction {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 0.8rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease;
+}
+
+.primaryAction {
+  color: #10245c;
+  background: var(--gold-soft);
+}
+
+.secondaryAction {
+  background: var(--surface);
+}
+
+.primaryAction:hover,
+.secondaryAction:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.primaryAction svg,
+.secondaryAction svg,
+.entityList svg,
+.projectCard a svg,
+.contact a svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.portrait {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 2rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.portrait figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  gap: 0.25rem;
+  padding: 2.8rem 1.3rem 1.3rem;
+  background: linear-gradient(transparent, rgba(3, 14, 44, 0.92));
+}
+
+.portrait figcaption strong {
+  font-size: 0.9rem;
+}
+
+.portraitRole {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.contents {
+  display: flex;
+  width: min(1180px, 100%);
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  overflow-x: auto;
+  border-block: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.contentsLabel {
+  margin-right: auto;
+  color: var(--gold-soft);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contents a:hover {
+  color: var(--ink);
+}
+
+.section {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: clamp(5rem, 9vw, 8rem) 0;
+  scroll-margin-top: 6rem;
+}
+
+.sectionHeading {
+  max-width: 700px;
+  margin-bottom: 2.5rem;
+}
+
+.sectionHeading h2,
+.licenseCopy h2,
+.contact h2 {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 0.92;
+}
+
+.sectionHeading > p:last-child {
+  margin: 1.2rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.bioGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+}
+
+.bioCard,
+.projectCard {
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  background: var(--surface);
+}
+
+.bioCard {
+  padding: clamp(1.5rem, 4vw, 2.8rem);
+}
+
+.bioLabel {
+  color: var(--gold-soft);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.bioCard p {
+  margin: 1.4rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.bioCard:first-child p {
+  color: var(--ink);
+  font-family: var(--expected-font-display);
+  font-size: clamp(1.45rem, 2.7vw, 2.2rem);
+  line-height: 1.25;
+}
+
+.factSection {
+  border-top: 1px solid var(--line);
+}
+
+.factList {
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+
+.factList div {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(150px, 0.55fr) 1.45fr;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.factList dt {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.factList dd {
+  margin: 0;
+  font-weight: 700;
+}
+
+.factList a,
+.licenseCopy a {
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 0.25em;
+}
+
+.entityList {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 2rem;
+}
+
+.entityList a {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.35rem 1rem;
+  padding: 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--surface);
+}
+
+.entityName {
+  font-weight: 800;
+}
+
+.entityList small {
+  grid-column: 1;
+  color: var(--muted);
+}
+
+.entityList svg {
+  grid-row: 1 / 3;
+  grid-column: 2;
+  align-self: center;
+}
+
+.projectGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.projectCard {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+  grid-template-columns: 130px minmax(0, 1fr);
+  padding: 1.2rem;
+}
+
+.projectCard img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.projectCard div > p:first-child {
+  margin: 0 0 0.35rem;
+  color: var(--gold-soft);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.projectCard h3 {
+  font-size: 2rem;
+}
+
+.projectCard div > p:not(:first-child) {
+  margin: 0.65rem 0 1rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.projectCard a,
+.contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.licenseSection {
+  display: grid;
+  align-items: center;
+  gap: clamp(2rem, 8vw, 7rem);
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 350px);
+  padding-inline: clamp(1.5rem, 5vw, 4rem);
+  border: 1px solid var(--line);
+  border-radius: 2rem;
+  background: linear-gradient(135deg, var(--surface), rgba(5, 25, 70, 0.65));
+}
+
+.licenseCopy > p:not(.kicker) {
+  max-width: 650px;
+  margin: 1.5rem 0 2rem;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.licensePortrait {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  border-radius: 1.5rem;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.contact {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  padding: clamp(7rem, 12vw, 11rem) 0;
+  text-align: center;
+}
+
+.contact a {
+  width: fit-content;
+  margin: 2rem auto 0;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--gold);
+}
+
+@media (max-width: 850px) {
+  .hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .portrait {
+    width: min(440px, 100%);
+  }
+
+  .bioGrid,
+  .projectGrid,
+  .licenseSection {
+    grid-template-columns: 1fr;
+  }
+
+  .entityList {
+    grid-template-columns: 1fr;
+  }
+
+  .licensePortrait {
+    width: min(320px, 100%);
+  }
+}
+
+@media (max-width: 520px) {
+  .page {
+    padding-inline: 1rem;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(3.5rem, 17vw, 5rem);
+  }
+
+  .contentsLabel {
+    display: none;
+  }
+
+  .factList div,
+  .projectCard {
+    grid-template-columns: 1fr;
+  }
+
+  .projectCard img {
+    width: 110px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .primaryAction,
+  .secondaryAction {
+    transition: none;
+  }
+}

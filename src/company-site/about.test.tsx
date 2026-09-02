@@ -78,9 +78,7 @@ describe("Expected End About page", () => {
     expect(storyLink).toHaveAttribute("href", "/denzel-rigaud");
     await user.click(storyLink);
     expect(window.location.pathname).toBe("/denzel-rigaud");
-    expect(
-      screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" }),
-    ).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();
     const founderVideo = document.querySelector<HTMLVideoElement>("video[data-scroll-scrub='founder']");
     expect(founderVideo).toHaveAttribute("poster", "/media/denzel-founder-scroll-poster.jpg");
@@ -111,8 +109,14 @@ describe("Expected End About page", () => {
     expect(screen.queryByText(/I am a jack of all trades/i)).not.toBeInTheDocument();
     expect(screen.getByText(/I decided to start by hacking my grades/i)).toBeInTheDocument();
     expect(screen.getByText(/Instagram bot farming/i)).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Denzel Rigaud on Instagram" })).toHaveAttribute("href", "https://www.instagram.com/smiledenzel/");
-    expect(screen.getByRole("link", { name: "Denzel Rigaud on LinkedIn" })).toHaveAttribute("href", "https://www.linkedin.com/in/denzel-rigaud-2b0200210/");
+    expect(screen.getByRole("link", { name: "Denzel Rigaud on Instagram" })).toHaveAttribute(
+      "href",
+      "https://www.instagram.com/smiledenzel/"
+    );
+    expect(screen.getByRole("link", { name: "Denzel Rigaud on LinkedIn" })).toHaveAttribute(
+      "href",
+      "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+    );
     const brother = screen.getByRole("link", { name: "brother" });
     expect(brother).toHaveAttribute("href", "https://www.linkedin.com/in/kareem-rigaud-2b61b97a");
     expect(brother).toHaveAttribute("target", "_blank");
@@ -121,9 +125,18 @@ describe("Expected End About page", () => {
     expect(screen.getByText(/I filled that empty space with the sin of lust/i)).toBeInTheDocument();
     expect(screen.getByText(/I’ve been up ever since\. WOOAH\./i)).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "“The Truth Behind the Code”" })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Two" })).toHaveAttribute("href", "https://unicourt.com/case/fl-pal-rigaud-denzel-v-hall-aaron-914059");
-    expect(screen.getByRole("link", { name: "father" })).toHaveAttribute("href", "https://www.google.com/search?q=clifford+rigaud");
-    expect(screen.getByRole("link", { name: "chivalry" })).toHaveAttribute("href", "https://www.youtube.com/watch?v=SHVKb2j6rfc&list=RDSHVKb2j6rfc&start_radio=1");
+    expect(screen.getByRole("link", { name: "Two" })).toHaveAttribute(
+      "href",
+      "https://unicourt.com/case/fl-pal-rigaud-denzel-v-hall-aaron-914059"
+    );
+    expect(screen.getByRole("link", { name: "father" })).toHaveAttribute(
+      "href",
+      "https://www.google.com/search?q=clifford+rigaud"
+    );
+    expect(screen.getByRole("link", { name: "chivalry" })).toHaveAttribute(
+      "href",
+      "https://www.youtube.com/watch?v=SHVKb2j6rfc&list=RDSHVKb2j6rfc&start_radio=1"
+    );
     const bloomTaxonomy = screen.getByRole("link", { name: "Bloom’s Taxonomy" });
     const eriksonStages = screen.getByRole("link", { name: "Erikson stages of life" });
     expect(bloomTaxonomy).toHaveAttribute(
@@ -155,15 +168,18 @@ describe("Expected End About page", () => {
     expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute("href", "https://expectedend.co/denzel-rigaud");
     expect(document.querySelector('meta[property="og:image"]')).toHaveAttribute(
       "content",
-      "https://expectedend.co/media/denzel-rigaud-founder.png",
+      "https://expectedend.co/media/denzel-rigaud-founder.png"
     );
-    const personSchema = JSON.parse(
-      document.querySelector('main script[type="application/ld+json"]')?.textContent ?? "{}",
-    ) as { sameAs?: string[]; jobTitle?: string; description?: string };
-    expect(personSchema.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
-    expect(personSchema.jobTitle).toBe("Founder and Full-Stack Developer");
-    expect(personSchema.description).toBe(
-      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
+    const profileSchema = JSON.parse(document.querySelector('main script[type="application/ld+json"]')?.textContent ?? "{}") as {
+      "@type"?: string;
+      mainEntity?: { sameAs?: string[]; jobTitle?: string; description?: string; "@id"?: string };
+    };
+    expect(profileSchema["@type"]).toBe("ProfilePage");
+    expect(profileSchema.mainEntity?.["@id"]).toBe("https://expectedend.co/denzel-rigaud#person");
+    expect(profileSchema.mainEntity?.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
+    expect(profileSchema.mainEntity?.jobTitle).toBe("Founder and Full-Stack Developer");
+    expect(profileSchema.mainEntity?.description).toBe(
+      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."
     );
 
     await user.click(screen.getByRole("button", { name: /Jeremiah 29:11/ }));
@@ -180,18 +196,16 @@ describe("Expected End About page", () => {
       window.dispatchEvent(new HashChangeEvent("hashchange"));
     });
 
-    expect(screen.getByRole("link", { name: "The Founder Story, Denzel Rigaud" })).toHaveAttribute(
-      "href",
-      "/denzel-rigaud",
-    );
+    expect(screen.getByRole("link", { name: "The Founder Story, Denzel Rigaud" })).toHaveAttribute("href", "/denzel-rigaud");
     expect(screen.queryByRole("heading", { name: "“The Truth Behind the Code”" })).not.toBeInTheDocument();
   });
 
-  it("uses a vector arrow for the press inquiry action", () => {
+  it("opens the press kit from the press introduction", () => {
     const { container } = render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
-    const pressLink = screen.getByRole("link", { name: "Start a press inquiry" });
+    const pressLink = screen.getByRole("link", { name: "Open the press and media kit" });
 
     expect(container.textContent).not.toContain("↓");
+    expect(pressLink).toHaveAttribute("href", "/press");
     expect(pressLink.querySelector('svg[data-action-icon="down"]')).toBeInTheDocument();
   });
 

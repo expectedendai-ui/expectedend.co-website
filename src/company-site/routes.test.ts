@@ -6,6 +6,7 @@ describe("company-site routes", () => {
     expect(getRoute("/").key).toBe("home");
     expect(getRoute("/about/").key).toBe("about");
     expect(getRoute("/denzel-rigaud/").key).toBe("denzel-rigaud");
+    expect(getRoute("/press/").key).toBe("press");
     expect(getRoute("/terms").key).toBe("terms");
     expect(getRoute("/privacy").key).toBe("privacy");
     expect(getRoute("/accessibility").key).toBe("accessibility");
@@ -48,10 +49,17 @@ describe("company-site routes", () => {
     const founderMetadata = getRouteMetadata("/denzel-rigaud");
     expect(founderMetadata.title).toBe("Denzel Rigaud — Founder of Expected End");
     expect(founderMetadata.description).toBe(
-      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
+      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."
     );
     expect(founderMetadata.canonical).toBe("https://expectedend.co/denzel-rigaud");
     expect(founderMetadata.image).toBe("https://expectedend.co/media/denzel-rigaud-founder.png");
+
+    const pressMetadata = getRouteMetadata("/press");
+    expect(pressMetadata).toMatchObject({
+      title: "Press & Media — Expected End",
+      canonical: "https://expectedend.co/press",
+      image: "https://expectedend.co/media/denzel-rigaud-founder.png",
+    });
   });
 
   it("only intercepts same-origin public links", () => {

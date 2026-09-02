@@ -6,7 +6,20 @@ import { CONTACT_HREF, PUBLIC_CONTENT_APPROVED } from "./content";
 import { LEGAL_CONTENT } from "./legal-content";
 
 const AI_CRAWLER_RUNBOOK_PATH = "docs/operations/ai-crawler-controls.md";
-const REPRESENTATIVE_AI_CRAWLERS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User", "CCBot", "Google-Extended", "Applebot-Extended", "Meta-ExternalAgent"] as const;
+const REPRESENTATIVE_AI_CRAWLERS = [
+  "GPTBot",
+  "OAI-SearchBot",
+  "ChatGPT-User",
+  "ClaudeBot",
+  "Claude-SearchBot",
+  "Claude-User",
+  "PerplexityBot",
+  "Perplexity-User",
+  "CCBot",
+  "Google-Extended",
+  "Applebot-Extended",
+  "Meta-ExternalAgent",
+] as const;
 
 const readPublicTextFiles = (directory: string): string[] =>
   readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -56,7 +69,7 @@ describe("public-content deployment guard", () => {
     };
     const myBibleLens = organizationSchema.owns.find((entity) => entity["@id"] === "https://mybiblelens.us/#application");
     const waterCheck = organizationSchema.owns.find(
-      (entity) => entity["@id"] === "https://expectedend.co/thewatercheckpage#application",
+      (entity) => entity["@id"] === "https://expectedend.co/thewatercheckpage#application"
     );
 
     expect(indexHtml).toContain('"url": "https://expectedend.co/thewatercheckpage"');
@@ -64,15 +77,16 @@ describe("public-content deployment guard", () => {
     expect(organizationSchema.founder.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
     expect(organizationSchema.founder.jobTitle).toBe("Founder and Full-Stack Developer");
     expect(organizationSchema.founder.description).toBe(
-      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.",
+      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."
     );
     expect(organizationSchema.sameAs).toBeUndefined();
     expect(myBibleLens?.sameAs).toContain("https://www.wikidata.org/wiki/Q141251174");
     expect(waterCheck?.sameAs).toEqual(
-      expect.arrayContaining(["https://www.instagram.com/thewatercheck/", "https://www.wikidata.org/wiki/Q141251206"]),
+      expect.arrayContaining(["https://www.instagram.com/thewatercheck/", "https://www.wikidata.org/wiki/Q141251206"])
     );
     expect(sitemap).toContain("https://expectedend.co/thewatercheckpage");
     expect(sitemap).toContain("https://expectedend.co/denzel-rigaud");
+    expect(sitemap).toContain("https://expectedend.co/press");
     expect(sitemap).not.toContain("/thewatercheck<");
   });
 

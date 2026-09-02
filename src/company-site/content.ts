@@ -1,5 +1,8 @@
 export const CONTACT_HREF = "/about#contact";
 
+export const FOUNDER_DESCRIPTION =
+  "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.";
+
 // Denzel Rigaud approved the existing site copy on 2026-08-08 and the new
 // Water Check page copy on 2026-08-30.
 export const PUBLIC_CONTENT_APPROVED = true;
