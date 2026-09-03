@@ -31,6 +31,18 @@
   isolation: isolate;
 }
 
+.heroStage::before {
+  position: absolute;
+  z-index: 0;
+  inset: -8%;
+  background: url("/media/denzel-rigaud-founder-hero.png") center 32% / cover no-repeat;
+  content: "";
+  filter: blur(30px) saturate(.85) brightness(.5);
+  opacity: calc(.48 - var(--founder-progress) * .12);
+  transform: translate3d(calc(var(--founder-progress) * -2vw), calc(var(--founder-progress) * -2vh), -90px) scale(calc(1.08 + var(--founder-progress) * .08));
+  will-change: opacity, transform;
+}
+
 .heroStage::after {
   position: absolute;
   z-index: 8;
@@ -40,20 +52,24 @@
   pointer-events: none;
 }
 
-.heroVideo {
-  position: absolute;
-  z-index: 0;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  filter: saturate(.9) contrast(1.08) brightness(.88);
-}
-
-.videoShade {
+.heroPortrait {
   position: absolute;
   z-index: 1;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  max-width: none;
+  height: calc(100svh - 1rem);
+  filter: saturate(.9) contrast(1.08) brightness(.88);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, .72) 15%, #000 30%, #000 100%);
+  transform: translate3d(calc(1vw - var(--founder-progress) * 4vw), calc(3vh - var(--founder-progress) * 9vh), calc(var(--founder-progress) * 70px)) scale(calc(.96 + var(--founder-progress) * .12)) rotateY(calc(-2deg + var(--founder-progress) * 4deg));
+  transform-origin: 72% 72%;
+  will-change: transform;
+}
+
+.heroShade {
+  position: absolute;
+  z-index: 2;
   inset: 0;
   background:
     linear-gradient(90deg, rgba(2, 10, 29, .78) 0%, rgba(2, 10, 29, .45) 34%, transparent 64%),
@@ -63,7 +79,7 @@
 
 .coordinateGrid {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   inset: -25%;
   background-image:
     linear-gradient(rgba(132, 162, 234, .095) 1px, transparent 1px),
@@ -77,7 +93,7 @@
 
 .lavaGlow {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 18%;
   left: 47%;
   width: min(48vw, 660px);
@@ -90,7 +106,7 @@
 
 .orbitSystem {
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   top: 50%;
   left: 63%;
   width: min(56vw, 760px);
@@ -144,7 +160,27 @@
   line-height: 1.7;
 }
 
-.videoTelemetry {
+.foundingDate {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-top: 1rem;
+  color: #ffb078;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.foundingDate::before {
+  width: 2.5rem;
+  height: 1px;
+  background: rgba(255, 176, 120, .58);
+  content: "";
+}
+
+.heroTelemetry {
   position: absolute;
   z-index: 6;
   right: max(5vw, 3rem);
@@ -294,15 +330,16 @@
 
 @media (max-width: 900px) {
   .heroJourney { height: 190svh; }
-  .heroCopy { top: 55%; left: 24px; width: min(82vw, 570px); transform: translate3d(0, calc(-50% + var(--founder-progress) * -7vh), 0); }
+  .heroPortrait { right: -6vw; width: auto; height: 92svh; opacity: .9; }
+  .heroCopy { top: 60%; left: 24px; width: min(82vw, 570px); transform: translate3d(0, calc(-50% + var(--founder-progress) * -7vh), 0); }
   .heroCopy h1 { max-width: 650px; font-size: clamp(3.6rem, 14vw, 7rem); }
   .heroStatement { max-width: 460px; }
   .orbitSystem { top: 70%; left: 50%; width: 90vw; }
   .heroIndex { top: 5.7rem; left: 24px; }
   .heroIndex span:last-child { display: none; }
   .scrollCue { display: none; }
-  .videoTelemetry { right: 24px; bottom: 1.5rem; }
-  .videoTelemetry span:nth-child(2) { display: none; }
+  .heroTelemetry { right: 24px; bottom: 1.5rem; }
+  .heroTelemetry span:nth-child(2) { display: none; }
   .coordinates header, .memoirIntro, .chapter, .draftChapter { grid-template-columns: 1fr; }
   .coordinates ol { grid-template-columns: 1fr; }
   .coordinates li { min-height: 0; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.15); }
@@ -320,11 +357,12 @@
 }
 
 @media (max-width: 560px) {
-  .heroVideo { object-position: 50% center; }
-  .heroCopy { top: 55%; }
+  .heroStage::before { inset: -12%; filter: blur(24px) saturate(.82) brightness(.42); opacity: .55; }
+  .heroPortrait { top: 3.75rem; right: -10vw; bottom: auto; width: auto; height: 68svh; opacity: .84; }
+  .heroCopy { top: 67%; }
   .heroCopy h1 { font-size: clamp(3.25rem, 17vw, 5.2rem); }
   .heroStatement { font-size: .95rem; }
-  .videoTelemetry span:first-child { display: none; }
+  .heroTelemetry span:first-child { display: none; }
   .coordinates, .memoir { width: min(100% - 28px, 1200px); }
   .coordinates { padding-block: 6rem; }
   .memoirIntro { padding: 4rem 1.4rem; }
@@ -339,7 +377,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .heroJourney { height: 100svh; }
-  .heroVideo, .coordinateGrid, .lavaGlow, .orbitSystem, .heroCopy { transform: none; }
+  .heroStage::before, .heroPortrait, .coordinateGrid, .lavaGlow, .orbitSystem, .heroCopy { transform: none; }
   .heroCopy { opacity: 1; }
   .scrollCue svg, .channelSignal span { animation: none; }
   .memoryFrame img, .memoryCard:hover .memoryFrame img { transition: none; transform: none; }

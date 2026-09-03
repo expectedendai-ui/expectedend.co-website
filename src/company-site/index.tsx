@@ -135,7 +135,7 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
       )}
       {renderCompanyRoute()}
       {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
-        <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "about" ? onOpenArtWorld : undefined} />
+        <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "denzel-rigaud" ? onOpenArtWorld : undefined} />
       )}
     </div>
   );

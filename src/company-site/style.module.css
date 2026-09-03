@@ -687,7 +687,8 @@
   touch-action: manipulation;
 }
 .eggButton:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 2px; }
-.eggButton img { display: block; width: 20px; height: 20px; border-radius: 50%; opacity: 0; }
+.eggButton img { display: block; width: 20px; height: 20px; border-radius: 50%; opacity: 0; transition: opacity 180ms ease; }
+.eggButton:hover img, .eggButton:focus-visible img { opacity: .28; }
 
 .infoArticle { width: min(860px, 100%); margin: 2vh auto 0; }
 .infoHeader { padding-bottom: 3rem; border-bottom: 1px solid var(--line); }

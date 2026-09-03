@@ -18,12 +18,13 @@ describe("Expected End About page", () => {
     vi.useRealTimers();
   });
 
-  it("keeps the egg invisible-sized and requires two pointer or keyboard activations", async () => {
+  it("keeps the egg on the founder page and requires two pointer or keyboard activations", async () => {
+    window.history.replaceState({}, "", "/denzel-rigaud");
     const user = userEvent.setup();
     const onOpenArtWorld = vi.fn();
     render(<CompanySite leaving={false} onOpenArtWorld={onOpenArtWorld} />);
 
-    expect(screen.getByRole("heading", { level: 1, name: "Technology with purpose, built for real life." })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" })).toBeInTheDocument();
     const egg = screen.getByRole("button", { name: "Enter the hidden art world" });
     const image = withinEgg(egg);
     expect(image).toHaveAttribute("width", "20");
@@ -43,6 +44,7 @@ describe("Expected End About page", () => {
   });
 
   it("expires an unfinished activation sequence and cleans up its timer", () => {
+    window.history.replaceState({}, "", "/denzel-rigaud");
     vi.useFakeTimers();
     const onOpenArtWorld = vi.fn();
     const { unmount } = render(<CompanySite leaving={false} onOpenArtWorld={onOpenArtWorld} />);
@@ -79,19 +81,17 @@ describe("Expected End About page", () => {
     await user.click(storyLink);
     expect(window.location.pathname).toBe("/denzel-rigaud");
     expect(screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" })).toBeInTheDocument();
+    expect(screen.getByText("March 3, 2026")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();
-    const founderVideo = document.querySelector<HTMLVideoElement>("video[data-scroll-scrub='founder']");
-    expect(founderVideo).toHaveAttribute("poster", "/media/denzel-founder-scroll-poster.jpg");
-    expect(founderVideo).toHaveAttribute("preload", "auto");
-    expect(founderVideo?.querySelector('source[type="video/webm"]')).toHaveAttribute("src", "/media/denzel-founder-scroll.webm");
-    expect(founderVideo?.querySelector('source[type="video/mp4"]')).toHaveAttribute("src", "/media/denzel-founder-scroll.mp4");
-    expect(screen.queryByRole("img", { name: /Denzel Rigaud wearing dark orange glasses/i })).not.toBeInTheDocument();
+    const founderPortrait = document.querySelector<HTMLImageElement>("img[data-scroll-linked='founder']");
+    expect(founderPortrait).toHaveAttribute("src", "/media/denzel-rigaud-founder-hero.png");
+    expect(founderPortrait).toHaveAccessibleName("Denzel Rigaud wearing a navy suit and orange-tinted glasses");
+    expect(document.querySelector("video[data-scroll-scrub='founder']")).not.toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Scroll" })).toHaveAttribute("href", "#memoir");
     expect(screen.queryByText("Scroll to enter the memoir")).not.toBeInTheDocument();
 
-    const hero = founderVideo?.closest("section");
+    const hero = founderPortrait?.closest("section");
     expect(hero).not.toBeNull();
-    Object.defineProperty(founderVideo, "duration", { configurable: true, value: 3.166 });
     Object.defineProperty(hero, "offsetHeight", { configurable: true, value: 2000 });
     vi.spyOn(hero as HTMLElement, "getBoundingClientRect").mockReturnValue({
       top: -616,
@@ -105,7 +105,7 @@ describe("Expected End About page", () => {
       toJSON: () => ({}),
     });
     fireEvent.scroll(window);
-    expect(founderVideo?.currentTime).toBeCloseTo(1.583, 2);
+    expect(hero).toHaveStyle({ "--founder-progress": "0.500" });
     expect(screen.queryByText(/I am a jack of all trades/i)).not.toBeInTheDocument();
     expect(screen.getByText(/I decided to start by hacking my grades/i)).toBeInTheDocument();
     expect(screen.getByText(/Instagram bot farming/i)).toBeInTheDocument();
@@ -252,8 +252,8 @@ describe("Expected End About page", () => {
     expect(pressLink.querySelector('svg[data-action-icon="down"]')).toBeInTheDocument();
   });
 
-  it("does not show the egg on the homepage", () => {
-    window.history.replaceState({}, "", "/");
+  it.each(["/", "/about"])("does not show the egg on %s", (path) => {
+    window.history.replaceState({}, "", path);
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
     expect(screen.queryByRole("button", { name: "Enter the hidden art world" })).not.toBeInTheDocument();
   });

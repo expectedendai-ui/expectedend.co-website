@@ -83,7 +83,7 @@ const PROFILE_PAGE_SCHEMA = {
   url: "https://expectedend.co/denzel-rigaud",
   name: "Denzel Rigaud — Founder of Expected End",
   description: FOUNDER_DESCRIPTION,
-  dateModified: "2026-09-02",
+  dateModified: "2026-09-03",
   mainEntity: PERSON_SCHEMA,
 };
 
@@ -120,12 +120,10 @@ const MEMORY_PHOTOS = [
 
 export function DenzelPage({ onNavigate }: DenzelPageProps) {
   const heroRef = React.useRef<HTMLElement>(null);
-  const videoRef = React.useRef<HTMLVideoElement>(null);
   const [showVerse, setShowVerse] = React.useState(false);
 
   React.useEffect(() => {
     const hero = heroRef.current;
-    const video = videoRef.current;
     if (!hero || window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
 
     let frame = 0;
@@ -135,21 +133,15 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
       const distance = Math.max(hero.offsetHeight - window.innerHeight, 1);
       const progress = Math.min(1, Math.max(0, -rect.top / distance));
       hero.style.setProperty("--founder-progress", progress.toFixed(3));
-      if (video && Number.isFinite(video.duration) && video.duration > 0) {
-        const targetTime = Math.min(Math.max(video.duration - 0.01, 0), progress * video.duration);
-        if (Math.abs(video.currentTime - targetTime) > 0.008) video.currentTime = targetTime;
-      }
     };
     const onScroll = () => {
       if (!frame) frame = window.requestAnimationFrame(updateProgress);
     };
 
     updateProgress();
-    video?.addEventListener("loadedmetadata", updateProgress);
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
     return () => {
-      video?.removeEventListener("loadedmetadata", updateProgress);
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
       if (frame) window.cancelAnimationFrame(frame);
@@ -162,19 +154,16 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
 
       <section ref={heroRef} className={pageStyles.heroJourney} aria-labelledby="denzel-hero-title">
         <div className={pageStyles.heroStage}>
-          <video
-            ref={videoRef}
-            className={pageStyles.heroVideo}
-            data-scroll-scrub="founder"
-            muted
-            playsInline
-            preload="auto"
-            poster="/media/denzel-founder-scroll-poster.jpg"
-          >
-            <source src="/media/denzel-founder-scroll.webm" type="video/webm" />
-            <source src="/media/denzel-founder-scroll.mp4" type="video/mp4" />
-          </video>
-          <div className={pageStyles.videoShade} aria-hidden="true" />
+          <img
+            className={pageStyles.heroPortrait}
+            data-scroll-linked="founder"
+            src="/media/denzel-rigaud-founder-hero.png"
+            alt="Denzel Rigaud wearing a navy suit and orange-tinted glasses"
+            width="1058"
+            height="1487"
+            fetchPriority="high"
+          />
+          <div className={pageStyles.heroShade} aria-hidden="true" />
           <div className={pageStyles.coordinateGrid} aria-hidden="true" />
           <div className={pageStyles.lavaGlow} aria-hidden="true" />
           <div className={pageStyles.orbitSystem} aria-hidden="true">
@@ -189,9 +178,12 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
             <p className={pageStyles.heroStatement}>
               A story about curiosity, grief, faith, and turning technology into a way forward.
             </p>
+            <time className={pageStyles.foundingDate} dateTime="2026-03-03">
+              March 3, 2026
+            </time>
           </div>
 
-          <div className={pageStyles.videoTelemetry} aria-hidden="true">
+          <div className={pageStyles.heroTelemetry} aria-hidden="true">
             <span>Identity / Denzel Rigaud</span>
             <span>Depth / Suit ingress</span>
             <span>Signal / Scroll linked</span>

@@ -18,16 +18,22 @@
   pointer-events: none;
 }
 
-.eyebrow {
+.archiveNote {
+  display: grid;
   max-width: min(760px, 100%);
-  font-size: clamp(0.62rem, 1.35vw, 0.8rem);
-  line-height: 1.7;
-  letter-spacing: 0.18em;
-  text-align: center;
-  text-transform: uppercase;
-  opacity: 0.7;
+  gap: 0.45rem;
   color: #ffd700;
-  text-shadow: 0 0 6px #ffd700;
+  font-size: clamp(0.62rem, 1.35vw, 0.8rem);
+  letter-spacing: 0.12em;
+  line-height: 1.7;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.55);
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+.archiveYears {
+  font-weight: 800;
+  letter-spacing: 0.2em;
 }
 .title {
   font-family: "Hammersmith One", ui-monospace, monospace;
