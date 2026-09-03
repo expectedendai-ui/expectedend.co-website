@@ -58,7 +58,7 @@ describe("company-site routes", () => {
     expect(pressMetadata).toMatchObject({
       title: "Press & Media — Expected End",
       canonical: "https://expectedend.co/press",
-      image: "https://expectedend.co/media/denzel-rigaud-founder.png",
+      image: "https://expectedend.co/media/denzel-rigaud-founder-hero.png",
     });
   });
 

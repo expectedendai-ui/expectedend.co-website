@@ -54,7 +54,7 @@ const ROUTES: PublicRoute[] = [
     title: "Press & Media — Expected End",
     description:
       "Approved biographies, verified facts, entity links, and downloadable media for coverage of Expected End and Denzel Rigaud.",
-    image: "https://expectedend.co/media/denzel-rigaud-founder.png",
+    image: "https://expectedend.co/media/denzel-rigaud-founder-hero.png",
   },
   {
     key: "terms",
