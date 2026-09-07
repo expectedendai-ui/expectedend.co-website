@@ -4,11 +4,71 @@ import { describe, expect, it, vi } from "vitest";
 import { WaterCheckPage } from "./water-check-page";
 
 describe("WaterCheckPage", () => {
+  it("plays the water intro on every load", () => {
+    render(<WaterCheckPage />);
+    expect(document.querySelector("[data-water-intro]")).toBeInTheDocument();
+  });
+
+  it("translates the goal into cups, a food share, and tappable food equivalents", () => {
+    render(<WaterCheckPage />);
+
+    expect(screen.getByText("12 cups")).toBeInTheDocument();
+    expect(screen.getByText("≈ 73.6 oz")).toBeInTheDocument();
+    expect(screen.getByText("≈ 18.4 oz")).toBeInTheDocument();
+    expect(screen.getByText("≈ 4 cups of watermelon")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("radio", { name: "cucumbers" }));
+    expect(screen.getByText("≈ 2 cucumbers")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Harvard Health on food and hydration" })).toHaveAttribute(
+      "href",
+      "https://www.health.harvard.edu/healthy-aging-and-longevity/using-food-to-stay-hydrated"
+    );
+  });
+
+  it("links the author note to Denzel's founder page", () => {
+    render(<WaterCheckPage />);
+    expect(screen.getByText(/what works for you, works for you/i)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Founder Page" })).toHaveAttribute("href", "/denzel-rigaud");
+  });
+
+  it("uses adjusted body weight only when weight is high for the entered height", () => {
+    render(<WaterCheckPage />);
+    fireEvent.change(screen.getByLabelText("Weight (lbs)"), { target: { value: "205" } });
+    fireEvent.change(screen.getByLabelText("Daily Activity (minutes)"), { target: { value: "75" } });
+    expect(screen.getByText("Your Daily Goal: 117.8 Ounces")).toBeInTheDocument();
+    expect(screen.getByText("−14.7 oz")).toBeInTheDocument();
+    expect(screen.getByText(/adjusted body weight/i)).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText("Height (ft)"), { target: { value: "6" } });
+    fireEvent.change(screen.getByLabelText("Height (in)"), { target: { value: "4" } });
+    expect(screen.getByText("Your Daily Goal: 132.5 Ounces")).toBeInTheDocument();
+    expect(screen.getAllByText("+0 oz")).toHaveLength(2);
+    expect(screen.queryByText(/adjusted body weight/i)).not.toBeInTheDocument();
+  });
+
+  it("applies an optional sex reference to the baseline and ideal-weight math", () => {
+    render(<WaterCheckPage />);
+    expect(screen.getByText("Not set")).toBeInTheDocument();
+    expect(screen.getByText("Your Daily Goal: 92 Ounces")).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText("Sex"), { target: { value: "man" } });
+    expect(screen.getByText("+3.2 oz")).toBeInTheDocument();
+    expect(screen.getByText("Your Daily Goal: 95.2 Ounces")).toBeInTheDocument();
+    expect(screen.getByText(/male ideal-weight formula/i)).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText("Sex"), { target: { value: "woman" } });
+    expect(screen.getByText("−3.2 oz")).toBeInTheDocument();
+    expect(screen.getByText("Your Daily Goal: 88.8 Ounces")).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText("Sex"), { target: { value: "unspecified" } });
+    expect(screen.getByText("Your Daily Goal: 92 Ounces")).toBeInTheDocument();
+  });
+
   it("shows the default estimate and its medical context", () => {
     render(<WaterCheckPage />);
 
     expect(
-      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })
+      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual biology." })
     ).toBeInTheDocument();
     expect(screen.getByLabelText("Weight (lbs)")).toHaveValue("160");
     expect(screen.getByLabelText("Daily Activity (minutes)")).toHaveValue("30");
@@ -27,7 +87,7 @@ describe("WaterCheckPage", () => {
 
     fireEvent.change(weight, { target: { value: "300" } });
     fireEvent.change(activity, { target: { value: "120" } });
-    expect(screen.getByText("Your Daily Goal: 198 Ounces")).toBeInTheDocument();
+    expect(screen.getByText("Your Daily Goal: 154.8 Ounces")).toBeInTheDocument();
 
     fireEvent.change(weight, { target: { value: "80" } });
     expect(screen.getByText("Your Daily Goal: 88 Ounces")).toBeInTheDocument();
@@ -44,7 +104,7 @@ describe("WaterCheckPage", () => {
     expect(screen.getByText("Your Daily Goal: 92 Ounces")).toBeInTheDocument();
 
     fireEvent.change(screen.getByLabelText("Weight (kg)"), { target: { value: "80" } });
-    expect(screen.getByText("Your Daily Goal: 100.2 Ounces")).toBeInTheDocument();
+    expect(screen.getByText("Your Daily Goal: 94.1 Ounces")).toBeInTheDocument();
   });
 
   it("applies transparent pregnancy and breastfeeding adjustments", async () => {
@@ -114,7 +174,7 @@ describe("WaterCheckPage", () => {
 
     fireEvent.change(screen.getByLabelText("Weight (lbs)"), { target: { value: "205" } });
     fireEvent.change(screen.getByLabelText("Daily Activity (minutes)"), { target: { value: "75" } });
-    expect(screen.getByText("Your Daily Goal: 132.5 Ounces")).toBeInTheDocument();
+    expect(screen.getByText("Your Daily Goal: 117.8 Ounces")).toBeInTheDocument();
     expect(window.location.href).toBe(startingUrl);
     expect(localStorageSpy).not.toHaveBeenCalled();
 

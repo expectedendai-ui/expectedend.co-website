@@ -289,6 +289,50 @@
 .inlineVerse { display: inline; margin-left: .35em; padding: 0; border: 0; border-bottom: 1px solid currentColor; color: #ffb078; background: transparent; cursor: pointer; font: inherit; font-weight: 800; }
 .inlineVerse:hover { color: #fff; }
 
+/* Round glass social buttons (adapted from uiverse.io/Itskrish01/shaggy-eel-44) */
+.connectRow { display: flex; justify-content: center; gap: 1.5rem; margin-top: 2.5rem; }
+.connectButton {
+  --glow: rgba(255, 255, 255, .2);
+  --edge: rgba(255, 255, 255, .1);
+  --edge-hover: rgba(255, 255, 255, .3);
+  --tilt: 3deg;
+  position: relative;
+  display: grid;
+  width: 4.5rem;
+  aspect-ratio: 1;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--edge);
+  border-radius: 50%;
+  background: linear-gradient(to top right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .4));
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .3), 0 4px 6px -4px rgba(0, 0, 0, .3);
+  backdrop-filter: blur(16px);
+  cursor: pointer;
+  transition: transform 300ms ease-out, box-shadow 300ms ease-out, border-color 300ms ease-out, background 300ms ease-out;
+}
+.connectButton svg { position: relative; z-index: 1; width: 1.75rem; height: 1.75rem; transition: transform 300ms ease-out; }
+.connectButton:hover,
+.connectButton:focus-visible {
+  border-color: var(--edge-hover);
+  background: linear-gradient(to top right, var(--glow), rgba(0, 0, 0, .4));
+  box-shadow: 0 25px 50px -12px var(--glow);
+  transform: scale(1.1) rotate(var(--tilt));
+}
+.connectButton:focus-visible { outline: 2px solid #ffb078; outline-offset: 4px; }
+.connectButton:active { transform: scale(.95) rotate(0); }
+.connectSweep {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, transparent, var(--glow), transparent);
+  transform: translateX(-100%);
+  transition: transform 700ms ease-out;
+}
+.connectButton:hover .connectSweep,
+.connectButton:focus-visible .connectSweep { transform: translateX(100%); }
+.connectYouTube { --glow: rgba(255, 0, 0, .3); --edge: rgba(255, 0, 0, .25); --edge-hover: rgba(255, 0, 0, .55); --tilt: 2deg; }
+.connectInstagram { --glow: rgba(225, 48, 108, .3); --edge: rgba(225, 48, 108, .25); --edge-hover: rgba(247, 119, 55, .6); --tilt: 3deg; }
+.connectLinkedIn { --glow: rgba(10, 102, 194, .35); --edge: rgba(10, 102, 194, .3); --edge-hover: rgba(10, 102, 194, .65); --tilt: -2deg; }
+
 .memoryArchive { padding-top: clamp(5rem, 9vw, 9rem); border-top: 1px solid rgba(255,255,255,.14); }
 .memoryHeader { display: grid; grid-template-columns: .72fr 1.28fr; gap: 1rem 4rem; align-items: end; margin-bottom: clamp(3rem, 6vw, 5rem); }
 .memoryHeader > span { grid-column: 1 / -1; color: #ff9b5c; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .64rem; letter-spacing: .14em; text-transform: uppercase; }
@@ -388,4 +432,6 @@
   .heroCopy { opacity: 1; }
   .scrollCue svg, .channelSignal span { animation: none; }
   .memoryFrame img, .memoryCard:hover .memoryFrame img { transition: none; transform: none; }
+  .connectButton, .connectSweep { transition: none; }
+  .connectButton:hover, .connectButton:focus-visible { transform: none; }
 }

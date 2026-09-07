@@ -92,6 +92,26 @@
 .nav .contactNav { padding: 10px 15px; border-radius: 999px; color: #15285d; background: var(--gold-soft); font-size: 11px; font-weight: 800; }
 .nav .contactNav:hover { color: #071b51; }
 
+/* Per-page nav themes. Routes opt in via navTheme in routes.ts. */
+.nav[data-nav-theme="water"] {
+  border-color: rgba(150, 226, 255, .36);
+  background: linear-gradient(180deg, rgba(8, 62, 104, .74), rgba(4, 38, 70, .8));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .22), 0 10px 40px rgba(0, 22, 52, .34), 0 0 0 6px rgba(99, 201, 247, .07);
+}
+.nav[data-nav-theme="water"] a { color: #cdeeff; }
+.nav[data-nav-theme="water"] a:hover { color: #fff; }
+.nav[data-nav-theme="water"] .companyNav {
+  border-color: rgba(150, 226, 255, .42);
+  background: rgba(15, 96, 156, .5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .16);
+}
+.nav[data-nav-theme="water"] .contactNav {
+  color: #03253f;
+  background: linear-gradient(180deg, #a6e9ff, #63c9f7);
+  box-shadow: 0 6px 18px rgba(63, 190, 247, .35);
+}
+.nav[data-nav-theme="water"] .contactNav:hover { color: #011a2e; background: linear-gradient(180deg, #bdf0ff, #7fd6fb); }
+
 .hero {
   position: relative;
   display: grid;

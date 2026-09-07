@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ArrowDownIcon, ArrowUpRightIcon, InstagramIcon, LinkedInIcon } from "./action-icons";
+import { ArrowDownIcon, ArrowUpRightIcon, InstagramIcon, LinkedInIcon, YouTubeIcon } from "./action-icons";
 import { FOUNDER_DESCRIPTION } from "./content";
 import pageStyles from "./denzel-page.module.css";
 import { VerseDialog } from "./verse-dialog";
@@ -71,6 +71,7 @@ const PERSON_SCHEMA = {
   sameAs: [
     "https://www.instagram.com/smiledenzel/",
     "https://www.linkedin.com/in/denzel-rigaud-2b0200210/",
+    "https://www.youtube.com/@expectedendco",
     "https://github.com/blackdynamitee",
     ...EXTERNAL_RECORDS.map(({ href }) => href),
   ],
@@ -446,6 +447,38 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
                   Jeremiah 29:11
                 </button>
               </p>
+              <nav className={pageStyles.connectRow} aria-label="Follow Denzel Rigaud">
+                <a
+                  className={`${pageStyles.connectButton} ${pageStyles.connectYouTube}`}
+                  href="https://www.youtube.com/@expectedendco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Expected End on YouTube"
+                >
+                  <span className={pageStyles.connectSweep} aria-hidden="true" />
+                  <YouTubeIcon />
+                </a>
+                <a
+                  className={`${pageStyles.connectButton} ${pageStyles.connectInstagram}`}
+                  href="https://www.instagram.com/smiledenzel/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow Denzel Rigaud on Instagram"
+                >
+                  <span className={pageStyles.connectSweep} aria-hidden="true" />
+                  <InstagramIcon />
+                </a>
+                <a
+                  className={`${pageStyles.connectButton} ${pageStyles.connectLinkedIn}`}
+                  href="https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Connect with Denzel Rigaud on LinkedIn"
+                >
+                  <span className={pageStyles.connectSweep} aria-hidden="true" />
+                  <LinkedInIcon />
+                </a>
+              </nav>
             </div>
           </section>
 

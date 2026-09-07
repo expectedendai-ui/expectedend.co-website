@@ -89,7 +89,7 @@ describe("Expected End public site", () => {
     await user.click(screen.getByRole("link", { name: "Visit The Water Check" }));
     expect(window.location.pathname).toBe("/thewatercheckpage");
     expect(
-      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })
+      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual biology." })
     ).toBeInTheDocument();
   });
 
@@ -291,9 +291,9 @@ describe("Expected End public site", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     expect(
-      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual baseline." })
+      screen.getByRole("heading", { level: 1, name: "Ditch the influencers. Learn your actual biology." })
     ).toBeInTheDocument();
-    expect(screen.getByRole("navigation", { name: "Main navigation" })).toBeInTheDocument();
+    expect(screen.getByRole("navigation", { name: "Main navigation" })).toHaveAttribute("data-nav-theme", "water");
     expect(screen.getByRole("navigation", { name: "Footer navigation" })).toBeInTheDocument();
     expect(document.title).toBe("Hydration Calculator — The Water Check");
     expect(document.querySelector('meta[name="description"]')).toHaveAttribute(

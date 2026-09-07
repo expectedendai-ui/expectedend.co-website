@@ -117,6 +117,19 @@ describe("Expected End About page", () => {
       "href",
       "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
     );
+    const connectRow = screen.getByRole("navigation", { name: "Follow Denzel Rigaud" });
+    expect(within(connectRow).getByRole("link", { name: "Expected End on YouTube" })).toHaveAttribute(
+      "href",
+      "https://www.youtube.com/@expectedendco"
+    );
+    expect(within(connectRow).getByRole("link", { name: "Follow Denzel Rigaud on Instagram" })).toHaveAttribute(
+      "href",
+      "https://www.instagram.com/smiledenzel/"
+    );
+    expect(within(connectRow).getByRole("link", { name: "Connect with Denzel Rigaud on LinkedIn" })).toHaveAttribute(
+      "href",
+      "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+    );
     expect(screen.getByRole("link", { name: "World Athletics profile" })).toHaveAttribute(
       "href",
       "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195"
@@ -198,6 +211,7 @@ describe("Expected End About page", () => {
         "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195",
         "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913",
         "https://github.com/blackdynamitee",
+        "https://www.youtube.com/@expectedendco",
       ])
     );
     expect(profileSchema.mainEntity?.image).toMatchObject({
