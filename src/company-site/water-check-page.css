@@ -1589,3 +1589,151 @@
   line-height: 1.5;
   margin: 0;
 }
+
+/* ---------------------------------------------------------------------------
+   Footer for /thewatercheckpage only (2026-09-07). Neutral, navy, brand cyan.
+   --------------------------------------------------------------------------- */
+.waterCheckFooter {
+  background: linear-gradient(180deg, #041427, #02101f);
+  border-top: 1px solid rgba(130, 214, 251, 0.18);
+  color: #c8e9f8;
+  padding: 3.5rem 1.25rem 1.5rem;
+}
+
+.waterCheckFooterInner {
+  display: grid;
+  gap: 2.5rem;
+  margin: 0 auto;
+  max-width: 72rem;
+}
+
+@media (min-width: 48rem) {
+  .waterCheckFooterInner {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: 3rem;
+  }
+}
+
+.waterCheckFooterMark {
+  align-items: center;
+  color: white;
+  display: inline-flex;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 1.85rem;
+  gap: 0.85rem;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.waterCheckFooterMark img {
+  border-radius: 999px;
+  background: radial-gradient(circle at 32% 24%, rgba(255, 255, 255, 0.9), rgba(94, 219, 250, 0.55) 30%, rgba(5, 85, 166, 0.9) 75%);
+  box-shadow: 0 10px 28px rgba(0, 44, 109, 0.45);
+  display: block;
+  height: 3.25rem;
+  padding: 0.35rem;
+  width: 3.25rem;
+}
+
+.waterCheckFooterMark:hover span {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.waterCheckFooterNote {
+  color: #9fc9de;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0.75rem 0 0;
+  max-width: 34rem;
+}
+
+.waterCheckFooterLinks {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.waterCheckFooterLinks > div {
+  display: grid;
+  gap: 0.6rem;
+  justify-items: start;
+}
+
+.waterCheckFooterHeading {
+  color: #82d6fb;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
+
+.waterCheckFooterLinks a {
+  color: #e1f4fd;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.waterCheckFooterLinks a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.waterCheckFooterBottom {
+  align-items: center;
+  border-top: 1px solid rgba(130, 214, 251, 0.14);
+  color: #7fa9c2;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.72rem;
+  font-weight: 700;
+  gap: 0.5rem 1.5rem;
+  letter-spacing: 0.08em;
+  margin: 2.75rem auto 0;
+  max-width: 72rem;
+  padding-top: 1.1rem;
+  text-transform: uppercase;
+}
+
+.waterCheckFooterBottom p {
+  margin: 0;
+}
+
+.waterCheckFooterBottom a {
+  color: #c8e9f8;
+  text-decoration: none;
+}
+
+.waterCheckFooterBottom a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.waterCheckFooterTop {
+  margin-left: auto;
+}
+
+@media (max-width: 39.999rem) {
+  .waterCheckFooter {
+    padding-top: 2.75rem;
+  }
+
+  .waterCheckFooterLinks {
+    grid-template-columns: 1fr;
+  }
+
+  .waterCheckFooterBottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .waterCheckFooterTop {
+    margin-left: 0;
+  }
+}

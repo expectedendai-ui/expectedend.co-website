@@ -10,6 +10,9 @@ import { PressPage } from "./press-page";
 import { getRoute, getRouteMetadata, isInternalHref } from "./routes";
 import { Storefront } from "./storefront";
 import styles from "./style.module.css";
+import { FounderFooter } from "./founder-footer";
+import { FounderNavigation } from "./founder-navigation";
+import { WaterCheckFooter } from "./water-check-footer";
 import { WaterCheckPage } from "./water-check-page";
 
 type CompanySiteProps = {
@@ -130,12 +133,21 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
 
   return (
     <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue">
-      {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
-        <Navigation isHome={route.key === "home"} theme={route.navTheme} onNavigate={onNavigate} />
+      {route.key === "denzel-rigaud" ? (
+        <FounderNavigation onNavigate={onNavigate} />
+      ) : (
+        route.key !== "mybiblelens-store" &&
+        route.key !== "watercheck-store" && (
+          <Navigation isHome={route.key === "home"} theme={route.navTheme} onNavigate={onNavigate} />
+        )
       )}
       {renderCompanyRoute()}
-      {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
-        <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "denzel-rigaud" ? onOpenArtWorld : undefined} />
+      {route.key === "watercheck-page" ? (
+        <WaterCheckFooter onNavigate={onNavigate} />
+      ) : route.key === "denzel-rigaud" ? (
+        <FounderFooter onNavigate={onNavigate} onOpenArtWorld={onOpenArtWorld} />
+      ) : (
+        route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && <Footer onNavigate={onNavigate} />
       )}
     </div>
   );

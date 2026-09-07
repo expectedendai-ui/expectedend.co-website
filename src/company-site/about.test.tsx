@@ -144,7 +144,7 @@ describe("Expected End About page", () => {
     expect(brother).toHaveAttribute("rel", expect.stringMatching(/noopener/));
     expect(brother).toHaveAttribute("rel", expect.stringMatching(/noreferrer/));
     expect(screen.getByText(/I filled that empty space with the sin of lust/i)).toBeInTheDocument();
-    expect(screen.getByText(/I’ve been up ever since\. WOOAH\./i)).toBeInTheDocument();
+    expect(screen.getByText(/When I did, my life began to prosper\./i)).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "“The Truth Behind the Code”" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Two" })).toHaveAttribute(
       "href",

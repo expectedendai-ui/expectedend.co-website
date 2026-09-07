@@ -69,6 +69,57 @@ const formatCount = (count: number) => {
   return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
 };
 
+type ClampedNumberInputProps = Omit<React.InputHTMLAttributes<HTMLInputElement>, "value" | "onChange" | "min" | "max"> & {
+  value: number;
+  min: number;
+  max: number;
+  onCommit: (value: number) => void;
+};
+
+/**
+ * A number box that lets you type freely and only clamps when you leave the field.
+ * The previous version clamped on every keystroke, so clearing "35" snapped to the minimum and
+ * typing "22" on top of it became "1822" then the maximum. Typing "6" after "5" became 56, then 8.
+ */
+function ClampedNumberInput({ value, min, max, onCommit, onBlur, onFocus, ...rest }: ClampedNumberInputProps) {
+  const [draft, setDraft] = React.useState(String(value));
+  const [focused, setFocused] = React.useState(false);
+  React.useEffect(() => {
+    if (!focused) setDraft(String(value));
+  }, [value, focused]);
+  const clamp = (next: number) => Math.min(max, Math.max(min, next));
+  return (
+    <input
+      {...rest}
+      type="number"
+      inputMode="numeric"
+      min={min}
+      max={max}
+      value={draft}
+      onFocus={(event) => {
+        setFocused(true);
+        event.currentTarget.select();
+        onFocus?.(event);
+      }}
+      onChange={(event) => {
+        const raw = event.currentTarget.value;
+        setDraft(raw);
+        const parsed = Number(raw);
+        // Update the result live while the typed number is already valid; otherwise wait for blur.
+        if (raw.trim() !== "" && Number.isFinite(parsed) && parsed >= min && parsed <= max) onCommit(parsed);
+      }}
+      onBlur={(event) => {
+        setFocused(false);
+        const parsed = Number(event.currentTarget.value);
+        const next = event.currentTarget.value.trim() === "" || !Number.isFinite(parsed) ? value : clamp(parsed);
+        onCommit(next);
+        setDraft(String(next));
+        onBlur?.(event);
+      }}
+    />
+  );
+}
+
 // Roughly a fifth of most people's daily water arrives in food (National Academies; Harvard Health).
 const FOOD_WATER_SHARE = 0.2;
 const OUNCES_PER_LITER = 33.814;
@@ -396,52 +447,37 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                     <>
                       <label htmlFor="water-check-height-feet">
                         <span>Height (ft)</span>
-                        <input
+                        <ClampedNumberInput
                           id="water-check-height-feet"
-                          type="number"
-                          inputMode="numeric"
                           min={3}
                           max={8}
                           step={1}
                           value={heightFeet}
-                          onChange={(event) => {
-                            const feet = Math.min(8, Math.max(3, Number(event.currentTarget.value) || 0));
-                            setHeightInches(feet * 12 + heightRemainderInches);
-                          }}
+                          onCommit={(feet) => setHeightInches(Math.round(feet) * 12 + heightRemainderInches)}
                         />
                       </label>
                       <label htmlFor="water-check-height-inches">
                         <span>Height (in)</span>
-                        <input
+                        <ClampedNumberInput
                           id="water-check-height-inches"
-                          type="number"
-                          inputMode="numeric"
                           min={0}
                           max={11}
                           step={1}
                           value={heightRemainderInches}
-                          onChange={(event) => {
-                            const inches = Math.min(11, Math.max(0, Number(event.currentTarget.value) || 0));
-                            setHeightInches(heightFeet * 12 + inches);
-                          }}
+                          onCommit={(inches) => setHeightInches(heightFeet * 12 + Math.round(inches))}
                         />
                       </label>
                     </>
                   ) : (
                     <label htmlFor="water-check-height-cm">
                       <span>Height (cm)</span>
-                      <input
+                      <ClampedNumberInput
                         id="water-check-height-cm"
-                        type="number"
-                        inputMode="numeric"
                         min={120}
                         max={230}
                         step={1}
                         value={heightCentimeters}
-                        onChange={(event) => {
-                          const centimeters = Math.min(230, Math.max(120, Number(event.currentTarget.value) || 0));
-                          setHeightInches(Math.round(centimeters / CENTIMETERS_PER_INCH));
-                        }}
+                        onCommit={(centimeters) => setHeightInches(Math.round(centimeters / CENTIMETERS_PER_INCH))}
                       />
                     </label>
                   )}
@@ -488,15 +524,14 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                     <strong>Age</strong>
                     <small>Age provides context; it does not diagnose menopause.</small>
                   </span>
-                  <input
+                  <ClampedNumberInput
                     id="water-check-age"
                     aria-label="Age"
-                    type="number"
-                    min="18"
-                    max="100"
-                    inputMode="numeric"
+                    min={18}
+                    max={100}
+                    step={1}
                     value={age}
-                    onChange={(event) => setAge(Math.min(100, Math.max(18, Number(event.currentTarget.value) || 18)))}
+                    onCommit={(next) => setAge(Math.round(next))}
                   />
                 </label>
 

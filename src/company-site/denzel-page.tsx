@@ -311,8 +311,8 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
               person I could have become.
             </p>
             <p>
-              In January 2026, I knew I needed to change. On February 25, 2026, I gave my life to Christ, and I’ve been up ever
-              since. WOOAH.
+              In January 2026, I knew I needed to change. I decided to open up the web wizard my dad taught me how to be, stop
+              being a carnal man who did not believe in God, and follow Him instead. When I did, my life began to prosper.
             </p>
             <p>
               MyBibleLens came from that decision. I did not have a complete plan. I began building and kept moving. The work let
