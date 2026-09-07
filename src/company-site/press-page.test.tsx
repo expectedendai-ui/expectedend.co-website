@@ -35,7 +35,7 @@ describe("Expected End press page", () => {
     const schema = JSON.parse(container.querySelector('script[type="application/ld+json"]')?.textContent ?? "{}") as {
       "@type"?: string;
       about?: Array<{ "@id": string }>;
-      primaryImageOfPage?: { license?: string; creditText?: string; acquireLicensePage?: string };
+      primaryImageOfPage?: { contentUrl?: string; license?: string; creditText?: string; acquireLicensePage?: string };
     };
     expect(schema["@type"]).toBe("WebPage");
     expect(schema.about?.map((entity) => entity["@id"])).toEqual([
@@ -43,6 +43,7 @@ describe("Expected End press page", () => {
       "https://expectedend.co/denzel-rigaud#person",
     ]);
     expect(schema.primaryImageOfPage).toMatchObject({
+      contentUrl: "https://expectedend.co/media/denzel-rigaud-founder-hero.png",
       license: "https://creativecommons.org/licenses/by-sa/4.0/",
       creditText: "Denzel Rigaud / Expected End",
       acquireLicensePage: "https://expectedend.co/press#licensing",
@@ -54,12 +55,12 @@ describe("Expected End press page", () => {
 
     expect(screen.getByRole("img", { name: "Denzel Rigaud in a navy suit and orange-tinted glasses" })).toHaveAttribute(
       "src",
-      "/media/denzel-rigaud-founder.png"
+      "/media/denzel-rigaud-founder-hero.png"
     );
-    expect(screen.getByRole("link", { name: "Download founder portrait" })).toHaveAttribute(
-      "download",
-      "denzel-rigaud-founder-portrait.png"
-    );
+    for (const portraitLink of screen.getAllByRole("link", { name: /Download (founder )?portrait/ })) {
+      expect(portraitLink).toHaveAttribute("href", "/media/denzel-rigaud-founder-hero.png");
+      expect(portraitLink).toHaveAttribute("download", "denzel-rigaud-founder-portrait.png");
+    }
     expect(screen.getByRole("link", { name: "Creative Commons Attribution-ShareAlike 4.0" })).toHaveAttribute(
       "href",
       "https://creativecommons.org/licenses/by-sa/4.0/"

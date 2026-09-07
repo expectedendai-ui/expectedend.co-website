@@ -1,0 +1,181 @@
+/* Shared water-rise intro splash. Used by The Water Check store and page. */
+
+.waterIntro {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: linear-gradient(180deg, #edfdff, #bceefa);
+  animation: water-intro-shell 4.2s both;
+}
+.waterIntroLogo {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  width: clamp(150px, 22vw, 260px);
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid rgba(222, 253, 255, 0.88);
+  border-radius: 48% 52% 46% 54% / 52% 46% 54% 48%;
+  background: radial-gradient(
+    circle at 32% 24%,
+    rgba(255, 255, 255, 0.95),
+    rgba(94, 219, 250, 0.62) 24%,
+    rgba(5, 85, 166, 0.84) 72%
+  );
+  box-shadow:
+    inset 15px 18px 28px rgba(236, 254, 255, 0.48),
+    inset -18px -22px 34px rgba(0, 42, 124, 0.36),
+    0 28px 70px rgba(0, 44, 109, 0.28);
+  transform: translate(-50%, -50%);
+  animation: water-intro-logo 4.2s both;
+}
+.waterIntroLogo img {
+  display: block;
+  width: 66%;
+  height: auto;
+  filter: drop-shadow(0 12px 16px rgba(0, 30, 92, 0.24));
+}
+.waterIntroFill {
+  position: absolute;
+  z-index: 3;
+  inset: 0 -8%;
+  background: linear-gradient(180deg, #45cbed, #0668b8 52%, #003d8d);
+  will-change: transform;
+}
+.waterIntroFill svg {
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 24vh;
+  fill: #45cbed;
+}
+.waterIntroFillBack {
+  z-index: 3;
+  opacity: 0.72;
+  background: #6adcf2;
+  animation: water-intro-rise-back 4.2s cubic-bezier(0.65, 0, 0.22, 1) both;
+}
+.waterIntroFillBack svg {
+  fill: #6adcf2;
+  animation: water-intro-wave-sway 1.15s ease-in-out infinite alternate;
+}
+.waterIntroFillFront {
+  z-index: 4;
+  animation: water-intro-rise-front 4.2s cubic-bezier(0.65, 0, 0.22, 1) both;
+}
+.waterIntroFillFront svg {
+  animation: water-intro-wave-sway 0.95s ease-in-out -0.3s infinite alternate-reverse;
+}
+.waterIntroWordmark {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  bottom: 9vh;
+  left: 0;
+  margin: 0;
+  color: white;
+  font:
+    400 clamp(2.4rem, 7vw, 6rem) / 0.88 "Instrument Serif",
+    Georgia,
+    serif;
+  letter-spacing: -0.055em;
+  text-align: center;
+  text-shadow: 0 8px 30px rgba(0, 37, 100, 0.32);
+  animation: water-intro-wordmark 4.2s both;
+}
+
+@keyframes water-intro-shell {
+  0%,
+  88% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes water-intro-logo {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -44%) scale(0.72) rotate(-8deg);
+  }
+  14%,
+  38% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotate(0);
+  }
+  54% {
+    opacity: 1;
+    transform: translate(-50%, -58%) scale(1.04) rotate(3deg);
+  }
+  72%,
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -92%) scale(0.88) rotate(-4deg);
+  }
+}
+@keyframes water-intro-rise-back {
+  0%,
+  12% {
+    transform: translateY(118%);
+  }
+  56% {
+    transform: translateY(2%);
+  }
+  72% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(-130%);
+  }
+}
+@keyframes water-intro-rise-front {
+  0%,
+  17% {
+    transform: translateY(122%);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  74% {
+    transform: translateY(-7%);
+  }
+  100% {
+    transform: translateY(-132%);
+  }
+}
+@keyframes water-intro-wave-sway {
+  to {
+    transform: translateX(3%) scaleX(1.04);
+  }
+}
+@keyframes water-intro-wordmark {
+  0%,
+  42% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  55%,
+  74% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  88%,
+  100% {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .waterIntro {
+    display: none;
+  }
+}

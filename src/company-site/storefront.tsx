@@ -1,6 +1,7 @@
 import type * as React from "react";
 import { ArrowDownIcon, ArrowUpRightIcon } from "./action-icons";
 import styles from "./storefront.module.css";
+import { WaterIntro } from "./water-intro";
 
 type StoreBrand = "mybiblelens" | "watercheck";
 
@@ -71,24 +72,7 @@ export function Storefront({ brand, onNavigate }: StorefrontProps) {
   return (
     <main className={styles.store} data-store-brand={brand}>
       <div className={styles.waterField} aria-hidden="true" />
-      {brand === "watercheck" && (
-        <div className={styles.waterIntro} data-water-intro aria-hidden="true">
-          <div className={styles.waterIntroLogo}>
-            <img src="/brand/watercheck-store/c-mark-magic-eraser.png" alt="" width="700" height="700" decoding="async" />
-          </div>
-          <div className={`${styles.waterIntroFill} ${styles.waterIntroFillBack}`}>
-            <svg viewBox="0 0 1440 190" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-              <path d="M0 112C218 20 438 171 705 92C946 20 1177 161 1440 66V190H0Z" />
-            </svg>
-          </div>
-          <div className={`${styles.waterIntroFill} ${styles.waterIntroFillFront}`}>
-            <svg viewBox="0 0 1440 190" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-              <path d="M0 78C244 164 476 18 735 99C970 173 1199 25 1440 108V190H0Z" />
-            </svg>
-          </div>
-          <p className={styles.waterIntroWordmark}>The Water Check</p>
-        </div>
-      )}
+      {brand === "watercheck" && <WaterIntro />}
       <nav className={styles.nav} aria-label={`${store.name} store navigation`}>
         <a href="/" onClick={onNavigate} className={styles.backLink}>
           Expected End

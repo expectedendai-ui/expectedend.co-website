@@ -13,8 +13,12 @@ export type CompanyRouteKey =
   | "watercheck-page"
   | "not-found";
 
+export type NavTheme = "blue" | "water";
+
 type RouteMetadata = {
   path: string;
+  /** Visual theme for the floating main navigation. Defaults to the site blue. */
+  navTheme?: NavTheme;
   title: string;
   description: string;
   image?: string;
@@ -54,7 +58,7 @@ const ROUTES: PublicRoute[] = [
     title: "Press & Media — Expected End",
     description:
       "Approved biographies, verified facts, entity links, and downloadable media for coverage of Expected End and Denzel Rigaud.",
-    image: "https://expectedend.co/media/denzel-rigaud-founder.png",
+    image: "https://expectedend.co/media/denzel-rigaud-founder-hero.png",
   },
   {
     key: "terms",
@@ -95,6 +99,7 @@ const ROUTES: PublicRoute[] = [
     key: "watercheck-page",
     family: "company",
     path: "/thewatercheckpage",
+    navTheme: "water",
     title: "Hydration Calculator — The Water Check",
     description: "A private hydration estimate, practical water habits, and The Water Check community.",
   },

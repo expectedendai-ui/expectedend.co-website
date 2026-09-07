@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ArrowDownIcon, ArrowUpRightIcon, InstagramIcon, LinkedInIcon } from "./action-icons";
+import { ArrowDownIcon, ArrowUpRightIcon, InstagramIcon, LinkedInIcon, YouTubeIcon } from "./action-icons";
 import { FOUNDER_DESCRIPTION } from "./content";
 import pageStyles from "./denzel-page.module.css";
 import { VerseDialog } from "./verse-dialog";
@@ -8,13 +8,35 @@ type DenzelPageProps = {
   onNavigate: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 };
 
+const EXTERNAL_RECORDS = [
+  {
+    label: "World Athletics profile",
+    href: "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195",
+  },
+  {
+    label: "Lynn University athlete profile",
+    href: "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913",
+  },
+  { label: "Wikidata", href: "https://www.wikidata.org/wiki/Q140198525" },
+] as const;
+
 const PERSON_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://expectedend.co/denzel-rigaud#person",
   name: "Denzel Rigaud",
   url: "https://expectedend.co/denzel-rigaud",
-  image: "https://expectedend.co/media/denzel-rigaud-founder.png",
+  image: {
+    "@type": "ImageObject",
+    "@id": "https://expectedend.co/press#founder-portrait",
+    contentUrl: "https://expectedend.co/media/denzel-rigaud-founder.png",
+    width: 1058,
+    height: 1487,
+    caption: "Denzel Rigaud, founder of Expected End",
+    creditText: "Denzel Rigaud / Expected End",
+    license: "https://creativecommons.org/licenses/by-sa/4.0/",
+    acquireLicensePage: "https://expectedend.co/press#licensing",
+  },
   jobTitle: "Founder and Full-Stack Developer",
   description: FOUNDER_DESCRIPTION,
   worksFor: {
@@ -24,10 +46,34 @@ const PERSON_SCHEMA = {
     legalName: "Expected End LLC",
     url: "https://expectedend.co/",
   },
+  memberOf: {
+    "@type": "CollegeOrUniversity",
+    "@id": "https://www.wikidata.org/wiki/Q3269570",
+    name: "Lynn University",
+    url: "https://www.lynn.edu/",
+  },
+  owns: [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://expectedend.co/#mybiblelens",
+      name: "MyBibleLens",
+      url: "https://mybiblelens.us/",
+      sameAs: ["https://www.wikidata.org/wiki/Q141251174", "https://apps.apple.com/us/app/mybiblelens/id6764069602"],
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://expectedend.co/thewatercheckpage#application",
+      name: "The Water Check",
+      url: "https://expectedend.co/thewatercheckpage",
+      sameAs: ["https://www.wikidata.org/wiki/Q141251206", "https://www.instagram.com/thewatercheck/"],
+    },
+  ],
   sameAs: [
     "https://www.instagram.com/smiledenzel/",
     "https://www.linkedin.com/in/denzel-rigaud-2b0200210/",
-    "https://www.wikidata.org/wiki/Q140198525",
+    "https://www.youtube.com/@expectedendco",
+    "https://github.com/blackdynamitee",
+    ...EXTERNAL_RECORDS.map(({ href }) => href),
   ],
 };
 
@@ -38,7 +84,7 @@ const PROFILE_PAGE_SCHEMA = {
   url: "https://expectedend.co/denzel-rigaud",
   name: "Denzel Rigaud — Founder of Expected End",
   description: FOUNDER_DESCRIPTION,
-  dateModified: "2026-09-02",
+  dateModified: "2026-09-03",
   mainEntity: PERSON_SCHEMA,
 };
 
@@ -75,12 +121,10 @@ const MEMORY_PHOTOS = [
 
 export function DenzelPage({ onNavigate }: DenzelPageProps) {
   const heroRef = React.useRef<HTMLElement>(null);
-  const videoRef = React.useRef<HTMLVideoElement>(null);
   const [showVerse, setShowVerse] = React.useState(false);
 
   React.useEffect(() => {
     const hero = heroRef.current;
-    const video = videoRef.current;
     if (!hero || window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
 
     let frame = 0;
@@ -90,21 +134,15 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
       const distance = Math.max(hero.offsetHeight - window.innerHeight, 1);
       const progress = Math.min(1, Math.max(0, -rect.top / distance));
       hero.style.setProperty("--founder-progress", progress.toFixed(3));
-      if (video && Number.isFinite(video.duration) && video.duration > 0) {
-        const targetTime = Math.min(Math.max(video.duration - 0.01, 0), progress * video.duration);
-        if (Math.abs(video.currentTime - targetTime) > 0.008) video.currentTime = targetTime;
-      }
     };
     const onScroll = () => {
       if (!frame) frame = window.requestAnimationFrame(updateProgress);
     };
 
     updateProgress();
-    video?.addEventListener("loadedmetadata", updateProgress);
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);
     return () => {
-      video?.removeEventListener("loadedmetadata", updateProgress);
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
       if (frame) window.cancelAnimationFrame(frame);
@@ -117,19 +155,16 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
 
       <section ref={heroRef} className={pageStyles.heroJourney} aria-labelledby="denzel-hero-title">
         <div className={pageStyles.heroStage}>
-          <video
-            ref={videoRef}
-            className={pageStyles.heroVideo}
-            data-scroll-scrub="founder"
-            muted
-            playsInline
-            preload="auto"
-            poster="/media/denzel-founder-scroll-poster.jpg"
-          >
-            <source src="/media/denzel-founder-scroll.webm" type="video/webm" />
-            <source src="/media/denzel-founder-scroll.mp4" type="video/mp4" />
-          </video>
-          <div className={pageStyles.videoShade} aria-hidden="true" />
+          <img
+            className={pageStyles.heroPortrait}
+            data-scroll-linked="founder"
+            src="/media/denzel-rigaud-founder-hero.png"
+            alt="Denzel Rigaud wearing a navy suit and orange-tinted glasses"
+            width="1058"
+            height="1487"
+            fetchPriority="high"
+          />
+          <div className={pageStyles.heroShade} aria-hidden="true" />
           <div className={pageStyles.coordinateGrid} aria-hidden="true" />
           <div className={pageStyles.lavaGlow} aria-hidden="true" />
           <div className={pageStyles.orbitSystem} aria-hidden="true">
@@ -144,9 +179,12 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
             <p className={pageStyles.heroStatement}>
               A story about curiosity, grief, faith, and turning technology into a way forward.
             </p>
+            <time className={pageStyles.foundingDate} dateTime="2026-03-03">
+              March 3, 2026
+            </time>
           </div>
 
-          <div className={pageStyles.videoTelemetry} aria-hidden="true">
+          <div className={pageStyles.heroTelemetry} aria-hidden="true">
             <span>Identity / Denzel Rigaud</span>
             <span>Depth / Suit ingress</span>
             <span>Signal / Scroll linked</span>
@@ -221,6 +259,14 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
             >
               <LinkedInIcon />
             </a>
+          </nav>
+          <nav className={pageStyles.profileRecords} aria-label="Independent identity records">
+            <span>External records</span>
+            {EXTERNAL_RECORDS.map(({ label, href }) => (
+              <a key={href} href={href} target="_blank" rel="noopener noreferrer">
+                {label}
+              </a>
+            ))}
           </nav>
         </header>
 
@@ -401,6 +447,38 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
                   Jeremiah 29:11
                 </button>
               </p>
+              <nav className={pageStyles.connectRow} aria-label="Follow Denzel Rigaud">
+                <a
+                  className={`${pageStyles.connectButton} ${pageStyles.connectYouTube}`}
+                  href="https://www.youtube.com/@expectedendco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Expected End on YouTube"
+                >
+                  <span className={pageStyles.connectSweep} aria-hidden="true" />
+                  <YouTubeIcon />
+                </a>
+                <a
+                  className={`${pageStyles.connectButton} ${pageStyles.connectInstagram}`}
+                  href="https://www.instagram.com/smiledenzel/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow Denzel Rigaud on Instagram"
+                >
+                  <span className={pageStyles.connectSweep} aria-hidden="true" />
+                  <InstagramIcon />
+                </a>
+                <a
+                  className={`${pageStyles.connectButton} ${pageStyles.connectLinkedIn}`}
+                  href="https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Connect with Denzel Rigaud on LinkedIn"
+                >
+                  <span className={pageStyles.connectSweep} aria-hidden="true" />
+                  <LinkedInIcon />
+                </a>
+              </nav>
             </div>
           </section>
 

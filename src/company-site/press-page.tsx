@@ -15,7 +15,7 @@ const PRESS_PAGE_SCHEMA = {
   name: "Press & Media — Expected End",
   description:
     "Approved biographies, verified facts, entity links, and downloadable media for coverage of Expected End and Denzel Rigaud.",
-  dateModified: "2026-09-02",
+  dateModified: "2026-09-03",
   about: [
     {
       "@type": "Organization",
@@ -34,7 +34,7 @@ const PRESS_PAGE_SCHEMA = {
   primaryImageOfPage: {
     "@type": "ImageObject",
     "@id": "https://expectedend.co/press#founder-portrait",
-    contentUrl: "https://expectedend.co/media/denzel-rigaud-founder.png",
+    contentUrl: "https://expectedend.co/media/denzel-rigaud-founder-hero.png",
     caption: "Denzel Rigaud, founder of Expected End",
     creditText: "Denzel Rigaud / Expected End",
     license: "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -82,7 +82,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
             </a>
             <a
               className={styles.secondaryAction}
-              href="/media/denzel-rigaud-founder.png"
+              href="/media/denzel-rigaud-founder-hero.png"
               download="denzel-rigaud-founder-portrait.png"
             >
               Download portrait <ArrowDownIcon />
@@ -91,7 +91,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
         </div>
 
         <figure className={styles.portrait}>
-          <img src="/media/denzel-rigaud-founder.png" alt="Denzel Rigaud in a navy suit and orange-tinted glasses" />
+          <img src="/media/denzel-rigaud-founder-hero.png" alt="Denzel Rigaud in a navy suit and orange-tinted glasses" />
           <figcaption>
             <strong>Denzel Rigaud</strong>
             <span className={styles.portraitRole}>Founder and solo full-stack developer</span>
@@ -230,14 +230,20 @@ export function PressPage({ onNavigate }: PressPageProps) {
           </p>
           <a
             className={styles.primaryAction}
-            href="/media/denzel-rigaud-founder.png"
+            href="/media/denzel-rigaud-founder-hero.png"
             download="denzel-rigaud-founder-portrait.png"
             aria-label="Download founder portrait"
           >
             Download founder portrait <ArrowDownIcon />
           </a>
         </div>
-        <img className={styles.licensePortrait} src="/media/denzel-rigaud-founder.png" alt="" loading="lazy" aria-hidden="true" />
+        <img
+          className={styles.licensePortrait}
+          src="/media/denzel-rigaud-founder-hero.png"
+          alt=""
+          loading="lazy"
+          aria-hidden="true"
+        />
       </section>
 
       <section className={styles.contact} aria-labelledby="press-contact-title">

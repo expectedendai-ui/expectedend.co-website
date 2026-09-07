@@ -18,12 +18,13 @@ describe("Expected End About page", () => {
     vi.useRealTimers();
   });
 
-  it("keeps the egg invisible-sized and requires two pointer or keyboard activations", async () => {
+  it("keeps the egg on the founder page and requires two pointer or keyboard activations", async () => {
+    window.history.replaceState({}, "", "/denzel-rigaud");
     const user = userEvent.setup();
     const onOpenArtWorld = vi.fn();
     render(<CompanySite leaving={false} onOpenArtWorld={onOpenArtWorld} />);
 
-    expect(screen.getByRole("heading", { level: 1, name: "Technology with purpose, built for real life." })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" })).toBeInTheDocument();
     const egg = screen.getByRole("button", { name: "Enter the hidden art world" });
     const image = withinEgg(egg);
     expect(image).toHaveAttribute("width", "20");
@@ -43,6 +44,7 @@ describe("Expected End About page", () => {
   });
 
   it("expires an unfinished activation sequence and cleans up its timer", () => {
+    window.history.replaceState({}, "", "/denzel-rigaud");
     vi.useFakeTimers();
     const onOpenArtWorld = vi.fn();
     const { unmount } = render(<CompanySite leaving={false} onOpenArtWorld={onOpenArtWorld} />);
@@ -79,19 +81,17 @@ describe("Expected End About page", () => {
     await user.click(storyLink);
     expect(window.location.pathname).toBe("/denzel-rigaud");
     expect(screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" })).toBeInTheDocument();
+    expect(screen.getByText("March 3, 2026")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();
-    const founderVideo = document.querySelector<HTMLVideoElement>("video[data-scroll-scrub='founder']");
-    expect(founderVideo).toHaveAttribute("poster", "/media/denzel-founder-scroll-poster.jpg");
-    expect(founderVideo).toHaveAttribute("preload", "auto");
-    expect(founderVideo?.querySelector('source[type="video/webm"]')).toHaveAttribute("src", "/media/denzel-founder-scroll.webm");
-    expect(founderVideo?.querySelector('source[type="video/mp4"]')).toHaveAttribute("src", "/media/denzel-founder-scroll.mp4");
-    expect(screen.queryByRole("img", { name: /Denzel Rigaud wearing dark orange glasses/i })).not.toBeInTheDocument();
+    const founderPortrait = document.querySelector<HTMLImageElement>("img[data-scroll-linked='founder']");
+    expect(founderPortrait).toHaveAttribute("src", "/media/denzel-rigaud-founder-hero.png");
+    expect(founderPortrait).toHaveAccessibleName("Denzel Rigaud wearing a navy suit and orange-tinted glasses");
+    expect(document.querySelector("video[data-scroll-scrub='founder']")).not.toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Scroll" })).toHaveAttribute("href", "#memoir");
     expect(screen.queryByText("Scroll to enter the memoir")).not.toBeInTheDocument();
 
-    const hero = founderVideo?.closest("section");
+    const hero = founderPortrait?.closest("section");
     expect(hero).not.toBeNull();
-    Object.defineProperty(founderVideo, "duration", { configurable: true, value: 3.166 });
     Object.defineProperty(hero, "offsetHeight", { configurable: true, value: 2000 });
     vi.spyOn(hero as HTMLElement, "getBoundingClientRect").mockReturnValue({
       top: -616,
@@ -105,7 +105,7 @@ describe("Expected End About page", () => {
       toJSON: () => ({}),
     });
     fireEvent.scroll(window);
-    expect(founderVideo?.currentTime).toBeCloseTo(1.583, 2);
+    expect(hero).toHaveStyle({ "--founder-progress": "0.500" });
     expect(screen.queryByText(/I am a jack of all trades/i)).not.toBeInTheDocument();
     expect(screen.getByText(/I decided to start by hacking my grades/i)).toBeInTheDocument();
     expect(screen.getByText(/Instagram bot farming/i)).toBeInTheDocument();
@@ -116,6 +116,27 @@ describe("Expected End About page", () => {
     expect(screen.getByRole("link", { name: "Denzel Rigaud on LinkedIn" })).toHaveAttribute(
       "href",
       "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+    );
+    const connectRow = screen.getByRole("navigation", { name: "Follow Denzel Rigaud" });
+    expect(within(connectRow).getByRole("link", { name: "Expected End on YouTube" })).toHaveAttribute(
+      "href",
+      "https://www.youtube.com/@expectedendco"
+    );
+    expect(within(connectRow).getByRole("link", { name: "Follow Denzel Rigaud on Instagram" })).toHaveAttribute(
+      "href",
+      "https://www.instagram.com/smiledenzel/"
+    );
+    expect(within(connectRow).getByRole("link", { name: "Connect with Denzel Rigaud on LinkedIn" })).toHaveAttribute(
+      "href",
+      "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
+    );
+    expect(screen.getByRole("link", { name: "World Athletics profile" })).toHaveAttribute(
+      "href",
+      "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195"
+    );
+    expect(screen.getByRole("link", { name: "Lynn University athlete profile" })).toHaveAttribute(
+      "href",
+      "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913"
     );
     const brother = screen.getByRole("link", { name: "brother" });
     expect(brother).toHaveAttribute("href", "https://www.linkedin.com/in/kareem-rigaud-2b61b97a");
@@ -172,11 +193,47 @@ describe("Expected End About page", () => {
     );
     const profileSchema = JSON.parse(document.querySelector('main script[type="application/ld+json"]')?.textContent ?? "{}") as {
       "@type"?: string;
-      mainEntity?: { sameAs?: string[]; jobTitle?: string; description?: string; "@id"?: string };
+      mainEntity?: {
+        sameAs?: string[];
+        jobTitle?: string;
+        description?: string;
+        "@id"?: string;
+        image?: { contentUrl?: string; width?: number; height?: number; license?: string };
+        memberOf?: { "@id"?: string; name?: string };
+        owns?: Array<{ "@id"?: string; name?: string; sameAs?: string[] }>;
+      };
     };
     expect(profileSchema["@type"]).toBe("ProfilePage");
     expect(profileSchema.mainEntity?.["@id"]).toBe("https://expectedend.co/denzel-rigaud#person");
     expect(profileSchema.mainEntity?.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
+    expect(profileSchema.mainEntity?.sameAs).toEqual(
+      expect.arrayContaining([
+        "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195",
+        "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913",
+        "https://github.com/blackdynamitee",
+        "https://www.youtube.com/@expectedendco",
+      ])
+    );
+    expect(profileSchema.mainEntity?.image).toMatchObject({
+      contentUrl: "https://expectedend.co/media/denzel-rigaud-founder.png",
+      width: 1058,
+      height: 1487,
+      license: "https://creativecommons.org/licenses/by-sa/4.0/",
+    });
+    expect(profileSchema.mainEntity?.memberOf).toMatchObject({
+      "@id": "https://www.wikidata.org/wiki/Q3269570",
+      name: "Lynn University",
+    });
+    expect(profileSchema.mainEntity?.owns?.map((entity) => entity["@id"])).toEqual([
+      "https://expectedend.co/#mybiblelens",
+      "https://expectedend.co/thewatercheckpage#application",
+    ]);
+    expect(profileSchema.mainEntity?.owns?.[0]?.sameAs).toEqual(
+      expect.arrayContaining([
+        "https://www.wikidata.org/wiki/Q141251174",
+        "https://apps.apple.com/us/app/mybiblelens/id6764069602",
+      ])
+    );
     expect(profileSchema.mainEntity?.jobTitle).toBe("Founder and Full-Stack Developer");
     expect(profileSchema.mainEntity?.description).toBe(
       "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."
@@ -209,8 +266,8 @@ describe("Expected End About page", () => {
     expect(pressLink.querySelector('svg[data-action-icon="down"]')).toBeInTheDocument();
   });
 
-  it("does not show the egg on the homepage", () => {
-    window.history.replaceState({}, "", "/");
+  it.each(["/", "/about"])("does not show the egg on %s", (path) => {
+    window.history.replaceState({}, "", path);
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
     expect(screen.queryByRole("button", { name: "Enter the hidden art world" })).not.toBeInTheDocument();
   });

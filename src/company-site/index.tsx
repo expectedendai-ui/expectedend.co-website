@@ -110,7 +110,7 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
     if (route.key === "home") return <HomePage onNavigate={onNavigate} />;
     if (route.key === "mybiblelens-store") return <Storefront brand="mybiblelens" onNavigate={onNavigate} />;
     if (route.key === "watercheck-store") return <Storefront brand="watercheck" onNavigate={onNavigate} />;
-    if (route.key === "watercheck-page") return <WaterCheckPage />;
+    if (route.key === "watercheck-page") return <WaterCheckPage onNavigate={onNavigate} />;
     if (route.key === "about") return <AboutPage onNavigate={onNavigate} />;
     if (route.key === "denzel-rigaud") return <DenzelPage onNavigate={onNavigate} />;
     if (route.key === "press") return <PressPage onNavigate={onNavigate} />;
@@ -131,11 +131,11 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   return (
     <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue">
       {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
-        <Navigation isHome={route.key === "home"} onNavigate={onNavigate} />
+        <Navigation isHome={route.key === "home"} theme={route.navTheme} onNavigate={onNavigate} />
       )}
       {renderCompanyRoute()}
       {route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && (
-        <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "about" ? onOpenArtWorld : undefined} />
+        <Footer onNavigate={onNavigate} onOpenArtWorld={route.key === "denzel-rigaud" ? onOpenArtWorld : undefined} />
       )}
     </div>
   );
