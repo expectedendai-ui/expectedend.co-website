@@ -1,0 +1,231 @@
+/* Nav and footer for /denzel-rigaud only. Palette from denzel-page.module.css: navy #041435, lava #ff5a12, ember #9b3f20. */
+
+.founderNav {
+  align-items: center;
+  backdrop-filter: blur(18px) saturate(140%);
+  background: rgba(4, 12, 32, 0.72);
+  border: 1px solid rgba(255, 138, 84, 0.22);
+  border-radius: 999px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 10px 40px rgba(0, 0, 0, 0.45);
+  display: flex;
+  gap: 1.4rem;
+  left: 50%;
+  max-width: calc(100% - 32px);
+  padding: 8px 10px 8px 18px;
+  position: fixed;
+  top: 14px;
+  transform: translateX(-50%);
+  width: fit-content;
+  z-index: 20;
+}
+
+.founderNavName {
+  color: #fff;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.founderNavLinks {
+  align-items: center;
+  display: flex;
+  gap: 1.25rem;
+}
+
+.founderNavLinks a {
+  color: rgba(255, 226, 210, 0.78);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: color 180ms ease;
+  white-space: nowrap;
+}
+
+.founderNavLinks a:hover {
+  color: #fff;
+}
+
+.founderNavLinks .founderNavContact {
+  background: linear-gradient(180deg, #ff8a4c, #ff5a12);
+  border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(255, 90, 18, 0.35);
+  color: #1a0904;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.founderNavLinks .founderNavContact:hover {
+  color: #000;
+}
+
+@media (max-width: 39.999rem) {
+  .founderNav {
+    gap: 0.9rem;
+    padding-left: 14px;
+  }
+
+  .founderNavName {
+    font-size: 1rem;
+  }
+
+  .founderNavLinks {
+    gap: 0.85rem;
+  }
+
+  .founderNavLinks a {
+    font-size: 12px;
+  }
+
+  .founderNavLinks a:nth-child(2) {
+    display: none;
+  }
+}
+
+.founderFooter {
+  background: linear-gradient(180deg, #041435, #02091a 70%, #000);
+  border-top: 1px solid rgba(255, 138, 84, 0.18);
+  color: #e6d6cc;
+  padding: 4rem 1.25rem 1.5rem;
+}
+
+.founderFooterInner {
+  display: grid;
+  gap: 2.75rem;
+  margin: 0 auto;
+  max-width: 72rem;
+}
+
+@media (min-width: 60rem) {
+  .founderFooterInner {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.4fr);
+    gap: 4rem;
+  }
+}
+
+.founderFooterKicker {
+  color: #ff8a4c;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.founderFooterLine {
+  color: #fff;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin: 0.9rem 0 0;
+  max-width: 24ch;
+}
+
+.founderFooterSign {
+  color: rgba(230, 214, 204, 0.62);
+  font-size: 0.85rem;
+  margin: 1rem 0 0;
+}
+
+.founderFooterLinks {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.founderFooterLinks > div {
+  display: grid;
+  gap: 0.6rem;
+  justify-items: start;
+}
+
+.founderFooterHeading {
+  color: #ff8a4c;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
+
+.founderFooterLinks a {
+  color: #f3e6de;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.founderFooterLinks a:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.founderFooterBottom {
+  align-items: center;
+  border-top: 1px solid rgba(255, 138, 84, 0.14);
+  color: rgba(230, 214, 204, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  font-weight: 700;
+  gap: 0.75rem 1.5rem;
+  justify-content: space-between;
+  letter-spacing: 0.08em;
+  margin: 3rem auto 0;
+  max-width: 72rem;
+  padding-top: 1.1rem;
+  text-transform: uppercase;
+}
+
+.founderFooterBottom p {
+  margin: 0;
+}
+
+.founderFooterBlessing {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+  margin: -12px 0;
+}
+
+.founderFooterBlessing p {
+  color: #ffb07a;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+@media (max-width: 47.999rem) {
+  .founderFooterLinks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 39.999rem) {
+  .founderFooter {
+    padding-top: 3rem;
+  }
+
+  .founderFooterLinks {
+    grid-template-columns: 1fr;
+  }
+
+  .founderFooterBottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .founderFooterBlessing {
+    margin: 0;
+  }
+}
