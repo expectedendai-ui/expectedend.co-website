@@ -331,22 +331,38 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
             <h3 id="digital-venom-title">The Digital Venom</h3>
             <div className={pageStyles.chapterCopy}>
               <p>
-                It happens the second we wake up. Before our feet even touch the floor, the hand reaches out. We grab the phone.
+                It happens the second we wake up. Before our feet even touch the floor, the hand reaches out. You grab the phone.
                 We all do it. But that single, reflexive motion immediately disrupts your brain’s neural pathways, throwing you
                 into a critical, anxious state before the day has even begun.
               </p>
               <p>
                 As a solo software developer for 10 years, and having a father who was a solo cyber security hacker that taught me
-                a thing or two when I finally met him, I see the code behind the screen. I know exactly how the algorithm works,
-                and the truth is, it’s venom. It doesn’t matter how pure you or your children’s search history is, or how clean
-                your feed seems; the system is designed to drag you back. It pulls you toward negativity, toward superficiality,
-                and toward get-rich-quick gurus that force us to put Money over God, <strong>1 Timothy 6:10</strong> creating
-                people with the mammon spirit. It makes our beautiful sisters not know their true beauty isn’t makeup, isn’t how a
-                guy thinks of her, or how many Instagram likes she gets… it’s her heart and her angelic ways with God. It is a
-                machine built to hijack your mind and control your habits.
+                the dark and mystery ends of the internet, I see the code behind the screen. I know exactly how the algorithm
+                works, and the truth is, it’s venom. The overwhelming toxicity you feel online isn&apos;t actually human nature—it
+                is an engineered illusion. We are under constant attack by &quot;pseudoism,&quot; where flooded, hostile comment
+                sections are rarely spontaneous outbursts from random, everyday internet users. Instead, they are part of a
+                deliberate, systematic strategy of computational propaganda. Fake accounts and bot networks are deployed to inject
+                synthetic narratives into your feed, designed specifically to manipulate public perception, deepen our divisions,
+                and influence your online behavior.
               </p>
               <p>
-                They want us distracted. They want our kids’ brains turning to mush, forever trapped at the lowest tier of{" "}
+                It doesn’t matter how pure your or your children’s search history is, or how clean your feed seems; the system is
+                designed to drag you back. It pulls you toward negativity, toward superficiality, and toward get-rich-quick gurus
+                that force us to put Money over God (<strong>1 Timothy 6:10</strong>), creating people with the mammon spirit. It
+                makes our beautiful sisters not know their true beauty isn’t makeup, isn’t how a guy thinks of her, or how many
+                Instagram likes she gets… it’s her heart and her angelic ways with God. It is a machine built to hijack your mind
+                and control your habits.
+              </p>
+              <p>
+                This constant stream of artificiality traps us in a rushed existence, blinding us to the fact that true things take
+                time. Real love, genuine growth, and authentic connections require patience—not the instant gratification a phone
+                delivers. It tricks the brain into expecting a constant dopamine rush of agreement. Just like the curated
+                algorithms of a &quot;For You&quot; page, it makes people feel blindly entitled to their own opinions, closing
+                them off from real human beings and the reality that not everyone is going to agree on the same thing. It is a slow
+                surrender, allowing cold technology and artificiality to completely take over the human mind.
+              </p>
+              <p>
+                They want us distracted by these manufactured wars. They want our kids’ brains turning to mush, forever trapped at the lowest tier of{" "}
                 <strong>
                   <a
                     href="https://www.google.com/search?q=Bloom%E2%80%99s+Taxonomy&rlz=1C5CHFA_enUS943US944&oq=Bloom%E2%80%99s+Taxonomy&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiRAhiABBiKBTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzYxM2owajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8#sv=CAMSVhozKhFpYy1HNmY1Y0hkMnBHTXd3TTIORzZmNWNIZDJwR013d006DlJma0VGQmdwZUNVZzRNIAQqGwoEc3ZpbRIRaWMtRzZmNWNIZDJwR013d00YATABGAcgs57hCA"
@@ -368,7 +384,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
                   </a>
                 </strong>
                 , paralyzed by the fake, curated realities they see on screens, terrified of actually growing up because nothing
-                feels authentic anymore. The world is entirely sick and tired of the lies. If you don’t see it, no worries; my
+                feels authentic anymore. The world is entirely sick and tired of the lies. If you don’t see the manipulation in the code, no worries; my
                 generation does, and the future generation will too.
               </p>
             </div>
