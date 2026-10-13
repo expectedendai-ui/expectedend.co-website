@@ -18,7 +18,9 @@ function read(): string[] {
 
 export function subscribeEggs(fn: Listener) {
   listeners.add(fn);
-  return () => listeners.delete(fn);
+  return () => {
+    listeners.delete(fn);
+  };
 }
 export const foundEggs = () => found;
 export const lastEggClaim = () => lastClaim;
