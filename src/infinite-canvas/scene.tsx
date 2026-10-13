@@ -2,6 +2,7 @@ import { KeyboardControls, Stats, useKeyboardControls, useProgress } from "@reac
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import * as React from "react";
 import * as THREE from "three";
+import { claimEgg, isEggFound, subscribeEggs } from "~/src/egg-hunt/store";
 import { useIsTouchDevice } from "~/src/use-is-touch-device";
 import { clamp, lerp } from "~/src/utils";
 import {
@@ -60,6 +61,74 @@ type CameraGridState = {
   cz: number;
   camZ: number;
 };
+
+// A golden egg tucked into one corner of a tagged photo. It is tiny and only
+// shows up once the camera is close, so finding one takes real looking around.
+const EGG_GEOMETRY = new THREE.PlaneGeometry(1, 1);
+let eggTexture: THREE.Texture | null = null;
+const getEggTexture = () => {
+  if (!eggTexture) {
+    eggTexture = new THREE.TextureLoader().load("/brand/golden-egg.png");
+    eggTexture.colorSpace = THREE.SRGBColorSpace;
+  }
+  return eggTexture;
+};
+const EGG_REVEAL_DISTANCE = 42;
+
+function EggSpot({ url, center, size }: { url: string; center: THREE.Vector3; size: THREE.Vector3 }) {
+  const [found, setFound] = React.useState(() => isEggFound(url));
+  React.useEffect(() => subscribeEggs(() => setFound(isEggFound(url))), [url]);
+  const meshRef = React.useRef<THREE.Mesh>(null);
+  const camera = useThree((st) => st.camera);
+
+  // Same corner for every copy of this photo, picked from its address.
+  const spot = React.useMemo(() => {
+    let h = 0;
+    for (const ch of url) h = (h * 31 + ch.charCodeAt(0)) | 0;
+    const sx = h & 1 ? 1 : -1;
+    const sy = h & 2 ? 1 : -1;
+    const egg = size.y * 0.075;
+    return {
+      egg,
+      pos: new THREE.Vector3(center.x + sx * (size.x / 2 - egg * 0.9), center.y + sy * (size.y / 2 - egg * 0.9), center.z + 0.05),
+    };
+  }, [url, center, size]);
+
+  useFrame((st) => {
+    const mesh = meshRef.current;
+    if (!mesh) return;
+    const near = camera.position.distanceTo(spot.pos) < EGG_REVEAL_DISTANCE;
+    const mat = mesh.material as THREE.MeshBasicMaterial;
+    mat.opacity = lerp(mat.opacity, near ? 0.95 : 0, 0.12);
+    mesh.visible = mat.opacity > 0.02;
+    const t = st.clock.elapsedTime;
+    mesh.rotation.z = Math.sin(t * 2.2) * 0.18;
+    mesh.scale.setScalar(spot.egg * (1 + Math.sin(t * 3.1) * 0.06));
+  });
+
+  if (found) return null;
+  return (
+    <mesh
+      ref={meshRef}
+      position={spot.pos}
+      geometry={EGG_GEOMETRY}
+      visible={false}
+      onClick={(e) => {
+        if (!meshRef.current?.visible) return;
+        e.stopPropagation();
+        claimEgg(url, e.nativeEvent.clientX, e.nativeEvent.clientY);
+      }}
+      onPointerOver={() => {
+        if (meshRef.current?.visible) document.body.style.cursor = "pointer";
+      }}
+      onPointerOut={() => {
+        document.body.style.cursor = "";
+      }}
+    >
+      <meshBasicMaterial map={getEggTexture()} transparent opacity={0} depthWrite={false} />
+    </mesh>
+  );
+}
 
 function MediaPlane({
   position,
@@ -184,9 +253,12 @@ function MediaPlane({
   }
 
   return (
-    <mesh ref={meshRef} position={position} scale={displayScale} visible={false} geometry={PLANE_GEOMETRY}>
-      <meshBasicMaterial ref={materialRef} transparent opacity={0} side={THREE.DoubleSide} />
-    </mesh>
+    <>
+      <mesh ref={meshRef} position={position} scale={displayScale} visible={false} geometry={PLANE_GEOMETRY}>
+        <meshBasicMaterial ref={materialRef} transparent opacity={0} side={THREE.DoubleSide} />
+      </mesh>
+      {media.egg && <EggSpot url={media.url} center={position} size={displayScale} />}
+    </>
   );
 }
 

@@ -44,8 +44,8 @@
      Stays there until the next bass hit. Snappier 220ms with bigger overshoot
      for true chaos energy. */
   transform: translate(var(--name-x, 0), var(--name-y, 0)) rotate(var(--name-rot, 0deg)) scale(var(--name-scale, 1));
-  transition: transform 220ms cubic-bezier(0.34, 1.8, 0.64, 1);
-  will-change: transform;
+  transition: transform 220ms cubic-bezier(0.34, 1.8, 0.64, 1), opacity 600ms ease;
+  will-change: transform, opacity;
 }
 
 .frame__back {
@@ -133,4 +133,9 @@
     font-family: "Hammersmith One", sans-serif;
     letter-spacing: 0.04em;
   }
+}
+
+/* Calm tracks: the name steps aside while the visitor moves through the photos. */
+:global(body.name-fade) .frame__title {
+  opacity: 0;
 }

@@ -67,6 +67,13 @@ describe("Expected End About page", () => {
     const user = userEvent.setup();
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
+    for (const removedCopy of [
+      "Expected End LLC creates software, productivity tools, digital experiences, and communities that bring people closer to God.",
+      "We design products that help people learn, create, work, and find peace while leaving room for family, friends, and life beyond the screen.",
+      "MyBibleLens and The Water Check community are the first expressions of that mission. Each meets a different need and helps make technology feel useful, human, and easy to leave when its work is done."
+    ]) {
+      expect(screen.queryByText(removedCopy)).not.toBeInTheDocument();
+    }
     expect(screen.getByRole("heading", { name: "Technology should help you return to your life." })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Two ideas, one purpose." })).not.toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Tell the story with us." })).toBeInTheDocument();

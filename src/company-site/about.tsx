@@ -13,20 +13,6 @@ export function AboutPage({ onNavigate }: AboutPageProps) {
       <section className={styles.aboutLayout}>
         <p className={styles.kicker}>About Expected End</p>
         <h1>Technology with purpose, built for real life.</h1>
-        <div className={styles.aboutCopy}>
-          <p className={styles.aboutLead}>
-            Expected End LLC creates software, productivity tools, digital experiences, and communities that bring people closer
-            to God.
-          </p>
-          <p>
-            We design products that help people learn, create, work, and find peace while leaving room for family, friends, and
-            life beyond the screen.
-          </p>
-          <p>
-            MyBibleLens and The Water Check community are the first expressions of that mission. Each meets a different need and
-            helps make technology feel useful, human, and easy to leave when its work is done.
-          </p>
-        </div>
       </section>
 
       <div className={styles.aboutStory}>

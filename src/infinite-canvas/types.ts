@@ -5,6 +5,8 @@ export type MediaItem = {
   width: number;
   height: number;
   type?: "image" | "video";
+  /** Hides a golden egg on this photo or video for the egg hunt. */
+  egg?: boolean;
 };
 
 export type InfiniteCanvasProps = {

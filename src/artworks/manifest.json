@@ -67,7 +67,8 @@
     "year": "2026",
     "link": "https://mybiblelens.us",
     "width": 1502,
-    "height": 2000
+    "height": 2000,
+    "egg": true
   },
   {
     "url": "artworks/08.jpg",
@@ -227,7 +228,8 @@
     "year": "2026",
     "link": "https://mybiblelens.us",
     "width": 2000,
-    "height": 1333
+    "height": 1333,
+    "egg": true
   },
   {
     "url": "artworks/24.jpg",
@@ -417,7 +419,8 @@
     "year": "2026",
     "link": "https://mybiblelens.us",
     "width": 2000,
-    "height": 1500
+    "height": 1500,
+    "egg": true
   },
   {
     "url": "artworks/44.jpg",
@@ -637,7 +640,8 @@
     "year": "2026",
     "link": "https://mybiblelens.us",
     "width": 1125,
-    "height": 2000
+    "height": 2000,
+    "egg": true
   },
   {
     "url": "artworks/66.jpg",
@@ -877,7 +881,8 @@
     "year": "2026",
     "link": "https://mybiblelens.us",
     "width": 1092,
-    "height": 2000
+    "height": 2000,
+    "egg": true
   },
   {
     "url": "artworks/90.jpg",

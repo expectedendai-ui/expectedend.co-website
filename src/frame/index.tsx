@@ -14,9 +14,6 @@ export function Frame({ nowPlaying }: { nowPlaying?: { name: string; artist: str
           full-stack developer
         </a>
       </p>
-      <a className={styles.frame__back} href="https://mybiblelens.us">
-        MyBibleLens
-      </a>
       <a className={styles.frame__github} href="https://www.tiktok.com/@smiledenzel">
         TikTok
       </a>

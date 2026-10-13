@@ -7,6 +7,7 @@ import type { MediaItem } from "~/src/infinite-canvas/types";
 import { MatrixLoader } from "~/src/loader";
 import { CompanySite } from "~/src/company-site";
 import { AiNotice, ScareModal, useScareTriggers } from "~/src/scare";
+import { EggHunt, FoundBurst } from "~/src/egg-hunt";
 import { SongGate, SongSwitcher, TRACKS } from "~/src/song-dashboard";
 
 // Audio files (gitignored, served from /public/audio) are real MP4s — a silent
@@ -42,6 +43,34 @@ export function App() {
 
   const triggerScare = React.useCallback(() => setScareOpen(true), []);
   useScareTriggers(triggerScare, entered);
+
+  // On the calmer tracks (no bass shake) the name fades out while someone moves
+  // around the canvas, so the photos get the screen, and fades back when they stop.
+  React.useEffect(() => {
+    if (!entered) return;
+    let idle = 0;
+    const move = () => {
+      if (!noBassRef.current) return;
+      document.body.classList.add("name-fade");
+      window.clearTimeout(idle);
+      idle = window.setTimeout(() => document.body.classList.remove("name-fade"), 1400);
+    };
+    const drag = (e: PointerEvent) => {
+      if (e.buttons) move();
+    };
+    const events: [string, EventListener][] = [
+      ["wheel", move],
+      ["touchmove", move],
+      ["keydown", move],
+      ["pointermove", drag as EventListener],
+    ];
+    for (const [name, fn] of events) window.addEventListener(name, fn, { passive: true });
+    return () => {
+      for (const [name, fn] of events) window.removeEventListener(name, fn);
+      window.clearTimeout(idle);
+      document.body.classList.remove("name-fade");
+    };
+  }, [entered]);
 
   // Drive the <body> palette (black/white/brown) from the chosen theme.
   React.useEffect(() => {
@@ -107,6 +136,7 @@ export function App() {
       el.currentTime = 0;
       // Some tracks (MJ, Natasha) play WITHOUT the bass shake — clear any lingering jitter.
       noBassRef.current = !!TRACKS[i].noBass;
+      if (!noBassRef.current) document.body.classList.remove("name-fade");
       if (noBassRef.current) {
         document.body.classList.remove("thump");
         document.body.style.setProperty("--name-x", "0vw");
@@ -182,6 +212,8 @@ export function App() {
       {entered && <ColorSwitcher active={theme} onChange={setTheme} />}
       {entered && <ScareModal open={scareOpen} onClose={() => setScareOpen(false)} />}
       {entered && <AiNotice />}
+      {entered && <FoundBurst />}
+      {entered && <EggHunt />}
       {/* biome-ignore lint/a11y/useMediaCaption: instrumental background track, no spoken content to caption */}
       <video
         ref={audioRef}
