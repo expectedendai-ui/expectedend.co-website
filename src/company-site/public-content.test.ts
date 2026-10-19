@@ -53,7 +53,8 @@ describe("public-content deployment guard", () => {
 
     expect(association.applinks.details).toContainEqual({
       appID: "8U44UAYH5Q.co.expectedend.thewatercheck",
-      paths: ["/auth/thewatercheck"],
+      // Sign-in comes back here; Crew invite links open the app too.
+      paths: ["/auth/thewatercheck", "/join/*"],
     });
     expect(headers).toContain("/.well-known/apple-app-site-association\n  Content-Type: application/json");
   });
