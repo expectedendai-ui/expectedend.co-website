@@ -6,6 +6,7 @@ User-agent: *
 Allow: /
 Disallow: /artworks/
 Disallow: /audio/
+Disallow: /join/
 
 Sitemap: https://expectedend.co/sitemap.xml
 
