@@ -11,6 +11,8 @@ describe("company-site routes", () => {
     expect(getRoute("/privacy").key).toBe("privacy");
     expect(getRoute("/thewatercheck/privacy").key).toBe("watercheck-privacy");
     expect(getRoute("/thewatercheck/terms").key).toBe("watercheck-terms");
+    expect(getRoute("/thewatercheck/consumer-health-data").key).toBe("watercheck-health-data");
+    expect(getRoute("/thewatercheck/delete-account/").key).toBe("watercheck-delete-account");
     expect(getRoute("/accessibility").key).toBe("accessibility");
     expect(getRoute("/mybiblelensstore").key).toBe("mybiblelens-store");
     expect(getRoute("/thewatercheckstore/").key).toBe("watercheck-store");
@@ -22,7 +24,6 @@ describe("company-site routes", () => {
     "/thewatercheck",
     "/thewatercheck/",
     "/thewatercheck/health-and-ai-disclaimer",
-    "/thewatercheck/consumer-health-data",
   ])("retires %s as a not-found route", (path) => {
     expect(getRoute(path).key).toBe("not-found");
     expect(getRouteMetadata(path)).toMatchObject({

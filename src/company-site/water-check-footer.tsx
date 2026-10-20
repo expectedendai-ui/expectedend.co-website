@@ -49,6 +49,12 @@ export function WaterCheckFooter({ onNavigate, backToTopHref = "#water-check-tit
             <a href="/thewatercheck/privacy" onClick={onNavigate}>
               Privacy Notice
             </a>
+            <a href="/thewatercheck/consumer-health-data" onClick={onNavigate}>
+              Consumer Health Data
+            </a>
+            <a href="/thewatercheck/delete-account" onClick={onNavigate}>
+              Delete your account
+            </a>
             <a href="/accessibility" onClick={onNavigate}>
               Accessibility
             </a>

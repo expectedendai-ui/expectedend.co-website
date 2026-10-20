@@ -9,6 +9,8 @@ export type CompanyRouteKey =
   | "privacy"
   | "watercheck-privacy"
   | "watercheck-terms"
+  | "watercheck-health-data"
+  | "watercheck-delete-account"
   | "accessibility"
   | "mybiblelens-store"
   | "watercheck-store"
@@ -83,7 +85,7 @@ const ROUTES: PublicRoute[] = [
     path: "/thewatercheck/privacy",
     navTheme: "water",
     title: "The Water Check Privacy Notice — Expected End",
-    description: "How The Water Check handles account, wellness, and optional health data.",
+    description: "What The Water Check collects, what stays on your phone, who helps run the app, and your choices.",
   },
   {
     key: "watercheck-terms",
@@ -91,7 +93,23 @@ const ROUTES: PublicRoute[] = [
     path: "/thewatercheck/terms",
     navTheme: "water",
     title: "The Water Check Terms of Use — Expected End",
-    description: "Terms for using The Water Check app.",
+    description: "Terms for using The Water Check app, including health and safety, AI, Crew rules and purchases.",
+  },
+  {
+    key: "watercheck-health-data",
+    family: "company",
+    path: "/thewatercheck/consumer-health-data",
+    navTheme: "water",
+    title: "The Water Check Consumer Health Data Privacy Policy | Expected End",
+    description: "How The Water Check handles consumer health data, and how to access, delete or appeal.",
+  },
+  {
+    key: "watercheck-delete-account",
+    family: "company",
+    path: "/thewatercheck/delete-account",
+    navTheme: "water",
+    title: "Delete your account | The Water Check",
+    description: "How to delete your The Water Check account and data, in the app or by email.",
   },
   {
     key: "accessibility",

@@ -4,7 +4,7 @@ import { DenzelPage } from "./denzel-page";
 import { Footer } from "./footer";
 import { HomePage } from "./home";
 import { InfoPage } from "./info-page";
-import { LEGAL_CONTENT } from "./legal-content";
+import { LEGAL_CONTENT, type LegalPageKey } from "./legal-content";
 import { Navigation } from "./navigation";
 import { PressPage } from "./press-page";
 import { getRoute, getRouteMetadata, isInternalHref } from "./routes";
@@ -114,13 +114,13 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
     if (route.key === "home") return <HomePage onNavigate={onNavigate} />;
     if (route.key === "mybiblelens-store") return <Storefront brand="mybiblelens" onNavigate={onNavigate} />;
     if (route.key === "watercheck-store") return <Storefront brand="watercheck" onNavigate={onNavigate} />;
-    if (route.key === "watercheck-page") return <WaterCheckLanding />;
+    if (route.key === "watercheck-page") return <WaterCheckLanding onNavigate={onNavigate} />;
     if (route.key === "watercheck-calculator") return <WaterCheckPage onNavigate={onNavigate} />;
     if (route.key === "about") return <AboutPage onNavigate={onNavigate} />;
     if (route.key === "denzel-rigaud") return <DenzelPage onNavigate={onNavigate} />;
     if (route.key === "press") return <PressPage onNavigate={onNavigate} />;
-    if (route.key === "terms" || route.key === "privacy" || route.key === "accessibility" || route.key === "watercheck-privacy" || route.key === "watercheck-terms") {
-      return <InfoPage content={LEGAL_CONTENT[route.key]} />;
+    if (route.key in LEGAL_CONTENT) {
+      return <InfoPage content={LEGAL_CONTENT[route.key as LegalPageKey]} onNavigate={onNavigate} />;
     }
     return (
       <main className={styles.notFound}>
@@ -145,7 +145,7 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
         )
       )}
       {renderCompanyRoute()}
-      {route.key === "watercheck-calculator" || route.key === "watercheck-privacy" || route.key === "watercheck-terms" ? (
+      {route.key === "watercheck-calculator" || (route.navTheme === "water" && route.key !== "watercheck-page") ? (
         <WaterCheckFooter onNavigate={onNavigate} backToTopHref={route.key === "watercheck-calculator" ? "#water-check-title" : "#top"} />
       ) : route.key === "denzel-rigaud" ? (
         <FounderFooter onNavigate={onNavigate} onOpenArtWorld={onOpenArtWorld} />

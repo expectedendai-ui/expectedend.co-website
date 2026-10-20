@@ -163,130 +163,6 @@
   .waterLanding .store:focus-visible, .waterLanding .calc-btn:focus-visible, .waterLanding .social-btn:focus-visible { outline: 3px solid var(--sky); outline-offset: 3px; }
   .waterLanding .cta-note { margin-top: 14px; font-size: 13px; color: var(--ink-soft); }
 
-  /* ---------- the two phones ---------- */
-  .waterLanding .phones {
-    display: flex; justify-content: center; align-items: flex-end;
-    gap: clamp(8px, 3vw, 34px);
-    padding-block: clamp(34px, 6vw, 58px) 0;
-    perspective: 1400px;
-  }
-  .waterLanding .phone {
-    width: clamp(158px, 40vw, 286px);
-    flex-shrink: 0;
-    border-radius: clamp(26px, 6vw, 44px);
-    padding: clamp(5px, 1.2vw, 9px);
-    background: linear-gradient(160deg, #38495f, #10192a 40%, #060c17);
-    box-shadow: 0 40px 80px rgba(1, 10, 26, 0.6), inset 0 0 0 1px rgba(255, 255, 255, 0.14);
-  }
-  .waterLanding .phone--left { transform: rotate(-3.5deg) translateY(10px); }
-  .waterLanding .phone--right { transform: rotate(3.5deg); }
-  .waterLanding .screen {
-    position: relative; overflow: hidden;
-    border-radius: clamp(21px, 5vw, 36px);
-    aspect-ratio: 390 / 760;
-    container-type: inline-size;
-  }
-  /* Everything inside a screen is sized in cqw, so both phones scale as one piece at any width. */
-  .waterLanding .screen * { font-variant-numeric: tabular-nums; }
-
-  .waterLanding .scr-app { background: linear-gradient(180deg, #1d7fae 0%, #12648f 15%, #0a4a70 36%, #063354 60%, #04213a 82%, #021423 100%); }
-  .waterLanding .scr-app .glow { position: absolute; top: -22cqw; left: -16cqw; width: 58cqw; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(251,254,249,0.45), rgba(251,254,249,0) 70%); }
-
-  .waterLanding .app-pad { position: relative; padding: 9cqw 5cqw 0; }
-  .waterLanding .app-hi { font-family: var(--app); font-size: 9.6cqw; font-weight: 800; letter-spacing: -0.05em; line-height: 1; }
-  .waterLanding .app-sub { margin-top: 2cqw; font-size: 3.5cqw; font-weight: 500; color: var(--ink-muted); }
-
-  .waterLanding .app-card {
-    margin-top: 6cqw; padding: 4.6cqw;
-    border-radius: 7.5cqw; background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.2);
-    box-shadow: 0 6cqw 14cqw rgba(1,12,30,0.4);
-  }
-  .waterLanding .app-top { display: flex; align-items: center; gap: 4.4cqw; }
-  .waterLanding .ring { position: relative; width: 25cqw; aspect-ratio: 1; flex-shrink: 0; display: grid; place-items: center; }
-  .waterLanding .ring svg { position: absolute; inset: 0; width: 100%; height: 100%; transform: rotate(-90deg); }
-  .waterLanding .ring span { position: relative; font-family: var(--app); font-size: 5.2cqw; font-weight: 800; letter-spacing: -0.03em; }
-  .waterLanding .app-eyebrow { font-size: 2.7cqw; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-muted); }
-  .waterLanding .app-big { font-family: var(--app); font-size: 8.4cqw; font-weight: 800; letter-spacing: -0.05em; line-height: 1.1; margin-top: 1cqw; }
-  .waterLanding .app-goal { font-size: 3.4cqw; font-weight: 600; color: var(--ink-muted); }
-  .waterLanding .app-split { font-size: 2.9cqw; font-weight: 700; color: var(--ink-muted); margin-top: 0.6cqw; }
-
-  .waterLanding .app-btns { display: flex; gap: 2cqw; margin-top: 4.4cqw; }
-  .waterLanding .app-btn {
-    flex: 1 1 0; min-width: 0; height: 9.6cqw; border-radius: 999px;
-    background: linear-gradient(135deg, #0b6fd0, #5ccfea); color: #03203f;
-    font-size: 3.4cqw; font-weight: 800;
-    display: flex; align-items: center; justify-content: center; gap: 1.4cqw;
-  }
-  .waterLanding .app-btn--undo { flex: 0 0 9.6cqw; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: var(--ink-muted); }
-  .waterLanding .app-btn--food {
-    margin-top: 2cqw; width: 100%; height: 9.6cqw; border-radius: 999px;
-    background: rgba(124,224,180,0.16); border: 1px solid rgba(255,255,255,0.2); color: #7ce0b4;
-    font-size: 3.4cqw; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 1.6cqw;
-  }
-
-  .waterLanding .app-log { margin-top: 4cqw; padding: 3.6cqw 4cqw; border-radius: 6cqw; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.16); }
-  .waterLanding .app-log-h { font-size: 2.6cqw; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-muted); }
-  .waterLanding .app-row { display: flex; align-items: center; gap: 2.4cqw; margin-top: 2.4cqw; font-size: 3.2cqw; }
-  .waterLanding .app-row .dot { width: 6.6cqw; aspect-ratio: 1; border-radius: 50%; background: rgba(92,207,234,0.18); color: var(--cyan); display: grid; place-items: center; flex-shrink: 0; }
-  .waterLanding .app-row .dot--food { background: rgba(124,224,180,0.18); color: #7ce0b4; }
-  .waterLanding .app-row .nm { flex: 1 1 0; min-width: 0; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .waterLanding .app-row .amt { font-weight: 800; }
-  .waterLanding .app-row .tm { color: var(--ink-soft); font-size: 2.8cqw; }
-
-  .waterLanding .app-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 17cqw; }
-  .waterLanding .app-bar svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-  .waterLanding .app-bar .tabs { position: absolute; inset: 0 0 auto; height: 13cqw; display: grid; grid-template-columns: repeat(5, 1fr); color: rgba(226,242,255,0.7); }
-  .waterLanding .app-bar .tab { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1cqw; font-size: 2.2cqw; font-weight: 700; }
-  .waterLanding .app-bar .tab svg { position: static; width: 5cqw; height: 5cqw; }
-  .waterLanding .app-bar .tab.on { color: var(--sky); }
-  .waterLanding .app-bar .mark {
-    position: absolute; left: 50%; top: -6cqw; width: 17cqw; aspect-ratio: 1; margin-left: -8.5cqw;
-    border-radius: 50%; overflow: hidden; border: 0.5cqw solid rgba(143,230,255,0.6);
-    background: radial-gradient(circle at 32% 26%, #0f4a8c, #062a55 60%, #03142e);
-    box-shadow: 0 0 0 1.2cqw rgba(92,207,234,0.16), 0 0 7cqw rgba(92,207,234,0.42);
-  }
-  .waterLanding .app-bar .mark img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.08); display: block; }
-
-  /* ---------- home screen phone ---------- */
-  .waterLanding .scr-home { background: linear-gradient(175deg, #0a3f6e 0%, #0d5c93 30%, #1b7fb4 58%, #2a9ac4 78%, #4fb6d4 100%); }
-  .waterLanding .scr-home .caustic { position: absolute; inset: 0; opacity: 0.4; background:
-      radial-gradient(60% 26% at 22% 16%, rgba(226,250,255,0.4), transparent 70%),
-      radial-gradient(48% 20% at 74% 38%, rgba(226,250,255,0.28), transparent 70%),
-      radial-gradient(70% 24% at 44% 72%, rgba(226,250,255,0.2), transparent 70%); }
-  .waterLanding .ios-status { position: relative; display: flex; justify-content: space-between; align-items: center; padding: 4cqw 7cqw 0; font-size: 3.4cqw; font-weight: 700; }
-  .waterLanding .ios-status .ico { display: flex; gap: 1.4cqw; align-items: center; }
-  .waterLanding .ios-status .batt { width: 6.4cqw; height: 3.2cqw; border-radius: 1cqw; border: 0.4cqw solid rgba(255,255,255,0.85); padding: 0.5cqw; }
-  .waterLanding .ios-status .batt i { display: block; width: 72%; height: 100%; border-radius: 0.4cqw; background: #fff; }
-
-  .waterLanding .ios-grid { position: relative; padding: 5cqw 6cqw 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 5cqw 4.4cqw; }
-  .waterLanding .ios-app { text-align: center; }
-  .waterLanding .ios-icon { width: 100%; aspect-ratio: 1; border-radius: 26%; box-shadow: 0 1.4cqw 3cqw rgba(2,20,40,0.32); }
-  .waterLanding .ios-app span { display: block; margin-top: 1.4cqw; font-size: 2.4cqw; font-weight: 500; text-shadow: 0 0.4cqw 1cqw rgba(0,0,0,0.45); }
-
-  .waterLanding .widget {
-    position: relative; margin: 6cqw 6cqw 0;
-    padding: 5cqw; border-radius: 9cqw;
-    background: linear-gradient(140deg, #031b43, #0753a5);
-    box-shadow: 0 3cqw 8cqw rgba(2,16,38,0.45);
-    display: flex; flex-direction: column; gap: 3.4cqw;
-  }
-  .waterLanding .widget-top { display: flex; justify-content: space-between; align-items: flex-start; }
-  .waterLanding .widget-brand { display: flex; align-items: center; gap: 2cqw; font-size: 2.8cqw; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffffb8; }
-  .waterLanding .widget-brand img { width: 6cqw; height: 6cqw; border-radius: 50%; display: block; }
-  .waterLanding .widget-pct { font-family: var(--app); font-size: 4.6cqw; font-weight: 800; color: #fff; letter-spacing: -0.03em; }
-  .waterLanding .widget-amt { font-family: var(--app); font-size: 9.4cqw; font-weight: 800; letter-spacing: -0.05em; line-height: 1; color: #fff; }
-  .waterLanding .widget-of { font-size: 3.2cqw; font-weight: 600; color: #ffffffb8; margin-top: 0.8cqw; }
-  .waterLanding .widget-track { height: 2.6cqw; border-radius: 999px; background: #ffffff2e; overflow: hidden; }
-  .waterLanding .widget-fill { width: 51%; height: 100%; border-radius: 999px; background: var(--cyan); }
-  .waterLanding .widget-tap { display: flex; gap: 2cqw; }
-  .waterLanding .widget-chip { flex: 1 1 0; height: 7.6cqw; border-radius: 999px; background: #ffffff24; color: #fff; font-size: 3cqw; font-weight: 800; display: flex; align-items: center; justify-content: center; }
-
-  .waterLanding .ios-dock { position: absolute; left: 6cqw; right: 6cqw; bottom: 4cqw; padding: 3cqw; border-radius: 8cqw; background: rgba(255,255,255,0.2); backdrop-filter: blur(8px); display: grid; grid-template-columns: repeat(4, 1fr); gap: 4cqw; }
-  .waterLanding .ios-dock .ios-icon { border-radius: 24%; }
-
-  .waterLanding .phone-caption { margin-top: 20px; text-align: center; font-size: 13px; color: var(--ink-soft); }
-
   /* ---------- bands ---------- */
   .waterLanding .band { padding-block: clamp(56px, 9vw, 104px); }
   .waterLanding .band--cream { background: var(--cream); color: var(--cream-ink); }
@@ -318,15 +194,6 @@
   .waterLanding .calc-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 30px; }
   .waterLanding .calc-chip { padding: 10px 17px; border-radius: 999px; background: rgba(15, 124, 213, 0.1); border: 1px solid rgba(15, 124, 213, 0.26); color: var(--water-ink); font-size: 13.5px; font-weight: 700; }
 
-  /* ---------- headline options: a decision aid, not part of the page ---------- */
-  .waterLanding .options { background: #0b1a2e; border-top: 1px dashed rgba(127, 225, 255, 0.4); border-bottom: 1px dashed rgba(127, 225, 255, 0.4); }
-  .waterLanding .options-tag { display: inline-block; padding: 6px 13px; border-radius: 6px; background: var(--sky); color: #04203a; font-size: 11px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
-  .waterLanding .options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; margin-top: 26px; }
-  .waterLanding .options-grid figure { margin: 0; padding: 26px; border-radius: 20px; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--line); }
-  .waterLanding .options-grid .h { font-family: var(--serif); font-size: 1.95rem; line-height: 0.98; letter-spacing: -0.02em; }
-  .waterLanding .options-grid .s { margin-top: 12px; font-size: 14px; line-height: 1.5; color: var(--ink-muted); }
-  .waterLanding .options-grid figcaption { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 12.5px; line-height: 1.5; color: var(--ink-soft); }
-
   /* ---------- footer ---------- */
   .waterLanding .foot { background: #02142f; padding-block: clamp(46px, 7vw, 72px); }
   .waterLanding .foot-top { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 34px; }
@@ -341,4 +208,239 @@
   .waterLanding .foot-base { margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; font-size: 13px; color: var(--ink-soft); }
   .waterLanding .foot-note { margin-top: 18px; max-width: 46rem; font-size: 12.4px; line-height: 1.6; color: var(--ink-soft); }
 
-  @media (prefers-reduced-motion: reduce) { .waterLanding, .waterLanding * { animation: none !important; transition: none !important; } }
+
+  /* ================= 2026-10-20 refresh ================= */
+
+  .waterLanding .band--deep { color: var(--ink); }
+  .waterLanding .wcl-anchor { position: absolute; top: -80px; }
+  .waterLanding section, .waterLanding header { scroll-margin-top: 16px; }
+  .waterLanding .wcl-fine { margin-top: 16px; max-width: 40rem; font-size: 13px; line-height: 1.6; color: var(--cream-muted); }
+  .waterLanding .wcl-fine--deep { color: var(--ink-soft); }
+
+  /* Rising bubbles behind the hero. */
+  .waterLanding .wcl-rise { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+  .waterLanding .wcl-rise i {
+    position: absolute; bottom: -30px; left: calc(4% + var(--n) * 8%);
+    width: var(--s); aspect-ratio: 1; border-radius: 50%;
+    border: 1.5px solid rgba(255, 255, 255, 0.45);
+    background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.6) 0 18%, transparent 60%);
+    animation: wcl-bubble calc(9s + var(--n) * 1.1s) linear calc(var(--n) * -1.7s) infinite;
+  }
+  @keyframes wcl-bubble { from { transform: translateY(0) translateX(0); opacity: 0; } 8% { opacity: 1; } 50% { transform: translateY(-55vh) translateX(14px); } to { transform: translateY(-120vh) translateX(-8px); opacity: 0; } }
+
+  /* ---------- hero ---------- */
+  .waterLanding .wcl-hero {
+    display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(28px, 5vw, 48px); align-items: center;
+    padding-block: clamp(40px, 7vw, 76px) clamp(20px, 4vw, 40px);
+  }
+  .waterLanding .wcl-hero-copy { text-align: center; min-width: 0; }
+  .waterLanding .wcl-hero-copy .cta-row + .cta-row { margin-top: 14px; }
+  @media (min-width: 980px) {
+    .waterLanding .wcl-hero { grid-template-columns: 1.05fr 0.95fr; }
+    .waterLanding .wcl-hero-copy { text-align: left; }
+    .waterLanding .wcl-hero-copy .sub { margin-inline: 0; }
+    .waterLanding .wcl-hero-copy .cta-row { justify-content: flex-start; }
+  }
+  .waterLanding .wcl-hero-art { position: relative; display: flex; justify-content: center; align-items: flex-end; min-height: clamp(380px, 62vw, 600px); }
+  .waterLanding .wcl-hero-phone { position: absolute; }
+  .waterLanding .wcl-phone.wcl-hero-phone--back { left: 50%; translate: -92% 0; bottom: 18px; width: clamp(170px, 34vw, 270px); }
+  .waterLanding .wcl-phone.wcl-hero-phone--front { left: 50%; translate: -6% 0; bottom: 0; width: clamp(180px, 36vw, 285px); z-index: 1; }
+  @media (max-width: 700px) {
+    .waterLanding .wcl-hero-art { min-height: 410px; }
+    .waterLanding .wcl-phone.wcl-hero-phone--back { width: 148px; bottom: 26px; }
+    .waterLanding .wcl-phone.wcl-hero-phone--front { width: 160px; }
+  }
+  .waterLanding .wcl-hero-bubbles {
+    position: absolute; z-index: 2; left: clamp(0px, 3vw, 24px); bottom: clamp(-10px, 1vw, 10px);
+    padding: 0; border: 0; background: none; cursor: pointer; border-radius: 50%;
+  }
+  .waterLanding .wcl-hero-bubbles:focus-visible { outline: 3px solid var(--sky); outline-offset: 6px; }
+  .waterLanding .wcl-say {
+    position: absolute; left: 78%; top: -6%; white-space: nowrap; padding: 9px 14px; border-radius: 18px 18px 18px 4px;
+    background: #fff; color: #0a2940; font: 800 14px/1 var(--sans); box-shadow: 0 10px 24px rgba(0, 20, 50, 0.3);
+    animation: wcl-say 5s ease-in-out 1.6s infinite;
+  }
+  @keyframes wcl-say { 0%, 100% { transform: scale(1); } 6% { transform: scale(1.08) rotate(-3deg); } 12% { transform: scale(1); } }
+  @media (max-width: 600px) { .waterLanding .wcl-hero-bubbles .wcb { width: 96px !important; height: 96px !important; } .waterLanding .wcl-say { font-size: 12px; } }
+
+  /* A phone holding a real screen. */
+  .waterLanding .wcl-phone {
+    width: clamp(220px, 34vw, 300px); flex-shrink: 0; padding: clamp(6px, 1vw, 9px); border-radius: clamp(30px, 5vw, 46px);
+    background: linear-gradient(160deg, #3a4b62, #10192a 40%, #060c17);
+    box-shadow: 0 40px 80px rgba(1, 10, 26, 0.55), inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+    max-width: 100%;
+  }
+  .waterLanding .wcl-phone img { display: block; width: 100%; height: auto; border-radius: clamp(24px, 4.2vw, 38px); }
+
+  .waterLanding .wcl-stats {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding-block: 24px clamp(48px, 7vw, 80px);
+  }
+  @media (min-width: 760px) { .waterLanding .wcl-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  .waterLanding .wcl-stats p { display: grid; gap: 4px; padding: 20px 22px; border-radius: 22px; background: var(--card); border: 1px solid var(--line); backdrop-filter: blur(10px); }
+  .waterLanding .wcl-stats strong { font-family: var(--serif); font-size: clamp(2.4rem, 5vw, 3.4rem); font-weight: 400; line-height: 1; color: var(--sky); }
+  .waterLanding .wcl-stats span { font-size: 13.5px; font-weight: 700; color: var(--ink-muted); }
+
+  /* ---------- feature splits ---------- */
+  .waterLanding .wcl-split { position: relative; }
+  .waterLanding .wcl-split-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(36px, 6vw, 72px); align-items: center; }
+  @media (min-width: 900px) {
+    .waterLanding .wcl-split-grid { grid-template-columns: 1.1fr 0.9fr; }
+    .waterLanding .wcl-split-grid--flip > :first-child { order: 2; }
+  }
+  .waterLanding .wcl-split-copy { min-width: 0; }
+  .waterLanding .wcl-split-art { display: flex; justify-content: center; }
+
+  .waterLanding .wcl-scores { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 0; padding: 0; list-style: none; }
+  .waterLanding .wcl-scores li {
+    display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px 8px 8px; border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08); border: 1px solid var(--line); font-size: 14px; font-weight: 800;
+  }
+  .waterLanding .wcl-scores li::before { content: ""; width: 22px; height: 22px; border-radius: 50%; border: 4px solid var(--c); box-shadow: 0 0 12px var(--c); }
+
+  .waterLanding .wcl-ticks { display: grid; gap: 12px; margin: 26px 0 0; padding: 0; list-style: none; }
+  .waterLanding .wcl-ticks li { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; line-height: 1.5; color: var(--ink-muted); }
+  .waterLanding .wcl-ticks svg { flex-shrink: 0; margin-top: 3px; color: var(--cyan); }
+  .waterLanding .wcl-ticks--cream li { color: var(--cream-muted); }
+  .waterLanding .wcl-ticks--cream svg { color: var(--water-blue); }
+
+  .waterLanding .wcl-forher { margin-top: 26px; padding: 20px 22px; border-radius: 22px; background: rgba(255, 154, 194, 0.1); border: 1px solid rgba(255, 154, 194, 0.32); }
+  .waterLanding .wcl-forher p:last-child { margin-top: 8px; font-size: 15px; line-height: 1.55; color: var(--ink-muted); }
+
+  /* ---------- widgets: a sunset band, like the Running widget ---------- */
+  .waterLanding .wcl-widgets { background: linear-gradient(160deg, #ff7a59 0%, #f5576c 40%, #b43d8f 75%, #4a2a8a 100%); color: #fff; }
+  .waterLanding .wcl-widgets .kicker { color: #ffe08a; }
+  .waterLanding .wcl-widgets .lede { color: rgba(255, 255, 255, 0.88); }
+  .waterLanding .wcl-big { font-size: 1.5em; color: #ffe08a; }
+  .waterLanding .wcl-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 26px; }
+  .waterLanding .wcl-chips span { padding: 9px 15px; border-radius: 999px; background: rgba(255, 255, 255, 0.16); border: 1px solid rgba(255, 255, 255, 0.3); font-size: 13.5px; font-weight: 800; }
+
+  /* ---------- calendar and crew ---------- */
+  .waterLanding .wcl-duo { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; margin-top: 40px; }
+  @media (min-width: 860px) { .waterLanding .wcl-duo { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .waterLanding .wcl-duo article {
+    display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr); gap: 22px; align-items: center;
+    padding: 22px; border-radius: 30px; background: #fff; border: 1px solid rgba(12, 41, 71, 0.08); box-shadow: 0 20px 50px rgba(12, 41, 71, 0.1);
+  }
+  @media (max-width: 520px) { .waterLanding .wcl-duo article { grid-template-columns: minmax(0, 1fr); } .waterLanding .wcl-duo .wcl-phone { width: 200px; margin-inline: auto; } }
+  .waterLanding .wcl-duo .wcl-phone { width: 100%; box-shadow: 0 20px 40px rgba(1, 10, 26, 0.35); }
+  .waterLanding .wcl-duo h3 { font-family: var(--app); font-size: 1.3rem; font-weight: 800; letter-spacing: -0.02em; color: var(--cream-ink); }
+  .waterLanding .wcl-duo p { margin-top: 10px; font-size: 15px; line-height: 1.6; color: var(--cream-muted); }
+
+  /* ---------- meet Bubbles ---------- */
+  .waterLanding .wcl-meet-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 36px; align-items: center; }
+  @media (min-width: 860px) { .waterLanding .wcl-meet-grid { grid-template-columns: 0.8fr 1.2fr; } }
+  .waterLanding .wcl-meet-stage {
+    position: relative; display: grid; place-items: center; aspect-ratio: 1; max-width: 360px; width: 100%; margin-inline: auto; border-radius: 50%;
+    background: radial-gradient(circle at 40% 35%, rgba(255, 224, 138, 0.28), rgba(92, 207, 234, 0.12) 55%, transparent 70%);
+  }
+  .waterLanding .wcl-tricks { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+  .waterLanding .wcl-tricks button {
+    min-height: 46px; padding: 0 20px; border-radius: 999px; cursor: pointer; border: 1px solid rgba(255, 224, 138, 0.5);
+    background: rgba(255, 224, 138, 0.12); color: #ffe08a; font: 800 15px/1 var(--sans);
+    transition: transform 160ms ease, background 160ms ease;
+  }
+  .waterLanding .wcl-tricks button:hover { background: rgba(255, 224, 138, 0.22); transform: translateY(-2px); }
+  .waterLanding .wcl-tricks button:active { transform: scale(0.96); }
+  .waterLanding .wcl-tricks button:focus-visible { outline: 3px solid var(--sky); outline-offset: 3px; }
+
+  /* ---------- pricing ---------- */
+  .waterLanding .wcl-plans { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; margin-top: 40px; }
+  @media (min-width: 860px) { .waterLanding .wcl-plans { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .waterLanding .wcl-plans article { position: relative; padding: 30px; border-radius: 30px; background: #fff; border: 1px solid rgba(12, 41, 71, 0.1); }
+  .waterLanding .wcl-plans h3 { font-family: var(--serif); font-size: 2.2rem; line-height: 1; color: var(--cream-ink); }
+  .waterLanding .wcl-plan-sub { margin-top: 8px; font-size: 15px; font-weight: 700; color: var(--cream-muted); }
+  .waterLanding .wcl-plans ul { display: grid; gap: 11px; margin: 22px 0 0; padding: 0; list-style: none; }
+  .waterLanding .wcl-plans li { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; line-height: 1.45; color: var(--cream-ink); }
+  .waterLanding .wcl-plans li svg { flex-shrink: 0; margin-top: 2px; color: var(--water-blue); }
+  .waterLanding .wcl-plan--forever { background: linear-gradient(180deg, #0b3b6b, #061f38) !important; border-color: rgba(255, 215, 106, 0.6) !important; box-shadow: 0 24px 60px rgba(6, 31, 56, 0.35); }
+  .waterLanding .wcl-plan--forever h3, .waterLanding .wcl-plan--forever li { color: #f4f9ff; }
+  .waterLanding .wcl-plan--forever .wcl-plan-sub { color: rgba(238, 247, 255, 0.8); }
+  .waterLanding .wcl-plan--forever li svg { color: #ffd76a; }
+  .waterLanding .wcl-plan-tag {
+    position: absolute; top: -12px; right: 24px; padding: 6px 12px; border-radius: 999px; color: #4a3300;
+    background: linear-gradient(120deg, #ffe08a, #ffc857 50%, #ffe9a6); font: 800 11px/1 var(--sans); letter-spacing: 0.14em; text-transform: uppercase;
+  }
+  .waterLanding .wcl-plan-note { margin-top: 20px; font-size: 13px; line-height: 1.55; color: rgba(238, 247, 255, 0.72); }
+
+  /* ---------- data ---------- */
+  .waterLanding .wcl-data { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 40px; }
+  .waterLanding .wcl-data article { padding: 24px; border-radius: 24px; background: var(--card); border: 1px solid var(--line); }
+  .waterLanding .wcl-data h3 { font-family: var(--app); font-size: 1.12rem; font-weight: 800; color: var(--sky); }
+  .waterLanding .wcl-data p { margin-top: 10px; font-size: 15px; line-height: 1.58; color: var(--ink-muted); }
+  .waterLanding .wcl-data-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+  .waterLanding .wcl-data-links a { padding: 11px 18px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 700; }
+  .waterLanding .wcl-data-links a:hover { background: rgba(255, 255, 255, 0.1); }
+  .waterLanding .wcl-data-links a:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
+
+  /* ---------- faq ---------- */
+  .waterLanding .wcl-faq { max-width: 860px; }
+  .waterLanding .wcl-faq-list { display: grid; gap: 10px; margin-top: 34px; }
+  .waterLanding .wcl-faq details { border-radius: 20px; background: var(--card); border: 1px solid var(--line); }
+  .waterLanding .wcl-faq summary {
+    display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 18px 22px; cursor: pointer; list-style: none;
+    font: 800 16.5px/1.35 var(--sans);
+  }
+  .waterLanding .wcl-faq summary::-webkit-details-marker { display: none; }
+  .waterLanding .wcl-faq summary::after { content: "+"; flex-shrink: 0; font-size: 22px; font-weight: 400; color: var(--sky); transition: transform 200ms ease; }
+  .waterLanding .wcl-faq details[open] summary::after { transform: rotate(45deg); }
+  .waterLanding .wcl-faq summary:focus-visible { outline: 3px solid var(--sky); outline-offset: -3px; border-radius: 20px; }
+  .waterLanding .wcl-faq details p { padding: 0 22px 20px; font-size: 15px; line-height: 1.65; color: var(--ink-muted); }
+
+  .waterLanding .wcl-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .waterLanding fieldset.wcl-tricks { border: 0; padding: 0; margin-inline: 0; min-width: 0; }
+  .waterLanding .foot-blurb { margin-top: 14px; font-size: 14px; line-height: 1.6; color: var(--ink-muted); max-width: 19rem; }
+
+  /* Sections rise in as they arrive. */
+  .waterLanding [data-rise] { opacity: 0; transform: translateY(26px); transition: opacity 700ms ease, transform 700ms cubic-bezier(0.2, 0.8, 0.3, 1); }
+  .waterLanding [data-rise].is-in { opacity: 1; transform: none; }
+
+  /* ---------- Bubbles (same tricks as the app) ---------- */
+  .waterLanding .wcb { position: relative; display: inline-block; flex-shrink: 0; }
+  .waterLanding .wcb__trick { position: absolute; inset: 0; display: block; animation: wcb-bob 2.4s ease-in-out 1s infinite; }
+  .waterLanding .wcb__fish { width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 10px 18px rgba(0, 20, 50, 0.4)); }
+  .waterLanding .wcb__fish * { transform-box: fill-box; transform-origin: center; }
+  .waterLanding .wcb__o { opacity: 0; }
+  .waterLanding .wcb__eyes { animation: wcb-blink 4.2s ease-in-out infinite; }
+  .waterLanding .wcb__tail { transform-origin: left center; animation: wcb-tail 900ms ease-in-out infinite alternate; }
+  .waterLanding .wcb--puff .wcb__fish { animation: wcb-inflate 1300ms cubic-bezier(0.3, 1.5, 0.5, 1); }
+  .waterLanding .wcb--puff .wcb__spikes, .waterLanding .wcb--cheer .wcb__spikes { animation: wcb-spikes 1300ms cubic-bezier(0.3, 1.5, 0.5, 1); }
+  .waterLanding .wcb--puff .wcb__smile, .waterLanding .wcb--cheer .wcb__smile { animation: wcb-hide 1300ms steps(1) both; }
+  .waterLanding .wcb--puff .wcb__o, .waterLanding .wcb--cheer .wcb__o { animation: wcb-show 1300ms steps(1) both; }
+  .waterLanding .wcb--puff .wcb__cheek, .waterLanding .wcb--cheer .wcb__cheek { animation: wcb-blush 1300ms ease-out; }
+  .waterLanding .wcb--spin .wcb__fish { animation: wcb-spin 1000ms cubic-bezier(0.5, 0, 0.3, 1); }
+  .waterLanding .wcb--flip .wcb__trick { animation: wcb-jump 1000ms cubic-bezier(0.3, 0, 0.3, 1), wcb-bob 2.4s ease-in-out 1.1s infinite; }
+  .waterLanding .wcb--flip .wcb__fish { animation: wcb-backflip 1000ms cubic-bezier(0.5, 0, 0.3, 1); }
+  .waterLanding .wcb--wave .wcb__fish { animation: wcb-tilt 1100ms ease-in-out; }
+  .waterLanding .wcb--wave .wcb__fin { animation: wcb-wave 260ms ease-in-out 5 alternate; }
+  .waterLanding .wcb--cheer .wcb__fish { animation: wcb-inflate 1300ms cubic-bezier(0.3, 1.5, 0.5, 1), wcb-spin 900ms cubic-bezier(0.5, 0, 0.3, 1) 1300ms; }
+  .waterLanding .wcb__ring { position: absolute; inset: 8%; border-radius: 50%; border: 3px solid rgba(255, 255, 255, 0.9); opacity: 0; animation: wcb-ring 900ms ease-out 350ms; }
+  .waterLanding .wcb__burst { position: absolute; inset: 0; }
+  .waterLanding .wcb__burst i {
+    position: absolute; left: 50%; top: 50%; width: 13px; height: 13px; margin: -6.5px 0 0 -6.5px; border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.95); background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.9) 0 20%, rgba(143, 230, 255, 0.35) 45%, transparent 70%);
+    opacity: 0; animation: wcb-pop 1000ms cubic-bezier(0.2, 0.8, 0.3, 1) calc(400ms + var(--d)) forwards;
+  }
+  .waterLanding .wcb--cheer .wcb__burst i:nth-child(3n) { border-color: #ffe08a; }
+  .waterLanding .wcb--cheer .wcb__burst i:nth-child(3n + 1) { border-color: #ff9ac2; }
+
+  @keyframes wcb-bob { 50% { transform: translateY(-7px) rotate(-3deg); } }
+  @keyframes wcb-blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+  @keyframes wcb-tail { from { transform: rotate(-10deg); } to { transform: rotate(10deg); } }
+  @keyframes wcb-wave { from { transform: rotate(0deg); } to { transform: rotate(-35deg); } }
+  @keyframes wcb-inflate { 0% { transform: scale(1); } 28% { transform: scale(1.6); } 55% { transform: scale(1.5); } 70% { transform: scale(0.92) rotate(-6deg); } 82% { transform: scale(1.06) rotate(4deg); } 100% { transform: scale(1); } }
+  @keyframes wcb-spikes { 0%, 100% { transform: scale(1); } 28%, 55% { transform: scale(1.22); } 70% { transform: scale(0.95); } }
+  @keyframes wcb-hide { 0% { opacity: 1; } 8% { opacity: 0; } 68% { opacity: 1; } }
+  @keyframes wcb-show { 0% { opacity: 0; } 8% { opacity: 1; } 68% { opacity: 0; } }
+  @keyframes wcb-blush { 30%, 60% { transform: scale(1.4); opacity: 1; } }
+  @keyframes wcb-spin { 0% { transform: rotate(0) scale(1); } 50% { transform: rotate(380deg) scale(1.12) translateY(-6px); } 100% { transform: rotate(720deg) scale(1); } }
+  @keyframes wcb-jump { 0%, 100% { transform: translateY(0); } 45% { transform: translateY(-52px); } }
+  @keyframes wcb-backflip { 0% { transform: rotate(0); } 15% { transform: scale(1.05, 0.9); } 80% { transform: rotate(-360deg); } 90% { transform: rotate(-360deg) scale(1.08, 0.92); } 100% { transform: rotate(-360deg); } }
+  @keyframes wcb-tilt { 0%, 100% { transform: rotate(0); } 30% { transform: rotate(-12deg); } 70% { transform: rotate(8deg); } }
+  @keyframes wcb-ring { 0% { transform: scale(0.6); opacity: 1; } 100% { transform: scale(2.1); opacity: 0; } }
+  @keyframes wcb-pop { 0% { transform: rotate(var(--a)) translateY(-20px) scale(0.4); opacity: 1; } 70% { opacity: 1; } 100% { transform: rotate(var(--a)) translateY(-90px) scale(1); opacity: 0; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .waterLanding, .waterLanding * { animation: none !important; transition: none !important; }
+    .waterLanding [data-rise] { opacity: 1; transform: none; }
+    .waterLanding .wcl-rise, .waterLanding .wcb__ring, .waterLanding .wcb__burst { display: none; }
+  }
