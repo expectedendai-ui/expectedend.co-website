@@ -398,7 +398,7 @@
   .waterLanding .wcb { position: relative; display: inline-block; flex-shrink: 0; }
   .waterLanding .wcb__trick { position: absolute; inset: 0; display: block; animation: wcb-bob 2.4s ease-in-out 1s infinite; }
   .waterLanding .wcb__fish { width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 10px 18px rgba(0, 20, 50, 0.4)); }
-  .waterLanding .wcb__fish * { transform-box: fill-box; transform-origin: center; }
+  .waterLanding :is(.wcb__spikes, .wcb__tail, .wcb__fin, .wcb__eyes, .wcb__cheek, .wcb__smile, .wcb__o) { transform-box: fill-box; transform-origin: center; }
   .waterLanding .wcb__o { opacity: 0; }
   .waterLanding .wcb__eyes { animation: wcb-blink 4.2s ease-in-out infinite; }
   .waterLanding .wcb__tail { transform-origin: left center; animation: wcb-tail 900ms ease-in-out infinite alternate; }
