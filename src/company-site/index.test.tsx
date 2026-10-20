@@ -289,7 +289,11 @@ describe("Expected End public site", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     expect(screen.getByRole("heading", { level: 1, name: /Drink up.*keep count/ })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "Everything you need, nothing you don't." })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Scan it once. Know it. Tap it forever." })).toBeInTheDocument();
+    for (const link of screen.getAllByRole("link", { name: "Delete your account" })) {
+      expect(link).toHaveAttribute("href", "/thewatercheck/delete-account");
+    }
+    expect(screen.getByRole("link", { name: "Consumer Health Data Privacy Policy" })).toHaveAttribute("href", "/thewatercheck/consumer-health-data");
     expect(screen.queryByText("Three ways to open.")).not.toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Try the free calculator" })).toHaveAttribute("href", "/thewatercheck-calculator");
     expect(screen.getByRole("link", { name: "Open the calculator" })).toHaveAttribute("href", "/thewatercheck-calculator");

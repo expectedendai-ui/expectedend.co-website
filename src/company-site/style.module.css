@@ -718,6 +718,18 @@
 .infoBody { display: grid; gap: 3rem; max-width: 700px; padding: 3.5rem 0; }
 .infoBody h2 { margin: 0 0 .8rem; font-family: "Instrument Serif", Georgia, serif; font-size: 2.1rem; font-weight: 400; }
 .infoBody p { margin: 0; color: var(--muted); line-height: 1.75; }
+.infoBody section { display: grid; gap: .9rem; scroll-margin-top: 7rem; }
+.infoBody h2 { margin-bottom: 0; }
+.infoBody ul { display: grid; gap: .55rem; margin: 0; padding-left: 1.2rem; color: var(--muted); line-height: 1.7; }
+.infoBody li::marker { color: var(--accent, currentColor); }
+.infoRelated { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }
+.infoRelated a { padding: .55rem .95rem; border: 1px solid var(--line); border-radius: 999px; color: inherit; font-size: .85rem; font-weight: 700; text-decoration: none; }
+.infoRelated a:hover, .infoRelated a:focus-visible { border-color: currentColor; }
+.infoToc { max-width: 700px; margin-top: 2.6rem; padding: 1.4rem 1.6rem; border: 1px solid var(--line); border-radius: 1.2rem; }
+.infoToc p { margin: 0 0 .8rem; color: var(--muted); font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.infoToc ol { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .5rem 2.2rem; margin: 0; padding-left: 1.7rem; }
+.infoToc a { color: inherit; font-size: .92rem; line-height: 1.45; text-decoration: none; }
+.infoToc a:hover, .infoToc a:focus-visible { text-decoration: underline; }
 .notFound { display: grid; place-content: center; text-align: center; }
 .notFound h1 { font-size: clamp(3.4rem, 8vw, 7rem); }
 .notFound a { width: fit-content; margin: 2rem auto 0; color: var(--gold-soft); font-weight: 700; }

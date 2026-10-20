@@ -1,6 +1,10 @@
+import { WATER_CHECK_LEGAL } from "./water-check-legal";
+
 export type LegalSection = {
   heading: string;
   paragraphs: string[];
+  /** A short list shown after the paragraphs. */
+  bullets?: string[];
 };
 
 export type LegalPageContent = {
@@ -9,6 +13,8 @@ export type LegalPageContent = {
   intro: string;
   effectiveDate: string;
   sections: LegalSection[];
+  /** Companion pages linked under the header. */
+  related?: { label: string; href: string }[];
 };
 
 export const LEGAL_CONTENT = {
@@ -47,33 +53,7 @@ export const LEGAL_CONTENT = {
       { heading: "Changes and contact", paragraphs: ["Expected End may update this statement when the website, providers, or legal requirements change. The effective date above identifies the current version. Privacy questions and requests may be submitted through the Contact page by selecting “General question” and writing “Privacy request” at the beginning of the message."] },
     ],
   },
-  "watercheck-privacy": {
-    eyebrow: "The Water Check",
-    title: "The Water Check Privacy Notice",
-    intro: "This notice describes how Expected End LLC handles information in The Water Check app. The separate Expected End website privacy statement covers the company website.",
-    effectiveDate: "September 30, 2026",
-    sections: [
-      { heading: "Account information", paragraphs: ["When you sign in with Google or Apple, our authentication service receives an account identifier and the name, email address, and basic profile details the provider makes available. We use these details to create and secure your account and restore it when you return. We do not request access to your Google email messages, contacts, Drive files, or other Google account content."] },
-      { heading: "Information you choose to add", paragraphs: ["The app may store your onboarding answers, hydration goals and preferences, drink and food-water entries, and wellness context you provide. Some answers, such as body measurements or health-related experiences, can be sensitive. We use them to personalize your hydration experience and show your own history."] },
-      { heading: "Optional health and weather connections", paragraphs: ["If you choose a health connection when it is available, the app requests only the read access shown in the device permission screen for selected activity, workouts, body weight, or hydration records. You can decline or revoke that access in your device settings. We do not use health data for advertising, tracking, or sale.", "If you ask the app to use current weather, it requests approximate location, rounds the coordinates, and sends them to Open-Meteo to retrieve temperature and humidity. The app saves your resulting climate category and weather preference, not the coordinates. You can choose a climate manually instead."] },
-      { heading: "Service providers and sharing", paragraphs: ["Supabase hosts the app's authentication and account data. Google or Apple processes sign-in according to the provider you choose. Open-Meteo receives rounded coordinates only when you request current weather. Service providers may process technical information needed to operate and protect these services. We do not sell your account or wellness information or share it with advertising networks."] },
-      { heading: "Security, retention, and your choices", paragraphs: ["We use account-based access controls for stored profile data. We retain account information while your account is active and as needed for service operations, security, and legal obligations. To request access, correction, export, or deletion of your information, email expectedendai@gmail.com with “The Water Check privacy request” in the subject. We may need to verify that the account is yours before acting on a request.", "You can stop using Google or Apple sign-in through the provider's account settings, and you can revoke optional device permissions in your device settings. Revoking a provider connection does not itself delete information already stored in your Water Check account."] },
-      { heading: "Age, changes, and contact", paragraphs: ["The current service is for people aged 13 or older. If you have a privacy question or believe a child under 13 provided information, email expectedendai@gmail.com. We may update this notice as the app changes; the effective date above identifies this version."] },
-    ],
-  },
-  "watercheck-terms": {
-    eyebrow: "The Water Check",
-    title: "The Water Check Terms of Use",
-    intro: "These terms apply to The Water Check app operated by Expected End LLC. By using the app, you agree to these terms.",
-    effectiveDate: "September 30, 2026",
-    sections: [
-      { heading: "General wellness information", paragraphs: ["The Water Check helps you log drinks, review hydration patterns, and reflect on your habits. Its estimates and educational content are for general wellness only. They do not diagnose, treat, or prevent a medical condition and are not a substitute for advice from a qualified clinician."] },
-      { heading: "Eligibility and account", paragraphs: ["You must be at least 13 years old to use the current service. You are responsible for keeping your sign-in account secure and for information you choose to enter. Do not use another person's account without permission."] },
-      { heading: "Acceptable use", paragraphs: ["Use the app lawfully. Do not attempt unauthorized access, interfere with the app or other users, introduce malicious code, or misuse its content or services. Features may change as the product develops."] },
-      { heading: "Your information and choices", paragraphs: ["You retain responsibility for the information you enter. Our handling of personal information is described in The Water Check Privacy Notice. Optional permissions can be declined or changed in your device settings."] },
-      { heading: "Availability and contact", paragraphs: ["The app is provided as available, and we cannot promise uninterrupted or error-free service. Nothing in these terms limits rights that applicable law does not allow us to limit. For questions about the app or these terms, email expectedendai@gmail.com."] },
-    ],
-  },
+  ...WATER_CHECK_LEGAL,
   accessibility: {
     eyebrow: "Company information",
     title: "Accessibility",
@@ -85,4 +65,6 @@ export const LEGAL_CONTENT = {
       { heading: "Feedback", paragraphs: ["If something on this website is difficult to use or access, please tell us through the Contact link below. Include the page and the problem you encountered so we can investigate."] },
     ],
   },
-} satisfies Record<"terms" | "privacy" | "watercheck-privacy" | "watercheck-terms" | "accessibility", LegalPageContent>;
+} satisfies Record<"terms" | "privacy" | "accessibility" | keyof typeof WATER_CHECK_LEGAL, LegalPageContent>;
+
+export type LegalPageKey = keyof typeof LEGAL_CONTENT;

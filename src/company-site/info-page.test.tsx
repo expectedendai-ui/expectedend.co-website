@@ -8,6 +8,8 @@ describe("Expected End information pages", () => {
     ["/privacy", "Privacy Statement"],
     ["/thewatercheck/privacy", "The Water Check Privacy Notice"],
     ["/thewatercheck/terms", "The Water Check Terms of Use"],
+    ["/thewatercheck/consumer-health-data", "Consumer Health Data Privacy Policy"],
+    ["/thewatercheck/delete-account", "Delete your account"],
     ["/accessibility", "Accessibility"],
   ])("renders %s as a direct route", (path, heading) => {
     window.history.replaceState({}, "", path);
@@ -36,7 +38,7 @@ describe("Expected End information pages", () => {
   it("identifies the app privacy contact and Google data use", () => {
     window.history.replaceState({}, "", "/thewatercheck/privacy");
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
-    expect(screen.getByText(/We do not request access to your Google email messages/)).toBeInTheDocument();
+    expect(screen.getByText(/We do not request access to your Gmail, contacts, Drive files/)).toBeInTheDocument();
     expect(screen.getByText(/expectedendai@gmail.com with “The Water Check privacy request”/)).toBeInTheDocument();
   });
 });
