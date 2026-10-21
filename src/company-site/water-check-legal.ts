@@ -6,7 +6,7 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "October 20, 2026";
+const EFFECTIVE = "October 21, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -41,6 +41,7 @@ export const WATER_CHECK_LEGAL = {
           "Daily totals. For each day you log, your account keeps the total from drinks, the total from food and your goal for that day, so your calendar and streaks survive a new phone.",
           "Fruit Fast. When an adult starts Fruit Fast, we keep a record that the safety note was read and accepted, with the date and the version of the note.",
           "Crew. If you use Crew, we store the Crews you make or join, your first name and widget colors as your Crew sees them, your percent of goal and streak, the quick messages and cheers you send, and any blocks and reports.",
+          "Splash Slice. If you play the hidden game, we store your best score.",
           "Support. If you email us, we receive your email address and whatever you include.",
         ],
       },
@@ -66,6 +67,13 @@ export const WATER_CHECK_LEGAL = {
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
           "Notifications. Reminders are scheduled on your phone. You can turn them off in the app or in your device settings.",
           "Health connections. If a connection to Apple Health or Health Connect becomes available and you turn it on, the app requests only the read access shown on your device's permission screen. You can decline or revoke it at any time in your device settings. We do not use health data for advertising and do not sell it.",
+        ],
+      },
+      {
+        heading: "Splash Slice",
+        paragraphs: [
+          "If you play Splash Slice, the game hidden in the app, your best score is kept on your phone and with your account. People in a Crew with you can see your first name and your best score. If you have the one-time unlock and are in a Crew, your Home Screen widget can show your best score too. Deleting your account deletes your score.",
+          "Only your best score is kept: not each round, your swipes, or what you sliced. The game's music and sounds are made on your phone and send nothing anywhere.",
         ],
       },
       {
@@ -137,7 +145,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Children and teens",
         paragraphs: [
           "The Water Check is not for children under 13, and we do not knowingly collect information from them. If we learn that a child under 13 has an account, we will delete it. A parent or guardian who believes this has happened can email us.",
-          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. Teens are never offered Fruit Fast or alcohol logging.",
+          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. Teens are never offered Fruit Fast or alcohol logging, and in Splash Slice they see sodas and energy drinks instead of alcoholic drinks.",
         ],
       },
       {
@@ -201,6 +209,13 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Fruit Fast is for adults only. It is not for anyone who is pregnant or breastfeeding, has diabetes, kidney disease or a history of eating disorders, takes medicine that needs regular meals, or follows a diet set by a doctor. You choose to start it and can stop at any time; stop if you feel unwell.",
           "Alcohol logging is only for people of legal drinking age where they live, and the app asks you to confirm this first. The app does not encourage drinking alcohol, and alcohol adds nothing to your water for the day. Never drink and drive.",
+        ],
+      },
+      {
+        heading: "Splash Slice",
+        paragraphs: [
+          "Splash Slice is a free game hidden in the app. In it, drinks are the things to avoid: slicing one costs points and makes the screen tipsy. Adults of legal drinking age see alcoholic drinks; everyone else sees sodas and energy drinks. The game is a reminder to choose water, and it does not encourage drinking alcohol.",
+          "Scores are just for fun. They have no cash value and cannot be traded or redeemed. Scores outside what the game can produce are not accepted, and we may remove scores that look tampered with or that break these terms. Showing your best score on your widget is part of the one-time unlock.",
         ],
       },
       {
@@ -405,7 +420,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "What is deleted",
         paragraphs: [
-          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
+          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, Splash Slice best score, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
         ],
       },
       {
