@@ -435,6 +435,17 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                   </button>
                 ))}
               </fieldset>
+              {/* A hint, never the answer: finding it is the fun. */}
+              <aside className="wcl-secret" aria-label="A hint">
+                <span className="wcl-secret-mark" aria-hidden="true">?</span>
+                <div>
+                  <p className="wcl-secret-kicker">Psst. A secret.</p>
+                  <p>
+                    There is a game hidden in the app. Bubbles will only say this much: the C at the bottom of your screen has more
+                    to give, if you do not let go too soon.
+                  </p>
+                </div>
+              </aside>
             </div>
           </div>
         </section>
@@ -460,7 +471,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 <h3>Everything Forever</h3>
                 <p className="wcl-plan-sub">One purchase, no subscription.</p>
                 <ul>
-                  {["All 87 widget styles", "Wellness, the Guide and your Drink Journal", "Drink Check photo scans", "Make your own Crews", "Everything we add later"].map((item) => (
+                  {["All 87 widget styles", "Your Splash Slice best on your widget, in a Crew", "Wellness, the Guide and your Drink Journal", "Drink Check photo scans", "Make your own Crews", "Everything we add later"].map((item) => (
                     <li key={item}>
                       <Check /> {item}
                     </li>
