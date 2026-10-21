@@ -41,6 +41,7 @@ export const WATER_CHECK_LEGAL = {
           "Daily totals. For each day you log, your account keeps the total from drinks, the total from food and your goal for that day, so your calendar and streaks survive a new phone.",
           "Fruit Fast. When an adult starts Fruit Fast, we keep a record that the safety note was read and accepted, with the date and the version of the note.",
           "Crew. If you use Crew, we store the Crews you make or join, your first name and widget colors as your Crew sees them, your percent of goal and streak, the quick messages and cheers you send, and any blocks and reports.",
+          "Splash Slice. If you play the hidden game, we store your best score.",
           "Support. If you email us, we receive your email address and whatever you include.",
         ],
       },
@@ -66,6 +67,12 @@ export const WATER_CHECK_LEGAL = {
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
           "Notifications. Reminders are scheduled on your phone. You can turn them off in the app or in your device settings.",
           "Health connections. If a connection to Apple Health or Health Connect becomes available and you turn it on, the app requests only the read access shown on your device's permission screen. You can decline or revoke it at any time in your device settings. We do not use health data for advertising and do not sell it.",
+        ],
+      },
+      {
+        heading: "Splash Slice",
+        paragraphs: [
+          "If you play Splash Slice, the game hidden in the app, your best score is kept on your phone and with your account. People in a Crew with you can see your first name and your best score. Deleting your account deletes your score.",
         ],
       },
       {
@@ -405,7 +412,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "What is deleted",
         paragraphs: [
-          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
+          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, Splash Slice best score, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
         ],
       },
       {
