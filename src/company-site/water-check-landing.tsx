@@ -441,8 +441,8 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 <div>
                   <p className="wcl-secret-kicker">Psst. A secret.</p>
                   <p>
-                    There is a game hidden in the app. Bubbles will only say this much: the C at the bottom of your screen has more
-                    to give, if you do not let go too soon.
+                    There is a game hidden in the app. Bubbles will only give you a riddle: <em>the impatient never find it.
+                    Count to three where every day begins.</em>
                   </p>
                 </div>
               </aside>
