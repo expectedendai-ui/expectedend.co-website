@@ -65,7 +65,8 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Camera. Used only when you choose to scan a drink or food.",
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
-          "Notifications. Reminders are scheduled on your phone. You can turn them off in the app or in your device settings.",
+          "Notifications. Fruit Fast reminders are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent for 90 days so we can keep them rare. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
+          "You can turn Crew notifications and streak reminders off separately in the app's Settings, or all of them in your device settings. Signing out or deleting your account removes your phone's push token.",
           "Health connections. If a connection to Apple Health or Health Connect becomes available and you turn it on, the app requests only the read access shown on your device's permission screen. You can decline or revoke it at any time in your device settings. We do not use health data for advertising and do not sell it.",
         ],
       },
@@ -112,6 +113,7 @@ export const WATER_CHECK_LEGAL = {
           "Supabase: hosts our database, sign-in and server functions.",
           "Apple and Google: sign-in, the App Store and Google Play.",
           "Google (Gemini API): reads Drink Check photos.",
+          "Google (Firebase Cloud Messaging) and Apple: deliver push notifications.",
           "RevenueCat: purchase records.",
           "Open-Meteo: rounded coordinates, only when you ask for current weather.",
         ],
@@ -420,7 +422,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "What is deleted",
         paragraphs: [
-          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, Splash Slice best score, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
+          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, Splash Slice best score, notification settings and push tokens, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
         ],
       },
       {
