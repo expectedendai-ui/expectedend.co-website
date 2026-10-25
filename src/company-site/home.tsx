@@ -158,7 +158,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className={`${styles.section} ${styles.servicesSection}`} id="services" aria-labelledby="services-title">
         <div className={styles.sectionHead}>
           <p className={styles.kicker}>Selected services</p>
-          <h2 id="services-title">Bring the idea. <em>Leave with the product.</em></h2>
+          <h2 id="services-title">You dream it, <em>I build it.</em></h2>
           <p className={styles.servicesIntro}>The products come first. When the fit is right, the same thoughtfulness goes into selected work for others.</p>
           <p className={styles.servicesGuidance}>Please include a price range for all inquiries and mention in your message if an NDA is needed.</p>
         </div>
