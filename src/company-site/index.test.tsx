@@ -103,7 +103,6 @@ describe("Expected End public site", () => {
   });
 
   it("opens each branded store internally with launch-ready coming-soon products", async () => {
-    const user = userEvent.setup();
     window.history.pushState({}, "", "/mybiblelensstore");
     const view = render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
     expect(window.location.pathname).toBe("/mybiblelensstore");
