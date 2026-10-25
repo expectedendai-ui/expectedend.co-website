@@ -1,7 +1,7 @@
 export const CONTACT_HREF = "/about#contact";
 
 export const FOUNDER_DESCRIPTION =
-  "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check.";
+  "Denzel Rigaud is the founder and full-stack developer behind Expected End, MyBibleLens, the World's First Sanctuary App for Christianity, and The Water Check.";
 
 // Denzel Rigaud approved the existing site copy on 2026-08-08 and the new
 // Water Check page copy on 2026-08-30.
@@ -20,6 +20,8 @@ export const PROJECTS = [
       href: "https://mybiblelens.us/legal.html#about",
     },
     image: "/brand/mybiblelens.png",
+    tagline: "The World's First Sanctuary App for Christianity.",
+    badge: "On the App Store",
     artVariant: "mybiblelens",
     titleClassName: "mblTitle",
   },
@@ -31,6 +33,8 @@ export const PROJECTS = [
       actionLabel: "Check your baseline",
     },
     image: "/brand/thewatercheck.png",
+    tagline: "Understand what you drink. Your own water number, in a tap.",
+    badge: "Coming soon",
     artVariant: "watercheck",
     titleClassName: "",
   },
@@ -42,6 +46,8 @@ export const PROJECTS = [
       actionLabel: "Enter store",
     },
     image: "/brand/mybiblelens-store/store-mark.png",
+    tagline: "Faith you can wear.",
+    badge: "",
     artVariant: "mybiblelens-store",
     titleClassName: "mblTitle",
   },
@@ -53,6 +59,8 @@ export const PROJECTS = [
       actionLabel: "Enter store",
     },
     image: "/brand/watercheck-store/c-mark-magic-eraser.png",
+    tagline: "Gear for the Hydration Dept.",
+    badge: "",
     artVariant: "watercheck-store",
     titleClassName: "",
   },

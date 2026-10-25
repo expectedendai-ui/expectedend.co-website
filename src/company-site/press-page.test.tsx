@@ -8,13 +8,13 @@ describe("Expected End press page", () => {
 
     expect(screen.getByRole("heading", { level: 1, name: "Press resources for Expected End." })).toBeInTheDocument();
     expect(screen.getByTestId("short-bio")).toHaveTextContent(
-      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."
+      "Denzel Rigaud is the founder and full-stack developer behind Expected End, MyBibleLens, the World's First Sanctuary App for Christianity, and The Water Check."
     );
     expect(screen.getByTestId("full-bio")).toHaveTextContent("built MyBibleLens and The Water Check independently");
 
     const facts = screen.getByRole("region", { name: "Verified facts" });
     expect(within(facts).getByText("Expected End LLC")).toBeInTheDocument();
-    expect(within(facts).getByText("Founder and solo full-stack developer")).toBeInTheDocument();
+    expect(within(facts).getByText("Founder and full-stack developer")).toBeInTheDocument();
 
     expect(screen.getByRole("link", { name: "Denzel Rigaud on Wikidata" })).toHaveAttribute(
       "href",

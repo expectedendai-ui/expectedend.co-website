@@ -14,17 +14,12 @@ describe("Expected End public site", () => {
     const { container } = render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     expect(screen.getByRole("heading", { level: 1, name: "Purpose, built beautifully." })).toBeInTheDocument();
-    const heroVideo = container.querySelector("video");
-    expect(heroVideo).toHaveAttribute("aria-hidden", "true");
-    expect(heroVideo).toHaveAttribute("autoplay");
-    expect(heroVideo).toHaveAttribute("loop");
-    expect(heroVideo).toHaveProperty("muted", true);
-    expect(heroVideo).toHaveAttribute("playsinline");
-    expect(heroVideo).toHaveAttribute("poster", "/media/expected-end-hero-poster.jpg");
-    expect(heroVideo?.querySelector('source[type="video/webm"]')).toHaveAttribute("src", "/media/expected-end-hero.webm");
-    expect(heroVideo?.querySelector('source[type="video/mp4"]')).toHaveAttribute("src", "/media/expected-end-hero.mp4");
+    expect(container.querySelector("video")).toBeNull();
+    const heroScene = container.querySelector("[class*='heroScene']");
+    expect(heroScene).toHaveAttribute("aria-hidden", "true");
+    expect(heroScene?.querySelectorAll("img")).toHaveLength(2);
     const approvedMission =
-      "We create thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!";
+      "Expected End creates thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!";
     expect(
       screen.getByText((_, element) => element?.tagName === "P" && element.textContent === approvedMission)
     ).toBeInTheDocument();
@@ -110,7 +105,7 @@ describe("Expected End public site", () => {
 
     expect(container.textContent).not.toMatch(/[↗↓]/);
     const actionIcons = container.querySelectorAll("svg[data-action-icon]");
-    expect(actionIcons).toHaveLength(5);
+    expect(actionIcons).toHaveLength(6);
     actionIcons.forEach((icon) => {
       expect(icon).toHaveAttribute("aria-hidden", "true");
       expect(icon).toHaveAttribute("focusable", "false");
@@ -142,7 +137,7 @@ describe("Expected End public site", () => {
   it("renders the complete approved service lineup and concise inquiry guidance", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
-    const servicesHeading = screen.getByRole("heading", { level: 2, name: "You dream it — we build it" });
+    const servicesHeading = screen.getByRole("heading", { level: 2, name: "You dream it. It gets built." });
     const servicesSection = servicesHeading.closest("section");
     expect(servicesSection).not.toBeNull();
     expect(
@@ -184,7 +179,7 @@ describe("Expected End public site", () => {
 
     const sectionCopy = Array.from(servicesHeading.parentElement?.children ?? []).filter((element) => element.tagName === "P");
     expect(sectionCopy[1]).toHaveTextContent(
-      "Our products come first. When the fit is right, we bring the same thoughtfulness to selected work for others."
+      "The products come first. When the fit is right, the same thoughtfulness goes into selected work for others."
     );
     expect(sectionCopy[2]).toHaveTextContent(
       "Please include a price range for all inquiries and mention in your message if an NDA is needed."

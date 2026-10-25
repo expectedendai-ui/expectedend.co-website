@@ -33,7 +33,7 @@ export function AboutPage({ onNavigate }: AboutPageProps) {
 
         <section className={styles.missionStory} id="mission" aria-labelledby="about-mission-title">
           <div>
-            <p className={styles.kicker}>Our mission</p>
+            <p className={styles.kicker}>The mission</p>
             <h2 id="about-mission-title">Technology should help you return to your life.</h2>
           </div>
           <div className={styles.missionCopy}>
@@ -43,11 +43,11 @@ export function AboutPage({ onNavigate }: AboutPageProps) {
               systems before they understand the pressure behind them.
             </p>
             <p>
-              Expected End gives people a better use for the screen. We build tools for children and adults to learn, create,
+              Expected End gives people a better use for the screen. It builds tools for children and adults to learn, create,
               work, find a safe place, or move closer to God. Each product should return them to the life in front of them.
             </p>
             <p className={styles.missionLine}>
-              Our mission is to bring people closer to God through productive, useful, and joyful technology that leaves room for
+              The mission is to bring people closer to God through productive, useful, and joyful technology that leaves room for
               real life.
             </p>
           </div>
@@ -56,7 +56,7 @@ export function AboutPage({ onNavigate }: AboutPageProps) {
         <section className={styles.pressSection} id="press" aria-labelledby="press-title">
           <div>
             <p className={styles.kicker}>Press</p>
-            <h2 id="press-title">Tell the story with us.</h2>
+            <h2 id="press-title">Help tell the story.</h2>
           </div>
           <div>
             <p>

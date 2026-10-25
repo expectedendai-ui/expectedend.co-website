@@ -94,7 +94,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
           <img src="/media/denzel-rigaud-founder-hero.png" alt="Denzel Rigaud in a navy suit and orange-tinted glasses" />
           <figcaption>
             <strong>Denzel Rigaud</strong>
-            <span className={styles.portraitRole}>Founder and solo full-stack developer</span>
+            <span className={styles.portraitRole}>Founder and full-stack developer</span>
           </figcaption>
         </figure>
       </header>
@@ -123,7 +123,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
             <div data-testid="full-bio">
               <p>
                 Denzel Rigaud founded Expected End LLC and built MyBibleLens and The Water Check independently. He works as the
-                company&apos;s solo full-stack developer, shaping each product from concept through design, engineering, and
+                company&apos;s full-stack developer, shaping each product from concept through design, engineering, and
                 release.
               </p>
               <p>
@@ -153,7 +153,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
           </div>
           <div>
             <dt>Role</dt>
-            <dd>Founder and solo full-stack developer</dd>
+            <dd>Founder and full-stack developer</dd>
           </div>
           <div>
             <dt>Products</dt>

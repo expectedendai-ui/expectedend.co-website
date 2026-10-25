@@ -120,7 +120,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
           <p className={styles.kicker}>Contact Expected End</p>
           <h2 id="contact-title">Start with a little <em>context.</em></h2>
         </div>
-        <p>Choose a few details and we’ll prepare a clear email for you. Your email app opens before anything is sent.</p>
+        <p>Choose a few details and a clear email is prepared for you. Your email app opens before anything is sent.</p>
       </div>
 
       <form className={styles.contactForm} onSubmit={onSubmit}>
@@ -183,7 +183,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         </label>
 
         <label className={styles.contactField}>
-          <span>How did you find us?</span>
+          <span>How did you find Expected End?</span>
           <select name="discovery" defaultValue="" required>
             <option value="" disabled>Choose one</option>
             <option>Instagram</option>
@@ -196,7 +196,7 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         </label>
 
         <label className={`${styles.contactField} ${styles.contactMessage}`}>
-          <span>Tell us what you have in mind</span>
+          <span>What do you have in mind?</span>
           <textarea
             name="message"
             rows={8}
