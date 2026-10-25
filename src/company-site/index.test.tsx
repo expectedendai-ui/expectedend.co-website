@@ -33,7 +33,7 @@ describe("Expected End public site", () => {
     expect(waterCheckArtwork).not.toHaveAttribute("target");
     expect(waterCheckArtwork).not.toHaveAttribute("rel");
 
-    const waterCheckAction = screen.getByRole("link", { name: "Check your baseline" });
+    const waterCheckAction = screen.getAllByRole("link", { name: "Visit app" }).find((link) => link.getAttribute("href") === "/thewatercheckpage")!;
     expect(waterCheckAction).toHaveAttribute("href", "/thewatercheckpage");
     expect(waterCheckAction).not.toHaveAttribute("target");
     expect(waterCheckAction).not.toHaveAttribute("rel");
@@ -42,7 +42,7 @@ describe("Expected End public site", () => {
     const myBibleLensArtwork = screen.getByRole("link", { name: "Visit MyBibleLens" });
     expect(myBibleLensArtwork).toHaveAttribute("target", "_blank");
     expect(myBibleLensArtwork).toHaveAttribute("rel", "noreferrer");
-    expect(screen.getByRole("link", { name: "Visit app" })).toHaveAttribute("target", "_blank");
+    expect(screen.getAllByRole("link", { name: "Visit app" })[0]).toHaveAttribute("target", "_blank");
     expect(screen.queryByRole("link", { name: "Enter store" })).not.toBeInTheDocument();
     expect(screen.queryByText("Store · Coming soon")).not.toBeInTheDocument();
     expect(screen.getByText(/Everything I build under this company points toward the same mission/i)).toBeInTheDocument();
@@ -56,10 +56,10 @@ describe("Expected End public site", () => {
     const stopJSDOMNavigation = (event: MouseEvent) => event.preventDefault();
     window.addEventListener("click", stopJSDOMNavigation);
 
-    fireEvent.click(screen.getByRole("link", { name: "Check your baseline" }), {
+    fireEvent.click(screen.getAllByRole("link", { name: "Visit app" }).find((link) => link.getAttribute("href") === "/thewatercheckpage")!, {
       ctrlKey: true,
     });
-    fireEvent.click(screen.getByRole("link", { name: "Visit app" }), {
+    fireEvent.click(screen.getAllByRole("link", { name: "Visit app" })[0], {
       ctrlKey: true,
     });
     window.removeEventListener("click", stopJSDOMNavigation);

@@ -30,11 +30,11 @@ export const PROJECTS = [
     category: "Hydration community",
     destination: {
       href: "/thewatercheckpage",
-      actionLabel: "Check your baseline",
+      actionLabel: "Visit app",
     },
     image: "/brand/thewatercheck.png",
     tagline: "Understand what you drink. Your own water number, in a tap.",
-    badge: "Coming soon",
+    badge: "",
     artVariant: "watercheck",
     titleClassName: "",
   },
