@@ -43,18 +43,8 @@ describe("Expected End public site", () => {
     expect(myBibleLensArtwork).toHaveAttribute("target", "_blank");
     expect(myBibleLensArtwork).toHaveAttribute("rel", "noreferrer");
     expect(screen.getByRole("link", { name: "Visit app" })).toHaveAttribute("target", "_blank");
-    expect(screen.getAllByRole("link", { name: "Enter store" })).toHaveLength(2);
-    expect(screen.getAllByText("Store · Coming soon")).toHaveLength(2);
-    const myBibleLensStoreArtwork = screen.getByRole("link", { name: "Visit MyBibleLens Store" });
-    expect(myBibleLensStoreArtwork.querySelector("[data-store-collage='mybiblelens']")).toBeInTheDocument();
-    expect(myBibleLensStoreArtwork.querySelectorAll("img")).toHaveLength(4);
-    expect(myBibleLensStoreArtwork.querySelectorAll("[data-merch-sticker]")).toHaveLength(2);
-    const waterCheckStoreArtwork = screen.getByRole("link", { name: "Visit The Water Check Store" });
-    expect(waterCheckStoreArtwork.querySelector("[data-store-collage='watercheck']")).toBeInTheDocument();
-    expect(waterCheckStoreArtwork.querySelector("[data-water-orb]")).toBeInTheDocument();
-    expect(waterCheckStoreArtwork.querySelectorAll("[data-water-apparel]")).toHaveLength(2);
-    expect(waterCheckStoreArtwork.querySelector("img")).toHaveAttribute("src", "/brand/watercheck-store/c-mark-magic-eraser.png");
-    expect(waterCheckStoreArtwork.querySelector("[data-faith-mark]")).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Enter store" })).not.toBeInTheDocument();
+    expect(screen.queryByText("Store · Coming soon")).not.toBeInTheDocument();
     expect(screen.getByText(/Everything I build under this company points toward the same mission/i)).toBeInTheDocument();
     expect(screen.queryByText("JARVIS")).not.toBeInTheDocument();
     expect(screen.queryByText("THE MENU")).not.toBeInTheDocument();
@@ -105,7 +95,7 @@ describe("Expected End public site", () => {
 
     expect(container.textContent).not.toMatch(/[↗↓]/);
     const actionIcons = container.querySelectorAll("svg[data-action-icon]");
-    expect(actionIcons).toHaveLength(6);
+    expect(actionIcons).toHaveLength(4);
     actionIcons.forEach((icon) => {
       expect(icon).toHaveAttribute("aria-hidden", "true");
       expect(icon).toHaveAttribute("focusable", "false");
@@ -114,9 +104,8 @@ describe("Expected End public site", () => {
 
   it("opens each branded store internally with launch-ready coming-soon products", async () => {
     const user = userEvent.setup();
-    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
-
-    await user.click(screen.getAllByRole("link", { name: "Enter store" })[0]);
+    window.history.pushState({}, "", "/mybiblelensstore");
+    const view = render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
     expect(window.location.pathname).toBe("/mybiblelensstore");
     expect(screen.getByRole("heading", { level: 1, name: "MyBibleLens" })).toBeInTheDocument();
     const myBibleLensStoreArt = screen.getByRole("img", { name: "MyBibleLens store logo and sticker collage" });
@@ -124,8 +113,9 @@ describe("Expected End public site", () => {
     expect(myBibleLensStoreArt.querySelectorAll("[data-store-sticker]")).toHaveLength(5);
     expect(screen.getByRole("button", { name: "The Daily Bread Journal coming soon" })).toBeDisabled();
 
-    await user.click(screen.getByRole("link", { name: "Expected End" }));
-    await user.click(screen.getAllByRole("link", { name: "Enter store" })[1]);
+    view.unmount();
+    window.history.pushState({}, "", "/thewatercheckstore");
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
     expect(window.location.pathname).toBe("/thewatercheckstore");
     expect(screen.getByRole("heading", { level: 1, name: "The Water Check" })).toBeInTheDocument();
     expect(document.querySelector("[data-water-intro]")).toBeInTheDocument();

@@ -63,7 +63,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className={`${styles.section} ${styles.projectsSection}`} id="projects" aria-labelledby="projects-title">
         <h2 className={styles.srOnly} id="projects-title">Projects</h2>
         <div className={styles.projectGrid}>
-          {PROJECTS.map((project) => (
+          {PROJECTS.filter((project) => !project.artVariant.endsWith("-store")).map((project) => (
             <article className={styles.project} key={project.name}>
               <a
                 className={styles.projectArt}
@@ -144,9 +144,6 @@ export function HomePage({ onNavigate }: HomePageProps) {
 
       <section className={`${styles.section} ${styles.behindSection}`} aria-labelledby="behind-title">
         <div className={styles.behindCard}>
-          <div className={styles.behindPortrait} aria-hidden="true">
-            <img src="/media/denzel-rigaud-founder.png" alt="" decoding="async" />
-          </div>
           <div className={styles.behindCopy}>
             <p className={styles.kicker}>Behind the work</p>
             <h2 id="behind-title">Every product here started with a question in a fifth-grade classroom.</h2>
