@@ -90,7 +90,7 @@ describe("public-content deployment guard", () => {
     expect(organizationSchema.founder.sameAs).toContain("https://www.wikidata.org/wiki/Q140198525");
     expect(organizationSchema.founder.jobTitle).toBe("Founder and Full-Stack Developer");
     expect(organizationSchema.founder.description).toBe(
-      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."
+      "Denzel Rigaud is the founder and full-stack developer behind Expected End, MyBibleLens, the World's First Sanctuary App for Christianity, and The Water Check."
     );
     expect(organizationSchema.sameAs).toBeUndefined();
     expect(myBibleLens?.sameAs).toContain("https://www.wikidata.org/wiki/Q141251174");

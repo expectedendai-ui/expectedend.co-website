@@ -35,8 +35,8 @@ describe("Expected End contact composer", () => {
     ]);
     await user.selectOptions(priceRange, "$2,000-$10,000");
     await user.selectOptions(screen.getByLabelText("Ideal timeline"), "Within three months");
-    await user.selectOptions(screen.getByLabelText("How did you find us?"), "Instagram");
-    const message = screen.getByLabelText("Tell us what you have in mind");
+    await user.selectOptions(screen.getByLabelText("How did you find Expected End?"), "Instagram");
+    const message = screen.getByLabelText("What do you have in mind?");
     await user.clear(message);
     await user.type(message, "I need a client portal. An NDA may be needed.");
     await user.click(screen.getByRole("button", { name: /Prepare email/ }));

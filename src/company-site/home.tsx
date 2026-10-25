@@ -39,29 +39,23 @@ export function HomePage({ onNavigate }: HomePageProps) {
   return (
     <main className={styles.home}>
       <section className={styles.hero} aria-labelledby="hero-title">
-        <video
-          className={styles.heroVideo}
-          autoPlay
-          loop
-          muted
-          playsInline
-          aria-hidden="true"
-          tabIndex={-1}
-          poster="/media/expected-end-hero-poster.jpg"
-          preload="metadata"
-        >
-          <source src="/media/expected-end-hero.webm" type="video/webm" />
-          <source src="/media/expected-end-hero.mp4" type="video/mp4" />
-        </video>
+        <div className={styles.heroScene} aria-hidden="true">
+          <span className={styles.heroRay} />
+          <span className={`${styles.heroOrb} ${styles.heroOrbOne}`}><img src="/brand/mybiblelens.png" alt="" width="160" height="160" /></span>
+          <span className={`${styles.heroOrb} ${styles.heroOrbTwo}`}><img src="/brand/thewatercheck.png" alt="" width="160" height="160" /></span>
+          <span className={`${styles.heroSpark} ${styles.heroSparkOne}`} />
+          <span className={`${styles.heroSpark} ${styles.heroSparkTwo}`} />
+          <span className={`${styles.heroSpark} ${styles.heroSparkThree}`} />
+        </div>
         <div className={styles.heroGlow} aria-hidden="true" />
         <div className={styles.heroInner}>
           <p className={styles.kicker}>Expected End</p>
           <h1 id="hero-title" className={styles.heroTitle}>Purpose, built <em>beautifully.</em></h1>
           <p className={styles.heroStatement}>
-            We create thoughtful software, productivity tools, digital experiences, and communities that <em>bring people closer to God in exciting and easy ways!</em>
+            Expected End creates thoughtful software, productivity tools, digital experiences, and communities that <em>bring people closer to God in exciting and easy ways!</em>
           </p>
           <a className={`${styles.primaryAction} ${styles.actionWithIcon}`} href="#projects">
-            Meet our projects <ArrowDownIcon className={styles.actionIcon} />
+            See the work <ArrowDownIcon className={styles.actionIcon} />
           </a>
         </div>
       </section>
@@ -69,7 +63,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className={`${styles.section} ${styles.projectsSection}`} id="projects" aria-labelledby="projects-title">
         <h2 className={styles.srOnly} id="projects-title">Projects</h2>
         <div className={styles.projectGrid}>
-          {PROJECTS.map((project) => (
+          {PROJECTS.filter((project) => !project.artVariant.endsWith("-store")).map((project) => (
             <article className={styles.project} key={project.name}>
               <a
                 className={styles.projectArt}
@@ -109,8 +103,9 @@ export function HomePage({ onNavigate }: HomePageProps) {
                 </span>
               </a>
               <div className={styles.projectText}>
-                <p className={styles.status}>{project.category}</p>
+                <p className={styles.status}>{project.category}{project.badge ? <span className={styles.projectBadge}>{project.badge}</span> : null}</p>
                 <h3 className={project.titleClassName ? styles[project.titleClassName] : ""}>{project.name}</h3>
+                <p className={styles.projectTagline}>{project.tagline}</p>
                 <div className={styles.projectActions}>
                   {project.name === "The Water Check" ? (
                     <button
@@ -147,11 +142,24 @@ export function HomePage({ onNavigate }: HomePageProps) {
         </div>
       </section>
 
+      <section className={`${styles.section} ${styles.behindSection}`} aria-labelledby="behind-title">
+        <div className={styles.behindCard}>
+          <div className={styles.behindCopy}>
+            <p className={styles.kicker}>Behind the work</p>
+            <h2 id="behind-title">Every product here started with a question in a fifth-grade classroom.</h2>
+            <p>Grief, faith and a lot of late nights came between that question and these apps. The rest of the story is on its own page.</p>
+            <a className={`${styles.primaryAction} ${styles.actionWithIcon}`} href="/denzel-rigaud" onClick={onNavigate}>
+              Read the story <ArrowUpRightIcon className={styles.actionIcon} />
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className={`${styles.section} ${styles.servicesSection}`} id="services" aria-labelledby="services-title">
         <div className={styles.sectionHead}>
           <p className={styles.kicker}>Selected services</p>
-          <h2 id="services-title">You dream it — <em>we build it</em></h2>
-          <p className={styles.servicesIntro}>Our products come first. When the fit is right, we bring the same thoughtfulness to selected work for others.</p>
+          <h2 id="services-title">You dream it, <em>I build it.</em></h2>
+          <p className={styles.servicesIntro}>The products come first. When the fit is right, the same thoughtfulness goes into selected work for others.</p>
           <p className={styles.servicesGuidance}>Please include a price range for all inquiries and mention in your message if an NDA is needed.</p>
         </div>
         <div className={styles.services}>

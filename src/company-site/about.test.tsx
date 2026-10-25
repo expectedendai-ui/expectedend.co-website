@@ -76,7 +76,7 @@ describe("Expected End About page", () => {
     }
     expect(screen.getByRole("heading", { name: "Technology should help you return to your life." })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Two ideas, one purpose." })).not.toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "Tell the story with us." })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Help tell the story." })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).not.toBeInTheDocument();
 
     const founderStory = screen.getByRole("region", { name: "The story behind Expected End." });
@@ -243,7 +243,7 @@ describe("Expected End About page", () => {
     );
     expect(profileSchema.mainEntity?.jobTitle).toBe("Founder and Full-Stack Developer");
     expect(profileSchema.mainEntity?.description).toBe(
-      "Denzel Rigaud is the founder and solo full-stack developer behind Expected End, MyBibleLens — the World's First Sanctuary App for Christianity — and The Water Check."
+      "Denzel Rigaud is the founder and full-stack developer behind Expected End, MyBibleLens, the World's First Sanctuary App for Christianity, and The Water Check."
     );
 
     await user.click(screen.getByRole("button", { name: /Jeremiah 29:11/ }));
