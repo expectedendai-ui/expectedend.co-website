@@ -127,7 +127,7 @@ describe("Expected End public site", () => {
   it("renders the complete approved service lineup and concise inquiry guidance", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
-    const servicesHeading = screen.getByRole("heading", { level: 2, name: "You dream it. It gets built." });
+    const servicesHeading = screen.getByRole("heading", { level: 2, name: "Bring the idea. Leave with the product." });
     const servicesSection = servicesHeading.closest("section");
     expect(servicesSection).not.toBeNull();
     expect(
