@@ -413,9 +413,9 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <p className="kicker">Your body, charged</p>
               <h2>You run on electricity. Water carries it.</h2>
               <p className="lede">
-                Wellness is a glowing outline of you, in your widget's colors. Water is the medium, electrolytes from the drinks you
-                scan are the conductors, and their carbs are the battery. Tap the brain, the heart or the muscles to learn what each
-                one runs on.
+                Wellness shows your outline filling up with the day's water, standing in your own widget's scene: snow on Winter,
+                sun and waves on Summer. Electrolytes from the drinks you scan are your charge, and their carbs are fuel. Tap the
+                brain, the heart or the muscles to learn what each one runs on.
               </p>
               <ul className="wcl-ticks">
                 <li>
@@ -423,6 +423,9 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 </li>
                 <li>
                   <Check /> Your week in context, your Drink Journal and Caffeine Check, all in one place.
+                </li>
+                <li>
+                  <Check /> Hit 100% and you are fully charged, with a reminder that rest and real food finish the job.
                 </li>
                 <li>
                   <Check /> Every number comes from something you logged or scanned. Nothing is made up.
@@ -434,7 +437,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               </p>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="body" alt="Wellness: a glowing body outline with water, conductors, battery and sweat readouts for today" tilt={-3} />
+              <Phone screen="body" alt="Wellness: a body outline filled to 65% with water, standing in a Summer widget scene, with water, charge, fuel and sweat cards" tilt={-3} />
             </div>
           </div>
         </section>
