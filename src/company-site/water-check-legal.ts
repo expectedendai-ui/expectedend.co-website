@@ -63,13 +63,13 @@ export const WATER_CHECK_LEGAL = {
         ],
       },
       {
-        heading: "Camera, location, notifications and health connections",
+        heading: "Camera, location and notifications",
         paragraphs: [
           "Camera. Used only when you choose to scan a barcode or take a photo of a drink or food.",
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
           "Notifications. Fruit Fast reminders are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent for 90 days so we can keep them rare. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
           "You can turn Crew notifications and streak reminders off separately in the app's Settings, or all of them in your device settings. Signing out or deleting your account removes your phone's push token.",
-          "Health connections. If a connection to Apple Health or Health Connect becomes available and you turn it on, the app requests only the read access shown on your device's permission screen. You can decline or revoke it at any time in your device settings. We do not use health data for advertising and do not sell it.",
+          "The app does not connect to Apple Health or Health Connect.",
         ],
       },
       {
@@ -342,8 +342,7 @@ export const WATER_CHECK_LEGAL = {
           "activity level, sports, whether you drink coffee, and your climate;",
           "your daily water goal and each day's totals from drinks and food;",
           "a record that you accepted the Fruit Fast safety note;",
-          "your percent of goal and streak, which your Crew can see if you join one;",
-          "with your permission, records read from Apple Health or Health Connect, if that connection is available and you turn it on.",
+          "your percent of goal and streak, which your Crew can see if you join one.",
         ],
       },
       {
@@ -356,7 +355,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Where it comes from and why",
         paragraphs: [
-          "It comes from you, from your device, and from a health platform only if you connect one. We use it only to give you the app: to work out your daily water number, show your history, calendar and widgets, keep adult-only features for adults, run Drink Check, and show your Crew the progress you choose to share. We do not use it for advertising.",
+          "It comes from you and from your device. The app does not read Apple Health or Health Connect. We use it only to give you the app: to work out your daily water number, show your history, calendar and widgets, keep adult-only features for adults, run Drink Check, and show your Crew the progress you choose to share. We do not use it for advertising.",
         ],
       },
       {
