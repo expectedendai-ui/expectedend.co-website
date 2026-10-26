@@ -45,12 +45,12 @@ const FAQ = [
     a: "From your weight, height, activity, climate and life stage, starting from public guidance such as the US National Academies' water references. The free calculator shows its working, so you can see every step. It is a starting point, not a rule.",
   },
   {
-    q: "What happens to my drink photos?",
-    a: "Drink Check sends the photo through our server to Google's Gemini AI, which reads the label and sends back what it found. We do not keep the photo. AI can be wrong, so check the real label, and never use Drink Check for allergies or medical diets.",
+    q: "What happens when I scan a drink?",
+    a: "A barcode scan sends only the barcode number to Open Food Facts, a free, open food database, and gets back what the label says. A photo goes through our server to Google's Gemini AI, which reads the label and sends back what it found. We do not keep the photo. Labels and AI can be wrong, so check the real label, and never use Drink Check for allergies or medical diets.",
   },
   {
     q: "What stays on my phone?",
-    a: "Your drink log, Drink Journal, saved drinks and foods, Guide pearls and cycle notes. Your account, sign-up answers and daily totals are kept with your account so they follow you to a new phone. We do not sell your information.",
+    a: "Your drink log, Drink Journal, saved drinks and foods, Guide pearls, training sessions and cycle notes. Your account, sign-up answers and daily totals are kept with your account so they follow you to a new phone. We do not sell your information.",
   },
   {
     q: "Who is it for?",
@@ -58,7 +58,7 @@ const FAQ = [
   },
   {
     q: "What does it cost?",
-    a: "The app is free to start: log water and food, get your number, see your calendar, join a Crew and use the Classic widget. During our opening year, one optional purchase unlocks everything, once, with no subscription. The App Store or Google Play shows the price in your currency before you buy.",
+    a: "The app is free to start: get your number, log water and food, scan any barcode, read every Guide chapter, join a Crew, and use the Classic, Seasons, Body and Spark widgets. During our opening year, one optional purchase unlocks everything, once, with no subscription. The App Store or Google Play shows the price in your currency before you buy.",
   },
   {
     q: "How do I delete my account?",
@@ -126,6 +126,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <a href="#drink-check">Drink Check</a>
               <a href="#guide">Guide</a>
               <a href="#widgets">Widgets</a>
+              <a href="#body">Your body</a>
               <a href="#pricing">Pricing</a>
               <a href="#faq">FAQ</a>
               <a className="solid" href="/thewatercheck-calculator" onClick={onNavigate}>
@@ -146,8 +147,8 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 We'll <em>keep count</em>.
               </h1>
               <p className="sub">
-                Your own water number, drinks you can scan, a widget you will actually keep, and a pufferfish named Bubbles
-                to show you around. No gallon rules, no influencers, no guilt.
+                Your own water number, drinks you can scan, your body charging up, a widget you will actually keep, and a
+                pufferfish named Bubbles to show you around. No gallon rules, no influencers, no guilt.
               </p>
               <div className="cta-row">
                 <button type="button" className="store" disabled>
@@ -205,7 +206,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
 
             <div className="wcl-hero-art">
               <Phone screen="today" alt="The Water Check Today screen: 40 oz of an 81.2 oz goal, with quick-add buttons and today's log" tilt={-4} className="wcl-hero-phone wcl-hero-phone--back" />
-              <Phone screen="widgets" alt="The widget studio, showing a Running widget and rows of widget styles" tilt={5} className="wcl-hero-phone wcl-hero-phone--front" />
+              <Phone screen="widgets" alt="The widget studio, showing a Body widget in Hologram and rows of widget styles" tilt={5} className="wcl-hero-phone wcl-hero-phone--front" />
               <button type="button" className="wcl-hero-bubbles" onClick={() => play("cheer")} aria-label="Make Bubbles do a trick">
                 <Bubbles trick={trick.trick} trickKey={trick.key} size={132} />
                 <span className="wcl-say" aria-hidden="true">
@@ -217,11 +218,11 @@ export function WaterCheckLanding({ onNavigate }: Props) {
 
           <div className="wrap wcl-stats" data-rise>
             <p>
-              <strong>87</strong>
+              <strong>89</strong>
               <span>widget styles</span>
             </p>
             <p>
-              <strong>15</strong>
+              <strong>21</strong>
               <span>Guide pearls to find</span>
             </p>
             <p>
@@ -277,8 +278,8 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <p className="kicker">Drink Check</p>
               <h2>Scan it once. Know it. Tap it forever.</h2>
               <p className="lede">
-                Take a photo of a drink and the app reads the label: sugar in teaspoons, caffeine, and every ingredient marked
-                Good, Fine, Watch or Avoid. It even draws the drink in its own color.
+                Scan the barcode, free and as often as you like. No barcode? Take a photo and the app reads the label. Either way
+                you see sugar in teaspoons, caffeine, electrolytes, and every ingredient marked Good, Fine, Watch or Avoid.
               </p>
               <ul className="wcl-scores" aria-label="Drink Check score colors">
                 <li style={{ "--c": "#3ddc84" } as React.CSSProperties}>Great</li>
@@ -288,7 +289,10 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               </ul>
               <ul className="wcl-ticks">
                 <li>
-                  <Check /> Save it, and next time it is one tap on the Add page. No new scan.
+                  <Check /> Electrolytes from the label: sodium, potassium, magnesium and calcium, with their Daily Values.
+                </li>
+                <li>
+                  <Check /> Save it (rename it if you like), and next time it is one tap on the Add page. No new scan.
                 </li>
                 <li>
                   <Check /> Scan a food too: a mango adds to your mango, something new becomes its own bubble.
@@ -298,12 +302,12 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 </li>
               </ul>
               <p className="wcl-fine wcl-fine--deep">
-                A quick read of the label, not a lab test or a rating of any brand. AI can be wrong, so check the real label,
-                especially for allergies. Photos are not kept.
+                A quick read of the label, not a lab test or a rating of any brand. Barcode results come from Open Food Facts, and
+                AI can be wrong, so check the real label, especially for allergies. Photos are not kept.
               </p>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="drink-check" alt="A Drink Check result for a sports drink: score 66, Good, with sugar, caffeine and ingredients" tilt={3} />
+              <Phone screen="drink-check" alt="A Drink Check result for a sports drink: score 66, Good, with sugar, caffeine and its electrolytes from the label" tilt={3} />
             </div>
           </div>
         </section>
@@ -341,9 +345,15 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <p className="kicker">The Water Check Guide</p>
               <h2>Pop a bubble. Keep a pearl.</h2>
               <p className="lede">
-                Every chapter is a bubble with a question on it. What is your pee telling you? Is a gallon a day real? What is
-                plastic doing in your water? Read one to the end and it pops into a pearl. About one in six is a rare golden one.
+                Every chapter is a bubble with a question on it, and every one is free. Why do you feel "low battery"? What is your
+                pee telling you? Is a gallon a day real? Read one to the end and it pops into a pearl. About one in six is a rare
+                golden one.
               </p>
+              <ul className="wcl-ticks">
+                <li>
+                  <Check /> Your electric body: six chapters on the signal, sodium and potassium, magnesium and calcium, and fuel.
+                </li>
+              </ul>
               <div className="wcl-forher">
                 <p className="kicker" style={{ color: "#ff9ac2" }}>
                   For her
@@ -359,7 +369,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               </p>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="guide" alt="The Water Check Guide: question bubbles, and a For her section in rose" tilt={3} />
+              <Phone screen="guide" alt="The Water Check Guide: Your electric body chapters as question bubbles" tilt={3} />
             </div>
           </div>
         </section>
@@ -369,14 +379,22 @@ export function WaterCheckLanding({ onNavigate }: Props) {
             <div className="wcl-split-copy" data-rise>
               <p className="kicker">Widgets</p>
               <h2>
-                <span className="wcl-big">87</span> styles for your Home Screen.
+                <span className="wcl-big">89</span> styles for your Home Screen.
               </h2>
               <p className="lede">
                 Sports, places, seasons, sea life and designs, in small, medium and large, with layouts from rings to waves. Tell
                 us your sport at sign-up and your sport's widget shows up first. Log a drink straight from your Home Screen.
               </p>
+              <ul className="wcl-ticks">
+                <li>
+                  <Check /> Body: your outline fills up with the day's water. Spark: a battery fills with today's charge.
+                </li>
+                <li>
+                  <Check /> Put the Charge meter on any widget to watch your electrolytes instead of your water.
+                </li>
+              </ul>
               <div className="wcl-chips">
-                {["Running", "Cross Country", "Volleyball", "Basketball", "Sea Turtle", "Jellyfish", "Beach", "Forest", "girlypopslay", "Seasons"].map(
+                {["Body", "Spark", "Running", "Cross Country", "Volleyball", "Basketball", "Sea Turtle", "Jellyfish", "Beach", "girlypopslay", "Seasons"].map(
                   (name) => (
                     <span key={name}>{name}</span>
                   ),
@@ -384,7 +402,39 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               </div>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="widgets" alt="The widget studio with Sports, Places and Designs rows" tilt={-3} />
+              <Phone screen="widgets" alt="The widget studio with the Body widget in Hologram, its colorways, layouts and the Charge meter" tilt={-3} />
+            </div>
+          </div>
+        </section>
+
+        <section className="band band--deep water wcl-split" id="body">
+          <div className="wrap wcl-split-grid">
+            <div className="wcl-split-copy" data-rise>
+              <p className="kicker">Your body, charged</p>
+              <h2>You run on electricity. Water carries it.</h2>
+              <p className="lede">
+                Wellness is a glowing outline of you, in your widget's colors. Water is the medium, electrolytes from the drinks you
+                scan are the conductors, and their carbs are the battery. Tap the brain, the heart or the muscles to learn what each
+                one runs on.
+              </p>
+              <ul className="wcl-ticks">
+                <li>
+                  <Check /> Tap "I trained today" for your sweat estimate and a recharge plan: water, sodium and carbs.
+                </li>
+                <li>
+                  <Check /> Your week in context, your Drink Journal and Caffeine Check, all in one place.
+                </li>
+                <li>
+                  <Check /> Every number comes from something you logged or scanned. Nothing is made up.
+                </li>
+              </ul>
+              <p className="wcl-fine wcl-fine--deep">
+                General estimates from published sports and nutrition guidance, not medical or sports-medicine advice. If you watch
+                your sodium or potassium for a health reason, follow your doctor's advice.
+              </p>
+            </div>
+            <div className="wcl-split-art" data-rise>
+              <Phone screen="body" alt="Wellness: a glowing body outline with water, conductors, battery and sweat readouts for today" tilt={-3} />
             </div>
           </div>
         </section>
@@ -435,17 +485,6 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                   </button>
                 ))}
               </fieldset>
-              {/* A hint, never the answer: finding it is the fun. */}
-              <aside className="wcl-secret" aria-label="A hint">
-                <span className="wcl-secret-mark" aria-hidden="true">?</span>
-                <div>
-                  <p className="wcl-secret-kicker">Psst. A secret.</p>
-                  <p>
-                    There is a game hidden in the app. Bubbles will only give you a riddle: <em>the impatient never find it.
-                    Count to three where every day begins.</em>
-                  </p>
-                </div>
-              </aside>
             </div>
           </div>
         </section>
@@ -459,7 +498,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 <h3>Free</h3>
                 <p className="wcl-plan-sub">Everything you need to drink enough.</p>
                 <ul>
-                  {["Your own water number", "Log drinks and water-rich food", "Your calendar and streaks", "The Classic widget", "Join a friend's Crew", "A free Drink Check scan"].map((item) => (
+                  {["Your own water number", "Log drinks and water-rich food", "Barcode scans, free and unlimited", "3 photo scans a week", "Every Guide chapter", "Classic, Seasons, and plain Body and Spark widgets", "Your calendar, streaks and a friend's Crew"].map((item) => (
                     <li key={item}>
                       <Check /> {item}
                     </li>
@@ -471,7 +510,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 <h3>Everything Forever</h3>
                 <p className="wcl-plan-sub">One purchase, no subscription.</p>
                 <ul>
-                  {["All 87 widget styles", "Your Splash Slice best on your widget, in a Crew", "Wellness, the Guide and your Drink Journal", "Drink Check photo scans", "Make your own Crews", "Everything we add later"].map((item) => (
+                  {["Every widget style and colorway", "Your body, charged: the hologram, training and recharge plans", "Your Drink Journal and Caffeine Check", "More photo scans", "Make your own Crews", "Everything we add later"].map((item) => (
                     <li key={item}>
                       <Check /> {item}
                     </li>
@@ -493,7 +532,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
             <div className="wcl-data">
               <article>
                 <h3>Stays on your phone</h3>
-                <p>Each drink and food you log, your Drink Journal, saved drinks and foods, Guide pearls, cycle notes and reminders.</p>
+                <p>Each drink and food you log, your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle notes and reminders.</p>
               </article>
               <article>
                 <h3>Kept with your account</h3>

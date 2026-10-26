@@ -6,7 +6,7 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "October 21, 2026";
+const EFFECTIVE = "October 26, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -26,8 +26,9 @@ export const WATER_CHECK_LEGAL = {
         heading: "The short version",
         paragraphs: ["The details are below, but these are the main points:"],
         bullets: [
-          "Your drink log, Drink Journal, saved drinks and foods, Guide pearls and cycle notes stay on your phone.",
+          "Your drink log, Drink Journal, saved drinks and foods, Guide pearls, training sessions and cycle notes stay on your phone.",
           "Your account, your sign-up answers, your daily water totals and your Crew live on our servers so they follow you to a new phone.",
+          "Barcode scans look a drink up in Open Food Facts, a free, open food database. Only the barcode number is sent.",
           "Drink Check photos are read by Google's Gemini AI and are not kept by us.",
           "We do not sell your information or share it with advertising networks.",
           "You can delete your account and its data at any time, in the app or by email.",
@@ -41,20 +42,21 @@ export const WATER_CHECK_LEGAL = {
           "Daily totals. For each day you log, your account keeps the total from drinks, the total from food and your goal for that day, so your calendar and streaks survive a new phone.",
           "Fruit Fast. When an adult starts Fruit Fast, we keep a record that the safety note was read and accepted, with the date and the version of the note.",
           "Crew. If you use Crew, we store the Crews you make or join, your first name and widget colors as your Crew sees them, your percent of goal and streak, the quick messages and cheers you send, and any blocks and reports.",
-          "Splash Slice. If you play the hidden game, we store your best score.",
           "Support. If you email us, we receive your email address and whatever you include.",
         ],
       },
       {
         heading: "Information that stays on your phone",
         paragraphs: [
-          "Some things never leave your device and are not sent to your account: each drink and food you log, your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, cycle notes, activity notes, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
+          "Some things never leave your device and are not sent to your account: each drink and food you log, your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, cycle notes, activity notes, the training sessions you log (sport, minutes and effort), the body outline you pick on the Wellness page, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
+          "Your Home Screen widget reads what it shows from the app on the same phone, including today's electrolyte charge from the drinks you scanned. That stays on the phone too.",
           "Because we do not have this information, we cannot restore it for you. Deleting the app or clearing its data erases it.",
         ],
       },
       {
-        heading: "Drink Check photo scans and AI",
+        heading: "Drink Check: barcode and photo scans",
         paragraphs: [
+          "When you scan a drink's barcode, or type one in, the app sends only the barcode number from your phone to Open Food Facts (world.openfoodfacts.org), a free, open food database, and gets back what its label says: the drink's name, size, sugar, caffeine, carbohydrate and electrolytes (sodium, potassium, magnesium and calcium). To suggest similar drinks, the app may also ask Open Food Facts for other drinks in the same category. No account details, photos or location are sent. Open Food Facts receives the request the way any website does, under its own privacy policy.",
           "When you take a photo of a drink or a food, the app makes the image smaller and sends it through our server to Google's Gemini API. Gemini reads it and returns what it found: for a drink, its name, size, sugar, caffeine and ingredients; for a food, what it is and about how much water it holds. The app asks before your first scan.",
           "We do not store the photo. Our server keeps a count of how many scans your account used, so the free allowance works. Google processes the photo under its own terms for the Gemini API.",
           "AI can be wrong. A Drink Check result is a quick read of a label, not a lab test, a health rating of a product or medical advice. Always check the real label, and never rely on Drink Check for allergies or medical diets.",
@@ -63,18 +65,11 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Camera, location, notifications and health connections",
         paragraphs: [
-          "Camera. Used only when you choose to scan a drink or food.",
+          "Camera. Used only when you choose to scan a barcode or take a photo of a drink or food.",
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
           "Notifications. Fruit Fast reminders are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent for 90 days so we can keep them rare. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
           "You can turn Crew notifications and streak reminders off separately in the app's Settings, or all of them in your device settings. Signing out or deleting your account removes your phone's push token.",
           "Health connections. If a connection to Apple Health or Health Connect becomes available and you turn it on, the app requests only the read access shown on your device's permission screen. You can decline or revoke it at any time in your device settings. We do not use health data for advertising and do not sell it.",
-        ],
-      },
-      {
-        heading: "Splash Slice",
-        paragraphs: [
-          "If you play Splash Slice, the game hidden in the app, your best score is kept on your phone and with your account. People in a Crew with you can see your first name and your best score. If you have the one-time unlock and are in a Crew, your Home Screen widget can show your best score too. Deleting your account deletes your score.",
-          "Only your best score is kept: not each round, your swipes, or what you sliced. The game's music and sounds are made on your phone and send nothing anywhere.",
         ],
       },
       {
@@ -113,6 +108,7 @@ export const WATER_CHECK_LEGAL = {
           "Supabase: hosts our database, sign-in and server functions.",
           "Apple and Google: sign-in, the App Store and Google Play.",
           "Google (Gemini API): reads Drink Check photos.",
+          "Open Food Facts: the barcode number of a drink you scan, sent from your phone.",
           "Google (Firebase Cloud Messaging) and Apple: deliver push notifications.",
           "RevenueCat: purchase records.",
           "Open-Meteo: rounded coordinates, only when you ask for current weather.",
@@ -147,7 +143,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Children and teens",
         paragraphs: [
           "The Water Check is not for children under 13, and we do not knowingly collect information from them. If we learn that a child under 13 has an account, we will delete it. A parent or guardian who believes this has happened can email us.",
-          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. Teens are never offered Fruit Fast or alcohol logging, and in Splash Slice they see sodas and energy drinks instead of alcoholic drinks.",
+          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. Teens are never offered Fruit Fast or alcohol logging.",
         ],
       },
       {
@@ -195,7 +191,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Health and safety: please read",
         paragraphs: [
-          "The Water Check is a general wellness app. It is not a medical device, and it does not diagnose, treat, cure or prevent any disease or condition. Its water number is an educational estimate from general guidance, not a prescription. The P-Meter, the Guide and every score in the app are general information.",
+          "The Water Check is a general wellness app. It is not a medical device, and it does not diagnose, treat, cure or prevent any disease or condition. Its water number is an educational estimate from general guidance, not a prescription. The P-Meter, the Guide, the body charge, sweat estimates and recharge plans after training, and every score in the app are general information, not medical or sports-medicine advice.",
           "Talk to a doctor or other qualified clinician before changing how much you drink or eat, especially if you are pregnant or breastfeeding, are an older adult, take medicine that affects fluid or salt balance, or have kidney, heart, liver or thyroid disease, diabetes, or a history of eating disorders. Do not force fluids: drinking too much water too fast can be dangerous. If you feel unwell, stop and get care. In an emergency, call 911 or your local emergency number.",
         ],
       },
@@ -203,6 +199,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Drink Check and other AI features",
         paragraphs: [
           "Drink Check uses artificial intelligence to read photos, and AI makes mistakes. It may misread a label, a size, sugar, caffeine or an ingredient, or mistake one food for another. A Drink Check score is a quick read of a label to help you think about a drink. It is not a health rating, a safety certification, or a statement about any brand or product.",
+          "Barcode results come from Open Food Facts, a database that anyone can edit, so a drink may be missing, out of date or wrong there. Electrolytes and charge only count what labels list.",
           "Always read the real label. Never use Drink Check to decide whether something is safe for an allergy, intolerance, medical diet or medicine. Food scans estimate water content and are approximate.",
         ],
       },
@@ -211,13 +208,6 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Fruit Fast is for adults only. It is not for anyone who is pregnant or breastfeeding, has diabetes, kidney disease or a history of eating disorders, takes medicine that needs regular meals, or follows a diet set by a doctor. You choose to start it and can stop at any time; stop if you feel unwell.",
           "Alcohol logging is only for people of legal drinking age where they live, and the app asks you to confirm this first. The app does not encourage drinking alcohol, and alcohol adds nothing to your water for the day. Never drink and drive.",
-        ],
-      },
-      {
-        heading: "Splash Slice",
-        paragraphs: [
-          "Splash Slice is a free game hidden in the app. In it, drinks are the things to avoid: slicing one costs points and makes the screen tipsy. Adults of legal drinking age see alcoholic drinks; everyone else sees sodas and energy drinks. The game is a reminder to choose water, and it does not encourage drinking alcohol.",
-          "Scores are just for fun. They have no cash value and cannot be traded or redeemed. Scores outside what the game can produce are not accepted, and we may remove scores that look tampered with or that break these terms. Showing your best score on your widget is part of the one-time unlock.",
         ],
       },
       {
@@ -359,7 +349,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Health data that stays on your phone",
         paragraphs: [
-          "Your individual drink and food entries, Drink Journal (including how drinks made you feel), cycle notes, activity notes, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them.",
+          "Your individual drink and food entries, Drink Journal (including how drinks made you feel and the electrolytes in them), cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them.",
           "Drink Check photos are sent through our server to Google's Gemini API to be read and are not stored by us. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
         ],
       },
@@ -422,7 +412,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "What is deleted",
         paragraphs: [
-          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, Splash Slice best score, notification settings and push tokens, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
+          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, notification settings and push tokens, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
         ],
       },
       {
