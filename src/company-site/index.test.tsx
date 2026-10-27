@@ -285,7 +285,7 @@ describe("Expected End public site", () => {
       "href",
       "https://www.instagram.com/thewatercheck?stkn=dW00MHRucTY1Nmto"
     );
-    expect(screen.getByRole("link", { name: "The Water Check Privacy Notice" })).toHaveAttribute("href", "/thewatercheck/privacy");
+    expect(screen.getByRole("link", { name: "The Water Check Privacy Policy" })).toHaveAttribute("href", "/thewatercheck/privacy");
     expect(document.title).toBe("The Water Check — Hydration App & Free Calculator");
     expect(screen.queryByRole("navigation", { name: "Main navigation" })).not.toBeInTheDocument();
   });

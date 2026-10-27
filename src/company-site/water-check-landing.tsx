@@ -548,7 +548,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
             </div>
             <p className="wcl-data-links">
               <a href="/thewatercheck/privacy" onClick={onNavigate}>
-                Privacy Notice
+                Privacy Policy
               </a>
               <a href="/thewatercheck/consumer-health-data" onClick={onNavigate}>
                 Consumer Health Data Policy
@@ -619,12 +619,17 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <ul>
                 <li>
                   <a href="/thewatercheck/privacy" onClick={onNavigate}>
-                    The Water Check Privacy Notice
+                    The Water Check Privacy Policy
                   </a>
                 </li>
                 <li>
                   <a href="/thewatercheck/terms" onClick={onNavigate}>
-                    The Water Check Terms of Use
+                    The Water Check Terms and Conditions
+                  </a>
+                </li>
+                <li>
+                  <a href="/thewatercheck/community-guidelines" onClick={onNavigate}>
+                    Community Guidelines
                   </a>
                 </li>
                 <li>

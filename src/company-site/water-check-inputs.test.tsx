@@ -18,7 +18,7 @@ describe("Water Check footer", () => {
       "https://www.instagram.com/thewatercheck/"
     );
     expect(within(nav).getByRole("link", { name: "The store" })).toHaveAttribute("href", "/thewatercheckstore");
-    expect(within(nav).getByRole("link", { name: "Privacy Notice" })).toHaveAttribute("href", "/thewatercheck/privacy");
+    expect(within(nav).getByRole("link", { name: "Privacy Policy" })).toHaveAttribute("href", "/thewatercheck/privacy");
     expect(within(footer).getByRole("link", { name: "Expected End LLC" })).toHaveAttribute("href", "/");
     // The account is for everyone: no verse, no blessing, no company mission on this page.
     expect(within(footer).queryByText(/Jeremiah/)).not.toBeInTheDocument();
