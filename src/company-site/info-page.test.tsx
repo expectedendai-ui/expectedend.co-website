@@ -6,8 +6,9 @@ describe("Expected End information pages", () => {
   it.each([
     ["/terms", "Website Terms of Use"],
     ["/privacy", "Privacy Statement"],
-    ["/thewatercheck/privacy", "The Water Check Privacy Notice"],
-    ["/thewatercheck/terms", "The Water Check Terms of Use"],
+    ["/thewatercheck/privacy", "The Water Check Privacy Policy"],
+    ["/thewatercheck/terms", "The Water Check Terms and Conditions"],
+    ["/thewatercheck/community-guidelines", "The Water Check Community Guidelines"],
     ["/thewatercheck/consumer-health-data", "Consumer Health Data Privacy Policy"],
     ["/thewatercheck/delete-account", "Delete your account"],
     ["/accessibility", "Accessibility"],

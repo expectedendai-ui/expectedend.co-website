@@ -11,6 +11,7 @@ export type CompanyRouteKey =
   | "watercheck-terms"
   | "watercheck-health-data"
   | "watercheck-delete-account"
+  | "watercheck-community"
   | "accessibility"
   | "mybiblelens-store"
   | "watercheck-store"
@@ -84,7 +85,7 @@ const ROUTES: PublicRoute[] = [
     family: "company",
     path: "/thewatercheck/privacy",
     navTheme: "water",
-    title: "The Water Check Privacy Notice — Expected End",
+    title: "The Water Check Privacy Policy | Expected End",
     description: "What The Water Check collects, what stays on your phone, who helps run the app, and your choices.",
   },
   {
@@ -92,7 +93,7 @@ const ROUTES: PublicRoute[] = [
     family: "company",
     path: "/thewatercheck/terms",
     navTheme: "water",
-    title: "The Water Check Terms of Use — Expected End",
+    title: "The Water Check Terms and Conditions | Expected End",
     description: "Terms for using The Water Check app, including health and safety, AI, Crew rules and purchases.",
   },
   {
@@ -110,6 +111,14 @@ const ROUTES: PublicRoute[] = [
     navTheme: "water",
     title: "Delete your account | The Water Check",
     description: "How to delete your The Water Check account and data, in the app or by email.",
+  },
+  {
+    key: "watercheck-community",
+    family: "company",
+    path: "/thewatercheck/community-guidelines",
+    navTheme: "water",
+    title: "Community Guidelines | The Water Check",
+    description: "How Crews in The Water Check stay friendly: the rules, reporting and blocking, and what happens when rules are broken.",
   },
   {
     key: "accessibility",

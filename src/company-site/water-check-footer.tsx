@@ -44,10 +44,13 @@ export function WaterCheckFooter({ onNavigate, backToTopHref = "#water-check-tit
           <div>
             <p className="waterCheckFooterHeading">The fine print</p>
             <a href="/thewatercheck/terms" onClick={onNavigate}>
-              Terms of Use
+              Terms and Conditions
             </a>
             <a href="/thewatercheck/privacy" onClick={onNavigate}>
-              Privacy Notice
+              Privacy Policy
+            </a>
+            <a href="/thewatercheck/community-guidelines" onClick={onNavigate}>
+              Community Guidelines
             </a>
             <a href="/thewatercheck/consumer-health-data" onClick={onNavigate}>
               Consumer Health Data

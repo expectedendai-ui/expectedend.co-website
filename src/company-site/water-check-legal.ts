@@ -1,7 +1,7 @@
 import type { LegalPageContent } from "./legal-content";
 
 /**
- * The Water Check app's legal pages. The app shows a shorter copy of the Privacy Notice and Terms
+ * The Water Check app's legal pages. The app shows a shorter copy of the Privacy Policy and Terms
  * and links here for the full text, so the two must say the same thing: when the app changes what
  * it collects or how it works, update both on the same day and move the effective date.
  */
@@ -12,14 +12,14 @@ const EMAIL = "expectedendai@gmail.com";
 export const WATER_CHECK_LEGAL = {
   "watercheck-privacy": {
     eyebrow: "The Water Check",
-    title: "The Water Check Privacy Notice",
+    title: "The Water Check Privacy Policy",
     intro:
-      "This notice explains what The Water Check app collects, where it is kept, who helps us run it, and the choices you have. The app is made by Expected End LLC, a Florida company. Our Expected End website has its own privacy statement.",
+      "This policy explains what The Water Check app collects, where it is kept, who helps us run it, and the choices you have. The app is made by Expected End LLC, a Florida company. Our Expected End website has its own privacy statement.",
     effectiveDate: EFFECTIVE,
     related: [
       { label: "Consumer Health Data Privacy Policy", href: "/thewatercheck/consumer-health-data" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
-      { label: "Terms of Use", href: "/thewatercheck/terms" },
+      { label: "Terms and Conditions", href: "/thewatercheck/terms" },
     ],
     sections: [
       {
@@ -178,12 +178,12 @@ export const WATER_CHECK_LEGAL = {
 
   "watercheck-terms": {
     eyebrow: "The Water Check",
-    title: "The Water Check Terms of Use",
+    title: "The Water Check Terms and Conditions",
     intro:
       "These terms are an agreement between you and Expected End LLC, a Florida company, for The Water Check app. By downloading or using the app you agree to them. Please read the health and safety section closely.",
     effectiveDate: EFFECTIVE,
     related: [
-      { label: "Privacy Notice", href: "/thewatercheck/privacy" },
+      { label: "Privacy Policy", href: "/thewatercheck/privacy" },
       { label: "Consumer Health Data Privacy Policy", href: "/thewatercheck/consumer-health-data" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
     ],
@@ -314,7 +314,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Everything else",
         paragraphs: [
-          "These terms, together with the Privacy Notice and Consumer Health Data Privacy Policy, are the whole agreement between you and us about the app. If any part is found unenforceable, the rest still applies. If we do not enforce a part right away, we have not given up the right to do so later. You may not transfer these terms; we may transfer them as part of a merger, sale or reorganization. The app shows these terms in many languages; if a translation differs from this English version, the English version controls to the extent the law allows.",
+          "These terms, together with the Privacy Policy, the Community Guidelines and the Consumer Health Data Privacy Policy, are the whole agreement between you and us about the app. If any part is found unenforceable, the rest still applies. If we do not enforce a part right away, we have not given up the right to do so later. You may not transfer these terms; we may transfer them as part of a merger, sale or reorganization. The app shows these terms in many languages; if a translation differs from this English version, the English version controls to the extent the law allows.",
           "We may update these terms. If a change matters, we will tell you in the app before it applies, and continuing to use the app after that means you accept the new terms. If you do not agree, please stop using the app and delete your account.",
           `Contact: Expected End LLC, Florida, United States. ${EMAIL}.`,
         ],
@@ -326,10 +326,10 @@ export const WATER_CHECK_LEGAL = {
     eyebrow: "The Water Check",
     title: "Consumer Health Data Privacy Policy",
     intro:
-      "Some states, including Washington, Nevada and Connecticut, give extra protection to information about your health. This policy explains how The Water Check, made by Expected End LLC, handles that kind of information. It adds to our Privacy Notice.",
+      "Some states, including Washington, Nevada and Connecticut, give extra protection to information about your health. This policy explains how The Water Check, made by Expected End LLC, handles that kind of information. It adds to our Privacy Policy.",
     effectiveDate: EFFECTIVE,
     related: [
-      { label: "Privacy Notice", href: "/thewatercheck/privacy" },
+      { label: "Privacy Policy", href: "/thewatercheck/privacy" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
     ],
     sections: [
@@ -393,8 +393,8 @@ export const WATER_CHECK_LEGAL = {
       "You can delete your The Water Check account and its data at any time. It takes a few seconds in the app, or you can ask us by email if you no longer have the app.",
     effectiveDate: EFFECTIVE,
     related: [
-      { label: "Privacy Notice", href: "/thewatercheck/privacy" },
-      { label: "Terms of Use", href: "/thewatercheck/terms" },
+      { label: "Privacy Policy", href: "/thewatercheck/privacy" },
+      { label: "Terms and Conditions", href: "/thewatercheck/terms" },
     ],
     sections: [
       {
@@ -424,6 +424,32 @@ export const WATER_CHECK_LEGAL = {
         heading: "Purchases are not cancelled",
         paragraphs: [
           "Deleting your account does not cancel an App Store or Google Play subscription or refund a purchase. Manage those in your store account settings.",
+        ],
+      },
+    ],
+  },
+  "watercheck-community": {
+    eyebrow: "The Water Check",
+    title: "The Water Check Community Guidelines",
+    intro:
+      "Crews are small groups of friends, family or teammates who cheer each other on. These rules keep them friendly for everyone. Joining or making a Crew means you agree to them, along with our Terms and Conditions.",
+    effectiveDate: "October 27, 2026",
+    related: [
+      { label: "Terms and Conditions", href: "/thewatercheck/terms" },
+      { label: "Privacy Policy", href: "/thewatercheck/privacy" },
+    ],
+    sections: [
+      { heading: "Cheer each other on", paragraphs: ["Crews are for encouragement. Celebrate the wins, big and small."] },
+      { heading: "Keep names clean", paragraphs: ["No hateful, sexual, violent or bullying Crew names or display names."] },
+      { heading: "No pressure", paragraphs: ["Never push anyone to drink more than their number, to fast or to train while hurt. Every body is different."] },
+      { heading: "Respect privacy", paragraphs: ["What you see in a Crew stays in the Crew. Don't share someone else's day or health outside it."] },
+      { heading: "No spam or selling", paragraphs: ["Crews are not for ads, links or selling anything."] },
+      { heading: "Report and block", paragraphs: ["If someone breaks these rules, use Report or Block on their bubble in the app. We review every report."] },
+      {
+        heading: "If the rules are broken",
+        paragraphs: [
+          "We can remove a name or a Crew. Serious or repeated cases can lose Crew access or have their account removed.",
+          `Questions or concerns? Email ${EMAIL}, or use Contact support in the app's Settings.`,
         ],
       },
     ],
