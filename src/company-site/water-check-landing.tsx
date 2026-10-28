@@ -126,7 +126,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <a href="#drink-check">Drink Check</a>
               <a href="#guide">Guide</a>
               <a href="#widgets">Widgets</a>
-              <a href="#body">Your body</a>
+              <a href="#progress">Progress</a>
               <a href="#pricing">Pricing</a>
               <a href="#faq">FAQ</a>
               <a className="solid" href="/thewatercheck-calculator" onClick={onNavigate}>
@@ -407,37 +407,37 @@ export function WaterCheckLanding({ onNavigate }: Props) {
           </div>
         </section>
 
-        <section className="band band--deep water wcl-split" id="body">
+        <section className="band band--deep water wcl-split" id="progress">
           <div className="wrap wcl-split-grid">
             <div className="wcl-split-copy" data-rise>
-              <p className="kicker">Your body, charged</p>
-              <h2>You run on electricity. Water carries it.</h2>
+              <p className="kicker">Progress</p>
+              <h2>See what's in your drinks, bar by bar.</h2>
               <p className="lede">
-                Wellness shows your outline filling up with the day's water, standing in your own widget's scene: snow on Winter,
-                sun and waves on Summer. Electrolytes from the drinks you scan are your charge, and their carbs are fuel. Tap the
-                brain, the heart or the muscles to learn what each one runs on.
+                Today as simple bars that fill left to right: water against your number, then sodium, potassium, magnesium and
+                calcium from the drinks you scan, plus caffeine and sugar. Tap any bar to see the drinks behind it. The Calendar
+                shows every day side by side, with your streak.
               </p>
               <ul className="wcl-ticks">
                 <li>
-                  <Check /> Tap "I trained today" for your sweat estimate and a recharge plan: water, sodium and carbs.
+                  <Check /> Electrolytes are measured against the Daily Values on a Nutrition Facts label.
                 </li>
                 <li>
-                  <Check /> Your week in context, your Drink Journal and Caffeine Check, all in one place.
+                  <Check /> Caffeine against 400 mg, the amount the FDA gives for most healthy adults, and sugar against 50 g.
                 </li>
                 <li>
-                  <Check /> Hit 100% and you are fully charged, with a reminder that rest and real food finish the job.
+                  <Check /> Your Drink Journal sits right under the bars: every drink you scanned and how it made you feel.
                 </li>
                 <li>
                   <Check /> Every number comes from something you logged or scanned. Nothing is made up.
                 </li>
               </ul>
               <p className="wcl-fine wcl-fine--deep">
-                General estimates from published sports and nutrition guidance, not medical or sports-medicine advice. If you watch
-                your sodium or potassium for a health reason, follow your doctor's advice.
+                References, not targets, and not medical advice. If you watch your sodium or potassium for a health reason, follow
+                your doctor's advice.
               </p>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="body" alt="Wellness: a body outline filled to 65% with water, standing in a Summer widget scene, with water, charge, fuel and sweat cards" tilt={-3} />
+              <Phone screen="progress" alt="Progress: water at 83% of the day's number, then sodium, potassium, magnesium, calcium, caffeine and sugar as bars" tilt={-3} />
             </div>
           </div>
         </section>
@@ -513,7 +513,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 <h3>Everything Forever</h3>
                 <p className="wcl-plan-sub">One purchase, no subscription.</p>
                 <ul>
-                  {["Every widget style and colorway", "Your body, charged: the hologram, training and recharge plans", "Your Drink Journal and Caffeine Check", "More photo scans", "Make your own Crews", "Everything we add later"].map((item) => (
+                  {["Every widget style and colorway", "The electrolyte, caffeine and sugar bars", "Your Drink Journal", "More photo scans", "30 and 90 day PDF summaries", "Make your own Crews", "Everything we add later"].map((item) => (
                     <li key={item}>
                       <Check /> {item}
                     </li>

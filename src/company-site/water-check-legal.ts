@@ -48,7 +48,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Information that stays on your phone",
         paragraphs: [
-          "Some things never leave your device and are not sent to your account: each drink and food you log, your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, cycle notes, activity notes, the training sessions you log (sport, minutes and effort), the body outline you pick on the Wellness page, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
+          "Some things never leave your device and are not sent to your account: each drink and food you log, your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, cycle notes, activity notes, training sessions logged in earlier versions of the app, the body outline you pick, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
           "Your Home Screen widget reads what it shows from the app on the same phone, including today's electrolyte charge from the drinks you scanned. That stays on the phone too.",
           "Because we do not have this information, we cannot restore it for you. Deleting the app or clearing its data erases it.",
         ],
