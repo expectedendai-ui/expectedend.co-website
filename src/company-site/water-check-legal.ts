@@ -7,6 +7,8 @@ import type { LegalPageContent } from "./legal-content";
  */
 
 const EFFECTIVE = "October 26, 2026";
+/** Apple Health and Health Connect were added to the Privacy and Consumer Health Data policies. */
+const HEALTH_UPDATE = "October 28, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -15,7 +17,7 @@ export const WATER_CHECK_LEGAL = {
     title: "The Water Check Privacy Policy",
     intro:
       "This policy explains what The Water Check app collects, where it is kept, who helps us run it, and the choices you have. The app is made by Expected End LLC, a Florida company. Our Expected End website has its own privacy statement.",
-    effectiveDate: EFFECTIVE,
+    effectiveDate: HEALTH_UPDATE,
     related: [
       { label: "Consumer Health Data Privacy Policy", href: "/thewatercheck/consumer-health-data" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
@@ -69,7 +71,13 @@ export const WATER_CHECK_LEGAL = {
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
           "Notifications. Fruit Fast reminders are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent for 90 days so we can keep them rare. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
           "You can turn Crew notifications and streak reminders off separately in the app's Settings, or all of them in your device settings. Signing out or deleting your account removes your phone's push token.",
-          "The app does not connect to Apple Health or Health Connect.",
+        ],
+      },
+      {
+        heading: "Apple Health and Health Connect",
+        paragraphs: [
+          "If you turn on Apple Health (iPhone) or Health Connect (Android) in Settings, the app adds the water you log and the caffeine in your log to it. With Everything Forever it also adds the sodium, potassium, magnesium, calcium and sugar from drinks you scan. The app only adds: it never reads your health data.",
+          "What it adds is kept by Apple Health or Health Connect on your phone. We never sell it, use it for advertising or store it in iCloud. You can turn this off in Settings at any time, and delete what was added in the Health app.",
         ],
       },
       {
@@ -327,7 +335,7 @@ export const WATER_CHECK_LEGAL = {
     title: "Consumer Health Data Privacy Policy",
     intro:
       "Some states, including Washington, Nevada and Connecticut, give extra protection to information about your health. This policy explains how The Water Check, made by Expected End LLC, handles that kind of information. It adds to our Privacy Policy.",
-    effectiveDate: EFFECTIVE,
+    effectiveDate: HEALTH_UPDATE,
     related: [
       { label: "Privacy Policy", href: "/thewatercheck/privacy" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
@@ -350,6 +358,7 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Your individual drink and food entries, Drink Journal (including how drinks made you feel and the electrolytes in them), cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them.",
           "Drink Check photos are sent through our server to Google's Gemini API to be read and are not stored by us. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
+          "If you turn on Apple Health or Health Connect, the app adds your water and caffeine to it, and with Everything Forever the electrolytes and sugar from drinks you scan. That copy is kept by Apple Health or Health Connect on your phone, under your control. We do not receive it from there, and the app never reads it.",
         ],
       },
       {
