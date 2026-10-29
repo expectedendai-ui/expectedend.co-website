@@ -1,6 +1,5 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
-import { runInNewContext } from "node:vm";
 import { describe, expect, it } from "vitest";
 import { CONTACT_HREF, PUBLIC_CONTENT_APPROVED } from "./content";
 import { LEGAL_CONTENT } from "./legal-content";
@@ -27,22 +26,6 @@ const readPublicTextFiles = (directory: string): string[] =>
     if (entry.isDirectory()) return readPublicTextFiles(path);
     return /\.(?:html|json|txt|xml|webmanifest)$/i.test(entry.name) ? [readFileSync(path, "utf8")] : [];
   });
-
-type AnalyticsContext = {
-  window?: AnalyticsContext;
-  location: { hostname: string };
-  dataLayer?: ArrayLike<unknown>[];
-};
-
-const runAnalyticsScript = (indexHtml: string, hostname: string) => {
-  const script = indexHtml.match(/<script>\s*(window\.dataLayer[\s\S]*?)<\/script>/)?.[1];
-  expect(script).toBeDefined();
-
-  const context: AnalyticsContext = { location: { hostname } };
-  context.window = context;
-  runInNewContext(script as string, context);
-  return (context.dataLayer ?? []).map((entry) => Array.from(entry));
-};
 
 describe("public-content deployment guard", () => {
   it("publishes The Water Check universal-link association as JSON", () => {
@@ -116,20 +99,14 @@ describe("public-content deployment guard", () => {
     expect(globalStyles).toContain('url("/fonts/instrument-serif-italic-latin.woff2") format("woff2")');
   });
 
-  it("loads the approved Google Analytics property and discloses analytics use", () => {
+  it("loads no analytics or third-party tracking scripts and says so in the privacy statement", () => {
     const indexHtml = readFileSync("index.html", "utf8");
     const privacyText = LEGAL_CONTENT.privacy.sections.flatMap((section) => section.paragraphs).join(" ");
 
-    expect(indexHtml).toContain("https://www.googletagmanager.com/gtag/js?id=G-SJ8HBVZXMT");
-    expect(indexHtml).toContain("gtag('config', 'G-SJ8HBVZXMT')");
-    expect(indexHtml.match(/G-SJ8HBVZXMT/g)).toHaveLength(2);
-    expect(privacyText).toMatch(/Google Analytics/i);
-    expect(privacyText).not.toMatch(/no public accounts, advertising trackers, analytics/i);
-
-    const productionCalls = runAnalyticsScript(indexHtml, "expectedend.co");
-    const localCalls = runAnalyticsScript(indexHtml, "localhost");
-    expect(productionCalls).toContainEqual(["config", "G-SJ8HBVZXMT"]);
-    expect(localCalls).not.toContainEqual(["config", "G-SJ8HBVZXMT"]);
+    expect(indexHtml).not.toMatch(/googletagmanager|google-analytics|gtag\(|connect\.facebook|fbq\(|clarity\.ms|hotjar|posthog/i);
+    expect(indexHtml.match(/<script[^>]*\ssrc="https?:\/\//g) ?? []).toHaveLength(0);
+    expect(privacyText).toMatch(/does not use analytics services, tracking pixels/i);
+    expect(privacyText).not.toMatch(/Google Analytics/i);
   });
 
   it("keeps ordinary indexing open while disallowing the documented AI crawler inventory", () => {
