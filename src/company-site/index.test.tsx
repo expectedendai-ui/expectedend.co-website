@@ -17,7 +17,8 @@ describe("Expected End public site", () => {
     expect(container.querySelector("video")).toBeNull();
     const heroScene = container.querySelector("[class*='heroScene']");
     expect(heroScene).toHaveAttribute("aria-hidden", "true");
-    expect(heroScene?.querySelectorAll("img")).toHaveLength(2);
+    expect(heroScene?.querySelector("img[src='/media/denzel-hero-cutout.webp']")).not.toBeNull();
+    expect(heroScene?.querySelectorAll("[class*='heroOrbiter'] img")).toHaveLength(5);
     const approvedMission =
       "Expected End creates thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!";
     expect(

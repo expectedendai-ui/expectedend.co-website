@@ -2,6 +2,7 @@ import * as React from "react";
 import { ArrowDownIcon, ArrowUpRightIcon } from "./action-icons";
 import { BioDialog } from "./bio-dialog";
 import { ContactDialog } from "./contact-dialog";
+import { AndroidMark, AppStoreMark, CountUp, HeroStage, ServiceArt, tiltHandlers, useHomeMotion } from "./home-motion";
 import { PROJECTS, SERVICES } from "./content";
 import styles from "./style.module.css";
 
@@ -35,20 +36,21 @@ function MerchSticker({ kind, brand = "mybiblelens" }: { kind: "tee" | "hoodie";
 export function HomePage({ onNavigate }: HomePageProps) {
   const [bioOpener, setBioOpener] = React.useState<HTMLButtonElement | null>(null);
   const [activeService, setActiveService] = React.useState<{ reason: string; opener: HTMLButtonElement } | null>(null);
+  const mainRef = React.useRef<HTMLElement>(null);
+  useHomeMotion(mainRef);
+  const tilt = tiltHandlers();
 
   return (
-    <main className={styles.home}>
-      <section className={styles.hero} aria-labelledby="hero-title">
+    <main className={styles.home} ref={mainRef}>
+      <section className={styles.hero} aria-labelledby="hero-title" data-hero>
         <div className={styles.heroScene} aria-hidden="true">
           <span className={styles.heroRay} />
-          <span className={`${styles.heroOrb} ${styles.heroOrbOne}`}><img src="/brand/mybiblelens.png" alt="" width="160" height="160" /></span>
-          <span className={`${styles.heroOrb} ${styles.heroOrbTwo}`}><img src="/brand/thewatercheck.png" alt="" width="160" height="160" /></span>
+          <HeroStage />
           <span className={`${styles.heroSpark} ${styles.heroSparkOne}`} />
           <span className={`${styles.heroSpark} ${styles.heroSparkTwo}`} />
           <span className={`${styles.heroSpark} ${styles.heroSparkThree}`} />
         </div>
-        <div className={styles.heroGlow} aria-hidden="true" />
-        <div className={styles.heroInner}>
+                <div className={styles.heroInner}>
           <p className={styles.kicker}>Expected End</p>
           <h1 id="hero-title" className={styles.heroTitle}>Purpose, built <em>beautifully.</em></h1>
           <p className={styles.heroStatement}>
@@ -62,16 +64,23 @@ export function HomePage({ onNavigate }: HomePageProps) {
 
       <section className={`${styles.section} ${styles.projectsSection}`} id="projects" aria-labelledby="projects-title">
         <h2 className={styles.srOnly} id="projects-title">Projects</h2>
+        <div className={styles.statBand} data-reveal>
+          <p><strong><CountUp to={20} />+</strong><span>Projects built</span></p>
+          <p><strong><CountUp to={2} /></strong><span>Apps on the App Store</span></p>
+          <p><strong><AndroidMark /></strong><span>Android coming soon</span></p>
+        </div>
         <div className={styles.projectGrid}>
           {PROJECTS.filter((project) => !project.artVariant.endsWith("-store")).map((project) => (
-            <article className={styles.project} key={project.name}>
+            <article className={styles.project} key={project.name} data-reveal>
               <a
                 className={styles.projectArt}
+                {...tilt}
                 data-art-variant={project.artVariant}
                 href={project.destination.href}
                 {...(project.destination.href.startsWith("http") ? { target: "_blank", rel: "noreferrer" } : { onClick: onNavigate })}
                 aria-label={`Visit ${project.name}`}
               >
+                <span className={styles.projectArtPedestal} aria-hidden="true" />
                 <span className={styles.projectArtClip}>
                   {project.artVariant === "mybiblelens-store" ? (
                     <span className={styles.storeCollage} data-store-collage="mybiblelens">
@@ -100,10 +109,12 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   ) : (
                     <img src={project.image} alt="" width="640" height="640" loading="lazy" decoding="async" />
                   )}
+                  <span className={styles.projectGlare} aria-hidden="true" />
                 </span>
               </a>
               <div className={styles.projectText}>
-                <p className={styles.status}>{project.category}{project.badge ? <span className={styles.projectBadge}>{project.badge}</span> : null}</p>
+                <p className={styles.androidSoon}><AndroidMark />Android coming soon</p>
+                <p className={styles.status}>{project.category}{project.badge ? <span className={styles.projectBadge}><AppStoreMark />{project.badge}</span> : null}</p>
                 <h3 className={project.titleClassName ? styles[project.titleClassName] : ""}>{project.name}</h3>
                 <p className={styles.projectTagline}>{project.tagline}</p>
                 <div className={styles.projectActions}>
@@ -143,7 +154,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       </section>
 
       <section className={`${styles.section} ${styles.behindSection}`} aria-labelledby="behind-title">
-        <div className={styles.behindCard}>
+        <div className={styles.behindCard} data-reveal>
           <div className={styles.behindCopy}>
             <p className={styles.kicker}>Behind the work</p>
             <h2 id="behind-title">Every product here started with a question in a fifth-grade classroom.</h2>
@@ -156,23 +167,27 @@ export function HomePage({ onNavigate }: HomePageProps) {
       </section>
 
       <section className={`${styles.section} ${styles.servicesSection}`} id="services" aria-labelledby="services-title">
-        <div className={styles.sectionHead}>
+        <div className={styles.sectionHead} data-reveal>
           <p className={styles.kicker}>Selected services</p>
           <h2 id="services-title">You dream it, <em>I build it.</em></h2>
           <p className={styles.servicesIntro}>The products come first. When the fit is right, the same thoughtfulness goes into selected work for others.</p>
           <p className={styles.servicesGuidance}>Please include a price range for all inquiries and mention in your message if an NDA is needed.</p>
         </div>
         <div className={styles.services}>
-          {SERVICES.map(([number, title, description, contactReason]) => (
+          {SERVICES.map(([number, title, description, contactReason], index) => (
             <button
               className={styles.service}
               type="button"
               key={number}
+              data-reveal
+              style={{ "--reveal-delay": `${(index % 4) * 70}ms` } as React.CSSProperties}
               onClick={(event) => setActiveService({ reason: contactReason, opener: event.currentTarget })}
             >
-              <span>{number}</span>
+              <ServiceArt number={number} />
+              <span className={styles.serviceNumber}>{number}</span>
               <h3>{title}</h3>
               <p>{description}</p>
+              <span className={styles.serviceCta} aria-hidden="true">Start this <svg className={styles.actionIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" focusable="false"><path d="M7 17 17 7" /><path d="M8 7h9v9" /></svg></span>
             </button>
           ))}
         </div>

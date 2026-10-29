@@ -34,7 +34,7 @@ export const PROJECTS = [
     },
     image: "/brand/thewatercheck.png",
     tagline: "Understand what you drink. Your own water number, in a tap.",
-    badge: "",
+    badge: "On the App Store",
     artVariant: "watercheck",
     titleClassName: "",
   },
