@@ -1,2 +1,13 @@
+# Security headers for every page (static files). Pages Functions set their own (functions/join).
+# frame-ancestors and X-Frame-Options stop other sites from framing these pages (clickjacking); HSTS keeps
+# browsers on HTTPS; the policy is kept to rules that cannot break the site's own scripts, fonts or forms.
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: DENY
+  Content-Security-Policy: frame-ancestors 'none'; base-uri 'self'; object-src 'none'; form-action 'self'; upgrade-insecure-requests
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
 /.well-known/apple-app-site-association
   Content-Type: application/json

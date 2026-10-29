@@ -41,6 +41,14 @@ describe("public-content deployment guard", () => {
     });
     expect(headers).toContain("/.well-known/apple-app-site-association\n  Content-Type: application/json");
   });
+  it("sends security headers with every page", () => {
+    const headers = readFileSync("public/_headers", "utf8");
+    const everyPage = headers.slice(headers.indexOf("/*\n"), headers.indexOf("\n\n", headers.indexOf("/*\n")));
+    expect(everyPage).toContain("Strict-Transport-Security: max-age=31536000");
+    expect(everyPage).toContain("X-Frame-Options: DENY");
+    expect(everyPage).toMatch(/Content-Security-Policy: frame-ancestors 'none'/);
+    expect(everyPage).toContain("X-Content-Type-Options: nosniff");
+  });
   it("runs the approval gate before production deploy", () => {
     const packageJson = JSON.parse(readFileSync("package.json", "utf8")) as { scripts: { deploy: string } };
     expect(packageJson.scripts.deploy).toMatch(/^npm run check:public-content &&/);
