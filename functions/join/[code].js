@@ -85,6 +85,12 @@ export function onRequestGet({ params }) {
       'Cache-Control': 'public, max-age=300',
       'X-Robots-Tag': 'noindex, nofollow',
       'Referrer-Policy': 'no-referrer',
+      // The page is all its own: its style, its one script, its font and its image. Nothing else may load,
+      // and no other site may frame it.
+      'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      'X-Frame-Options': 'DENY',
+      'X-Content-Type-Options': 'nosniff',
+      'Strict-Transport-Security': 'max-age=31536000',
     },
   });
 }
