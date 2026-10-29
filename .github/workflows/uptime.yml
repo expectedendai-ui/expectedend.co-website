@@ -1,0 +1,61 @@
+# Uptime check for expectedend.co and The Water Check's backend, every 30 minutes.
+#
+# A failed run is the alert: GitHub emails it. Everything checked is public: the pages anyone can open,
+# and the app's publishable key, which ships inside every copy of the app. Each check expects the answer
+# a healthy service gives to a request with no sign-in, so nothing here needs a secret.
+name: Uptime
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SITE: https://expectedend.co
+      SUPABASE: https://ctgooorvdjaoahnswziv.supabase.co
+      PUBLISHABLE_KEY: sb_publishable_Q0n3ckznNE1sn5EAXH57KQ_3hdZ1Nll
+    steps:
+      - name: Check every service
+        run: |
+          failed=0
+          # check NAME CODE [TEXT] -- CURL ARGS: the answer must have that status, and contain TEXT if given.
+          check() {
+            local name="$1" expected="$2" text=""; shift 2
+            if [ "$1" != "--" ]; then text="$1"; shift; fi
+            shift
+            local body code
+            body=$(mktemp)
+            code=$(curl -s -o "$body" -w '%{http_code}' --max-time 20 --retry 2 --retry-delay 5 "$@") || code=000
+            if [ "$code" = "$expected" ] && { [ -z "$text" ] || grep -q -- "$text" "$body"; }; then
+              echo "ok    $name ($code)"
+            else
+              echo "::error::$name answered $code, expected $expected${text:+ with $text}"
+              failed=1
+            fi
+            rm -f "$body"
+          }
+
+          # The pages App Review and every user reach: privacy, terms, a Crew invite, the app link file.
+          check "Privacy page" 200 -- "$SITE/thewatercheck/privacy"
+          check "Terms page" 200 -- "$SITE/thewatercheck/terms"
+          check "Crew invite page" 200 "Join a Crew" -- "$SITE/join/ABCD-EFG"
+          check "Universal link file" 200 "applinks" -- "$SITE/.well-known/apple-app-site-association"
+
+          # The backend: sign-in, the database API, and each Edge Function turning away a request with no
+          # sign-in (a 5xx here means a function is down or missing its configuration).
+          check "Sign-in service" 200 -- -H "apikey: $PUBLISHABLE_KEY" "$SUPABASE/auth/v1/health"
+          # Signed out, the database refuses outright (42501), which proves it is up and still locked.
+          check "Database" 401 "42501" -- -H "apikey: $PUBLISHABLE_KEY" "$SUPABASE/rest/v1/water_days?select=day&limit=1"
+          check "Drink Check function" 401 -- -X POST -H "Content-Type: application/json" -d '{}' "$SUPABASE/functions/v1/drink-photo"
+          check "Plus sync function" 401 -- -X POST -H "Content-Type: application/json" -d '{}' "$SUPABASE/functions/v1/plus-sync"
+          check "Delete account function" 401 -- -X POST -H "Content-Type: application/json" -d '{}' "$SUPABASE/functions/v1/delete-account"
+          check "Push sender function" 401 -- -X POST -H "Content-Type: application/json" -d '{}' "$SUPABASE/functions/v1/send-push"
+
+          exit $failed
