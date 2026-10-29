@@ -41,6 +41,15 @@ describe("public-content deployment guard", () => {
     });
     expect(headers).toContain("/.well-known/apple-app-site-association\n  Content-Type: application/json");
   });
+  it("sends the same security headers from the Crew invite page, which _headers does not reach", async () => {
+    // @ts-expect-error The Pages Function is plain JavaScript with no type declarations.
+    const { onRequestGet } = await import("../../functions/join/[code].js");
+    const response = onRequestGet({ params: { code: "ABCD-EFG" } });
+    expect(response.headers.get("Permissions-Policy")).toBe("camera=(), microphone=(), geolocation=(), payment=(), usb=()");
+    expect(response.headers.get("X-Frame-Options")).toBe("DENY");
+    expect(response.headers.get("Strict-Transport-Security")).toBe("max-age=31536000");
+    expect(response.headers.get("Content-Security-Policy")).toMatch(/^default-src 'none'/);
+  });
   it("sends security headers with every page", () => {
     const headers = readFileSync("public/_headers", "utf8");
     const everyPage = headers.slice(headers.indexOf("/*\n"), headers.indexOf("\n\n", headers.indexOf("/*\n")));

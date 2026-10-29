@@ -91,6 +91,8 @@ export function onRequestGet({ params }) {
       'X-Frame-Options': 'DENY',
       'X-Content-Type-Options': 'nosniff',
       'Strict-Transport-Security': 'max-age=31536000',
+      // The same switches every other page sends: nothing here may ask for the camera, microphone or location.
+      'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
     },
   });
 }
