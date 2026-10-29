@@ -3,18 +3,18 @@ import styles from "./style.module.css";
 
 const ORBITERS = [
   { src: "/brand/mybiblelens.png", size: 1, shape: "tile" },
-  { src: "/brand/mybiblelens-store/hero/pixel-dove-clean-v2.png", size: 0.55, shape: "sticker" },
+  { src: "", size: 0.09, shape: "mote" },
   { src: "/brand/thewatercheck.png", size: 1, shape: "round" },
-  { src: "/android-chrome-512x512.png", size: 0.82, shape: "tile" },
-  { src: "/brand/mybiblelens-store/hero/pixel-cross-clean-v2.png", size: 0.55, shape: "sticker" },
+  { src: "", size: 0.12, shape: "mote" },
+  { src: "", size: 0.07, shape: "mote" },
 ] as const;
 
 function prefersReducedMotion() {
   return typeof window.matchMedia === "function" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
-// The portrait sits in the middle; the logos ride a tilted ellipse around the head.
-// Items on the far side of the ellipse drop behind the cutout, near-side items pass in front.
+// The Expected End emblem sits in the middle; the app logos ride a tilted ellipse around it.
+// Items on the far side of the ellipse drop behind the emblem, near-side items pass in front.
 export function HeroStage() {
   const stageRef = React.useRef<HTMLDivElement>(null);
   const itemRefs = React.useRef<Array<HTMLSpanElement | null>>([]);
@@ -31,16 +31,16 @@ export function HeroStage() {
       const { width } = stage.getBoundingClientRect();
       // Unlaid-out stage (hidden tab, test DOM): stop; the observer restarts the loop once it is visible.
       if (!width) return;
-      const rx = width * 0.5;
-      const ry = width * 0.13;
+      const rx = width * 0.46;
+      const ry = width * 0.12;
       const t = reduced ? 0.6 : (now - start) / 1000;
       itemRefs.current.forEach((item, index) => {
         if (!item) return;
-        const angle = t * 0.42 + (index / ORBITERS.length) * Math.PI * 2;
+        const angle = t * 0.32 + (index / ORBITERS.length) * Math.PI * 2;
         const depth = Math.sin(angle);
         const x = Math.cos(angle) * rx;
-        const y = depth * ry - Math.cos(angle) * width * 0.06;
-        const scale = 0.72 + (depth + 1) * 0.2;
+        const y = depth * ry - Math.cos(angle) * width * 0.05;
+        const scale = 0.7 + (depth + 1) * 0.17;
         item.style.transform = `translate(-50%, -50%) translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) scale(${scale.toFixed(3)})`;
         item.style.zIndex = depth > 0 ? "4" : "1";
         item.style.filter = depth > 0 ? "none" : `blur(${(-depth * 1.6).toFixed(2)}px) brightness(${(0.8 + depth * 0.15).toFixed(2)})`;
@@ -67,17 +67,19 @@ export function HeroStage() {
     <div className={styles.heroStage} ref={stageRef}>
       <span className={styles.heroHalo} />
       <span className={styles.heroOrbitRing} />
-      <img className={styles.heroPortrait} src="/media/denzel-hero-cutout.webp" alt="" width="1000" height="1405" decoding="async" fetchPriority="high" />
+      <span className={styles.heroEmblem}>
+        <img src="/android-chrome-512x512.png" alt="" width="512" height="512" decoding="async" fetchPriority="high" />
+      </span>
       <span className={styles.heroOrbitCenter}>
         {ORBITERS.map((orbiter, index) => (
           <span
-            key={orbiter.src}
+            key={index}
             className={styles.heroOrbiter}
             data-shape={orbiter.shape}
             style={{ "--orbiter-size": orbiter.size } as React.CSSProperties}
             ref={(element) => { itemRefs.current[index] = element; }}
           >
-            <img src={orbiter.src} alt="" width="160" height="160" decoding="async" />
+            {orbiter.src ? <img src={orbiter.src} alt="" width="160" height="160" decoding="async" /> : null}
           </span>
         ))}
       </span>
@@ -201,28 +203,14 @@ export function CountUp({ to }: { to: number }) {
   return <span ref={ref}>{value}</span>;
 }
 
-const svc = {
-  ink: "#0b2366",
-  panel: "#13358f",
-  line: "rgba(255,255,255,.22)",
-  gold: "#f2d98b",
-  goldDeep: "#d4a94e",
-  sky: "#7fd6fb",
-  white: "#ffffff",
-};
+const G = "rgba(242, 217, 139, .92)";
+const W = "rgba(255, 255, 255, .34)";
+const F = "rgba(255, 255, 255, .14)";
 
-// Small illustrated scenes so each service reads at a glance.
+// Fine-line drawings so each service reads at a glance without cartoon colors.
 export function ServiceArt({ number }: { number: string }) {
   return (
-    <svg className={styles.serviceArt} data-service-art={number} viewBox="0 0 240 140" aria-hidden="true" focusable="false">
-      <defs>
-        <linearGradient id={`svc-bg-${number}`} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#1a46b4" />
-          <stop offset="1" stopColor="#0a2467" />
-        </linearGradient>
-      </defs>
-      <rect x="0" y="0" width="240" height="140" rx="18" fill={`url(#svc-bg-${number})`} />
-      <circle cx="200" cy="18" r="46" fill={svc.gold} opacity=".08" />
+    <svg className={styles.serviceArt} data-service-art={number} viewBox="0 0 320 200" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
       {ART[number]}
     </svg>
   );
@@ -230,136 +218,120 @@ export function ServiceArt({ number }: { number: string }) {
 
 const ART: Record<string, React.ReactNode> = {
   "01": (
-    <g>
-      <g className={styles.svcFloat}>
-        <rect x="58" y="22" width="56" height="104" rx="12" fill={svc.ink} stroke={svc.line} strokeWidth="2" />
-        <rect x="64" y="30" width="44" height="88" rx="7" fill="#2a170a" />
-        <image href="/brand/mybiblelens.png" x="70" y="46" width="32" height="32" />
-        <rect x="72" y="88" width="28" height="4" rx="2" fill={svc.gold} />
-        <rect x="76" y="96" width="20" height="3" rx="1.5" fill={svc.line} />
+    <g strokeWidth="1.2">
+      <g className={styles.svcDrift}>
+        <rect x="96" y="34" width="70" height="136" rx="14" stroke={W} />
+        <rect x="104" y="44" width="54" height="116" rx="8" stroke={F} />
+        <image href="/brand/mybiblelens.png" x="115" y="64" width="32" height="32" />
+        <path d="M114 112h34M118 122h26M122 132h18" stroke={W} />
       </g>
-      <g className={`${styles.svcFloat} ${styles.svcDelay}`}>
-        <rect x="126" y="14" width="56" height="104" rx="12" fill={svc.ink} stroke={svc.line} strokeWidth="2" />
-        <rect x="132" y="22" width="44" height="88" rx="7" fill="#0a5fae" />
-        <image href="/brand/thewatercheck.png" x="138" y="38" width="32" height="32" />
-        <rect x="140" y="80" width="28" height="4" rx="2" fill={svc.sky} />
-        <rect x="144" y="88" width="20" height="3" rx="1.5" fill={svc.line} />
+      <g className={`${styles.svcDrift} ${styles.svcDelay}`}>
+        <rect x="178" y="22" width="70" height="136" rx="14" stroke={G} />
+        <rect x="186" y="32" width="54" height="116" rx="8" stroke={F} />
+        <image href="/brand/thewatercheck.png" x="197" y="52" width="32" height="32" />
+        <path d="M196 100h34" stroke={G} /><path d="M200 110h26M204 120h18" stroke={W} />
       </g>
+      <path d="M60 170h200" stroke={F} />
     </g>
   ),
   "02": (
-    <g>
-      <g className={styles.svcFloat}>
-        <rect x="30" y="20" width="180" height="104" rx="10" fill={svc.ink} stroke={svc.line} strokeWidth="2" />
-        <rect x="30" y="20" width="180" height="16" rx="8" fill={svc.panel} />
-        <circle cx="42" cy="28" r="3" fill="#ff7a6b" /><circle cx="52" cy="28" r="3" fill={svc.gold} /><circle cx="62" cy="28" r="3" fill="#6ee7a8" />
-        <rect x="80" y="24" width="100" height="8" rx="4" fill="rgba(255,255,255,.12)" />
-        <rect x="44" y="48" width="70" height="10" rx="5" fill={svc.white} />
-        <rect x="44" y="62" width="50" height="10" rx="5" fill={svc.gold} />
-        <rect x="44" y="80" width="80" height="4" rx="2" fill={svc.line} />
-        <rect x="44" y="88" width="64" height="4" rx="2" fill={svc.line} />
-        <rect x="44" y="100" width="34" height="12" rx="6" fill={svc.gold} />
-        <rect x="136" y="46" width="60" height="64" rx="8" fill={svc.panel} />
-        <circle className={styles.svcPulse} cx="166" cy="72" r="14" fill={svc.sky} opacity=".8" />
-        <path d="M142 104l14-14 10 8 12-14 18 20Z" fill="rgba(255,255,255,.25)" />
-      </g>
+    <g strokeWidth="1.2">
+      <rect x="40" y="30" width="240" height="140" rx="8" stroke={W} />
+      <path d="M40 50h240" stroke={F} />
+      <circle cx="54" cy="40" r="3" stroke={W} /><circle cx="66" cy="40" r="3" stroke={W} /><circle cx="78" cy="40" r="3" stroke={W} />
+      <path d="M110 40h120" stroke={F} />
+      <path d="M62 78h96" stroke={G} strokeWidth="2.4" /><path d="M62 92h70" stroke={G} strokeWidth="2.4" />
+      <path d="M62 112h110M62 122h90" stroke={W} />
+      <rect x="62" y="138" width="44" height="14" rx="7" stroke={G} />
+      <rect x="190" y="70" width="70" height="82" rx="4" stroke={W} />
+      <path className={styles.svcDraw} d="M190 136l18-20 14 12 16-22 22 30" stroke={G} />
+      <path className={styles.svcCursor} d="M236 96l10 26 4-10 10-4Z" stroke="#fff" fill="rgba(7,28,85,.9)" />
     </g>
   ),
   "03": (
-    <g>
-      <g stroke={svc.line} strokeWidth="2">
-        <line x1="120" y1="70" x2="58" y2="38" /><line x1="120" y1="70" x2="56" y2="104" />
-        <line x1="120" y1="70" x2="184" y2="36" /><line x1="120" y1="70" x2="188" y2="102" />
-        <line x1="58" y1="38" x2="56" y2="104" /><line x1="184" y1="36" x2="188" y2="102" />
-      </g>
-      <g className={styles.svcDash} stroke={svc.gold} strokeWidth="2.5" fill="none" strokeLinecap="round">
-        <path d="M58 38 120 70 188 102" /><path d="M56 104 120 70 184 36" />
-      </g>
-      {[[58, 38], [56, 104], [184, 36], [188, 102]].map(([cx, cy]) => (
-        <circle key={`${cx}-${cy}`} cx={cx} cy={cy} r="9" fill={svc.panel} stroke={svc.sky} strokeWidth="2" />
+    <g strokeWidth="1.1">
+      {[[70, 50], [64, 150], [250, 46], [256, 152], [160, 26], [160, 176]].map(([x, y]) => (
+        <g key={`${x}-${y}`}>
+          <path d={`M160 100L${x} ${y}`} stroke={F} />
+          <circle cx={x} cy={y} r="7" stroke={W} />
+        </g>
       ))}
-      <g className={styles.svcPulse}>
-        <circle cx="120" cy="70" r="24" fill={svc.gold} opacity=".22" />
-        <circle cx="120" cy="70" r="16" fill={svc.gold} />
-      </g>
-      <path d="M120 60l3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill={svc.ink} />
+      <path d="M70 50 64 150M250 46 256 152M70 50 160 26 250 46M64 150 160 176 256 152" stroke={F} />
+      <path className={styles.svcDash} d="M70 50 160 100 256 152M64 150 160 100 250 46M160 26v150" stroke={G} />
+      <circle className={styles.svcPulse} cx="160" cy="100" r="26" stroke={G} />
+      <circle cx="160" cy="100" r="14" stroke={G} fill="rgba(242,217,139,.12)" />
+      <path d="M160 92l2.4 5.6 5.6 2.4-5.6 2.4-2.4 5.6-2.4-5.6-5.6-2.4 5.6-2.4Z" fill={G} />
     </g>
   ),
   "04": (
-    <g>
-      <g className={styles.svcFloat}>
-        <path d="M46 92c0-30 26-52 56-50 28 2 40 22 32 34-6 9-20 2-24 12-4 9 6 16-2 22-14 10-62 6-62-18Z" fill={svc.white} opacity=".95" />
-        <circle cx="70" cy="70" r="8" fill="#ff7a6b" /><circle cx="92" cy="58" r="8" fill={svc.gold} />
-        <circle cx="116" cy="64" r="8" fill={svc.sky} /><circle cx="68" cy="96" r="8" fill="#6ee7a8" />
-      </g>
-      <path className={styles.svcDash} d="M150 112c10-40 30-70 62-80" fill="none" stroke={svc.gold} strokeWidth="3" strokeLinecap="round" />
-      <rect x="146" y="106" width="10" height="10" fill={svc.white} stroke={svc.goldDeep} strokeWidth="2" />
-      <rect x="207" y="27" width="10" height="10" fill={svc.white} stroke={svc.goldDeep} strokeWidth="2" />
-      <g className={`${styles.svcSpin} ${styles.svcOrigin1}`}>
-        <path d="M180 76l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1Z" fill={svc.gold} />
-      </g>
+    <g strokeWidth="1.2">
+      <circle cx="130" cy="104" r="62" stroke={F} />
+      <circle cx="168" cy="104" r="38" stroke={F} />
+      <circle cx="191" cy="104" r="24" stroke={F} />
+      <path className={styles.svcDraw} d="M54 160C90 60 170 40 270 54" stroke={G} strokeWidth="1.8" />
+      <path d="M54 160l40-92M270 54l-60 38" stroke={W} />
+      <rect x="50" y="156" width="8" height="8" stroke={G} /><rect x="266" y="50" width="8" height="8" stroke={G} />
+      <circle cx="94" cy="68" r="4" stroke={W} /><circle cx="210" cy="92" r="4" stroke={W} />
+      <path d="M232 132l26-26 10 10-26 26-14 4Z" stroke={W} /><path d="M252 112l10 10" stroke={W} />
     </g>
   ),
   "05": (
-    <g>
-      <rect x="22" y="18" width="196" height="106" rx="10" fill={svc.ink} stroke={svc.line} strokeWidth="2" />
-      <rect x="22" y="18" width="40" height="106" rx="10" fill={svc.panel} />
-      {[34, 50, 66, 82].map((y, i) => <rect key={y} x="32" y={y} width="20" height="6" rx="3" fill={i === 0 ? svc.gold : svc.line} />)}
-      <rect x="72" y="28" width="40" height="22" rx="5" fill={svc.panel} /><rect x="78" y="34" width="18" height="4" rx="2" fill={svc.gold} /><rect x="78" y="41" width="26" height="3" rx="1.5" fill={svc.line} />
-      <rect x="118" y="28" width="40" height="22" rx="5" fill={svc.panel} /><rect x="124" y="34" width="18" height="4" rx="2" fill={svc.sky} /><rect x="124" y="41" width="26" height="3" rx="1.5" fill={svc.line} />
-      <g className={styles.svcBars}>
-        {[[76, 30], [90, 44], [104, 24], [118, 52], [132, 38], [146, 58]].map(([x, h], i) => (
-          <rect key={x} x={x} y={114 - h} width="9" height={h} rx="3" fill={i % 2 ? svc.gold : svc.sky} style={{ animationDelay: `${i * 0.12}s` }} />
-        ))}
-      </g>
-      <circle cx="190" cy="56" r="18" fill="none" stroke={svc.panel} strokeWidth="8" />
-      <circle className={styles.svcRing} cx="190" cy="56" r="18" fill="none" stroke={svc.gold} strokeWidth="8" strokeDasharray="80 200" strokeLinecap="round" transform="rotate(-90 190 56)" />
-      <rect x="172" y="90" width="36" height="5" rx="2.5" fill={svc.line} /><rect x="172" y="100" width="26" height="5" rx="2.5" fill={svc.line} />
+    <g strokeWidth="1.2">
+      <rect x="30" y="26" width="260" height="150" rx="8" stroke={W} />
+      <path d="M78 26v150" stroke={F} />
+      <path d="M44 48h20M44 64h20M44 80h20M44 96h20" stroke={F} /><path d="M44 48h20" stroke={G} />
+      <rect x="94" y="40" width="54" height="30" rx="4" stroke={F} /><path d="M102 52h22" stroke={G} /><path d="M102 60h36" stroke={F} />
+      <rect x="158" y="40" width="54" height="30" rx="4" stroke={F} /><path d="M166 52h22" stroke={W} /><path d="M166 60h36" stroke={F} />
+      <path d="M94 160h180M94 160V86" stroke={F} />
+      <path d="M94 136h180M94 112h180" stroke="rgba(255,255,255,.06)" />
+      <path className={styles.svcDraw} d="M94 150l26-12 22 6 24-26 22 8 26-30 24 10 16-18" stroke={G} strokeWidth="1.8" />
+      <circle cx="250" cy="56" r="16" stroke={F} strokeWidth="5" />
+      <circle className={styles.svcRing} cx="250" cy="56" r="16" stroke={G} strokeWidth="5" strokeDasharray="64 120" transform="rotate(-90 250 56)" />
     </g>
   ),
   "06": (
-    <g>
-      <path d="M62 70h46M146 70h36" stroke={svc.line} strokeWidth="3" strokeLinecap="round" />
-      <circle className={styles.svcTravel} cx="0" cy="70" r="5" fill={svc.gold} />
-      <rect x="22" y="46" width="44" height="48" rx="10" fill={svc.panel} stroke={svc.line} strokeWidth="2" />
-      <path d="M34 62h20M34 70h14M34 78h18" stroke={svc.white} strokeWidth="3" strokeLinecap="round" />
-      <g className={`${styles.svcSpin} ${styles.svcOrigin2}`}>
-        <path d="M127 44l5 1 2 7 6 3 6-4 4 4-4 6 3 6 7 2v6l-7 2-3 6 4 6-4 4-6-4-6 3-2 7h-6l-2-7-6-3-6 4-4-4 4-6-3-6-7-2v-6l7-2 3-6-4-6 4-4 6 4 6-3 2-7Z" fill={svc.gold} />
-        <circle cx="127" cy="70" r="9" fill={svc.ink} />
+    <g strokeWidth="1.2">
+      <rect x="30" y="76" width="56" height="48" rx="6" stroke={W} />
+      <path d="M42 92h32M42 100h22M42 108h28" stroke={F} />
+      <path d="M86 100h40M194 100h40" stroke={F} />
+      <path className={styles.svcDash} d="M86 100h40M194 100h40" stroke={G} />
+      <g className={styles.svcSpin}>
+        <circle cx="160" cy="100" r="22" stroke={G} />
+        {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+          <path key={deg} d="M160 72v-8" stroke={G} strokeWidth="3" transform={`rotate(${deg} 160 100)`} />
+        ))}
+        <circle cx="160" cy="100" r="8" stroke={W} />
       </g>
-      <rect x="182" y="46" width="44" height="48" rx="10" fill={svc.panel} stroke={svc.line} strokeWidth="2" />
-      <path d="M194 71l8 8 14-16" stroke="#6ee7a8" strokeWidth="5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+      <rect x="234" y="76" width="56" height="48" rx="6" stroke={G} />
+      <path d="M250 101l8 8 16-18" stroke={G} strokeWidth="1.8" />
+      <path d="M58 76V52h204v24M58 124v24h204v-24" stroke={F} strokeDasharray="3 5" />
     </g>
   ),
   "07": (
-    <g>
-      <g className={styles.svcFloat}>
-        <rect x="34" y="16" width="172" height="110" rx="12" fill={svc.ink} stroke={svc.line} strokeWidth="2" />
-        <circle cx="56" cy="38" r="11" fill={svc.gold} /><circle cx="56" cy="35" r="4" fill={svc.ink} /><path d="M48 45a8 6 0 0 1 16 0" fill={svc.ink} />
-        <rect x="74" y="31" width="56" height="6" rx="3" fill={svc.white} /><rect x="74" y="41" width="38" height="4" rx="2" fill={svc.line} />
-        <rect x="46" y="58" width="78" height="56" rx="7" fill={svc.panel} />
-        {[0, 1, 2, 3].map((r) => [0, 1, 2, 3, 4].map((c) => (
-          <rect key={`${r}-${c}`} x={52 + c * 14} y={64 + r * 12} width="10" height="8" rx="2" fill={r === 1 && c === 2 ? svc.gold : "rgba(255,255,255,.14)"} />
-        )))}
-        <rect x="134" y="58" width="60" height="26" rx="6" fill={svc.panel} />
-        <path d="M142 64h10l4 4v10h-14Z" fill={svc.white} /><rect x="160" y="66" width="28" height="4" rx="2" fill={svc.line} /><rect x="160" y="74" width="18" height="4" rx="2" fill={svc.line} />
-        <rect x="134" y="94" width="60" height="8" rx="4" fill="rgba(255,255,255,.14)" />
-        <rect className={styles.svcProgress} x="134" y="94" width="42" height="8" rx="4" fill={svc.sky} />
-      </g>
+    <g strokeWidth="1.2">
+      <rect x="40" y="24" width="240" height="152" rx="8" stroke={W} />
+      <circle cx="68" cy="52" r="12" stroke={G} />
+      <path d="M90 46h70" stroke={W} /><path d="M90 58h44" stroke={F} />
+      <rect x="56" y="80" width="112" height="80" rx="4" stroke={F} />
+      {[0, 1, 2, 3].map((r) => [0, 1, 2, 3, 4, 5].map((c) => (
+        <rect key={`${r}-${c}`} x={64 + c * 17} y={88 + r * 17} width="11" height="11" rx="2" stroke={r === 1 && c === 3 ? G : "rgba(255,255,255,.12)"} />
+      )))}
+      <rect x="182" y="80" width="82" height="36" rx="4" stroke={F} />
+      <path d="M192 90h12l5 5v12h-17Z" stroke={W} /><path d="M216 94h38M216 104h24" stroke={F} />
+      <path d="M182 140h82" stroke={F} strokeWidth="4" />
+      <path className={styles.svcProgress} d="M182 140h58" stroke={G} strokeWidth="4" />
     </g>
   ),
   "08": (
-    <g>
-      <rect x="20" y="30" width="80" height="82" rx="10" fill={svc.ink} stroke="#ff7a6b" strokeWidth="2" opacity=".85" />
-      <path d="M50 30l8 20-10 14 12 18-6 30" stroke="#ff7a6b" strokeWidth="2.5" fill="none" />
-      <rect x="30" y="44" width="16" height="4" rx="2" fill={svc.line} /><rect x="64" y="96" width="24" height="4" rx="2" fill={svc.line} />
-      <path className={styles.svcNudge} d="M108 71h22m-8-8 8 8-8 8" stroke={svc.gold} strokeWidth="4" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-      <g className={styles.svcFloat}>
-        <rect x="140" y="30" width="80" height="82" rx="10" fill={svc.panel} stroke="#6ee7a8" strokeWidth="2" />
-        <rect x="150" y="42" width="46" height="6" rx="3" fill={svc.white} /><rect x="150" y="54" width="60" height="4" rx="2" fill={svc.line} />
-        <rect x="150" y="62" width="40" height="4" rx="2" fill={svc.line} />
-        <circle cx="180" cy="90" r="12" fill="#6ee7a8" /><path d="M174 90l4 4 8-8" stroke={svc.ink} strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-      </g>
+    <g strokeWidth="1.2">
+      <rect x="30" y="44" width="100" height="112" rx="6" stroke={W} strokeDasharray="4 4" />
+      <path d="M72 44l10 26-14 18 16 22-8 46" stroke="rgba(255,140,120,.7)" />
+      <path d="M44 64h20M92 132h26" stroke={F} />
+      <path className={styles.svcNudge} d="M146 100h28m-9-9 9 9-9 9" stroke={G} strokeWidth="1.6" />
+      <rect x="190" y="44" width="100" height="112" rx="6" stroke={G} />
+      <path d="M204 64h52M204 76h72M204 88h44" stroke={W} />
+      <circle cx="240" cy="126" r="14" stroke={G} />
+      <path d="M233 126l5 5 9-10" stroke={G} strokeWidth="1.6" />
     </g>
   ),
 };

@@ -36,6 +36,7 @@ function MerchSticker({ kind, brand = "mybiblelens" }: { kind: "tee" | "hoodie";
 export function HomePage({ onNavigate }: HomePageProps) {
   const [bioOpener, setBioOpener] = React.useState<HTMLButtonElement | null>(null);
   const [activeService, setActiveService] = React.useState<{ reason: string; opener: HTMLButtonElement } | null>(null);
+  const [previewIndex, setPreviewIndex] = React.useState(0);
   const mainRef = React.useRef<HTMLElement>(null);
   useHomeMotion(mainRef);
   const tilt = tiltHandlers();
@@ -173,23 +174,49 @@ export function HomePage({ onNavigate }: HomePageProps) {
           <p className={styles.servicesIntro}>The products come first. When the fit is right, the same thoughtfulness goes into selected work for others.</p>
           <p className={styles.servicesGuidance}>Please include a price range for all inquiries and mention in your message if an NDA is needed.</p>
         </div>
-        <div className={styles.services}>
-          {SERVICES.map(([number, title, description, contactReason], index) => (
-            <button
-              className={styles.service}
-              type="button"
-              key={number}
-              data-reveal
-              style={{ "--reveal-delay": `${(index % 4) * 70}ms` } as React.CSSProperties}
-              onClick={(event) => setActiveService({ reason: contactReason, opener: event.currentTarget })}
-            >
-              <ServiceArt number={number} />
-              <span className={styles.serviceNumber}>{number}</span>
-              <h3>{title}</h3>
-              <p>{description}</p>
-              <span className={styles.serviceCta} aria-hidden="true">Start this <svg className={styles.actionIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" focusable="false"><path d="M7 17 17 7" /><path d="M8 7h9v9" /></svg></span>
-            </button>
-          ))}
+        <div className={styles.servicePicker}>
+          <div className={styles.services}>
+            {SERVICES.map(([number, title, description, contactReason], index) => (
+              <button
+                className={styles.service}
+                type="button"
+                key={number}
+                data-reveal
+                data-active={index === previewIndex ? "" : undefined}
+                style={{ "--reveal-delay": `${index * 50}ms` } as React.CSSProperties}
+                onPointerEnter={() => setPreviewIndex(index)}
+                onFocus={() => setPreviewIndex(index)}
+                onClick={(event) => setActiveService({ reason: contactReason, opener: event.currentTarget })}
+              >
+                <span className={styles.serviceNumber}>{number}</span>
+                <span className={styles.serviceMain}>
+                  <h3>{title}</h3>
+                  <p>{description}</p>
+                </span>
+                <svg className={styles.serviceArrow} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7" /><path d="M8 7h9v9" /></svg>
+                <span className={styles.serviceRowArt}><ServiceArt number={number} /></span>
+              </button>
+            ))}
+          </div>
+          <div className={styles.servicePreview} data-reveal>
+            <div className={styles.servicePreviewArt} aria-hidden="true">
+              {SERVICES.map(([number], index) => (
+                <span key={number} data-active={index === previewIndex ? "" : undefined}><ServiceArt number={number} /></span>
+              ))}
+            </div>
+            <div className={styles.servicePreviewFoot}>
+              <p className={styles.servicePreviewCount}>Service {SERVICES[previewIndex][0]} / {SERVICES.length.toString().padStart(2, "0")}</p>
+              <p className={styles.servicePreviewTitle}>{SERVICES[previewIndex][1]}</p>
+              <button
+                className={styles.servicePreviewAction}
+                type="button"
+                onClick={(event) => setActiveService({ reason: SERVICES[previewIndex][3], opener: event.currentTarget })}
+              >
+                Start this project
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
