@@ -33,7 +33,7 @@ describe("Expected End information pages", () => {
   it("shows the current privacy statement effective date", () => {
     window.history.replaceState({}, "", "/privacy");
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
-    expect(screen.getByText("Effective August 30, 2026")).toBeInTheDocument();
+    expect(screen.getByText("Effective October 29, 2026")).toBeInTheDocument();
   });
 
   it("identifies the app privacy contact and Google data use", () => {
