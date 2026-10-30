@@ -248,6 +248,9 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
             >
               <LinkedInIcon />
             </a>
+            <a href="https://www.youtube.com/@expectedendco" target="_blank" rel="noopener noreferrer" aria-label="Denzel Rigaud on YouTube">
+              <YouTubeIcon />
+            </a>
           </nav>
           <nav className={pageStyles.profileRecords} aria-label="Independent identity records">
             <span>External records</span>
@@ -507,7 +510,6 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
                         aria-label={`Download memory ${memoryNumber}: ${photo.title}`}
                       >
                         <ArrowDownIcon />
-                        <span>Download</span>
                       </a>
                     </div>
                     <figcaption>

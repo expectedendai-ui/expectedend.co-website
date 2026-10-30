@@ -112,10 +112,13 @@
 .memoryFrame img { display: block; width: 100%; height: 100%; object-fit: cover; filter: saturate(.92) contrast(1.03); transition: filter 260ms ease, transform 700ms cubic-bezier(.2, .8, .2, 1); }
 .memoryCard:nth-child(1) .memoryFrame img, .memoryCard:nth-child(4) .memoryFrame img { object-fit: contain; }
 .memoryCard:hover .memoryFrame img { filter: saturate(1.04) contrast(1.05); transform: scale(1.025); }
-.memoryDownload { position: absolute; right: 1rem; bottom: 1rem; z-index: 3; display: inline-flex; min-height: 42px; align-items: center; gap: .55rem; padding: 0 .9rem; border: 1px solid rgba(255, 106, 43, .5); border-radius: 999px; color: #fff; background: rgba(6, 6, 9, .82); backdrop-filter: blur(12px); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; transition: border-color 180ms ease, background 180ms ease, color 180ms ease, transform 180ms ease; }
-.memoryDownload:hover { border-color: var(--cy-ember); color: #120805; background: var(--cy-ember); transform: translateY(-2px); }
+/* Tiny download button: hidden until the photo is hovered or the button is focused; faint but present on touch screens. */
+.memoryDownload { position: absolute; right: .75rem; bottom: .75rem; z-index: 3; display: grid; width: 30px; height: 30px; place-items: center; border: 1px solid rgba(255, 255, 255, .22); border-radius: 50%; color: #fff; background: rgba(6, 6, 9, .7); backdrop-filter: blur(10px); opacity: 0; transform: translateY(4px); transition: opacity .25s ease, transform .25s ease, border-color .2s ease, background .2s ease, color .2s ease; }
+.memoryCard:hover .memoryDownload, .memoryDownload:focus-visible { opacity: 1; transform: none; }
+.memoryDownload:hover { border-color: var(--cy-ember); color: #120805; background: var(--cy-ember); }
 .memoryDownload:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
-.memoryDownload svg { width: .95rem; height: .95rem; }
+.memoryDownload svg { width: 13px; height: 13px; }
+@media (hover: none) { .memoryDownload { opacity: .55; transform: none; } }
 .memoryCard figcaption { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 1rem 0 0 1rem; border-left: 1px solid rgba(255, 106, 43, .6); line-height: 1.35; }
 .memoryCard figcaption span { color: var(--cy-ember); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
 .memoryCard figcaption strong { color: var(--cy-text); font-size: 13px; font-weight: 500; text-align: right; }
