@@ -15,10 +15,14 @@ describe("Expected End public site", () => {
 
     expect(screen.getByRole("heading", { level: 1, name: "Purpose, built beautifully." })).toBeInTheDocument();
     expect(container.querySelector("video")).toBeNull();
-    const heroScene = container.querySelector("[class*='heroScene']");
-    expect(heroScene).toHaveAttribute("aria-hidden", "true");
-    expect(heroScene?.querySelector("[class*='heroEmblem'] img")).toHaveAttribute("src", "/android-chrome-512x512.png");
-    expect(heroScene?.querySelectorAll("[class*='heroOrbiter'] img")).toHaveLength(2);
+    const hero = container.querySelector<HTMLElement>("[data-cyber-hero='home']");
+    expect(hero).not.toBeNull();
+    expect(within(hero as HTMLElement).getByRole("img", { name: "Denzel Rigaud, founder of Expected End" })).toHaveAttribute(
+      "src",
+      "/media/denzel-rigaud-founder-hero.jpg"
+    );
+    expect(hero?.querySelector("canvas")?.closest("[aria-hidden='true']")).not.toBeNull();
+    expect(within(hero as HTMLElement).getByText("PROJECTS BUILT")).toBeInTheDocument();
     const approvedMission =
       "Expected End creates thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!";
     expect(
@@ -122,6 +126,40 @@ describe("Expected End public site", () => {
     const waterCheckStoreLogo = screen.getByRole("img", { name: "The Water Check liquid logo bubble" });
     expect(waterCheckStoreLogo.querySelector("img")).toHaveAttribute("src", "/brand/watercheck-store/c-mark-magic-eraser.png");
     expect(screen.getByRole("button", { name: "Refill Hoodie coming soon" })).toBeDisabled();
+  });
+
+  it("shows twenty-plus real projects once to assistive tech and loops a hidden copy for the motion", () => {
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+
+    const proof = screen.getByRole("region", { name: "Built from zero. The work speaks for itself." });
+    expect(within(proof).getByText("Projects built")).toBeInTheDocument();
+    const rows = within(proof).getAllByRole("list", { name: /Apps and products|Websites, AI and creative work/ });
+    expect(rows).toHaveLength(2);
+    const projects = rows.flatMap((row) => within(row).getAllByRole("listitem"));
+    expect(projects.length).toBeGreaterThanOrEqual(20);
+    expect(within(rows[0]).getByText("MyBibleLens")).toBeInTheDocument();
+    expect(within(rows[0]).getByText("Closed testing")).toBeInTheDocument();
+    expect(proof.querySelectorAll("ul[aria-hidden='true']")).toHaveLength(2);
+    expect(within(proof).getByRole("link", { name: "Start yours" })).toHaveAttribute("href", "#services");
+  });
+
+  it("opens the phone menu from the pill nav and closes it with Escape", async () => {
+    const user = userEvent.setup();
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+
+    const nav = screen.getByRole("navigation", { name: "Main navigation" });
+    const toggle = within(nav).getByRole("button", { name: "Open menu" });
+    expect(toggle).toHaveAttribute("aria-expanded", "false");
+    expect(within(nav).getAllByRole("link", { name: "Story" })).toHaveLength(1);
+
+    await user.click(toggle);
+    expect(toggle).toHaveAttribute("aria-expanded", "true");
+    expect(toggle).toHaveAccessibleName("Close menu");
+    expect(within(nav).getAllByRole("link", { name: "Story" })).toHaveLength(2);
+
+    await user.keyboard("{Escape}");
+    expect(toggle).toHaveAttribute("aria-expanded", "false");
+    expect(within(nav).getAllByRole("link", { name: "Story" })).toHaveLength(1);
   });
 
   it("renders the complete approved service lineup and concise inquiry guidance", () => {
@@ -246,7 +284,7 @@ describe("Expected End public site", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     const mainNavigation = screen.getByRole("navigation", { name: "Main navigation" });
-    await user.click(within(mainNavigation).getByRole("link", { name: "Mission · About · Press" }));
+    await user.click(within(mainNavigation).getByRole("link", { name: "About" }));
     expect(window.location.pathname).toBe("/about");
     expect(screen.getByRole("heading", { level: 1, name: "Technology with purpose, built for real life." })).toBeInTheDocument();
     expect(document.title).toBe("About — Expected End");

@@ -66,6 +66,72 @@ export const PROJECTS = [
   },
 ] as const;
 
+export type ProofIcon =
+  | "mybiblelens"
+  | "watercheck"
+  | "android"
+  | "canvas"
+  | "route"
+  | "users"
+  | "widgets"
+  | "drop"
+  | "building"
+  | "globe"
+  | "browser"
+  | "sparkle"
+  | "egg"
+  | "star"
+  | "play"
+  | "film"
+  | "search"
+  | "calendar"
+  | "book"
+  | "shirt"
+  | "bag";
+export type ProofItem = {
+  name: string;
+  category: string;
+  status: string;
+  tone: "live" | "building" | "soon" | "count";
+  icon: ProofIcon;
+};
+
+// Real work for the scrolling "20+ projects" rows on the home page, one row per direction.
+export const PROOF_OF_WORK: ReadonlyArray<{ id: string; items: readonly ProofItem[] }> = [
+  {
+    id: "products",
+    items: [
+      { name: "MyBibleLens", category: "Faith app · iOS", status: "On the App Store", tone: "live", icon: "mybiblelens" },
+      { name: "The Water Check", category: "Hydration app · iOS", status: "On the App Store", tone: "live", icon: "watercheck" },
+      { name: "MyBibleLens for Android", category: "Google Play", status: "Closed testing", tone: "building", icon: "android" },
+      { name: "Scripture Canvas", category: "Infinite canvas", status: "Live", tone: "live", icon: "canvas" },
+      { name: "Journey plans", category: "Reading plans + seals", status: "Live", tone: "live", icon: "route" },
+      { name: "Water Check Crews", category: "Team hydration", status: "Built", tone: "live", icon: "users" },
+      { name: "Home Screen widgets", category: "iOS widgets", status: "Built", tone: "live", icon: "widgets" },
+      { name: "Hydration calculator", category: "Web tool", status: "Live", tone: "live", icon: "drop" },
+      { name: "Expected End HQ", category: "Business HQ app", status: "In development", tone: "building", icon: "building" },
+      { name: "43-language rollout", category: "Localization", status: "43 languages", tone: "count", icon: "globe" },
+      { name: "MyBibleLens Store", category: "Merch", status: "Coming soon", tone: "soon", icon: "shirt" },
+    ],
+  },
+  {
+    id: "web-and-creative",
+    items: [
+      { name: "mybiblelens.us", category: "App website", status: "Live", tone: "live", icon: "browser" },
+      { name: "expectedend.co", category: "Company website", status: "Live", tone: "live", icon: "browser" },
+      { name: "Scripture Studio", category: "AI Bible study", status: "AI demo", tone: "count", icon: "sparkle" },
+      { name: "Hidden art world", category: "Interactive web art", status: "Easter egg", tone: "soon", icon: "egg" },
+      { name: "Sanctuary stickers", category: "Illustration set", status: "550+ stickers", tone: "count", icon: "star" },
+      { name: "MyBibleLens pitch film", category: "Brand film", status: "2:51", tone: "count", icon: "play" },
+      { name: "Feature reels", category: "Video series", status: "10 videos", tone: "count", icon: "film" },
+      { name: "Look Closer series", category: "Social series", status: "60 posts", tone: "count", icon: "search" },
+      { name: "25-week campaign", category: "Instagram plan", status: "100 posts", tone: "count", icon: "calendar" },
+      { name: "Renewed Strength", category: "Workbook", status: "33 blocks", tone: "count", icon: "book" },
+      { name: "Water Check Store", category: "Merch", status: "Coming soon", tone: "soon", icon: "bag" },
+    ],
+  },
+];
+
 export const SERVICES = [
   ["01", "Apps", "Useful, thoughtful products designed around real people.", "Building an app or software idea"],
   ["02", "Websites", "Distinct digital homes that feel clear, alive, and welcoming.", "Website or digital experience"],

@@ -1,93 +1,11 @@
 import * as React from "react";
 import styles from "./style.module.css";
 
-const ORBITERS = [
-  { src: "/brand/mybiblelens.png", size: 1, shape: "tile" },
-  { src: "", size: 0.09, shape: "mote" },
-  { src: "/brand/thewatercheck.png", size: 1, shape: "round" },
-  { src: "", size: 0.12, shape: "mote" },
-  { src: "", size: 0.07, shape: "mote" },
-] as const;
-
 function prefersReducedMotion() {
   return typeof window.matchMedia === "function" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
-// The Expected End emblem sits in the middle; the app logos ride a tilted ellipse around it.
-// Items on the far side of the ellipse drop behind the emblem, near-side items pass in front.
-export function HeroStage() {
-  const stageRef = React.useRef<HTMLDivElement>(null);
-  const itemRefs = React.useRef<Array<HTMLSpanElement | null>>([]);
-
-  React.useEffect(() => {
-    const stage = stageRef.current;
-    if (!stage) return;
-    const reduced = prefersReducedMotion();
-    let frame = 0;
-    let visible = true;
-    const start = performance.now();
-
-    const place = (now: number) => {
-      const { width } = stage.getBoundingClientRect();
-      // Unlaid-out stage (hidden tab, test DOM): stop; the observer restarts the loop once it is visible.
-      if (!width) return;
-      const rx = width * 0.46;
-      const ry = width * 0.12;
-      const t = reduced ? 0.6 : (now - start) / 1000;
-      itemRefs.current.forEach((item, index) => {
-        if (!item) return;
-        const angle = t * 0.32 + (index / ORBITERS.length) * Math.PI * 2;
-        const depth = Math.sin(angle);
-        const x = Math.cos(angle) * rx;
-        const y = depth * ry - Math.cos(angle) * width * 0.05;
-        const scale = 0.7 + (depth + 1) * 0.17;
-        item.style.transform = `translate(-50%, -50%) translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) scale(${scale.toFixed(3)})`;
-        item.style.zIndex = depth > 0 ? "4" : "1";
-        item.style.filter = depth > 0 ? "none" : `blur(${(-depth * 1.6).toFixed(2)}px) brightness(${(0.8 + depth * 0.15).toFixed(2)})`;
-      });
-      if (!reduced && visible) frame = requestAnimationFrame(place);
-    };
-
-    const observer = typeof IntersectionObserver === "function"
-      ? new IntersectionObserver(([entry]) => {
-          visible = entry.isIntersecting;
-          cancelAnimationFrame(frame);
-          if (visible && !reduced) frame = requestAnimationFrame(place);
-        })
-      : null;
-    observer?.observe(stage);
-    frame = requestAnimationFrame(place);
-    return () => {
-      cancelAnimationFrame(frame);
-      observer?.disconnect();
-    };
-  }, []);
-
-  return (
-    <div className={styles.heroStage} ref={stageRef}>
-      <span className={styles.heroHalo} />
-      <span className={styles.heroOrbitRing} />
-      <span className={styles.heroEmblem}>
-        <img src="/android-chrome-512x512.png" alt="" width="512" height="512" decoding="async" fetchPriority="high" />
-      </span>
-      <span className={styles.heroOrbitCenter}>
-        {ORBITERS.map((orbiter, index) => (
-          <span
-            key={index}
-            className={styles.heroOrbiter}
-            data-shape={orbiter.shape}
-            style={{ "--orbiter-size": orbiter.size } as React.CSSProperties}
-            ref={(element) => { itemRefs.current[index] = element; }}
-          >
-            {orbiter.src ? <img src={orbiter.src} alt="" width="160" height="160" decoding="async" /> : null}
-          </span>
-        ))}
-      </span>
-    </div>
-  );
-}
-
-// Scroll reveals for anything marked data-reveal, plus the hero parallax progress.
+// Scroll reveals for anything marked data-reveal (home and founder pages).
 export function useHomeMotion(rootRef: React.RefObject<HTMLElement | null>) {
   React.useEffect(() => {
     const root = rootRef.current;
@@ -115,14 +33,11 @@ export function useHomeMotion(rootRef: React.RefObject<HTMLElement | null>) {
       });
     };
 
-    const hero = root.querySelector<HTMLElement>("[data-hero]");
     let ticking = false;
     const onScroll = () => {
       if (ticking) return;
       ticking = true;
       requestAnimationFrame(() => {
-        const progress = Math.min(1, Math.max(0, window.scrollY / Math.max(1, hero?.offsetHeight ?? 1)));
-        hero?.style.setProperty("--hero-progress", progress.toFixed(3));
         revealPassed();
         ticking = false;
       });

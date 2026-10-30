@@ -1,0 +1,66 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: -.02em;
+  pointer-events: none;
+}
+.nav > * { pointer-events: auto; }
+
+.pill {
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .6);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  animation: navDrop .8s cubic-bezier(.22, 1, .36, 1) .1s both;
+}
+.desktop { display: none; align-items: center; gap: 4px; padding: 8px 8px 8px 12px; }
+.logo { display: grid; place-items: center; width: 22px; height: 22px; margin-right: 6px; }
+.logo img, .mobileLogo img { width: 22px; height: 22px; border-radius: 6px; }
+.nav .link { padding: 6px 12px; border-radius: 999px; color: #d1d5db; font-size: 14px; font-weight: 500; white-space: nowrap; transition: background .2s, color .2s; }
+.nav .link:hover { color: #fff; background: rgba(255, 255, 255, .1); }
+.nav .link[aria-current="page"] { color: #fff; }
+.nav .cta { margin-left: 4px; padding: 6px 20px; border-radius: 999px; color: #111827; background: #fff; font-size: 14px; font-weight: 600; white-space: nowrap; transition: background .2s; }
+.nav .cta:hover { background: #f3f4f6; }
+
+.mobileLogo, .toggle { display: grid; place-items: center; width: 46px; height: 46px; padding: 0; border: 0; color: #fff; cursor: pointer; }
+
+/* Sits under the logo and menu pills, inside the nav's own stacking layer. */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  padding: 64px 20px 24px;
+  background: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+  animation: menuIn .35s cubic-bezier(.22, 1, .36, 1);
+}
+.menu[hidden] { display: none; }
+.nav .menuLink { display: block; padding: 12px 0; border-bottom: 1px solid #f3f4f6; color: #1f2937; font-size: 15px; font-weight: 500; }
+.nav .menuLink[aria-current="page"] { color: #000; }
+.nav .menuCta { display: inline-flex; margin-top: 18px; padding: 12px 24px; border-radius: 999px; color: #fff; background: #111827; font-size: 14px; font-weight: 600; }
+
+@media (min-width: 640px) {
+  .nav { padding: 20px; }
+}
+@media (min-width: 768px) {
+  .nav { justify-content: center; }
+  .desktop { display: flex; }
+  .mobileLogo, .toggle, .menu { display: none; }
+}
+
+@keyframes navDrop { from { opacity: 0; transform: translateY(-18px); } to { opacity: 1; transform: none; } }
+@keyframes menuIn { from { opacity: 0; transform: translateY(-10px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .pill, .menu { animation: none; }
+}
