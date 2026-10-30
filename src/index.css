@@ -46,6 +46,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/fonts/jetbrains-mono-latin-wght-italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100 800;
+  font-display: swap;
+}
+
 :root {
   font-size: 13px;
   font-family: "Hammersmith One", sans-serif;

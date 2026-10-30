@@ -1,7 +1,10 @@
 import * as React from "react";
 import { ArrowDownIcon, ArrowUpRightIcon, InstagramIcon, LinkedInIcon, YouTubeIcon } from "./action-icons";
 import { FOUNDER_DESCRIPTION } from "./content";
+import { type ArcStat, CyberHero, Ticker } from "./cyber-hero";
+import cyber from "./cyber.module.css";
 import pageStyles from "./denzel-page.module.css";
+import { useHomeMotion } from "./home-motion";
 import { VerseDialog } from "./verse-dialog";
 
 type DenzelPageProps = {
@@ -88,6 +91,12 @@ const PROFILE_PAGE_SCHEMA = {
   mainEntity: PERSON_SCHEMA,
 };
 
+const TURNING_POINTS: readonly ArcStat[] = [
+  { value: "5", suffix: "th", label: "GRADE · CURIOSITY" },
+  { value: "2021", label: "GRIEF" },
+  { value: "2026", label: "FAITH · THE RETURN" },
+];
+
 const MEMORY_PHOTOS = [
   {
     src: "/media/denzel-memory-01-father.jpg",
@@ -120,115 +129,95 @@ const MEMORY_PHOTOS = [
 ] as const;
 
 export function DenzelPage({ onNavigate }: DenzelPageProps) {
-  const heroRef = React.useRef<HTMLElement>(null);
+  const mainRef = React.useRef<HTMLElement>(null);
   const [showVerse, setShowVerse] = React.useState(false);
-
-  React.useEffect(() => {
-    const hero = heroRef.current;
-    if (!hero || window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
-
-    let frame = 0;
-    const updateProgress = () => {
-      frame = 0;
-      const rect = hero.getBoundingClientRect();
-      const distance = Math.max(hero.offsetHeight - window.innerHeight, 1);
-      const progress = Math.min(1, Math.max(0, -rect.top / distance));
-      hero.style.setProperty("--founder-progress", progress.toFixed(3));
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(updateProgress);
-    };
-
-    updateProgress();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, []);
+  useHomeMotion(mainRef);
 
   return (
-    <main className={pageStyles.page}>
+    <main className={`${cyber.page} ${pageStyles.page}`} ref={mainRef}>
       <script type="application/ld+json">{JSON.stringify(PROFILE_PAGE_SCHEMA)}</script>
 
-      <section ref={heroRef} className={pageStyles.heroJourney} aria-labelledby="denzel-hero-title">
-        <div className={pageStyles.heroStage}>
-          <img
-            className={pageStyles.heroPortrait}
-            data-scroll-linked="founder"
-            src="/media/denzel-rigaud-founder-hero.png"
-            alt="Denzel Rigaud wearing a navy suit and orange-tinted glasses"
-            width="1058"
-            height="1487"
-            fetchPriority="high"
-          />
-          <div className={pageStyles.heroShade} aria-hidden="true" />
-          <div className={pageStyles.coordinateGrid} aria-hidden="true" />
-          <div className={pageStyles.lavaGlow} aria-hidden="true" />
-          <div className={pageStyles.orbitSystem} aria-hidden="true">
-            <span className={pageStyles.orbitOne} />
-            <span className={pageStyles.orbitTwo} />
-            <span className={pageStyles.orbitThree} />
-          </div>
-
-          <div className={pageStyles.heroCopy}>
-            <p className={pageStyles.eyebrow}>Denzel Rigaud / Founder &amp; Solo Full-Stack Developer</p>
-            <h1 id="denzel-hero-title">The Mind Behind Expected End</h1>
-            <p className={pageStyles.heroStatement}>
-              A story about curiosity, grief, faith, and turning technology into a way forward.
-            </p>
-            <time className={pageStyles.foundingDate} dateTime="2026-03-03">
-              March 3, 2026
-            </time>
-          </div>
-
-          <div className={pageStyles.heroTelemetry} aria-hidden="true">
-            <span>Identity / Denzel Rigaud</span>
-            <span>Depth / Suit ingress</span>
-            <span>Signal / Scroll linked</span>
-          </div>
-
-          <div className={pageStyles.heroIndex} aria-hidden="true">
-            <span>EE / 001</span>
-            <span>26.0218° N / 80.1484° W</span>
-          </div>
-          <a className={pageStyles.scrollCue} href="#memoir">
-            <span>Scroll</span>
+      <CyberHero
+        variant="founder"
+        labelledBy="denzel-hero-title"
+        photoAlt="Denzel Rigaud in orange-tinted glasses"
+        stats={TURNING_POINTS}
+        scan
+        hud={
+          <>
+            <span>
+              Identity <b>/ Denzel Rigaud</b>
+            </span>
+            <span>
+              Founded / <time dateTime="2026-03-03">March 3, 2026</time>
+            </span>
+            <span aria-hidden="true">26.0218° N / 80.1484° W</span>
+          </>
+        }
+      >
+        <p className={`${cyber.heroEyebrow} ${cyber.rise}`} style={{ animationDelay: ".15s" }}>
+          Denzel Rigaud / <em>Founder &amp; Solo Full-Stack Developer</em>
+        </p>
+        <h1 id="denzel-hero-title" className={`${cyber.heroTitle} ${cyber.rise}`} style={{ animationDelay: ".3s" }}>
+          The Mind <br />
+          Behind <br />
+          Expected End
+        </h1>
+        <p className={`${cyber.heroText} ${cyber.rise}`} style={{ animationDelay: ".5s" }}>
+          A story about curiosity, grief, faith, and turning technology into a way forward.
+        </p>
+        <div className={cyber.rise} style={{ animationDelay: ".7s" }}>
+          <a className={cyber.cta} href="#memoir">
+            <span className={cyber.shine} aria-hidden="true" />
+            <span className={cyber.ctaLabel}>Read the story</span>
             <ArrowDownIcon />
           </a>
         </div>
-      </section>
+      </CyberHero>
+
+      <Ticker items={["Curiosity", "Grief", "Faith", "Code", "Purpose", "Jeremiah 29:11"]} />
 
       <section className={pageStyles.coordinates} aria-labelledby="coordinates-title">
-        <header>
-          <p className={pageStyles.eyebrow}>Three coordinates</p>
-          <h2 id="coordinates-title">The road here was not a straight line.</h2>
+        <header data-reveal>
+          <p className={cyber.eyebrow}>Three coordinates</p>
+          <h2 id="coordinates-title">
+            The road here was not a <em>straight line.</em>
+          </h2>
         </header>
         <ol>
-          <li>
+          <li data-reveal>
             <span>01 / Fifth grade</span>
             <strong>Curiosity became a survival skill.</strong>
             <p>I started by refusing to let one failure define the rest of my life.</p>
+            <span className={pageStyles.coordBig} aria-hidden="true">
+              5th
+            </span>
           </li>
-          <li>
+          <li data-reveal>
             <span>02 / 2021</span>
             <strong>Grief closed the door on technology.</strong>
             <p>Losing my father made every skill he taught me feel impossible to touch.</p>
+            <span className={pageStyles.coordBig} aria-hidden="true">
+              2021
+            </span>
           </li>
-          <li>
+          <li data-reveal>
             <span>03 / February 25, 2026</span>
             <strong>Faith gave the work a purpose.</strong>
             <p>I came back to build tools that leave people stronger than they found them.</p>
+            <span className={pageStyles.coordBig} aria-hidden="true">
+              2026
+            </span>
           </li>
         </ol>
       </section>
 
       <article className={pageStyles.memoir} id="memoir" aria-labelledby="memoir-title">
-        <header className={pageStyles.memoirIntro}>
-          <p className={pageStyles.eyebrow}>Founder story / First person</p>
-          <h2 id="memoir-title">Hi, my name is Denzel Rigaud.</h2>
+        <header className={pageStyles.memoirIntro} data-reveal>
+          <p className={cyber.eyebrow}>Founder story / First person</p>
+          <h2 id="memoir-title">
+            Hi, my name is <em>Denzel Rigaud.</em>
+          </h2>
           <div>
             <p>
               Technology has been part of my life since fifth grade. School had frustrated me from an early age. I failed second
@@ -270,7 +259,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
           </nav>
         </header>
 
-        <section className={pageStyles.chapter} aria-labelledby="family-title">
+        <section className={pageStyles.chapter} aria-labelledby="family-title" data-reveal>
           <div className={pageStyles.chapterHeading}>
             <span>Chapter 01</span>
             <p>The people who taught me</p>
@@ -298,7 +287,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
           </div>
         </section>
 
-        <section className={pageStyles.chapter} aria-labelledby="return-title">
+        <section className={pageStyles.chapter} aria-labelledby="return-title" data-reveal>
           <div className={pageStyles.chapterHeading}>
             <span>Chapter 02</span>
             <p>The return</p>
@@ -323,11 +312,11 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
         </section>
 
         <section className={pageStyles.draft} aria-labelledby="truth-code-title">
-          <header>
+          <header data-reveal>
             <span>Chapter 03 / The Draft</span>
             <h2 id="truth-code-title">“The Truth Behind the Code”</h2>
           </header>
-          <section className={pageStyles.draftChapter} aria-labelledby="digital-venom-title">
+          <section className={pageStyles.draftChapter} aria-labelledby="digital-venom-title" data-reveal>
             <h3 id="digital-venom-title">The Digital Venom</h3>
             <div className={pageStyles.chapterCopy}>
               <p>
@@ -390,7 +379,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
             </div>
           </section>
 
-          <section className={pageStyles.draftChapter} aria-labelledby="crucible-title">
+          <section className={pageStyles.draftChapter} aria-labelledby="crucible-title" data-reveal>
             <h3 id="crucible-title">The Crucible That Built Me</h3>
             <div className={pageStyles.chapterCopy}>
               <p>
@@ -499,7 +488,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
           </section>
 
           <section className={pageStyles.memoryArchive} aria-labelledby="memory-archive-title">
-            <header className={pageStyles.memoryHeader}>
+            <header className={pageStyles.memoryHeader} data-reveal>
               <span>Personal file / 04 memories</span>
               <h3 id="memory-archive-title">Memory archive</h3>
               <p>The people, rooms, and real work behind the code. Download any frame and keep it.</p>
@@ -508,7 +497,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
               {MEMORY_PHOTOS.map((photo, index) => {
                 const memoryNumber = String(index + 1).padStart(2, "0");
                 return (
-                  <figure className={pageStyles.memoryCard} key={photo.download}>
+                  <figure className={pageStyles.memoryCard} key={photo.download} data-reveal>
                     <div className={pageStyles.memoryFrame}>
                       <img src={photo.src} alt={photo.alt} loading="lazy" decoding="async" />
                       <a
@@ -540,8 +529,10 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
           <span />
           <span />
         </div>
-        <p className={pageStyles.eyebrow}>End of transmission / The work continues</p>
-        <h2 id="channel-title">Let’s build something that gives people their life back.</h2>
+        <p className={cyber.eyebrow}>End of transmission / The work continues</p>
+        <h2 id="channel-title">
+          Let’s build something that gives people their <em>life back.</em>
+        </h2>
         <p>For thoughtful software, press conversations, or the beginning of a good idea, open a channel through Expected End.</p>
         <div className={pageStyles.channelActions}>
           {/* biome-ignore lint/a11y/useValidAnchor: this is an addressable cross-route section link */}

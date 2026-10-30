@@ -6,12 +6,12 @@ import { HomePage } from "./home";
 import { InfoPage } from "./info-page";
 import { LEGAL_CONTENT, type LegalPageKey } from "./legal-content";
 import { Navigation } from "./navigation";
+import { FOUNDER_NAV, HOME_NAV, PillNavigation } from "./pill-navigation";
 import { PressPage } from "./press-page";
 import { getRoute, getRouteMetadata, isInternalHref } from "./routes";
 import { Storefront } from "./storefront";
 import styles from "./style.module.css";
 import { FounderFooter } from "./founder-footer";
-import { FounderNavigation } from "./founder-navigation";
 import { WaterCheckFooter } from "./water-check-footer";
 import { WaterCheckPage } from "./water-check-page";
 import { WaterCheckLanding } from "./water-check-landing";
@@ -134,14 +134,16 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   };
 
   return (
-    <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue">
-      {route.key === "denzel-rigaud" ? (
-        <FounderNavigation onNavigate={onNavigate} />
+    <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue" data-page={route.key === "home" ? "home" : undefined}>
+      {route.key === "home" ? (
+        <PillNavigation links={HOME_NAV} onNavigate={onNavigate} />
+      ) : route.key === "denzel-rigaud" ? (
+        <PillNavigation links={FOUNDER_NAV} contactHref="#channel-title" founder onNavigate={onNavigate} />
       ) : (
         route.key !== "mybiblelens-store" &&
         route.key !== "watercheck-store" &&
         route.key !== "watercheck-page" && (
-          <Navigation isHome={route.key === "home"} theme={route.navTheme} onNavigate={onNavigate} />
+          <Navigation theme={route.navTheme} onNavigate={onNavigate} />
         )
       )}
       {renderCompanyRoute()}

@@ -90,29 +90,13 @@ describe("Expected End About page", () => {
     expect(screen.getByRole("heading", { level: 1, name: "The Mind Behind Expected End" })).toBeInTheDocument();
     expect(screen.getByText("March 3, 2026")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();
-    const founderPortrait = document.querySelector<HTMLImageElement>("img[data-scroll-linked='founder']");
-    expect(founderPortrait).toHaveAttribute("src", "/media/denzel-rigaud-founder-hero.png");
-    expect(founderPortrait).toHaveAccessibleName("Denzel Rigaud wearing a navy suit and orange-tinted glasses");
+    const founderPortrait = screen.getByRole("img", { name: "Denzel Rigaud in orange-tinted glasses" });
+    expect(founderPortrait).toHaveAttribute("src", "/media/denzel-rigaud-founder-hero.jpg");
+    expect(founderPortrait.closest("picture")?.querySelector("source")).toHaveAttribute("srcset", "/media/denzel-founder-scroll-poster.jpg");
+    expect(founderPortrait.closest("section")).toHaveAttribute("data-cyber-hero", "founder");
     expect(document.querySelector("video[data-scroll-scrub='founder']")).not.toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Scroll" })).toHaveAttribute("href", "#memoir");
+    expect(screen.getByRole("link", { name: "Read the story" })).toHaveAttribute("href", "#memoir");
     expect(screen.queryByText("Scroll to enter the memoir")).not.toBeInTheDocument();
-
-    const hero = founderPortrait?.closest("section");
-    expect(hero).not.toBeNull();
-    Object.defineProperty(hero, "offsetHeight", { configurable: true, value: 2000 });
-    vi.spyOn(hero as HTMLElement, "getBoundingClientRect").mockReturnValue({
-      top: -616,
-      bottom: 1384,
-      left: 0,
-      right: 1280,
-      width: 1280,
-      height: 2000,
-      x: 0,
-      y: -616,
-      toJSON: () => ({}),
-    });
-    fireEvent.scroll(window);
-    expect(hero).toHaveStyle({ "--founder-progress": "0.500" });
     expect(screen.queryByText(/I am a jack of all trades/i)).not.toBeInTheDocument();
     expect(screen.getByText(/I decided to start by hacking my grades/i)).toBeInTheDocument();
     expect(screen.getByText(/Instagram bot farming/i)).toBeInTheDocument();
