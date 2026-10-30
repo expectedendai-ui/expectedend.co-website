@@ -108,6 +108,7 @@ describe("Expected End About page", () => {
       "href",
       "https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
     );
+    expect(screen.getByRole("link", { name: "Denzel Rigaud on YouTube" })).toHaveAttribute("href", "https://www.youtube.com/@expectedendco");
     const connectRow = screen.getByRole("navigation", { name: "Follow Denzel Rigaud" });
     expect(within(connectRow).getByRole("link", { name: "Expected End on YouTube" })).toHaveAttribute(
       "href",
