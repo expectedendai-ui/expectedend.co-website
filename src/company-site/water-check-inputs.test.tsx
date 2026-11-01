@@ -19,7 +19,7 @@ describe("Water Check footer", () => {
     );
     expect(within(nav).getByRole("link", { name: "The store" })).toHaveAttribute("href", "/thewatercheckstore");
     expect(within(nav).getByRole("link", { name: "Privacy Policy" })).toHaveAttribute("href", "/thewatercheck/privacy");
-    expect(within(footer).getByRole("link", { name: "Expected End LLC" })).toHaveAttribute("href", "/");
+    expect(within(footer).getByRole("link", { name: "EXPECTEDEND LLC" })).toHaveAttribute("href", "/");
     // The account is for everyone: no verse, no blessing, no company mission on this page.
     expect(within(footer).queryByText(/Jeremiah/)).not.toBeInTheDocument();
     expect(within(footer).queryByText(/Jesus loves you/)).not.toBeInTheDocument();

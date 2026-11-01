@@ -1,6 +1,6 @@
 # ai.txt — AI usage declaration
 # Site: https://expectedend.co
-# Owner: Expected End LLC
+# Owner: EXPECTEDEND LLC
 # Updated: 2026-08-08
 # Policy: NO AUTOMATED AI USE
 

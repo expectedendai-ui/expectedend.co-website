@@ -21,7 +21,7 @@ const PRESS_PAGE_SCHEMA = {
       "@type": "Organization",
       "@id": "https://expectedend.co/#organization",
       name: "Expected End",
-      legalName: "Expected End LLC",
+      legalName: "EXPECTEDEND LLC",
       url: "https://expectedend.co/",
     },
     {
@@ -122,7 +122,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
             <span className={styles.bioLabel}>Full bio</span>
             <div data-testid="full-bio">
               <p>
-                Denzel Rigaud founded Expected End LLC and built MyBibleLens and The Water Check independently. He works as the
+                Denzel Rigaud founded EXPECTEDEND LLC and built MyBibleLens and The Water Check independently. He works as the
                 company&apos;s full-stack developer, shaping each product from concept through design, engineering, and
                 release.
               </p>
@@ -145,7 +145,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
         <dl className={styles.factList}>
           <div>
             <dt>Company</dt>
-            <dd>Expected End LLC</dd>
+            <dd>EXPECTEDEND LLC</dd>
           </div>
           <div>
             <dt>Founder</dt>
