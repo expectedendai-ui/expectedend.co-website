@@ -128,7 +128,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
               </p>
               <p>
                 His work focuses on faith-centered software, digital well-being, and practical tools that help people use
-                technology with intention. MyBibleLens is the World&apos;s First Sanctuary App for Christianity. The Water Check
+                technology with intention. MyBibleLens is a sanctuary app for Christianity. The Water Check
                 combines a private hydration estimate, practical water habits, and a community focused on daily consistency.
               </p>
             </div>
@@ -197,7 +197,7 @@ export function PressPage({ onNavigate }: PressPageProps) {
             <div>
               <p>Faith-centered software</p>
               <h3>MyBibleLens</h3>
-              <p>The World&apos;s First Sanctuary App for Christianity.</p>
+              <p>The Sanctuary App for Christianity.</p>
               <a href="https://mybiblelens.us/" target="_blank" rel="noopener noreferrer">
                 Visit MyBibleLens <ArrowUpRightIcon />
               </a>

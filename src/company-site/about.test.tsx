@@ -228,7 +228,7 @@ describe("Expected End About page", () => {
     );
     expect(profileSchema.mainEntity?.jobTitle).toBe("Founder and Full-Stack Developer");
     expect(profileSchema.mainEntity?.description).toBe(
-      "Denzel Rigaud is the founder and full-stack developer behind Expected End, MyBibleLens, the World's First Sanctuary App for Christianity, and The Water Check."
+      "Denzel Rigaud is the founder and full-stack developer behind Expected End, MyBibleLens, the Sanctuary App for Christianity, and The Water Check."
     );
 
     await user.click(screen.getByRole("button", { name: /Jeremiah 29:11/ }));
