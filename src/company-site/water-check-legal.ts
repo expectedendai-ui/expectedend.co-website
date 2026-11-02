@@ -6,9 +6,9 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "November 1, 2026";
+const EFFECTIVE = "November 2, 2026";
 /** The cycle answer stays on the phone; the legal name is as registered. */
-const HEALTH_UPDATE = "November 1, 2026";
+const HEALTH_UPDATE = "November 2, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -138,7 +138,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "How long we keep it",
         paragraphs: [
-          "We keep account information while your account is open. When you delete your account, we delete it and the information tied to it from our active systems, and the app clears what it kept on that phone. Copies in routine backups are overwritten on their normal schedule. We may keep a small amount for longer where the law requires it or to keep people safe, such as reports you filed about others (kept without your account) and purchase records the stores and RevenueCat keep for tax and accounting.",
+          "We keep account information while your account is open. When you delete your account, we delete it and the information tied to it from our active systems, and the app clears what it kept on that phone. Copies in routine backups are overwritten on their normal schedule. We may keep a small amount for longer where the law requires it or to keep people safe, such as reports you filed about others (kept without your account) and purchase records the stores keep for tax and accounting. We also ask RevenueCat to delete its record of you.",
         ],
       },
       {
@@ -426,7 +426,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "What may be kept",
         paragraphs: [
-          "Reports you filed about others may be kept without your account so we can keep Crews safe. Copies in routine backups are overwritten on their normal schedule. Apple, Google and RevenueCat keep their own purchase records for tax and accounting, under their policies.",
+          "Reports you filed about others may be kept without your account so we can keep Crews safe. Copies in routine backups are overwritten on their normal schedule. We ask RevenueCat to delete its record of you. Apple and Google keep their own purchase records for tax and accounting, under their policies.",
         ],
       },
       {
