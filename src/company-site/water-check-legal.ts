@@ -6,9 +6,9 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "October 26, 2026";
-/** Apple Health and Health Connect were added to the Privacy and Consumer Health Data policies. */
-const HEALTH_UPDATE = "October 28, 2026";
+const EFFECTIVE = "November 1, 2026";
+/** The cycle answer stays on the phone; the legal name is as registered. */
+const HEALTH_UPDATE = "November 1, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -16,7 +16,7 @@ export const WATER_CHECK_LEGAL = {
     eyebrow: "The Water Check",
     title: "The Water Check Privacy Policy",
     intro:
-      "This policy explains what The Water Check app collects, where it is kept, who helps us run it, and the choices you have. The app is made by Expected End LLC, a Florida company. Our Expected End website has its own privacy statement.",
+      "This policy explains what The Water Check app collects, where it is kept, who helps us run it, and the choices you have. The app is made by EXPECTEDEND LLC, a Florida company. Our Expected End website has its own privacy statement.",
     effectiveDate: HEALTH_UPDATE,
     related: [
       { label: "Consumer Health Data Privacy Policy", href: "/thewatercheck/consumer-health-data" },
@@ -28,7 +28,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "The short version",
         paragraphs: ["The details are below, but these are the main points:"],
         bullets: [
-          "Your drink log, Drink Journal, saved drinks and foods, Guide pearls, training sessions and cycle notes stay on your phone.",
+          "Your drink log, Drink Journal, saved drinks and foods, Guide pearls, training sessions, your cycle answer and cycle notes stay on your phone.",
           "Your account, your sign-up answers, your daily water totals and your Crew live on our servers so they follow you to a new phone.",
           "Barcode scans look a drink up in Open Food Facts, a free, open food database. Only the barcode number is sent.",
           "Drink Check photos are read by Google's Gemini AI and are not kept by us.",
@@ -50,7 +50,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Information that stays on your phone",
         paragraphs: [
-          "Some things never leave your device and are not sent to your account: each drink and food you log, your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, cycle notes, activity notes, training sessions logged in earlier versions of the app, the body outline you pick, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
+          "Some things never leave your device and are not sent to your account: each drink and food you log, your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, your cycle answer if you choose to give one, cycle notes, activity notes, training sessions logged in earlier versions of the app, the body outline you pick, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
           "Your Home Screen widget reads what it shows from the app on the same phone, including today's electrolyte charge from the drinks you scanned. That stays on the phone too.",
           "Because we do not have this information, we cannot restore it for you. Deleting the app or clearing its data erases it.",
         ],
@@ -178,7 +178,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Changes and contact",
         paragraphs: [
           "If we change this notice in a way that matters, we will tell you in the app before the change applies. The effective date at the top shows the current version.",
-          `Questions or requests: ${EMAIL}, with “The Water Check privacy request” in the subject. Expected End LLC, Florida, United States.`,
+          `Questions or requests: ${EMAIL}, with “The Water Check privacy request” in the subject. EXPECTEDEND LLC, Florida, United States.`,
         ],
       },
     ],
@@ -188,7 +188,7 @@ export const WATER_CHECK_LEGAL = {
     eyebrow: "The Water Check",
     title: "The Water Check Terms and Conditions",
     intro:
-      "These terms are an agreement between you and Expected End LLC, a Florida company, for The Water Check app. By downloading or using the app you agree to them. Please read the health and safety section closely.",
+      "These terms are an agreement between you and EXPECTEDEND LLC, a Florida company, for The Water Check app. By downloading or using the app you agree to them. Please read the health and safety section closely.",
     effectiveDate: EFFECTIVE,
     related: [
       { label: "Privacy Policy", href: "/thewatercheck/privacy" },
@@ -242,7 +242,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Purchases",
         paragraphs: [
           "The app is free to download, and some features need a purchase. Prices are shown in the App Store or Google Play in your currency before you buy, and you are charged by Apple or Google under their terms. Refunds are handled by Apple or Google under their policies. You can restore purchases on your account in the app.",
-          "During our opening year we may offer a one-time purchase that unlocks the app's paid features with no subscription. If the app later moves to a monthly plan, a one-time purchase made before then stays unlocked on that account, and we will not take away the features it unlocked while we continue to offer the app. Free allowances, such as free Drink Check scans, may change. We do not promise any particular future feature.",
+          "During our opening year we may offer a one-time purchase that unlocks the app's paid features with no subscription. If the app later moves to a monthly plan, a one-time purchase made before then stays unlocked on that account, and we will not take away the features it unlocked while we continue to offer the app. \u201cEverything Forever\u201d and \u201cstays yours\u201d mean exactly this: for as long as we offer the app. They are not a promise that the app will run forever. Free allowances, such as free Drink Check scans, may change. We do not promise any particular future feature.",
           "If we ever offer a subscription, the store will show its price and renewal period before you subscribe, it will renew until you cancel in your store settings, and deleting the app or your account does not cancel it.",
         ],
       },
@@ -256,7 +256,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Our content",
         paragraphs: [
-          "The app, its widget designs, illustrations, the character Bubbles, its text, sounds and code, and The Water Check name and logo belong to Expected End LLC or our licensors. These terms do not give you any rights in them beyond using the app. If you send us ideas or feedback, we may use them without owing you anything.",
+          "The app, its widget designs, illustrations, the character Bubbles, its text, sounds and code, and The Water Check name and logo belong to EXPECTEDEND LLC or our licensors. These terms do not give you any rights in them beyond using the app. If you send us ideas or feedback, we may use them without owing you anything.",
         ],
       },
       {
@@ -280,20 +280,20 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Limitation of liability",
         paragraphs: [
-          "To the fullest extent the law allows, Expected End LLC and its owner, team and providers will not be liable for any indirect, incidental, special, consequential or punitive damages, or for lost data, health outcomes or decisions you make based on the app. Our total liability for any claim about the app is limited to the greater of the amount you paid us for the app in the 12 months before the claim, or 50 US dollars.",
+          "To the fullest extent the law allows, EXPECTEDEND LLC and its owner, team and providers will not be liable for any indirect, incidental, special, consequential or punitive damages, or for lost data, health outcomes or decisions you make based on the app. Our total liability for any claim about the app is limited to the greater of the amount you paid us for the app in the 12 months before the claim, or 50 US dollars.",
           "Some places do not allow these limits, so they apply to you only as far as your local law allows. Nothing in these terms limits liability for things the law says cannot be limited, such as fraud or, where applicable, death or personal injury caused by negligence.",
         ],
       },
       {
         heading: "Indemnity",
         paragraphs: [
-          "If you misuse the app, break these terms or violate someone else's rights, you agree to cover the reasonable costs, including legal fees, that Expected End LLC faces because of it, as far as your local law allows.",
+          "If you misuse the app, break these terms or violate someone else's rights, you agree to cover the reasonable costs, including legal fees, that EXPECTEDEND LLC faces because of it, as far as your local law allows.",
         ],
       },
       {
         heading: "Disputes and governing law",
         paragraphs: [
-          `If you have a problem with the app, please email ${EMAIL} first; most things can be fixed quickly. If we cannot settle it within 60 days, these terms are governed by the laws of the State of Florida, without regard to conflict-of-law rules, and any dispute will be brought in the state or federal courts with jurisdiction over Expected End LLC's principal place of business, except that either of us may use small claims court. To the extent the law allows, claims will be brought individually and not as part of a class.`,
+          `If you have a problem with the app, please email ${EMAIL} first; most things can be fixed quickly. If we cannot settle it within 60 days, these terms are governed by the laws of the State of Florida, without regard to conflict-of-law rules, and any dispute will be brought in the state or federal courts with jurisdiction over EXPECTEDEND LLC's principal place of business, except that either of us may use small claims court. To the extent the law allows, claims will be brought individually and not as part of a class.`,
           "If you live in the European Union, the United Kingdom or another place whose consumer laws give you rights these terms cannot take away, those rights still apply, and you may also bring a claim in your local courts.",
         ],
       },
@@ -301,14 +301,14 @@ export const WATER_CHECK_LEGAL = {
         heading: "If you got the app from the Apple App Store",
         paragraphs: ["These additional terms apply between you, us and Apple:"],
         bullets: [
-          "These terms are between you and Expected End LLC only, not Apple. We, not Apple, are solely responsible for the app and its content.",
+          "These terms are between you and EXPECTEDEND LLC only, not Apple. We, not Apple, are solely responsible for the app and its content.",
           "Your license is limited to using the app on Apple-branded products you own or control, as allowed by the Usage Rules in the Apple Media Services Terms and Conditions, except that the app may be used by other accounts linked to you through Family Sharing or volume purchasing.",
           "We, not Apple, are responsible for any maintenance and support for the app. Apple has no obligation to provide them.",
           "If the app fails to meet any applicable warranty, you may notify Apple, and Apple will refund the purchase price, if any, to you. To the maximum extent the law allows, Apple has no other warranty obligation for the app. Any other claims, losses, liabilities, damages, costs or expenses from a failure to meet a warranty are our responsibility, to the extent these terms do not disclaim them.",
           "We, not Apple, are responsible for addressing any claims by you or a third party about the app or your possession or use of it, including product liability claims, claims that the app fails to meet legal or regulatory requirements, and claims under consumer protection, privacy or similar laws.",
           "If a third party claims the app or your use of it infringes their intellectual property rights, we, not Apple, are solely responsible for the investigation, defense, settlement and discharge of that claim.",
           "You represent that you are not located in a country subject to a US Government embargo or designated as a “terrorist supporting” country, and that you are not on any US Government list of prohibited or restricted parties.",
-          `Questions, complaints or claims about the app go to Expected End LLC at ${EMAIL}.`,
+          `Questions, complaints or claims about the app go to EXPECTEDEND LLC at ${EMAIL}.`,
           "You must follow any third-party terms that apply when you use the app, such as your wireless data service agreement.",
           "Apple and Apple's subsidiaries are third-party beneficiaries of these terms. Once you accept them, Apple has the right (and is deemed to have accepted the right) to enforce these terms against you as a third-party beneficiary.",
         ],
@@ -324,7 +324,7 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "These terms, together with the Privacy Policy, the Community Guidelines and the Consumer Health Data Privacy Policy, are the whole agreement between you and us about the app. If any part is found unenforceable, the rest still applies. If we do not enforce a part right away, we have not given up the right to do so later. You may not transfer these terms; we may transfer them as part of a merger, sale or reorganization. The app shows these terms in many languages; if a translation differs from this English version, the English version controls to the extent the law allows.",
           "We may update these terms. If a change matters, we will tell you in the app before it applies, and continuing to use the app after that means you accept the new terms. If you do not agree, please stop using the app and delete your account.",
-          `Contact: Expected End LLC, Florida, United States. ${EMAIL}.`,
+          `Contact: EXPECTEDEND LLC, Florida, United States. ${EMAIL}.`,
         ],
       },
     ],
@@ -334,7 +334,7 @@ export const WATER_CHECK_LEGAL = {
     eyebrow: "The Water Check",
     title: "Consumer Health Data Privacy Policy",
     intro:
-      "Some states, including Washington, Nevada and Connecticut, give extra protection to information about your health. This policy explains how The Water Check, made by Expected End LLC, handles that kind of information. It adds to our Privacy Policy.",
+      "Some states, including Washington, Nevada and Connecticut, give extra protection to information about your health. This policy explains how The Water Check, made by EXPECTEDEND LLC, handles that kind of information. It adds to our Privacy Policy.",
     effectiveDate: HEALTH_UPDATE,
     related: [
       { label: "Privacy Policy", href: "/thewatercheck/privacy" },
@@ -356,7 +356,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Health data that stays on your phone",
         paragraphs: [
-          "Your individual drink and food entries, Drink Journal (including how drinks made you feel and the electrolytes in them), cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them.",
+          "Your individual drink and food entries, Drink Journal (including how drinks made you feel and the electrolytes in them), your cycle answer, cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them.",
           "Drink Check photos are sent through our server to Google's Gemini API to be read and are not stored by us. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
           "If you turn on Apple Health or Health Connect, the app adds your water and caffeine to it, and with Everything Forever the electrolytes and sugar from drinks you scan. That copy is kept by Apple Health or Health Connect on your phone, under your control. We do not receive it from there, and the app never reads it.",
         ],
@@ -389,7 +389,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Changes and contact",
         paragraphs: [
-          `We will update the effective date when this policy changes and tell you in the app if a change matters. Contact: Expected End LLC, Florida, United States. ${EMAIL}.`,
+          `We will update the effective date when this policy changes and tell you in the app if a change matters. Contact: EXPECTEDEND LLC, Florida, United States. ${EMAIL}.`,
         ],
       },
     ],

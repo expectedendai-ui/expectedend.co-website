@@ -46,7 +46,7 @@ const PERSON_SCHEMA = {
     "@type": "Organization",
     "@id": "https://expectedend.co/#organization",
     name: "Expected End",
-    legalName: "Expected End LLC",
+    legalName: "EXPECTEDEND LLC",
     url: "https://expectedend.co/",
   },
   memberOf: {

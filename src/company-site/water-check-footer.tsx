@@ -73,7 +73,7 @@ export function WaterCheckFooter({ onNavigate, backToTopHref = "#water-check-tit
         <p>
           An{" "}
           <a href="/" onClick={onNavigate}>
-            Expected End LLC
+            EXPECTEDEND LLC
           </a>{" "}
           project. Educational estimate, not medical advice.
         </p>

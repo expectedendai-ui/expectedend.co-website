@@ -13,7 +13,7 @@ describe("Expected End press page", () => {
     expect(screen.getByTestId("full-bio")).toHaveTextContent("built MyBibleLens and The Water Check independently");
 
     const facts = screen.getByRole("region", { name: "Verified facts" });
-    expect(within(facts).getByText("Expected End LLC")).toBeInTheDocument();
+    expect(within(facts).getByText("EXPECTEDEND LLC")).toBeInTheDocument();
     expect(within(facts).getByText("Founder and full-stack developer")).toBeInTheDocument();
 
     expect(screen.getByRole("link", { name: "Denzel Rigaud on Wikidata" })).toHaveAttribute(

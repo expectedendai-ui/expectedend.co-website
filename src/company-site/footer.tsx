@@ -13,7 +13,7 @@ export function Footer({ onNavigate, onOpenArtWorld }: FooterProps) {
     <footer className={styles.footer}>
       <div className={styles.footerTop}>
         <a className={styles.footerWordmark} href="/" onClick={onNavigate}>
-          Expected End LLC
+          EXPECTEDEND LLC
         </a>
         <nav className={styles.footerLinks} aria-label="Footer navigation">
           <a href="/" onClick={onNavigate}>

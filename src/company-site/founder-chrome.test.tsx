@@ -35,6 +35,6 @@ describe("Founder page chrome", () => {
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
     expect(screen.getByRole("navigation", { name: "Main navigation" })).not.toHaveAttribute("data-founder-nav");
     expect(screen.getByRole("contentinfo")).not.toHaveAttribute("data-founder-footer");
-    expect(screen.getByRole("link", { name: "Expected End LLC" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "EXPECTEDEND LLC" })).toBeInTheDocument();
   });
 });

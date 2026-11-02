@@ -697,7 +697,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
             screens show a test build with made-up data; features may change before release.
           </p>
           <div className="foot-base">
-            <span>© 2026 Expected End LLC</span>
+            <span>© 2026 EXPECTEDEND LLC</span>
             <span>The Water Check™</span>
           </div>
         </div>

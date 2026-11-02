@@ -21,7 +21,7 @@ export function FounderFooter({ onNavigate, onOpenArtWorld }: FounderFooterProps
             Technology isn't for us to doom-scroll and live other people's lives. It should better our spirit, soul, mind,
             and flesh.
           </p>
-          <p className="founderFooterSign">Founder, Expected End LLC. Boca Raton, Florida.</p>
+          <p className="founderFooterSign">Founder, EXPECTEDEND LLC. Boca Raton, Florida.</p>
         </div>
 
         <nav className="founderFooterLinks" aria-label="Footer navigation">
@@ -74,7 +74,7 @@ export function FounderFooter({ onNavigate, onOpenArtWorld }: FounderFooterProps
       </div>
 
       <div className="founderFooterBottom">
-        <p>© {YEAR} Expected End LLC. All rights reserved.</p>
+        <p>© {YEAR} EXPECTEDEND LLC. All rights reserved.</p>
         <div className="founderFooterBlessing">
           <p>Jesus loves you.</p>
           {onOpenArtWorld && <GoldenEggButton onActivate={onOpenArtWorld} />}

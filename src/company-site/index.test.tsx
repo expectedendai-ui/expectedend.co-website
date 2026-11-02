@@ -371,7 +371,7 @@ describe("Expected End public site", () => {
     expect(screen.getByRole("navigation", { name: "Footer navigation" })).toBeInTheDocument();
     expect(document.title).toBe("Press & Media — Expected End");
     expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute("href", "https://expectedend.co/press");
-    expect(screen.getByRole("link", { name: "Expected End LLC" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "EXPECTEDEND LLC" })).toBeInTheDocument();
     expect(screen.queryByText("Expected End Inc")).not.toBeInTheDocument();
   });
 
