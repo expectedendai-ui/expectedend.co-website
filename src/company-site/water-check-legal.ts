@@ -6,9 +6,9 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "November 2, 2026";
+const EFFECTIVE = "November 3, 2026";
 /** The cycle answer stays on the phone; the legal name is as registered. */
-const HEALTH_UPDATE = "November 2, 2026";
+const HEALTH_UPDATE = "November 3, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
