@@ -46,15 +46,15 @@ const FAQ = [
   },
   {
     q: "What happens when I scan a drink?",
-    a: "A barcode scan sends only the barcode number to Open Food Facts, a free, open food database, and gets back what the label says. A photo goes through our server to Google's Gemini AI, which reads the label and sends back what it found. We do not keep the photo. Labels and AI can be wrong, so check the real label, and never use Drink Check for allergies or medical diets.",
+    a: "A barcode scan sends only the barcode number to Open Food Facts, a free, open food database, and gets back what the label says. A photo, for adults 18 and over, goes through our server to Google's Gemini AI, which reads the label and sends back what it found. We do not keep your photo; Google may retain data for a limited time under its terms. Labels and AI can be wrong, so check the real label, and never use Drink Check for allergies or medical diets.",
   },
   {
     q: "What stays on my phone?",
-    a: "Your drink log, Drink Journal, saved drinks and foods, Guide pearls, training sessions and cycle notes. Your account, sign-up answers and daily totals are kept with your account so they follow you to a new phone. We do not sell your information.",
+    a: "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle answer and cycle notes, though your own phone backup may include them. Your sign-up answers, each drink and food you log with its time, and your daily totals are kept with your account so they follow you to a new phone. We do not sell your information.",
   },
   {
     q: "Who is it for?",
-    a: "Anyone 13 or older. If you are under 18, use it with a parent's or guardian's permission. Fruit Fast and alcohol logging are only for adults, and the app keeps them that way.",
+    a: "Anyone 13 or older. If you are under 18, use it with a parent's or guardian's permission. Fruit Fast, alcohol logging and photo scans are only for adults. The app goes by the age range you give, so please answer truthfully. If you are 13 to 17, check your number with a parent or clinician.",
   },
   {
     q: "What does it cost?",
@@ -66,7 +66,7 @@ const FAQ = [
   },
   {
     q: "When can I download it?",
-    a: "The Water Check is in testing now and coming soon to the App Store and Google Play. Follow @thewatercheck on Instagram to hear first.",
+    a: "The Water Check is in review at the App Store and in testing on Google Play, and coming soon to both. Follow @thewatercheck on Instagram to hear first.",
   },
 ];
 
@@ -201,7 +201,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                   <span className="wcl-sr">Follow The Water Check on Instagram</span>
                 </a>
               </div>
-              <p className="cta-note">In testing now. The calculator is free and needs no sign-up.</p>
+              <p className="cta-note">In review at the App Store now. The calculator is free and needs no sign-up.</p>
             </div>
 
             <div className="wcl-hero-art">
@@ -278,7 +278,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <p className="kicker">Drink Check</p>
               <h2>Scan it once. Know it. Tap it forever.</h2>
               <p className="lede">
-                Scan the barcode, free and as often as you like. No barcode? Take a photo and the app reads the label. Either way
+                Scan the barcode, free and as often as you like. No barcode? If you are 18 or over, take a photo and the app reads the label. Either way
                 you see sugar in teaspoons, caffeine, electrolytes, and every ingredient marked Good, Fine, Watch or Avoid.
               </p>
               <ul className="wcl-scores" aria-label="Drink Check score colors">
@@ -295,7 +295,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                   <Check /> Save it (rename it if you like), and next time it is one tap on the Add page. No new scan.
                 </li>
                 <li>
-                  <Check /> Scan a food too: a mango adds to your mango, something new becomes its own bubble.
+                  <Check /> Adults can snap a food too: a mango adds to your mango, something new becomes its own bubble.
                 </li>
                 <li>
                   <Check /> Your Drink Journal keeps how each drink made you feel, on your phone.
@@ -303,7 +303,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               </ul>
               <p className="wcl-fine wcl-fine--deep">
                 A quick read of the label, not a lab test or a rating of any brand. Barcode results come from Open Food Facts, and
-                AI can be wrong, so check the real label, especially for allergies. Photos are not kept.
+                AI can be wrong, so check the real label, especially for allergies. We do not keep your photo.
               </p>
             </div>
             <div className="wcl-split-art" data-rise>
@@ -501,7 +501,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 <h3>Free</h3>
                 <p className="wcl-plan-sub">Everything you need to drink enough.</p>
                 <ul>
-                  {["Your own water number", "Log drinks and water-rich food", "Barcode scans, free and unlimited", "3 photo scans a week", "Every Guide chapter", "Classic, Seasons, and plain Body and Spark widgets", "Your calendar, streaks and a friend's Crew"].map((item) => (
+                  {["Your own water number", "Log drinks and water-rich food", "Barcode scans, free and unlimited", "One free photo scan (18 and over)", "Every Guide chapter", "Classic, Seasons, and plain Body and Spark widgets", "Your calendar, streaks and a friend's Crew"].map((item) => (
                     <li key={item}>
                       <Check /> {item}
                     </li>
@@ -513,14 +513,14 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                 <h3>Everything Forever</h3>
                 <p className="wcl-plan-sub">One purchase, no subscription.</p>
                 <ul>
-                  {["Every widget style and colorway", "The electrolyte, caffeine and sugar bars", "Your Drink Journal", "More photo scans", "30 and 90 day PDF summaries", "Make your own Crews", "Everything we add later"].map((item) => (
+                  {["Every widget style and colorway", "The electrolyte, caffeine and sugar bars", "Your Drink Journal", "More photo scans (18 and over)", "30 and 90 day PDF summaries", "Make your own Crews", "Everything we add later"].map((item) => (
                     <li key={item}>
                       <Check /> {item}
                     </li>
                   ))}
                 </ul>
                 <p className="wcl-plan-note">
-                  Offered during our opening year. After that, The Water Check moves to a monthly plan, and a one-time purchase made
+                  Offered during our opening year. After that, The Water Check may move to a monthly plan, and a one-time purchase made
                   before then stays unlocked. The price is shown in the App Store or Google Play before you buy.
                 </p>
               </article>
@@ -531,19 +531,19 @@ export function WaterCheckLanding({ onNavigate }: Props) {
         <section className="band band--deep water" id="privacy">
           <div className="wrap" data-rise>
             <p className="kicker">Your data</p>
-            <h2>Most of it never leaves your phone.</h2>
+            <h2>What stays on your phone, and what does not.</h2>
             <div className="wcl-data">
               <article>
                 <h3>Stays on your phone</h3>
-                <p>Each drink and food you log, your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle notes and reminders.</p>
+                <p>Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle notes and reminders.</p>
               </article>
               <article>
                 <h3>Kept with your account</h3>
-                <p>Your sign-in, sign-up answers, daily water totals and your Crew, so they follow you to a new phone.</p>
+                <p>Your sign-in, sign-up answers, each drink and food you log with its time, daily water totals and your Crew, so they follow you to a new phone.</p>
               </article>
               <article>
                 <h3>Never</h3>
-                <p>We do not sell your information or share it with advertising networks. Drink Check photos are not kept.</p>
+                <p>We do not sell your information or share it with advertising networks. We do not keep your Drink Check photos.</p>
               </article>
             </div>
             <p className="wcl-data-links">

@@ -34,7 +34,7 @@ export const PROJECTS = [
     },
     image: "/brand/thewatercheck.png",
     tagline: "Understand what you drink. Your own water number, in a tap.",
-    badge: "On the App Store",
+    badge: "In review",
     artVariant: "watercheck",
     titleClassName: "",
   },
@@ -102,7 +102,7 @@ export const PROOF_OF_WORK: ReadonlyArray<{ id: string; items: readonly ProofIte
     id: "products",
     items: [
       { name: "MyBibleLens", category: "Faith app · iOS", status: "On the App Store", tone: "live", icon: "mybiblelens" },
-      { name: "The Water Check", category: "Hydration app · iOS", status: "On the App Store", tone: "live", icon: "watercheck" },
+      { name: "The Water Check", category: "Hydration app · iOS", status: "In review", tone: "building", icon: "watercheck" },
       { name: "MyBibleLens for Android", category: "Google Play", status: "Closed testing", tone: "building", icon: "android" },
       { name: "Scripture Canvas", category: "Infinite canvas", status: "Live", tone: "live", icon: "canvas" },
       { name: "Journey plans", category: "Reading plans + seals", status: "Live", tone: "live", icon: "route" },

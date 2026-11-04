@@ -6,9 +6,9 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "November 2, 2026";
+const EFFECTIVE = "November 3, 2026";
 /** The cycle answer stays on the phone; the legal name is as registered. */
-const HEALTH_UPDATE = "November 2, 2026";
+const HEALTH_UPDATE = "November 3, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -28,10 +28,10 @@ export const WATER_CHECK_LEGAL = {
         heading: "The short version",
         paragraphs: ["The details are below, but these are the main points:"],
         bullets: [
-          "Your drink log, Drink Journal, saved drinks and foods, Guide pearls, training sessions, your cycle answer and cycle notes stay on your phone.",
-          "Your account, your sign-up answers, your daily water totals and your Crew live on our servers so they follow you to a new phone.",
+          "Your account, your sign-up answers, each drink and food you log with its time, your daily water totals and your Crew live on our servers so they follow you to a new phone.",
+          "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, your cycle answer and cycle notes stay on your phone.",
           "Barcode scans look a drink up in Open Food Facts, a free, open food database. Only the barcode number is sent.",
-          "Drink Check photos are read by Google's Gemini AI and are not kept by us.",
+          "Drink Check photo scans are for adults 18 and over. Google's Gemini AI reads the photo, and we do not keep it.",
           "We do not sell your information or share it with advertising networks.",
           "You can delete your account and its data at any time, in the app or by email.",
         ],
@@ -39,28 +39,32 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Information you give us",
         paragraphs: [
-          "Account. When you sign in with Apple or Google, we receive an account identifier and the name, email address and basic profile details that provider shares. Apple may give us a private relay email instead of your real one. We use these to create, secure and restore your account.",
-          "Sign-up answers. To work out your daily water number, the app asks for your age range, sex (and whether you are pregnant or breastfeeding, if you choose to say), weight, height, activity level, the sports you play, whether you drink coffee, and your climate. Some of these answers are health information. You can skip the optional ones and change any of them later in Details and Settings.",
+          "Account. When you sign in with Apple or Google, we receive an account identifier and the name, email address and basic profile details that provider shares. Apple may give us a private relay email instead of your real one. We use these to create, secure and restore your account. If you sign in with Apple, we also keep the token Apple gives us, only so we can revoke it when you delete your account.",
+          "Sign-up answers. To work out your daily water number, the app asks for your age range, sex (and whether you are pregnant or breastfeeding, if you choose to say), weight, height, activity level, the sports you play, whether you drink coffee, and your climate. Some of these answers are health information, and we ask for your consent on a screen of its own, with a box you tick, before the first question. You can skip the optional ones and change any of them later in Details and Settings.",
+          "Later questions. On Today the app may ask what you want to feel and how often you feel bloated. Both are optional and only show in Your details; your number and tips do not use them.",
+          "Drinks and foods you log. Each entry is kept with your account: its time, what it was (such as a glass, a food, or a drink's name, including a name you typed or one Gemini read), its water amount, and any serving and caffeine. This is so your history and streaks follow you to a new phone. Alcohol is different: it goes only to the Drink Journal on your phone, and adding water with it logs only a plain glass.",
           "Daily totals. For each day you log, your account keeps the total from drinks, the total from food and your goal for that day, so your calendar and streaks survive a new phone.",
           "Fruit Fast. When an adult starts Fruit Fast, we keep a record that the safety note was read and accepted, with the date and the version of the note.",
           "Crew. If you use Crew, we store the Crews you make or join, your first name and widget colors as your Crew sees them, your percent of goal and streak, the quick messages and cheers you send, and any blocks and reports.",
+          "Language. We keep your language choice with your account, so the app opens in it on a new phone.",
           "Support. If you email us, we receive your email address and whatever you include.",
+          "Technical logs. Our hosting provider, Supabase, keeps request logs (such as IP address, device and time) to run and protect the service.",
         ],
       },
       {
         heading: "Information that stays on your phone",
         paragraphs: [
-          "Some things never leave your device and are not sent to your account: each drink and food you log, your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, your cycle answer if you choose to give one, cycle notes, activity notes, training sessions logged in earlier versions of the app, the body outline you pick, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
+          "Some things are not sent to your account: your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, your cycle answer if you choose to give one, cycle notes, activity notes, training sessions logged in earlier versions of the app, the body outline you pick, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
           "Your Home Screen widget reads what it shows from the app on the same phone, including today's electrolyte charge from the drinks you scanned. That stays on the phone too.",
-          "Because we do not have this information, we cannot restore it for you. Deleting the app or clearing its data erases it.",
+          "These may be included in your own phone backup (iCloud or Google) if you use one. Because we do not have this information, we cannot restore it for you. Deleting the app or clearing its data erases it from the phone.",
         ],
       },
       {
         heading: "Drink Check: barcode and photo scans",
         paragraphs: [
           "When you scan a drink's barcode, or type one in, the app sends only the barcode number from your phone to Open Food Facts (world.openfoodfacts.org), a free, open food database, and gets back what its label says: the drink's name, size, sugar, caffeine, carbohydrate and electrolytes (sodium, potassium, magnesium and calcium). To suggest similar drinks, the app may also ask Open Food Facts for other drinks in the same category. No account details, photos or location are sent. Open Food Facts receives the request the way any website does, under its own privacy policy.",
-          "When you take a photo of a drink or a food, the app makes the image smaller and sends it through our server to Google's Gemini API. Gemini reads it and returns what it found: for a drink, its name, size, sugar, caffeine and ingredients; for a food, what it is and about how much water it holds. The app asks before your first scan.",
-          "We do not store the photo. Our server keeps a count of how many scans your account used, so the free allowance works. Google processes the photo under its own terms for the Gemini API.",
+          "Photo scans are for adults 18 and over. We check your age range on our server before a photo is read, and ages 13 to 17 can still scan barcodes and type. When you take a photo of a drink or a food, the app makes the image smaller and sends it through our server to Google's Gemini API. Gemini reads it and returns what it found: for a drink, its name, size, sugar, caffeine and ingredients; for a food, what it is and about how much water it holds. The app asks before your first scan.",
+          "We do not keep your photo. Google receives it, and may retain data for a limited time under its own terms for the Gemini API. Our server keeps a count of how many scans your account used, so the free allowance works.",
           "AI can be wrong. A Drink Check result is a quick read of a label, not a lab test, a health rating of a product or medical advice. Always check the real label, and never rely on Drink Check for allergies or medical diets.",
         ],
       },
@@ -69,7 +73,7 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Camera. Used only when you choose to scan a barcode or take a photo of a drink or food.",
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
-          "Notifications. Fruit Fast reminders are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent for 90 days so we can keep them rare. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
+          "Notifications. Fruit Fast reminders are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent, and when you open one, so we can keep them rare. Records older than 90 days are deleted the next time we send you a push, and all of them when you delete your account. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
           "You can turn Crew notifications and streak reminders off separately in the app's Settings, or all of them in your device settings. Signing out or deleting your account removes your phone's push token.",
         ],
       },
@@ -84,7 +88,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Crew: what other people see",
         paragraphs: [
           "Crew is invite only. People in a Crew with you see your first name, your widget colors, today's percent of your own goal, your streak, the days you reached your goal this week, and the quick messages and cheers you send. They never see your ounces, body measurements, sign-up answers, notes or anything you drink, including alcohol.",
-          "You can hide yourself in a Crew; the Crew's captain can still see that you are a member. Reports are reviewed by us and kept so we can keep Crews safe.",
+          "You can hide yourself in a Crew; the Crew's captain can still see that you are a member. Reports are reviewed by us and kept so we can keep Crews safe. A report about you keeps your first name and the Crew name, even after you delete your account.",
         ],
       },
       {
@@ -100,7 +104,7 @@ export const WATER_CHECK_LEGAL = {
           "create and secure your account and keep you signed in;",
           "work out your daily water number and personalize the app (for example, showing caffeine tracking only to coffee drinkers);",
           "show your history, calendar, streaks and widgets;",
-          "keep adult-only features such as Fruit Fast and alcohol logging for adults;",
+          "keep adult-only features such as Fruit Fast, alcohol logging and photo scans for adults;",
           "run Drink Check and apply its free allowance;",
           "run Crew, including filtering names, reviewing reports and acting on abuse;",
           "unlock and restore purchases;",
@@ -113,9 +117,9 @@ export const WATER_CHECK_LEGAL = {
           "We share information only with providers that help us run the app, under their terms, and only what each one needs:",
         ],
         bullets: [
-          "Supabase: hosts our database, sign-in and server functions.",
+          "Supabase: hosts our database, sign-in and server functions, and keeps request logs.",
           "Apple and Google: sign-in, the App Store and Google Play.",
-          "Google (Gemini API): reads Drink Check photos.",
+          "Google (Gemini API): reads Drink Check photos, for adults 18 and over.",
           "Open Food Facts: the barcode number of a drink you scan, sent from your phone.",
           "Google (Firebase Cloud Messaging) and Apple: deliver push notifications.",
           "RevenueCat: purchase records.",
@@ -138,7 +142,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "How long we keep it",
         paragraphs: [
-          "We keep account information while your account is open. When you delete your account, we delete it and the information tied to it from our active systems, and the app clears what it kept on that phone. Copies in routine backups are overwritten on their normal schedule. We may keep a small amount for longer where the law requires it or to keep people safe, such as reports you filed about others (kept without your account) and purchase records the stores keep for tax and accounting. We also ask RevenueCat to delete its record of you.",
+          "We keep account information while your account is open. When you delete your account, we delete it and the information tied to it from our active systems, and the app clears what it kept on that phone. Copies in our backups are deleted within 6 months. A Crew you captain passes to its next member and stays. We may keep a small amount for longer where the law requires it or to keep people safe, such as reports you filed about others (kept without your account), reports about you (which keep your first name and the Crew name) and purchase records the stores keep for tax and accounting. We also ask RevenueCat to delete its record of you.",
         ],
       },
       {
@@ -151,7 +155,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Children and teens",
         paragraphs: [
           "The Water Check is not for children under 13, and we do not knowingly collect information from them. If we learn that a child under 13 has an account, we will delete it. A parent or guardian who believes this has happened can email us.",
-          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. Teens are never offered Fruit Fast or alcohol logging.",
+          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. If you choose the 13 to 17 age range, the app does not offer Fruit Fast, alcohol logging or photo scans. These go by the age range you give, which can be changed in Details, so please answer truthfully. Your water number is an estimate made for adults, so check it with a parent or clinician.",
         ],
       },
       {
@@ -164,20 +168,20 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Notice for California and other US states",
         paragraphs: [
-          "In the past 12 months we collected these categories of personal information: identifiers (account ID, email); personal characteristics (age range, sex); commercial information (whether you made a purchase); approximate location (only to fetch weather, not saved); and sensitive personal information about health (body measurements, pregnancy or breastfeeding status, hydration data). We collect them from you and your device for the purposes above, and disclose them only to the providers listed above.",
+          "In the past 12 months we collected these categories of personal information: identifiers (account ID, email); personal characteristics (age range, sex); commercial information (whether you made a purchase); approximate location (only to fetch weather, not saved); internet or network activity (request logs); and sensitive personal information about health (body measurements, pregnancy or breastfeeding status, how often you feel bloated, each drink and food you log, hydration data). We collect them from you and your device for the purposes above, and disclose them only to the providers listed above.",
           "We do not sell or share personal information as those words are defined in California law, and we use sensitive personal information only to provide the app you asked for. Residents of California, Colorado, Connecticut, Virginia, Texas, Oregon and other states with privacy laws can use the rights described above. Our Consumer Health Data Privacy Policy has more for Washington, Nevada and Connecticut residents.",
         ],
       },
       {
         heading: "If you are outside the United States",
         paragraphs: [
-          "The app is offered in 43 languages, and your information is processed in the United States and wherever our providers operate. Where data protection laws like the GDPR apply, we rely on: performing our contract with you (to run the app), your explicit consent (for health information you choose to give us, which you can withdraw by changing your answers or deleting your account), our legitimate interests (to keep the app secure and improve it), and legal obligations. You may also complain to your local data protection authority.",
+          "The app is offered in 43 languages, and your information is processed in the United States and wherever our providers operate. Where data protection laws like the GDPR apply, we rely on: performing our contract with you (to run the app), your explicit consent (for health information you choose to give us, which you give by ticking the box on the consent screen and can withdraw by changing your answers or deleting your account), our legitimate interests (to keep the app secure and improve it), and legal obligations. You may also complain to your local data protection authority.",
         ],
       },
       {
         heading: "Changes and contact",
         paragraphs: [
-          "If we change this notice in a way that matters, we will tell you in the app before the change applies. The effective date at the top shows the current version.",
+          "If we change this notice in a way that matters, we will update this page and its effective date before the change applies, and ask for your consent first where the law requires it. Please check back from time to time. The effective date at the top shows the current version.",
           `Questions or requests: ${EMAIL}, with “The Water Check privacy request” in the subject. EXPECTEDEND LLC, Florida, United States.`,
         ],
       },
@@ -199,14 +203,14 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Health and safety: please read",
         paragraphs: [
-          "The Water Check is a general wellness app. It is not a medical device, and it does not diagnose, treat, cure or prevent any disease or condition. Its water number is an educational estimate from general guidance, not a prescription. The P-Meter, the Guide, the body charge, sweat estimates and recharge plans after training, and every score in the app are general information, not medical or sports-medicine advice.",
+          "The Water Check is a general wellness app. It is not a medical device, and it does not diagnose, treat, cure or prevent any disease or condition. Its water number is an educational estimate from general guidance, not a prescription. It is made for adults, so if you are 13 to 17, check it with a parent or clinician. The P-Meter, the Guide, the body charge, sweat estimates and recharge plans after training, and every score in the app are general information, not medical or sports-medicine advice.",
           "Talk to a doctor or other qualified clinician before changing how much you drink or eat, especially if you are pregnant or breastfeeding, are an older adult, take medicine that affects fluid or salt balance, or have kidney, heart, liver or thyroid disease, diabetes, or a history of eating disorders. Do not force fluids: drinking too much water too fast can be dangerous. If you feel unwell, stop and get care. In an emergency, call 911 or your local emergency number.",
         ],
       },
       {
         heading: "Drink Check and other AI features",
         paragraphs: [
-          "Drink Check uses artificial intelligence to read photos, and AI makes mistakes. It may misread a label, a size, sugar, caffeine or an ingredient, or mistake one food for another. A Drink Check score is a quick read of a label to help you think about a drink. It is not a health rating, a safety certification, or a statement about any brand or product.",
+          "Drink Check photo scans are for adults 18 and over. Drink Check uses artificial intelligence to read photos, and AI makes mistakes. It may misread a label, a size, sugar, caffeine or an ingredient, or mistake one food for another. A Drink Check score is a quick read of a label to help you think about a drink. It is not a health rating, a safety certification, or a statement about any brand or product.",
           "Barcode results come from Open Food Facts, a database that anyone can edit, so a drink may be missing, out of date or wrong there. Electrolytes and charge only count what labels list.",
           "Always read the real label. Never use Drink Check to decide whether something is safe for an allergy, intolerance, medical diet or medicine. Food scans estimate water content and are approximate.",
         ],
@@ -241,8 +245,9 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Purchases",
         paragraphs: [
-          "The app is free to download, and some features need a purchase. Prices are shown in the App Store or Google Play in your currency before you buy, and you are charged by Apple or Google under their terms. Refunds are handled by Apple or Google under their policies. You can restore purchases on your account in the app.",
-          "During our opening year we may offer a one-time purchase that unlocks the app's paid features with no subscription. If the app later moves to a monthly plan, a one-time purchase made before then stays unlocked on that account, and we will not take away the features it unlocked while we continue to offer the app. \u201cEverything Forever\u201d and \u201cstays yours\u201d mean exactly this: for as long as we offer the app. They are not a promise that the app will run forever. Free allowances, such as free Drink Check scans, may change. We do not promise any particular future feature.",
+          "The app is free to download, and some features need a purchase. Prices are shown in the App Store or Google Play in your currency before you buy, and you are charged by Apple or Google under their terms. Refunds are handled by Apple or Google under their policies; we cannot issue store refunds ourselves. If a purchase is refunded, the features it unlocked are removed from the account. You can restore purchases on your account in the app.",
+          "During our opening year we may offer a one-time purchase that unlocks the app's paid features with no subscription. If the app later moves to a monthly plan, a one-time purchase made before then stays unlocked on that account, and we will not take away the features it unlocked while we continue to offer the app. \u201cEverything Forever\u201d, \u201cstays yours\u201d and \u201cfor good\u201d mean exactly this: for as long as we offer the app. They are not a promise that the app will run forever. Free allowances, such as free Drink Check scans, may change. We do not promise any particular future feature.",
+          "Drink Check photo scans are for personal use and have a fair-use limit, currently 30 scans a day with the purchase, so the service stays available for everyone. We may change the limit, and will update these terms when we do.",
           "If we ever offer a subscription, the store will show its price and renewal period before you subscribe, it will renew until you cancel in your store settings, and deleting the app or your account does not cancel it.",
         ],
       },
@@ -322,8 +327,8 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Everything else",
         paragraphs: [
-          "These terms, together with the Privacy Policy, the Community Guidelines and the Consumer Health Data Privacy Policy, are the whole agreement between you and us about the app. If any part is found unenforceable, the rest still applies. If we do not enforce a part right away, we have not given up the right to do so later. You may not transfer these terms; we may transfer them as part of a merger, sale or reorganization. The app shows these terms in many languages; if a translation differs from this English version, the English version controls to the extent the law allows.",
-          "We may update these terms. If a change matters, we will tell you in the app before it applies, and continuing to use the app after that means you accept the new terms. If you do not agree, please stop using the app and delete your account.",
+          "These terms, together with the Privacy Policy, the Community Guidelines and the Consumer Health Data Privacy Policy, are the whole agreement between you and us about the app. If any part is found unenforceable, the rest still applies. If we do not enforce a part right away, we have not given up the right to do so later. You may not transfer these terms; we may transfer them as part of a merger, sale or reorganization.",
+          "We may update these terms. If a change matters, we will update this page and its effective date before it applies, and continuing to use the app after that means you accept the new terms. If you do not agree, please stop using the app and delete your account.",
           `Contact: EXPECTEDEND LLC, Florida, United States. ${EMAIL}.`,
         ],
       },
@@ -348,7 +353,9 @@ export const WATER_CHECK_LEGAL = {
           "body measurements you enter (weight and height), age range and sex;",
           "whether you are pregnant or breastfeeding, if you choose to say;",
           "activity level, sports, whether you drink coffee, and your climate;",
+          "each drink and food you log, with its time, amount and any name, serving and caffeine;",
           "your daily water goal and each day's totals from drinks and food;",
+          "how often you feel bloated and what you want to feel, if you choose to answer;",
           "a record that you accepted the Fruit Fast safety note;",
           "your percent of goal and streak, which your Crew can see if you join one.",
         ],
@@ -356,8 +363,8 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Health data that stays on your phone",
         paragraphs: [
-          "Your individual drink and food entries, Drink Journal (including how drinks made you feel and the electrolytes in them), your cycle answer, cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them.",
-          "Drink Check photos are sent through our server to Google's Gemini API to be read and are not stored by us. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
+          "Your Drink Journal (including how drinks made you feel, the electrolytes in them, and any alcohol you log), your cycle answer, cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them. They may be included in your own phone backup (iCloud or Google) if you use one.",
+          "Drink Check photo scans are for adults 18 and over. The photo is sent through our server to Google's Gemini API to be read. We do not keep your photo; Google may retain data for a limited time under its terms. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
           "If you turn on Apple Health or Health Connect, the app adds your water and caffeine to it, and with Everything Forever the electrolytes and sugar from drinks you scan. That copy is kept by Apple Health or Health Connect on your phone, under your control. We do not receive it from there, and the app never reads it.",
         ],
       },
@@ -365,13 +372,17 @@ export const WATER_CHECK_LEGAL = {
         heading: "Where it comes from and why",
         paragraphs: [
           "It comes from you and from your device. The app does not read Apple Health or Health Connect. We use it only to give you the app: to work out your daily water number, show your history, calendar and widgets, keep adult-only features for adults, run Drink Check, and show your Crew the progress you choose to share. We do not use it for advertising.",
+          "We ask for your consent on a screen of its own, with a box you tick, before the first health question. It says what we collect, why, who receives it and how to withdraw. You can withdraw in Settings by changing your answers or deleting your account, or by email.",
         ],
       },
       {
         heading: "Who we share it with",
         bullets: [
           "Supabase, which hosts our database and processes it for us.",
-          "Google's Gemini API, which reads Drink Check photos for us.",
+          "Google's Gemini API, which reads Drink Check photos for us, for adults 18 and over.",
+          "Google's Firebase Cloud Messaging and Apple, which deliver notifications if you allow them. Lead and streak messages come from your daily totals.",
+          "Open Food Facts, which receives the barcode number of a drink you scan, sent from your phone.",
+          "Open-Meteo, which receives rounded coordinates when you ask for current weather.",
           "People in your Crew, who see your percent of goal and streak, never your measurements or answers.",
           "Authorities, only when the law requires it.",
         ],
@@ -389,7 +400,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Changes and contact",
         paragraphs: [
-          `We will update the effective date when this policy changes and tell you in the app if a change matters. Contact: EXPECTEDEND LLC, Florida, United States. ${EMAIL}.`,
+          `We will update this page and its effective date before a change that matters applies, and ask for your consent first where the law requires it. Contact: EXPECTEDEND LLC, Florida, United States. ${EMAIL}.`,
         ],
       },
     ],
@@ -420,13 +431,13 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "What is deleted",
         paragraphs: [
-          "Your account, sign-up answers, daily water totals, Fruit Fast record, Drink Check scan count, notification settings and push tokens, purchase status on our servers, your Crew membership, and Crews you captain. Things that only lived on your phone go away when you delete the app or clear its data.",
+          "Your account, sign-up answers, each drink and food you logged, daily water totals, language choice, Fruit Fast record, Drink Check scan count, notification settings, records and push tokens, your Apple sign-in token, purchase status on our servers, and your Crew memberships. A Crew you captain passes to its next member and stays; if no one else is in it, it closes. Things that only lived on your phone go away when you delete the app or clear its data.",
         ],
       },
       {
         heading: "What may be kept",
         paragraphs: [
-          "Reports you filed about others may be kept without your account so we can keep Crews safe. Copies in routine backups are overwritten on their normal schedule. We ask RevenueCat to delete its record of you. Apple and Google keep their own purchase records for tax and accounting, under their policies.",
+          "Reports you filed about others may be kept without your account, and reports about you keep your first name and the Crew name, so we can keep Crews safe. Copies in our backups are deleted within 6 months. We ask RevenueCat to delete its record of you. Apple and Google keep their own purchase records for tax and accounting, under their policies.",
         ],
       },
       {
