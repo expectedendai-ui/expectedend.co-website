@@ -50,7 +50,7 @@ const FAQ = [
   },
   {
     q: "What stays on my phone?",
-    a: "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle answer and cycle notes, though your own phone backup may include them. Your sign-up answers, each drink and food you log with its time, and your daily totals are kept with your account so they follow you to a new phone. We do not sell your information.",
+    a: "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle answer and cycle notes, though your own phone backup may include them. On iPhone, workouts you let the app read from Apple Health stay on your phone too, and are never sent to us. Your sign-up answers, each drink and food you log with its time, and your daily totals are kept with your account so they follow you to a new phone. We do not sell your information.",
   },
   {
     q: "Who is it for?",

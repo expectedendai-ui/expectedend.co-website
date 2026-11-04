@@ -6,9 +6,9 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "November 3, 2026";
+const EFFECTIVE = "November 4, 2026";
 /** The cycle answer stays on the phone; the legal name is as registered. */
-const HEALTH_UPDATE = "November 3, 2026";
+const HEALTH_UPDATE = "November 4, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -30,6 +30,7 @@ export const WATER_CHECK_LEGAL = {
         bullets: [
           "Your account, your sign-up answers, each drink and food you log with its time, your daily water totals and your Crew live on our servers so they follow you to a new phone.",
           "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, your cycle answer and cycle notes stay on your phone.",
+          "On iPhone, if you allow it, the app reads your workouts from Apple Health, and nothing else from it. They stay on your phone and are never sent to us.",
           "Barcode scans look a drink up in Open Food Facts, a free, open food database. Only the barcode number is sent.",
           "Drink Check photo scans are for adults 18 and over. Google's Gemini AI reads the photo, and we do not keep it.",
           "We do not sell your information or share it with advertising networks.",
@@ -57,6 +58,7 @@ export const WATER_CHECK_LEGAL = {
           "Some things are not sent to your account: your Drink Journal (the drinks you scanned and how they made you feel), the drinks and foods you save for one-tap logging, your Guide pearls, your cycle answer if you choose to give one, cycle notes, activity notes, training sessions logged in earlier versions of the app, the body outline you pick, reminder times, sounds and other app settings, and a small note of when the app last showed you an offer.",
           "Your Home Screen widget reads what it shows from the app on the same phone, including today's electrolyte charge from the drinks you scanned. That stays on the phone too.",
           "These may be included in your own phone backup (iCloud or Google) if you use one. Because we do not have this information, we cannot restore it for you. Deleting the app or clearing its data erases it from the phone.",
+          "Workouts the app reads from Apple Health, if you allow it, stay on your phone as well. The app does not save them; it reads them from Apple Health each time it opens. It keeps only a note of which workouts it has already shown a card for, for 7 days. See Apple Health and Health Connect below.",
         ],
       },
       {
@@ -80,8 +82,10 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Apple Health and Health Connect",
         paragraphs: [
-          "If you turn on Apple Health (iPhone) or Health Connect (Android) in Settings, the app adds the water you log and the caffeine in your log to it. With Everything Forever it also adds the sodium, potassium, magnesium, calcium and sugar from drinks you scan. The app only adds: it never reads your health data.",
+          "If you turn on Apple Health (iPhone) or Health Connect (Android) in Settings, the app adds the water you log and the caffeine in your log to it. With Everything Forever it also adds the sodium, potassium, magnesium, calcium and sugar from drinks you scan.",
           "What it adds is kept by Apple Health or Health Connect on your phone. We never sell it, use it for advertising or store it in iCloud. You can turn this off in Settings at any time, and delete what was added in the Health app.",
+          "On iPhone, the app also reads your workouts from Apple Health, if you allow it. This is optional: Apple asks you first, and everything else in the app works the same if you say no. It reads workouts only: each one's type (such as a run or a walk), start and end time, length, active energy and distance. It does not read heart rate, sleep, weight or any other health data, and it does not read Health Connect.",
+          "The app uses your workouts on your phone for two things: a card on Today after a workout of 20 minutes or more, which suggests about how much to drink over the next hour, and raising today's water number on a day you move more than usual (it never lowers it). Your workouts stay on your phone. They are never sent to our servers or to anyone else, never shown to your Crew, and never logged as water unless you tap Log. The daily goal kept with your account stays the number from your sign-up answers, so nothing from Apple Health reaches us. You can stop it at any time in the Health app (your picture, Apps, The Water Check) or by turning Apple Health off in the app's Settings.",
         ],
       },
       {
@@ -103,6 +107,7 @@ export const WATER_CHECK_LEGAL = {
         bullets: [
           "create and secure your account and keep you signed in;",
           "work out your daily water number and personalize the app (for example, showing caffeine tracking only to coffee drinkers);",
+          "on your phone, suggest water after a workout and raise today's number, from workouts you allow the app to read from Apple Health;",
           "show your history, calendar, streaks and widgets;",
           "keep adult-only features such as Fruit Fast, alcohol logging and photo scans for adults;",
           "run Drink Check and apply its free allowance;",
@@ -168,7 +173,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Notice for California and other US states",
         paragraphs: [
-          "In the past 12 months we collected these categories of personal information: identifiers (account ID, email); personal characteristics (age range, sex); commercial information (whether you made a purchase); approximate location (only to fetch weather, not saved); internet or network activity (request logs); and sensitive personal information about health (body measurements, pregnancy or breastfeeding status, how often you feel bloated, each drink and food you log, hydration data). We collect them from you and your device for the purposes above, and disclose them only to the providers listed above.",
+          "In the past 12 months we collected these categories of personal information: identifiers (account ID, email); personal characteristics (age range, sex); commercial information (whether you made a purchase); approximate location (only to fetch weather, not saved); internet or network activity (request logs); and sensitive personal information about health (body measurements, pregnancy or breastfeeding status, how often you feel bloated, each drink and food you log, hydration data). We collect them from you and your device for the purposes above, and disclose them only to the providers listed above. Workouts the app reads from Apple Health stay on your phone, and we do not receive them.",
           "We do not sell or share personal information as those words are defined in California law, and we use sensitive personal information only to provide the app you asked for. Residents of California, Colorado, Connecticut, Virginia, Texas, Oregon and other states with privacy laws can use the rights described above. Our Consumer Health Data Privacy Policy has more for Washington, Nevada and Connecticut residents.",
         ],
       },
@@ -365,13 +370,14 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Your Drink Journal (including how drinks made you feel, the electrolytes in them, and any alcohol you log), your cycle answer, cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them. They may be included in your own phone backup (iCloud or Google) if you use one.",
           "Drink Check photo scans are for adults 18 and over. The photo is sent through our server to Google's Gemini API to be read. We do not keep your photo; Google may retain data for a limited time under its terms. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
-          "If you turn on Apple Health or Health Connect, the app adds your water and caffeine to it, and with Everything Forever the electrolytes and sugar from drinks you scan. That copy is kept by Apple Health or Health Connect on your phone, under your control. We do not receive it from there, and the app never reads it.",
+          "If you turn on Apple Health or Health Connect, the app adds your water and caffeine to it, and with Everything Forever the electrolytes and sugar from drinks you scan. That copy is kept by Apple Health or Health Connect on your phone, under your control. We do not receive it from there.",
+          "Workouts from Apple Health, on iPhone, if you allow it. The app reads workouts and nothing else: each one's type, start and end time, length, active energy and distance. It uses them on your phone to suggest about how much to drink after a workout and to raise, never lower, today's water number. Reading them is optional and needs your permission in Apple's own prompt; you can stop it in the Health app or by turning Apple Health off in the app's Settings. Your workouts stay on your phone: we never receive them, they are never shared with anyone, including your Crew, and the daily goal kept with your account does not include them. The app does not read Health Connect.",
         ],
       },
       {
         heading: "Where it comes from and why",
         paragraphs: [
-          "It comes from you and from your device. The app does not read Apple Health or Health Connect. We use it only to give you the app: to work out your daily water number, show your history, calendar and widgets, keep adult-only features for adults, run Drink Check, and show your Crew the progress you choose to share. We do not use it for advertising.",
+          "It comes from you and from your device. On iPhone the app can also read your workouts from Apple Health, only if you allow it, and they stay on your phone; it reads nothing else from Apple Health and nothing from Health Connect. We use it only to give you the app: to work out your daily water number, show your history, calendar and widgets, keep adult-only features for adults, run Drink Check, and show your Crew the progress you choose to share. We do not use it for advertising.",
           "We ask for your consent on a screen of its own, with a box you tick, before the first health question. It says what we collect, why, who receives it and how to withdraw. You can withdraw in Settings by changing your answers or deleting your account, or by email.",
         ],
       },
