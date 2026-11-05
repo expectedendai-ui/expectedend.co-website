@@ -75,8 +75,8 @@ export function joinPage(code) {
   .card h2 { margin: 0; font-size: 1.5rem; line-height: 1.15; letter-spacing: -0.02em; }
   .card p { margin: 8px auto 0; max-width: 40ch; font-size: 0.92rem; }
   .card .english { margin-top: 6px; color: #8fe6ff; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
-  .list { flex: 0 1 auto; min-height: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 18px -6px 0;
-    padding: 2px 6px 6px; overflow-y: auto; overscroll-behavior: contain; text-align: left; }
+  .list { flex: 0 1 auto; min-height: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 12px -6px 0;
+    padding: 8px 6px; overflow-y: auto; overscroll-behavior: contain; text-align: left; }
   .list button { display: flex; min-width: 0; min-height: 52px; align-items: center; gap: 10px; padding: 8px 12px; color: #eef7ff; font: inherit; text-align: left;
     background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; cursor: pointer; }
   .list button[aria-pressed="true"] { background: rgba(143,230,255,0.12); border-color: #8fe6ff; }
@@ -85,6 +85,7 @@ export function joinPage(code) {
   .list b { overflow: hidden; font-size: 0.92rem; text-overflow: ellipsis; white-space: nowrap; }
   .list span span { overflow: hidden; color: rgba(238,247,255,0.72); font-size: 0.7rem; text-overflow: ellipsis; white-space: nowrap; }
   .globe:focus-visible, .close:focus-visible, .list button:focus-visible { outline: 2px solid #8fe6ff; outline-offset: 2px; }
+  .list button:focus-visible { outline-offset: -4px; }
   @media (max-width: 380px) { .list { grid-template-columns: 1fr; } }
 </style>
 </head>
