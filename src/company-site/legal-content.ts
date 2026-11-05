@@ -39,7 +39,7 @@ export const LEGAL_CONTENT = {
     eyebrow: "Company information",
     title: "Privacy Statement",
     intro: "EXPECTEDEND LLC aims to collect as little personal information as this public website needs. This statement explains the current website and Contact experience; separate Expected End projects may provide their own privacy notices.",
-    effectiveDate: "November 4, 2026",
+    effectiveDate: "November 5, 2026",
     sections: [
       { heading: "Information used on your device", paragraphs: ["This website has no public accounts, payment flow, or targeted advertising. The website uses essential browser features needed to display pages and preserve basic functionality.", "When you pick a language, or close the language chooser to keep English, the website saves that choice in your browser's storage on your device so it does not ask again. The choice is not sent to Expected End or anyone else, and clearing this website's data in your browser removes it."] },
       { heading: "No analytics or tracking", paragraphs: ["This website does not use analytics services, tracking pixels, advertising tags, session recording, or other third-party tracking scripts, and it does not set analytics or advertising cookies. Opening a page does not send your activity to Google, Meta, or any other third party."] },
