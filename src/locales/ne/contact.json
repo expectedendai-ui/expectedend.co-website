@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected End लाई सम्पर्क गर्नुहोस्",
+    "title": "अलिकति <em>सन्दर्भबाट सुरु गरौं।</em>",
+    "intro": "केही विवरण छान्नुहोस्, तपाईंका लागि स्पष्ट इमेल तयार हुन्छ। केही पनि पठाउनुअघि तपाईंको इमेल एप खुल्छ।"
+  },
+  "fields": {
+    "name": "तपाईंको नाम",
+    "email": "तपाईंको इमेल",
+    "reason": "यो केबारे हो?",
+    "project": "कुन प्रोजेक्ट?",
+    "priceRange": "बजेट दायरा",
+    "timeline": "उपयुक्त समयसीमा",
+    "discovery": "तपाईंले Expected End बारे कसरी थाहा पाउनुभयो?",
+    "message": "तपाईंको मनमा के छ?",
+    "chooseOne": "एउटा छान्नुहोस्"
+  },
+  "reasons": {
+    "partnership": "साझेदारी वा सहकार्य",
+    "press": "प्रेस वा मिडिया",
+    "general": "सामान्य प्रश्न"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check समुदाय",
+    "newIdea": "नयाँ विचार"
+  },
+  "timelines": {
+    "exploring": "अहिले हेर्दै मात्र छु",
+    "month": "एक महिनाभित्र",
+    "threeMonths": "तीन महिनाभित्र",
+    "laterThisYear": "यो वर्षको अन्ततिर",
+    "notSure": "अझै निश्चित छैन"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check समुदाय",
+    "search": "सर्च",
+    "referral": "कसैले सिफारिस गर्नुभयो",
+    "elsewhere": "अन्य कतै"
+  },
+  "submit": {
+    "note": "तपाईंले हेरेर आफ्नो इमेल एपमा “पठाउनुहोस्” नथिचेसम्म केही पनि पठाइँदैन।",
+    "apps": "<app>तपाईंको इमेल एप</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> वा <yahoo>Yahoo Mail</yahoo> छान्नुहोस्।",
+    "button": "इमेल तयार गर्नुहोस्"
+  },
+  "dialog": {
+    "close": "सम्पर्क फारम बन्द गर्नुहोस्"
+  }
+}

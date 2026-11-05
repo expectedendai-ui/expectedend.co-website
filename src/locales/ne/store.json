@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "यात्राका साथीहरू",
+    "headline": "जे महत्त्वपूर्ण छ, त्यसलाई नजिकै राख्नुहोस्।",
+    "intro": "नोट, सम्झना र परमेश्वरसँगको दैनिक हिँडाइका लागि सोचविचार गरेर बनाइएका सामानहरूको सानो सङ्ग्रह।",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "गाइडेड नोटबुक",
+        "kind": "नोटबुक"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "एउटा सानो सम्झना",
+        "kind": "पिन"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "दैनिक लगाउन मिल्ने नरम टी",
+        "kind": "लुगा"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "चिसो बिहानीका लागि",
+        "kind": "लुगा"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "पहिलो ड्रप",
+    "headline": "पानी पिउनुहोस्। चलिरहनुहोस्।",
+    "intro": "हरेक दिन आउने, बोतल फेरि भर्ने र चेक जारी राख्नेहरूका लागि हाइड्रेसनबाट प्रेरित लुगाहरू।",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "दैनिकका लागि चम्किलो, नभई नहुने लुगा",
+        "kind": "टी-सर्ट"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "लामो हिँडाइपछिका लागि",
+        "kind": "हुडी"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "अर्को रङमा",
+        "kind": "टी-सर्ट"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "शान्त, बाक्लो कपडाको तह",
+        "kind": "हुडी"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}} स्टोर नेभिगेसन",
+    "collection": "सङ्ग्रह"
+  },
+  "hero": {
+    "action": "पहिलो ड्रप हेर्नुहोस्",
+    "mybiblelensArt": "MyBibleLens स्टोरको लोगो र स्टिकर कोलाज",
+    "watercheckArt": "The Water Check को तरल लोगो बुलबुला"
+  },
+  "collection": {
+    "eyebrow": "छिट्टै आउँदैछ",
+    "title": "तपाईंको दिनको हिस्सा बन्न बनाइएको।",
+    "body": "यी पहिला सामानहरू हुन्। ड्रप तयार भएपछि प्रडक्टका फोटो, विकल्प र चेकआउट लिङ्कहरू यहाँ देखिनेछन्।"
+  },
+  "product": {
+    "placeholder": "{{name}} प्रडक्टको प्लेसहोल्डर",
+    "buy": "अहिले नै किन्नुहोस्",
+    "comingSoon": "छिट्टै आउँदैछ",
+    "comingSoonLabel": "{{name}} छिट्टै आउँदैछ"
+  },
+  "checkout": {
+    "eyebrow": "खाता चाहिँदैन",
+    "title": "स्टोर खुलेपछि चेकआउट सरल नै रहन्छ।",
+    "body": "एउटा सामान छान्नुहोस्, अहिले नै किन्नुहोस् थिच्नुहोस्, र Stripe मार्फत सुरक्षित रूपमा चेकआउट गर्नुहोस्। न स्टोर खाता, न सपिङ कार्टको भुलभुलैया।"
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. पहिलो ड्रपअघि स्टोरका नीतिहरू प्रकाशित गरिनेछन्।",
+    "policies": "स्टोरका नीतिहरू",
+    "terms": "सर्तहरू",
+    "privacy": "गोपनीयता",
+    "accessibility": "पहुँचयोग्यता",
+    "shipping": "ढुवानी र फिर्ता (ड्रपअघि)"
+  }
+}
