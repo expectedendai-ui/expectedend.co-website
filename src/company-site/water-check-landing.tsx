@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { Bubbles, type BubblesTrick } from "./water-check-bubbles";
 import "./water-check-landing.css";
 
@@ -27,48 +28,17 @@ const Check = () => (
   </svg>
 );
 
-const TRICKS: { trick: BubblesTrick; label: string }[] = [
-  { trick: "puff", label: "Puff up" },
-  { trick: "spin", label: "Spin" },
-  { trick: "flip", label: "Backflip" },
-  { trick: "wave", label: "Wave" },
-  { trick: "cheer", label: "Big finish" },
-];
+const TRICKS: BubblesTrick[] = ["puff", "spin", "flip", "wave", "cheer"];
 
-const FAQ = [
-  {
-    q: "Is The Water Check medical advice?",
-    a: "No. It is a general wellness app. Your water number is an educational estimate, not a prescription, and nothing in the app diagnoses or treats anything. If you are pregnant or breastfeeding, take medicine that affects fluids, or have a kidney, heart or other condition, ask your doctor what is right for you.",
-  },
-  {
-    q: "Where does my number come from?",
-    a: "From your weight, height, activity, climate and life stage, starting from public guidance such as the US National Academies' water references. The free calculator shows its working, so you can see every step. It is a starting point, not a rule.",
-  },
-  {
-    q: "What happens when I scan a drink?",
-    a: "A barcode scan sends only the barcode number to Open Food Facts, a free, open food database, and gets back what the label says. A photo, for adults 18 and over, goes through our server to Google's Gemini AI, which reads the label and sends back what it found. We do not keep your photo; Google may retain data for a limited time under its terms. Labels and AI can be wrong, so check the real label, and never use Drink Check for allergies or medical diets.",
-  },
-  {
-    q: "What stays on my phone?",
-    a: "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle answer and cycle notes, though your own phone backup may include them. On iPhone, workouts you let the app read from Apple Health stay on your phone too, and are never sent to us. Your sign-up answers, each drink and food you log with its time, and your daily totals are kept with your account so they follow you to a new phone. We do not sell your information.",
-  },
-  {
-    q: "Who is it for?",
-    a: "Anyone 13 or older. If you are under 18, use it with a parent's or guardian's permission. Fruit Fast, alcohol logging and photo scans are only for adults. The app goes by the age range you give, so please answer truthfully. If you are 13 to 17, check your number with a parent or clinician.",
-  },
-  {
-    q: "What does it cost?",
-    a: "The app is free to start: get your number, log water and food, scan any barcode, read every Guide chapter, join a Crew, and use the Classic, Seasons, Body and Spark widgets. During our opening year, one optional purchase unlocks everything, once, with no subscription. The App Store or Google Play shows the price in your currency before you buy.",
-  },
-  {
-    q: "How do I delete my account?",
-    a: "In the app: Profile, then Settings, then Delete account. It is gone right away. No app? Our Delete your account page explains how to ask by email.",
-  },
-  {
-    q: "When can I download it?",
-    a: "The Water Check is in review at the App Store and in testing on Google Play, and coming soon to both. Follow @thewatercheck on Instagram to hear first.",
-  },
-];
+const FAQ = ["medical", "number", "scan", "phone", "audience", "cost", "deleteAccount", "download"] as const;
+
+const WIDGET_CHIPS = ["body", "spark", "running", "crossCountry", "volleyball", "basketball", "seaTurtle", "jellyfish", "beach", "girlypopslay", "seasons"] as const;
+
+const FREE_ITEMS = ["number", "log", "barcode", "photo", "guide", "widgets", "crew"] as const;
+
+const FOREVER_ITEMS = ["widgets", "bars", "journal", "photos", "summaries", "crews", "later"] as const;
+
+const CALCULATOR_CHIPS = ["weight", "height", "activity", "lifeStage", "heat", "electrolytes"] as const;
 
 /**
  * /thewatercheckpage. The app's public home: what it does, Bubbles, what it costs, where your data
@@ -76,6 +46,7 @@ const FAQ = [
  * not follow the viewer's light or dark setting.
  */
 export function WaterCheckLanding({ onNavigate }: Props) {
+  const { t } = useTranslation("water");
   const root = React.useRef<HTMLDivElement>(null);
   const [trick, setTrick] = React.useState<{ trick: BubblesTrick; key: number }>({ trick: "idle", key: 0 });
   const play = (next: BubblesTrick) => setTrick((current) => ({ trick: next, key: current.key + 1 }));
@@ -120,17 +91,17 @@ export function WaterCheckLanding({ onNavigate }: Props) {
             ))}
           </span>
 
-          <nav className="wrap nav" aria-label="The Water Check">
+          <nav className="wrap nav" aria-label={t("brand")}>
             <div className="nav-pill">
-              <a href="#the-app">The app</a>
-              <a href="#drink-check">Drink Check</a>
-              <a href="#guide">Guide</a>
-              <a href="#widgets">Widgets</a>
-              <a href="#progress">Progress</a>
-              <a href="#pricing">Pricing</a>
-              <a href="#faq">FAQ</a>
+              <a href="#the-app">{t("landing.nav.theApp")}</a>
+              <a href="#drink-check">{t("landing.nav.drinkCheck")}</a>
+              <a href="#guide">{t("landing.nav.guide")}</a>
+              <a href="#widgets">{t("landing.nav.widgets")}</a>
+              <a href="#progress">{t("landing.nav.progress")}</a>
+              <a href="#pricing">{t("landing.nav.pricing")}</a>
+              <a href="#faq">{t("landing.nav.faq")}</a>
               <a className="solid" href="/thewatercheck-calculator" onClick={onNavigate}>
-                Calculator
+                {t("landing.nav.calculator")}
               </a>
             </div>
           </nav>
@@ -139,30 +110,25 @@ export function WaterCheckLanding({ onNavigate }: Props) {
             <div className="wcl-hero-copy">
               <p className="eyebrow">
                 <Drop />
-                The Water Check
+                {t("brand")}
               </p>
               <h1>
-                Drink up.
-                <br />
-                We'll <em>keep count</em>.
+                <Trans t={t} i18nKey="landing.hero.title" components={{ break: <br />, em: <em /> }} />
               </h1>
-              <p className="sub">
-                Your own water number, drinks you can scan, your body charging up, a widget you will actually keep, and a
-                pufferfish named Bubbles to show you around. No gallon rules, no influencers, no guilt.
-              </p>
+              <p className="sub">{t("landing.hero.sub")}</p>
               <div className="cta-row">
                 <button type="button" className="store" disabled>
-                  <span className="soon">Coming soon</span>
+                  <span className="soon">{t("landing.hero.comingSoon")}</span>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="M16.4 12.7c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.7 2.3 2.9 2.2 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.2.9-1.2 1.3-2.5 1.3-2.5s-2.5-1-2.8-3.6ZM14.2 5.9c.6-.8 1-1.9.9-3-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3Z" />
                   </svg>
                   <span>
-                    <small>Download on the</small>
-                    <strong>App Store</strong>
+                    <small>{t("landing.hero.appStoreLead")}</small>
+                    <strong>{t("landing.hero.appStore")}</strong>
                   </span>
                 </button>
                 <button type="button" className="store" disabled>
-                  <span className="soon">Coming soon</span>
+                  <span className="soon">{t("landing.hero.comingSoon")}</span>
                   <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill="#32C5F4" d="M3.5 2.5v19L13 12Z" />
                     <path fill="#37C86A" d="M3.5 2.5 16.7 9.5 13 12Z" />
@@ -170,8 +136,8 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                     <path fill="#F35C5C" d="M3.5 21.5 13 12l3.7 2.5Z" />
                   </svg>
                   <span>
-                    <small>Get it on</small>
-                    <strong>Google Play</strong>
+                    <small>{t("landing.hero.googlePlayLead")}</small>
+                    <strong>{t("landing.hero.googlePlay")}</strong>
                   </span>
                 </button>
               </div>
@@ -181,9 +147,9 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                     <rect x="4" y="2" width="16" height="20" rx="3" />
                     <path d="M8 6h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15v4" />
                   </svg>
-                  Try the free calculator
+                  {t("landing.hero.calculator")}
                 </a>
-                <a className="social-btn" href={INSTAGRAM} target="_blank" rel="noopener noreferrer" aria-label="Follow The Water Check on Instagram" title="Follow The Water Check on Instagram">
+                <a className="social-btn" href={INSTAGRAM} target="_blank" rel="noopener noreferrer" aria-label={t("landing.hero.instagram")} title={t("landing.hero.instagram")}>
                   <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
                     <defs>
                       <linearGradient id="water-instagram-gradient" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse">
@@ -198,19 +164,19 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                     <circle cx="12" cy="12" r="2.75" fill="none" stroke="#fff" strokeWidth="1.7" />
                     <circle cx="16.25" cy="7.8" r="1.05" fill="#fff" />
                   </svg>
-                  <span className="wcl-sr">Follow The Water Check on Instagram</span>
+                  <span className="wcl-sr">{t("landing.hero.instagram")}</span>
                 </a>
               </div>
-              <p className="cta-note">In review at the App Store now. The calculator is free and needs no sign-up.</p>
+              <p className="cta-note">{t("landing.hero.note")}</p>
             </div>
 
             <div className="wcl-hero-art">
-              <Phone screen="today" alt="The Water Check Today screen: 40 oz of an 81.2 oz goal, with quick-add buttons and today's log" tilt={-4} className="wcl-hero-phone wcl-hero-phone--back" />
-              <Phone screen="widgets" alt="The widget studio, showing a Body widget in Hologram and rows of widget styles" tilt={5} className="wcl-hero-phone wcl-hero-phone--front" />
-              <button type="button" className="wcl-hero-bubbles" onClick={() => play("cheer")} aria-label="Make Bubbles do a trick">
+              <Phone screen="today" alt={t("landing.hero.todayAlt")} tilt={-4} className="wcl-hero-phone wcl-hero-phone--back" />
+              <Phone screen="widgets" alt={t("landing.hero.widgetsAlt")} tilt={5} className="wcl-hero-phone wcl-hero-phone--front" />
+              <button type="button" className="wcl-hero-bubbles" onClick={() => play("cheer")} aria-label={t("landing.hero.bubblesLabel")}>
                 <Bubbles trick={trick.trick} trickKey={trick.key} size={132} />
                 <span className="wcl-say" aria-hidden="true">
-                  Hi, I'm Bubbles!
+                  {t("landing.hero.bubblesSay")}
                 </span>
               </button>
             </div>
@@ -219,19 +185,19 @@ export function WaterCheckLanding({ onNavigate }: Props) {
           <div className="wrap wcl-stats" data-rise>
             <p>
               <strong>89</strong>
-              <span>widget styles</span>
+              <span>{t("landing.stats.widgetStyles")}</span>
             </p>
             <p>
               <strong>21</strong>
-              <span>Guide pearls to find</span>
+              <span>{t("landing.stats.pearls")}</span>
             </p>
             <p>
               <strong>17</strong>
-              <span>water-rich foods, drawn</span>
+              <span>{t("landing.stats.foods")}</span>
             </p>
             <p>
               <strong>43</strong>
-              <span>languages</span>
+              <span>{t("landing.stats.languages")}</span>
             </p>
           </div>
         </header>
@@ -239,34 +205,28 @@ export function WaterCheckLanding({ onNavigate }: Props) {
         <section className="band band--cream" id="sixty">
           <div className="wrap sixty" data-rise>
             <div>
-              <p className="kicker">Why it matters</p>
+              <p className="kicker">{t("landing.sixty.kicker")}</p>
               <p className="sixty-num">
                 60<sub>%</sub>
               </p>
             </div>
             <div>
-              <h2>You are made up of 60% water.</h2>
-              <p className="lede">
-                Not a target to hit. That water is working right now: carrying oxygen, cushioning your joints, cooling you
-                down, clearing out what you do not need. Your needs change with activity, weather and health.
-              </p>
+              <h2>{t("landing.sixty.title")}</h2>
+              <p className="lede">{t("landing.sixty.lede")}</p>
               <p className="kicker" style={{ marginTop: 34 }}>
-                The P-Meter
+                {t("landing.sixty.pmeterKicker")}
               </p>
-              <div className="pmeter" role="img" aria-label="Eight shades from pale straw to dark amber, grouped into well hydrated, top up, and drink now">
+              <div className="pmeter" role="img" aria-label={t("landing.sixty.pmeterLabel")}>
                 {["#f7f5d8", "#f4efb2", "#f2e98c", "#efe06a", "#e8cf4b", "#ddb93a", "#c89a2c", "#a9741f"].map((color) => (
                   <i key={color} style={{ background: color }} />
                 ))}
               </div>
               <div className="pmeter-key">
-                <span style={{ borderTop: "3px solid #f2e98c" }}>Well hydrated</span>
-                <span style={{ borderTop: "3px solid #ddb93a" }}>Top up</span>
-                <span style={{ borderTop: "3px solid #a9741f" }}>Drink now</span>
+                <span style={{ borderTop: "3px solid #f2e98c" }}>{t("landing.sixty.wellHydrated")}</span>
+                <span style={{ borderTop: "3px solid #ddb93a" }}>{t("landing.sixty.topUp")}</span>
+                <span style={{ borderTop: "3px solid #a9741f" }}>{t("landing.sixty.drinkNow")}</span>
               </div>
-              <p className="wcl-fine">
-                A rough sign, not a diagnosis. Food, vitamins and medicines all change the color. The app explains each band and
-                when to talk to a healthcare professional.
-              </p>
+              <p className="wcl-fine">{t("landing.sixty.fine")}</p>
             </div>
           </div>
         </section>
@@ -275,39 +235,33 @@ export function WaterCheckLanding({ onNavigate }: Props) {
           <span id="the-app" className="wcl-anchor" aria-hidden="true" />
           <div className="wrap wcl-split-grid">
             <div className="wcl-split-copy" data-rise>
-              <p className="kicker">Drink Check</p>
-              <h2>Scan it once. Know it. Tap it forever.</h2>
-              <p className="lede">
-                Scan the barcode, free and as often as you like. No barcode? If you are 18 or over, take a photo and the app reads the label. Either way
-                you see sugar in teaspoons, caffeine, electrolytes, and every ingredient marked Good, Fine, Watch or Avoid.
-              </p>
-              <ul className="wcl-scores" aria-label="Drink Check score colors">
-                <li style={{ "--c": "#3ddc84" } as React.CSSProperties}>Great</li>
-                <li style={{ "--c": "#a6e36b" } as React.CSSProperties}>Good</li>
-                <li style={{ "--c": "#ffc04d" } as React.CSSProperties}>Okay</li>
-                <li style={{ "--c": "#ff6b6b" } as React.CSSProperties}>Poor</li>
+              <p className="kicker">{t("landing.drinkCheck.kicker")}</p>
+              <h2>{t("landing.drinkCheck.title")}</h2>
+              <p className="lede">{t("landing.drinkCheck.lede")}</p>
+              <ul className="wcl-scores" aria-label={t("landing.drinkCheck.scoresLabel")}>
+                <li style={{ "--c": "#3ddc84" } as React.CSSProperties}>{t("landing.drinkCheck.scores.great")}</li>
+                <li style={{ "--c": "#a6e36b" } as React.CSSProperties}>{t("landing.drinkCheck.scores.good")}</li>
+                <li style={{ "--c": "#ffc04d" } as React.CSSProperties}>{t("landing.drinkCheck.scores.okay")}</li>
+                <li style={{ "--c": "#ff6b6b" } as React.CSSProperties}>{t("landing.drinkCheck.scores.poor")}</li>
               </ul>
               <ul className="wcl-ticks">
                 <li>
-                  <Check /> Electrolytes from the label: sodium, potassium, magnesium and calcium, with their Daily Values.
+                  <Check /> {t("landing.drinkCheck.ticks.electrolytes")}
                 </li>
                 <li>
-                  <Check /> Save it (rename it if you like), and next time it is one tap on the Add page. No new scan.
+                  <Check /> {t("landing.drinkCheck.ticks.save")}
                 </li>
                 <li>
-                  <Check /> Adults can snap a food too: a mango adds to your mango, something new becomes its own bubble.
+                  <Check /> {t("landing.drinkCheck.ticks.food")}
                 </li>
                 <li>
-                  <Check /> Your Drink Journal keeps how each drink made you feel, on your phone.
+                  <Check /> {t("landing.drinkCheck.ticks.journal")}
                 </li>
               </ul>
-              <p className="wcl-fine wcl-fine--deep">
-                A quick read of the label, not a lab test or a rating of any brand. Barcode results come from Open Food Facts, and
-                AI can be wrong, so check the real label, especially for allergies. We do not keep your photo.
-              </p>
+              <p className="wcl-fine wcl-fine--deep">{t("landing.drinkCheck.fine")}</p>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="drink-check" alt="A Drink Check result for a sports drink: score 66, Good, with sugar, caffeine and its electrolytes from the label" tilt={3} />
+              <Phone screen="drink-check" alt={t("landing.drinkCheck.alt")} tilt={3} />
             </div>
           </div>
         </section>
@@ -315,26 +269,23 @@ export function WaterCheckLanding({ onNavigate }: Props) {
         <section className="band band--cream wcl-split" id="foods">
           <div className="wrap wcl-split-grid wcl-split-grid--flip">
             <div className="wcl-split-copy" data-rise>
-              <p className="kicker">Food counts too</p>
-              <h2>About a fifth of your water arrives on a plate.</h2>
-              <p className="lede">
-                The Add page is a page of drawn fruit bubbles, three to a row: watermelon, cucumber, strawberries, mango and more.
-                Tap the plus and it is added, with Undo right there. The foods you add most move to the front.
-              </p>
+              <p className="kicker">{t("landing.foods.kicker")}</p>
+              <h2>{t("landing.foods.title")}</h2>
+              <p className="lede">{t("landing.foods.lede")}</p>
               <ul className="wcl-ticks wcl-ticks--cream">
                 <li>
-                  <Check /> Glass, bottle or any amount, one tap each.
+                  <Check /> {t("landing.foods.ticks.amounts")}
                 </li>
                 <li>
-                  <Check /> Coffee drinkers get a caffeine card that fills itself in.
+                  <Check /> {t("landing.foods.ticks.caffeine")}
                 </li>
                 <li>
-                  <Check /> A ring at the top shows food counting toward your day.
+                  <Check /> {t("landing.foods.ticks.ring")}
                 </li>
               </ul>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="add" alt="The Add page: a ring at the top, drink buttons, a caffeine card and water-rich food bubbles" tilt={-3} />
+              <Phone screen="add" alt={t("landing.foods.alt")} tilt={-3} />
             </div>
           </div>
         </section>
@@ -342,34 +293,24 @@ export function WaterCheckLanding({ onNavigate }: Props) {
         <section className="band band--deep water wcl-split" id="guide">
           <div className="wrap wcl-split-grid">
             <div className="wcl-split-copy" data-rise>
-              <p className="kicker">The Water Check Guide</p>
-              <h2>Pop a bubble. Keep a pearl.</h2>
-              <p className="lede">
-                Every chapter is a bubble with a question on it, and every one is free. Why do you feel "low battery"? What is your
-                pee telling you? Is a gallon a day real? Read one to the end and it pops into a pearl. About one in six is a rare
-                golden one.
-              </p>
+              <p className="kicker">{t("landing.guide.kicker")}</p>
+              <h2>{t("landing.guide.title")}</h2>
+              <p className="lede">{t("landing.guide.lede")}</p>
               <ul className="wcl-ticks">
                 <li>
-                  <Check /> Your electric body: six chapters on the signal, sodium and potassium, magnesium and calcium, and fuel.
+                  <Check /> {t("landing.guide.electric")}
                 </li>
               </ul>
               <div className="wcl-forher">
                 <p className="kicker" style={{ color: "#ff9ac2" }}>
-                  For her
+                  {t("landing.guide.forHerKicker")}
                 </p>
-                <p>
-                  Rose-colored chapters about her body and water: pink or neon pee, feeling puffy around your period, why UTIs find
-                  women more, a little leak when you laugh, pregnancy and menopause. Kind, plain and sourced.
-                </p>
+                <p>{t("landing.guide.forHer")}</p>
               </div>
-              <p className="wcl-fine wcl-fine--deep">
-                Every chapter lists its sources and says when to see a doctor. It rewards understanding, not screen time: no
-                streaks, no pressure.
-              </p>
+              <p className="wcl-fine wcl-fine--deep">{t("landing.guide.fine")}</p>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="guide" alt="The Water Check Guide: Your electric body chapters as question bubbles" tilt={3} />
+              <Phone screen="guide" alt={t("landing.guide.alt")} tilt={3} />
             </div>
           </div>
         </section>
@@ -377,32 +318,27 @@ export function WaterCheckLanding({ onNavigate }: Props) {
         <section className="band wcl-widgets" id="widgets">
           <div className="wrap wcl-split-grid wcl-split-grid--flip">
             <div className="wcl-split-copy" data-rise>
-              <p className="kicker">Widgets</p>
+              <p className="kicker">{t("landing.widgets.kicker")}</p>
               <h2>
-                <span className="wcl-big">89</span> styles for your Home Screen.
+                <Trans t={t} i18nKey="landing.widgets.title" components={{ count: <span className="wcl-big" /> }} />
               </h2>
-              <p className="lede">
-                Sports, places, seasons, sea life and designs, in small, medium and large, with layouts from rings to waves. Tell
-                us your sport at sign-up and your sport's widget shows up first. Log a drink straight from your Home Screen.
-              </p>
+              <p className="lede">{t("landing.widgets.lede")}</p>
               <ul className="wcl-ticks">
                 <li>
-                  <Check /> Body: your outline fills up with the day's water. Spark: a battery fills with today's charge.
+                  <Check /> {t("landing.widgets.ticks.body")}
                 </li>
                 <li>
-                  <Check /> Put the Charge meter on any widget to watch your electrolytes instead of your water.
+                  <Check /> {t("landing.widgets.ticks.charge")}
                 </li>
               </ul>
               <div className="wcl-chips">
-                {["Body", "Spark", "Running", "Cross Country", "Volleyball", "Basketball", "Sea Turtle", "Jellyfish", "Beach", "girlypopslay", "Seasons"].map(
-                  (name) => (
-                    <span key={name}>{name}</span>
-                  ),
-                )}
+                {WIDGET_CHIPS.map((chip) => (
+                  <span key={chip}>{t(`landing.widgets.chips.${chip}`)}</span>
+                ))}
               </div>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="widgets" alt="The widget studio with the Body widget in Hologram, its colorways, layouts and the Charge meter" tilt={-3} />
+              <Phone screen="widgets" alt={t("landing.widgets.alt")} tilt={-3} />
             </div>
           </div>
         </section>
@@ -410,58 +346,48 @@ export function WaterCheckLanding({ onNavigate }: Props) {
         <section className="band band--deep water wcl-split" id="progress">
           <div className="wrap wcl-split-grid">
             <div className="wcl-split-copy" data-rise>
-              <p className="kicker">Progress</p>
-              <h2>See what's in your drinks, bar by bar.</h2>
-              <p className="lede">
-                Today as simple bars that fill left to right: water against your number, then sodium, potassium, magnesium and
-                calcium from the drinks you scan, plus caffeine and sugar. Tap any bar to see the drinks behind it. The Calendar
-                shows every day side by side, with your streak.
-              </p>
+              <p className="kicker">{t("landing.progress.kicker")}</p>
+              <h2>{t("landing.progress.title")}</h2>
+              <p className="lede">{t("landing.progress.lede")}</p>
               <ul className="wcl-ticks">
                 <li>
-                  <Check /> Electrolytes are measured against the Daily Values on a Nutrition Facts label.
+                  <Check /> {t("landing.progress.ticks.dailyValues")}
                 </li>
                 <li>
-                  <Check /> Caffeine against 400 mg, the amount the FDA gives for most healthy adults, and sugar against 50 g.
+                  <Check /> {t("landing.progress.ticks.caffeine")}
                 </li>
                 <li>
-                  <Check /> Your Drink Journal sits right under the bars: every drink you scanned and how it made you feel.
+                  <Check /> {t("landing.progress.ticks.journal")}
                 </li>
                 <li>
-                  <Check /> Every number comes from something you logged or scanned. Nothing is made up.
+                  <Check /> {t("landing.progress.ticks.real")}
                 </li>
               </ul>
-              <p className="wcl-fine wcl-fine--deep">
-                References, not targets, and not medical advice. If you watch your sodium or potassium for a health reason, follow
-                your doctor's advice.
-              </p>
+              <p className="wcl-fine wcl-fine--deep">{t("landing.progress.fine")}</p>
             </div>
             <div className="wcl-split-art" data-rise>
-              <Phone screen="progress" alt="Progress: water at 83% of the day's number, then sodium, potassium, magnesium, calcium, caffeine and sugar as bars" tilt={-3} />
+              <Phone screen="progress" alt={t("landing.progress.alt")} tilt={-3} />
             </div>
           </div>
         </section>
 
         <section className="band band--cream" id="crew">
           <div className="wrap" data-rise>
-            <p className="kicker">Your month and your people</p>
-            <h2>Watch it add up. Bring your friends.</h2>
+            <p className="kicker">{t("landing.crew.kicker")}</p>
+            <h2>{t("landing.crew.title")}</h2>
             <div className="wcl-duo">
               <article>
-                <Phone screen="calendar" alt="The calendar: each day fills like a glass, with days logged, days at goal and a streak" />
+                <Phone screen="calendar" alt={t("landing.crew.calendarAlt")} />
                 <div>
-                  <h3>Your water, day by day</h3>
-                  <p>Every day you log fills in like a glass. Days at goal, streaks and tide marks, and it follows you to a new phone.</p>
+                  <h3>{t("landing.crew.calendarTitle")}</h3>
+                  <p>{t("landing.crew.calendarBody")}</p>
                 </div>
               </article>
               <article>
-                <Phone screen="crew" alt="A Crew named Track team with quick cheer messages" />
+                <Phone screen="crew" alt={t("landing.crew.crewAlt")} />
                 <div>
-                  <h3>Crew</h3>
-                  <p>
-                    Invite-only groups that cheer each other on. Friends see your percent of your own goal and your streak, never
-                    your ounces or your body. Report and Block are always there.
-                  </p>
+                  <h3>{t("landing.crew.crewTitle")}</h3>
+                  <p>{t("landing.crew.crewBody")}</p>
                 </div>
               </article>
             </div>
@@ -474,17 +400,14 @@ export function WaterCheckLanding({ onNavigate }: Props) {
               <Bubbles trick={trick.trick} trickKey={trick.key} size={210} />
             </div>
             <div data-rise>
-              <p className="kicker">Meet Bubbles</p>
-              <h2>Your guide is a pufferfish.</h2>
-              <p className="lede">
-                Bubbles is the Wellness Officer at The Department. On your first day he takes you on a tour of the app, and he
-                cannot help showing off. Go on, give him something to do.
-              </p>
+              <p className="kicker">{t("landing.bubbles.kicker")}</p>
+              <h2>{t("landing.bubbles.title")}</h2>
+              <p className="lede">{t("landing.bubbles.lede")}</p>
               <fieldset className="wcl-tricks">
-                <legend className="wcl-sr">Bubbles' tricks</legend>
+                <legend className="wcl-sr">{t("landing.bubbles.tricksLegend")}</legend>
                 {TRICKS.map((item) => (
-                  <button key={item.trick} type="button" onClick={() => play(item.trick)}>
-                    {item.label}
+                  <button key={item} type="button" onClick={() => play(item)}>
+                    {t(`landing.bubbles.tricks.${item}`)}
                   </button>
                 ))}
               </fieldset>
@@ -494,35 +417,32 @@ export function WaterCheckLanding({ onNavigate }: Props) {
 
         <section className="band band--cream" id="pricing">
           <div className="wrap" data-rise>
-            <p className="kicker">Pricing</p>
-            <h2>Free to start. Everything, once.</h2>
+            <p className="kicker">{t("landing.pricing.kicker")}</p>
+            <h2>{t("landing.pricing.title")}</h2>
             <div className="wcl-plans">
               <article>
-                <h3>Free</h3>
-                <p className="wcl-plan-sub">Everything you need to drink enough.</p>
+                <h3>{t("landing.pricing.free.title")}</h3>
+                <p className="wcl-plan-sub">{t("landing.pricing.free.sub")}</p>
                 <ul>
-                  {["Your own water number", "Log drinks and water-rich food", "Barcode scans, free and unlimited", "One free photo scan (18 and over)", "Every Guide chapter", "Classic, Seasons, and plain Body and Spark widgets", "Your calendar, streaks and a friend's Crew"].map((item) => (
+                  {FREE_ITEMS.map((item) => (
                     <li key={item}>
-                      <Check /> {item}
+                      <Check /> {t(`landing.pricing.free.items.${item}`)}
                     </li>
                   ))}
                 </ul>
               </article>
               <article className="wcl-plan--forever">
-                <span className="wcl-plan-tag">Opening year</span>
-                <h3>Everything Forever</h3>
-                <p className="wcl-plan-sub">One purchase, no subscription.</p>
+                <span className="wcl-plan-tag">{t("landing.pricing.forever.tag")}</span>
+                <h3>{t("landing.pricing.forever.title")}</h3>
+                <p className="wcl-plan-sub">{t("landing.pricing.forever.sub")}</p>
                 <ul>
-                  {["Every widget style and colorway", "The electrolyte, caffeine and sugar bars", "Your Drink Journal", "More photo scans (18 and over)", "30 and 90 day PDF summaries", "Make your own Crews", "Everything we add later"].map((item) => (
+                  {FOREVER_ITEMS.map((item) => (
                     <li key={item}>
-                      <Check /> {item}
+                      <Check /> {t(`landing.pricing.forever.items.${item}`)}
                     </li>
                   ))}
                 </ul>
-                <p className="wcl-plan-note">
-                  Offered during our opening year. After that, The Water Check may move to a monthly plan, and a one-time purchase made
-                  before then stays unlocked. The price is shown in the App Store or Google Play before you buy.
-                </p>
+                <p className="wcl-plan-note">{t("landing.pricing.forever.note")}</p>
               </article>
             </div>
           </div>
@@ -530,31 +450,31 @@ export function WaterCheckLanding({ onNavigate }: Props) {
 
         <section className="band band--deep water" id="privacy">
           <div className="wrap" data-rise>
-            <p className="kicker">Your data</p>
-            <h2>What stays on your phone, and what does not.</h2>
+            <p className="kicker">{t("landing.privacy.kicker")}</p>
+            <h2>{t("landing.privacy.title")}</h2>
             <div className="wcl-data">
               <article>
-                <h3>Stays on your phone</h3>
-                <p>Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle notes and reminders.</p>
+                <h3>{t("landing.privacy.phoneTitle")}</h3>
+                <p>{t("landing.privacy.phoneBody")}</p>
               </article>
               <article>
-                <h3>Kept with your account</h3>
-                <p>Your sign-in, sign-up answers, each drink and food you log with its time, daily water totals and your Crew, so they follow you to a new phone.</p>
+                <h3>{t("landing.privacy.accountTitle")}</h3>
+                <p>{t("landing.privacy.accountBody")}</p>
               </article>
               <article>
-                <h3>Never</h3>
-                <p>We do not sell your information or share it with advertising networks. We do not keep your Drink Check photos.</p>
+                <h3>{t("landing.privacy.neverTitle")}</h3>
+                <p>{t("landing.privacy.neverBody")}</p>
               </article>
             </div>
             <p className="wcl-data-links">
               <a href="/thewatercheck/privacy" onClick={onNavigate}>
-                Privacy Policy
+                {t("landing.privacy.links.privacy")}
               </a>
               <a href="/thewatercheck/consumer-health-data" onClick={onNavigate}>
-                Consumer Health Data Policy
+                {t("landing.privacy.links.healthData")}
               </a>
               <a href="/thewatercheck/delete-account" onClick={onNavigate}>
-                Delete your account
+                {t("landing.privacy.links.deleteAccount")}
               </a>
             </p>
           </div>
@@ -562,41 +482,36 @@ export function WaterCheckLanding({ onNavigate }: Props) {
 
         <section className="band band--cream" id="calculator">
           <div className="wrap calc-block" data-rise>
-            <p className="kicker">Free, no sign-up</p>
-            <h2>Start with the numbers you know.</h2>
-            <p className="lede">
-              Your weight, your height, how long you move. The calculator gives you a daily target in about twenty seconds, and
-              shows its working so you can argue with it. It runs in your browser.
-            </p>
+            <p className="kicker">{t("landing.calculator.kicker")}</p>
+            <h2>{t("landing.calculator.title")}</h2>
+            <p className="lede">{t("landing.calculator.lede")}</p>
             <div className="calc-strip">
-              {["Weight baseline", "Height and build", "Activity adjustment", "Life stage", "Heat and humidity", "Electrolyte check"].map((chip) => (
+              {CALCULATOR_CHIPS.map((chip) => (
                 <span key={chip} className="calc-chip">
-                  {chip}
+                  {t(`landing.calculator.chips.${chip}`)}
                 </span>
               ))}
             </div>
             <p style={{ marginTop: 32 }}>
               <a className="calc-btn" href="/thewatercheck-calculator" onClick={onNavigate}>
-                Open the calculator
+                {t("landing.calculator.open")}
               </a>
             </p>
             <p className="wcl-fine" style={{ marginInline: "auto", textAlign: "center" }}>
-              An educational planning estimate for adults, not a diagnosis or a prescription. Do not force fluids. Ask a healthcare
-              professional if you are pregnant or breastfeeding, take medicines that affect fluid balance, or have a kidney or
-              heart condition.
+              {t("landing.calculator.fine")}
             </p>
           </div>
         </section>
 
         <section className="band band--deep water" id="faq">
           <div className="wrap wcl-faq" data-rise>
-            <p className="kicker">Questions</p>
-            <h2>The honest answers.</h2>
+            <p className="kicker">{t("landing.faq.kicker")}</p>
+            <h2>{t("landing.faq.title")}</h2>
             <div className="wcl-faq-list">
               {FAQ.map((item) => (
-                <details key={item.q}>
-                  <summary>{item.q}</summary>
-                  <p>{item.a}</p>
+                <details key={item}>
+                  <summary>{t(`landing.faq.items.${item}.q`)}</summary>
+                  <p>{t(`landing.faq.items.${item}.a`)}</p>
                 </details>
               ))}
             </div>
@@ -610,92 +525,88 @@ export function WaterCheckLanding({ onNavigate }: Props) {
             <div>
               <p className="foot-brand">
                 <img src="/brand/watercheck-store/c-mark-magic-eraser.png" alt="" />
-                <b>The Water Check</b>
+                <b>{t("brand")}</b>
               </p>
-              <p className="foot-blurb">Understand what you drink. Built in Florida by a one-person company. For ages 13 and up.</p>
+              <p className="foot-blurb">{t("landing.foot.blurb")}</p>
             </div>
             <div>
-              <h4>Legal</h4>
+              <h4>{t("landing.foot.legal")}</h4>
               <ul>
                 <li>
                   <a href="/thewatercheck/privacy" onClick={onNavigate}>
-                    The Water Check Privacy Policy
+                    {t("landing.foot.privacy")}
                   </a>
                 </li>
                 <li>
                   <a href="/thewatercheck/terms" onClick={onNavigate}>
-                    The Water Check Terms and Conditions
+                    {t("landing.foot.terms")}
                   </a>
                 </li>
                 <li>
                   <a href="/thewatercheck/community-guidelines" onClick={onNavigate}>
-                    Community Guidelines
+                    {t("landing.foot.community")}
                   </a>
                 </li>
                 <li>
                   <a href="/thewatercheck/consumer-health-data" onClick={onNavigate}>
-                    Consumer Health Data Privacy Policy
+                    {t("landing.foot.healthData")}
                   </a>
                 </li>
                 <li>
                   <a href="/thewatercheck/delete-account" onClick={onNavigate}>
-                    Delete your account
+                    {t("landing.foot.deleteAccount")}
                   </a>
                 </li>
                 <li>
                   <a href="/privacy" onClick={onNavigate}>
-                    Website privacy
+                    {t("landing.foot.sitePrivacy")}
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h4>Explore</h4>
+              <h4>{t("landing.foot.explore")}</h4>
               <ul>
                 <li>
                   <a href="/thewatercheck-calculator" onClick={onNavigate}>
-                    Hydration calculator
+                    {t("landing.foot.calculator")}
                   </a>
                 </li>
                 <li>
                   <a href="/thewatercheckstore" onClick={onNavigate}>
-                    The Water Check store
+                    {t("landing.foot.store")}
                   </a>
                 </li>
                 <li>
                   <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer">
-                    @thewatercheck on Instagram
+                    {t("landing.foot.instagram")}
                   </a>
                 </li>
                 <li>
                   <a href="/" onClick={onNavigate}>
-                    Expected End
+                    {t("landing.foot.expectedEnd")}
                   </a>
                 </li>
               </ul>
             </div>
             <div id="support">
-              <h4>Help</h4>
+              <h4>{t("landing.foot.help")}</h4>
               <ul>
                 <li>
-                  <a href="mailto:expectedendai@gmail.com?subject=The%20Water%20Check%20support">Email support</a>
+                  <a href="mailto:expectedendai@gmail.com?subject=The%20Water%20Check%20support">{t("landing.foot.email")}</a>
                 </li>
                 <li>
                   <a href="/accessibility" onClick={onNavigate}>
-                    Accessibility
+                    {t("landing.foot.accessibility")}
                   </a>
                 </li>
                 <li>
-                  <a href="/about#contact">Contact</a>
+                  <a href="/about#contact">{t("landing.foot.contact")}</a>
                 </li>
               </ul>
             </div>
           </div>
-          <p className="foot-note">
-            The Water Check is a general wellness app. It does not diagnose, treat or prevent any condition, and it is not a
-            substitute for advice from a healthcare professional. In an emergency, call 911 or your local emergency number. App
-            screens show a test build with made-up data; features may change before release.
-          </p>
+          <p className="foot-note">{t("landing.foot.note")}</p>
           <div className="foot-base">
             <span>© 2026 EXPECTEDEND LLC</span>
             <span>The Water Check™</span>

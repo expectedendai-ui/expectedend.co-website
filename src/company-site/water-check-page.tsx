@@ -14,15 +14,10 @@ import {
   Waves,
 } from "lucide-react";
 import * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import "./water-check-page.css";
 import { WaterIntro } from "./water-intro";
 import { WaterCheckApp } from "./water-check-app";
-
-const ESTIMATE_GUIDANCE =
-  "This is an educational planning estimate for adults—not a diagnosis, treatment, or clinical prescription. Food also supplies water, and individual needs vary. Do not force fluids. Ask a healthcare professional about your needs if you are pregnant or breastfeeding, take medicines that affect fluid balance, have a kidney or heart condition, follow a fluid restriction, or have concerning symptoms.";
-
-const GRACE_NOTE =
-  "The mirror and the way your clothes fit can change from water retention, digestion, hormones, sleep, and other normal shifts. One bloated day does not define your body. Drink with care, give yourself time, and let curiosity replace shame. Persistent bloating, swelling, rapid weight changes, or symptoms that worry you deserve a conversation with a healthcare professional.";
 
 const WATER_CHECK_SCHEMA = {
   "@context": "https://schema.org",
@@ -46,22 +41,11 @@ const WATER_CHECK_SCHEMA = {
   sameAs: ["https://www.instagram.com/thewatercheck/", "https://www.wikidata.org/wiki/Q141251206"],
 };
 
+// Each tip's title and body live in calculator.json under tips.<id>.
 const TIPS = [
-  {
-    title: "The Schedule",
-    body: "Start your morning with water, sip with meals, and let thirst, weather, and activity guide the rest.",
-    Icon: Clock3,
-  },
-  {
-    title: "Electrolytes",
-    body: "Most people replace electrolytes through regular meals. After long or heavy sweating, choose a balanced electrolyte drink; do not add salt routinely if you have been advised to limit sodium.",
-    Icon: Waves,
-  },
-  {
-    title: "The Visual Check",
-    body: "Pale yellow urine can be one rough sign of hydration. Food, vitamins, medicines, and health conditions can change color, so it is not a diagnosis.",
-    Icon: Eye,
-  },
+  { id: "schedule", Icon: Clock3 },
+  { id: "electrolytes", Icon: Waves },
+  { id: "visualCheck", Icon: Eye },
 ] as const;
 
 const formatOunces = (ounces: number) => (Number.isInteger(ounces) ? String(ounces) : ounces.toFixed(1));
@@ -121,23 +105,33 @@ function ClampedNumberInput({ value, min, max, onCommit, onBlur, onFocus, ...res
   );
 }
 
+/** An outside source that opens in a new tab. Inside a Trans line, the translated words become its children. */
+function SourceLink({ href, children }: { href: string; children?: React.ReactNode }) {
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  );
+}
+
 // Roughly a fifth of most people's daily water arrives in food (National Academies; Harvard Health).
 const FOOD_WATER_SHARE = 0.2;
 const OUNCES_PER_LITER = 33.814;
 const OUNCES_PER_BOTTLE = 16.9;
 
 // Approximate fluid ounces of water per serving, from USDA FoodData Central water percentages.
+// The label, serving size, and water percentage for each food live in calculator.json under foods.<key>.
 const FOOD_EQUIVALENTS = [
-  { key: "watermelon", emoji: "🍉", label: "cups of watermelon", serving: "1 cup diced", ounces: 4.7, water: "92% water" },
-  { key: "cucumber", emoji: "🥒", label: "cucumbers", serving: "1 medium", ounces: 9.6, water: "95% water" },
-  { key: "strawberries", emoji: "🍓", label: "cups of strawberries", serving: "1 cup", ounces: 4.7, water: "91% water" },
-  { key: "oranges", emoji: "🍊", label: "oranges", serving: "1 medium", ounces: 3.9, water: "87% water" },
-  { key: "salad", emoji: "🥗", label: "bowls of salad", serving: "2 cups mixed", ounces: 5, water: "about 94% water" },
-  { key: "soup", emoji: "🍲", label: "bowls of broth soup", serving: "1 cup", ounces: 7.5, water: "about 92% water" },
-  { key: "tomatoes", emoji: "🍅", label: "tomatoes", serving: "1 medium", ounces: 3.9, water: "95% water" },
-  { key: "grapes", emoji: "🍇", label: "cups of grapes", serving: "1 cup", ounces: 4.1, water: "81% water" },
-  { key: "peaches", emoji: "🍑", label: "peaches", serving: "1 medium", ounces: 4.5, water: "89% water" },
-  { key: "cantaloupe", emoji: "🍈", label: "cups of cantaloupe", serving: "1 cup diced", ounces: 4.7, water: "90% water" },
+  { key: "watermelon", emoji: "🍉", ounces: 4.7 },
+  { key: "cucumber", emoji: "🥒", ounces: 9.6 },
+  { key: "strawberries", emoji: "🍓", ounces: 4.7 },
+  { key: "oranges", emoji: "🍊", ounces: 3.9 },
+  { key: "salad", emoji: "🥗", ounces: 5 },
+  { key: "soup", emoji: "🍲", ounces: 7.5 },
+  { key: "tomatoes", emoji: "🍅", ounces: 3.9 },
+  { key: "grapes", emoji: "🍇", ounces: 4.1 },
+  { key: "peaches", emoji: "🍑", ounces: 4.5 },
+  { key: "cantaloupe", emoji: "🍈", ounces: 4.7 },
 ] as const;
 type FoodKey = (typeof FOOD_EQUIVALENTS)[number]["key"];
 
@@ -190,10 +184,11 @@ const IDEAL_WEIGHT_REFERENCE_INCHES = 60;
 const ADJUSTED_WEIGHT_BMI_THRESHOLD = 25;
 const ADJUSTED_WEIGHT_EXCESS_FACTOR = 0.4;
 
-const LIFE_STAGE_DETAILS: Record<LifeStage, { adjustment: number; breakdownLabel: string }> = {
-  standard: { adjustment: 0, breakdownLabel: "Life-stage adjustment" },
-  pregnant: { adjustment: 10, breakdownLabel: "Pregnancy adjustment" },
-  breastfeeding: { adjustment: 24, breakdownLabel: "Breastfeeding adjustment" },
+// The breakdown label for each stage lives in calculator.json under result.lifeStage.<stage>.
+const LIFE_STAGE_DETAILS: Record<LifeStage, { adjustment: number }> = {
+  standard: { adjustment: 0 },
+  pregnant: { adjustment: 10 },
+  breastfeeding: { adjustment: 24 },
 };
 
 type WaterCheckPageProps = {
@@ -201,6 +196,7 @@ type WaterCheckPageProps = {
 };
 
 export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
+  const { t } = useTranslation("calculator");
   const [weight, setWeight] = React.useState(160);
   const [weightUnit, setWeightUnit] = React.useState<WeightUnit>("lb");
   const [heightInches, setHeightInches] = React.useState(70);
@@ -232,10 +228,11 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
   const heightFeet = Math.floor(heightInches / 12);
   const heightRemainderInches = heightInches % 12;
   const heightCentimeters = Math.round(heightInches * CENTIMETERS_PER_INCH);
-  const electrolyteGuidance = isHotOrHumid || activity >= 60 ? "Consider after heavy sweat" : "Food usually covers it";
+  const electrolyteGuidance =
+    isHotOrHumid || activity >= 60 ? t("result.electrolytesAfterSweat") : t("result.electrolytesFromFood");
   const displayedWeight = weightUnit === "lb" ? weight : Number((weight / POUNDS_PER_KILOGRAM).toFixed(1));
   const weightRange = weightUnit === "lb" ? { min: 80, max: 300, step: 1 } : { min: 36.3, max: 136.1, step: 0.1 };
-  const weightLabel = weightUnit === "lb" ? "Weight (lbs)" : "Weight (kg)";
+  const weightLabel = weightUnit === "lb" ? t("weight.labelLb") : t("weight.labelKg");
   const cups = ounces / 8;
   const liters = ounces / OUNCES_PER_LITER;
   const bottles = ounces / OUNCES_PER_BOTTLE;
@@ -328,21 +325,21 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
             <div className="tw:max-w-3xl">
               <p className="waterCheckKicker">
                 <Droplets aria-hidden="true" size={18} strokeWidth={1.9} />
-                The Water Check
+                {t("hero.kicker")}
               </p>
               <h1
                 id="water-check-title"
                 className="tw:max-w-4xl tw:text-balance tw:font-serif tw:text-5xl tw:leading-[0.98] tw:tracking-[-0.045em] tw:sm:text-7xl tw:lg:text-[5.6rem]"
               >
-                Ditch the influencers. Learn your actual biology.
+                {t("hero.title")}
               </h1>
-              <p className="tw:mt-8 tw:max-w-2xl tw:text-lg tw:leading-8 tw:text-[#e1f9ff] tw:sm:text-xl">
-                Try the free calculator without an account, then explore the app we are building for everyday tracking.
-              </p>
-              <a className="waterCheckAppLink" href="#the-app">Explore the app ↓</a>
+              <p className="tw:mt-8 tw:max-w-2xl tw:text-lg tw:leading-8 tw:text-[#e1f9ff] tw:sm:text-xl">{t("hero.lead")}</p>
+              <a className="waterCheckAppLink" href="#the-app">
+                {t("hero.appLink")}
+              </a>
             </div>
             <div className="waterCheckLogoStage tw:justify-self-center tw:lg:justify-self-end">
-              <a href="#calculator" aria-label="Use the Water Check calculator" data-water-logo-orb>
+              <a href="#calculator" aria-label={t("hero.logoLabel")} data-water-logo-orb>
                 <span className="waterCheckOrbFrame" aria-hidden="true">
                   <span className="waterCheckLogoRings">
                     <i />
@@ -363,7 +360,7 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                     <span className="waterCheckLogoBubble waterCheckLogoBubbleTwo" />
                   </span>
                 </span>
-                <span className="tw:sr-only">Use the Water Check calculator</span>
+                <span className="tw:sr-only">{t("hero.logoLabel")}</span>
               </a>
             </div>
           </div>
@@ -382,14 +379,14 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
         >
           <div className="waterCheckCalculatorCard tw:mx-auto tw:max-w-5xl tw:rounded-[2rem] tw:p-6 tw:sm:p-10 tw:lg:p-14">
             <div className="tw:mb-10 tw:max-w-2xl">
-              <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#0f7cd5]">Hydration calculator</p>
+              <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#0f7cd5]">{t("intro.kicker")}</p>
               <h2 className="tw:mt-3 tw:font-serif tw:text-4xl tw:leading-tight tw:tracking-[-0.03em] tw:text-[#082d52] tw:sm:text-5xl">
-                Start with the numbers you know.
+                {t("intro.title")}
               </h2>
             </div>
 
             <fieldset className="waterCheckUnitSwitch tw:mb-6">
-              <legend>Weight unit</legend>
+              <legend>{t("units.legend")}</legend>
               <label>
                 <input
                   type="radio"
@@ -398,7 +395,7 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                   checked={weightUnit === "lb"}
                   onChange={() => setWeightUnit("lb")}
                 />
-                <span>Pounds (lb)</span>
+                <span>{t("units.pounds")}</span>
               </label>
               <label>
                 <input
@@ -408,7 +405,7 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                   checked={weightUnit === "kg"}
                   onChange={() => setWeightUnit("kg")}
                 />
-                <span>Kilograms (kg)</span>
+                <span>{t("units.kilograms")}</span>
               </label>
             </fieldset>
 
@@ -429,7 +426,9 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                   max={weightRange.max}
                   step={weightRange.step}
                   value={displayedWeight}
-                  aria-valuetext={`${displayedWeight} ${weightUnit === "lb" ? "pounds" : "kilograms"}`}
+                  aria-valuetext={t(weightUnit === "lb" ? "weight.valueTextLb" : "weight.valueTextKg", {
+                    value: displayedWeight,
+                  })}
                   onChange={(event) => {
                     const nextWeight = Number(event.currentTarget.value);
                     setWeight(weightUnit === "lb" ? nextWeight : nextWeight * POUNDS_PER_KILOGRAM);
@@ -444,11 +443,11 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                   </span>
                 </div>
                 <fieldset className="waterCheckHeight">
-                  <legend>Height</legend>
+                  <legend>{t("height.legend")}</legend>
                   {weightUnit === "lb" ? (
                     <>
                       <label htmlFor="water-check-height-feet">
-                        <span>Height (ft)</span>
+                        <span>{t("height.feet")}</span>
                         <ClampedNumberInput
                           id="water-check-height-feet"
                           min={3}
@@ -459,7 +458,7 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                         />
                       </label>
                       <label htmlFor="water-check-height-inches">
-                        <span>Height (in)</span>
+                        <span>{t("height.inches")}</span>
                         <ClampedNumberInput
                           id="water-check-height-inches"
                           min={0}
@@ -472,7 +471,7 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                     </>
                   ) : (
                     <label htmlFor="water-check-height-cm">
-                      <span>Height (cm)</span>
+                      <span>{t("height.centimeters")}</span>
                       <ClampedNumberInput
                         id="water-check-height-cm"
                         min={120}
@@ -483,17 +482,17 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                       />
                     </label>
                   )}
-                  <p>Fluid needs follow lean mass, so height matters most when weight is high for your frame.</p>
+                  <p>{t("height.note")}</p>
                 </fieldset>
               </div>
 
               <div className="tw:rounded-3xl tw:bg-[#f5eff4] tw:p-6">
                 <div className="tw:flex tw:items-baseline tw:justify-between tw:gap-4">
                   <label className="tw:text-base tw:font-bold tw:text-[#082d52]" htmlFor="water-check-activity">
-                    Daily Activity (minutes)
+                    {t("activity.label")}
                   </label>
                   <span className="tw:text-2xl tw:font-bold tw:text-[#0f7cd5]" aria-hidden="true">
-                    {activity} min
+                    {t("activity.value", { minutes: activity })}
                   </span>
                 </div>
                 <input
@@ -503,32 +502,29 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                   max="120"
                   step="1"
                   value={activity}
-                  aria-valuetext={`${activity} minutes`}
+                  aria-valuetext={t("activity.valueText", { minutes: activity })}
                   onChange={(event) => setActivity(Number(event.currentTarget.value))}
                 />
                 <div className="tw:flex tw:justify-between tw:text-xs tw:font-bold tw:text-[#47718d]" aria-hidden="true">
-                  <span>0 min</span>
-                  <span>120 min</span>
+                  <span>{t("activity.value", { minutes: 0 })}</span>
+                  <span>{t("activity.value", { minutes: 120 })}</span>
                 </div>
               </div>
             </div>
 
             <fieldset className="waterCheckFactors tw:mt-8 tw:rounded-3xl tw:border tw:border-[#e3d5df] tw:bg-[#fbf8fa] tw:p-6 tw:sm:p-8">
-              <legend className="tw:px-2 tw:text-lg tw:font-bold tw:text-[#082d52]">Factors that can change fluid needs</legend>
-              <p className="tw:mb-6 tw:max-w-3xl tw:text-sm tw:leading-6 tw:text-[#47718d]">
-                We apply a number only where a defensible daily adjustment exists. The other answers personalize your guidance
-                without pretending the science supports an exact dose.
-              </p>
+              <legend className="tw:px-2 tw:text-lg tw:font-bold tw:text-[#082d52]">{t("factors.legend")}</legend>
+              <p className="tw:mb-6 tw:max-w-3xl tw:text-sm tw:leading-6 tw:text-[#47718d]">{t("factors.intro")}</p>
 
               <div className="tw:grid tw:gap-5 tw:md:grid-cols-2">
                 <label className="waterCheckField" htmlFor="water-check-age">
                   <span>
-                    <strong>Age</strong>
-                    <small>Age provides context; it does not diagnose menopause.</small>
+                    <strong>{t("factors.age.label")}</strong>
+                    <small>{t("factors.age.hint")}</small>
                   </span>
                   <ClampedNumberInput
                     id="water-check-age"
-                    aria-label="Age"
+                    aria-label={t("factors.age.label")}
                     min={18}
                     max={100}
                     step={1}
@@ -539,35 +535,35 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
 
                 <label className="waterCheckField" htmlFor="water-check-life-stage">
                   <span>
-                    <strong>Life stage</strong>
-                    <small>Uses a transparent pregnancy or milk-production adjustment.</small>
+                    <strong>{t("factors.lifeStage.label")}</strong>
+                    <small>{t("factors.lifeStage.hint")}</small>
                   </span>
                   <select
                     id="water-check-life-stage"
-                    aria-label="Life stage"
+                    aria-label={t("factors.lifeStage.label")}
                     value={lifeStage}
                     onChange={(event) => setLifeStage(event.currentTarget.value as LifeStage)}
                   >
-                    <option value="standard">Standard</option>
-                    <option value="pregnant">Pregnant</option>
-                    <option value="breastfeeding">Breastfeeding</option>
+                    <option value="standard">{t("factors.lifeStage.options.standard")}</option>
+                    <option value="pregnant">{t("factors.lifeStage.options.pregnant")}</option>
+                    <option value="breastfeeding">{t("factors.lifeStage.options.breastfeeding")}</option>
                   </select>
                 </label>
 
                 <label className="waterCheckField" htmlFor="water-check-sex">
                   <span>
-                    <strong>Sex</strong>
-                    <small>Optional. Refines the ideal-weight and reference-intake math.</small>
+                    <strong>{t("factors.sex.label")}</strong>
+                    <small>{t("factors.sex.hint")}</small>
                   </span>
                   <select
                     id="water-check-sex"
-                    aria-label="Sex"
+                    aria-label={t("factors.sex.label")}
                     value={sex}
                     onChange={(event) => setSex(event.currentTarget.value as Sex)}
                   >
-                    <option value="unspecified">Prefer not to say</option>
-                    <option value="woman">Woman</option>
-                    <option value="man">Man</option>
+                    <option value="unspecified">{t("factors.sex.options.unspecified")}</option>
+                    <option value="woman">{t("factors.sex.options.woman")}</option>
+                    <option value="man">{t("factors.sex.options.man")}</option>
                   </select>
                 </label>
 
@@ -576,12 +572,12 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                     <CalendarDays size={22} />
                   </span>
                   <span className="tw:flex-1">
-                    <strong>Week before your period</strong>
-                    <small>Tracks luteal-phase water retention and hormonal bloating. No fixed add applies to everyone.</small>
+                    <strong>{t("factors.luteal.label")}</strong>
+                    <small>{t("factors.luteal.hint")}</small>
                   </span>
                   <input
                     id="water-check-luteal"
-                    aria-label="Week before your period"
+                    aria-label={t("factors.luteal.label")}
                     type="checkbox"
                     checked={isLutealPhase}
                     onChange={(event) => setIsLutealPhase(event.currentTarget.checked)}
@@ -594,12 +590,12 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                     <Flame size={22} />
                   </span>
                   <span className="tw:flex-1">
-                    <strong>Hot or humid conditions</strong>
-                    <small>Heat guidance depends on exposure and sweat—not location alone.</small>
+                    <strong>{t("factors.heat.label")}</strong>
+                    <small>{t("factors.heat.hint")}</small>
                   </span>
                   <input
                     id="water-check-heat"
-                    aria-label="Hot or humid conditions"
+                    aria-label={t("factors.heat.label")}
                     type="checkbox"
                     checked={isHotOrHumid}
                     onChange={(event) => setIsHotOrHumid(event.currentTarget.checked)}
@@ -616,62 +612,62 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                 aria-live="polite"
                 aria-atomic="true"
               >
-                Your Daily Goal: {formatOunces(ounces)} Ounces
+                {t("result.goal", { ounces: formatOunces(ounces) })}
               </output>
               <fieldset className="tw:mt-7 tw:grid tw:gap-3 tw:sm:grid-cols-2 tw:lg:grid-cols-4">
-                <legend className="tw:sr-only">Calculation breakdown</legend>
+                <legend className="tw:sr-only">{t("result.breakdown")}</legend>
                 <div className="waterCheckResultPart">
-                  <span>Weight baseline</span>
+                  <span>{t("result.weightBaseline")}</span>
                   <strong>{formatOunces(weightBaseline)} oz</strong>
                 </div>
                 <div className="waterCheckResultPart">
-                  <span>Height and build</span>
+                  <span>{t("result.heightAndBuild")}</span>
                   <strong>{heightAdjustment < 0 ? `−${formatOunces(Math.abs(heightAdjustment))} oz` : "+0 oz"}</strong>
                 </div>
                 <div className="waterCheckResultPart">
-                  <span>Sex reference</span>
+                  <span>{t("result.sexReference")}</span>
                   <strong>
                     {sex === "unspecified"
-                      ? "Not set"
+                      ? t("result.notSet")
                       : `${sexAdjustment < 0 ? "−" : "+"}${formatOunces(Math.abs(sexAdjustment))} oz`}
                   </strong>
                 </div>
                 <div className="waterCheckResultPart">
-                  <span>Activity adjustment</span>
+                  <span>{t("result.activity")}</span>
                   <strong>+{formatOunces(activityAdjustment)} oz</strong>
                 </div>
                 <div className="waterCheckResultPart">
-                  <span>{lifeStageDetails.breakdownLabel}</span>
+                  <span>{t(`result.lifeStage.${lifeStage}`)}</span>
                   <strong>+{formatOunces(lifeStageAdjustment)} oz</strong>
                 </div>
                 {isLutealPhase && (
                   <div className="waterCheckResultPart waterCheckResultPartWarm">
-                    <span>Luteal phase guidance</span>
-                    <strong>No fixed +oz</strong>
+                    <span>{t("result.luteal")}</span>
+                    <strong>{t("result.noFixedOunces")}</strong>
                   </div>
                 )}
                 <div className="waterCheckResultPart waterCheckResultPartWarm">
-                  <span>Electrolyte check</span>
+                  <span>{t("result.electrolytes")}</span>
                   <strong>{electrolyteGuidance}</strong>
                 </div>
               </fieldset>
               <div className="waterCheckEquivalents tw:mt-7">
                 <p className="waterCheckEquivalentsTitle">
                   <GlassWater aria-hidden="true" size={18} />
-                  That's about
+                  {t("equivalents.title")}
                 </p>
                 <ul className="waterCheckEquivalentsRow">
                   <li>
-                    <strong>{formatCount(cups)} cups</strong>
-                    <span>8 oz each</span>
+                    <strong>{t("equivalents.cups", { value: formatCount(cups) })}</strong>
+                    <span>{t("equivalents.cupsNote")}</span>
                   </li>
                   <li>
-                    <strong>{liters.toFixed(1)} liters</strong>
-                    <span>metric</span>
+                    <strong>{t("equivalents.liters", { value: liters.toFixed(1) })}</strong>
+                    <span>{t("equivalents.litersNote")}</span>
                   </li>
                   <li>
-                    <strong>{formatCount(bottles)} bottles</strong>
-                    <span>16.9 oz size</span>
+                    <strong>{t("equivalents.bottles", { value: formatCount(bottles) })}</strong>
+                    <span>{t("equivalents.bottlesNote")}</span>
                   </li>
                 </ul>
               </div>
@@ -682,28 +678,25 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                     <Salad size={22} />
                   </span>
                   <div>
-                    <p className="waterCheckEatKicker">Eat your water</p>
-                    <h3 className="waterCheckEatTitle">Not all of it has to come from a glass.</h3>
+                    <p className="waterCheckEatKicker">{t("eatYourWater.kicker")}</p>
+                    <h3 className="waterCheckEatTitle">{t("eatYourWater.title")}</h3>
                   </div>
                 </div>
-                <p className="waterCheckEatCopy">
-                  About a fifth of most people's daily water arrives in food. Most fresh fruits and vegetables are 70 to 95
-                  percent water, and once it reaches your bloodstream it hydrates you exactly like a drink does.
-                </p>
+                <p className="waterCheckEatCopy">{t("eatYourWater.copy")}</p>
                 <div className="waterCheckEatSplit">
                   <div className="waterCheckEatSplitCard">
-                    <span>Drink</span>
+                    <span>{t("eatYourWater.drink")}</span>
                     <strong>≈ {formatOunces(Math.round(drinkOunces * 10) / 10)} oz</strong>
-                    <small>{formatCount(drinkOunces / 8)} cups of water, tea, or milk</small>
+                    <small>{t("eatYourWater.drinkNote", { cups: formatCount(drinkOunces / 8) })}</small>
                   </div>
                   <div className="waterCheckEatSplitCard waterCheckEatSplitCardFood">
-                    <span>Eat</span>
+                    <span>{t("eatYourWater.eat")}</span>
                     <strong>≈ {formatOunces(Math.round(foodOunces * 10) / 10)} oz</strong>
-                    <small>from water-rich food</small>
+                    <small>{t("eatYourWater.eatNote")}</small>
                   </div>
                 </div>
                 <fieldset className="waterCheckFoodChips">
-                  <legend>Picture the food share as</legend>
+                  <legend>{t("eatYourWater.pickLegend")}</legend>
                   {FOOD_EQUIVALENTS.map((item) => (
                     <label key={item.key} htmlFor={`water-check-food-${item.key}`}>
                       <input
@@ -716,7 +709,7 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                       />
                       <span>
                         <i aria-hidden="true">{item.emoji}</i>
-                        {item.label}
+                        {t(`foods.${item.key}.label`)}
                       </span>
                     </label>
                   ))}
@@ -727,16 +720,20 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                   </span>
                   <span>
                     <strong>
-                      ≈ {formatCount(foodCount)} {food.label}
+                      {t("eatYourWater.estimate", { amount: formatCount(foodCount), food: t(`foods.${food.key}.label`) })}
                     </strong>
                     <small>
-                      {food.serving} is about {food.ounces} oz of water ({food.water}).
+                      {t("eatYourWater.detail", {
+                        serving: t(`foods.${food.key}.serving`),
+                        ounces: food.ounces,
+                        water: t(`foods.${food.key}.water`),
+                      })}
                     </small>
                   </span>
                 </output>
               </div>
 
-              <p className="tw:mt-5 tw:max-w-4xl tw:text-sm tw:leading-6 tw:text-[#c8e9f8]">{ESTIMATE_GUIDANCE}</p>
+              <p className="tw:mt-5 tw:max-w-4xl tw:text-sm tw:leading-6 tw:text-[#c8e9f8]">{t("result.guidance")}</p>
             </div>
 
             <aside
@@ -745,36 +742,29 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
             >
               <div className="tw:flex tw:items-center tw:gap-3 tw:text-[#2f7a55]">
                 <Salad aria-hidden="true" size={20} />
-                <p className="tw:text-xs tw:font-bold tw:uppercase tw:tracking-[0.18em]">Why food water counts</p>
+                <p className="tw:text-xs tw:font-bold tw:uppercase tw:tracking-[0.18em]">{t("foodNotes.kicker")}</p>
               </div>
               <h2
                 id="water-check-food-notes-title"
                 className="tw:mt-4 tw:font-serif tw:text-3xl tw:leading-tight tw:tracking-[-0.03em] tw:text-[#1f3b2e] tw:sm:text-4xl"
               >
-                Water from a watermelon is the same water.
+                {t("foodNotes.title")}
               </h2>
               <div className="waterCheckFoodNotesGrid">
                 <p>
-                  <strong>Same molecule.</strong> H2O from a cucumber and H2O from a tap are identical. Once it crosses your gut
-                  into your bloodstream, your body sends it to your muscles the same way.
+                  <Trans t={t} i18nKey="foodNotes.sameMolecule" components={{ strong: <strong /> }} />
                 </p>
                 <p>
-                  <strong>Slow release.</strong> Water in produce is held inside fibers and cell walls, so it's absorbed more
-                  gradually than a fast-chugged glass, which your kidneys tend to pass quickly.
+                  <Trans t={t} i18nKey="foodNotes.slowRelease" components={{ strong: <strong /> }} />
                 </p>
                 <p>
-                  <strong>Comes with electrolytes.</strong> Cucumbers, spinach, melon, and berries carry potassium and magnesium,
-                  minerals your cells use to hold onto water.
+                  <Trans t={t} i18nKey="foodNotes.electrolytes" components={{ strong: <strong /> }} />
                 </p>
                 <p>
-                  <strong>Fuel and storage together.</strong> Muscles store carbohydrate as glycogen, and every gram of glycogen
-                  is stored with roughly three grams of water. Water-rich, carb-rich foods deliver both.
+                  <Trans t={t} i18nKey="foodNotes.glycogen" components={{ strong: <strong /> }} />
                 </p>
               </div>
-              <p className="waterCheckFoodNotesCaveat">
-                You still need to drink. Food usually covers about a fifth of the total; the rest comes from water and other
-                beverages. Dried fruit, nuts, and bread carry very little water.
-              </p>
+              <p className="waterCheckFoodNotesCaveat">{t("foodNotes.caveat")}</p>
             </aside>
 
             <section
@@ -783,15 +773,15 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
             >
               <div className="tw:flex tw:items-center tw:gap-3 tw:text-[#8b5f83]">
                 <Heart aria-hidden="true" size={21} />
-                <p className="tw:text-xs tw:font-bold tw:uppercase tw:tracking-[0.18em]">Body kindness</p>
+                <p className="tw:text-xs tw:font-bold tw:uppercase tw:tracking-[0.18em]">{t("grace.kicker")}</p>
               </div>
               <h2
                 id="water-grace-title"
                 className="tw:mt-4 tw:font-serif tw:text-3xl tw:leading-tight tw:tracking-[-0.03em] tw:text-[#432f47] tw:sm:text-4xl"
               >
-                A Quick Note on Giving Yourself Grace
+                {t("grace.title")}
               </h2>
-              <p className="tw:mt-5 tw:max-w-4xl tw:text-base tw:leading-8 tw:text-[#655267] tw:sm:text-lg">{GRACE_NOTE}</p>
+              <p className="tw:mt-5 tw:max-w-4xl tw:text-base tw:leading-8 tw:text-[#655267] tw:sm:text-lg">{t("grace.body")}</p>
             </section>
 
             <aside
@@ -804,30 +794,21 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                 </span>
                 <div>
                   <h3 id="water-overhydration-title" className="tw:text-xl tw:font-bold tw:text-[#7f1d1d]">
-                    The Danger of Forced Hydration
+                    {t("overhydration.title")}
                   </h3>
                   <div className="tw:mt-4 tw:grid tw:gap-4 tw:text-sm tw:leading-7 tw:text-[#7f3030] tw:sm:text-base">
-                    <p>
-                      Your kidneys need time to clear water. During prolonged exercise, drinking faster than you lose fluid can
-                      dilute blood sodium and cause exercise-associated hyponatremia. Early symptoms can include headache, nausea,
-                      dizziness, fatigue, or confusion. Severe cases can cause brain swelling, seizures, coma, and death.
-                    </p>
-                    <p>
-                      Do not chase this estimate by chugging. Spread drinks across the day. During exercise, match intake to
-                      thirst, conditions, and your own sweat losses. Seek urgent medical care for confusion, seizure, collapse, or
-                      severe symptoms.
-                    </p>
+                    <p>{t("overhydration.kidneys")}</p>
+                    <p>{t("overhydration.pacing")}</p>
                   </div>
                   <p className="tw:mt-5 tw:text-xs tw:italic tw:leading-5 tw:text-[#9b4545]">
-                    Sources:{" "}
-                    <a href="https://www.ncbi.nlm.nih.gov/books/NBK572128/" target="_blank" rel="noopener noreferrer">
-                      NIH exercise-associated hyponatremia guidance
-                    </a>{" "}
-                    and{" "}
-                    <a href="https://www.nationalacademies.org/read/10925/chapter/6" target="_blank" rel="noopener noreferrer">
-                      National Academies fluid recommendations
-                    </a>
-                    .
+                    <Trans
+                      t={t}
+                      i18nKey="overhydration.sources"
+                      components={{
+                        nih: <SourceLink href="https://www.ncbi.nlm.nih.gov/books/NBK572128/" />,
+                        academies: <SourceLink href="https://www.nationalacademies.org/read/10925/chapter/6" />,
+                      }}
+                    />
                   </p>
                 </div>
               </div>
@@ -841,45 +822,37 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                 <div className="tw:flex tw:items-center tw:gap-3">
                   <Info aria-hidden="true" size={22} color="#0f7cd5" />
                   <h3 id="water-check-notes-title" className="tw:text-lg tw:font-bold tw:text-[#082d52]">
-                    Your evidence notes
+                    {t("notes.title")}
                   </h3>
                 </div>
                 <div className="tw:mt-5 tw:grid tw:gap-4">
                   {sex !== "unspecified" && (
                     <p>
-                      <strong>Sex:</strong> National Academies reference intakes are about 3.7 liters of total water a day for men
-                      and 2.7 for women. Body weight explains most of that gap, so the remainder appears here as a 4 percent{" "}
-                      {sex === "man" ? "increase" : "decrease"} to the weight baseline, and the height-and-build check uses the{" "}
-                      {sex === "man" ? "male" : "female"} ideal-weight formula.
+                      <Trans
+                        t={t}
+                        i18nKey={sex === "man" ? "notes.sexMan" : "notes.sexWoman"}
+                        components={{ strong: <strong /> }}
+                      />
                     </p>
                   )}
                   {heightAdjustment < 0 && (
                     <p>
-                      <strong>Height and build:</strong> Fluid needs track lean mass more than total weight. Because your weight
-                      sits above the usual range for your height, the estimate uses adjusted body weight (ideal weight plus 40
-                      percent of the difference), a common clinical convention. It is a rough planning number, not a judgment
-                      about your body.
+                      <Trans t={t} i18nKey="notes.height" components={{ strong: <strong /> }} />
                     </p>
                   )}
                   {isLutealPhase && (
                     <p>
-                      <strong>Cycle phase:</strong> Cycle-related fluid shifts are real, but studies do not establish a universal
-                      fixed-ounce increase. No automatic ounces were added. Regular meals usually cover electrolytes; magnesium or
-                      potassium supplements are not a universal recommendation.
+                      <Trans t={t} i18nKey="notes.cycle" components={{ strong: <strong /> }} />
                     </p>
                   )}
                   {age >= 45 && (
                     <p>
-                      <strong>Age and menopause:</strong> Age alone does not determine menopause status. Hormonal changes can
-                      affect thirst and fluid regulation, but there is no validated “over 45” ounce adjustment, so your age did
-                      not change the total.
+                      <Trans t={t} i18nKey="notes.age" components={{ strong: <strong /> }} />
                     </p>
                   )}
                   {isHotOrHumid && (
                     <p>
-                      <strong>Heat:</strong> A fixed climate bonus can under- or overestimate your needs. For moderate work in
-                      heat under two hours, NIOSH advises about 8 ounces every 15–20 minutes; longer heavy sweating needs an
-                      individualized replacement plan.
+                      <Trans t={t} i18nKey="notes.heat" components={{ strong: <strong /> }} />
                     </p>
                   )}
                 </div>
@@ -888,30 +861,30 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
 
             <div className="waterCheckSources tw:mt-6 tw:flex tw:flex-wrap tw:items-center tw:gap-x-5 tw:gap-y-2 tw:text-xs tw:font-bold tw:text-[#47718d]">
               <span className="tw:inline-flex tw:items-center tw:gap-2">
-                <Baby aria-hidden="true" size={16} /> Evidence:
+                <Baby aria-hidden="true" size={16} /> {t("evidence.label")}
               </span>
               <a href="https://www.nationalacademies.org/read/10925/chapter/6" target="_blank" rel="noopener noreferrer">
-                National Academies water intake guidance
+                {t("evidence.academies")}
               </a>
               <a
                 href="https://www.health.harvard.edu/healthy-aging-and-longevity/using-food-to-stay-hydrated"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Harvard Health on food and hydration
+                {t("evidence.harvard")}
               </a>
               <a href="https://pubmed.ncbi.nlm.nih.gov/3354712/" target="_blank" rel="noopener noreferrer">
-                Menstrual-cycle osmoregulation study
+                {t("evidence.cycle")}
               </a>
               <a href="https://pubmed.ncbi.nlm.nih.gov/24492487/" target="_blank" rel="noopener noreferrer">
-                Menopause fluid-regulation review
+                {t("evidence.menopause")}
               </a>
               <a
                 href="https://www.cdc.gov/niosh/heat-stress/recommendations/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CDC/NIOSH heat guidance
+                {t("evidence.niosh")}
               </a>
             </div>
           </div>
@@ -922,25 +895,25 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
         <section className="waterCheckTipsSection tw:px-5 tw:py-24 tw:sm:px-8" aria-labelledby="water-tips-title">
           <div className="tw:mx-auto tw:max-w-6xl">
             <div className="tw:max-w-2xl">
-              <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#0f7cd5]">Useful, not obsessive</p>
+              <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#0f7cd5]">{t("tips.kicker")}</p>
               <h2
                 id="water-tips-title"
                 className="tw:mt-3 tw:font-serif tw:text-4xl tw:leading-tight tw:tracking-[-0.03em] tw:text-[#082d52] tw:sm:text-5xl"
               >
-                Three checks for real life.
+                {t("tips.title")}
               </h2>
             </div>
             <div className="tw:mt-8 tw:grid tw:gap-3 tw:md:grid-cols-3">
-              {TIPS.map(({ title, body, Icon }) => (
+              {TIPS.map(({ id, Icon }) => (
                 <article
                   className="tw:rounded-[1.1rem] tw:border tw:border-[#d0eaf5] tw:bg-white tw:p-4 tw:shadow-[0_10px_28px_rgba(23,94,132,0.06)]"
-                  key={title}
+                  key={id}
                 >
                   <div className="tw:flex tw:items-center tw:gap-2.5">
                     <Icon aria-hidden="true" color="#0f7cd5" size={18} strokeWidth={1.8} />
-                    <h3 className="tw:text-sm tw:font-bold tw:text-[#082d52]">{title}</h3>
+                    <h3 className="tw:text-sm tw:font-bold tw:text-[#082d52]">{t(`tips.${id}.title`)}</h3>
                   </div>
-                  <p className="tw:mt-2 tw:text-xs tw:leading-5 tw:text-[#47718d]">{body}</p>
+                  <p className="tw:mt-2 tw:text-xs tw:leading-5 tw:text-[#47718d]">{t(`tips.${id}.body`)}</p>
                 </article>
               ))}
             </div>
@@ -950,39 +923,24 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
         <section className="waterCheckAuthorSection tw:px-5 tw:py-24 tw:sm:px-8" aria-labelledby="water-author-title">
           <div className="tw:mx-auto tw:max-w-6xl">
             <div className="tw:max-w-3xl">
-              <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#8b5f83]">
-                From the person who built it
-              </p>
+              <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#8b5f83]">{t("author.kicker")}</p>
               <h2
                 id="water-author-title"
                 className="tw:mt-4 tw:font-serif tw:text-4xl tw:leading-tight tw:tracking-[-0.03em] tw:text-[#3f3046] tw:sm:text-5xl"
               >
-                Why I Built This (And Why You Shouldn't Just Listen To Me)
+                {t("author.title")}
               </h2>
               <div className="tw:mt-7 tw:grid tw:gap-5 tw:text-lg tw:leading-8 tw:text-[#67566b]">
-                <p>
-                  My name is Denzel Rigaud. I spent more than nine years running the 400 meters and hurdles, so hydration became
-                  part of how I trained, recovered, and learned to read my body.
-                </p>
-                <p>
-                  I built The Water Check to help you hear your body above online noise. I do not want you to treat my experience
-                  as a prescription. Your biology, environment, medical history, and life stage shape what you need.
-                </p>
-                <p>
-                  Technology isn't for us to doom-scroll and live other people's lives. It should keep our lives productive and
-                  better our spirit, soul, mind, and flesh, so we become the best version of who we want to be. So stop listening
-                  to everyone else, because what works for you, works for you.
-                </p>
-                <p>
-                  Learn your patterns and bring medical concerns to a qualified professional. Caring for your physical vessel can
-                  bring you closer to yourself and to God, who placed a spark in each of us worth tending.
-                </p>
-                <p className="tw:font-bold tw:text-[#3f3046]">Don't follow influencers. Learn yourself.</p>
+                <p>{t("author.athlete")}</p>
+                <p>{t("author.purpose")}</p>
+                <p>{t("author.technology")}</p>
+                <p>{t("author.faith")}</p>
+                <p className="tw:font-bold tw:text-[#3f3046]">{t("author.motto")}</p>
                 <p className="waterCheckAuthorDate">
-                  <time dateTime="2021-03-15">March 15, 2021</time>
+                  <time dateTime="2021-03-15">{t("author.date")}</time>
                 </p>
                 <a className="waterCheckFounderButton" href="/denzel-rigaud" onClick={onNavigate}>
-                  <span className="waterCheckFounderLabel waterCheckFounderLabelTop">Founder Page</span>
+                  <span className="waterCheckFounderLabel waterCheckFounderLabelTop">{t("author.founderPage")}</span>
                   <span className="waterCheckFounderLabel waterCheckFounderLabelBottom" aria-hidden="true">
                     Denzel Rigaud
                   </span>
@@ -1047,12 +1005,14 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
           <div className="tw:mx-auto tw:max-w-6xl">
             <div className="tw:flex tw:flex-col tw:items-start tw:justify-between tw:gap-8 tw:md:flex-row tw:md:items-end">
               <div className="tw:max-w-3xl">
-                <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#82d6fb]">Keep it human</p>
+                <p className="tw:text-sm tw:font-bold tw:uppercase tw:tracking-[0.18em] tw:text-[#82d6fb]">
+                  {t("community.kicker")}
+                </p>
                 <h2
                   id="water-community-title"
                   className="tw:mt-3 tw:font-serif tw:text-4xl tw:leading-tight tw:tracking-[-0.03em] tw:sm:text-6xl"
                 >
-                  Join the actual community.
+                  {t("community.title")}
                 </h2>
               </div>
               <a
@@ -1060,10 +1020,10 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                 href="https://www.instagram.com/thewatercheck/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Follow @thewatercheck on Instagram"
+                aria-label={t("community.instagram")}
                 data-instagram-button
               >
-                <span className="tw:sr-only">Follow @thewatercheck on Instagram</span>
+                <span className="tw:sr-only">{t("community.instagram")}</span>
                 <span className="waterCheckInstagramIcon" aria-hidden="true">
                   <svg
                     fill="currentColor"
@@ -1088,8 +1048,8 @@ export function WaterCheckPage({ onNavigate }: WaterCheckPageProps = {}) {
                 >
                   <div>
                     <AtSign aria-hidden="true" color="#82d6fb" size={24} />
-                    <p className="tw:mt-4 tw:font-bold tw:text-white">Instagram Reel coming soon</p>
-                    <p className="tw:mt-2 tw:text-sm tw:text-[#a9d7eb]">Community story {position}</p>
+                    <p className="tw:mt-4 tw:font-bold tw:text-white">{t("community.reelSoon")}</p>
+                    <p className="tw:mt-2 tw:text-sm tw:text-[#a9d7eb]">{t("community.story", { position })}</p>
                   </div>
                 </div>
               ))}

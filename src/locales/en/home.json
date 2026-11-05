@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, founder of Expected End",
+    "stats": {
+      "projects": "PROJECTS BUILT",
+      "languages": "LANGUAGES",
+      "appStore": "ON THE APP STORE"
+    },
+    "eyebrow": "Gateway to your <em>expected end</em>",
+    "title": "Purpose, <break/>built <break/>beautifully.",
+    "intro": "Expected End creates thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!",
+    "cta": "See the work",
+    "lensHint": "Move your cursor to read the code"
+  },
+  "projects": {
+    "eyebrow": "01 / Projects",
+    "title": "Two apps on the App Store. <break/><em>Android coming soon.</em>",
+    "visit": "Visit {{name}}",
+    "android": "Android coming soon",
+    "bio": "Bio",
+    "actionFor": "{{action}} for {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Behind the work",
+    "title": "Every product here started with a question in a <em>fifth-grade classroom.</em>",
+    "lead": "Grief, faith and a lot of late nights came between that question and these apps. The rest of the story is on its own page.",
+    "cta": "Read the story"
+  },
+  "proof": {
+    "caption": "Projects built",
+    "eyebrow": "03 / Proof of work",
+    "title": "Built from zero. <em>The work speaks for itself.</em>",
+    "lead": "Apps, websites, AI tools, films and campaigns, designed, coded and launched in-house. Here is some of it.",
+    "stats": {
+      "apps": "<strong>2 apps</strong> on the App Store",
+      "languages": "<strong>43 languages</strong> in MyBibleLens",
+      "years": "<strong>10 years</strong> writing code",
+      "inHouse": "<strong>Idea to launch</strong>, all in-house"
+    },
+    "bigline": "<count>20+</count> PROJECTS <star>✦</star> BUILT <star>✦</star> SHIPPED <star>✦</star> LIVE <star>✦</star>",
+    "rows": {
+      "products": "Apps and products",
+      "creative": "Websites, AI and creative work"
+    },
+    "next": "Your project could be <em>next.</em>",
+    "cta": "Start yours"
+  },
+  "services": {
+    "eyebrow": "04 / Selected services",
+    "title": "You dream it, <em>I build it.</em>",
+    "lead": "The products come first. When the fit is right, the same thoughtfulness goes into selected work for others.",
+    "note": "Please include a price range for all inquiries and mention in your message if an NDA is needed.",
+    "count": "Service {{number}} / {{total}}",
+    "start": "Start this project"
+  }
+}

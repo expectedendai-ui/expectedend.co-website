@@ -23,45 +23,31 @@ export function LanguageChooser({ theme }: { theme: Theme }) {
   const lit = firstVisit ? guess : current;
   const text = words(lit);
   const globe = React.useRef<HTMLButtonElement>(null);
-  const card = React.useRef<HTMLDivElement>(null);
+  const dialog = React.useRef<HTMLDialogElement>(null);
 
-  const close = React.useCallback(
-    (pick?: LanguageId) => {
-      setOpen(false);
-      if (pick || firstVisit) void chooseLanguage(pick ?? "en");
-      setFirstVisit(false);
-      if (!firstVisit) globe.current?.focus();
-    },
-    [firstVisit],
-  );
+  const close = (pick?: LanguageId) => {
+    setOpen(false);
+    if (pick || firstVisit) void chooseLanguage(pick ?? "en");
+    if (!firstVisit) globe.current?.focus();
+    setFirstVisit(false);
+  };
 
   React.useEffect(() => {
-    if (!open) return;
-    card.current?.querySelector<HTMLButtonElement>('[aria-pressed="true"]')?.focus({ preventScroll: true });
-    card.current?.querySelector('[aria-pressed="true"]')?.scrollIntoView?.({ block: "center" });
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === "Escape") close();
-      if (event.key !== "Tab" || !card.current) return;
-      // Keep Tab inside the card while it is open.
-      const stops = [...card.current.querySelectorAll<HTMLButtonElement>("button")];
-      const [first, last] = [stops[0], stops.at(-1)];
-      if (event.shiftKey && document.activeElement === first) {
-        event.preventDefault();
-        last?.focus();
-      } else if (!event.shiftKey && document.activeElement === last) {
-        event.preventDefault();
-        first?.focus();
-      }
-    };
+    const element = dialog.current;
+    if (!open || !element) return;
+    if (typeof element.showModal === "function") element.showModal();
+    else element.setAttribute("open", "");
+    const pressed = element.querySelector<HTMLButtonElement>('[aria-pressed="true"]');
+    pressed?.focus({ preventScroll: true });
+    pressed?.scrollIntoView?.({ block: "center" });
+    // The page underneath holds still while the chooser is up.
     const root = document.documentElement;
     const overflow = root.style.overflow;
     root.style.overflow = "hidden";
-    window.addEventListener("keydown", onKey);
     return () => {
-      window.removeEventListener("keydown", onKey);
       root.style.overflow = overflow;
     };
-  }, [open, close]);
+  }, [open]);
 
   return (
     <>
@@ -82,21 +68,23 @@ export function LanguageChooser({ theme }: { theme: Theme }) {
         </svg>
       </button>
       {open && (
-        <div
-          className={styles.backdrop}
+        <dialog
+          ref={dialog}
+          className={styles.dialog}
           data-theme={theme}
-          onClick={(event) => event.target === event.currentTarget && close()}
+          aria-labelledby="language-chooser-title"
+          aria-describedby="language-chooser-intro"
+          translate="no"
+          onCancel={(event) => {
+            event.preventDefault();
+            close();
+          }}
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget) close();
+          }}
           data-testid="language-chooser"
         >
-          <div
-            ref={card}
-            className={styles.card}
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="language-chooser-title"
-            aria-describedby="language-chooser-intro"
-            translate="no"
-          >
+          <div className={styles.card}>
             <button type="button" className={styles.close} aria-label={text.close} onClick={() => close()}>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                 <path d="M6 6l12 12M18 6L6 18" />
@@ -119,37 +107,38 @@ export function LanguageChooser({ theme }: { theme: Theme }) {
                 {CHOOSER.en.title}
               </p>
             )}
-            <div className={styles.list} role="group" aria-label={text.list}>
+            <ul className={styles.list} aria-label={text.list}>
               {LANGUAGES.map((language) => {
                 const chosen = language.id === lit;
                 return (
-                  <button
-                    key={language.id}
-                    type="button"
-                    className={styles.option}
-                    aria-pressed={chosen}
-                    lang={language.id}
-                    onClick={() => close(language.id)}
-                    data-testid={`language-${language.id}`}
-                  >
-                    <span className={styles.flag} aria-hidden="true">
-                      {language.flag}
-                    </span>
-                    <span className={styles.names}>
-                      <span className={styles.native}>{language.nativeName}</span>
-                      {language.englishName !== language.nativeName && (
-                        <span className={styles.englishName} lang="en">
-                          {language.englishName}
-                        </span>
-                      )}
-                    </span>
-                    {chosen && <span className={styles.check} aria-hidden="true" />}
-                  </button>
+                  <li key={language.id}>
+                    <button
+                      type="button"
+                      className={styles.option}
+                      aria-pressed={chosen}
+                      lang={language.id}
+                      onClick={() => close(language.id)}
+                      data-testid={`language-${language.id}`}
+                    >
+                      <span className={styles.flag} aria-hidden="true">
+                        {language.flag}
+                      </span>
+                      <span className={styles.names}>
+                        <span className={styles.native}>{language.nativeName}</span>
+                        {language.englishName !== language.nativeName && (
+                          <span className={styles.englishName} lang="en">
+                            {language.englishName}
+                          </span>
+                        )}
+                      </span>
+                      {chosen && <span className={styles.check} aria-hidden="true" />}
+                    </button>
+                  </li>
                 );
               })}
-            </div>
+            </ul>
           </div>
-        </div>
+        </dialog>
       )}
     </>
   );

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import { ContactForm } from "./contact-form";
 import styles from "./style.module.css";
 
@@ -9,6 +10,7 @@ type ContactDialogProps = {
 };
 
 export function ContactDialog({ initialReason, onClose, returnFocusTo }: ContactDialogProps) {
+  const { t } = useTranslation("contact");
   const dialogRef = React.useRef<HTMLDialogElement>(null);
   const closeRef = React.useRef<HTMLButtonElement>(null);
 
@@ -35,7 +37,7 @@ export function ContactDialog({ initialReason, onClose, returnFocusTo }: Contact
         if (event.target === event.currentTarget) onClose();
       }}
     >
-      <button ref={closeRef} className={styles.contactDialogClose} type="button" aria-label="Close contact form" onClick={onClose}>
+      <button ref={closeRef} className={styles.contactDialogClose} type="button" aria-label={t("dialog.close")} onClick={onClose}>
         ×
       </button>
       <ContactForm initialReason={initialReason} initialProject="A new idea" />

@@ -1,4 +1,5 @@
 import type * as React from "react";
+import { useTranslation } from "react-i18next";
 import { CONTACT_HREF } from "./content";
 import "./founder-chrome.css";
 import { GoldenEggButton } from "./golden-egg-button";
@@ -12,21 +13,19 @@ const YEAR = 2026;
 
 /** Personal sign-off footer for /denzel-rigaud only. Dark, in the story page's palette. */
 export function FounderFooter({ onNavigate, onOpenArtWorld }: FounderFooterProps) {
+  const { t } = useTranslation("founder");
   return (
     <footer className="founderFooter" data-founder-footer>
       <div className="founderFooterInner">
         <div className="founderFooterVoice">
           <p className="founderFooterKicker">Denzel Rigaud</p>
-          <p className="founderFooterLine">
-            Technology isn't for us to doom-scroll and live other people's lives. It should better our spirit, soul, mind,
-            and flesh.
-          </p>
-          <p className="founderFooterSign">Founder, EXPECTEDEND LLC. Boca Raton, Florida.</p>
+          <p className="founderFooterLine">{t("footer.line")}</p>
+          <p className="founderFooterSign">{t("footer.sign")}</p>
         </div>
 
-        <nav className="founderFooterLinks" aria-label="Footer navigation">
+        <nav className="founderFooterLinks" aria-label={t("footer.label")}>
           <div>
-            <p className="founderFooterHeading">What I build</p>
+            <p className="founderFooterHeading">{t("footer.build")}</p>
             <a href="/thewatercheckpage" onClick={onNavigate}>
               The Water Check
             </a>
@@ -37,11 +36,11 @@ export function FounderFooter({ onNavigate, onOpenArtWorld }: FounderFooterProps
               Expected End
             </a>
             <a href="/press" onClick={onNavigate}>
-              Press kit
+              {t("footer.pressKit")}
             </a>
           </div>
           <div>
-            <p className="founderFooterHeading">Find me</p>
+            <p className="founderFooterHeading">{t("footer.find")}</p>
             <a href="https://www.instagram.com/smiledenzel/" target="_blank" rel="noopener noreferrer">
               Instagram
             </a>
@@ -56,27 +55,27 @@ export function FounderFooter({ onNavigate, onOpenArtWorld }: FounderFooterProps
             </a>
           </div>
           <div>
-            <p className="founderFooterHeading">The fine print</p>
+            <p className="founderFooterHeading">{t("footer.finePrint")}</p>
             <a href="/terms" onClick={onNavigate}>
-              Terms of Use
+              {t("footer.terms")}
             </a>
             <a href="/privacy" onClick={onNavigate}>
-              Privacy Statement
+              {t("footer.privacy")}
             </a>
             <a href="/accessibility" onClick={onNavigate}>
-              Accessibility
+              {t("footer.accessibility")}
             </a>
             <a href={CONTACT_HREF} onClick={onNavigate}>
-              Contact
+              {t("footer.contact")}
             </a>
           </div>
         </nav>
       </div>
 
       <div className="founderFooterBottom">
-        <p>© {YEAR} EXPECTEDEND LLC. All rights reserved.</p>
+        <p>{t("footer.copyright", { year: YEAR })}</p>
         <div className="founderFooterBlessing">
-          <p>Jesus loves you.</p>
+          <p>{t("footer.blessing")}</p>
           {onOpenArtWorld && <GoldenEggButton onActivate={onOpenArtWorld} />}
         </div>
       </div>

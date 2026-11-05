@@ -8,8 +8,11 @@ export const LANGUAGE_KEY = "ee_lang";
 type Bundle = Record<string, unknown>;
 
 // English ships with the page. Every other language is its own small set of files, fetched only once chosen.
-const english = import.meta.glob<Bundle>("../locales/en/*.json", { eager: true, import: "default" });
-const others = import.meta.glob<Bundle>(["../locales/*/*.json", "!../locales/en/*.json"], { import: "default" });
+// join.json belongs to the Crew invite page (functions/join), which carries its own copy.
+const english = import.meta.glob<Bundle>(["../locales/en/*.json", "!../locales/en/join.json"], { eager: true, import: "default" });
+const others = import.meta.glob<Bundle>(["../locales/*/*.json", "!../locales/en/*.json", "!../locales/*/join.json"], {
+  import: "default",
+});
 
 const namespaceOf = (path: string) => path.slice(path.lastIndexOf("/") + 1, -".json".length);
 const languageOf = (path: string) => path.split("/").at(-2);

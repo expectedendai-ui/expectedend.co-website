@@ -1,4 +1,5 @@
 import type * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { CONTACT_HREF } from "./content";
 
 type WaterCheckFooterProps = {
@@ -13,56 +14,55 @@ const YEAR = 2026;
  * neutral: no mission paragraph, no verse. The company appears as one small credit line.
  */
 export function WaterCheckFooter({ onNavigate, backToTopHref = "#water-check-title" }: WaterCheckFooterProps) {
+  const { t } = useTranslation("water");
   return (
     <footer className="waterCheckFooter" data-water-check-footer>
       <div className="waterCheckFooterInner">
         <div className="waterCheckFooterBrand">
           <a className="waterCheckFooterMark" href="/thewatercheckpage" onClick={onNavigate}>
             <img src="/brand/watercheck-store/c-mark-magic-eraser.png" alt="" width="64" height="64" loading="lazy" decoding="async" />
-            <span>The Water Check</span>
+            <span>{t("brand")}</span>
           </a>
-          <p className="waterCheckFooterNote">
-            The free calculator needs no account. It runs in your browser and does not send your numbers to us.
-          </p>
+          <p className="waterCheckFooterNote">{t("footer.note")}</p>
         </div>
 
-        <nav className="waterCheckFooterLinks" aria-label="Footer navigation">
+        <nav className="waterCheckFooterLinks" aria-label={t("footer.navLabel")}>
           <div>
-            <p className="waterCheckFooterHeading">The Water Check</p>
-            <a href="/thewatercheckpage#calculator">Hydration calculator</a>
-            <a href="/thewatercheckpage#the-app">Explore the app</a>
+            <p className="waterCheckFooterHeading">{t("brand")}</p>
+            <a href="/thewatercheckpage#calculator">{t("footer.calculator")}</a>
+            <a href="/thewatercheckpage#the-app">{t("footer.explore")}</a>
             <a href="https://www.instagram.com/thewatercheck/" target="_blank" rel="noopener noreferrer">
-              @thewatercheck on Instagram
+              {t("footer.instagram")}
             </a>
             <a href="/thewatercheckstore" onClick={onNavigate}>
-              The store
+              {t("footer.store")}
             </a>
             <a href="/denzel-rigaud" onClick={onNavigate}>
-              Who built this
+              {t("footer.builder")}
             </a>
           </div>
           <div>
-            <p className="waterCheckFooterHeading">The fine print</p>
+            <p className="waterCheckFooterHeading">{t("footer.finePrint")}</p>
             <a href="/thewatercheck/terms" onClick={onNavigate}>
-              Terms and Conditions
+              {t("footer.terms")}
             </a>
             <a href="/thewatercheck/privacy" onClick={onNavigate}>
-              Privacy Policy
+              {t("footer.privacy")}
             </a>
             <a href="/thewatercheck/community-guidelines" onClick={onNavigate}>
-              Community Guidelines
+              {t("footer.community")}
             </a>
             <a href="/thewatercheck/consumer-health-data" onClick={onNavigate}>
-              Consumer Health Data
+              {t("footer.healthData")}
             </a>
             <a href="/thewatercheck/delete-account" onClick={onNavigate}>
-              Delete your account
+              {t("footer.deleteAccount")}
             </a>
             <a href="/accessibility" onClick={onNavigate}>
-              Accessibility
+              {t("footer.accessibility")}
             </a>
             <a href={CONTACT_HREF} onClick={onNavigate}>
-              Contact
+              {t("footer.contact")}
             </a>
           </div>
         </nav>
@@ -71,14 +71,15 @@ export function WaterCheckFooter({ onNavigate, backToTopHref = "#water-check-tit
       <div className="waterCheckFooterBottom">
         <p>© {YEAR} The Water Check</p>
         <p>
-          An{" "}
-          <a href="/" onClick={onNavigate}>
-            EXPECTEDEND LLC
-          </a>{" "}
-          project. Educational estimate, not medical advice.
+          <Trans
+            t={t}
+            i18nKey="footer.project"
+            // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+            components={{ company: <a href="/" onClick={onNavigate} /> }}
+          />
         </p>
         <a className="waterCheckFooterTop" href={backToTopHref}>
-          Back to top ↑
+          {t("footer.backToTop")}
         </a>
       </div>
     </footer>

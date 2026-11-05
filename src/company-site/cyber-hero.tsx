@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import styles from "./cyber.module.css";
 
 export type ArcStat = { value: string; suffix?: string; label: string };
@@ -215,6 +216,7 @@ type CyberHeroProps = {
 
 // Full-screen hero: photo with a slow zoom-in, a grid that drifts with the mouse, optional code lens, and stats on arcs.
 export function CyberHero({ variant, labelledBy, photoAlt, stats, lens = false, scan = false, hud, children }: CyberHeroProps) {
+  const { t } = useTranslation("home");
   const rootRef = React.useRef<HTMLElement>(null);
   const photoRef = React.useRef<HTMLImageElement>(null);
   const patternRef = React.useRef<SVGPatternElement>(null);
@@ -455,7 +457,7 @@ export function CyberHero({ variant, labelledBy, photoAlt, stats, lens = false, 
       {lens && (
         <p ref={hintRef} className={styles.hint} aria-hidden="true">
           <i />
-          Move your cursor to read the code
+          {t("hero.lensHint")}
         </p>
       )}
     </section>

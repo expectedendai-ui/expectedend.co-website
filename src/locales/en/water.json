@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "The app",
+      "drinkCheck": "Drink Check",
+      "guide": "Guide",
+      "widgets": "Widgets",
+      "progress": "Progress",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "calculator": "Calculator"
+    },
+    "hero": {
+      "title": "Drink up.<break/>We'll <em>keep count</em>.",
+      "sub": "Your own water number, drinks you can scan, your body charging up, a widget you will actually keep, and a pufferfish named Bubbles to show you around. No gallon rules, no influencers, no guilt.",
+      "comingSoon": "Coming soon",
+      "appStoreLead": "Download on the",
+      "appStore": "App Store",
+      "googlePlayLead": "Get it on",
+      "googlePlay": "Google Play",
+      "calculator": "Try the free calculator",
+      "instagram": "Follow The Water Check on Instagram",
+      "note": "In review at the App Store now. The calculator is free and needs no sign-up.",
+      "todayAlt": "The Water Check Today screen: 40 oz of an 81.2 oz goal, with quick-add buttons and today's log",
+      "widgetsAlt": "The widget studio, showing a Body widget in Hologram and rows of widget styles",
+      "bubblesLabel": "Make Bubbles do a trick",
+      "bubblesSay": "Hi, I'm Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "widget styles",
+      "pearls": "Guide pearls to find",
+      "foods": "water-rich foods, drawn",
+      "languages": "languages"
+    },
+    "sixty": {
+      "kicker": "Why it matters",
+      "title": "You are made up of 60% water.",
+      "lede": "Not a target to hit. That water is working right now: carrying oxygen, cushioning your joints, cooling you down, clearing out what you do not need. Your needs change with activity, weather and health.",
+      "pmeterKicker": "The P-Meter",
+      "pmeterLabel": "Eight shades from pale straw to dark amber, grouped into well hydrated, top up, and drink now",
+      "wellHydrated": "Well hydrated",
+      "topUp": "Top up",
+      "drinkNow": "Drink now",
+      "fine": "A rough sign, not a diagnosis. Food, vitamins and medicines all change the color. The app explains each band and when to talk to a healthcare professional."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Scan it once. Know it. Tap it forever.",
+      "lede": "Scan the barcode, free and as often as you like. No barcode? If you are 18 or over, take a photo and the app reads the label. Either way you see sugar in teaspoons, caffeine, electrolytes, and every ingredient marked Good, Fine, Watch or Avoid.",
+      "scoresLabel": "Drink Check score colors",
+      "scores": {
+        "great": "Great",
+        "good": "Good",
+        "okay": "Okay",
+        "poor": "Poor"
+      },
+      "ticks": {
+        "electrolytes": "Electrolytes from the label: sodium, potassium, magnesium and calcium, with their Daily Values.",
+        "save": "Save it (rename it if you like), and next time it is one tap on the Add page. No new scan.",
+        "food": "Adults can snap a food too: a mango adds to your mango, something new becomes its own bubble.",
+        "journal": "Your Drink Journal keeps how each drink made you feel, on your phone."
+      },
+      "fine": "A quick read of the label, not a lab test or a rating of any brand. Barcode results come from Open Food Facts, and AI can be wrong, so check the real label, especially for allergies. We do not keep your photo.",
+      "alt": "A Drink Check result for a sports drink: score 66, Good, with sugar, caffeine and its electrolytes from the label"
+    },
+    "foods": {
+      "kicker": "Food counts too",
+      "title": "About a fifth of your water arrives on a plate.",
+      "lede": "The Add page is a page of drawn fruit bubbles, three to a row: watermelon, cucumber, strawberries, mango and more. Tap the plus and it is added, with Undo right there. The foods you add most move to the front.",
+      "ticks": {
+        "amounts": "Glass, bottle or any amount, one tap each.",
+        "caffeine": "Coffee drinkers get a caffeine card that fills itself in.",
+        "ring": "A ring at the top shows food counting toward your day."
+      },
+      "alt": "The Add page: a ring at the top, drink buttons, a caffeine card and water-rich food bubbles"
+    },
+    "guide": {
+      "kicker": "The Water Check Guide",
+      "title": "Pop a bubble. Keep a pearl.",
+      "lede": "Every chapter is a bubble with a question on it, and every one is free. Why do you feel \"low battery\"? What is your pee telling you? Is a gallon a day real? Read one to the end and it pops into a pearl. About one in six is a rare golden one.",
+      "electric": "Your electric body: six chapters on the signal, sodium and potassium, magnesium and calcium, and fuel.",
+      "forHerKicker": "For her",
+      "forHer": "Rose-colored chapters about her body and water: pink or neon pee, feeling puffy around your period, why UTIs find women more, a little leak when you laugh, pregnancy and menopause. Kind, plain and sourced.",
+      "fine": "Every chapter lists its sources and says when to see a doctor. It rewards understanding, not screen time: no streaks, no pressure.",
+      "alt": "The Water Check Guide: Your electric body chapters as question bubbles"
+    },
+    "widgets": {
+      "kicker": "Widgets",
+      "title": "<count>89</count> styles for your Home Screen.",
+      "lede": "Sports, places, seasons, sea life and designs, in small, medium and large, with layouts from rings to waves. Tell us your sport at sign-up and your sport's widget shows up first. Log a drink straight from your Home Screen.",
+      "ticks": {
+        "body": "Body: your outline fills up with the day's water. Spark: a battery fills with today's charge.",
+        "charge": "Put the Charge meter on any widget to watch your electrolytes instead of your water."
+      },
+      "chips": {
+        "body": "Body",
+        "spark": "Spark",
+        "running": "Running",
+        "crossCountry": "Cross Country",
+        "volleyball": "Volleyball",
+        "basketball": "Basketball",
+        "seaTurtle": "Sea Turtle",
+        "jellyfish": "Jellyfish",
+        "beach": "Beach",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Seasons"
+      },
+      "alt": "The widget studio with the Body widget in Hologram, its colorways, layouts and the Charge meter"
+    },
+    "progress": {
+      "kicker": "Progress",
+      "title": "See what's in your drinks, bar by bar.",
+      "lede": "Today as simple bars that fill left to right: water against your number, then sodium, potassium, magnesium and calcium from the drinks you scan, plus caffeine and sugar. Tap any bar to see the drinks behind it. The Calendar shows every day side by side, with your streak.",
+      "ticks": {
+        "dailyValues": "Electrolytes are measured against the Daily Values on a Nutrition Facts label.",
+        "caffeine": "Caffeine against 400 mg, the amount the FDA gives for most healthy adults, and sugar against 50 g.",
+        "journal": "Your Drink Journal sits right under the bars: every drink you scanned and how it made you feel.",
+        "real": "Every number comes from something you logged or scanned. Nothing is made up."
+      },
+      "fine": "References, not targets, and not medical advice. If you watch your sodium or potassium for a health reason, follow your doctor's advice.",
+      "alt": "Progress: water at 83% of the day's number, then sodium, potassium, magnesium, calcium, caffeine and sugar as bars"
+    },
+    "crew": {
+      "kicker": "Your month and your people",
+      "title": "Watch it add up. Bring your friends.",
+      "calendarAlt": "The calendar: each day fills like a glass, with days logged, days at goal and a streak",
+      "calendarTitle": "Your water, day by day",
+      "calendarBody": "Every day you log fills in like a glass. Days at goal, streaks and tide marks, and it follows you to a new phone.",
+      "crewAlt": "A Crew named Track team with quick cheer messages",
+      "crewTitle": "Crew",
+      "crewBody": "Invite-only groups that cheer each other on. Friends see your percent of your own goal and your streak, never your ounces or your body. Report and Block are always there."
+    },
+    "bubbles": {
+      "kicker": "Meet Bubbles",
+      "title": "Your guide is a pufferfish.",
+      "lede": "Bubbles is the Wellness Officer at The Department. On your first day he takes you on a tour of the app, and he cannot help showing off. Go on, give him something to do.",
+      "tricksLegend": "Bubbles' tricks",
+      "tricks": {
+        "puff": "Puff up",
+        "spin": "Spin",
+        "flip": "Backflip",
+        "wave": "Wave",
+        "cheer": "Big finish"
+      }
+    },
+    "pricing": {
+      "kicker": "Pricing",
+      "title": "Free to start. Everything, once.",
+      "free": {
+        "title": "Free",
+        "sub": "Everything you need to drink enough.",
+        "items": {
+          "number": "Your own water number",
+          "log": "Log drinks and water-rich food",
+          "barcode": "Barcode scans, free and unlimited",
+          "photo": "One free photo scan (18 and over)",
+          "guide": "Every Guide chapter",
+          "widgets": "Classic, Seasons, and plain Body and Spark widgets",
+          "crew": "Your calendar, streaks and a friend's Crew"
+        }
+      },
+      "forever": {
+        "tag": "Opening year",
+        "title": "Everything Forever",
+        "sub": "One purchase, no subscription.",
+        "items": {
+          "widgets": "Every widget style and colorway",
+          "bars": "The electrolyte, caffeine and sugar bars",
+          "journal": "Your Drink Journal",
+          "photos": "More photo scans (18 and over)",
+          "summaries": "30 and 90 day PDF summaries",
+          "crews": "Make your own Crews",
+          "later": "Everything we add later"
+        },
+        "note": "Offered during our opening year. After that, The Water Check may move to a monthly plan, and a one-time purchase made before then stays unlocked. The price is shown in the App Store or Google Play before you buy."
+      }
+    },
+    "privacy": {
+      "kicker": "Your data",
+      "title": "What stays on your phone, and what does not.",
+      "phoneTitle": "Stays on your phone",
+      "phoneBody": "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle notes and reminders.",
+      "accountTitle": "Kept with your account",
+      "accountBody": "Your sign-in, sign-up answers, each drink and food you log with its time, daily water totals and your Crew, so they follow you to a new phone.",
+      "neverTitle": "Never",
+      "neverBody": "We do not sell your information or share it with advertising networks. We do not keep your Drink Check photos.",
+      "links": {
+        "privacy": "Privacy Policy",
+        "healthData": "Consumer Health Data Policy",
+        "deleteAccount": "Delete your account"
+      }
+    },
+    "calculator": {
+      "kicker": "Free, no sign-up",
+      "title": "Start with the numbers you know.",
+      "lede": "Your weight, your height, how long you move. The calculator gives you a daily target in about twenty seconds, and shows its working so you can argue with it. It runs in your browser.",
+      "chips": {
+        "weight": "Weight baseline",
+        "height": "Height and build",
+        "activity": "Activity adjustment",
+        "lifeStage": "Life stage",
+        "heat": "Heat and humidity",
+        "electrolytes": "Electrolyte check"
+      },
+      "open": "Open the calculator",
+      "fine": "An educational planning estimate for adults, not a diagnosis or a prescription. Do not force fluids. Ask a healthcare professional if you are pregnant or breastfeeding, take medicines that affect fluid balance, or have a kidney or heart condition."
+    },
+    "faq": {
+      "kicker": "Questions",
+      "title": "The honest answers.",
+      "items": {
+        "medical": {
+          "q": "Is The Water Check medical advice?",
+          "a": "No. It is a general wellness app. Your water number is an educational estimate, not a prescription, and nothing in the app diagnoses or treats anything. If you are pregnant or breastfeeding, take medicine that affects fluids, or have a kidney, heart or other condition, ask your doctor what is right for you."
+        },
+        "number": {
+          "q": "Where does my number come from?",
+          "a": "From your weight, height, activity, climate and life stage, starting from public guidance such as the US National Academies' water references. The free calculator shows its working, so you can see every step. It is a starting point, not a rule."
+        },
+        "scan": {
+          "q": "What happens when I scan a drink?",
+          "a": "A barcode scan sends only the barcode number to Open Food Facts, a free, open food database, and gets back what the label says. A photo, for adults 18 and over, goes through our server to Google's Gemini AI, which reads the label and sends back what it found. We do not keep your photo; Google may retain data for a limited time under its terms. Labels and AI can be wrong, so check the real label, and never use Drink Check for allergies or medical diets."
+        },
+        "phone": {
+          "q": "What stays on my phone?",
+          "a": "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, cycle answer and cycle notes, though your own phone backup may include them. On iPhone, workouts you let the app read from Apple Health stay on your phone too, and are never sent to us. Your sign-up answers, each drink and food you log with its time, and your daily totals are kept with your account so they follow you to a new phone. We do not sell your information."
+        },
+        "audience": {
+          "q": "Who is it for?",
+          "a": "Anyone 13 or older. If you are under 18, use it with a parent's or guardian's permission. Fruit Fast, alcohol logging and photo scans are only for adults. The app goes by the age range you give, so please answer truthfully. If you are 13 to 17, check your number with a parent or clinician."
+        },
+        "cost": {
+          "q": "What does it cost?",
+          "a": "The app is free to start: get your number, log water and food, scan any barcode, read every Guide chapter, join a Crew, and use the Classic, Seasons, Body and Spark widgets. During our opening year, one optional purchase unlocks everything, once, with no subscription. The App Store or Google Play shows the price in your currency before you buy."
+        },
+        "deleteAccount": {
+          "q": "How do I delete my account?",
+          "a": "In the app: Profile, then Settings, then Delete account. It is gone right away. No app? Our Delete your account page explains how to ask by email."
+        },
+        "download": {
+          "q": "When can I download it?",
+          "a": "The Water Check is in review at the App Store and in testing on Google Play, and coming soon to both. Follow @thewatercheck on Instagram to hear first."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Understand what you drink. Built in Florida by a one-person company. For ages 13 and up.",
+      "legal": "Legal",
+      "privacy": "The Water Check Privacy Policy",
+      "terms": "The Water Check Terms and Conditions",
+      "community": "Community Guidelines",
+      "healthData": "Consumer Health Data Privacy Policy",
+      "deleteAccount": "Delete your account",
+      "sitePrivacy": "Website privacy",
+      "explore": "Explore",
+      "calculator": "Hydration calculator",
+      "store": "The Water Check store",
+      "instagram": "@thewatercheck on Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Help",
+      "email": "Email support",
+      "accessibility": "Accessibility",
+      "contact": "Contact",
+      "note": "The Water Check is a general wellness app. It does not diagnose, treat or prevent any condition, and it is not a substitute for advice from a healthcare professional. In an emergency, call 911 or your local emergency number. App screens show a test build with made-up data; features may change before release."
+    }
+  },
+  "app": {
+    "eyebrow": "The app",
+    "title": "Your water, day by day.",
+    "body": "Start with a personal estimate, then log drinks and water-rich food as your day unfolds. See your progress in the app, on your Home Screen, and across the month.",
+    "comingSoon": "Coming soon to the App Store",
+    "calculator": "Try the free calculator",
+    "caveat": "The calculator works here without an account. App screenshots show a preview build; features and availability may change before release.",
+    "screens": {
+      "number": {
+        "alt": "The Water Check personal daily water estimate on an iPhone",
+        "caption": "Your number"
+      },
+      "log": {
+        "alt": "The Water Check daily log with drinks and food on an iPhone",
+        "caption": "Today's log"
+      },
+      "widgets": {
+        "alt": "The Water Check Home Screen widget settings on an iPhone",
+        "caption": "Widgets"
+      },
+      "wellness": {
+        "alt": "The Water Check wellness guide and P-Meter on an iPhone",
+        "caption": "Wellness"
+      },
+      "calendar": {
+        "alt": "The Water Check monthly water calendar on an iPhone",
+        "caption": "Calendar"
+      }
+    }
+  },
+  "footer": {
+    "note": "The free calculator needs no account. It runs in your browser and does not send your numbers to us.",
+    "navLabel": "Footer navigation",
+    "calculator": "Hydration calculator",
+    "explore": "Explore the app",
+    "instagram": "@thewatercheck on Instagram",
+    "store": "The store",
+    "builder": "Who built this",
+    "finePrint": "The fine print",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "community": "Community Guidelines",
+    "healthData": "Consumer Health Data",
+    "deleteAccount": "Delete your account",
+    "accessibility": "Accessibility",
+    "contact": "Contact",
+    "project": "An <company>EXPECTEDEND LLC</company> project. Educational estimate, not medical advice.",
+    "backToTop": "Back to top ↑"
+  }
+}

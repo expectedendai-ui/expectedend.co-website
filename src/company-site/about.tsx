@@ -1,4 +1,5 @@
 import type * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { ArrowDownIcon, ArrowUpRightIcon } from "./action-icons";
 import { ContactForm } from "./contact-form";
 import styles from "./style.module.css";
@@ -8,63 +9,50 @@ type AboutPageProps = {
 };
 
 export function AboutPage({ onNavigate }: AboutPageProps) {
+  const { t } = useTranslation("about");
   return (
     <main className={styles.aboutMain}>
       <section className={styles.aboutLayout}>
-        <p className={styles.kicker}>About Expected End</p>
-        <h1>Technology with purpose, built for real life.</h1>
+        <p className={styles.kicker}>{t("intro.kicker")}</p>
+        <h1>{t("intro.title")}</h1>
       </section>
 
       <div className={styles.aboutStory}>
         <section className={styles.founderReveal} id="founder-story" aria-labelledby="founder-reveal-title">
           <div className={styles.founderRevealIntro}>
-            <p className={styles.kicker}>Behind the company</p>
-            <h2 id="founder-reveal-title">The story behind Expected End.</h2>
+            <p className={styles.kicker}>{t("founder.kicker")}</p>
+            <h2 id="founder-reveal-title">{t("founder.title")}</h2>
             <p>
-              The personal road from fifth-grade technology experiments to grief, faith, MyBibleLens, and a new beginning.{" "}
-              <span className={styles.founderReadMore}>Read more</span>
+              <Trans t={t} i18nKey="founder.body" components={{ more: <span className={styles.founderReadMore} /> }} />
             </p>
           </div>
           <a className={styles.founderToggle} href="/denzel-rigaud" onClick={onNavigate}>
-            <span>The Founder Story, Denzel Rigaud</span>
+            <span>{t("founder.link")}</span>
             <ArrowUpRightIcon className={styles.founderToggleIcon} />
           </a>
         </section>
 
         <section className={styles.missionStory} id="mission" aria-labelledby="about-mission-title">
           <div>
-            <p className={styles.kicker}>The mission</p>
-            <h2 id="about-mission-title">Technology should help you return to your life.</h2>
+            <p className={styles.kicker}>{t("mission.kicker")}</p>
+            <h2 id="about-mission-title">{t("mission.title")}</h2>
           </div>
           <div className={styles.missionCopy}>
-            <p>
-              Technology can shape the way we seek attention and reward. Constant comparison, dating apps, and polished versions
-              of other people’s lives can make real relationships and quiet moments feel less valuable. Children enter those
-              systems before they understand the pressure behind them.
-            </p>
-            <p>
-              Expected End gives people a better use for the screen. It builds tools for children and adults to learn, create,
-              work, find a safe place, or move closer to God. Each product should return them to the life in front of them.
-            </p>
-            <p className={styles.missionLine}>
-              The mission is to bring people closer to God through productive, useful, and joyful technology that leaves room for
-              real life.
-            </p>
+            <p>{t("mission.attention")}</p>
+            <p>{t("mission.screen")}</p>
+            <p className={styles.missionLine}>{t("mission.line")}</p>
           </div>
         </section>
 
         <section className={styles.pressSection} id="press" aria-labelledby="press-title">
           <div>
-            <p className={styles.kicker}>Press</p>
-            <h2 id="press-title">Help tell the story.</h2>
+            <p className={styles.kicker}>{t("press.kicker")}</p>
+            <h2 id="press-title">{t("press.title")}</h2>
           </div>
           <div>
-            <p>
-              Expected End welcomes conversations about faith-centered technology, digital well-being, founder grief, MyBibleLens,
-              The Water Check, and products that return time to real life.
-            </p>
+            <p>{t("press.body")}</p>
             <a className={styles.actionWithIcon} href="/press" onClick={onNavigate}>
-              Open the press and media kit <ArrowDownIcon className={styles.actionIcon} />
+              {t("press.link")} <ArrowDownIcon className={styles.actionIcon} />
             </a>
           </div>
         </section>

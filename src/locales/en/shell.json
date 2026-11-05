@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Main navigation",
+    "projects": "Projects",
+    "services": "Services",
+    "company": "Mission · About · Press",
+    "contact": "Contact",
+    "home": "Expected End home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "links": {
+      "projects": "Projects",
+      "services": "Services",
+      "story": "Story",
+      "about": "About",
+      "press": "Press",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Footer navigation",
+    "home": "Home",
+    "about": "About",
+    "press": "Press",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Statement",
+    "accessibility": "Accessibility",
+    "contact": "Contact",
+    "mission": "Everything I build under this company points toward the same mission: bring people closer to God and help them use technology to live, create, love, and serve with intention. That is the expected ending I am working toward.",
+    "verse": "Jeremiah 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. All rights reserved.",
+    "blessing": "Jesus loves you."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "kicker": "About Expected End",
+    "title": "Technology with purpose, built for real life."
+  },
+  "founder": {
+    "kicker": "Behind the company",
+    "title": "The story behind Expected End.",
+    "body": "The personal road from fifth-grade technology experiments to grief, faith, MyBibleLens, and a new beginning. <more>Read more</more>",
+    "link": "The Founder Story, Denzel Rigaud"
+  },
+  "mission": {
+    "kicker": "The mission",
+    "title": "Technology should help you return to your life.",
+    "attention": "Technology can shape the way we seek attention and reward. Constant comparison, dating apps, and polished versions of other people’s lives can make real relationships and quiet moments feel less valuable. Children enter those systems before they understand the pressure behind them.",
+    "screen": "Expected End gives people a better use for the screen. It builds tools for children and adults to learn, create, work, find a safe place, or move closer to God. Each product should return them to the life in front of them.",
+    "line": "The mission is to bring people closer to God through productive, useful, and joyful technology that leaves room for real life."
+  },
+  "press": {
+    "kicker": "Press",
+    "title": "Help tell the story.",
+    "body": "Expected End welcomes conversations about faith-centered technology, digital well-being, founder grief, MyBibleLens, The Water Check, and products that return time to real life.",
+    "link": "Open the press and media kit"
+  }
+}

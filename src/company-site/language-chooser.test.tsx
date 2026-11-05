@@ -39,7 +39,8 @@ describe("language chooser", () => {
 
   it("counts Escape as English too", () => {
     visit("/");
-    fireEvent.keyDown(window, { key: "Escape" });
+    // Escape on a modal <dialog> fires its cancel event.
+    fireEvent(screen.getByRole("dialog"), new Event("cancel", { cancelable: true }));
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
     expect(localStorage.getItem(LANGUAGE_KEY)).toBe("en");
   });
@@ -55,7 +56,7 @@ describe("language chooser", () => {
     const dialog = screen.getByRole("dialog", { name: "Elige tu idioma" });
     expect(screen.getByTestId("language-es")).toHaveAttribute("aria-pressed", "true");
     // Closing it now only closes it; Spanish stays.
-    fireEvent.keyDown(window, { key: "Escape" });
+    fireEvent(dialog, new Event("cancel", { cancelable: true }));
     expect(dialog).not.toBeInTheDocument();
     expect(localStorage.getItem(LANGUAGE_KEY)).toBe("es");
   });

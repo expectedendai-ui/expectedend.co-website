@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import styles from "./style.module.css";
 
 type BioDialogProps = {
@@ -7,6 +8,7 @@ type BioDialogProps = {
 };
 
 export function BioDialog({ onClose, returnFocusTo }: BioDialogProps) {
+  const { t } = useTranslation("founder");
   const dialogRef = React.useRef<HTMLDialogElement>(null);
   const closeRef = React.useRef<HTMLButtonElement>(null);
   const titleId = React.useId();
@@ -37,38 +39,43 @@ export function BioDialog({ onClose, returnFocusTo }: BioDialogProps) {
       <div className={styles.bioDialogInner}>
         <div className={styles.bioDialogHead}>
           <div>
-            <p className={styles.waterBioEyebrow}>From the Founder</p>
-            <h2 id={titleId}>What happened to @thewatercheck?</h2>
+            <p className={styles.waterBioEyebrow}>{t("bio.eyebrow")}</p>
+            <h2 id={titleId}>{t("bio.title")}</h2>
           </div>
-          <button ref={closeRef} type="button" aria-label="Close bio" onClick={onClose}>×</button>
+          <button ref={closeRef} type="button" aria-label={t("bio.close")} onClick={onClose}>×</button>
         </div>
 
         <div className={styles.waterBioContent}>
+          <p>{t("bio.first")}</p>
           <p>
-            Starting at age 15, I was managing and scaling influencer and content pages while still growing my own project, @thewatercheck.
+            <Trans t={t} i18nKey="bio.second" components={{ em: <em />, proverb: <span className={styles.waterBioSource} /> }} />
           </p>
           <p>
-            I later moved in with my dad at age 17, and the account was dying because <em>“If you chase two rabbits, you will not catch either one.”</em>{" "}
-            <span className={styles.waterBioSource}>— Russian proverb</span> At that age, I only cared about the money. I was not giving @thewatercheck my all.
-          </p>
-          <p>
-            Then my <a href="https://www.linkedin.com/in/cliffordrigaud/" target="_blank" rel="noreferrer">father</a> passed away unexpectedly on <strong>July 10, 2021.</strong> I went into survival mode, wondering where my life was going. To deal with the pain of his death, I shut the door on being the web wizard my father once taught me to be—until <strong>January 2026.</strong>
+            <Trans
+              t={t}
+              i18nKey="bio.third"
+              components={{
+                // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                father: <a href="https://www.linkedin.com/in/cliffordrigaud/" target="_blank" rel="noreferrer" />,
+                strong: <strong />,
+              }}
+            />
           </p>
 
           <div className={styles.waterBioStat}>
-            <span className={styles.waterBioStatFrom}>200,000 followers</span>
+            <span className={styles.waterBioStatFrom}>{t("bio.stat.from")}</span>
             <span className={styles.waterBioStatArrow} aria-hidden="true">⟶</span>
-            <span className={styles.waterBioStatTo}>7,000</span>
-            <span className={styles.waterBioStatCaption}>That’s where it is now.</span>
+            <span className={styles.waterBioStatTo}>{t("bio.stat.to")}</span>
+            <span className={styles.waterBioStatCaption}>{t("bio.stat.caption")}</span>
           </div>
 
           <section className={styles.waterBioWhat} aria-labelledby={`${titleId}-what`}>
-            <p className={styles.waterBioEyebrow}>So what was it?</p>
-            <h3 id={`${titleId}-what`}>A simple reminder people loved.</h3>
+            <p className={styles.waterBioEyebrow}>{t("bio.what.eyebrow")}</p>
+            <h3 id={`${titleId}-what`}>{t("bio.what.title")}</h3>
             <p>
-              The Water Check was simply this: I posted a picture every single day to remind people to drink water—and it actually helped them drink water. The comments were <em>flooded</em> with people. That was all it did, and people loved it.
+              <Trans t={t} i18nKey="bio.what.first" components={{ em: <em /> }} />
             </p>
-            <p>Then a bot erased everything from the page, and life happened from there.</p>
+            <p>{t("bio.what.second")}</p>
           </section>
         </div>
       </div>
