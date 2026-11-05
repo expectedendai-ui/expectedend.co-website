@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Hagitaanka ugu weyn",
+    "projects": "Mashaariic",
+    "services": "Adeegyo",
+    "company": "Hadafka · Ku saabsan · Saxaafadda",
+    "contact": "Xidhiidh",
+    "home": "Bogga hore ee Expected End",
+    "openMenu": "Fur liiska",
+    "closeMenu": "Xidh liiska",
+    "links": {
+      "projects": "Mashaariic",
+      "services": "Adeegyo",
+      "story": "Sheekada",
+      "about": "Ku saabsan",
+      "press": "Saxaafadda",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Hagidda qaybta hoose",
+    "home": "Bogga hore",
+    "about": "Ku saabsan",
+    "press": "Saxaafadda",
+    "terms": "Shuruudaha Isticmaalka",
+    "privacy": "Bayaanka Qarsoonnimada",
+    "accessibility": "Helitaanka",
+    "contact": "Xidhiidh",
+    "mission": "Wax kasta oo aan ka dhiso shirkaddan hoosteeda waxay u jeedaan isla hadafka: in dadka loo soo dhoweeyo Ilaah oo laga caawiyo inay tiknoolajiyadda u isticmaalaan inay ula kac ugu noolaadaan, wax ugu abuuraan, ugu jeclaadaan, oo ugu adeegaan. Taasi waa dhammaadka la filayo ee aan u shaqaynayo.",
+    "verse": "Yeremyaah 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Xuquuqda oo dhan way dhowran tahay.",
+    "blessing": "Ciise wuu ku jecel yahay."
+  }
+}

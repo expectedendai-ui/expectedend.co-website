@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Вещи за пътя",
+    "headline": "Дръжте важното близо.",
+    "intro": "Малка колекция от обмислени вещи за бележки, напомняния и ежедневния път с Бог.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Тетрадка с насоки",
+        "kind": "Тетрадка"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Малко напомняне",
+        "kind": "Значка"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Мек слой за всеки ден",
+        "kind": "Облекло"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "За по-хладните сутрини",
+        "kind": "Облекло"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Първата колекция",
+    "headline": "Пийте вода. Продължавайте напред.",
+    "intro": "Дрехи с мисъл за хидратацията, за хората, които се появяват, доливат и не спират проверката.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Ярка вещ за всеки ден",
+        "kind": "Тениска"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "За след дългата разходка",
+        "kind": "Суитшърт"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Втори цветови вариант",
+        "kind": "Тениска"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Спокоен, плътен слой",
+        "kind": "Суитшърт"
+      }
+    }
+  },
+  "nav": {
+    "label": "Навигация в магазина {{store}}",
+    "collection": "Колекцията"
+  },
+  "hero": {
+    "action": "Разгледайте първата колекция",
+    "mybiblelensArt": "Лого на магазина MyBibleLens и колаж от стикери",
+    "watercheckArt": "Течното лого на The Water Check във формата на мехурче"
+  },
+  "collection": {
+    "eyebrow": "Очаквайте скоро",
+    "title": "Създадено да стане част от деня ви.",
+    "body": "Това са първите модели. Снимките, опциите и връзките за плащане ще се появят тук, когато колекцията е готова."
+  },
+  "product": {
+    "placeholder": "{{name}}, място за снимка на продукта",
+    "buy": "Купи сега",
+    "comingSoon": "Очаквайте скоро",
+    "comingSoonLabel": "{{name}} идва скоро"
+  },
+  "checkout": {
+    "eyebrow": "Без нужда от профил",
+    "title": "Когато отвори, плащането остава просто.",
+    "body": "Изберете модел, докоснете „Купи сега“ и платете сигурно чрез Stripe. Без профил в магазина и без лабиринт от колички."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Правилата на магазина ще бъдат публикувани преди първата колекция.",
+    "policies": "Правила на магазина",
+    "terms": "Условия",
+    "privacy": "Поверителност",
+    "accessibility": "Достъпност",
+    "shipping": "Доставка и връщане: преди старта"
+  }
+}

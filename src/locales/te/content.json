@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud, Expected End, క్రైస్తవ విశ్వాసం కోసం పవిత్ర ఆశ్రయ యాప్ MyBibleLens, The Water Check వెనుక ఉన్న వ్యవస్థాపకుడు, ఫుల్-స్టాక్ డెవలపర్.",
+  "projects": {
+    "mybiblelens": {
+      "category": "క్రైస్తవ యాప్",
+      "action": "యాప్ చూడండి",
+      "tagline": "క్రైస్తవ విశ్వాసం కోసం పవిత్ర ఆశ్రయ యాప్.",
+      "secondary": "పరిచయం",
+      "badge": "App Storeలో"
+    },
+    "watercheck": {
+      "category": "హైడ్రేషన్ కమ్యూనిటీ",
+      "action": "యాప్ చూడండి",
+      "tagline": "మీరు ఏం తాగుతున్నారో తెలుసుకోండి. మీకంటూ ఒక నీటి లెక్క, ఒక్క ట్యాప్‌లో.",
+      "badge": "సమీక్షలో ఉంది"
+    },
+    "mybiblelens-store": {
+      "category": "స్టోర్ · త్వరలో",
+      "action": "స్టోర్‌లోకి వెళ్లండి",
+      "tagline": "ధరించగలిగే విశ్వాసం."
+    },
+    "watercheck-store": {
+      "category": "స్టోర్ · త్వరలో",
+      "action": "స్టోర్‌లోకి వెళ్లండి",
+      "tagline": "హైడ్రేషన్ విభాగానికి గేర్."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "విశ్వాస యాప్ · iOS",
+      "status": "App Storeలో"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "హైడ్రేషన్ యాప్ · iOS",
+      "status": "సమీక్షలో ఉంది"
+    },
+    "mybiblelens-for-android": {
+      "name": "Android కోసం MyBibleLens",
+      "category": "Google Play",
+      "status": "క్లోజ్డ్ టెస్టింగ్"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "అనంత కాన్వాస్",
+      "status": "లైవ్"
+    },
+    "journey-plans": {
+      "name": "Journey ప్లాన్‌లు",
+      "category": "పఠన ప్లాన్‌లు + ముద్రలు",
+      "status": "లైవ్"
+    },
+    "water-check-crews": {
+      "name": "Water Check బృందాలు",
+      "category": "టీమ్ హైడ్రేషన్",
+      "status": "సిద్ధం"
+    },
+    "home-screen-widgets": {
+      "name": "హోమ్ స్క్రీన్ విడ్జెట్‌లు",
+      "category": "iOS విడ్జెట్‌లు",
+      "status": "సిద్ధం"
+    },
+    "hydration-calculator": {
+      "name": "హైడ్రేషన్ కాలిక్యులేటర్",
+      "category": "వెబ్ టూల్",
+      "status": "లైవ్"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "బిజినెస్ HQ యాప్",
+      "status": "డెవలప్‌మెంట్‌లో ఉంది"
+    },
+    "43-language-rollout": {
+      "name": "43 భాషల రోల్‌అవుట్",
+      "category": "లోకలైజేషన్",
+      "status": "43 భాషలు"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens స్టోర్",
+      "category": "మర్చండైజ్",
+      "status": "త్వరలో"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "యాప్ వెబ్‌సైట్",
+      "status": "లైవ్"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "కంపెనీ వెబ్‌సైట్",
+      "status": "లైవ్"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI బైబిల్ అధ్యయనం",
+      "status": "AI డెమో"
+    },
+    "hidden-art-world": {
+      "name": "దాగిన కళా ప్రపంచం",
+      "category": "ఇంటరాక్టివ్ వెబ్ ఆర్ట్",
+      "status": "ఈస్టర్ ఎగ్"
+    },
+    "sanctuary-stickers": {
+      "name": "Sanctuary స్టిక్కర్‌లు",
+      "category": "ఇలస్ట్రేషన్ సెట్",
+      "status": "550+ స్టిక్కర్‌లు"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens పిచ్ ఫిల్మ్",
+      "category": "బ్రాండ్ ఫిల్మ్",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "ఫీచర్ రీల్స్",
+      "category": "వీడియో సిరీస్",
+      "status": "10 వీడియోలు"
+    },
+    "look-closer-series": {
+      "name": "Look Closer సిరీస్",
+      "category": "సోషల్ సిరీస్",
+      "status": "60 పోస్ట్‌లు"
+    },
+    "25-week-campaign": {
+      "name": "25 వారాల క్యాంపెయిన్",
+      "category": "Instagram ప్లాన్",
+      "status": "100 పోస్ట్‌లు"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "వర్క్‌బుక్",
+      "status": "33 బ్లాక్‌లు"
+    },
+    "water-check-store": {
+      "name": "Water Check స్టోర్",
+      "category": "మర్చండైజ్",
+      "status": "త్వరలో"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "యాప్‌లు",
+      "body": "నిజమైన వ్యక్తుల చుట్టూ డిజైన్ చేసిన, ఉపయోగకరమైన, ఆలోచనాత్మక ప్రొడక్ట్‌లు.",
+      "interest": "యాప్ లేదా సాఫ్ట్‌వేర్ ఆలోచనను నిర్మించడం"
+    },
+    "02": {
+      "title": "వెబ్‌సైట్‌లు",
+      "body": "స్పష్టంగా, సజీవంగా, ఆత్మీయంగా అనిపించే ప్రత్యేకమైన డిజిటల్ నివాసాలు.",
+      "interest": "వెబ్‌సైట్ లేదా డిజిటల్ అనుభవం"
+    },
+    "03": {
+      "title": "AI సిస్టమ్‌లు",
+      "body": "ఆలోచనలనూ టీమ్‌లనూ ముందుకు నడిపించే ఆచరణాత్మక మేధస్సు.",
+      "interest": "AI సిస్టమ్ లేదా ప్రొడక్టివిటీ టూల్"
+    },
+    "04": {
+      "title": "క్రియేటివ్",
+      "body": "అర్థమే కేంద్రంగా ఉండే గుర్తింపు, దిశ, అనుభవాలు.",
+      "interest": "క్రియేటివ్ డైరెక్షన్ లేదా డిజైన్"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "మీ బిజినెస్ కోసం ప్రత్యేకంగా రూపొందించిన నివాసం. CRM, ఫైనాన్స్, ప్రాజెక్టులు, టీమ్ టూల్స్, తర్వాత మీకు కావాల్సిన ఏ సామర్థ్యమైనా, అన్నీ ఒకే చోట.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "ఆటోమేషన్‌లు",
+      "body": "పదే పదే చేసే పనుల స్థానంలో, మీ బిజినెస్‌ను నడిపించే అనుసంధానిత వర్క్‌ఫ్లోలు.",
+      "interest": "ఆటోమేషన్‌లు"
+    },
+    "07": {
+      "title": "క్లయింట్ పోర్టల్‌లు",
+      "body": "కస్టమర్లు లేదా సభ్యులు మాట్లాడుకోవడానికి, బుక్ చేసుకోవడానికి, ఫైళ్లు పంచుకోవడానికి, పురోగతిని చూసుకోవడానికి ఒకే చక్కని చోటు.",
+      "interest": "క్లయింట్ పోర్టల్‌లు"
+    },
+    "08": {
+      "title": "డిజిటల్ రెస్క్యూ",
+      "body": "మీ బిజినెస్‌కు ఇక పనికిరాని సాఫ్ట్‌వేర్‌ను బాగుచేయండి, ఆధునీకరించండి లేదా మళ్లీ నిర్మించండి.",
+      "interest": "డిజిటల్ రెస్క్యూ"
+    }
+  }
+}

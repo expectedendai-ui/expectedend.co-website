@@ -360,6 +360,7 @@
 .infoHeader h1 { font-size: clamp(3.4rem, 8vw, 7rem); }
 .infoHeader > p:not(.kicker) { max-width: 670px; margin: 1.6rem 0 1.2rem; color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
 .infoHeader > span { color: var(--muted); font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.infoHeader > p.infoLanguageNote { max-width: 670px; margin: 1.2rem 0 0; padding: .8rem 1rem; color: var(--ink); font-size: .9rem; line-height: 1.5; border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; }
 .infoBody { display: grid; gap: 3rem; max-width: 700px; padding: 3.5rem 0; }
 .infoBody h2 { margin: 0 0 .8rem; font-family: "Instrument Serif", Georgia, serif; font-size: 2.1rem; font-weight: 400; }
 .infoBody p { margin: 0; color: var(--muted); line-height: 1.75; }

@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Àwọn oníròyìn àti mídíà",
+    "title": "Ohun èlò fún àwọn oníròyìn nípa Expected End.",
+    "intro": "Ìtàn ìgbésí ayé tí a fọwọ́ sí, òtítọ́ tí a ti fìdí rẹ̀ múlẹ̀, àti mídíà tí a lè gbà sílẹ̀ fún ìròyìn nípa Expected End àti olùdásílẹ̀ rẹ̀, Denzel Rigaud.",
+    "downloadPortrait": "Gba àwòrán sílẹ̀"
+  },
+  "inquiry": "Bẹ̀rẹ̀ ìbéèrè oníròyìn",
+  "role": "Olùdásílẹ̀ àti olùgbéejáde full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud nínú kóòtù aláwọ̀ búlúù dúdú àti awò ojú aláwọ̀ ọsàn"
+  },
+  "contents": {
+    "label": "Àwọn abala ojú ìwé oníròyìn",
+    "kit": "Àpò ohun èlò oníròyìn / 2026",
+    "biographies": "Ìtàn ìgbésí ayé",
+    "facts": "Òtítọ́ tí a ti fìdí rẹ̀ múlẹ̀",
+    "projects": "Àwọn iṣẹ́ àkànṣe",
+    "licensing": "Lílo mídíà"
+  },
+  "bios": {
+    "kicker": "Ọ̀rọ̀ tí a fọwọ́ sí",
+    "title": "Ìtàn ìgbésí ayé",
+    "text": "A lè fa ọ̀rọ̀ yọ láti inú àwọn ẹ̀dà wọ̀nyí tàbí ṣàtúnṣe wọn fún ìròyìn.",
+    "shortLabel": "Ìtàn ṣókí / ọ̀rọ̀ 24",
+    "fullLabel": "Ìtàn kíkún",
+    "fullFirst": "Denzel Rigaud dá EXPECTEDEND LLC sílẹ̀, ó sì kọ́ MyBibleLens àti The Water Check fúnra rẹ̀. Òun ni olùgbéejáde full-stack ilé-iṣẹ́ náà, ó sì ń ṣe ọjà kọ̀ọ̀kan láti èrò dé àpẹẹrẹ, ìmọ̀ ẹ̀rọ, àti ìfilọ́lẹ̀.",
+    "fullSecond": "Iṣẹ́ rẹ̀ dá lórí sọ́fútúwọ̀ tí ìgbàgbọ́ wà ní àárín rẹ̀, ìlera ọkàn nínú ayé oní-nọ́ńbà, àti àwọn irinṣẹ́ tó wúlò tó ń ran àwọn ènìyàn lọ́wọ́ láti lo ìmọ̀ ẹ̀rọ pẹ̀lú èrò. MyBibleLens jẹ́ áàpù ibi mímọ́ fún Kristẹni. The Water Check so ìṣirò omi ara tó jẹ́ àṣírí rẹ, àṣà mímu omi tó wúlò, àti àwùjọ tó dá lórí ìdúróṣinṣin ojoojúmọ́ pọ̀."
+  },
+  "facts": {
+    "kicker": "Ìwé òtítọ́",
+    "title": "Òtítọ́ tí a ti fìdí rẹ̀ múlẹ̀",
+    "text": "Àlàyé àṣẹ fún profaili, àpilẹ̀kọ, àkọlé àwòrán, àti ibi ìpamọ́ ìsọfúnni.",
+    "company": "Ilé-iṣẹ́",
+    "founder": "Olùdásílẹ̀",
+    "role": "Ipa",
+    "products": "Àwọn ọjà",
+    "productsValue": "MyBibleLens àti The Water Check",
+    "website": "Ojú òpó wẹ́ẹ̀bù àṣẹ",
+    "profile": "Profaili olùdásílẹ̀",
+    "entityLabel": "{{name}} lórí Wikidata"
+  },
+  "projects": {
+    "kicker": "Àwọn ọjà",
+    "title": "Iṣẹ́ náà",
+    "text": "Ọjà méjì, tí a kọ́ ní òmìnira lábẹ́ Expected End.",
+    "mybiblelens": {
+      "alt": "Àmì áàpù MyBibleLens",
+      "kicker": "Sọ́fútúwọ̀ tí ìgbàgbọ́ wà ní àárín rẹ̀",
+      "text": "Áàpù Ibi Mímọ́ Kristẹni.",
+      "visit": "Ṣàbẹ̀wò sí MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Àmì áàpù The Water Check",
+      "kicker": "Mímu omi àti àwùjọ",
+      "text": "Ìṣirò omi ara tó jẹ́ àṣírí rẹ, àṣà mímu omi tó wúlò, àti àwùjọ.",
+      "visit": "Ṣàbẹ̀wò sí The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Lílo mídíà",
+    "title": "Àwòrán olùdásílẹ̀",
+    "text": "A lè pín àwòrán náà, kí a sì ṣàtúnṣe rẹ̀ lábẹ́ ìwé-àṣẹ <license>Creative Commons Attribution-ShareAlike 4.0</license>. Ìdánimọ̀ orísun: Denzel Rigaud / Expected End. Àwọn àtúnṣe gbọ́dọ̀ lo ìwé-àṣẹ kan náà.",
+    "download": "Gba àwòrán olùdásílẹ̀ sílẹ̀"
+  },
+  "contact": {
+    "kicker": "Ìkànsí fún oníròyìn",
+    "title": "Ṣé o nílò ìfọ̀rọ̀wánilẹ́nuwò, ọ̀rọ̀ àyọlò, tàbí fáìlì mìíràn?"
+  }
+}

@@ -1,5 +1,7 @@
 import type * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { PROOF_OF_WORK, type ProofIcon, type ProofItem } from "./content";
+import { useContentText } from "./content-i18n";
 import cyber from "./cyber.module.css";
 import { CountUp } from "./home-motion";
 import styles from "./home.module.css";
@@ -130,8 +132,7 @@ function WorkCard({ item }: { item: ProofItem }) {
 
 const PROOF_STATS = [
   {
-    strong: "2 apps",
-    rest: " on the App Store",
+    key: "apps",
     icon: (
       <path
         fill="currentColor"
@@ -140,11 +141,10 @@ const PROOF_STATS = [
       />
     ),
   },
-  { strong: "43 languages", rest: " in MyBibleLens", icon: LINE_ICONS.globe },
-  { strong: "10 years", rest: " writing code", icon: <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" /> },
+  { key: "languages", icon: LINE_ICONS.globe },
+  { key: "years", icon: <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" /> },
   {
-    strong: "Idea to launch",
-    rest: ", all in-house",
+    key: "inHouse",
     icon: (
       <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09ZM12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2ZM9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
     ),
@@ -153,6 +153,8 @@ const PROOF_STATS = [
 
 /** "20+ projects" proof: a counted-up number, proof points, a giant outlined line and two rows of real projects. */
 export function ProofOfWork() {
+  const { t } = useTranslation("home");
+  const { proof } = useContentText();
   return (
     <section className={`${cyber.section} ${styles.proof}`} id="proof" aria-labelledby="proof-title">
       <div className={`${cyber.wrap} ${styles.proofHead}`}>
@@ -161,23 +163,22 @@ export function ProofOfWork() {
             <CountUp to={20} />
           </span>
           <span className={styles.proofPlus}>+</span>
-          <span className={styles.proofCaption}>Projects built</span>
+          <span className={styles.proofCaption}>{t("proof.caption")}</span>
         </p>
         <div data-reveal style={{ "--reveal-delay": "100ms" } as React.CSSProperties}>
-          <p className={cyber.eyebrow}>03 / Proof of work</p>
+          <p className={cyber.eyebrow}>{t("proof.eyebrow")}</p>
           <h2 className={cyber.title} id="proof-title">
-            Built from zero. <em>The work speaks for itself.</em>
+            <Trans t={t} i18nKey="proof.title" components={{ em: <em /> }} />
           </h2>
-          <p className={cyber.lead}>Apps, websites, AI tools, films and campaigns, designed, coded and launched in-house. Here is some of it.</p>
+          <p className={cyber.lead}>{t("proof.lead")}</p>
           <ul className={styles.proofStats}>
             {PROOF_STATS.map((stat) => (
-              <li key={stat.strong}>
+              <li key={stat.key}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
                   {stat.icon}
                 </svg>
                 <span>
-                  <strong>{stat.strong}</strong>
-                  {stat.rest}
+                  <Trans t={t} i18nKey={`proof.stats.${stat.key}`} components={{ strong: <strong /> }} />
                 </span>
               </li>
             ))}
@@ -189,7 +190,7 @@ export function ProofOfWork() {
         <div className={styles.biglineTrack}>
           {["first", "second"].map((copy) => (
             <span key={copy}>
-              <b>20+</b> PROJECTS <i>✦</i> BUILT <i>✦</i> SHIPPED <i>✦</i> LIVE <i>✦</i>
+              <Trans t={t} i18nKey="proof.bigline" components={{ count: <b />, star: <i /> }} />
             </span>
           ))}
         </div>
@@ -203,14 +204,14 @@ export function ProofOfWork() {
           style={{ "--marquee-duration": `${75 + index * 10}s` } as React.CSSProperties}
         >
           <div className={styles.marqueeTrack}>
-            <ul className={styles.marqueeCopy} aria-label={index === 0 ? "Apps and products" : "Websites, AI and creative work"}>
+            <ul className={styles.marqueeCopy} aria-label={index === 0 ? t("proof.rows.products") : t("proof.rows.creative")}>
               {row.items.map((item) => (
-                <WorkCard key={item.name} item={item} />
+                <WorkCard key={item.name} item={proof(item)} />
               ))}
             </ul>
             <ul className={styles.marqueeCopy} aria-hidden="true">
               {row.items.map((item) => (
-                <WorkCard key={item.name} item={item} />
+                <WorkCard key={item.name} item={proof(item)} />
               ))}
             </ul>
           </div>
@@ -220,10 +221,10 @@ export function ProofOfWork() {
       <div className={cyber.wrap}>
         <div className={styles.proofCta} data-reveal>
           <p>
-            Your project could be <em>next.</em>
+            <Trans t={t} i18nKey="proof.next" components={{ em: <em /> }} />
           </p>
           <a className={`${cyber.btn} ${cyber.btnLight}`} href="#services">
-            Start yours
+            {t("proof.cta")}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
               <path d="M5 12h14" />
               <path d="m13 6 6 6-6 6" />

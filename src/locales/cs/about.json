@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "kicker": "O Expected End",
+    "title": "Technologie se smyslem, stvořená pro skutečný život."
+  },
+  "founder": {
+    "kicker": "Za firmou",
+    "title": "Příběh, který stojí za Expected End.",
+    "body": "Osobní cesta od technických pokusů v páté třídě přes zármutek a víru až k MyBibleLens a novému začátku. <more>Číst dál</more>",
+    "link": "Příběh zakladatele: Denzel Rigaud"
+  },
+  "mission": {
+    "kicker": "Poslání",
+    "title": "Technologie ti má pomáhat vracet se do života.",
+    "attention": "Technologie dokáže ovlivnit, jak hledáme pozornost a odměnu. Neustálé srovnávání, seznamky a vyleštěné verze cizích životů mohou způsobit, že skutečné vztahy a tiché chvíle působí méně cenně. Děti se do těchto systémů dostanou dřív, než pochopí tlak, který za nimi stojí.",
+    "screen": "Expected End dává lidem lepší důvod dívat se na obrazovku. Vytváří nástroje, se kterými se děti i dospělí mohou učit, tvořit, pracovat, najít bezpečné místo nebo se přiblížit Bohu. Každý produkt je má vracet do života, který mají přímo před sebou.",
+    "line": "Posláním je přibližovat lidi Bohu skrze produktivní, užitečnou a radostnou technologii, která nechává prostor pro skutečný život."
+  },
+  "press": {
+    "kicker": "Média",
+    "title": "Pomoz vyprávět tenhle příběh.",
+    "body": "Expected End rád mluví o technologiích založených na víře, digitální pohodě, zármutku zakladatele, MyBibleLens, The Water Check a produktech, které vracejí čas skutečnému životu.",
+    "link": "Otevřít tiskovou a mediální sadu"
+  }
+}

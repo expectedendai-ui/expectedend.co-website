@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "পথচলার সঙ্গী",
+    "headline": "যা জরুরি, তা কাছে রাখুন।",
+    "intro": "নোট, মনে করিয়ে দেওয়া আর ঈশ্বরের সঙ্গে প্রতিদিনের পথচলার জন্য যত্নে বানানো জিনিসের একটি ছোট্ট সংগ্রহ।",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "গাইডেড নোটবুক",
+        "kind": "নোটবুক"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "একটি ছোট্ট স্মারক",
+        "kind": "পিন"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "রোজ পরার নরম টি-শার্ট",
+        "kind": "পোশাক"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "ঠান্ডা সকালের জন্য",
+        "kind": "পোশাক"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "প্রথম ড্রপ",
+    "headline": "জল পান করুন। চলতে থাকুন।",
+    "intro": "যাঁরা রোজ হাজির হন, বোতল আবার ভরেন আর চেক চালিয়ে যান, তাঁদের জন্য হাইড্রেশন-ভাবনার পোশাক।",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "রোজকার উজ্জ্বল এক প্রয়োজনীয় জিনিস",
+        "kind": "টি-শার্ট"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "লম্বা হাঁটার পরের জন্য",
+        "kind": "হুডি"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "আরেকটি রঙে",
+        "kind": "টি-শার্ট"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "শান্ত, ভারী কাপড়ের লেয়ার",
+        "kind": "হুডি"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}} স্টোর নেভিগেশন",
+    "collection": "কালেকশন"
+  },
+  "hero": {
+    "action": "প্রথম ড্রপ দেখুন",
+    "mybiblelensArt": "MyBibleLens স্টোরের লোগো আর স্টিকার কোলাজ",
+    "watercheckArt": "The Water Check-এর তরল লোগো বাবল"
+  },
+  "collection": {
+    "eyebrow": "শিগগিরই আসছে",
+    "title": "আপনার দিনের অংশ হয়ে ওঠার জন্য তৈরি।",
+    "body": "এগুলোই প্রথম পিস। ড্রপ তৈরি হলে প্রোডাক্টের ছবি, অপশন আর চেকআউট লিংক এখানে দেখা যাবে।"
+  },
+  "product": {
+    "placeholder": "{{name}}-এর প্লেসহোল্ডার ছবি",
+    "buy": "এখনই কিনুন",
+    "comingSoon": "শিগগিরই আসছে",
+    "comingSoonLabel": "{{name}} শিগগিরই আসছে"
+  },
+  "checkout": {
+    "eyebrow": "অ্যাকাউন্ট লাগবে না",
+    "title": "স্টোর খুললে চেকআউট থাকবে সহজ।",
+    "body": "একটি পিস বেছে নিন, এখনই কিনুন-এ ট্যাপ করুন, আর Stripe-এর মাধ্যমে নিরাপদে চেকআউট করুন। কোনো স্টোর অ্যাকাউন্ট নেই, শপিং কার্টের গোলকধাঁধাও নেই।"
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. প্রথম ড্রপের আগেই স্টোরের নীতিমালা প্রকাশ করা হবে।",
+    "policies": "স্টোরের নীতিমালা",
+    "terms": "শর্তাবলি",
+    "privacy": "গোপনীয়তা",
+    "accessibility": "অ্যাক্সেসিবিলিটি",
+    "shipping": "শিপিং ও রিটার্ন (ড্রপের আগে)"
+  }
+}

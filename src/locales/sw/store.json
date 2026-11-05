@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Bidhaa za safari",
+    "headline": "Weka karibu kilicho muhimu.",
+    "intro": "Mkusanyiko mdogo wa bidhaa zenye maana, zilizotengenezwa kwa ajili ya maandishi, vikumbusho, na kutembea na Mungu kila siku.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Daftari lenye mwongozo",
+        "kind": "Daftari"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Kikumbusho kidogo",
+        "kind": "Pini"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Vazi laini la kila siku",
+        "kind": "Mavazi"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Kwa asubuhi zenye baridi",
+        "kind": "Mavazi"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Toleo la kwanza",
+    "headline": "Kunywa maji. Endelea kusonga.",
+    "intro": "Mavazi kwa ajili ya wapenda maji, wanaojitokeza, wanaojaza chupa tena, na wanaoendeleza Check kila siku.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Vazi angavu la kila siku",
+        "kind": "Fulana"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Kwa baada ya matembezi marefu",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Mchanganyiko wa pili wa rangi",
+        "kind": "Fulana"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Vazi zito lenye utulivu",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Urambazaji wa duka la {{store}}",
+    "collection": "Mkusanyiko"
+  },
+  "hero": {
+    "action": "Gundua toleo la kwanza",
+    "mybiblelensArt": "Nembo ya duka la MyBibleLens na kolaji ya stika",
+    "watercheckArt": "Kiputo cha nembo ya maji ya The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Inakuja hivi karibuni",
+    "title": "Zimetengenezwa kuwa sehemu ya siku yako.",
+    "body": "Hivi ni vipande vya kwanza. Picha za bidhaa, chaguo, na viungo vya malipo vitaonekana hapa toleo likiwa tayari."
+  },
+  "product": {
+    "placeholder": "Picha ya muda ya {{name}}",
+    "buy": "Nunua sasa",
+    "comingSoon": "Inakuja hivi karibuni",
+    "comingSoonLabel": "{{name}} inakuja hivi karibuni"
+  },
+  "checkout": {
+    "eyebrow": "Hakuna haja ya akaunti",
+    "title": "Likifunguliwa, malipo yatabaki rahisi.",
+    "body": "Chagua kipande, gusa Nunua sasa, na ulipe kwa usalama kupitia Stripe. Hakuna akaunti ya duka wala msururu wa kikapu cha manunuzi."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Sera za duka zitachapishwa kabla ya toleo la kwanza.",
+    "policies": "Sera za duka",
+    "terms": "Masharti",
+    "privacy": "Faragha",
+    "accessibility": "Ufikivu",
+    "shipping": "Usafirishaji na urejeshaji (kabla ya toleo)"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Felejtse el az influencereket. Ismerje meg a valódi biológiáját.",
+    "lead": "Próbálja ki az ingyenes kalkulátort fiók nélkül, aztán fedezze fel az alkalmazást, amelyet a mindennapi követéshez építünk.",
+    "appLink": "Az alkalmazás felfedezése ↓",
+    "logoLabel": "A The Water Check kalkulátor használata"
+  },
+  "intro": {
+    "kicker": "Hidratációs kalkulátor",
+    "title": "Kezdje azokkal a számokkal, amelyeket ismer."
+  },
+  "units": {
+    "legend": "Súlyegység",
+    "pounds": "Font (lb)",
+    "kilograms": "Kilogramm (kg)"
+  },
+  "weight": {
+    "labelLb": "Testsúly (lbs)",
+    "labelKg": "Testsúly (kg)",
+    "valueTextLb": "{{value}} font",
+    "valueTextKg": "{{value}} kilogramm"
+  },
+  "height": {
+    "legend": "Magasság",
+    "feet": "Magasság (ft)",
+    "inches": "Magasság (in)",
+    "centimeters": "Magasság (cm)",
+    "note": "A folyadékigény a zsírmentes testtömeget követi, ezért a magasság akkor számít a legtöbbet, ha a testsúly magas az Ön testalkatához képest."
+  },
+  "activity": {
+    "label": "Napi aktivitás (perc)",
+    "value": "{{minutes}} perc",
+    "valueText": "{{minutes}} perc"
+  },
+  "factors": {
+    "legend": "A folyadékigényt befolyásoló tényezők",
+    "intro": "Csak ott számolunk konkrét értékkel, ahol létezik megalapozott napi korrekció. A többi válasz személyre szabja a tanácsokat, anélkül hogy úgy tennénk, mintha a tudomány pontos adagot támasztana alá.",
+    "age": {
+      "label": "Életkor",
+      "hint": "Az életkor csak kontextust ad, a menopauzát nem diagnosztizálja."
+    },
+    "lifeStage": {
+      "label": "Életszakasz",
+      "hint": "Átlátható korrekciót alkalmaz terhesség vagy anyatejtermelés esetén.",
+      "options": {
+        "standard": "Általános",
+        "pregnant": "Terhes",
+        "breastfeeding": "Szoptat"
+      }
+    },
+    "sex": {
+      "label": "Nem",
+      "hint": "Nem kötelező. Pontosítja az ideális testsúly és a referencia-bevitel számítását.",
+      "options": {
+        "unspecified": "Nem szeretném megadni",
+        "woman": "Nő",
+        "man": "Férfi"
+      }
+    },
+    "luteal": {
+      "label": "A menstruáció előtti hét",
+      "hint": "Figyelembe veszi a luteális fázisban jelentkező vízvisszatartást és hormonális puffadást. Nincs mindenkire érvényes, rögzített többlet."
+    },
+    "heat": {
+      "label": "Meleg vagy párás körülmények",
+      "hint": "A hőséggel kapcsolatos tanács a kitettségtől és az izzadástól függ, nem csupán a helytől."
+    }
+  },
+  "result": {
+    "goal": "Az Ön napi célja: {{ounces}} uncia",
+    "breakdown": "A számítás részletei",
+    "weightBaseline": "Testsúlyalap",
+    "heightAndBuild": "Magasság és testalkat",
+    "sexReference": "Nem szerinti referencia",
+    "notSet": "Nincs megadva",
+    "activity": "Aktivitási korrekció",
+    "lifeStage": {
+      "standard": "Életszakasz szerinti korrekció",
+      "pregnant": "Terhességi korrekció",
+      "breastfeeding": "Szoptatási korrekció"
+    },
+    "luteal": "Tanács a luteális fázisra",
+    "noFixedOunces": "Nincs rögzített +oz",
+    "electrolytes": "Elektrolit-ellenőrzés",
+    "electrolytesAfterSweat": "Erős izzadás után érdemes",
+    "electrolytesFromFood": "Általában az étel fedezi",
+    "guidance": "Ez felnőtteknek szóló, oktatási célú tervezési becslés, nem diagnózis, kezelés vagy klinikai előírás. Az étel is tartalmaz vizet, és az egyéni igények eltérnek. Ne erőltesse a folyadékbevitelt. Kérdezzen meg egy egészségügyi szakembert a szükségleteiről, ha terhes vagy szoptat, a folyadékháztartást befolyásoló gyógyszert szed, vese- vagy szívbetegsége van, folyadékkorlátozást kell betartania, vagy aggasztó tünetei vannak."
+  },
+  "equivalents": {
+    "title": "Ez nagyjából",
+    "cups": "{{value}} csésze",
+    "cupsNote": "egyenként 8 oz",
+    "liters": "{{value}} liter",
+    "litersNote": "metrikus",
+    "bottles": "{{value}} palack",
+    "bottlesNote": "16,9 oz-os méret"
+  },
+  "eatYourWater": {
+    "kicker": "Egye meg a vizét",
+    "title": "Nem kell mindennek pohárból érkeznie.",
+    "copy": "A legtöbb ember napi vízbevitelének nagyjából ötöde ételből származik. A legtöbb friss gyümölcs és zöldség víztartalma 70 és 95 százalék között van, és amint ez a víz a véráramba jut, pontosan úgy hidratál, mint egy ital.",
+    "drink": "Ital",
+    "drinkNote": "{{cups}} csésze víz, tea vagy tej",
+    "eat": "Étel",
+    "eatNote": "vízben gazdag ételekből",
+    "pickLegend": "Mennyi ez ételben? Válasszon:",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: nagyjából {{ounces}} oz víz ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "csésze görögdinnye",
+      "serving": "1 csésze, kockázva",
+      "water": "92% víz"
+    },
+    "cucumber": {
+      "label": "uborka",
+      "serving": "1 közepes",
+      "water": "95% víz"
+    },
+    "strawberries": {
+      "label": "csésze eper",
+      "serving": "1 csésze",
+      "water": "91% víz"
+    },
+    "oranges": {
+      "label": "narancs",
+      "serving": "1 közepes",
+      "water": "87% víz"
+    },
+    "salad": {
+      "label": "tál saláta",
+      "serving": "2 csésze, vegyes",
+      "water": "körülbelül 94% víz"
+    },
+    "soup": {
+      "label": "tál tiszta leves",
+      "serving": "1 csésze",
+      "water": "körülbelül 92% víz"
+    },
+    "tomatoes": {
+      "label": "paradicsom",
+      "serving": "1 közepes",
+      "water": "95% víz"
+    },
+    "grapes": {
+      "label": "csésze szőlő",
+      "serving": "1 csésze",
+      "water": "81% víz"
+    },
+    "peaches": {
+      "label": "őszibarack",
+      "serving": "1 közepes",
+      "water": "89% víz"
+    },
+    "cantaloupe": {
+      "label": "csésze sárgadinnye",
+      "serving": "1 csésze, kockázva",
+      "water": "90% víz"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Miért számít az ételben lévő víz",
+    "title": "A görögdinnye vize is ugyanaz a víz.",
+    "sameMolecule": "<strong>Ugyanaz a molekula.</strong> Az uborkából származó H2O és a csapból folyó H2O teljesen azonos. Miután a bélből a véráramba jut, a szervezete ugyanúgy juttatja el az izmaihoz.",
+    "slowRelease": "<strong>Lassú felszabadulás.</strong> A gyümölcsökben és zöldségekben lévő vizet rostok és sejtfalak tartják meg, ezért fokozatosabban szívódik fel, mint egy gyorsan ledöntött pohár víz, amelyet a vese általában hamar kiválaszt.",
+    "electrolytes": "<strong>Elektrolitokkal együtt.</strong> Az uborka, a spenót, a dinnye és a bogyós gyümölcsök káliumot és magnéziumot tartalmaznak, vagyis olyan ásványi anyagokat, amelyek segítségével a sejtjei megtartják a vizet.",
+    "glycogen": "<strong>Üzemanyag és raktár egyszerre.</strong> Az izmok a szénhidrátot glikogénként raktározzák, és minden gramm glikogén nagyjából három gramm vízzel együtt raktározódik. A víz- és szénhidrátgazdag ételek mindkettőt biztosítják.",
+    "caveat": "Inni azért továbbra is kell. Az étel általában a teljes mennyiség nagyjából ötödét fedezi, a többi vízből és más italokból származik. Az aszalt gyümölcs, a diófélék és a kenyér nagyon kevés vizet tartalmaz."
+  },
+  "grace": {
+    "kicker": "Kedvesen a testével",
+    "title": "Röviden arról, hogy legyen elnéző önmagával",
+    "body": "A tükörkép és az, ahogy a ruhái állnak, változhat a vízvisszatartás, az emésztés, a hormonok, az alvás és más normális ingadozások miatt. Egyetlen puffadt nap nem határozza meg a testét. Igyon odafigyeléssel, adjon magának időt, és a szégyen helyét vegye át a kíváncsiság. A tartós puffadás, a duzzanat, a gyors testsúlyváltozás vagy az Önt aggasztó tünetek megérdemelnek egy beszélgetést egy egészségügyi szakemberrel."
+  },
+  "overhydration": {
+    "title": "Az erőltetett folyadékbevitel veszélye",
+    "kidneys": "A vesének időre van szüksége a víz kiválasztásához. Hosszan tartó testmozgás közben, ha gyorsabban iszik, mint ahogy folyadékot veszít, az felhígíthatja a vér nátriumtartalmát, és testmozgással összefüggő hiponatrémiát okozhat. A korai tünetek közé tartozhat a fejfájás, a hányinger, a szédülés, a fáradtság vagy a zavartság. A súlyos esetek agyödémát, görcsrohamokat, kómát és halált okozhatnak.",
+    "pacing": "Ne próbálja ezt a becslést a víz gyors ledöntésével elérni. Ossza el az italokat a nap folyamán. Testmozgás közben a bevitelt igazítsa a szomjúságához, a körülményekhez és a saját izzadási veszteségéhez. Zavartság, görcsroham, összeesés vagy súlyos tünetek esetén sürgősen kérjen orvosi segítséget.",
+    "sources": "Források: <nih>NIH: ajánlások a testmozgással összefüggő hiponatrémiáról</nih> és <academies>az amerikai Nemzeti Akadémiák folyadékbeviteli ajánlásai</academies>."
+  },
+  "notes": {
+    "title": "Mire épül az Ön becslése",
+    "sexMan": "<strong>Nem:</strong> Az amerikai Nemzeti Akadémiák referenciaértékei szerint a teljes napi vízbevitel férfiaknál körülbelül 3,7 liter, nőknél 2,7 liter. A különbség nagy részét a testsúly magyarázza, ezért a maradék itt a testsúlyalap 4 százalékos növeléseként jelenik meg, a magasság- és testalkat-ellenőrzés pedig a férfiakra vonatkozó ideálistestsúly-képletet használja.",
+    "sexWoman": "<strong>Nem:</strong> Az amerikai Nemzeti Akadémiák referenciaértékei szerint a teljes napi vízbevitel férfiaknál körülbelül 3,7 liter, nőknél 2,7 liter. A különbség nagy részét a testsúly magyarázza, ezért a maradék itt a testsúlyalap 4 százalékos csökkentéseként jelenik meg, a magasság- és testalkat-ellenőrzés pedig a nőkre vonatkozó ideálistestsúly-képletet használja.",
+    "height": "<strong>Magasság és testalkat:</strong> A folyadékigény inkább a zsírmentes testtömeget követi, mint a teljes testsúlyt. Mivel az Ön testsúlya a magasságához tartozó szokásos tartomány felett van, a becslés korrigált testsúlyt használ (ideális testsúly plusz a különbség 40 százaléka), ami bevett klinikai gyakorlat. Ez csak durva tervezési szám, nem ítélet a testéről.",
+    "cycle": "<strong>Ciklusfázis:</strong> A ciklushoz kötődő folyadékeltolódások valósak, de a kutatások nem igazolnak általános, rögzített unciás növelést. Automatikusan nem adtunk hozzá unciát. Az elektrolitokat általában a rendszeres étkezés fedezi; a magnézium- vagy káliumpótlás nem mindenkinek szóló ajánlás.",
+    "age": "<strong>Életkor és menopauza:</strong> Az életkor önmagában nem határozza meg, hogy valaki menopauzában van-e. A hormonális változások befolyásolhatják a szomjúságot és a folyadékszabályozást, de nincs igazolt, „45 év felett” érvényes unciás korrekció, ezért az életkora nem változtatta meg a végösszeget.",
+    "heat": "<strong>Hőség:</strong> Egy rögzített éghajlati ráadás alá- vagy túlbecsülheti az Ön szükségletét. Két óránál rövidebb, mérsékelt megterhelésű munkánál hőségben a NIOSH 15–20 percenként körülbelül 8 uncia folyadékot javasol; a hosszabb, erős izzadás egyénre szabott pótlási tervet igényel."
+  },
+  "evidence": {
+    "label": "Bizonyítékok:",
+    "academies": "Az amerikai Nemzeti Akadémiák vízbeviteli ajánlásai",
+    "harvard": "Harvard Health: étel és hidratálás",
+    "cycle": "Tanulmány a menstruációs ciklus alatti ozmoregulációról",
+    "menopause": "Áttekintés a menopauza alatti folyadékszabályozásról",
+    "niosh": "CDC/NIOSH: ajánlások hőség idejére"
+  },
+  "tips": {
+    "kicker": "Hasznosan, megszállottság nélkül",
+    "title": "Három ellenőrzés a való életre.",
+    "schedule": {
+      "title": "Napirend",
+      "body": "Kezdje a reggelt vízzel, kortyolgasson az étkezések mellé, a többiben pedig a szomjúság, az időjárás és az aktivitás vezesse."
+    },
+    "electrolytes": {
+      "title": "Elektrolitok",
+      "body": "A legtöbb ember a rendszeres étkezésekkel pótolja az elektrolitokat. Hosszan tartó vagy erős izzadás után válasszon kiegyensúlyozott elektrolitos italt; ne adjon hozzá rendszeresen sót, ha azt tanácsolták Önnek, hogy korlátozza a nátriumbevitelt."
+    },
+    "visualCheck": {
+      "title": "Szemrevételezés",
+      "body": "A halványsárga vizelet a hidratáltság egyik hozzávetőleges jele lehet. Az ételek, a vitaminok, a gyógyszerek és egyes egészségi állapotok megváltoztathatják a színét, ezért ez nem diagnózis."
+    }
+  },
+  "author": {
+    "kicker": "Attól, aki megépítette",
+    "title": "Miért építettem ezt (és miért ne csak rám hallgasson)",
+    "athlete": "A nevem Denzel Rigaud. Több mint kilenc évig futottam 400 méteren és gátfutásban, így a folyadékbevitel része lett annak, ahogyan edzettem, regenerálódtam, és megtanultam olvasni a testem jeleit.",
+    "purpose": "Azért építettem a The Water Checket, hogy segítsek meghallani a teste hangját az online zajban. Nem szeretném, ha a tapasztalataimat receptként kezelné. Az Ön biológiája, környezete, kórtörténete és életszakasza határozza meg, mire van szüksége.",
+    "technology": "A technológia nem arra való, hogy végtelenül görgessük a rossz híreket, és mások életét éljük. Abban kellene segítenie, hogy az életünk termékeny legyen, és jobbá tegye a szellemünket, a lelkünket, az elménket és a testünket, hogy önmagunk legjobb változatává váljunk. Úgyhogy ne hallgasson mindenki másra, mert ami Önnek beválik, az Önnek válik be.",
+    "faith": "Ismerje meg a saját mintázatait, az egészségügyi aggályaival pedig forduljon képzett szakemberhez. Ha gondját viseli a testének, ennek az edénynek, az közelebb viheti önmagához és Istenhez, aki mindannyiunkba egy szikrát helyezett, amelyet érdemes táplálni.",
+    "motto": "Ne az influencereket kövesse. Ismerje meg önmagát.",
+    "date": "2021. március 15.",
+    "founderPage": "Az alapító oldala"
+  },
+  "community": {
+    "kicker": "Maradjon emberi",
+    "title": "Csatlakozzon a valódi közösséghez.",
+    "instagram": "Kövesse a @thewatercheck fiókot az Instagramon",
+    "reelSoon": "Hamarosan Instagram Reel",
+    "story": "{{position}}. közösségi történet"
+  }
+}

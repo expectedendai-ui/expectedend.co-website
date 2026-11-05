@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "ለጉዞው የሚሆኑ ዕቃዎች",
+    "headline": "አስፈላጊውን በቅርበት ያቆዩ።",
+    "intro": "ለመጻፍ፣ ለማስታወስና ከእግዚአብሔር ጋር ለሚደረገው የዕለት ጉዞ የተሠሩ በጥንቃቄ የታሰቡ ዕቃዎች ትንሽ ስብስብ።",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "የሚመራ ማስታወሻ ደብተር",
+        "kind": "ማስታወሻ ደብተር"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "ትንሽ ማስታወሻ",
+        "kind": "ፒን"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "ለስላሳ የዕለት ተዕለት ልብስ",
+        "kind": "አልባሳት"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "ለቀዝቃዛ ጠዋቶች",
+        "kind": "አልባሳት"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "የመጀመሪያው ስብስብ",
+    "headline": "ውሃ ይጠጡ። መንቀሳቀስዎን ይቀጥሉ።",
+    "intro": "ለሚመጡ፣ ጠርሙሳቸውን ለሚሞሉና የውሃ ፍተሻቸውን ለሚቀጥሉ ሰዎች የተዘጋጁ፣ ውሃን ያሰቡ ልብሶች።",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "ደማቅ የዕለት ተዕለት አስፈላጊ ልብስ",
+        "kind": "ቲሸርት"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "ከረጅም የእግር ጉዞ በኋላ",
+        "kind": "ሁዲ"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "ሁለተኛ የቀለም አማራጭ",
+        "kind": "ቲሸርት"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "የተረጋጋ፣ ወፍራም ልብስ",
+        "kind": "ሁዲ"
+      }
+    }
+  },
+  "nav": {
+    "label": "የ{{store}} መደብር ማሰሻ",
+    "collection": "ስብስቡ"
+  },
+  "hero": {
+    "action": "የመጀመሪያውን ስብስብ ይመልከቱ",
+    "mybiblelensArt": "የMyBibleLens መደብር አርማና የተለጣፊዎች ኮላዥ",
+    "watercheckArt": "የThe Water Check ፈሳሽ አርማ አረፋ"
+  },
+  "collection": {
+    "eyebrow": "በቅርቡ ይመጣል",
+    "title": "የቀንዎ አካል እንዲሆኑ የተሠሩ።",
+    "body": "እነዚህ የመጀመሪያዎቹ ዕቃዎች ናቸው። ስብስቡ ሲዘጋጅ የምርት ፎቶዎች፣ አማራጮችና የክፍያ ሊንኮች እዚህ ይታያሉ።"
+  },
+  "product": {
+    "placeholder": "የ{{name}} ምርት ጊዜያዊ ምስል",
+    "buy": "አሁን ይግዙ",
+    "comingSoon": "በቅርቡ ይመጣል",
+    "comingSoonLabel": "{{name}} በቅርቡ ይመጣል"
+  },
+  "checkout": {
+    "eyebrow": "መለያ አያስፈልግም",
+    "title": "ሲከፈት፣ ክፍያው ቀላል ሆኖ ይቀጥላል።",
+    "body": "አንድ ዕቃ ይምረጡ፣ አሁን ይግዙ የሚለውን ይንኩ፣ በStripe በኩል ደኅንነቱ በተጠበቀ ሁኔታ ይክፈሉ። የመደብር መለያም ሆነ ውስብስብ የግዢ ጋሪ የለም።"
+  },
+  "footer": {
+    "note": "© {{year}} Expected End። የመደብሩ ፖሊሲዎች ከመጀመሪያው ስብስብ በፊት ይታተማሉ።",
+    "policies": "የመደብር ፖሊሲዎች",
+    "terms": "ውሎች",
+    "privacy": "ግላዊነት",
+    "accessibility": "ተደራሽነት",
+    "shipping": "መላኪያና ተመላሽ (ከስብስቡ በፊት)"
+  }
+}

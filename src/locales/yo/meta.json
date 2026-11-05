@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Ète, tí a kọ́ lọ́nà ẹlẹ́wà",
+    "description": "Expected End ń ṣẹ̀dá sọ́fútúwọ̀ tí a ronú jinlẹ̀ lé lórí, irinṣẹ́ iṣẹ́ ṣíṣe, ìrírí oní-nọ́ńbà, àti àwùjọ."
+  },
+  "about": {
+    "title": "Nípa wa | Expected End",
+    "description": "Ìtàn olùdásílẹ̀ Denzel Rigaud, iṣẹ́ àpinfúnni tó wà lẹ́yìn Expected End, àti àwọn iṣẹ́ àkànṣe tí a kọ́ láti inú ìgbàgbọ́ àti ète."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Olùdásílẹ̀ Expected End",
+    "description": "Denzel Rigaud ni olùdásílẹ̀ àti olùgbéejáde full-stack tó wà lẹ́yìn Expected End, MyBibleLens, Áàpù Ibi Mímọ́ Kristẹni, àti The Water Check."
+  },
+  "press": {
+    "title": "Àwọn Oníròyìn àti Mídíà | Expected End",
+    "description": "Ìtàn ìgbésí ayé tí a fọwọ́ sí, òtítọ́ tí a ti fìdí rẹ̀ múlẹ̀, ìjápọ̀ ìdánimọ̀, àti mídíà tí a lè gbà sílẹ̀ fún ìròyìn nípa Expected End àti Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Àwọn Òfin Lílo Ojú Òpó Wẹ́ẹ̀bù | Expected End",
+    "description": "Àwọn òfin tó ń darí lílo ojú òpó wẹ́ẹ̀bù Expected End."
+  },
+  "privacy": {
+    "title": "Ọ̀rọ̀ Ìpamọ́ Àṣírí | Expected End",
+    "description": "Bí Expected End ṣe ń bójú tó ìsọfúnni lórí ojú òpó wẹ́ẹ̀bù yìí."
+  },
+  "watercheck-privacy": {
+    "title": "Ìlànà Àṣírí The Water Check | Expected End",
+    "description": "Ohun tí The Water Check ń gbà, ohun tó ń wà lórí fóònù rẹ, àwọn tó ń ràn wá lọ́wọ́ láti ṣiṣẹ́ áàpù náà, àti àwọn yíyàn rẹ."
+  },
+  "watercheck-terms": {
+    "title": "Àwọn Òfin àti Ipò The Water Check | Expected End",
+    "description": "Àwọn òfin fún lílo áàpù The Water Check, pẹ̀lú ìlera àti ààbò, AI, òfin Ẹgbẹ́ àti ríra."
+  },
+  "watercheck-health-data": {
+    "title": "Ìlànà Àṣírí Ìsọfúnni Ìlera Àwọn Oníbàárà The Water Check | Expected End",
+    "description": "Bí The Water Check ṣe ń bójú tó ìsọfúnni ìlera àwọn oníbàárà, àti bí o ṣe lè wọ̀ ọ́, pa á rẹ́ tàbí bẹ̀bẹ̀ fún àtúnyẹ̀wò."
+  },
+  "watercheck-delete-account": {
+    "title": "Pa àkọọ́lẹ̀ rẹ rẹ́ | The Water Check",
+    "description": "Bí o ṣe lè pa àkọọ́lẹ̀ The Water Check rẹ àti ìsọfúnni rẹ rẹ́, nínú áàpù tàbí nípasẹ̀ ímeèlì."
+  },
+  "watercheck-community": {
+    "title": "Ìlànà Àwùjọ | The Water Check",
+    "description": "Bí àwọn Ẹgbẹ́ nínú The Water Check ṣe ń wà ní ìrẹ́pọ̀: àwọn òfin, fífi ẹjọ́ sùn àti dídènà, àti ohun tó ń ṣẹlẹ̀ nígbà tí a bá rú òfin."
+  },
+  "accessibility": {
+    "title": "Ìwọlé fún Gbogbo Ènìyàn | Expected End",
+    "description": "Ìpinnu Expected End láti pèsè ojú òpó wẹ́ẹ̀bù tí gbogbo ènìyàn lè lò."
+  },
+  "mybiblelens-store": {
+    "title": "Ilé Ìtajà MyBibleLens | Expected End",
+    "description": "Àwọn ọjà tí a ronú jinlẹ̀ lé lórí fún ìrìn tó súnmọ́ Ọ̀rọ̀ Ọlọ́run. Ilé ìtajà MyBibleLens ń bọ̀ láìpẹ́."
+  },
+  "watercheck-store": {
+    "title": "Ilé Ìtajà The Water Check | Expected End",
+    "description": "Àwọn ohun pàtàkì tí omi mímu mí sí, láti ọ̀dọ̀ The Water Check. Àkọ́jáde àkọ́kọ́ ń bọ̀ láìpẹ́."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Áàpù Omi Mímu àti Ẹ̀rọ Ìṣirò Ọ̀fẹ́",
+    "description": "Wo áàpù The Water Check, kí o sì gbìyànjú ìṣirò omi ara ọ̀fẹ́ tó jẹ́ àṣírí rẹ lórí Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Ẹ̀rọ Ìṣirò Omi Ọ̀fẹ́ | The Water Check",
+    "description": "Gba ìṣirò omi ojoojúmọ́ ọ̀fẹ́ tó jẹ́ àṣírí rẹ pẹ̀lú ẹ̀rọ ìṣirò The Water Check."
+  },
+  "not-found": {
+    "title": "A kò rí ojú ìwé náà | Expected End",
+    "description": "A kò rí ojú ìwé Expected End tí o béèrè."
+  }
+}

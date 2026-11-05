@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud ከExpected End፣ ከMyBibleLens (የክርስትና መቅደስ መተግበሪያ) እና ከThe Water Check ጀርባ ያለው መሥራችና የፉል-ስታክ ገንቢ ነው።",
+  "projects": {
+    "mybiblelens": {
+      "category": "የክርስትና መተግበሪያ",
+      "action": "መተግበሪያውን ይጎብኙ",
+      "tagline": "የክርስትና መቅደስ መተግበሪያ።",
+      "secondary": "የሕይወት ታሪክ",
+      "badge": "በApp Store ላይ"
+    },
+    "watercheck": {
+      "category": "የውሃ መጠጣት ማህበረሰብ",
+      "action": "መተግበሪያውን ይጎብኙ",
+      "tagline": "የሚጠጡትን ይረዱ። የራስዎ የውሃ ቁጥር፣ በአንድ ንክኪ።",
+      "badge": "በግምገማ ላይ"
+    },
+    "mybiblelens-store": {
+      "category": "መደብር · በቅርቡ ይመጣል",
+      "action": "ወደ መደብሩ ይግቡ",
+      "tagline": "ሊለብሱት የሚችሉት እምነት።"
+    },
+    "watercheck-store": {
+      "category": "መደብር · በቅርቡ ይመጣል",
+      "action": "ወደ መደብሩ ይግቡ",
+      "tagline": "ለውሃ መምሪያው የሚሆኑ ዕቃዎች።"
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "የእምነት መተግበሪያ · iOS",
+      "status": "በApp Store ላይ"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "የውሃ መጠጣት መተግበሪያ · iOS",
+      "status": "በግምገማ ላይ"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens ለAndroid",
+      "category": "Google Play",
+      "status": "የተዘጋ ሙከራ"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "ወሰን የሌለው ሸራ",
+      "status": "በሥራ ላይ"
+    },
+    "journey-plans": {
+      "name": "የJourney ዕቅዶች",
+      "category": "የንባብ ዕቅዶች + ማኅተሞች",
+      "status": "በሥራ ላይ"
+    },
+    "water-check-crews": {
+      "name": "የWater Check ቡድኖች",
+      "category": "የቡድን ውሃ መጠጣት",
+      "status": "ተሠርቷል"
+    },
+    "home-screen-widgets": {
+      "name": "የመነሻ ስክሪን ዊጀቶች",
+      "category": "የiOS ዊጀቶች",
+      "status": "ተሠርቷል"
+    },
+    "hydration-calculator": {
+      "name": "የውሃ ፍላጎት ማስሊያ",
+      "category": "የድር መሣሪያ",
+      "status": "በሥራ ላይ"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "የንግድ ዋና መሥሪያ ቤት መተግበሪያ",
+      "status": "በመሠራት ላይ"
+    },
+    "43-language-rollout": {
+      "name": "የ43 ቋንቋዎች ትግበራ",
+      "category": "ትርጉምና አካባቢያዊነት",
+      "status": "43 ቋንቋዎች"
+    },
+    "mybiblelens-store": {
+      "name": "የMyBibleLens መደብር",
+      "category": "የብራንድ ዕቃዎች",
+      "status": "በቅርቡ ይመጣል"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "የመተግበሪያው ድረ-ገጽ",
+      "status": "በሥራ ላይ"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "የኩባንያው ድረ-ገጽ",
+      "status": "በሥራ ላይ"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "በAI የታገዘ የመጽሐፍ ቅዱስ ጥናት",
+      "status": "የAI ማሳያ"
+    },
+    "hidden-art-world": {
+      "name": "የተደበቀ የጥበብ ዓለም",
+      "category": "በይነተገናኝ የድር ጥበብ",
+      "status": "የተደበቀ ሚስጥር"
+    },
+    "sanctuary-stickers": {
+      "name": "የመቅደስ ተለጣፊዎች",
+      "category": "የሥዕል ስብስብ",
+      "status": "550+ ተለጣፊዎች"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "የMyBibleLens ማስተዋወቂያ ፊልም",
+      "category": "የብራንድ ፊልም",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "የገጽታ አጫጭር ቪዲዮዎች",
+      "category": "የቪዲዮ ተከታታይ",
+      "status": "10 ቪዲዮዎች"
+    },
+    "look-closer-series": {
+      "name": "Look Closer ተከታታይ",
+      "category": "የማህበራዊ ሚዲያ ተከታታይ",
+      "status": "60 ልጥፎች"
+    },
+    "25-week-campaign": {
+      "name": "የ25 ሳምንት ዘመቻ",
+      "category": "የInstagram ዕቅድ",
+      "status": "100 ልጥፎች"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "የሥራ መጽሐፍ",
+      "status": "33 ክፍሎች"
+    },
+    "water-check-store": {
+      "name": "የWater Check መደብር",
+      "category": "የብራንድ ዕቃዎች",
+      "status": "በቅርቡ ይመጣል"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "መተግበሪያዎች",
+      "body": "በእውነተኛ ሰዎች ዙሪያ የተነደፉ ጠቃሚና በጥንቃቄ የታሰቡ ምርቶች።",
+      "interest": "መተግበሪያ ወይም የሶፍትዌር ሐሳብ መገንባት"
+    },
+    "02": {
+      "title": "ድረ-ገጾች",
+      "body": "ግልጽ፣ ሕያውና እንግዳ ተቀባይ ስሜት የሚሰጡ ልዩ ዲጂታል መኖሪያዎች።",
+      "interest": "ድረ-ገጽ ወይም ዲጂታል ተሞክሮ"
+    },
+    "03": {
+      "title": "የAI ሥርዓቶች",
+      "body": "ሐሳቦችና ቡድኖች ወደፊት እንዲራመዱ የሚያግዝ ተግባራዊ ብልህነት።",
+      "interest": "የAI ሥርዓት ወይም የምርታማነት መሣሪያ"
+    },
+    "04": {
+      "title": "የፈጠራ ሥራ",
+      "body": "ትርጉም በማዕከሉ ያለበት ማንነት፣ አቅጣጫና ተሞክሮ።",
+      "interest": "የፈጠራ አቅጣጫ ወይም ዲዛይን"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "ለእርስዎ ብቻ የተሠራ የንግድ መኖሪያ። CRM፣ ፋይናንስ፣ ፕሮጀክቶች፣ የቡድን መሣሪያዎች እና ቀጥሎ የሚያስፈልግዎት ማንኛውም ችሎታ፣ ሁሉም በአንድ ቦታ።",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "አውቶሜሽን",
+      "body": "ተደጋጋሚ ሥራን ንግድዎን በሚያንቀሳቅሱ በተገናኙ የሥራ ፍሰቶች ይተኩ።",
+      "interest": "አውቶሜሽን"
+    },
+    "07": {
+      "title": "የደንበኛ መግቢያዎች",
+      "body": "ለደንበኞች ወይም ለአባላት ለመገናኘት፣ ቀጠሮ ለመያዝ፣ ፋይሎችን ለማጋራትና ሂደትን ለመከታተል አንድ ያማረ ቦታ ይስጡ።",
+      "interest": "የደንበኛ መግቢያዎች"
+    },
+    "08": {
+      "title": "ዲጂታል ማዳን",
+      "body": "ለንግድዎ ከእንግዲህ የማይሠራ ሶፍትዌርን ይጠግኑ፣ ያዘምኑ ወይም እንደገና ይገንቡ።",
+      "interest": "ዲጂታል ማዳን"
+    }
+  }
+}

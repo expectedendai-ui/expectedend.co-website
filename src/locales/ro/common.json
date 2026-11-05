@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Această pagină nu este aici.",
+    "home": "Înapoi la pagina principală"
+  },
+  "legal": {
+    "englishOnly": "Această pagină este afișată în limba engleză, iar versiunea în engleză prevalează.",
+    "effective": "Data intrării în vigoare: {{date}}",
+    "onThisPage": "Pe această pagină",
+    "related": "Pagini conexe"
+  }
+}

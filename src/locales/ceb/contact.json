@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kontaka ang Expected End",
+    "title": "Sugdi sa gamay nga <em>konteksto.</em>",
+    "intro": "Pilia ang pipila ka detalye ug andamon para nimo ang usa ka klaro nga email. Moabli una ang imong email app sa dili pa adunay mapadala."
+  },
+  "fields": {
+    "name": "Imong ngalan",
+    "email": "Imong email",
+    "reason": "Bahin sa unsa kini?",
+    "project": "Unsang proyekto?",
+    "priceRange": "Range sa presyo",
+    "timeline": "Ideal nga timeline",
+    "discovery": "Giunsa nimo pagkaplag ang Expected End?",
+    "message": "Unsa ang naa sa imong hunahuna?",
+    "chooseOne": "Pilia ang usa"
+  },
+  "reasons": {
+    "partnership": "Partnership o kolaborasyon",
+    "press": "Press o media",
+    "general": "Kinatibuk-ang pangutana"
+  },
+  "projects": {
+    "waterCheckCommunity": "Ang komunidad sa The Water Check",
+    "newIdea": "Usa ka bag-ong ideya"
+  },
+  "timelines": {
+    "exploring": "Nagtan-aw-tan-aw lang",
+    "month": "Sulod sa usa ka bulan",
+    "threeMonths": "Sulod sa tulo ka bulan",
+    "laterThisYear": "Ulahi karong tuiga",
+    "notSure": "Dili pa sigurado"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Ang komunidad sa The Water Check",
+    "search": "Search",
+    "referral": "Girekomenda sa uban",
+    "elsewhere": "Sa laing dapit"
+  },
+  "submit": {
+    "note": "Walay mapadala hangtod nga imong susihon kini ug pinduton ang Send sa imong email app.",
+    "apps": "Pilia ang <app>imong email app</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, o <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Andama ang email"
+  },
+  "dialog": {
+    "close": "Isira ang contact form"
+  }
+}

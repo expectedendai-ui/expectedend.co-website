@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud akiwa amevaa miwani yenye rangi ya chungwa",
+    "stats": {
+      "gradeValue": "Darasa la 5",
+      "gradeSuffix": "",
+      "grade": "UDADISI",
+      "grief": "HUZUNI",
+      "faith": "IMANI · KURUDI"
+    },
+    "identity": "Utambulisho <b>/ Denzel Rigaud</b>",
+    "founded": "Ilianzishwa / <time>3 Machi 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Mwanzilishi na Msanidi Pekee wa Full-Stack</em>",
+    "title": "Akili <br/>Iliyo Nyuma ya <br/>Expected End",
+    "text": "Hadithi kuhusu udadisi, huzuni, imani, na kuigeuza teknolojia kuwa njia ya kusonga mbele.",
+    "cta": "Soma hadithi"
+  },
+  "ticker": {
+    "curiosity": "Udadisi",
+    "grief": "Huzuni",
+    "faith": "Imani",
+    "code": "Msimbo",
+    "purpose": "Kusudi"
+  },
+  "coordinates": {
+    "eyebrow": "Alama tatu za njia",
+    "title": "Njia ya kufika hapa haikuwa <em>mstari ulionyooka.</em>",
+    "curiosity": {
+      "label": "01 / Darasa la tano",
+      "title": "Udadisi ukawa ujuzi wa kuishi.",
+      "body": "Nilianza kwa kukataa kuruhusu kushindwa mara moja kuamue maisha yangu yote yaliyobaki.",
+      "big": "5"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Huzuni ilifunga mlango wa teknolojia.",
+      "body": "Kumpoteza baba yangu kulifanya kila ujuzi alionifundisha uwe mzito mno kuugusa."
+    },
+    "faith": {
+      "label": "03 / 25 Februari 2026",
+      "title": "Imani iliipa kazi kusudi.",
+      "body": "Nilirudi ili kujenga zana zinazowaacha watu wakiwa na nguvu zaidi kuliko walivyokuwa."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Hadithi ya mwanzilishi / Kwa sauti yangu",
+    "title": "Habari, jina langu ni <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Teknolojia imekuwa sehemu ya maisha yangu tangu darasa la tano. Shule ilinikatisha tamaa tangu nikiwa mdogo. Nilishindwa darasa la pili nikiwa nakabiliana na kizuizi cha lugha, na sikuamini kwamba kushindwa huko kunapaswa kuamua mimi ni nani. Niliamua kuanza kwa kudukua alama zangu za shule. Ilianza kidogo, lakini nilipogundua jinsi nilivyoweza kupenya mifumo kwa kina na kufanya jailbreak kwenye vifaa vya teknolojia, nilianza kuwa na udadisi kuhusu mifumo iliyonizunguka na nikaanza kufurahia.",
+      "second": "Udadisi huo ulinipeleka kwenye kuendesha mashamba ya boti za Instagram, kuandika msimbo, uendeshaji otomatiki, ujifunzaji wa mashine, jumuiya za mtandaoni, ukuaji wa kidijitali, na pembe za giza zaidi za intaneti. Nilijifunza jinsi teknolojia inavyoweza kuwa na nguvu. Baadhi ya maamuzi pia yalinifundisha kutumia busara zaidi."
+    },
+    "socials": {
+      "label": "Wasifu wa Denzel Rigaud kwenye mitandao ya kijamii",
+      "instagram": "Denzel Rigaud kwenye Instagram",
+      "linkedin": "Denzel Rigaud kwenye LinkedIn",
+      "youtube": "Denzel Rigaud kwenye YouTube"
+    },
+    "records": {
+      "label": "Rekodi huru za utambulisho",
+      "heading": "Rekodi za nje",
+      "worldAthletics": "Wasifu wa World Athletics",
+      "lynn": "Wasifu wa mwanariadha wa Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Sura ya 01",
+    "kicker": "Watu walionifundisha",
+    "title": "Gwiji wangu wa kwanza wa wavuti.",
+    "first": "Baba yangu na <brother>kaka yangu</brother> ndio walikuwa watu werevu zaidi niliowajua, lakini mara chache niliwaona. Uhusiano wetu ulikuwa wa simu. Kila sekunde niliyopata kuzungumza nao, walinifundisha kitu nilichohitaji kujua. Baada ya muda, nilijifunza kwamba bado nilipaswa kuamua mwenyewe kilicho sahihi kwangu. Baba yangu alikuwa gwiji wa wavuti, nami nilijiona siwezi kuzuilika kwenye intaneti. Kaka yangu anafanya kazi NSA.",
+    "second": "Mwaka 2021, nilihamia Florida baada ya miaka 17 ya kuishi na mama zangu wawili na dada zangu wawili. Nilinusurika, haha. Kisha nikapata kuishi na baba yangu kwa mara ya kwanza. Miezi sita baadaye, alifariki, kwa hiyo nikafunga mlango wa teknolojia kwa sababu kila ujuzi ulinikumbusha yeye.",
+    "third": "Baba yangu alikuwa Mwislamu kwa sehemu kubwa ya maisha yake. Nilifuata Uislamu kwa sehemu kwa sababu nilitaka kuwa kama yeye. Kabla hajafa, aliyatoa maisha yake kwa Kristo. Uamuzi wake ulibaki nami muda mrefu baada ya kuweka kando zana zangu mwenyewe."
+  },
+  "return": {
+    "number": "Sura ya 02",
+    "kicker": "Kurudi",
+    "title": "Nilifungua mlango tena.",
+    "first": "Nilitumia miaka mingi nikikwepa sehemu yangu iliyonikumbusha baba yangu. Bado niligusa teknolojia mara kwa mara, lakini huzuni ilifanya iwe vigumu kubaki. Nilijaza pengo hilo kwa dhambi ya tamaa za mwili na nikazidi kwenda mbali na mtu ambaye ningeweza kuwa.",
+    "second": "Mnamo Januari 2026, nilijua nilihitaji kubadilika. Niliamua kumfungua tena yule gwiji wa wavuti ambaye baba yangu alinifundisha kuwa, kuacha kuwa mtu wa mwili asiyemwamini Mungu, na badala yake nimfuate Yeye. Nilipofanya hivyo, maisha yangu yalianza kustawi.",
+    "third": "MyBibleLens ilitokana na uamuzi huo. Sikuwa na mpango kamili. Nilianza kujenga na nikaendelea kusonga. Kazi hiyo iliniwezesha kufungua mlango niliokuwa nimeufunga baada ya baba yangu kufariki. Niliirudisha The Water Check na nikaanza kuzichukua tena ndoto nilizobeba tangu utotoni."
+  },
+  "draft": {
+    "label": "Sura ya 03 / Rasimu",
+    "title": "“Ukweli Ulio Nyuma ya Msimbo”"
+  },
+  "venom": {
+    "title": "Sumu ya Kidijitali",
+    "first": "Hutokea sekunde ile ile tunapoamka. Kabla hata miguu yetu haijagusa sakafu, mkono unanyooshwa. Unashika simu. Sote tunafanya hivyo. Lakini mwendo huo mmoja wa mazoea huvuruga mara moja njia za neva za ubongo wako, na kukutupa katika hali ya wasiwasi mkubwa kabla siku hata haijaanza.",
+    "second": "Kama msanidi programu ninayefanya kazi peke yangu kwa miaka 10, na nikiwa na baba aliyekuwa mdukuzi wa usalama wa mtandao aliyefanya kazi peke yake, aliyenifundisha pande za giza na za siri za intaneti, ninaona msimbo ulio nyuma ya skrini. Ninajua hasa jinsi algorithimu inavyofanya kazi, na ukweli ni kwamba, ni sumu. Sumu nzito unayoihisi mtandaoni si asili halisi ya binadamu: ni udanganyifu uliotengenezwa kwa makusudi. Tuko chini ya mashambulizi ya kila mara ya \"pseudoism,\" ambapo sehemu za maoni zilizojaa uhasama mara chache huwa milipuko ya hiari ya watumiaji wa kawaida wa intaneti. Badala yake, ni sehemu ya mkakati wa makusudi na wa kimfumo wa propaganda za kikompyuta. Akaunti bandia na mitandao ya boti hutumwa kuingiza simulizi za kutungwa kwenye mlisho wako, zilizobuniwa mahsusi kudanganya mtazamo wa umma, kuongeza migawanyiko yetu, na kuathiri tabia yako mtandaoni.",
+    "third": "Haijalishi historia yako ya utafutaji au ya watoto wako ni safi kiasi gani, au mlisho wako unaonekana safi kiasi gani; mfumo umeundwa kukuvuta urudi. Unakuvuta kuelekea hasi, kuelekea juujuu, na kuelekea kwa wataalamu wa kutajirika haraka wanaotulazimisha kuweka Pesa juu ya Mungu (<strong>1 Timotheo 6:10</strong>), na kuzalisha watu wenye roho ya mali. Unawafanya dada zetu warembo wasijue kwamba uzuri wao wa kweli si vipodozi, si jinsi mvulana anavyomfikiria, wala si idadi ya likes za Instagram anazopata… ni moyo wake na mwenendo wake wa kimalaika mbele za Mungu. Ni mashine iliyojengwa kuteka akili yako na kudhibiti mazoea yako.",
+    "fourth": "Mtiririko huu wa kila mara wa mambo ya bandia unatunasa katika maisha ya haraka haraka, ukitupofusha tusione kwamba mambo ya kweli huchukua muda. Upendo wa kweli, ukuaji halisi, na mahusiano ya dhati yanahitaji subira, si raha ya papo hapo ambayo simu inaleta. Unadanganya ubongo utarajie msisimko wa dopamini wa kukubaliwa kila mara. Kama algorithimu zilizopangwa za ukurasa wa \"For You\", unawafanya watu wajione wana haki ya upofu kwa maoni yao wenyewe, ukiwafungia mbali na binadamu halisi na ukweli kwamba si kila mtu atakubaliana kuhusu jambo moja. Ni kujisalimisha polepole, kuruhusu teknolojia baridi na mambo ya bandia kuitawala kabisa akili ya binadamu.",
+    "fifth": "Wanataka tuvurugwe na vita hivi vilivyotengenezwa. Wanataka akili za watoto wetu ziwe uji, zikiwa zimenaswa milele kwenye ngazi ya chini kabisa ya <strong><bloom>Taksonomia ya Bloom</bloom></strong>: “kukumbuka” na kutumia tu, bila kuuliza maswali, bila kuunda, bila kuzama zaidi. Tunatazama kizazi kizima kikichelewesha <strong><erikson>hatua muhimu za maisha za Erikson</erikson></strong>, kikiwa kimepooza kwa uhalisia bandia uliopangwa wanaouona kwenye skrini, kikiogopa kukua kwa kweli kwa sababu hakuna kinachohisi halisi tena. Dunia imechoka kabisa na uongo. Kama huoni udanganyifu ulio kwenye msimbo, usijali; kizazi changu kinauona, na kizazi kijacho kitauona pia."
+  },
+  "crucible": {
+    "title": "Tanuru Lililonijenga",
+    "first": "Sikujifunza haya kwa kusoma data tu; niliyaishi: kuuza dawa za kulevya ili tu kujenga maisha niliyojiahidi, maisha ambayo yangefika kwenye mustakabali mwema. Kufukuzwa kwenye nyumba za wapendwa, kukosa makazi. Kupewa njia ya kuingia kwenye tasnia ya filamu za watu wazima nilipohitaji pesa kuliko wakati wowote, 10k zikipeperushwa mbele ya uso wangu, lakini mama alinilea kwa maadili. Kesi <court>mbili</court> mahakamani <search>nikiwa</search> sekondari. Nilianza kudukua alama zangu darasa la tano kwa sababu nilichoka kabisa kushindwa, hasa nilipogundua kwamba nilikuwa nimerudishwa darasa la pili kwa sababu ya lafudhi niliyokuja nayo. Hilo baadaye liligeuka kuwa kudukua mambo mengi zaidi… nilipomfahamu kweli <father>baba yangu</father> siku moja, ndipo nilipoona nimerithi hili kwa nani.",
+    "second": "Kwa muda mrefu sana, nilidhani Mungu asingenipokea tena baada ya yote hayo. Nilidhani nilikuwa nimepotea mbali mno. Lakini kisha nikajifunza kuhusu Mtume Paulo. Paulo aliwaua Wakristo kweli kweli, na bado Mungu aligeuka akampa zawadi kubwa. Na hapo ndipo nilipoelewa: kama Mungu angeweza kumtumia mtu kama Paulo, maisha yangu ya zamani hayakuwahi kuwa mazito mno kwake kujenga nayo mustakabali.",
+    "third": "Silika hiyo ya kuishi ilianza mapema. Kukua nikiwa nimezungukwa na wanawake 4 kwa miaka 16 kuliunda akili yangu kwa njia ambazo bado ninazifumbua. Akili yangu ilizoezwa kufanya kazi kwa wakati mmoja katika mawimbi tofauti ya kisaikolojia. Nilipitia saikolojia iliyopotoka, mahusiano tata, na udanganyifu vilivyonichonga kuwa nilivyo. Nami nawapenda kwa hilo; liliniokolea nguvu kwa wasichana pale nilipoamua kweli kutafakari kile mama zangu walichokuwa wakizungumzia. Na baada ya mioyo kuvunjika na kusalitiwa, bado ninaamini katika <chivalry>uungwana</chivalry>.",
+    "fourth": "Ninachosema ni kwamba, ili kuishi katika nyumba iliyojaa wanawake lazima ufikiri kama mmoja wao, na nilipowaacha nililazimika kuwa kijana niliye leo, pamoja na mapambano mengi niliyopitia. Yalikuwa mazingira ya vurugu, na nilipata uwazi pale tu nilipochagua kwa makusudi kuondoa dhambi yangu moja, “tamaa”, na kelele kupitia maombi. Hatimaye nilipomweka Mungu kwanza, niligundua mimi ni nani hasa. Niliona changamoto zilizonijenga si kama laana, bali kama mafunzo halisi niliyohitaji ili kumkaribia Mungu, na kujenga njia ya kutokea kwa ajili ya wengine.",
+    "fifth": "Kumpata Mungu kulinifanya nijifunze zaidi kuhusu nafsi yangu. Kumfuata Mungu kulinifundisha kuhusu majeraha yangu na vipawa vyangu, na kujielewa kulinifanya nitamani kumjua Yeye zaidi. Hapo ndipo maisha yangu yalipoanza kustawi: nilikuwa na mwelekeo, kusudi, na sababu ya kutunza kile Mungu alichonipa. The Water Check ni sehemu ya dhamira hiyo. Kuzingatia kinachoathiri mwili wako kunaweza kukusaidia kuelewa na kumtunza mtu ambaye Mungu alikuumba uwe. Ninataka kujenga teknolojia inayokusaidia kuwa toleo lenye uwezo zaidi la mtu huyo.",
+    "mission": "Kila kitu ninachojenga chini ya kampuni hii kinaelekea dhamira ile ile: kuwaleta watu karibu na Mungu na kuwasaidia kutumia teknolojia kuishi, kuunda, kupenda, na kutumikia kwa makusudi. Huo ndio mwisho unaotarajiwa ninaoufanyia kazi.",
+    "connect": {
+      "label": "Mfuate Denzel Rigaud",
+      "youtube": "Expected End kwenye YouTube",
+      "instagram": "Mfuate Denzel Rigaud kwenye Instagram",
+      "linkedin": "Ungana na Denzel Rigaud kwenye LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Faili binafsi / kumbukumbu 04",
+    "title": "Hifadhi ya kumbukumbu",
+    "text": "Watu, vyumba, na kazi halisi nyuma ya msimbo. Pakua picha yoyote na uihifadhi.",
+    "number": "Kumbukumbu {{number}}",
+    "download": "Pakua kumbukumbu {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel akiwa mtoto pamoja na baba yake",
+        "title": "Baba yangu na mimi"
+      },
+      "work": {
+        "alt": "Denzel akifanya kazi kwenye kompyuta mpakato pamoja na washirika wawili kuzunguka meza",
+        "title": "Kazi kuzunguka meza"
+      },
+      "workspace": {
+        "alt": "Mahali pa kazi pa MyBibleLens na The Water Check",
+        "title": "Mahali MyBibleLens ilipochukua umbo"
+      },
+      "archive": {
+        "alt": "Hifadhi ya video za Real Work ya Denzel kwenye simu yake",
+        "title": "Hifadhi ya Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Mwisho wa matangazo / Kazi inaendelea",
+    "title": "Tujenge kitu kinachowarudishia watu <em>maisha yao.</em>",
+    "text": "Kwa programu zilizofikiriwa vizuri, mazungumzo na vyombo vya habari, au mwanzo wa wazo zuri, fungua mawasiliano kupitia Expected End.",
+    "contact": "Wasiliana na Expected End",
+    "back": "Rudi kwenye kampuni"
+  },
+  "verse": {
+    "version": "Swahili Union Version",
+    "reference": "Yeremia 29:11",
+    "text": "Maana nayajua mawazo ninayowawazia ninyi, asema BWANA, ni mawazo ya amani wala si ya mabaya, kuwapa ninyi tumaini siku zenu za mwisho.",
+    "close": "Funga mstari wa Biblia"
+  },
+  "bio": {
+    "eyebrow": "Kutoka kwa Mwanzilishi",
+    "title": "Nini kiliipata @thewatercheck?",
+    "close": "Funga wasifu",
+    "first": "Kuanzia umri wa miaka 15, nilikuwa nikisimamia na kukuza kurasa za washawishi na za maudhui huku bado nikikuza mradi wangu mwenyewe, @thewatercheck.",
+    "second": "Baadaye nilihamia kwa baba yangu nikiwa na miaka 17, na akaunti ilikuwa ikifa kwa sababu <em>“Ukiwakimbiza sungura wawili, hutamkamata hata mmoja.”</em> <proverb>(methali ya Kirusi)</proverb> Katika umri huo, nilijali pesa tu. Sikuwa nikiipa @thewatercheck juhudi zangu zote.",
+    "third": "Kisha <father>baba yangu</father> alifariki ghafla tarehe <strong>10 Julai 2021.</strong> Niliingia katika hali ya kujinusuru, nikijiuliza maisha yangu yanaelekea wapi. Ili kukabiliana na maumivu ya kifo chake, nilifunga mlango wa kuwa gwiji wa wavuti ambaye baba yangu aliwahi kunifundisha kuwa, hadi <strong>Januari 2026.</strong>",
+    "stat": {
+      "from": "Wafuasi 200,000",
+      "to": "7,000",
+      "caption": "Hapo ndipo ilipo sasa."
+    },
+    "what": {
+      "eyebrow": "Kwa hiyo ilikuwa nini?",
+      "title": "Kikumbusho rahisi ambacho watu walikipenda.",
+      "first": "The Water Check ilikuwa hivi tu: nilichapisha picha kila siku kuwakumbusha watu kunywa maji, na kweli iliwasaidia kunywa maji. Sehemu ya maoni <em>ilifurika</em> watu. Hilo ndilo pekee lililofanya, na watu walilipenda.",
+      "second": "Kisha boti ilifuta kila kitu kwenye ukurasa, na maisha yakaendelea kutoka hapo."
+    }
+  },
+  "footer": {
+    "line": "Teknolojia haipo ili tusogeze skrini bila mwisho na kuishi maisha ya watu wengine. Inapaswa kuboresha roho, nafsi, akili, na mwili wetu.",
+    "sign": "Mwanzilishi, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Urambazaji wa chini ya ukurasa",
+    "build": "Ninachojenga",
+    "pressKit": "Kifurushi cha vyombo vya habari",
+    "find": "Nipate",
+    "finePrint": "Maandishi madogo",
+    "terms": "Masharti ya Matumizi",
+    "privacy": "Taarifa ya Faragha",
+    "accessibility": "Ufikivu",
+    "contact": "Mawasiliano",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Haki zote zimehifadhiwa.",
+    "blessing": "Yesu anakupenda."
+  },
+  "egg": {
+    "label": "Ingia kwenye ulimwengu wa sanaa uliofichwa",
+    "armed": "Bonyeza mara moja zaidi kuingia kwenye ulimwengu wa sanaa uliofichwa."
+  }
+}

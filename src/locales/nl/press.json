@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Pers & media",
+    "title": "Persmateriaal over Expected End.",
+    "intro": "Goedgekeurde biografieën, geverifieerde feiten en downloadbare media voor berichtgeving over Expected End en oprichter Denzel Rigaud.",
+    "downloadPortrait": "Portret downloaden"
+  },
+  "inquiry": "Persaanvraag starten",
+  "role": "Oprichter en full-stack developer",
+  "portrait": {
+    "alt": "Denzel Rigaud in een marineblauw pak en met een oranje getinte bril"
+  },
+  "contents": {
+    "label": "Onderdelen van de perspagina",
+    "kit": "Perskit / 2026",
+    "biographies": "Biografieën",
+    "facts": "Geverifieerde feiten",
+    "projects": "Projecten",
+    "licensing": "Gebruik van media"
+  },
+  "bios": {
+    "kicker": "Goedgekeurde tekst",
+    "title": "Biografieën",
+    "text": "Deze versies mogen voor redactionele berichtgeving worden geciteerd of aangepast.",
+    "shortLabel": "Korte bio / 24 woorden",
+    "fullLabel": "Volledige bio",
+    "fullFirst": "Denzel Rigaud richtte EXPECTEDEND LLC op en bouwde MyBibleLens en The Water Check zelfstandig. Hij is de full-stack developer van het bedrijf en vormt elk product van concept via ontwerp en ontwikkeling tot release.",
+    "fullSecond": "Zijn werk richt zich op software met geloof als middelpunt, digitaal welzijn en praktische tools die mensen helpen technologie bewust te gebruiken. MyBibleLens is een heiligdomsapp voor het christelijk geloof. The Water Check combineert een privé schatting van je vochtbehoefte, praktische drinkgewoonten en een community die draait om dagelijkse consistentie."
+  },
+  "facts": {
+    "kicker": "Factsheet",
+    "title": "Geverifieerde feiten",
+    "text": "Officiële gegevens voor profielen, artikelen, bijschriften en databases.",
+    "company": "Bedrijf",
+    "founder": "Oprichter",
+    "role": "Rol",
+    "products": "Producten",
+    "productsValue": "MyBibleLens en The Water Check",
+    "website": "Officiële website",
+    "profile": "Profiel van de oprichter",
+    "entityLabel": "{{name}} op Wikidata"
+  },
+  "projects": {
+    "kicker": "Producten",
+    "title": "Het werk",
+    "text": "Twee producten, zelfstandig gebouwd onder Expected End.",
+    "mybiblelens": {
+      "alt": "App-icoon van MyBibleLens",
+      "kicker": "Software met geloof als middelpunt",
+      "text": "De heiligdomsapp voor het christelijk geloof.",
+      "visit": "Bezoek MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "App-icoon van The Water Check",
+      "kicker": "Hydratatie en community",
+      "text": "Een privé schatting van je vochtbehoefte, praktische drinkgewoonten en community.",
+      "visit": "Bezoek The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Gebruik van media",
+    "title": "Portret van de oprichter",
+    "text": "Het portret mag worden gedeeld en aangepast onder de licentie <license>Creative Commons Naamsvermelding-GelijkDelen 4.0</license>. Credit: Denzel Rigaud / Expected End. Aanpassingen moeten dezelfde licentie gebruiken.",
+    "download": "Portret van de oprichter downloaden"
+  },
+  "contact": {
+    "kicker": "Perscontact",
+    "title": "Een interview, citaat of extra bestand nodig?"
+  }
+}

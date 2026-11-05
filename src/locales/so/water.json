@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Abka",
+      "drinkCheck": "Drink Check",
+      "guide": "Hagaha",
+      "widgets": "Widget-yada",
+      "progress": "Horumar",
+      "pricing": "Qiimaha",
+      "faq": "Su'aalaha la is weydiiyo",
+      "calculator": "Xisaabiye"
+    },
+    "hero": {
+      "title": "Biyo cab.<break/>Annaga ayaa <em>tirinayna</em>.",
+      "sub": "Tiradaada biyaha ee gaarka ah, cabbitaanno aad iskaan garayn karto, jidhkaaga oo dallacaya, widget aad dhab ahaan haysan doonto, iyo kalluun-buufin la yidhaahdo Bubbles oo ku tusaya meelaha. Xeerka hal galaan ma jiro, saameeyayaal ma jiraan, dambi-dareen ma jiro.",
+      "comingSoon": "Dhowaan ayuu imanayaa",
+      "appStoreLead": "Ka soo deji",
+      "appStore": "App Store",
+      "googlePlayLead": "Ka hel",
+      "googlePlay": "Google Play",
+      "calculator": "Isku day xisaabiyaha bilaashka ah",
+      "instagram": "Raac The Water Check ee Instagram",
+      "note": "Hadda waxaa lagu eegayaa App Store. Xisaabiyuhu waa bilaash, iskana diiwaangelin uma baahna.",
+      "todayAlt": "Shaashadda Maanta ee The Water Check: 40 oz oo ka mid ah hadaf 81.2 oz ah, oo leh badhamada degdegga ah ee wax lagu daro iyo diiwaanka maanta",
+      "widgetsAlt": "Istuudiyaha widget-ka, oo muujinaya widget Jidh ah oo Hologaraam ah iyo safaf qaabab widget ah",
+      "bubblesLabel": "Bubbles u sheeg inuu ciyaar sameeyo",
+      "bubblesSay": "Haye, waxaan ahay Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "qaabab widget",
+      "pearls": "luulo Hagaha ah oo la helayo",
+      "foods": "cuntooyin biyo badan, la sawiray",
+      "languages": "luuqadood"
+    },
+    "sixty": {
+      "kicker": "Sababta ay muhiim u tahay",
+      "title": "Jidhkaagu waa 60% biyo.",
+      "lede": "Ma aha bartilmaameed lagu gaaro. Biyahaasi hadda ayay shaqaynayaan: waxay qaadaan oksijiin, waxay jilciyaan kala-goysyadaada, way ku qaboojiyaan, waxayna saaraan waxaad u baahnayn. Baahiyahaagu waxay isbeddelaan iyadoo ku xidhan dhaqdhaqaaqa, cimilada iyo caafimaadka.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Siddeed midab oo ka bilaabma jaalle caws khafiif ah ilaa dahab mugdi ah, loo qaybiyay Biyo ku filan, Wax ku dar, iyo Hadda cab",
+      "wellHydrated": "Biyo ku filan",
+      "topUp": "Wax ku dar",
+      "drinkNow": "Hadda cab",
+      "fine": "Calaamad qiyaas ah, ma aha ogaansho cudur. Cuntada, fiitamiinnada iyo daawooyinku dhammaantood way beddelaan midabka. Abku wuxuu sharxayaa heer kasta iyo goorta aad la hadlayso xirfadle caafimaad."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Hal mar iskaan garee. Ogow. Kadib mar walba hal taabasho.",
+      "lede": "Iskaan garee baarkoodka, bilaash oo inta aad rabto. Baarkood ma leh? Haddii aad jirto 18 sano ama ka weyn, sawir qaad, abkuna wuxuu akhrinayaa calaamadda. Labada habba, waxaad arkaysaa sonkorta oo lagu cabbiray qaaddooyin shaah, kafeynta, electrolytes-ka, iyo walax kasta oo lagu calaamadeeyay Fiican, Caadi, Feejignow ama Ka fogow.",
+      "scoresLabel": "Midabada dhibcaha Drink Check",
+      "scores": {
+        "great": "Aad u fiican",
+        "good": "Fiican",
+        "okay": "Dhexdhexaad",
+        "poor": "Liita"
+      },
+      "ticks": {
+        "electrolytes": "Electrolytes-ka calaamadda: sodium, potassium, magnesium iyo calcium, oo ay la socdaan Qiimayaashooda Maalinlaha ah.",
+        "save": "Kaydi (magac cusub u bixi haddii aad rabto), marka xigtana waa hal taabasho oo ah bogga Ku dar. Iskaan cusub looma baahna.",
+        "food": "Dadka waaweyni cunto ayay sawir ka qaadi karaan: cambe wuxuu ku darmayaa cambahaaga, wax cusubna wuxuu noqonayaa xumbo u gaar ah.",
+        "journal": "Buug-xusuuseedka Cabitaannadaadu wuxuu kaydiyaa sida cabbitaan kastaa kaa dareensiiyay, telefoonkaaga dhexdiisa."
+      },
+      "fine": "Akhris degdeg ah oo calaamadda ah, ma aha baadhis shaybaadh ama qiimaynta summad kasta. Natiijooyinka baarkoodka waxay ka yimaadaan Open Food Facts, AI-guna wuu khaldami karaa, ee hubi calaamadda dhabta ah, gaar ahaan xasaasiyadda. Sawirkaaga ma kaydinno.",
+      "alt": "Natiijo Drink Check oo cabbitaan isboorti ah: dhibco 66, Fiican, oo leh sonkorta, kafeynta iyo electrolytes-ka calaamadda"
+    },
+    "foods": {
+      "kicker": "Cuntaduna waa la xisaabiyaa",
+      "title": "Qiyaastii shan meelood meel biyahaaga waxay ku yimaadaan saxan.",
+      "lede": "Bogga Ku dar waa bog ay ku yaalaan xumbooyin miro ah oo la sawiray, saf kastana saddex: xabxab, qajaar, istarooberi, cambe iyo kuwo kale. Taabo + waana lagu daraa, iyadoo Ka noqo uu halkaas joogo. Cuntooyinka aad ugu badan tahay inaad ku darto ayaa hore u soo dhaqaaqa.",
+      "ticks": {
+        "amounts": "Galaas, dhalo ama qaddar kasta, mid kasta hal taabasho.",
+        "caffeine": "Dadka kafeega cabba waxay helayaan kaarka kafeynta oo iskiis isu buuxiya.",
+        "ring": "Goobaab xagga sare ah ayaa muujinaysa cuntada lagu xisaabinayo maalintaada."
+      },
+      "alt": "Bogga Ku dar: goobaab xagga sare ah, badhamada cabbitaanka, kaarka kafeynta iyo xumbooyinka cuntooyinka biyaha badan leh"
+    },
+    "guide": {
+      "kicker": "Hagaha The Water Check",
+      "title": "Dillaaci xumbo. Hayso luul.",
+      "lede": "Cutub kastaa waa xumbo su'aal ku qoran tahay, dhammaantoodna waa bilaash. Maxaad u dareentaa “baytari dhammaanaya”? Kaadidaadu maxay kuu sheegaysaa? Hal galaan maalintii ma run baa? Mid ilaa dhammaadka akhri, wuxuuna isu beddelayaa luul. Qiyaastii lix kasta midkood waa luul dahab ah oo naadir ah.",
+      "electric": "Jidhkaaga korontada leh: lix cutub oo ku saabsan calaamadda, sodium iyo potassium, magnesium iyo calcium, iyo tamarta.",
+      "forHerKicker": "Haweenka",
+      "forHer": "Cutubyo midab ubax leh oo ku saabsan jidhka haweenka iyo biyaha: kaadi casaan khafiif ah ama jaalle dhalaalaya, bararka xilliga caadada, sababta caabuqa kaadi-mareenku (UTI) ugu badan yahay haweenka, kaadi yar oo kaa soo baxda markaad qososho, uurka iyo caado-joogsiga. Naxariis leh, cad, ilo leh.",
+      "fine": "Cutub kastaa wuxuu taxayaa ilihiisa wuxuuna sheegayaa goorta aad takhtar u tagayso. Wuxuu abaalmariyaa fahamka, ma aha wakhtiga shaashadda: maalmo isku xigta ma jiraan, cadaadis ma jiro.",
+      "alt": "Hagaha The Water Check: cutubyada Jidhkaaga korontada leh oo ah xumbooyin su'aalo ah"
+    },
+    "widgets": {
+      "kicker": "Widget-yada",
+      "title": "<count>89</count> qaab oo loogu talagalay shaashaddaada hore.",
+      "lede": "Ciyaaro, meelo, xilliyo, nolosha badda iyo naqshado, cabbirro yar, dhexdhexaad iyo weyn ah, oo leh qaabayn ka bilaabanta goobaabo ilaa hirar. Noo sheeg ciyaartaada markaad isdiiwaangelinayso, widget-ka ciyaartaaduna ayaa ugu horrayn soo muuqanaya. Cabbitaan si toos ah uga diiwaangeli shaashaddaada hore.",
+      "ticks": {
+        "body": "Jidh: muuqaalka jidhkaaga ayaa ka buuxsamaya biyaha maalinta. Dhimbiil: baytari ayaa ka buuxsamaya dallacaadda maanta.",
+        "charge": "Mitirka Dallacaadda geli widget kasta si aad ula socoto electrolytes-kaaga halkii biyahaaga."
+      },
+      "chips": {
+        "body": "Jidh",
+        "spark": "Dhimbiil",
+        "running": "Orod",
+        "crossCountry": "Orod Dhul-mareen",
+        "volleyball": "Kubadda laliska",
+        "basketball": "Kubadda koleyga",
+        "seaTurtle": "Diin Badeed",
+        "jellyfish": "Jelifish",
+        "beach": "Xeeb",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Xilliyada"
+      },
+      "alt": "Istuudiyaha widget-ka oo leh widget-ka Jidh oo Hologaraam ah, midabadiisa, qaabayntiisa iyo mitirka Dallacaadda"
+    },
+    "progress": {
+      "kicker": "Horumar",
+      "title": "Arag waxa ku jira cabbitaannadaada, baar baar.",
+      "lede": "Maanta oo ah baarar fudud oo bidix ilaa midig ka buuxsama: biyaha marka loo eego tiradaada, kadibna sodium, potassium, magnesium iyo calcium oo ka yimid cabbitaannada aad iskaan gareysay, iyo weliba kafeynta iyo sonkorta. Taabo baar kasta si aad u aragto cabbitaannada ka dambeeya. Kalandarku wuxuu muujinayaa maalin kasta dhinac dhinac, oo ay la socdaan maalmahaaga isku xiga.",
+      "ticks": {
+        "dailyValues": "Electrolytes-ka waxaa lagu cabbiraa Qiimayaasha Maalinlaha ah ee ku qoran calaamadda Nafaqada (Nutrition Facts).",
+        "caffeine": "Kafeynta waxaa la barbar dhigaa 400 mg, qaddarka FDA u qabato dadka waaweyn ee caafimaadka qaba intooda badan, sonkortana 50 g.",
+        "journal": "Buug-xusuuseedka Cabitaannadaadu wuxuu si toos ah uga hooseeyaa baararka: cabbitaan kasta oo aad iskaan gareysay iyo sida uu kaa dareensiiyay.",
+        "real": "Tiro kastaa waxay ka timaadaa wax aad diiwaangelisay ama iskaan gareysay. Waxba male laguma sameeyo."
+      },
+      "fine": "Tixraacyo, ma aha hadafyo, mana aha talo caafimaad. Haddii aad sabab caafimaad ula socoto sodium-kaaga ama potassium-kaaga, raac talada takhtarkaaga.",
+      "alt": "Horumar: biyaha oo gaadhay 83% tirada maalinta, kadibna sodium, potassium, magnesium, calcium, kafeyn iyo sonkor oo baarar ah"
+    },
+    "crew": {
+      "kicker": "Bishaada iyo dadkaaga",
+      "title": "Daawo sida ay isugu darmayso. Keen saaxiibbadaa.",
+      "calendarAlt": "Kalandarka: maalin kastaa waxay u buuxsantaa sida galaas, oo leh maalmaha la diiwaangeliyay, maalmaha hadafka la gaadhay iyo maalmo isku xiga",
+      "calendarTitle": "Biyahaaga, maalin maalin",
+      "calendarBody": "Maalin kasta oo aad diiwaangeliso waxay u buuxsantaa sida galaas. Maalmaha hadafka la gaadhay, maalmaha isku xiga iyo calaamadaha hirka, waxayna kula raacaysaa telefoon cusub.",
+      "crewAlt": "Koox la yidhaahdo Track team oo leh farriimo dhiirrigelin degdeg ah",
+      "crewTitle": "Koox",
+      "crewBody": "Kooxo casuumaad keliya lagu galo oo is dhiirrigeliya. Saaxiibbadu waxay arkaan boqolleyda aad ka gaadhay hadafkaaga iyo maalmahaaga isku xiga, weligoodna ma arkaan ows-kaaga ama jidhkaaga. Soo sheeg iyo Xannib had iyo jeer way joogaan."
+    },
+    "bubbles": {
+      "kicker": "La kulan Bubbles",
+      "title": "Hagahaagu waa kalluun-buufin.",
+      "lede": "Bubbles waa Sarkaalka Ladnaanta ee Waaxda. Maalintaada ugu horreysa wuxuu kugu wareejinayaa abka, mana joojin karo inuu is muujiyo. Bal wax u sii uu sameeyo.",
+      "tricksLegend": "Ciyaaraha Bubbles",
+      "tricks": {
+        "puff": "Isbarar",
+        "spin": "Wareeg",
+        "flip": "Gadaal isu rog",
+        "wave": "Gacan haadi",
+        "cheer": "Dhammaad weyn"
+      }
+    },
+    "pricing": {
+      "kicker": "Qiimaha",
+      "title": "Bilaash ku bilow. Wax walba, hal mar.",
+      "free": {
+        "title": "Bilaash",
+        "sub": "Wax kasta oo aad u baahan tahay si aad u cabto biyo ku filan.",
+        "items": {
+          "number": "Tiradaada biyaha ee gaarka ah",
+          "log": "Diiwaangeli cabbitaannada iyo cuntooyinka biyaha badan leh",
+          "barcode": "Iskaanka baarkoodka, bilaash oo aan xad lahayn",
+          "photo": "Hal iskaan sawir oo bilaash ah (18 sano iyo ka weyn)",
+          "guide": "Cutub kasta oo Hagaha ah",
+          "widgets": "Widget-yada Caadi iyo Xilliyada, iyo widget-yada Jidh iyo Dhimbiil ee aasaasiga ah",
+          "crew": "Kalandarkaaga, maalmahaaga isku xiga iyo Kooxda saaxiib"
+        }
+      },
+      "forever": {
+        "tag": "Sannadka furitaanka",
+        "title": "Wax Walba Weligaa",
+        "sub": "Hal iibsasho, rukummo la'aan.",
+        "items": {
+          "widgets": "Qaab kasta iyo midab kasta oo widget ah",
+          "bars": "Baararka electrolytes-ka, kafeynta iyo sonkorta",
+          "journal": "Buug-xusuuseedka Cabitaannadaada",
+          "photos": "Iskaanno sawir oo dheeraad ah (18 sano iyo ka weyn)",
+          "summaries": "Soo koobidyo PDF ah oo 30 iyo 90 maalmood ah",
+          "crews": "Samee Kooxahaaga",
+          "later": "Wax kasta oo aan hadhow ku darno"
+        },
+        "note": "Waxaa la bixinayaa inta lagu jiro sannadkayaga furitaanka. Kadib, The Water Check waxay u guuri kartaa qorshe bille ah, iibsasho hal mar ah oo la sameeyay ka hor waqtigaasna way furnaan doontaa. Qiimaha waxaa lagu muujinayaa App Store ama Google Play ka hor intaadan iibsan."
+      }
+    },
+    "privacy": {
+      "kicker": "Xogtaada",
+      "title": "Waxa ku hadha telefoonkaaga, iyo waxa aan ku hadhin.",
+      "phoneTitle": "Waxay ku hadhaan telefoonkaaga",
+      "phoneBody": "Buug-xusuuseedka Cabitaannadaada, cabbitaannada iyo cuntooyinka la kaydiyay, luulada Hagaha, fadhiyada tababarka, qoraallada wareegga iyo xusuusinta.",
+      "accountTitle": "Waxaa lagu hayaa akoonkaaga",
+      "accountBody": "Gelitaankaaga, jawaabaha isdiiwaangelinta, cabbitaan iyo cunto kasta oo aad diiwaangeliso iyo wakhtigeeda, wadarta biyaha maalinlaha ah iyo Kooxdaada, si ay kuula raacaan telefoon cusub.",
+      "neverTitle": "Marnaba",
+      "neverBody": "Macluumaadkaaga ma iibinno mana la wadaagno shabakadaha xayaysiinta. Ma kaydinno sawirradaada Drink Check.",
+      "links": {
+        "privacy": "Siyaasadda Qarsoonnimada",
+        "healthData": "Siyaasadda Xogta Caafimaadka Macaamiisha",
+        "deleteAccount": "Tirtir akoonkaaga"
+      }
+    },
+    "calculator": {
+      "kicker": "Bilaash, isdiiwaangelin la'aan",
+      "title": "Ka bilow tirooyinka aad taqaanno.",
+      "lede": "Miisaankaaga, dhererkaaga, inta aad dhaqaaqdo. Xisaabiyuhu wuxuu ku siinayaa hadaf maalinle ah qiyaastii labaatan ilbiriqsi gudahood, wuxuuna muujinayaa xisaabtiisa si aad ula doodi karto. Wuxuu ka shaqeeyaa browser-kaaga.",
+      "chips": {
+        "weight": "Saldhigga miisaanka",
+        "height": "Dhererka iyo qaab-dhismeedka",
+        "activity": "Hagaajinta dhaqdhaqaaqa",
+        "lifeStage": "Marxaladda nolosha",
+        "heat": "Kulayl iyo qoyaan",
+        "electrolytes": "Hubinta electrolytes-ka"
+      },
+      "open": "Fur xisaabiyaha",
+      "fine": "Qiyaas waxbarasho oo qorshayn ah oo loogu talagalay dadka waaweyn, ma aha ogaansho cudur ama qoraal daawo. Ha isku qasbin cabbitaanka dareeraha. Weydii xirfadle caafimaad haddii aad uur leedahay ama naas nuujinayso, aad qaadato daawooyin saameeya isu-dheelitirka dareeraha jidhka, ama aad qabto xanuun kelyaha ama wadnaha ah."
+    },
+    "faq": {
+      "kicker": "Su'aalo",
+      "title": "Jawaabaha daacadda ah.",
+      "items": {
+        "medical": {
+          "q": "The Water Check ma talo caafimaad baa?",
+          "a": "Maya. Waa ab ladnaan guud. Tiradaada biyuhu waa qiyaas waxbarasho, ma aha qoraal daawo, waxba oo abka ku jira ma ogaanayaan mana daaweeyaan wax cudur ah. Haddii aad uur leedahay ama naas nuujinayso, aad qaadato daawo saamaysa dareeraha, ama aad qabto xanuun kelyaha, wadnaha ama xaalad kale, weydii takhtarkaaga waxa kuu habboon."
+        },
+        "number": {
+          "q": "Tiradaydu xaggee bay ka timaadaa?",
+          "a": "Waxay ka timaadaa miisaankaaga, dhererkaaga, dhaqdhaqaaqaaga, cimilada iyo marxaladda noloshaada, iyadoo laga bilaabayo hagitaan dadweyne sida tixraacyada biyaha ee US National Academies. Xisaabiyaha bilaashka ahi wuxuu muujinayaa xisaabtiisa, si aad u aragto tallaabo kasta. Waa meel laga bilaabo, ma aha xeer."
+        },
+        "scan": {
+          "q": "Maxaa dhaca markaan cabbitaan iskaan gareeyo?",
+          "a": "Iskaanka baarkoodku wuxuu u diraa oo keliya lambarka baarkoodka Open Food Facts, oo ah kayd xogeed cunto oo bilaash ah oo furan, wuxuuna soo celiyaa waxa calaamaddu sheegayso. Sawirka, oo loogu talagalay dadka waaweyn ee 18 sano iyo ka weyn, wuxuu maraa server-kayaga ilaa Gemini AI ee Google, kaas oo akhriya calaamadda oo soo celiya waxa uu helay. Sawirkaaga ma kaydinno; Google waxay xog u hayn kartaa muddo xaddidan iyadoo raacaysa shuruudaheeda. Calaamadaha iyo AI-gu way khaldami karaan, ee hubi calaamadda dhabta ah, hana u isticmaalin Drink Check xasaasiyadda ama cuntooyinka caafimaadka."
+        },
+        "phone": {
+          "q": "Maxaa ku hadha telefoonkayga?",
+          "a": "Buug-xusuuseedka Cabitaannadaada, cabbitaannada iyo cuntooyinka la kaydiyay, luulada Hagaha, fadhiyada tababarka, jawaabta wareegga iyo qoraallada wareegga, inkastoo kaydka telefoonkaaga uu ku dari karo. iPhone-ka, jimicsiyada aad u oggolaato abka inuu ka akhriyo Apple Health sidoo kale waxay ku hadhaan telefoonkaaga, weligoodna noo lama soo diro. Jawaabaha isdiiwaangelintaada, cabbitaan iyo cunto kasta oo aad diiwaangeliso iyo wakhtigeeda, iyo wadartaada maalinlaha ah waxaa lagu hayaa akoonkaaga si ay kuula raacaan telefoon cusub. Macluumaadkaaga ma iibinno."
+        },
+        "audience": {
+          "q": "Yaa loogu talagalay?",
+          "a": "Qof kasta oo jira 13 sano ama ka weyn. Haddii aad ka yar tahay 18, ku isticmaal oggolaanshaha waalid ama mas'uul. Soonka Miraha, diiwaangelinta khamriga iyo iskaannada sawirku waxay u yihiin dadka waaweyn oo keliya. Abku wuxuu raacaa da'da aad sheegto, ee fadlan run ka jawaab. Haddii aad tahay 13 ilaa 17, tiradaada la hubi waalid ama dhakhtar."
+        },
+        "cost": {
+          "q": "Immisa ayay ku kacdaa?",
+          "a": "Abka bilaash ayaa lagu bilaabaa: hel tiradaada, diiwaangeli biyaha iyo cuntada, iskaan garee baarkood kasta, akhri cutub kasta oo Hagaha ah, ku biir Koox, oo isticmaal widget-yada Caadi, Xilliyada, Jidh iyo Dhimbiil. Inta lagu jiro sannadkayaga furitaanka, hal iibsasho oo ikhtiyaari ah ayaa furaysa wax walba, hal mar, rukummo la'aan. App Store ama Google Play ayaa ku tusaya qiimaha lacagtaada ka hor intaadan iibsan."
+        },
+        "deleteAccount": {
+          "q": "Sideen u tirtiraa akoonkayga?",
+          "a": "Abka dhexdiisa: Xogtaada, kadib Dejinta, kadib Tirtir akoonka. Isla markiiba wuu baxayaa. Ab ma haysatid? Boggayaga Tirtir akoonkaaga ayaa sharxaya sida iimayl loogu codsado."
+        },
+        "download": {
+          "q": "Goorma ayaan soo dejin karaa?",
+          "a": "The Water Check waxaa lagu eegayaa App Store, waxaana lagu tijaabinayaa Google Play, labadabana dhowaan ayay imanaysaa. Raac @thewatercheck ee Instagram si aad u ogaato marka ugu horreysa."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Faham waxaad cabto. Waxaa lagu dhisay Florida, shirkad hal qof ah. Da'da 13 iyo ka weyn.",
+      "legal": "Sharci",
+      "privacy": "Siyaasadda Qarsoonnimada The Water Check",
+      "terms": "Shuruudaha iyo Xaaladaha The Water Check",
+      "community": "Tilmaamaha Bulshada",
+      "healthData": "Siyaasadda Qarsoonnimada Xogta Caafimaadka Macaamiisha",
+      "deleteAccount": "Tirtir akoonkaaga",
+      "sitePrivacy": "Qarsoonnimada bogga",
+      "explore": "Baadh",
+      "calculator": "Xisaabiyaha biyaha",
+      "store": "Dukaanka The Water Check",
+      "instagram": "@thewatercheck ee Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Caawimaad",
+      "email": "Taageero iimayl ah",
+      "accessibility": "Helitaanka",
+      "contact": "Xidhiidh",
+      "note": "The Water Check waa ab ladnaan guud. Ma ogaanayso, ma daaweyso, kamana hortagto xaalad kasta, mana aha beddelka talada xirfadle caafimaad. Xaalad degdeg ah, wac 911 ama lambarka gurmadka degdegga ah ee deegaankaaga. Shaashadaha abka waxay muujinayaan nooc tijaabo ah oo xog male ah leh; astaamuhu way isbeddeli karaan ka hor soo saarka."
+    }
+  },
+  "app": {
+    "eyebrow": "Abka",
+    "title": "Biyahaaga, maalin maalin.",
+    "body": "Ka bilow qiyaas shakhsi ah, kadibna diiwaangeli cabbitaannada iyo cuntooyinka biyaha badan leh inta maalintaadu socoto. Horumarkaaga ka arag abka, shaashaddaada hore, iyo bisha oo dhan.",
+    "comingSoon": "Dhowaan ayuu imanayaa App Store",
+    "calculator": "Isku day xisaabiyaha bilaashka ah",
+    "caveat": "Xisaabiyuhu halkan wuu ka shaqeeyaa akoon la'aan. Sawirrada abka waxay muujinayaan nooc horudhac ah; astaamaha iyo helitaanku way isbeddeli karaan ka hor soo saarka.",
+    "screens": {
+      "number": {
+        "alt": "Qiyaasta biyaha maalinlaha ah ee shakhsiga ah ee The Water Check oo ku jirta iPhone",
+        "caption": "Tiradaada"
+      },
+      "log": {
+        "alt": "Diiwaanka maalinlaha ah ee The Water Check oo leh cabbitaanno iyo cunto, oo ku jira iPhone",
+        "caption": "Diiwaanka maanta"
+      },
+      "widgets": {
+        "alt": "Dejinta widget-ka shaashadda hore ee The Water Check oo ku jirta iPhone",
+        "caption": "Widget-yada"
+      },
+      "wellness": {
+        "alt": "Hagaha caafimaadka iyo P-Meter-ka The Water Check oo ku jira iPhone",
+        "caption": "Caafimaad"
+      },
+      "calendar": {
+        "alt": "Kalandarka biyaha bille ah ee The Water Check oo ku jira iPhone",
+        "caption": "Kalandar"
+      }
+    }
+  },
+  "footer": {
+    "note": "Xisaabiyaha bilaashka ahi uma baahna akoon. Wuxuu ka shaqeeyaa browser-kaaga, tirooyinkaagana noo ma soo diro.",
+    "navLabel": "Hagidda qaybta hoose",
+    "calculator": "Xisaabiyaha biyaha",
+    "explore": "Baadh abka",
+    "instagram": "@thewatercheck ee Instagram",
+    "store": "Dukaanka",
+    "builder": "Cidda dhistay",
+    "finePrint": "Faahfaahinta yar",
+    "terms": "Shuruudaha iyo Xaaladaha",
+    "privacy": "Siyaasadda Qarsoonnimada",
+    "community": "Tilmaamaha Bulshada",
+    "healthData": "Xogta Caafimaadka Macaamiisha",
+    "deleteAccount": "Tirtir akoonkaaga",
+    "accessibility": "Helitaanka",
+    "contact": "Xidhiidh",
+    "project": "Mashruuc <company>EXPECTEDEND LLC</company>. Qiyaas waxbarasho, ma aha talo caafimaad.",
+    "backToTop": "Ku noqo xagga sare ↑"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "媒体资料",
+    "title": "Expected End 媒体资源。",
+    "intro": "经审核的个人简介、核实过的资料和可下载的媒体素材，供报道 Expected End 和创始人 Denzel Rigaud 使用。",
+    "downloadPortrait": "下载肖像照"
+  },
+  "inquiry": "发起媒体咨询",
+  "role": "创始人兼全栈开发者",
+  "portrait": {
+    "alt": "身穿藏青色西装、戴橙色镜片眼镜的 Denzel Rigaud"
+  },
+  "contents": {
+    "label": "媒体页面目录",
+    "kit": "媒体资料包 / 2026",
+    "biographies": "个人简介",
+    "facts": "核实资料",
+    "projects": "项目",
+    "licensing": "媒体使用"
+  },
+  "bios": {
+    "kicker": "经审核的文案",
+    "title": "个人简介",
+    "text": "以下版本可在编辑报道中引用或改写。",
+    "shortLabel": "简短简介 / 24 词",
+    "fullLabel": "完整简介",
+    "fullFirst": "Denzel Rigaud 创立了 EXPECTEDEND LLC，并独立打造了 MyBibleLens 和 The Water Check。他担任公司的全栈开发者，从构想、设计、工程到发布，亲手塑造每一款产品。",
+    "fullSecond": "他的工作专注于以信仰为中心的软件、数字健康，以及帮助人们有意识地使用科技的实用工具。MyBibleLens 是一款基督信仰圣所应用。The Water Check 结合了私密的饮水估算、实用的饮水习惯，以及一个专注于每日坚持的社区。"
+  },
+  "facts": {
+    "kicker": "资料表",
+    "title": "核实资料",
+    "text": "可用于个人资料、文章、图片说明和数据库的标准信息。",
+    "company": "公司",
+    "founder": "创始人",
+    "role": "职务",
+    "products": "产品",
+    "productsValue": "MyBibleLens 和 The Water Check",
+    "website": "官方网站",
+    "profile": "创始人资料",
+    "entityLabel": "{{name}} 的 Wikidata 条目"
+  },
+  "projects": {
+    "kicker": "产品",
+    "title": "作品",
+    "text": "两款产品，均在 Expected End 旗下独立打造。",
+    "mybiblelens": {
+      "alt": "MyBibleLens 应用图标",
+      "kicker": "以信仰为中心的软件",
+      "text": "基督信仰圣所应用。",
+      "visit": "访问 MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "The Water Check 应用图标",
+      "kicker": "补水与社区",
+      "text": "私密的饮水估算、实用的饮水习惯，以及社区。",
+      "visit": "访问 The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "媒体使用",
+    "title": "创始人肖像照",
+    "text": "此肖像照可依据 <license>知识共享署名-相同方式共享 4.0（CC BY-SA 4.0）</license>许可协议分享和改编。署名：Denzel Rigaud / Expected End。改编作品必须使用相同的许可协议。",
+    "download": "下载创始人肖像照"
+  },
+  "contact": {
+    "kicker": "媒体联系",
+    "title": "需要采访、引述或更多文件？"
+  }
+}

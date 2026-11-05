@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Lupakan para influencer. Pelajari biologi tubuh Anda yang sebenarnya.",
+    "lead": "Coba kalkulator gratis tanpa akun, lalu jelajahi aplikasi yang sedang kami bangun untuk pencatatan sehari-hari.",
+    "appLink": "Jelajahi aplikasinya ↓",
+    "logoLabel": "Gunakan kalkulator The Water Check"
+  },
+  "intro": {
+    "kicker": "Kalkulator hidrasi",
+    "title": "Mulailah dengan angka yang Anda ketahui."
+  },
+  "units": {
+    "legend": "Satuan berat",
+    "pounds": "Pound (lb)",
+    "kilograms": "Kilogram (kg)"
+  },
+  "weight": {
+    "labelLb": "Berat (lbs)",
+    "labelKg": "Berat (kg)",
+    "valueTextLb": "{{value}} pound",
+    "valueTextKg": "{{value}} kilogram"
+  },
+  "height": {
+    "legend": "Tinggi badan",
+    "feet": "Tinggi (ft)",
+    "inches": "Tinggi (in)",
+    "centimeters": "Tinggi (cm)",
+    "note": "Kebutuhan cairan mengikuti massa tubuh tanpa lemak, jadi tinggi badan paling berpengaruh ketika berat badan tergolong tinggi untuk postur Anda."
+  },
+  "activity": {
+    "label": "Aktivitas Harian (menit)",
+    "value": "{{minutes}} mnt",
+    "valueText": "{{minutes}} menit"
+  },
+  "factors": {
+    "legend": "Faktor yang dapat mengubah kebutuhan cairan",
+    "intro": "Kami hanya menambahkan angka jika ada penyesuaian harian yang dapat dipertanggungjawabkan. Jawaban lainnya membuat panduan Anda lebih personal tanpa berpura-pura bahwa sains mendukung takaran yang pasti.",
+    "age": {
+      "label": "Usia",
+      "hint": "Usia memberi konteks; usia tidak mendiagnosis menopause."
+    },
+    "lifeStage": {
+      "label": "Tahap kehidupan",
+      "hint": "Menggunakan penyesuaian yang transparan untuk kehamilan atau produksi ASI.",
+      "options": {
+        "standard": "Standar",
+        "pregnant": "Hamil",
+        "breastfeeding": "Menyusui"
+      }
+    },
+    "sex": {
+      "label": "Jenis kelamin",
+      "hint": "Opsional. Mempertajam perhitungan berat ideal dan asupan acuan.",
+      "options": {
+        "unspecified": "Memilih tidak menjawab",
+        "woman": "Perempuan",
+        "man": "Laki-laki"
+      }
+    },
+    "luteal": {
+      "label": "Seminggu sebelum menstruasi",
+      "hint": "Memperhatikan retensi air pada fase luteal dan kembung akibat hormon. Tidak ada tambahan tetap yang berlaku untuk semua orang."
+    },
+    "heat": {
+      "label": "Kondisi panas atau lembap",
+      "hint": "Panduan cuaca panas bergantung pada paparan dan keringat, bukan hanya lokasi."
+    }
+  },
+  "result": {
+    "goal": "Target Harian Anda: {{ounces}} Ons",
+    "breakdown": "Rincian perhitungan",
+    "weightBaseline": "Dasar berat badan",
+    "heightAndBuild": "Tinggi dan postur tubuh",
+    "sexReference": "Acuan jenis kelamin",
+    "notSet": "Belum diatur",
+    "activity": "Penyesuaian aktivitas",
+    "lifeStage": {
+      "standard": "Penyesuaian tahap kehidupan",
+      "pregnant": "Penyesuaian kehamilan",
+      "breastfeeding": "Penyesuaian menyusui"
+    },
+    "luteal": "Panduan fase luteal",
+    "noFixedOunces": "Tanpa tambahan oz tetap",
+    "electrolytes": "Cek elektrolit",
+    "electrolytesAfterSweat": "Pertimbangkan setelah banyak berkeringat",
+    "electrolytesFromFood": "Biasanya sudah tercukupi dari makanan",
+    "guidance": "Ini adalah perkiraan perencanaan edukatif untuk orang dewasa, bukan diagnosis, pengobatan, atau resep klinis. Makanan juga menyumbang air, dan kebutuhan setiap orang berbeda. Jangan memaksakan diri untuk minum. Tanyakan kebutuhan Anda kepada tenaga kesehatan jika Anda sedang hamil atau menyusui, mengonsumsi obat yang memengaruhi keseimbangan cairan, memiliki penyakit ginjal atau jantung, menjalani pembatasan cairan, atau mengalami gejala yang mengkhawatirkan."
+  },
+  "equivalents": {
+    "title": "Kira-kira setara dengan",
+    "cups": "{{value}} cangkir",
+    "cupsNote": "masing-masing 8 oz",
+    "liters": "{{value}} liter",
+    "litersNote": "metrik",
+    "bottles": "{{value}} botol",
+    "bottlesNote": "ukuran 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Air yang Anda makan",
+    "title": "Tidak semuanya harus berasal dari gelas.",
+    "copy": "Sekitar seperlima air harian kebanyakan orang berasal dari makanan. Sebagian besar buah dan sayur segar mengandung 70 hingga 95 persen air, dan begitu mencapai aliran darah, air ini menghidrasi Anda persis seperti minuman.",
+    "drink": "Minum",
+    "drinkNote": "{{cups}} cangkir air, teh, atau susu",
+    "eat": "Makan",
+    "eatNote": "dari makanan kaya air",
+    "pickLegend": "Bayangkan porsi dari makanan sebagai",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} mengandung sekitar {{ounces}} oz air ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "cangkir semangka",
+      "serving": "1 cangkir potong dadu",
+      "water": "92% air"
+    },
+    "cucumber": {
+      "label": "mentimun",
+      "serving": "1 buah sedang",
+      "water": "95% air"
+    },
+    "strawberries": {
+      "label": "cangkir stroberi",
+      "serving": "1 cangkir",
+      "water": "91% air"
+    },
+    "oranges": {
+      "label": "jeruk",
+      "serving": "1 buah sedang",
+      "water": "87% air"
+    },
+    "salad": {
+      "label": "mangkuk salad",
+      "serving": "2 cangkir campuran",
+      "water": "sekitar 94% air"
+    },
+    "soup": {
+      "label": "mangkuk sup kaldu",
+      "serving": "1 cangkir",
+      "water": "sekitar 92% air"
+    },
+    "tomatoes": {
+      "label": "tomat",
+      "serving": "1 buah sedang",
+      "water": "95% air"
+    },
+    "grapes": {
+      "label": "cangkir anggur",
+      "serving": "1 cangkir",
+      "water": "81% air"
+    },
+    "peaches": {
+      "label": "persik",
+      "serving": "1 buah sedang",
+      "water": "89% air"
+    },
+    "cantaloupe": {
+      "label": "cangkir melon",
+      "serving": "1 cangkir potong dadu",
+      "water": "90% air"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Mengapa air dari makanan dihitung",
+    "title": "Air dari semangka adalah air yang sama.",
+    "sameMolecule": "<strong>Molekul yang sama.</strong> H2O dari mentimun dan H2O dari keran itu identik. Begitu melewati usus dan masuk ke aliran darah, tubuh Anda mengirimkannya ke otot dengan cara yang sama.",
+    "slowRelease": "<strong>Dilepas perlahan.</strong> Air dalam buah dan sayur tersimpan di dalam serat dan dinding sel, sehingga diserap lebih bertahap dibandingkan segelas air yang diteguk cepat, yang cenderung cepat dibuang oleh ginjal Anda.",
+    "electrolytes": "<strong>Disertai elektrolit.</strong> Mentimun, bayam, melon, dan buah beri mengandung kalium dan magnesium, mineral yang digunakan sel Anda untuk menahan air.",
+    "glycogen": "<strong>Bahan bakar sekaligus cadangan.</strong> Otot menyimpan karbohidrat sebagai glikogen, dan setiap gram glikogen disimpan bersama sekitar tiga gram air. Makanan yang kaya air dan karbohidrat memberikan keduanya.",
+    "caveat": "Anda tetap perlu minum. Makanan biasanya memenuhi sekitar seperlima dari total; sisanya berasal dari air dan minuman lain. Buah kering, kacang-kacangan, dan roti hanya mengandung sangat sedikit air."
+  },
+  "grace": {
+    "kicker": "Bersikap baik pada tubuh",
+    "title": "Catatan Singkat tentang Bersikap Lembut pada Diri Sendiri",
+    "body": "Bayangan di cermin dan cara pakaian Anda pas di badan bisa berubah karena retensi air, pencernaan, hormon, tidur, dan perubahan normal lainnya. Satu hari kembung tidak menentukan tubuh Anda. Minumlah dengan penuh perhatian, beri diri Anda waktu, dan biarkan rasa ingin tahu menggantikan rasa malu. Kembung yang terus-menerus, pembengkakan, perubahan berat badan yang cepat, atau gejala yang membuat Anda khawatir layak dibicarakan dengan tenaga kesehatan."
+  },
+  "overhydration": {
+    "title": "Bahaya Memaksakan Hidrasi",
+    "kidneys": "Ginjal Anda butuh waktu untuk membuang air. Selama olahraga yang berkepanjangan, minum lebih cepat daripada cairan yang hilang dapat mengencerkan natrium darah dan menyebabkan hiponatremia terkait olahraga. Gejala awal dapat meliputi sakit kepala, mual, pusing, kelelahan, atau kebingungan. Kasus yang parah dapat menyebabkan pembengkakan otak, kejang, koma, dan kematian.",
+    "pacing": "Jangan mengejar perkiraan ini dengan meneguk air sekaligus. Sebarkan minum Anda sepanjang hari. Saat berolahraga, sesuaikan asupan dengan rasa haus, kondisi, dan keringat yang Anda keluarkan. Segera cari pertolongan medis darurat jika mengalami kebingungan, kejang, ambruk, atau gejala berat.",
+    "sources": "Sumber: <nih>panduan NIH tentang hiponatremia terkait olahraga</nih> dan <academies>rekomendasi cairan dari National Academies</academies>."
+  },
+  "notes": {
+    "title": "Catatan bukti untuk Anda",
+    "sexMan": "<strong>Jenis kelamin:</strong> Asupan acuan National Academies adalah sekitar 3,7 liter air total per hari untuk laki-laki dan 2,7 liter untuk perempuan. Sebagian besar selisih itu dijelaskan oleh berat badan, sehingga sisanya ditampilkan di sini sebagai kenaikan 4 persen pada dasar berat badan, dan pengecekan tinggi dan postur tubuh memakai rumus berat ideal laki-laki.",
+    "sexWoman": "<strong>Jenis kelamin:</strong> Asupan acuan National Academies adalah sekitar 3,7 liter air total per hari untuk laki-laki dan 2,7 liter untuk perempuan. Sebagian besar selisih itu dijelaskan oleh berat badan, sehingga sisanya ditampilkan di sini sebagai penurunan 4 persen pada dasar berat badan, dan pengecekan tinggi dan postur tubuh memakai rumus berat ideal perempuan.",
+    "height": "<strong>Tinggi dan postur tubuh:</strong> Kebutuhan cairan lebih mengikuti massa tubuh tanpa lemak daripada berat total. Karena berat badan Anda berada di atas kisaran umum untuk tinggi Anda, perkiraan ini memakai berat badan yang disesuaikan (berat ideal ditambah 40 persen dari selisihnya), sebuah konvensi klinis yang umum. Ini angka perencanaan kasar, bukan penilaian terhadap tubuh Anda.",
+    "cycle": "<strong>Fase siklus:</strong> Perubahan cairan yang berkaitan dengan siklus memang nyata, tetapi penelitian belum menetapkan kenaikan ons tetap yang berlaku untuk semua orang. Tidak ada ons yang ditambahkan secara otomatis. Makanan sehari-hari biasanya sudah mencukupi kebutuhan elektrolit; suplemen magnesium atau kalium bukan rekomendasi untuk semua orang.",
+    "age": "<strong>Usia dan menopause:</strong> Usia saja tidak menentukan status menopause. Perubahan hormon dapat memengaruhi rasa haus dan pengaturan cairan, tetapi tidak ada penyesuaian ons “di atas 45” yang tervalidasi, sehingga usia Anda tidak mengubah total.",
+    "heat": "<strong>Panas:</strong> Bonus iklim yang tetap bisa meremehkan atau melebihkan kebutuhan Anda. Untuk kerja sedang di cuaca panas selama kurang dari dua jam, NIOSH menyarankan sekitar 8 ons setiap 15–20 menit; keringat berat yang berlangsung lebih lama memerlukan rencana penggantian cairan yang disesuaikan untuk masing-masing orang."
+  },
+  "evidence": {
+    "label": "Bukti:",
+    "academies": "Panduan asupan air dari National Academies",
+    "harvard": "Harvard Health tentang makanan dan hidrasi",
+    "cycle": "Studi osmoregulasi siklus menstruasi",
+    "menopause": "Tinjauan pengaturan cairan saat menopause",
+    "niosh": "Panduan CDC/NIOSH tentang cuaca panas"
+  },
+  "tips": {
+    "kicker": "Bermanfaat, bukan obsesif",
+    "title": "Tiga cek untuk kehidupan nyata.",
+    "schedule": {
+      "title": "Jadwal",
+      "body": "Awali pagi Anda dengan air, minum sedikit-sedikit saat makan, dan biarkan rasa haus, cuaca, dan aktivitas memandu sisanya."
+    },
+    "electrolytes": {
+      "title": "Elektrolit",
+      "body": "Kebanyakan orang mengganti elektrolit melalui makanan sehari-hari. Setelah berkeringat lama atau banyak, pilih minuman elektrolit yang seimbang; jangan rutin menambahkan garam jika Anda telah disarankan untuk membatasi natrium."
+    },
+    "visualCheck": {
+      "title": "Cek Visual",
+      "body": "Urine berwarna kuning pucat bisa menjadi salah satu petunjuk kasar tentang hidrasi. Makanan, vitamin, obat-obatan, dan kondisi kesehatan dapat mengubah warnanya, jadi ini bukan diagnosis."
+    }
+  },
+  "author": {
+    "kicker": "Dari orang yang membuatnya",
+    "title": "Mengapa Saya Membuat Ini (dan Mengapa Anda Jangan Hanya Mendengarkan Saya)",
+    "athlete": "Nama saya Denzel Rigaud. Selama lebih dari sembilan tahun saya berlomba di nomor 400 meter dan lari gawang, sehingga hidrasi menjadi bagian dari cara saya berlatih, memulihkan diri, dan belajar membaca tubuh saya.",
+    "purpose": "Saya membuat The Water Check untuk membantu Anda mendengar tubuh sendiri di tengah bisingnya dunia maya. Saya tidak ingin Anda menjadikan pengalaman saya sebagai resep. Biologi, lingkungan, riwayat kesehatan, dan tahap kehidupan Andalah yang menentukan apa yang Anda butuhkan.",
+    "technology": "Teknologi tidak dibuat agar kita terus menggulir tanpa henti dan menjalani hidup orang lain. Teknologi seharusnya membuat hidup kita tetap produktif dan memperbaiki roh, jiwa, pikiran, dan tubuh kita, supaya kita menjadi versi terbaik dari diri yang kita inginkan. Jadi berhentilah mendengarkan semua orang, karena yang cocok untuk Anda, ya cocok untuk Anda.",
+    "faith": "Kenali pola tubuh Anda dan bawa masalah kesehatan kepada tenaga profesional yang berkualifikasi. Merawat tubuh jasmani Anda dapat membawa Anda lebih dekat kepada diri sendiri dan kepada Tuhan, yang menaruh percikan dalam diri kita masing-masing yang layak dijaga.",
+    "motto": "Jangan ikuti influencer. Kenali diri Anda.",
+    "date": "15 Maret 2021",
+    "founderPage": "Halaman Pendiri"
+  },
+  "community": {
+    "kicker": "Tetap manusiawi",
+    "title": "Bergabunglah dengan komunitas yang nyata.",
+    "instagram": "Ikuti @thewatercheck di Instagram",
+    "reelSoon": "Reel Instagram segera hadir",
+    "story": "Cerita komunitas {{position}}"
+  }
+}

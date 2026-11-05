@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "kicker": "Om Expected End",
+    "title": "Teknologi med mening, laget for det virkelige livet."
+  },
+  "founder": {
+    "kicker": "Bak selskapet",
+    "title": "Historien bak Expected End.",
+    "body": "Den personlige veien fra teknologieksperimenter i femte klasse til sorg, tro, MyBibleLens og en ny begynnelse. <more>Les mer</more>",
+    "link": "Gründerhistorien: Denzel Rigaud"
+  },
+  "mission": {
+    "kicker": "Oppdraget",
+    "title": "Teknologi skal hjelpe deg tilbake til livet ditt.",
+    "attention": "Teknologi kan forme hvordan vi søker oppmerksomhet og belønning. Konstant sammenligning, datingapper og polerte versjoner av andres liv kan få ekte relasjoner og stille øyeblikk til å føles mindre verdifulle. Barn havner i disse systemene før de forstår presset bak dem.",
+    "screen": "Expected End gir folk en bedre grunn til å se på skjermen. Selskapet lager verktøy der barn og voksne kan lære, skape, jobbe, finne et trygt sted eller komme nærmere Gud. Hvert produkt skal føre dem tilbake til livet som ligger foran dem.",
+    "line": "Oppdraget er å bringe mennesker nærmere Gud gjennom produktiv, nyttig og gledesfylt teknologi som gir rom for det virkelige livet."
+  },
+  "press": {
+    "kicker": "Presse",
+    "title": "Bidra til å fortelle historien.",
+    "body": "Expected End tar gjerne imot samtaler om trosbasert teknologi, digital trivsel, en gründers sorg, MyBibleLens, The Water Check og produkter som gir tid tilbake til det virkelige livet.",
+    "link": "Åpne presse- og mediesettet"
+  }
+}

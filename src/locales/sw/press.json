@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Vyombo vya habari",
+    "title": "Rasilimali za vyombo vya habari za Expected End.",
+    "intro": "Wasifu ulioidhinishwa, ukweli uliothibitishwa, na picha za kupakua kwa ajili ya habari kuhusu Expected End na mwanzilishi Denzel Rigaud.",
+    "downloadPortrait": "Pakua picha ya mwanzilishi"
+  },
+  "inquiry": "Anza ombi la vyombo vya habari",
+  "role": "Mwanzilishi na msanidi programu wa full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud akiwa amevaa suti ya bluu iliyokolea na miwani yenye rangi ya chungwa"
+  },
+  "contents": {
+    "label": "Sehemu za ukurasa wa vyombo vya habari",
+    "kit": "Kifurushi cha habari / 2026",
+    "biographies": "Wasifu",
+    "facts": "Ukweli uliothibitishwa",
+    "projects": "Miradi",
+    "licensing": "Matumizi ya picha"
+  },
+  "bios": {
+    "kicker": "Maandishi yaliyoidhinishwa",
+    "title": "Wasifu",
+    "text": "Matoleo haya yanaweza kunukuliwa au kurekebishwa kwa ajili ya habari za uhariri.",
+    "shortLabel": "Wasifu mfupi / maneno 24",
+    "fullLabel": "Wasifu kamili",
+    "fullFirst": "Denzel Rigaud alianzisha EXPECTEDEND LLC na akajenga MyBibleLens na The Water Check peke yake. Anafanya kazi kama msanidi programu wa full-stack wa kampuni, akiunda kila bidhaa kuanzia wazo hadi usanifu, uhandisi, na uzinduzi.",
+    "fullSecond": "Kazi yake inalenga programu zinazojikita kwenye imani, ustawi wa kidijitali, na zana za vitendo zinazowasaidia watu kutumia teknolojia kwa makusudi. MyBibleLens ni programu ya patakatifu kwa Ukristo. The Water Check inaunganisha makadirio ya faragha ya maji mwilini, mazoea ya vitendo ya unywaji maji, na jumuiya inayolenga uthabiti wa kila siku."
+  },
+  "facts": {
+    "kicker": "Karatasi ya ukweli",
+    "title": "Ukweli uliothibitishwa",
+    "text": "Maelezo rasmi kwa ajili ya wasifu, makala, maelezo ya picha, na hifadhidata.",
+    "company": "Kampuni",
+    "founder": "Mwanzilishi",
+    "role": "Wadhifa",
+    "products": "Bidhaa",
+    "productsValue": "MyBibleLens na The Water Check",
+    "website": "Tovuti rasmi",
+    "profile": "Wasifu wa mwanzilishi",
+    "entityLabel": "{{name}} kwenye Wikidata"
+  },
+  "projects": {
+    "kicker": "Bidhaa",
+    "title": "Kazi",
+    "text": "Bidhaa mbili, zilizojengwa kwa kujitegemea chini ya Expected End.",
+    "mybiblelens": {
+      "alt": "Aikoni ya programu ya MyBibleLens",
+      "kicker": "Programu inayojikita kwenye imani",
+      "text": "Programu ya Patakatifu pa Ukristo.",
+      "visit": "Tembelea MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Aikoni ya programu ya The Water Check",
+      "kicker": "Unywaji maji na jumuiya",
+      "text": "Makadirio ya faragha ya maji mwilini, mazoea ya vitendo ya unywaji maji, na jumuiya.",
+      "visit": "Tembelea The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Matumizi ya picha",
+    "title": "Picha ya mwanzilishi",
+    "text": "Picha hii inaweza kushirikiwa na kurekebishwa chini ya leseni ya <license>Creative Commons Attribution-ShareAlike 4.0</license>. Sifa: Denzel Rigaud / Expected End. Marekebisho lazima yatumie leseni ile ile.",
+    "download": "Pakua picha ya mwanzilishi"
+  },
+  "contact": {
+    "kicker": "Mawasiliano ya vyombo vya habari",
+    "title": "Unahitaji mahojiano, nukuu, au faili zaidi?"
+  }
+}

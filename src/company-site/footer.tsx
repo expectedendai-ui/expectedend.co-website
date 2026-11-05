@@ -1,4 +1,5 @@
 import type * as React from "react";
+import { useTranslation } from "react-i18next";
 import { CONTACT_HREF } from "./content";
 import { GoldenEggButton } from "./golden-egg-button";
 import styles from "./style.module.css";
@@ -9,47 +10,45 @@ type FooterProps = {
 };
 
 export function Footer({ onNavigate, onOpenArtWorld }: FooterProps) {
+  const { t } = useTranslation("shell");
   return (
     <footer className={styles.footer}>
       <div className={styles.footerTop}>
         <a className={styles.footerWordmark} href="/" onClick={onNavigate}>
           EXPECTEDEND LLC
         </a>
-        <nav className={styles.footerLinks} aria-label="Footer navigation">
+        <nav className={styles.footerLinks} aria-label={t("footer.label")}>
           <a href="/" onClick={onNavigate}>
-            Home
+            {t("footer.home")}
           </a>
           <a href="/about" onClick={onNavigate}>
-            About
+            {t("footer.about")}
           </a>
           <a href="/press" onClick={onNavigate}>
-            Press
+            {t("footer.press")}
           </a>
           <a href="/terms" onClick={onNavigate}>
-            Terms of Use
+            {t("footer.terms")}
           </a>
           <a href="/privacy" onClick={onNavigate}>
-            Privacy Statement
+            {t("footer.privacy")}
           </a>
           <a href="/accessibility" onClick={onNavigate}>
-            Accessibility
+            {t("footer.accessibility")}
           </a>
           <a href={CONTACT_HREF} onClick={onNavigate}>
-            Contact
+            {t("footer.contact")}
           </a>
         </nav>
       </div>
       <div className={styles.footerMission}>
-        <p>
-          Everything I build under this company points toward the same mission: bring people closer to God and help them use
-          technology to live, create, love, and serve with intention. That is the expected ending I am working toward.
-        </p>
-        <p className={styles.footerVerse}>Jeremiah 29:11</p>
+        <p>{t("footer.mission")}</p>
+        <p className={styles.footerVerse}>{t("footer.verse")}</p>
       </div>
       <div className={styles.footerBottom}>
-        <p>© 2026 EXPECTED END LLC. All rights reserved.</p>
+        <p>{t("footer.copyright")}</p>
         <div className={styles.footerBlessing}>
-          <p className={styles.blessing}>Jesus loves you.</p>
+          <p className={styles.blessing}>{t("footer.blessing")}</p>
           {onOpenArtWorld && <GoldenEggButton onActivate={onOpenArtWorld} />}
         </div>
       </div>

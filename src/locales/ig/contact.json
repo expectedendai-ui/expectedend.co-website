@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kpọtụrụ Expected End",
+    "title": "Bido na <em>nkọwa ntakịrị.</em>",
+    "intro": "Họrọ nkọwa ole na ole, a ga-akwadokwara gị email doro anya. Ngwa email gị ga-emepe tupu e zipu ihe ọ bụla."
+  },
+  "fields": {
+    "name": "Aha gị",
+    "email": "Email gị",
+    "reason": "Gịnị ka nke a gbasara?",
+    "project": "Kedu ọrụ ọ gbasara?",
+    "priceRange": "Oke ego",
+    "timeline": "Oge ị chọrọ",
+    "discovery": "Kedu otú i si chọta Expected End?",
+    "message": "Gịnị dị gị n'uche?",
+    "chooseOne": "Họrọ otu"
+  },
+  "reasons": {
+    "partnership": "Mmekọ ma ọ bụ ọrụ ọnụ",
+    "press": "Ndị nta akụkọ ma ọ bụ mgbasa ozi",
+    "general": "Ajụjụ izugbe"
+  },
+  "projects": {
+    "waterCheckCommunity": "Obodo The Water Check",
+    "newIdea": "Echiche ọhụrụ"
+  },
+  "timelines": {
+    "exploring": "Ana m eleba anya",
+    "month": "N'ime otu ọnwa",
+    "threeMonths": "N'ime ọnwa atọ",
+    "laterThisYear": "Ka oge na-aga n'afọ a",
+    "notSure": "Amabeghị m"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Obodo The Water Check",
+    "search": "Ọchụchọ n'ịntanetị",
+    "referral": "Mmadụ kọọrọ m",
+    "elsewhere": "Ebe ọzọ"
+  },
+  "submit": {
+    "note": "Ọ dịghị ihe a ga-ezipu ruo mgbe ị lechara ya anya ma pịa Zipu (Send) na ngwa email gị.",
+    "apps": "Họrọ <app>ngwa email gị</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, ma ọ bụ <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Kwadebe email"
+  },
+  "dialog": {
+    "close": "Mechie fọm ịkpọtụrụ anyị"
+  }
+}

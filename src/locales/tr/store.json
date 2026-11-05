@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Yolculuk için",
+    "headline": "Önemli olanı yakınınızda tutun.",
+    "intro": "Notlar, hatırlatmalar ve Tanrı'yla her günkü yürüyüş için hazırlanmış küçük, özenli bir koleksiyon.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Rehberli defter",
+        "kind": "Defter"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Küçük bir hatırlatma",
+        "kind": "Rozet"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Her gün için yumuşak bir parça",
+        "kind": "Giyim"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Serin sabahlar için",
+        "kind": "Giyim"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "İlk koleksiyon",
+    "headline": "Su için. Hareket edin.",
+    "intro": "Her gün gelen, şişesini dolduran ve kontrolü sürdüren insanlar için hidrasyon ruhlu parçalar.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Canlı, her güne uygun bir temel parça",
+        "kind": "Tişört"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Uzun yürüyüşün ardından",
+        "kind": "Kapüşonlu"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "İkinci renk seçeneği",
+        "kind": "Tişört"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Sakin, kalın dokulu bir katman",
+        "kind": "Kapüşonlu"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}} mağaza gezinmesi",
+    "collection": "Koleksiyon"
+  },
+  "hero": {
+    "action": "İlk koleksiyonu keşfedin",
+    "mybiblelensArt": "MyBibleLens mağaza logosu ve çıkartma kolajı",
+    "watercheckArt": "The Water Check'in sıvı logo baloncuğu"
+  },
+  "collection": {
+    "eyebrow": "Çok yakında",
+    "title": "Gününüzün bir parçası olmak için yapıldı.",
+    "body": "Bunlar ilk parçalar. Koleksiyon hazır olduğunda ürün fotoğrafları, seçenekler ve ödeme bağlantıları burada görünecek."
+  },
+  "product": {
+    "placeholder": "{{name}} ürün görseli yer tutucusu",
+    "buy": "Hemen al",
+    "comingSoon": "Çok yakında",
+    "comingSoonLabel": "{{name}}: çok yakında"
+  },
+  "checkout": {
+    "eyebrow": "Hesap gerekmez",
+    "title": "Açıldığında ödeme basit kalacak.",
+    "body": "Bir parça seçin, Hemen al'a dokunun ve Stripe üzerinden güvenle ödeyin. Mağaza hesabı yok, karmaşık alışveriş sepeti yok."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Mağaza politikaları ilk koleksiyondan önce yayımlanacak.",
+    "policies": "Mağaza politikaları",
+    "terms": "Koşullar",
+    "privacy": "Gizlilik",
+    "accessibility": "Erişilebilirlik",
+    "shipping": "Kargo ve iade (koleksiyondan önce)"
+  }
+}

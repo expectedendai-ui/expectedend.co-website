@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, fondatè Expected End",
+    "stats": {
+      "projects": "PWOJÈ NOU BATI",
+      "languages": "LANG",
+      "appStore": "SOU APP STORE"
+    },
+    "eyebrow": "Pòtay pou <em>avni w ap espere a</em>",
+    "title": "Objektif, <break/>bati <break/>ak bèlte.",
+    "intro": "Expected End kreye lojisyèl byen panse, zouti pwodiktivite, eksperyans dijital ak kominote ki pwoche moun bò kote Bondye nan fason ki enteresan e ki fasil!",
+    "cta": "Gade travay la",
+    "lensHint": "Deplase kurseur ou pou li kòd la"
+  },
+  "projects": {
+    "eyebrow": "01 / Pwojè",
+    "title": "De aplikasyon sou App Store. <break/><em>Android ap vini byento.</em>",
+    "visit": "Vizite {{name}}",
+    "android": "Android ap vini byento",
+    "bio": "Bio",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Dèyè travay la",
+    "title": "Chak pwodwi isit la te kòmanse ak yon kesyon nan yon <em>klas senkyèm ane.</em>",
+    "lead": "Ant kesyon sa a ak aplikasyon sa yo, te gen dèy, lafwa ak anpil nwit san dòmi. Rès istwa a gen pwòp paj pa l.",
+    "cta": "Li istwa a"
+  },
+  "proof": {
+    "caption": "Pwojè nou bati",
+    "eyebrow": "03 / Prèv travay la",
+    "title": "Bati soti nan zewo. <em>Travay la pale pou kont li.</em>",
+    "lead": "Aplikasyon, sit entènèt, zouti IA, fim ak kanpay, ki fèt, kode e lanse lakay nou. Men yon pati ladan yo.",
+    "stats": {
+      "apps": "<strong>2 aplikasyon</strong> sou App Store",
+      "languages": "<strong>43 lang</strong> nan MyBibleLens",
+      "years": "<strong>10 ane</strong> ap ekri kòd",
+      "inHouse": "<strong>Depi lide a rive nan lansman</strong>, tout fèt lakay nou"
+    },
+    "bigline": "<count>20+</count> PWOJÈ <star>✦</star> BATI <star>✦</star> LANSE <star>✦</star> AN LIY <star>✦</star>",
+    "rows": {
+      "products": "Aplikasyon ak pwodwi",
+      "creative": "Sit entènèt, IA ak travay kreyatif"
+    },
+    "next": "Pwojè pa w la ka <em>pwochen an.</em>",
+    "cta": "Kòmanse pa w la"
+  },
+  "services": {
+    "eyebrow": "04 / Sèvis nou chwazi",
+    "title": "Ou reve l, <em>m bati l.</em>",
+    "lead": "Pwodwi yo vini an premye. Lè sa koresponn byen, menm swen an ale nan kèk travay nou chwazi pou lòt moun.",
+    "note": "Tanpri mete yon fouchèt pri nan tout demann epi di nan mesaj ou si ou bezwen yon NDA (akò konfidansyalite).",
+    "count": "Sèvis {{number}} / {{total}}",
+    "start": "Kòmanse pwojè sa a"
+  }
+}

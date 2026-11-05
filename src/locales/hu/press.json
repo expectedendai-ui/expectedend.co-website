@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Sajtó és média",
+    "title": "Sajtóanyagok az Expected Endről.",
+    "intro": "Jóváhagyott életrajzok, ellenőrzött tények és letölthető médiaanyagok az Expected Endről és alapítójáról, Denzel Rigaud-ról szóló tudósításokhoz.",
+    "downloadPortrait": "Portré letöltése"
+  },
+  "inquiry": "Sajtómegkeresés indítása",
+  "role": "Alapító és full-stack fejlesztő",
+  "portrait": {
+    "alt": "Denzel Rigaud sötétkék öltönyben és narancssárga színezésű szemüvegben"
+  },
+  "contents": {
+    "label": "A sajtóoldal részei",
+    "kit": "Sajtócsomag / 2026",
+    "biographies": "Életrajzok",
+    "facts": "Ellenőrzött tények",
+    "projects": "Projektek",
+    "licensing": "Médiahasználat"
+  },
+  "bios": {
+    "kicker": "Jóváhagyott szöveg",
+    "title": "Életrajzok",
+    "text": "Ezek a változatok szerkesztőségi tudósításokban idézhetők vagy átdolgozhatók.",
+    "shortLabel": "Rövid életrajz / 24 szó",
+    "fullLabel": "Teljes életrajz",
+    "fullFirst": "Denzel Rigaud alapította az EXPECTEDEND LLC-t, és önállóan építette meg a MyBibleLens és a The Water Check alkalmazást. A cég full-stack fejlesztőjeként dolgozik, és minden terméket ő formál az ötlettől a tervezésen és a fejlesztésen át a kiadásig.",
+    "fullSecond": "Munkája a hitközpontú szoftverekre, a digitális jóllétre és olyan gyakorlati eszközökre összpontosít, amelyek segítenek az embereknek tudatosan használni a technológiát. A MyBibleLens a kereszténység szentélyalkalmazása. A The Water Check egy privát hidratációs becslést, gyakorlati ivási szokásokat és a napi következetességre összpontosító közösséget ötvöz."
+  },
+  "facts": {
+    "kicker": "Tényadatlap",
+    "title": "Ellenőrzött tények",
+    "text": "Hiteles adatok profilokhoz, cikkekhez, képaláírásokhoz és adatbázisokhoz.",
+    "company": "Cég",
+    "founder": "Alapító",
+    "role": "Szerepkör",
+    "products": "Termékek",
+    "productsValue": "MyBibleLens és The Water Check",
+    "website": "Hivatalos weboldal",
+    "profile": "Alapítói profil",
+    "entityLabel": "{{name}} a Wikidatán"
+  },
+  "projects": {
+    "kicker": "Termékek",
+    "title": "A munka",
+    "text": "Két termék, önállóan építve az Expected End keretében.",
+    "mybiblelens": {
+      "alt": "A MyBibleLens alkalmazás ikonja",
+      "kicker": "Hitközpontú szoftver",
+      "text": "A kereszténység szentélyalkalmazása.",
+      "visit": "A MyBibleLens megtekintése"
+    },
+    "watercheck": {
+      "alt": "A The Water Check alkalmazás ikonja",
+      "kicker": "Hidratáció és közösség",
+      "text": "Privát hidratációs becslés, gyakorlati ivási szokások és közösség.",
+      "visit": "A The Water Check megtekintése"
+    }
+  },
+  "license": {
+    "kicker": "Médiahasználat",
+    "title": "Az alapító portréja",
+    "text": "A portré a <license>Creative Commons Attribution-ShareAlike 4.0</license> licenc alapján megosztható és átdolgozható. Feltüntetendő: Denzel Rigaud / Expected End. Az átdolgozásokat ugyanezzel a licenccel kell közzétenni.",
+    "download": "Az alapító portréjának letöltése"
+  },
+  "contact": {
+    "kicker": "Sajtókapcsolat",
+    "title": "Interjúra, idézetre vagy további fájlra van szüksége?"
+  }
+}

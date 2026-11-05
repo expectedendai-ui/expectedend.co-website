@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | មានគោលបំណង បង្កើតឡើងយ៉ាងស្រស់ស្អាត",
+    "description": "Expected End បង្កើតសូហ្វវែរដែលគិតគូរល្អិតល្អន់ ឧបករណ៍ផលិតភាព បទពិសោធន៍ឌីជីថល និងសហគមន៍។"
+  },
+  "about": {
+    "title": "អំពីយើង | Expected End",
+    "description": "រឿងរ៉ាវស្ថាបនិករបស់ Denzel Rigaud បេសកកម្មនៅពីក្រោយ Expected End និងគម្រោងដែលកើតចេញពីជំនឿ និងគោលបំណង។"
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | ស្ថាបនិក Expected End",
+    "description": "Denzel Rigaud គឺជាស្ថាបនិក និងអ្នកអភិវឌ្ឍន៍ Full-Stack នៅពីក្រោយ Expected End, MyBibleLens (កម្មវិធីទីបរិសុទ្ធសម្រាប់គ្រីស្ទបរិស័ទ) និង The Water Check។"
+  },
+  "press": {
+    "title": "សារព័ត៌មាន និងប្រព័ន្ធផ្សព្វផ្សាយ | Expected End",
+    "description": "ជីវប្រវត្តិដែលបានអនុម័ត ការពិតដែលបានផ្ទៀងផ្ទាត់ តំណភ្ជាប់អង្គភាព និងឯកសារមេឌៀដែលអាចទាញយកបាន សម្រាប់ការរាយការណ៍អំពី Expected End និង Denzel Rigaud។"
+  },
+  "terms": {
+    "title": "លក្ខខណ្ឌប្រើប្រាស់គេហទំព័រ | Expected End",
+    "description": "លក្ខខណ្ឌដែលគ្រប់គ្រងការប្រើប្រាស់គេហទំព័រ Expected End។"
+  },
+  "privacy": {
+    "title": "សេចក្តីថ្លែងការណ៍ឯកជនភាព | Expected End",
+    "description": "របៀបដែល Expected End គ្រប់គ្រងព័ត៌មាននៅលើគេហទំព័រនេះ។"
+  },
+  "watercheck-privacy": {
+    "title": "គោលការណ៍ឯកជនភាព The Water Check | Expected End",
+    "description": "អ្វីដែល The Water Check ប្រមូល អ្វីដែលនៅតែលើទូរសព្ទរបស់អ្នក អ្នកណាជួយដំណើរការកម្មវិធី និងជម្រើសរបស់អ្នក។"
+  },
+  "watercheck-terms": {
+    "title": "លក្ខខណ្ឌ និងបទបញ្ញត្តិ The Water Check | Expected End",
+    "description": "លក្ខខណ្ឌសម្រាប់ការប្រើកម្មវិធី The Water Check រួមទាំងសុខភាព និងសុវត្ថិភាព AI ច្បាប់ក្រុម និងការទិញ។"
+  },
+  "watercheck-health-data": {
+    "title": "គោលការណ៍ឯកជនភាពទិន្នន័យសុខភាពអ្នកប្រើប្រាស់ The Water Check | Expected End",
+    "description": "របៀបដែល The Water Check គ្រប់គ្រងទិន្នន័យសុខភាពអ្នកប្រើប្រាស់ និងរបៀបចូលមើល លុប ឬប្តឹងតវ៉ា។"
+  },
+  "watercheck-delete-account": {
+    "title": "លុបគណនីរបស់អ្នក | The Water Check",
+    "description": "របៀបលុបគណនី និងទិន្នន័យ The Water Check របស់អ្នក នៅក្នុងកម្មវិធី ឬតាមអ៊ីមែល។"
+  },
+  "watercheck-community": {
+    "title": "គោលការណ៍ណែនាំសហគមន៍ | The Water Check",
+    "description": "របៀបដែលក្រុមនានានៅក្នុង The Water Check រក្សាភាពរួសរាយរាក់ទាក់៖ ច្បាប់ ការរាយការណ៍ និងការទប់ស្កាត់ ព្រមទាំងអ្វីដែលកើតឡើងនៅពេលច្បាប់ត្រូវបានបំពាន។"
+  },
+  "accessibility": {
+    "title": "ភាពងាយស្រួលប្រើ | Expected End",
+    "description": "ការប្តេជ្ញាចិត្តរបស់ Expected End ចំពោះបទពិសោធន៍គេហទំព័រ ដែលមនុស្សគ្រប់គ្នាអាចប្រើបាន។"
+  },
+  "mybiblelens-store": {
+    "title": "ហាង MyBibleLens | Expected End",
+    "description": "របស់របរដែលគិតគូរល្អិតល្អន់ សម្រាប់ការដើរកាន់តែជិតព្រះបន្ទូល។ ហាង MyBibleLens នឹងមកដល់ឆាប់ៗ។"
+  },
+  "watercheck-store": {
+    "title": "ហាង The Water Check | Expected End",
+    "description": "របស់ចាំបាច់ដែលបំផុសគំនិតដោយការផឹកទឹក ពី The Water Check។ ការចេញលក់ដំបូងនឹងមកដល់ឆាប់ៗ។"
+  },
+  "watercheck-page": {
+    "title": "The Water Check | កម្មវិធីផឹកទឹក និងម៉ាស៊ីនគណនាឥតគិតថ្លៃ",
+    "description": "ស្វែងយល់ពីកម្មវិធី The Water Check ហើយសាកល្បងការប៉ាន់ស្មានជាតិទឹកឥតគិតថ្លៃ និងឯកជន នៅលើ Expected End។"
+  },
+  "watercheck-calculator": {
+    "title": "ម៉ាស៊ីនគណនាជាតិទឹកឥតគិតថ្លៃ | The Water Check",
+    "description": "ទទួលបានការប៉ាន់ស្មានជាតិទឹកប្រចាំថ្ងៃ ឥតគិតថ្លៃ និងឯកជន ជាមួយម៉ាស៊ីនគណនា The Water Check។"
+  },
+  "not-found": {
+    "title": "រកមិនឃើញទំព័រ | Expected End",
+    "description": "រកមិនឃើញទំព័រ Expected End ដែលអ្នកស្នើសុំទេ។"
+  }
+}

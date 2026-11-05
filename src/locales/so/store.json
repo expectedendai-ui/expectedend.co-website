@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Alaab loogu talagalay safarka",
+    "headline": "Waxa muhiimka ah u hay meel dhow.",
+    "intro": "Ururin yar oo alaab si fiican looga fikiray ah, loogu talagalay qoraallada, xusuusinta, iyo socodka maalinlaha ah ee Ilaah lala socdo.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Buug xusuus-qor oo hage leh",
+        "kind": "Buug xusuus-qor"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Xusuusin yar",
+        "kind": "Biin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Lakab jilicsan oo maalin kasta ah",
+        "kind": "Dhar"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Subaxyada qabow",
+        "kind": "Dhar"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Soo saarka ugu horreeya",
+    "headline": "Biyo cab. Sii socod.",
+    "intro": "Dhar loogu talagalay dadka biyaha ka fikira: kuwa yimaada, dhalada dib u buuxiya, Check-gana sii wada.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Dhar maalinle ah oo dhalaalaya",
+        "kind": "Funaanad"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Socodka dheer kadib",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Midab labaad",
+        "kind": "Funaanad"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Lakab culus oo deggan",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Hagidda dukaanka {{store}}",
+    "collection": "Ururinta"
+  },
+  "hero": {
+    "action": "Eeg soo saarka ugu horreeya",
+    "mybiblelensArt": "Astaanta dukaanka MyBibleLens iyo isku-dhafka stickers-ka",
+    "watercheckArt": "Xumbada astaanta dareeraha ee The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Dhowaan",
+    "title": "Loo sameeyay inay qayb ka noqdaan maalintaada.",
+    "body": "Kuwani waa alaabta ugu horreysa. Sawirrada alaabta, doorashooyinka, iyo linkiyada lacag-bixinta halkan ayay ka soo muuqan doonaan marka soo saarku diyaar noqdo."
+  },
+  "product": {
+    "placeholder": "Sawir ku-meel-gaadh ah oo {{name}}",
+    "buy": "Iibso hadda",
+    "comingSoon": "Dhowaan",
+    "comingSoonLabel": "{{name}} dhowaan"
+  },
+  "checkout": {
+    "eyebrow": "Akoon looma baahna",
+    "title": "Marka uu furmo, lacag-bixintu way fududaan doontaa.",
+    "body": "Dooro shay, taabo Iibso hadda, oo si ammaan ah ugu bixi Stripe. Ma jiro akoon dukaan, mana jiro wareer gaadhi-iibsi."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Siyaasadaha dukaanka waa la daabici doonaa ka hor soo saarka ugu horreeya.",
+    "policies": "Siyaasadaha dukaanka",
+    "terms": "Shuruudaha",
+    "privacy": "Qarsoonnimada",
+    "accessibility": "Helitaanka",
+    "shipping": "Rarid iyo soo celin (ka hor soo saarka)"
+  }
+}

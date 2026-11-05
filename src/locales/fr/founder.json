@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud avec des lunettes aux verres orangés",
+    "stats": {
+      "gradeValue": "5",
+      "gradeSuffix": "e",
+      "grade": "ANNÉE · CURIOSITÉ",
+      "grief": "DEUIL",
+      "faith": "FOI · LE RETOUR"
+    },
+    "identity": "Identité <b>/ Denzel Rigaud</b>",
+    "founded": "Fondation / <time>3 mars 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Fondateur et seul développeur full-stack</em>",
+    "title": "L’esprit <br/>derrière <br/>Expected End",
+    "text": "Une histoire de curiosité, de deuil, de foi, et d’une technologie devenue un chemin pour avancer.",
+    "cta": "Lire l’histoire"
+  },
+  "ticker": {
+    "curiosity": "Curiosité",
+    "grief": "Deuil",
+    "faith": "Foi",
+    "code": "Code",
+    "purpose": "Sens"
+  },
+  "coordinates": {
+    "eyebrow": "Trois coordonnées",
+    "title": "Le chemin jusqu’ici n’a pas été une <em>ligne droite.</em>",
+    "curiosity": {
+      "label": "01 / CM2",
+      "title": "La curiosité est devenue un outil de survie.",
+      "body": "J’ai commencé par refuser qu’un échec définisse le reste de ma vie.",
+      "big": "CM2"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Le deuil a fermé la porte à la technologie.",
+      "body": "Perdre mon père a rendu chaque compétence qu’il m’avait apprise impossible à toucher."
+    },
+    "faith": {
+      "label": "03 / 25 février 2026",
+      "title": "La foi a donné un sens au travail.",
+      "body": "Je suis revenu pour créer des outils qui laissent les gens plus forts qu’avant."
+    }
+  },
+  "memoir": {
+    "eyebrow": "L’histoire du fondateur / À la première personne",
+    "title": "Bonjour, je m’appelle <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "La technologie fait partie de ma vie depuis le CM2. L’école me frustrait depuis tout petit. J’ai redoublé mon CE1 alors que je faisais face à la barrière de la langue, et je ne pensais pas que cet échec devait me définir. J’ai décidé de commencer par pirater mes notes. Au début, c’était peu de chose, mais quand j’ai compris jusqu’où je pouvais pénétrer des systèmes et jailbreaker des appareils, je suis devenu curieux des systèmes qui m’entouraient et j’ai commencé à m’amuser.",
+      "second": "Cette curiosité m’a mené aux fermes de bots Instagram, au code, à l’automatisation, au machine learning, aux communautés en ligne, à la croissance digitale et aux recoins les plus sombres d’Internet. J’ai appris à quel point la technologie pouvait être puissante. Certains choix m’ont aussi appris à faire preuve de plus de discernement."
+    },
+    "socials": {
+      "label": "Profils sociaux de Denzel Rigaud",
+      "instagram": "Denzel Rigaud sur Instagram",
+      "linkedin": "Denzel Rigaud sur LinkedIn",
+      "youtube": "Denzel Rigaud sur YouTube"
+    },
+    "records": {
+      "label": "Registres d’identité indépendants",
+      "heading": "Registres externes",
+      "worldAthletics": "Profil World Athletics",
+      "lynn": "Profil d’athlète à Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Chapitre 01",
+    "kicker": "Ceux qui m’ont appris",
+    "title": "Mon premier magicien du web.",
+    "first": "Mon père et mon <brother>frère</brother> étaient les personnes les plus intelligentes que je connaissais, mais je les voyais rarement. Notre relation passait par le téléphone. Chaque seconde où je pouvais leur parler, ils m’apprenaient quelque chose que j’avais besoin de savoir. Avec le temps, j’ai compris que je devais quand même décider moi-même de ce qui était juste pour moi. Mon père était un magicien du web, et je me sentais inarrêtable sur Internet. Mon frère travaille pour la NSA.",
+    "second": "En 2021, j’ai déménagé en Floride après 17 ans passés avec mes deux mères et mes deux sœurs. J’ai survécu, haha. Ensuite, j’ai pu vivre avec mon père pour la première fois. Six mois plus tard, il est mort, alors j’ai fermé la porte à la technologie, parce que chaque compétence me rappelait lui.",
+    "third": "Mon père avait été musulman une grande partie de sa vie. J’ai suivi l’islam en partie parce que je voulais être comme lui. Avant de mourir, il a donné sa vie au Christ. Sa décision m’a accompagné longtemps après que j’ai rangé mes propres outils."
+  },
+  "return": {
+    "number": "Chapitre 02",
+    "kicker": "Le retour",
+    "title": "J’ai rouvert la porte.",
+    "first": "J’ai passé des années à éviter la part de moi qui me rappelait mon père. Je touchais encore à la technologie de temps en temps, mais le deuil m’empêchait de rester. J’ai rempli ce vide avec le péché de la luxure et je me suis éloigné toujours plus de la personne que j’aurais pu devenir.",
+    "second": "En janvier 2026, j’ai su que je devais changer. J’ai décidé de faire revivre le magicien du web que mon père m’avait appris à être, d’arrêter d’être un homme charnel qui ne croyait pas en Dieu, et de Le suivre. Quand je l’ai fait, ma vie a commencé à prospérer.",
+    "third": "MyBibleLens est né de cette décision. Je n’avais pas de plan complet. J’ai commencé à construire et j’ai continué d’avancer. Ce travail m’a permis de rouvrir la porte que j’avais fermée après la mort de mon père. J’ai relancé The Water Check et j’ai commencé à reprendre des rêves que je portais depuis l’enfance."
+  },
+  "draft": {
+    "label": "Chapitre 03 / Le brouillon",
+    "title": "« La vérité derrière le code »"
+  },
+  "venom": {
+    "title": "Le venin numérique",
+    "first": "Ça se passe à la seconde où l’on se réveille. Avant même que nos pieds touchent le sol, la main se tend. Vous attrapez le téléphone. Nous le faisons tous. Mais ce simple geste réflexe perturbe aussitôt les voies neuronales de votre cerveau et vous plonge dans un état critique et anxieux avant même que la journée commence.",
+    "second": "Développeur logiciel indépendant depuis 10 ans, avec un père hacker en cybersécurité qui travaillait seul et m’a appris les recoins sombres et mystérieux d’Internet, je vois le code derrière l’écran. Je sais exactement comment fonctionne l’algorithme, et la vérité, c’est que c’est du venin. La toxicité écrasante que vous ressentez en ligne n’est pas vraiment la nature humaine : c’est une illusion fabriquée. Nous subissons l’attaque constante du « pseudoïsme », où les sections de commentaires saturées et hostiles sont rarement des éclats spontanés d’internautes ordinaires. Elles font partie d’une stratégie délibérée et systématique de propagande computationnelle. De faux comptes et des réseaux de bots sont déployés pour injecter des récits synthétiques dans votre fil, conçus précisément pour manipuler l’opinion publique, creuser nos divisions et influencer votre comportement en ligne.",
+    "third": "Peu importe à quel point votre historique de recherche, ou celui de vos enfants, est propre, ou à quel point votre fil semble sain ; le système est conçu pour vous ramener en arrière. Il vous tire vers la négativité, vers la superficialité et vers des gourous du « deviens riche vite » qui nous poussent à placer l’argent au-dessus de Dieu (<strong>1 Timothée 6:10</strong>), créant des gens animés par l’esprit de Mammon. Il empêche nos magnifiques sœurs de savoir que leur vraie beauté, ce n’est ni le maquillage, ni ce qu’un garçon pense d’elles, ni le nombre de likes qu’elles reçoivent sur Instagram… c’est leur cœur et leur manière angélique de marcher avec Dieu. C’est une machine conçue pour détourner votre esprit et contrôler vos habitudes.",
+    "fourth": "Ce flot constant d’artificiel nous enferme dans une existence pressée et nous rend aveugles au fait que les vraies choses prennent du temps. Le véritable amour, une croissance sincère et des liens authentiques demandent de la patience, pas la gratification instantanée qu’offre un téléphone. Il pousse le cerveau à attendre une décharge constante de dopamine, celle de l’approbation. Comme les algorithmes calibrés d’une page « Pour toi », il donne aux gens le sentiment aveugle d’avoir droit à leurs opinions, et les coupe des vrais êtres humains et de la réalité : tout le monde ne sera pas d’accord sur la même chose. C’est une lente reddition, qui laisse la technologie froide et l’artificiel prendre entièrement le contrôle de l’esprit humain.",
+    "fifth": "Ils nous veulent distraits par ces guerres fabriquées. Ils veulent que le cerveau de nos enfants se ramollisse, coincé pour toujours au plus bas niveau de la <strong><bloom>taxonomie de Bloom</bloom></strong> : seulement « se souvenir » et consommer, sans jamais poser de questions, sans jamais créer, sans jamais aller plus loin. Nous voyons toute une génération retarder les <strong><erikson>stades de développement d’Erikson</erikson></strong> les plus décisifs, paralysée par les réalités fausses et retouchées qu’elle voit sur les écrans, terrifiée à l’idée de vraiment grandir parce que plus rien ne paraît authentique. Le monde en a assez des mensonges. Si vous ne voyez pas la manipulation dans le code, pas de souci ; ma génération la voit, et la génération suivante la verra aussi."
+  },
+  "crucible": {
+    "title": "Le creuset qui m’a forgé",
+    "first": "Je n’ai pas appris tout ça en étudiant des données ; je l’ai vécu : j’ai vendu de la drogue juste pour construire la vie que je m’étais promise, une vie qui mènerait à un avenir brillant. Mis à la porte de chez des proches, sans domicile. On m’a proposé d’entrer dans l’industrie pour adultes au moment où j’avais le plus besoin d’argent, avec 10k agités juste sous mon nez, mais ma mère m’a élevé avec des valeurs. <court>Deux</court> procès <search>au</search> lycée. J’ai commencé à pirater mes notes en CM2 parce que j’en avais marre d’échouer, surtout quand j’ai compris qu’on m’avait fait redoubler le CE1 à cause de l’accent avec lequel j’étais arrivé. Plus tard, c’est devenu pirater beaucoup plus de choses… en apprenant enfin à connaître mon <father>père</father>, j’ai compris d’où ça me venait.",
+    "second": "Pendant très longtemps, j’ai cru que Dieu ne voudrait plus jamais de moi après tout ça. Je pensais être allé trop loin. Puis j’ai découvert l’apôtre Paul. Paul a littéralement tué des chrétiens, et Dieu lui a quand même fait un immense cadeau. C’est là que j’ai compris : si Dieu a pu se servir d’un homme comme Paul, mon passé n’a jamais été trop lourd pour qu’Il bâtisse un avenir avec.",
+    "third": "Cet instinct de survie est né tôt. Grandir entouré de 4 femmes pendant 16 ans a façonné ma psyché d’une manière que je découvre encore. Mon esprit a appris à fonctionner simultanément sur différentes longueurs d’onde psychologiques. J’ai traversé une psychologie tordue, des dynamiques complexes et une manipulation qui ont fait de moi ce que je suis. Et je les aime pour ça ; ça m’a fait gagner de l’énergie avec les filles quand j’ai vraiment décidé de réfléchir à ce que ma mère me disait. Et après des cœurs brisés et des infidélités, je crois toujours à la <chivalry>galanterie</chivalry>.",
+    "fourth": "Ce que je veux dire, c’est que pour survivre dans une maison pleine de femmes, il faut penser comme elles, et quand je les ai quittées, j’ai dû devenir le jeune homme que je suis aujourd’hui, avec toutes les épreuves que j’ai traversées. C’était un environnement chaotique, et je n’ai trouvé la clarté qu’en choisissant activement d’éliminer mon seul péché, la « luxure », et le bruit, par la prière. Quand j’ai enfin mis Dieu en premier, j’ai compris qui j’étais vraiment. J’ai vu les épreuves qui m’ont façonné non comme des malédictions, mais comme l’entraînement exact dont j’avais besoin pour me rapprocher de Dieu, et pour ouvrir une issue aux autres.",
+    "fifth": "Trouver Dieu m’a conduit à mieux me connaître. Suivre Dieu m’a appris mes blessures et mes dons, et me comprendre moi-même m’a donné envie de Le connaître davantage. C’est là que ma vie a commencé à prospérer : j’avais une direction, un but et une raison de prendre soin de ce que Dieu m’a donné. The Water Check fait partie de cette mission. Être attentif à ce qui affecte votre corps peut vous aider à comprendre et à prendre soin de la personne que Dieu a voulu que vous soyez. Je veux créer une technologie qui vous aide à devenir la version la plus capable de cette personne.",
+    "mission": "Tout ce que je construis au sein de cette entreprise sert la même mission : rapprocher les gens de Dieu et les aider à utiliser la technologie pour vivre, créer, aimer et servir avec intention. C’est l’avenir espéré vers lequel je travaille.",
+    "connect": {
+      "label": "Suivre Denzel Rigaud",
+      "youtube": "Expected End sur YouTube",
+      "instagram": "Suivre Denzel Rigaud sur Instagram",
+      "linkedin": "Se connecter avec Denzel Rigaud sur LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Dossier personnel / 04 souvenirs",
+    "title": "Archives de souvenirs",
+    "text": "Les personnes, les lieux et le vrai travail derrière le code. Téléchargez n’importe quelle image et gardez-la.",
+    "number": "Souvenir {{number}}",
+    "download": "Télécharger le souvenir {{number}} : {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel enfant avec son père",
+        "title": "Mon père et moi"
+      },
+      "work": {
+        "alt": "Denzel travaillant sur un ordinateur portable avec deux collaborateurs autour d’une table",
+        "title": "Le travail autour de la table"
+      },
+      "workspace": {
+        "alt": "L’espace de travail de MyBibleLens et The Water Check",
+        "title": "Là où MyBibleLens a pris forme"
+      },
+      "archive": {
+        "alt": "Les archives vidéo Real Work de Denzel sur son téléphone",
+        "title": "Les archives Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Fin de transmission / Le travail continue",
+    "title": "Construisons quelque chose qui rende aux gens leur <em>vie.</em>",
+    "text": "Pour un logiciel réfléchi, un échange avec la presse ou le début d’une bonne idée, ouvrez un canal avec Expected End.",
+    "contact": "Contacter Expected End",
+    "back": "Retour à l’entreprise"
+  },
+  "verse": {
+    "version": "Louis Segond 1910",
+    "reference": "Jérémie 29:11",
+    "text": "Car je connais les projets que j’ai formés sur vous, dit l’Éternel, projets de paix et non de malheur, afin de vous donner un avenir et de l’espérance.",
+    "close": "Fermer le verset biblique"
+  },
+  "bio": {
+    "eyebrow": "Du fondateur",
+    "title": "Qu’est-il arrivé à @thewatercheck ?",
+    "close": "Fermer la bio",
+    "first": "Dès l’âge de 15 ans, je gérais et faisais grandir des pages d’influenceurs et de contenu tout en développant mon propre projet, @thewatercheck.",
+    "second": "Plus tard, à 17 ans, je suis allé vivre chez mon père, et le compte était en train de mourir, parce que <em>« Qui court deux lièvres à la fois n’en prend aucun. »</em> <proverb>(proverbe russe)</proverb> À cet âge, seul l’argent comptait pour moi. Je ne donnais pas tout à @thewatercheck.",
+    "third": "Puis mon <father>père</father> est décédé de façon inattendue le <strong>10 juillet 2021.</strong> Je suis passé en mode survie, à me demander où allait ma vie. Pour supporter la douleur de sa mort, j’ai fermé la porte au magicien du web que mon père m’avait appris à être, jusqu’en <strong>janvier 2026.</strong>",
+    "stat": {
+      "from": "200 000 abonnés",
+      "to": "7 000",
+      "caption": "Voilà où il en est aujourd’hui."
+    },
+    "what": {
+      "eyebrow": "Alors, c’était quoi ?",
+      "title": "Un simple rappel que les gens adoraient.",
+      "first": "The Water Check, c’était simplement ça : je publiais une photo chaque jour pour rappeler aux gens de boire de l’eau, et ça les aidait vraiment à boire de l’eau. Les commentaires étaient <em>inondés</em> de monde. C’est tout ce que ça faisait, et les gens adoraient.",
+      "second": "Puis un bot a tout effacé de la page, et la vie a suivi son cours."
+    }
+  },
+  "footer": {
+    "line": "La technologie n’est pas là pour que nous fassions défiler des écrans sans fin en vivant la vie des autres. Elle devrait faire grandir notre esprit, notre âme, notre mental et notre chair.",
+    "sign": "Fondateur, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigation du pied de page",
+    "build": "Ce que je construis",
+    "pressKit": "Kit presse",
+    "find": "Me trouver",
+    "finePrint": "Les petits caractères",
+    "terms": "Conditions d’utilisation",
+    "privacy": "Déclaration de confidentialité",
+    "accessibility": "Accessibilité",
+    "contact": "Contact",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Tous droits réservés.",
+    "blessing": "Jésus vous aime."
+  },
+  "egg": {
+    "label": "Entrer dans le monde d’art caché",
+    "armed": "Encore un clic pour entrer dans le monde d’art caché."
+  }
+}

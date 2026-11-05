@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import styles from "./style.module.css";
 
 type GoldenEggButtonProps = {
@@ -6,6 +7,7 @@ type GoldenEggButtonProps = {
 };
 
 export function GoldenEggButton({ onActivate }: GoldenEggButtonProps) {
+  const { t } = useTranslation("founder");
   const [armed, setArmed] = React.useState(false);
   const armedRef = React.useRef(false);
   const resetTimerRef = React.useRef<number | null>(null);
@@ -41,13 +43,13 @@ export function GoldenEggButton({ onActivate }: GoldenEggButtonProps) {
       <button
         className={styles.eggButton}
         type="button"
-        aria-label="Enter the hidden art world"
+        aria-label={t("egg.label")}
         onClick={handleActivate}
       >
         <img src="/brand/golden-egg.png" alt="" width="20" height="20" />
       </button>
       <output className={styles.srOnly} aria-live="polite">
-        {armed ? "One more press to enter the hidden art world." : ""}
+        {armed ? t("egg.armed") : ""}
       </output>
     </>
   );

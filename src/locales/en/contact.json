@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Contact Expected End",
+    "title": "Start with a little <em>context.</em>",
+    "intro": "Choose a few details and a clear email is prepared for you. Your email app opens before anything is sent."
+  },
+  "fields": {
+    "name": "Your name",
+    "email": "Your email",
+    "reason": "What is this about?",
+    "project": "Which project?",
+    "priceRange": "Price range",
+    "timeline": "Ideal timeline",
+    "discovery": "How did you find Expected End?",
+    "message": "What do you have in mind?",
+    "chooseOne": "Choose one"
+  },
+  "reasons": {
+    "partnership": "Partnership or collaboration",
+    "press": "Press or media",
+    "general": "General question"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check community",
+    "newIdea": "A new idea"
+  },
+  "timelines": {
+    "exploring": "Just exploring",
+    "month": "Within a month",
+    "threeMonths": "Within three months",
+    "laterThisYear": "Later this year",
+    "notSure": "Not sure yet"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check community",
+    "search": "Search",
+    "referral": "A referral",
+    "elsewhere": "Somewhere else"
+  },
+  "submit": {
+    "note": "Nothing is sent until you review it and press Send in your email app.",
+    "apps": "Choose <app>your email app</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, or <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Prepare email"
+  },
+  "dialog": {
+    "close": "Close contact form"
+  }
+}

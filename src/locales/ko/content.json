@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud는 Expected End, 기독교 성소 앱 MyBibleLens, 그리고 The Water Check를 만든 창업자이자 풀스택 개발자입니다.",
+  "projects": {
+    "mybiblelens": {
+      "category": "기독교 앱",
+      "action": "앱 보기",
+      "tagline": "기독교 성소 앱.",
+      "secondary": "소개",
+      "badge": "App Store 출시"
+    },
+    "watercheck": {
+      "category": "수분 커뮤니티",
+      "action": "앱 보기",
+      "tagline": "무엇을 마시는지 이해하세요. 나만의 수분 목표를 탭 한 번에.",
+      "badge": "심사 중"
+    },
+    "mybiblelens-store": {
+      "category": "스토어 · 곧 오픈",
+      "action": "스토어 입장",
+      "tagline": "입을 수 있는 믿음."
+    },
+    "watercheck-store": {
+      "category": "스토어 · 곧 오픈",
+      "action": "스토어 입장",
+      "tagline": "수분 보충부를 위한 장비."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "신앙 앱 · iOS",
+      "status": "App Store 출시"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "수분 앱 · iOS",
+      "status": "심사 중"
+    },
+    "mybiblelens-for-android": {
+      "name": "Android용 MyBibleLens",
+      "category": "Google Play",
+      "status": "비공개 테스트"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "무한 캔버스",
+      "status": "운영 중"
+    },
+    "journey-plans": {
+      "name": "Journey 플랜",
+      "category": "읽기 계획 + 인장",
+      "status": "운영 중"
+    },
+    "water-check-crews": {
+      "name": "Water Check 크루",
+      "category": "팀 수분 관리",
+      "status": "완성"
+    },
+    "home-screen-widgets": {
+      "name": "홈 화면 위젯",
+      "category": "iOS 위젯",
+      "status": "완성"
+    },
+    "hydration-calculator": {
+      "name": "수분 계산기",
+      "category": "웹 도구",
+      "status": "운영 중"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "비즈니스 본부 앱",
+      "status": "개발 중"
+    },
+    "43-language-rollout": {
+      "name": "43개 언어 출시",
+      "category": "현지화",
+      "status": "43개 언어"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens 스토어",
+      "category": "굿즈",
+      "status": "곧 오픈"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "앱 웹사이트",
+      "status": "운영 중"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "회사 웹사이트",
+      "status": "운영 중"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI 성경 공부",
+      "status": "AI 데모"
+    },
+    "hidden-art-world": {
+      "name": "숨겨진 아트 월드",
+      "category": "인터랙티브 웹 아트",
+      "status": "이스터 에그"
+    },
+    "sanctuary-stickers": {
+      "name": "성소 스티커",
+      "category": "일러스트 세트",
+      "status": "스티커 550개 이상"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens 피치 영상",
+      "category": "브랜드 영상",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "기능 소개 릴스",
+      "category": "영상 시리즈",
+      "status": "영상 10편"
+    },
+    "look-closer-series": {
+      "name": "Look Closer 시리즈",
+      "category": "소셜 시리즈",
+      "status": "게시물 60개"
+    },
+    "25-week-campaign": {
+      "name": "25주 캠페인",
+      "category": "Instagram 계획",
+      "status": "게시물 100개"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "워크북",
+      "status": "33개 블록"
+    },
+    "water-check-store": {
+      "name": "Water Check 스토어",
+      "category": "굿즈",
+      "status": "곧 오픈"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "앱",
+      "body": "실제 사람을 중심으로 설계한, 유용하고 세심한 제품.",
+      "interest": "앱 또는 소프트웨어 아이디어 만들기"
+    },
+    "02": {
+      "title": "웹사이트",
+      "body": "명확하고 생동감 있으며 따뜻하게 맞아 주는, 개성 있는 디지털 공간.",
+      "interest": "웹사이트 또는 디지털 경험"
+    },
+    "03": {
+      "title": "AI 시스템",
+      "body": "아이디어와 팀이 앞으로 나아가도록 돕는 실용적인 인공지능.",
+      "interest": "AI 시스템 또는 생산성 도구"
+    },
+    "04": {
+      "title": "크리에이티브",
+      "body": "의미를 중심에 둔 아이덴티티, 디렉션, 경험.",
+      "interest": "크리에이티브 디렉션 또는 디자인"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "나만의 맞춤 비즈니스 본부. CRM, 재무, 프로젝트, 팀 도구, 그리고 다음에 필요한 어떤 기능이든 모두 한곳에.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "자동화",
+      "body": "반복 작업을 연결된 워크플로로 바꿔, 비즈니스가 멈추지 않고 움직이게 해요.",
+      "interest": "자동화"
+    },
+    "07": {
+      "title": "클라이언트 포털",
+      "body": "고객이나 회원이 소통하고, 예약하고, 파일을 공유하고, 진행 상황을 확인할 수 있는 세련된 공간을 하나로.",
+      "interest": "클라이언트 포털"
+    },
+    "08": {
+      "title": "디지털 레스큐",
+      "body": "더 이상 비즈니스에 맞지 않는 소프트웨어를 고치고, 현대화하거나, 새로 만들어요.",
+      "interest": "디지털 레스큐"
+    }
+  }
+}

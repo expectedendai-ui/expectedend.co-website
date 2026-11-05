@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Navigare principală",
+    "projects": "Proiecte",
+    "services": "Servicii",
+    "company": "Misiune · Despre · Presă",
+    "contact": "Contact",
+    "home": "Pagina principală Expected End",
+    "openMenu": "Deschideți meniul",
+    "closeMenu": "Închideți meniul",
+    "links": {
+      "projects": "Proiecte",
+      "services": "Servicii",
+      "story": "Povestea",
+      "about": "Despre",
+      "press": "Presă",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigare în subsolul paginii",
+    "home": "Acasă",
+    "about": "Despre",
+    "press": "Presă",
+    "terms": "Termeni de utilizare",
+    "privacy": "Declarația de confidențialitate",
+    "accessibility": "Accesibilitate",
+    "contact": "Contact",
+    "mission": "Tot ce construiesc în cadrul acestei companii urmărește aceeași misiune: să-i apropii pe oameni de Dumnezeu și să-i ajut să folosească tehnologia pentru a trăi, a crea, a iubi și a sluji cu intenție. Acesta este viitorul nădăjduit spre care lucrez.",
+    "verse": "Ieremia 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Toate drepturile rezervate.",
+    "blessing": "Isus te iubește."
+  }
+}

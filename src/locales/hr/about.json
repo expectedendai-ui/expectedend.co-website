@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "kicker": "O tvrtki Expected End",
+    "title": "Tehnologija sa svrhom, stvorena za stvarni život."
+  },
+  "founder": {
+    "kicker": "Iza tvrtke",
+    "title": "Priča iza tvrtke Expected End.",
+    "body": "Osobni put od tehnoloških eksperimenata u petom razredu, preko tuge i vjere, do aplikacije MyBibleLens i novog početka. <more>Pročitajte više</more>",
+    "link": "Priča osnivača, Denzel Rigaud"
+  },
+  "mission": {
+    "kicker": "Misija",
+    "title": "Tehnologija bi vam trebala pomoći da se vratite svom životu.",
+    "attention": "Tehnologija može oblikovati način na koji tražimo pažnju i nagradu. Stalno uspoređivanje, aplikacije za upoznavanje i uglađene verzije tuđih života mogu učiniti da stvarni odnosi i tihi trenuci izgledaju manje vrijedni. Djeca ulaze u te sustave prije nego što shvate pritisak koji stoji iza njih.",
+    "screen": "Expected End ljudima daje bolji način korištenja ekrana. Stvara alate s kojima djeca i odrasli mogu učiti, stvarati, raditi, pronaći sigurno mjesto ili se približiti Bogu. Svaki bi ih proizvod trebao vratiti životu koji je pred njima.",
+    "line": "Misija je približiti ljude Bogu kroz produktivnu, korisnu i radosnu tehnologiju koja ostavlja prostora za stvarni život."
+  },
+  "press": {
+    "kicker": "Za medije",
+    "title": "Pomozite ispričati priču.",
+    "body": "Expected End rado razgovara o tehnologiji s vjerom u središtu, digitalnoj dobrobiti, tuzi osnivača, aplikacijama MyBibleLens i The Water Check te proizvodima koji vraćaju vrijeme stvarnom životu.",
+    "link": "Otvorite medijski paket"
+  }
+}

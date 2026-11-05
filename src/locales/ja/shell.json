@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "メインナビゲーション",
+    "projects": "プロジェクト",
+    "services": "サービス",
+    "company": "ミッション · 会社について · プレス",
+    "contact": "お問い合わせ",
+    "home": "Expected End ホーム",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "links": {
+      "projects": "プロジェクト",
+      "services": "サービス",
+      "story": "ストーリー",
+      "about": "会社について",
+      "press": "プレス",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "フッターのナビゲーション",
+    "home": "ホーム",
+    "about": "会社について",
+    "press": "プレス",
+    "terms": "利用規約",
+    "privacy": "プライバシーに関する声明",
+    "accessibility": "アクセシビリティ",
+    "contact": "お問い合わせ",
+    "mission": "この会社のもとで私がつくるものはすべて、同じミッションに向かっています。人々を神に近づけ、テクノロジーを使って、目的を持って生き、つくり、愛し、仕えられるよう助けること。それが、私が目指している「将来と希望」です。",
+    "verse": "エレミヤ書 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. 無断複製・転載を禁じます。",
+    "blessing": "イエスはあなたを愛しています。"
+  }
+}

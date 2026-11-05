@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Az alkalmazás",
+      "drinkCheck": "Drink Check",
+      "guide": "Útmutató",
+      "widgets": "Widgetek",
+      "progress": "Haladás",
+      "pricing": "Árak",
+      "faq": "GYIK",
+      "calculator": "Kalkulátor"
+    },
+    "hero": {
+      "title": "Igyon csak.<break/>Mi <em>számoljuk</em>.",
+      "sub": "Az Ön saját vízmennyisége, beolvasható italok, a teste feltöltődése, egy widget, amelyet tényleg megtart, és egy Bubbles nevű gömbhal, aki körbevezeti. Nincs gallonszabály, nincsenek influencerek, nincs bűntudat.",
+      "comingSoon": "Hamarosan",
+      "appStoreLead": "Töltse le:",
+      "appStore": "App Store",
+      "googlePlayLead": "Szerezze meg:",
+      "googlePlay": "Google Play",
+      "calculator": "Próbálja ki az ingyenes kalkulátort",
+      "instagram": "Kövesse a The Water Checket az Instagramon",
+      "note": "Jelenleg az App Store ellenőrzése alatt áll. A kalkulátor ingyenes, és nem kell hozzá regisztráció.",
+      "todayAlt": "A The Water Check Ma képernyője: 40 oz a 81,2 oz-os célból, gyors hozzáadás gombokkal és a mai naplóval",
+      "widgetsAlt": "A widgetstúdió, benne egy Test widget Hologram színben és widgetstílusok sorai",
+      "bubblesLabel": "Kérjen egy trükköt Bubblestől",
+      "bubblesSay": "Üdv, Bubbles vagyok!"
+    },
+    "stats": {
+      "widgetStyles": "widgetstílus",
+      "pearls": "felfedezhető gyöngy az Útmutatóban",
+      "foods": "megrajzolt, vízben gazdag étel",
+      "languages": "nyelv"
+    },
+    "sixty": {
+      "kicker": "Miért fontos",
+      "title": "Ön 60%-ban vízből áll.",
+      "lede": "Nem cél, amit teljesíteni kell. Ez a víz épp most dolgozik: oxigént szállít, párnázza az ízületeit, hűti a testét, és kimossa, amire nincs szüksége. Az igényei az aktivitással, az időjárással és az egészségi állapotával együtt változnak.",
+      "pmeterKicker": "A P-Meter",
+      "pmeterLabel": "Nyolc árnyalat a halvány szalmasárgától a sötét borostyánig, három csoportban: Jól hidratált, Pótold és Igyál most",
+      "wellHydrated": "Jól hidratált",
+      "topUp": "Pótold",
+      "drinkNow": "Igyál most",
+      "fine": "Csak hozzávetőleges jel, nem diagnózis. Az ételek, a vitaminok és a gyógyszerek is megváltoztatják a színt. Az alkalmazás minden sávot elmagyaráz, és azt is, mikor érdemes egészségügyi szakemberhez fordulni."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Egyszer beolvassa. Megismeri. Utána elég egy koppintás.",
+      "lede": "Olvassa be a vonalkódot, ingyen és ahányszor csak szeretné. Nincs vonalkód? Ha elmúlt 18 éves, fényképezze le, és az alkalmazás elolvassa a címkét. Így is, úgy is látja a cukrot teáskanálban, a koffeint, az elektrolitokat és minden összetevőt Jó, Rendben, Figyelem vagy Kerülendő jelöléssel.",
+      "scoresLabel": "A Drink Check pontszámszínei",
+      "scores": {
+        "great": "Kiváló",
+        "good": "Jó",
+        "okay": "Közepes",
+        "poor": "Gyenge"
+      },
+      "ticks": {
+        "electrolytes": "Elektrolitok a címkéről: nátrium, kálium, magnézium és kalcium, a napi értékükkel együtt.",
+        "save": "Mentse el (ha szeretné, nevezze át), és legközelebb egyetlen koppintás a hozzáadás oldalon. Nincs új beolvasás.",
+        "food": "Felnőttek ételt is lefényképezhetnek: egy mangó a mangójához adódik, valami új pedig saját buborékot kap.",
+        "journal": "Az Italnapló a telefonján őrzi, hogyan érezte magát az egyes italok után."
+      },
+      "fine": "Gyors pillantás a címkére, nem laborvizsgálat és nem egy márka értékelése. A vonalkódos eredmények az Open Food Factsből származnak, az AI pedig tévedhet, ezért nézze meg a valódi címkét, különösen allergia esetén. A fényképét nem tároljuk.",
+      "alt": "Egy sportital Drink Check-eredménye: 66 pont, Jó, a címkéről vett cukorral, koffeinnel és elektrolitokkal"
+    },
+    "foods": {
+      "kicker": "Az étel is számít",
+      "title": "A vizének nagyjából ötöde tányéron érkezik.",
+      "lede": "A hozzáadás oldal megrajzolt gyümölcsbuborékokból áll, soronként hárommal: görögdinnye, uborka, eper, mangó és még sok más. Koppintson a pluszra, és már hozzá is adta, a Visszavonás pedig ott van mellette. A leggyakrabban hozzáadott ételek előre kerülnek.",
+      "ticks": {
+        "amounts": "Pohár, palack vagy bármilyen mennyiség, mindegyik egyetlen koppintás.",
+        "caffeine": "A kávéivók kapnak egy koffeinkártyát, amely magától kitöltődik.",
+        "ring": "A tetején egy gyűrű mutatja, mennyit tesz hozzá az étel a napjához."
+      },
+      "alt": "A hozzáadás oldal: felül egy gyűrű, italgombok, egy koffeinkártya és vízben gazdag ételbuborékok"
+    },
+    "guide": {
+      "kicker": "The Water Check útmutató",
+      "title": "Pukkasszon ki egy buborékot. Tartson meg egy gyöngyöt.",
+      "lede": "Minden fejezet egy buborék, rajta egy kérdéssel, és mindegyik ingyenes. Miért érzi úgy, hogy „lemerült az akkuja”? Mit árul el a vizelete? Tényleg kell napi egy gallon? Olvasson végig egyet, és gyönggyé pattan. Nagyjából minden hatodik egy ritka, arany gyöngy.",
+      "electric": "„Az elektromos tested”: hat fejezet a jelről, a nátriumról és a káliumról, a magnéziumról és a kalciumról, valamint az üzemanyagról.",
+      "forHerKicker": "Nőknek",
+      "forHer": "Rózsaszín fejezetek a női testről és a vízről: rózsaszín vagy neon színű vizelet, puffadás a menstruáció körül, miért érinti gyakrabban a nőket a húgyúti fertőzés, egy kis szivárgás nevetéskor, terhesség és menopauza. Kedvesen, érthetően és forrásokkal.",
+      "fine": "Minden fejezet felsorolja a forrásait, és megmondja, mikor érdemes orvoshoz fordulni. A megértést jutalmazza, nem a képernyő előtt töltött időt: nincs sorozat, nincs nyomás.",
+      "alt": "The Water Check útmutató: Az elektromos tested fejezetei kérdésbuborékokként"
+    },
+    "widgets": {
+      "kicker": "Widgetek",
+      "title": "<count>89</count> stílus a Főképernyőre.",
+      "lede": "Sportok, helyek, évszakok, tengeri élővilág és designok, kicsi, közepes és nagy méretben, a gyűrűtől a hullámig terjedő elrendezésekkel. Regisztráláskor adja meg a sportágát, és az ahhoz tartozó widget jelenik meg elsőként. Italt közvetlenül a Főképernyőről is rögzíthet.",
+      "ticks": {
+        "body": "Test: a körvonala megtelik a napi vízzel. Szikra: egy akkumulátor töltődik a mai töltéssel.",
+        "charge": "Tegye a Töltés mérőt bármelyik widgetre, és a víz helyett az elektrolitjait követheti."
+      },
+      "chips": {
+        "body": "Test",
+        "spark": "Szikra",
+        "running": "Futás",
+        "crossCountry": "Terepfutás",
+        "volleyball": "Röplabda",
+        "basketball": "Kosárlabda",
+        "seaTurtle": "Tengeri teknős",
+        "jellyfish": "Medúza",
+        "beach": "Tengerpart",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Évszakok"
+      },
+      "alt": "A widgetstúdió a Test widgettel Hologram színben, a színváltozataival, elrendezéseivel és a Töltés mérővel"
+    },
+    "progress": {
+      "kicker": "Haladás",
+      "title": "Nézze meg, mi van az italaiban, sávról sávra.",
+      "lede": "A mai nap egyszerű, balról jobbra töltődő sávokként: a víz az Ön mennyiségéhez mérve, aztán a beolvasott italokból származó nátrium, kálium, magnézium és kalcium, valamint a koffein és a cukor. Koppintson bármelyik sávra, és megnézheti a mögötte lévő italokat. A Naptár minden napot egymás mellett mutat, a sorozatával együtt.",
+      "ticks": {
+        "dailyValues": "Az elektrolitokat a tápértékjelölésen szereplő napi értékekhez mérjük.",
+        "caffeine": "A koffeint 400 mg-hoz méri, ennyit ad meg az FDA a legtöbb egészséges felnőttre, a cukrot pedig 50 g-hoz.",
+        "journal": "Az Italnapló közvetlenül a sávok alatt található: minden beolvasott itala, és hogy hogyan érezte magát tőle.",
+        "real": "Minden szám valamiből származik, amit Ön rögzített vagy beolvasott. Semmi sincs kitalálva."
+      },
+      "fine": "Referenciák, nem célok, és nem orvosi tanács. Ha egészségügyi okból figyel a nátrium- vagy káliumbevitelére, kövesse orvosa tanácsát.",
+      "alt": "Haladás: a víz a napi mennyiség 83%-án, alatta sávokként a nátrium, a kálium, a magnézium, a kalcium, a koffein és a cukor"
+    },
+    "crew": {
+      "kicker": "Az Ön hónapja és az Ön emberei",
+      "title": "Nézze, ahogy összeadódik. Hozza a barátait.",
+      "calendarAlt": "A naptár: minden nap úgy telik meg, mint egy pohár, a rögzített napokkal, a célt elérő napokkal és a sorozattal",
+      "calendarTitle": "Az Ön vize, napról napra",
+      "calendarBody": "Minden rögzített nap úgy töltődik fel, mint egy pohár. Célt elérő napok, sorozatok és dagályjelek, és mindez Önnel tart egy új telefonra is.",
+      "crewAlt": "Egy Track team nevű Csapat gyors biztató üzenetekkel",
+      "crewTitle": "Csapat",
+      "crewBody": "Csak meghívással elérhető csoportok, amelyek biztatják egymást. A barátai a saját céljához viszonyított százalékát és a sorozatát látják, sosem az unciáit vagy a testét. A Jelentés és a Letiltás mindig kéznél van."
+    },
+    "bubbles": {
+      "kicker": "Ismerje meg Bubblest",
+      "title": "A kalauza egy gömbhal.",
+      "lede": "Bubbles az Osztály jólléti felelőse. Az első napján körbevezeti az alkalmazásban, és képtelen megállni, hogy ne villogjon egy kicsit. Rajta, adjon neki valami dolgot.",
+      "tricksLegend": "Bubbles trükkjei",
+      "tricks": {
+        "puff": "Felfújódás",
+        "spin": "Pörgés",
+        "flip": "Hátraszaltó",
+        "wave": "Integetés",
+        "cheer": "Nagy finálé"
+      }
+    },
+    "pricing": {
+      "kicker": "Árak",
+      "title": "Ingyenes kezdés. Minden, egyszeri áron.",
+      "free": {
+        "title": "Ingyenes",
+        "sub": "Minden, ami ahhoz kell, hogy eleget igyon.",
+        "items": {
+          "number": "Az Ön saját vízmennyisége",
+          "log": "Italok és vízben gazdag ételek rögzítése",
+          "barcode": "Vonalkód-beolvasás, ingyen és korlátlanul",
+          "photo": "Egy ingyenes fotós beolvasás (18 éves kortól)",
+          "guide": "Az Útmutató összes fejezete",
+          "widgets": "Klasszikus és Évszakok widgetek, valamint egyszerű Test és Szikra widgetek",
+          "crew": "A naptára, a sorozatai és egy barát Csapata"
+        }
+      },
+      "forever": {
+        "tag": "Nyitóév",
+        "title": "Minden örökre",
+        "sub": "Egyetlen vásárlás, előfizetés nélkül.",
+        "items": {
+          "widgets": "Minden widgetstílus és színváltozat",
+          "bars": "Az elektrolit-, koffein- és cukorsávok",
+          "journal": "Az Ön Italnaplója",
+          "photos": "Több fotós beolvasás (18 éves kortól)",
+          "summaries": "30 és 90 napos PDF-összefoglalók",
+          "crews": "Saját Csapatok létrehozása",
+          "later": "Minden, amit később hozzáadunk"
+        },
+        "note": "A nyitóévünk alatt érhető el. Ezt követően a The Water Check havi csomagra válthat, az addig egyszeri vásárlással feloldott funkciók pedig feloldva maradnak. Az árat vásárlás előtt az App Store vagy a Google Play mutatja."
+      }
+    },
+    "privacy": {
+      "kicker": "Az Ön adatai",
+      "title": "Mi marad a telefonján, és mi nem.",
+      "phoneTitle": "A telefonján marad",
+      "phoneBody": "Az Italnapló, a mentett italok és ételek, az Útmutató gyöngyei, az edzések, a ciklusjegyzetek és az emlékeztetők.",
+      "accountTitle": "A fiókjánál tároljuk",
+      "accountBody": "A bejelentkezése, a regisztrációs válaszai, minden rögzített ital és étel az időpontjával, a napi vízösszesítők és a Csapata, hogy egy új telefonra is Önnel tartsanak.",
+      "neverTitle": "Soha",
+      "neverBody": "Nem adjuk el az adatait, és nem osztjuk meg őket hirdetési hálózatokkal. A Drink Check-fotóit nem tároljuk.",
+      "links": {
+        "privacy": "Adatvédelmi szabályzat",
+        "healthData": "Fogyasztói egészségügyi adatokra vonatkozó szabályzat",
+        "deleteAccount": "Fiók törlése"
+      }
+    },
+    "calculator": {
+      "kicker": "Ingyenes, regisztráció nélkül",
+      "title": "Kezdje azokkal a számokkal, amelyeket ismer.",
+      "lede": "A testsúlya, a magassága, és hogy mennyit mozog. A kalkulátor nagyjából húsz másodperc alatt napi célt ad, és megmutatja a számítás menetét, hogy vitatkozhasson vele. A böngészőjében fut.",
+      "chips": {
+        "weight": "Testsúlyalap",
+        "height": "Magasság és testalkat",
+        "activity": "Aktivitási korrekció",
+        "lifeStage": "Életszakasz",
+        "heat": "Hőség és páratartalom",
+        "electrolytes": "Elektrolit-ellenőrzés"
+      },
+      "open": "A kalkulátor megnyitása",
+      "fine": "Felnőtteknek szóló, oktatási célú tervezési becslés, nem diagnózis vagy előírás. Ne erőltesse a folyadékbevitelt. Kérdezzen meg egy egészségügyi szakembert, ha terhes vagy szoptat, a folyadékháztartást befolyásoló gyógyszert szed, vagy vese- vagy szívbetegsége van."
+    },
+    "faq": {
+      "kicker": "Kérdések",
+      "title": "Az őszinte válaszok.",
+      "items": {
+        "medical": {
+          "q": "Orvosi tanácsnak számít a The Water Check?",
+          "a": "Nem. Ez egy általános jólléti alkalmazás. Az Ön vízmennyisége oktatási célú becslés, nem előírás, és az alkalmazásban semmi sem diagnosztizál vagy kezel semmit. Ha terhes vagy szoptat, a folyadékháztartást befolyásoló gyógyszert szed, vagy vese-, szív- vagy más betegsége van, kérdezze meg orvosát, mi a helyes az Ön számára."
+        },
+        "number": {
+          "q": "Honnan származik a mennyiségem?",
+          "a": "A testsúlyából, a magasságából, az aktivitásából, az éghajlatból és az életszakaszából, nyilvános ajánlásokból kiindulva, például az amerikai Nemzeti Akadémiák vízbeviteli referenciaértékeiből. Az ingyenes kalkulátor megmutatja a számítás menetét, így minden lépést láthat. Ez kiindulópont, nem szabály."
+        },
+        "scan": {
+          "q": "Mi történik, amikor beolvasok egy italt?",
+          "a": "A vonalkód-beolvasás csak a vonalkód számát küldi el az Open Food Factsnek, egy ingyenes, nyílt élelmiszer-adatbázisnak, és visszakapja, amit a címke tartalmaz. A fénykép, amely a 18 éves és idősebb felnőtteknek érhető el, a szerverünkön keresztül a Google Gemini AI-hoz kerül, amely elolvassa a címkét, és visszaküldi, amit talált. A fényképét nem tároljuk; a Google a saját feltételei szerint korlátozott ideig megőrizhet adatokat. A címkék és az AI is tévedhetnek, ezért nézze meg a valódi címkét, és soha ne használja a Drink Checket allergiák vagy orvosi diéták esetén."
+        },
+        "phone": {
+          "q": "Mi marad a telefonomon?",
+          "a": "Az Italnapló, a mentett italok és ételek, az Útmutató gyöngyei, az edzések, a ciklusra vonatkozó válasza és a ciklusjegyzetek, bár a telefonja saját biztonsági mentése tartalmazhatja őket. iPhone-on azok az edzések is a telefonján maradnak, amelyeket engedélyez az alkalmazásnak beolvasni az Apple Health appból, és ezek soha nem kerülnek hozzánk. A regisztrációs válaszait, minden rögzített italt és ételt az időpontjával, valamint a napi összesítőit a fiókjánál tároljuk, hogy egy új telefonra is Önnel tartsanak. Nem adjuk el az adatait."
+        },
+        "audience": {
+          "q": "Kinek szól?",
+          "a": "Mindenkinek, aki 13 éves vagy idősebb. Ha 18 év alatti, szülője vagy gondviselője engedélyével használja. A Gyümölcsböjt, az alkoholfogyasztás rögzítése és a fotós beolvasás csak felnőtteknek érhető el. Az alkalmazás a megadott korcsoport alapján működik, ezért kérjük, válaszoljon őszintén. Ha 13 és 17 év közötti, ellenőriztesse a mennyiségét egy szülővel vagy egészségügyi szakemberrel."
+        },
+        "cost": {
+          "q": "Mennyibe kerül?",
+          "a": "Az alkalmazás ingyenesen elkezdhető: megkapja a mennyiségét, rögzítheti a vizet és az ételt, bármilyen vonalkódot beolvashat, elolvashatja az Útmutató összes fejezetét, csatlakozhat egy Csapathoz, és használhatja a Klasszikus, az Évszakok, a Test és a Szikra widgeteket. A nyitóévünk alatt egyetlen, nem kötelező vásárlás mindent felold, egyszer és mindenkorra, előfizetés nélkül. Az App Store vagy a Google Play vásárlás előtt az Ön pénznemében mutatja az árat."
+        },
+        "deleteAccount": {
+          "q": "Hogyan törölhetem a fiókomat?",
+          "a": "Az alkalmazásban: Profil, aztán Beállítások, aztán Fiók törlése. Azonnal törlődik. Nincs meg az alkalmazás? A Fiók törlése oldalunk elmagyarázza, hogyan kérheti e-mailben."
+        },
+        "download": {
+          "q": "Mikor tölthetem le?",
+          "a": "A The Water Check jelenleg az App Store ellenőrzése alatt áll, a Google Playen pedig tesztelés alatt, és hamarosan mindkettőn elérhető lesz. Kövesse a @thewatercheck fiókot az Instagramon, hogy elsőként értesüljön."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Értse meg, mit iszik. Floridában építette egy egyszemélyes cég. 13 éves kortól.",
+      "legal": "Jogi információk",
+      "privacy": "A The Water Check adatvédelmi szabályzata",
+      "terms": "A The Water Check általános szerződési feltételei",
+      "community": "Közösségi irányelvek",
+      "healthData": "Fogyasztói egészségügyi adatokra vonatkozó adatvédelmi szabályzat",
+      "deleteAccount": "Fiók törlése",
+      "sitePrivacy": "A weboldal adatvédelme",
+      "explore": "Felfedezés",
+      "calculator": "Hidratációs kalkulátor",
+      "store": "The Water Check bolt",
+      "instagram": "@thewatercheck az Instagramon",
+      "expectedEnd": "Expected End",
+      "help": "Súgó",
+      "email": "E-mailes támogatás",
+      "accessibility": "Akadálymentesség",
+      "contact": "Kapcsolat",
+      "note": "A The Water Check általános jólléti alkalmazás. Nem diagnosztizál, nem kezel és nem előz meg semmilyen betegséget, és nem helyettesíti egy egészségügyi szakember tanácsát. Vészhelyzetben hívja a 911-et vagy a helyi segélyhívó számot. Az alkalmazás képernyőképei kitalált adatokkal futó tesztverziót mutatnak; a funkciók a megjelenésig változhatnak."
+    }
+  },
+  "app": {
+    "eyebrow": "Az alkalmazás",
+    "title": "Az Ön vize, napról napra.",
+    "body": "Kezdjen egy személyes becsléssel, aztán rögzítse az italokat és a vízben gazdag ételeket, ahogy telik a napja. Kövesse a haladását az alkalmazásban, a Főképernyőn és az egész hónapon át.",
+    "comingSoon": "Hamarosan az App Store-ban",
+    "calculator": "Próbálja ki az ingyenes kalkulátort",
+    "caveat": "A kalkulátor itt fiók nélkül is működik. Az alkalmazás képernyőképei előzetes verziót mutatnak; a funkciók és az elérhetőség a megjelenésig változhatnak.",
+    "screens": {
+      "number": {
+        "alt": "A The Water Check személyes napi vízbecslése iPhone-on",
+        "caption": "Az Ön mennyisége"
+      },
+      "log": {
+        "alt": "A The Water Check napi naplója italokkal és ételekkel iPhone-on",
+        "caption": "Mai napló"
+      },
+      "widgets": {
+        "alt": "A The Water Check Főképernyő-widgetjének beállításai iPhone-on",
+        "caption": "Widgetek"
+      },
+      "wellness": {
+        "alt": "A The Water Check jólléti útmutatója és a P-Meter iPhone-on",
+        "caption": "Jóllét"
+      },
+      "calendar": {
+        "alt": "A The Water Check havi vízinaptára iPhone-on",
+        "caption": "Naptár"
+      }
+    }
+  },
+  "footer": {
+    "note": "Az ingyenes kalkulátorhoz nem kell fiók. A böngészőjében fut, és nem küldi el nekünk a számait.",
+    "navLabel": "Lábléc navigáció",
+    "calculator": "Hidratációs kalkulátor",
+    "explore": "Az alkalmazás felfedezése",
+    "instagram": "@thewatercheck az Instagramon",
+    "store": "A bolt",
+    "builder": "Ki építette",
+    "finePrint": "Az apró betűs rész",
+    "terms": "Általános Szerződési Feltételek",
+    "privacy": "Adatvédelmi szabályzat",
+    "community": "Közösségi irányelvek",
+    "healthData": "Fogyasztói egészségügyi adatok",
+    "deleteAccount": "Fiók törlése",
+    "accessibility": "Akadálymentesség",
+    "contact": "Kapcsolat",
+    "project": "Az <company>EXPECTEDEND LLC</company> projektje. Oktatási célú becslés, nem orvosi tanács.",
+    "backToTop": "Vissza a tetejére ↑"
+  }
+}

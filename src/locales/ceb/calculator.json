@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Biyai ang mga influencer. Kat-oni ang tinuod nga biolohiya sa imong lawas.",
+    "lead": "Sulayi ang libre nga calculator bisan walay account, dayon tan-awa ang app nga among gihimo alang sa adlaw-adlaw nga pag-track.",
+    "appLink": "Tan-awa ang app ↓",
+    "logoLabel": "Gamita ang calculator sa The Water Check"
+  },
+  "intro": {
+    "kicker": "Calculator sa hydration",
+    "title": "Sugdi sa mga numero nga imong nahibaloan."
+  },
+  "units": {
+    "legend": "Yunit sa gibug-aton",
+    "pounds": "Libra (lb)",
+    "kilograms": "Kilo (kg)"
+  },
+  "weight": {
+    "labelLb": "Gibug-aton (lbs)",
+    "labelKg": "Gibug-aton (kg)",
+    "valueTextLb": "{{value}} ka libra",
+    "valueTextKg": "{{value}} ka kilo"
+  },
+  "height": {
+    "legend": "Gitas-on",
+    "feet": "Gitas-on (ft)",
+    "inches": "Gitas-on (in)",
+    "centimeters": "Gitas-on (cm)",
+    "note": "Ang panginahanglan sa likido nagsunod sa lean mass, busa ang gitas-on labing importante kung taas ang gibug-aton para sa imong lawas."
+  },
+  "activity": {
+    "label": "Adlaw-adlaw nga Kalihokan (minuto)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} ka minuto"
+  },
+  "factors": {
+    "legend": "Mga hinungdan nga makausab sa panginahanglan sa likido",
+    "intro": "Modugang lang kami og numero kung adunay makatarunganon nga adlaw-adlaw nga adjustment. Ang ubang tubag maghimo sa imong giya nga mas personal nga dili magpakaaron-ingnon nga ang siyensya nagsuporta og eksaktong sukod.",
+    "age": {
+      "label": "Edad",
+      "hint": "Ang edad naghatag og konteksto; dili kini mo-diagnose sa menopause."
+    },
+    "lifeStage": {
+      "label": "Yugto sa kinabuhi",
+      "hint": "Mogamit og klaro nga adjustment para sa pagmabdos o paghimo og gatas sa inahan.",
+      "options": {
+        "standard": "Kasagaran",
+        "pregnant": "Mabdos",
+        "breastfeeding": "Nagpasuso"
+      }
+    },
+    "sex": {
+      "label": "Sekso",
+      "hint": "Opsyonal. Mopino sa kuwenta sa ideal nga gibug-aton ug reference intake.",
+      "options": {
+        "unspecified": "Mas gusto nako nga dili isulti",
+        "woman": "Babaye",
+        "man": "Lalaki"
+      }
+    },
+    "luteal": {
+      "label": "Semana sa dili pa ang imong regla",
+      "hint": "Gikonsiderar ang pagpundo sa tubig sa luteal phase ug ang pagbusdik tungod sa hormone. Walay fixed nga dugang nga para sa tanan."
+    },
+    "heat": {
+      "label": "Init o alimuot nga kahimtang",
+      "hint": "Ang giya sa kainit nagdepende sa pagkaladlad ug singot, dili lang sa lokasyon."
+    }
+  },
+  "result": {
+    "goal": "Imong Adlaw-adlaw nga Goal: {{ounces}} Onsa",
+    "breakdown": "Detalye sa kuwenta",
+    "weightBaseline": "Baseline sa gibug-aton",
+    "heightAndBuild": "Gitas-on ug porma sa lawas",
+    "sexReference": "Reference sumala sa sekso",
+    "notSet": "Wala pa gibutang",
+    "activity": "Adjustment sa kalihokan",
+    "lifeStage": {
+      "standard": "Adjustment sa yugto sa kinabuhi",
+      "pregnant": "Adjustment sa pagmabdos",
+      "breastfeeding": "Adjustment sa pagpasuso"
+    },
+    "luteal": "Giya sa luteal phase",
+    "noFixedOunces": "Walay fixed nga +oz",
+    "electrolytes": "Pagsusi sa electrolyte",
+    "electrolytesAfterSweat": "Hunahunaa human sa grabeng pagsingot",
+    "electrolytesFromFood": "Kasagaran igo na ang pagkaon",
+    "guidance": "Usa kini ka edukasyonal nga banabana sa pagplano alang sa mga hamtong, dili diagnosis, pagtambal, o klinikal nga reseta. Ang pagkaon naghatag usab og tubig, ug lain-lain ang panginahanglan sa matag tawo. Ayaw pugsa ang imong kaugalingon sa pag-inom. Pangutan-a ang usa ka propesyonal sa panglawas bahin sa imong panginahanglan kung mabdos ka o nagpasuso, nag-inom og tambal nga makaapekto sa balanse sa likido sa lawas, adunay sakit sa kidney o kasingkasing, gisugo nga limitahan ang imong pag-inom og likido, o adunay mga sintomas nga makapabalaka."
+  },
+  "equivalents": {
+    "title": "Halos katumbas kana sa",
+    "cups": "{{value}} ka tasa",
+    "cupsNote": "8 oz matag usa",
+    "liters": "{{value}} ka litro",
+    "litersNote": "metric",
+    "bottles": "{{value}} ka botelya",
+    "bottlesNote": "16.9 oz nga gidak-on"
+  },
+  "eatYourWater": {
+    "kicker": "Kan-a ang imong tubig",
+    "title": "Dili tanan kinahanglan gikan sa baso.",
+    "copy": "Mga ikalima sa adlaw-adlaw nga tubig sa kadaghanang tawo gikan sa pagkaon. Kadaghanan sa presko nga prutas ug utanon kay 70 hangtod 95 porsyento nga tubig, ug kung makaabot na kini sa imong dugo, mohatag kini og tubig sa imong lawas sama gyud sa usa ka ilimnon.",
+    "drink": "Inom",
+    "drinkNote": "{{cups}} ka tasa sa tubig, tsa, o gatas",
+    "eat": "Kaon",
+    "eatNote": "gikan sa pagkaon nga daghag tubig",
+    "pickLegend": "Hunahunaa ang bahin gikan sa pagkaon isip",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "Ang {{serving}} adunay mga {{ounces}} oz nga tubig ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "ka tasa sa pakwan",
+      "serving": "1 ka tasa nga gi-dice",
+      "water": "92% tubig"
+    },
+    "cucumber": {
+      "label": "ka pipino",
+      "serving": "1 ka tunga-tunga og gidak-on",
+      "water": "95% tubig"
+    },
+    "strawberries": {
+      "label": "ka tasa sa strawberry",
+      "serving": "1 ka tasa",
+      "water": "91% tubig"
+    },
+    "oranges": {
+      "label": "ka kahil",
+      "serving": "1 ka tunga-tunga og gidak-on",
+      "water": "87% tubig"
+    },
+    "salad": {
+      "label": "ka panaksan sa salad",
+      "serving": "2 ka tasa nga sinagol",
+      "water": "mga 94% tubig"
+    },
+    "soup": {
+      "label": "ka panaksan sa sabaw",
+      "serving": "1 ka tasa",
+      "water": "mga 92% tubig"
+    },
+    "tomatoes": {
+      "label": "ka kamatis",
+      "serving": "1 ka tunga-tunga og gidak-on",
+      "water": "95% tubig"
+    },
+    "grapes": {
+      "label": "ka tasa sa ubas",
+      "serving": "1 ka tasa",
+      "water": "81% tubig"
+    },
+    "peaches": {
+      "label": "ka peach",
+      "serving": "1 ka tunga-tunga og gidak-on",
+      "water": "89% tubig"
+    },
+    "cantaloupe": {
+      "label": "ka tasa sa melon",
+      "serving": "1 ka tasa nga gi-dice",
+      "water": "90% tubig"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Nganong maihap ang tubig sa pagkaon",
+    "title": "Ang tubig gikan sa pakwan kay parehas ra nga tubig.",
+    "sameMolecule": "<strong>Parehas nga molekula.</strong> Ang H2O gikan sa pipino ug ang H2O gikan sa gripo managsama gyud. Kung makalabang na kini sa imong tinai paingon sa imong dugo, ipadala kini sa imong lawas ngadto sa imong kaunoran sa parehas nga paagi.",
+    "slowRelease": "<strong>Hinay-hinay nga pagbuhi.</strong> Ang tubig sa prutas ug utanon gikuptan sulod sa mga fiber ug bungbong sa mga selula, busa mas hinay kini masuhop kaysa usa ka baso nga dinalian nimong giinom, nga kasagaran dali ra ipagawas sa imong kidney.",
+    "electrolytes": "<strong>Uban na ang electrolytes.</strong> Ang pipino, espinaka, melon, ug berries adunay potassium ug magnesium, mga mineral nga gigamit sa imong mga selula aron makakupot sa tubig.",
+    "glycogen": "<strong>Enerhiya ug tipiganan nga dungan.</strong> Ang kaunoran nagtipig og carbohydrate isip glycogen, ug ang matag gramo sa glycogen gitipigan uban sa mga tulo ka gramo sa tubig. Ang mga pagkaon nga daghag tubig ug daghag carbohydrate naghatag sa duha.",
+    "caveat": "Kinahanglan gihapon nimo moinom. Ang pagkaon kasagaran mosangkap og mga ikalima sa kinatibuk-an; ang uban gikan sa tubig ug ubang ilimnon. Ang uga nga prutas, nuts, ug pan gamay ra kaayog tubig."
+  },
+  "grace": {
+    "kicker": "Pagkamabination sa lawas",
+    "title": "Mubo nga Nota Bahin sa Pagkamaluloy sa Imong Kaugalingon",
+    "body": "Ang imong makita sa salamin ug ang pagkahaom sa imong sinina mahimong mausab tungod sa pagpabilin sa tubig sa lawas, paghilis, hormone, pagkatulog, ug uban pang normal nga kausaban. Ang usa ka adlaw nga busdik ang tiyan dili maoy nagtino sa imong lawas. Inom nga may pag-atiman, hatagi ang imong kaugalingon og panahon, ug tugoti nga ang pagkamausisaon mopuli sa kaulaw. Ang padayon nga pagbusdik sa tiyan, paghubag, paspas nga kausaban sa gibug-aton, o mga sintomas nga makapabalaka kanimo angay nga hisgutan uban sa usa ka propesyonal sa panglawas."
+  },
+  "overhydration": {
+    "title": "Ang Kakuyaw sa Pinugos nga Pag-inom og Tubig",
+    "kidneys": "Ang imong kidney nagkinahanglan og panahon aron ipagawas ang tubig. Samtang taas nga ehersisyo, ang pag-inom nga mas paspas kaysa pagkawala sa likido sa imong lawas mahimong makapalabnaw sa sodium sa dugo ug makahatag og hyponatremia nga may kalabotan sa ehersisyo. Ang unang mga sintomas mahimong maglakip sa sakit sa ulo, kasukaon, pagkalipong, kakapoy, o kalibog. Ang grabe nga mga kaso mahimong hinungdan sa paghubag sa utok, kombulsyon, coma, ug kamatayon.",
+    "pacing": "Ayaw gukda kini nga banabana pinaagi sa pagtulon og daghang tubig sa usa ka higayon. Ikatag ang imong pag-inom sa tibuok adlaw. Samtang nag-ehersisyo, ipahiangay ang imong pag-inom sa imong kauhaw, sa kahimtang, ug sa kaugalingon nimong pagkawala sa singot. Pangitag dinaliang medikal nga pag-atiman kung adunay kalibog, kombulsyon, pagkatumba, o grabe nga mga sintomas.",
+    "sources": "Mga tinubdan: <nih>giya sa NIH bahin sa hyponatremia nga may kalabotan sa ehersisyo</nih> ug <academies>mga rekomendasyon sa National Academies bahin sa likido</academies>."
+  },
+  "notes": {
+    "title": "Imong mga nota sa ebidensya",
+    "sexMan": "<strong>Sekso:</strong> Ang reference intake sa National Academies mga 3.7 ka litro sa kinatibuk-ang tubig matag adlaw para sa mga lalaki ug 2.7 para sa mga babaye. Ang gibug-aton sa lawas maoy nagpatin-aw sa kadaghanan sa kalainan, busa ang nahibilin makita dinhi isip 4 porsyento nga dugang sa baseline sa gibug-aton, ug ang pagsusi sa gitas-on ug porma sa lawas mogamit sa formula sa ideal nga gibug-aton para sa lalaki.",
+    "sexWoman": "<strong>Sekso:</strong> Ang reference intake sa National Academies mga 3.7 ka litro sa kinatibuk-ang tubig matag adlaw para sa mga lalaki ug 2.7 para sa mga babaye. Ang gibug-aton sa lawas maoy nagpatin-aw sa kadaghanan sa kalainan, busa ang nahibilin makita dinhi isip 4 porsyento nga kunhod sa baseline sa gibug-aton, ug ang pagsusi sa gitas-on ug porma sa lawas mogamit sa formula sa ideal nga gibug-aton para sa babaye.",
+    "height": "<strong>Gitas-on ug porma sa lawas:</strong> Ang panginahanglan sa likido mas nagsunod sa lean mass kaysa sa kinatibuk-ang gibug-aton. Tungod kay ang imong gibug-aton labaw sa kasagarang range para sa imong gitas-on, ang banabana mogamit og adjusted body weight (ideal nga gibug-aton dugangan og 40 porsyento sa kalainan), usa ka kasagarang klinikal nga kombensyon. Usa lang kini ka banabana nga numero para sa pagplano, dili paghukom sa imong lawas.",
+    "cycle": "<strong>Yugto sa siklo:</strong> Tinuod ang mga kausaban sa likido nga may kalabotan sa siklo, apan ang mga pagtuon wala pa makapamatuod og usa ka fixed nga dugang nga onsa para sa tanan. Walay onsa nga awtomatikong gidugang. Ang regular nga pagkaon kasagaran igo na sa electrolytes; ang magnesium o potassium supplement dili rekomendasyon para sa tanan.",
+    "age": "<strong>Edad ug menopause:</strong> Dili lang ang edad ang nagtino kung naa ka na sa menopause. Ang kausaban sa hormone makaapekto sa kauhaw ug sa pagkontrol sa likido, apan walay napamatud-ang adjustment sa onsa para sa “labaw 45”, busa wala giusab sa imong edad ang kinatibuk-an.",
+    "heat": "<strong>Kainit:</strong> Ang fixed nga dugang para sa klima mahimong kulang o sobra sa banabana sa imong panginahanglan. Para sa kasarangang trabaho sa kainit nga ubos sa duha ka oras, ang NIOSH nagtambag og mga 8 ka onsa matag 15–20 ka minuto; ang mas dugay ug grabeng pagsingot nagkinahanglan og plano sa pagpuli sa likido nga gipahiangay sa matag tawo."
+  },
+  "evidence": {
+    "label": "Ebidensya:",
+    "academies": "Giya sa National Academies bahin sa pag-inom og tubig",
+    "harvard": "Harvard Health bahin sa pagkaon ug hydration",
+    "cycle": "Pagtuon sa osmoregulation sa menstrual cycle",
+    "menopause": "Review sa pagkontrol sa likido sa menopause",
+    "niosh": "Giya sa CDC/NIOSH bahin sa kainit"
+  },
+  "tips": {
+    "kicker": "Mapuslanon, dili sobra",
+    "title": "Tulo ka pagsusi alang sa tinuod nga kinabuhi.",
+    "schedule": {
+      "title": "Ang Iskedyul",
+      "body": "Sugdi ang imong buntag sa tubig, pag-inom og gamay-gamay uban sa pagkaon, ug tugoti ang kauhaw, panahon, ug kalihokan nga mogiya sa uban."
+    },
+    "electrolytes": {
+      "title": "Mga Electrolyte",
+      "body": "Kadaghanan sa mga tawo mopuli sa ilang electrolytes pinaagi sa regular nga pagkaon. Human sa dugay o daghang pagsingot, pagpili og balanse nga electrolyte drink; ayaw pagdugang og asin kanunay kung gitambagan ka nga limitahan ang sodium."
+    },
+    "visualCheck": {
+      "title": "Ang Visual Check",
+      "body": "Ang luspad nga dalag nga ihi mahimong usa ka dili eksakto nga timailhan sa hydration. Ang pagkaon, bitamina, tambal, ug kahimtang sa panglawas makausab sa kolor, busa dili kini diagnosis."
+    }
+  },
+  "author": {
+    "kicker": "Gikan sa tawo nga naghimo niini",
+    "title": "Nganong Gihimo Nako Kini (Ug Nganong Dili Ka Angay Maminaw Lang Kanako)",
+    "athlete": "Ako si Denzel Rigaud. Kapin sa siyam ka tuig akong nagdagan sa 400 metros ug hurdles, busa ang hydration nahimong bahin sa akong pagbansay, pagpahiuli, ug pagkat-on sa pagbasa sa akong lawas.",
+    "purpose": "Gihimo nako ang The Water Check aron matabangan ka nga madungog ang imong lawas taliwala sa kasaba sa online. Dili nako gusto nga isipon nimo ang akong kasinatian nga reseta. Ang imong biolohiya, palibot, medical history, ug yugto sa kinabuhi ang nagtino sa imong kinahanglan.",
+    "technology": "Ang teknolohiya dili para kita mag-scroll nga walay hunong ug mabuhi sa kinabuhi sa ubang tawo. Kinahanglan kini magpabilin nga produktibo sa atong kinabuhi ug mopaayo sa atong espiritu, kalag, hunahuna, ug unod, aron kita mahimong labing maayong bersyon sa kung kinsa ang gusto natong mahimo. Busa hunong na sa pagpaminaw sa tanan, kay kung unsa ang mo-work para nimo, mao kana ang mo-work para nimo.",
+    "faith": "Kat-oni ang imong mga pattern ug dad-a ang imong mga kabalaka sa panglawas ngadto sa usa ka kwalipikadong propesyonal. Ang pag-atiman sa imong pisikal nga lawas makapaduol kanimo sa imong kaugalingon ug sa Dios, nga nagbutang og usa ka siga sa matag usa kanato nga angay atimanon.",
+    "motto": "Ayaw sunda ang mga influencer. Ilha ang imong kaugalingon.",
+    "date": "Marso 15, 2021",
+    "founderPage": "Panid sa Founder"
+  },
+  "community": {
+    "kicker": "Ipabilin nga tawhanon",
+    "title": "Apil sa tinuod nga komunidad.",
+    "instagram": "I-follow ang @thewatercheck sa Instagram",
+    "reelSoon": "Hapit na ang Instagram Reel",
+    "story": "Istorya sa komunidad {{position}}"
+  }
+}

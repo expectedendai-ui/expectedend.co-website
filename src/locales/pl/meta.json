@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Cel, pięknie zbudowany",
+    "description": "Expected End tworzy przemyślane oprogramowanie, narzędzia do produktywności, cyfrowe doświadczenia i społeczności."
+  },
+  "about": {
+    "title": "O nas | Expected End",
+    "description": "Historia założyciela Denzela Rigauda, misja Expected End i projekty zrodzone z wiary i poczucia celu."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Założyciel Expected End",
+    "description": "Denzel Rigaud jest założycielem i full-stack developerem Expected End, MyBibleLens (sanktuarium w aplikacji dla chrześcijan) oraz The Water Check."
+  },
+  "press": {
+    "title": "Prasa i media | Expected End",
+    "description": "Zatwierdzone biogramy, zweryfikowane fakty, linki do encji i materiały do pobrania dla mediów piszących o Expected End i Denzelu Rigaudzie."
+  },
+  "terms": {
+    "title": "Regulamin korzystania ze strony | Expected End",
+    "description": "Zasady korzystania ze strony internetowej Expected End."
+  },
+  "privacy": {
+    "title": "Oświadczenie o prywatności | Expected End",
+    "description": "Jak Expected End postępuje z informacjami na tej stronie."
+  },
+  "watercheck-privacy": {
+    "title": "Polityka prywatności The Water Check | Expected End",
+    "description": "Co zbiera The Water Check, co zostaje na Twoim telefonie, kto pomaga prowadzić aplikację i jakie masz wybory."
+  },
+  "watercheck-terms": {
+    "title": "Regulamin The Water Check | Expected End",
+    "description": "Zasady korzystania z aplikacji The Water Check, w tym zdrowie i bezpieczeństwo, AI, zasady Ekip i zakupy."
+  },
+  "watercheck-health-data": {
+    "title": "Polityka prywatności danych o zdrowiu konsumentów The Water Check | Expected End",
+    "description": "Jak The Water Check postępuje z danymi o zdrowiu konsumentów oraz jak uzyskać do nich dostęp, usunąć je lub złożyć odwołanie."
+  },
+  "watercheck-delete-account": {
+    "title": "Usuń konto | The Water Check",
+    "description": "Jak usunąć konto i dane w The Water Check, w aplikacji lub e-mailem."
+  },
+  "watercheck-community": {
+    "title": "Zasady społeczności | The Water Check",
+    "description": "Jak Ekipy w The Water Check pozostają przyjazne: zasady, zgłaszanie i blokowanie oraz co się dzieje, gdy ktoś łamie zasady."
+  },
+  "accessibility": {
+    "title": "Dostępność | Expected End",
+    "description": "Zobowiązanie Expected End do zapewnienia dostępnej strony internetowej."
+  },
+  "mybiblelens-store": {
+    "title": "Sklep MyBibleLens | Expected End",
+    "description": "Przemyślane rzeczy na co dzień, bliżej Słowa. Sklep MyBibleLens już wkrótce."
+  },
+  "watercheck-store": {
+    "title": "Sklep The Water Check | Expected End",
+    "description": "Rzeczy inspirowane nawodnieniem od The Water Check. Pierwszy drop już wkrótce."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Aplikacja do nawodnienia i darmowy kalkulator",
+    "description": "Poznaj aplikację The Water Check i wypróbuj na Expected End darmowe, prywatne wyliczenie nawodnienia."
+  },
+  "watercheck-calculator": {
+    "title": "Darmowy kalkulator nawodnienia | The Water Check",
+    "description": "Otrzymaj darmowe, prywatne wyliczenie dziennego nawodnienia z kalkulatorem The Water Check."
+  },
+  "not-found": {
+    "title": "Nie znaleziono strony | Expected End",
+    "description": "Nie udało się znaleźć żądanej strony Expected End."
+  }
+}

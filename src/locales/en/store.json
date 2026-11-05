@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Goods for the journey",
+    "headline": "Keep what matters close.",
+    "intro": "A small collection of thoughtful goods made for notes, reminders, and the everyday walk with God.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Guided notebook",
+        "kind": "Notebook"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "A little reminder",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Soft everyday layer",
+        "kind": "Apparel"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "For cooler mornings",
+        "kind": "Apparel"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "The first drop",
+    "headline": "Drink water. Keep moving.",
+    "intro": "Hydration-minded layers for the people who show up, refill, and keep the check going.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "A bright everyday essential",
+        "kind": "Tee"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "For after the long walk",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "A second colorway",
+        "kind": "Tee"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "A calm, heavyweight layer",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}} store navigation",
+    "collection": "The collection"
+  },
+  "hero": {
+    "action": "Explore the first drop",
+    "mybiblelensArt": "MyBibleLens store logo and sticker collage",
+    "watercheckArt": "The Water Check liquid logo bubble"
+  },
+  "collection": {
+    "eyebrow": "Coming soon",
+    "title": "Made to become part of your day.",
+    "body": "These are the first pieces. Product photos, options, and checkout links will appear here when the drop is ready."
+  },
+  "product": {
+    "placeholder": "{{name}} product placeholder",
+    "buy": "Buy now",
+    "comingSoon": "Coming soon",
+    "comingSoonLabel": "{{name}} coming soon"
+  },
+  "checkout": {
+    "eyebrow": "No account needed",
+    "title": "When it opens, checkout stays simple.",
+    "body": "Choose a piece, tap Buy now, and check out securely through Stripe. No store account and no shopping-cart maze."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Store policies will be published before the first drop.",
+    "policies": "Store policies",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "accessibility": "Accessibility",
+    "shipping": "Shipping & returns — before drop"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "L’appli",
+      "drinkCheck": "Drink Check",
+      "guide": "Guide",
+      "widgets": "Widgets",
+      "progress": "Progrès",
+      "pricing": "Tarifs",
+      "faq": "FAQ",
+      "calculator": "Calculateur"
+    },
+    "hero": {
+      "title": "Buvez.<break/>On <em>tient les comptes</em>.",
+      "sub": "Votre propre chiffre d’eau, des boissons à scanner, votre corps qui se recharge, un widget que vous garderez vraiment et un poisson-globe nommé Bubbles pour vous faire visiter. Pas de règle du gallon, pas d’influenceurs, pas de culpabilité.",
+      "comingSoon": "Bientôt disponible",
+      "appStoreLead": "Télécharger dans",
+      "appStore": "l’App Store",
+      "googlePlayLead": "Disponible sur",
+      "googlePlay": "Google Play",
+      "calculator": "Essayer le calculateur gratuit",
+      "instagram": "Suivre The Water Check sur Instagram",
+      "note": "Actuellement en cours d’examen sur l’App Store. Le calculateur est gratuit et ne demande aucune inscription.",
+      "todayAlt": "L’écran Aujourd’hui de The Water Check : 40 oz sur un objectif de 81,2 oz, avec des boutons d’ajout rapide et le journal du jour",
+      "widgetsAlt": "Le studio de widgets, avec un widget Corps en Hologramme et des rangées de styles de widget",
+      "bubblesLabel": "Faire faire un tour à Bubbles",
+      "bubblesSay": "Coucou, moi c’est Bubbles !"
+    },
+    "stats": {
+      "widgetStyles": "styles de widget",
+      "pearls": "perles du Guide à trouver",
+      "foods": "aliments riches en eau, illustrés",
+      "languages": "langues"
+    },
+    "sixty": {
+      "kicker": "Pourquoi c’est important",
+      "title": "Vous êtes fait de 60 % d’eau.",
+      "lede": "Ce n’est pas un objectif à atteindre. Cette eau travaille en ce moment même : elle transporte l’oxygène, amortit vos articulations, vous rafraîchit et évacue ce dont vous n’avez pas besoin. Vos besoins changent avec l’activité, la météo et la santé.",
+      "pmeterKicker": "Le P-Meter",
+      "pmeterLabel": "Huit nuances, de la paille pâle à l’ambre foncé, regroupées en bien hydraté, complète et bois maintenant",
+      "wellHydrated": "Bien hydraté",
+      "topUp": "Complète",
+      "drinkNow": "Bois maintenant",
+      "fine": "Un indice approximatif, pas un diagnostic. L’alimentation, les vitamines et les médicaments changent tous la couleur. L’appli explique chaque zone et quand consulter un professionnel de santé."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Scannez une fois. Sachez. Ajoutez d’un geste, pour toujours.",
+      "lede": "Scannez le code-barres, gratuitement et aussi souvent que vous le voulez. Pas de code-barres ? Si vous avez 18 ans ou plus, prenez une photo et l’appli lit l’étiquette. Dans les deux cas, vous voyez le sucre en cuillères à café, la caféine, les électrolytes et chaque ingrédient classé Bien, Correct, Attention ou À éviter.",
+      "scoresLabel": "Couleurs des scores Drink Check",
+      "scores": {
+        "great": "Excellent",
+        "good": "Bon",
+        "okay": "Correct",
+        "poor": "Faible"
+      },
+      "ticks": {
+        "electrolytes": "Les électrolytes de l’étiquette : sodium, potassium, magnésium et calcium, avec leurs valeurs quotidiennes.",
+        "save": "Enregistrez-la (renommez-la si vous voulez), et la prochaine fois elle sera à un geste sur l’écran d’ajout. Pas besoin de rescanner.",
+        "food": "Les adultes peuvent aussi photographier un aliment : une mangue s’ajoute à votre mangue, et un aliment nouveau devient sa propre bulle.",
+        "journal": "Votre journal des boissons garde en mémoire ce que chaque boisson vous a fait ressentir, sur votre téléphone."
+      },
+      "fine": "Une lecture rapide de l’étiquette, pas une analyse de laboratoire ni une note attribuée à une marque. Les résultats par code-barres viennent d’Open Food Facts, et l’IA peut se tromper : vérifiez donc la vraie étiquette, surtout en cas d’allergies. Nous ne conservons pas votre photo.",
+      "alt": "Un résultat Drink Check pour une boisson de sport : score de 66, Bon, avec le sucre, la caféine et ses électrolytes d’après l’étiquette"
+    },
+    "foods": {
+      "kicker": "Les aliments comptent aussi",
+      "title": "Environ un cinquième de votre eau arrive dans l’assiette.",
+      "lede": "L’écran d’ajout est une page de bulles de fruits illustrées, trois par rangée : pastèque, concombre, fraises, mangue et plus encore. Touchez le plus et c’est ajouté, avec Annuler juste à côté. Les aliments que vous ajoutez le plus passent devant.",
+      "ticks": {
+        "amounts": "Verre, bouteille ou n’importe quelle quantité, d’un seul geste.",
+        "caffeine": "Les buveurs de café ont une carte caféine qui se remplit toute seule.",
+        "ring": "Un anneau en haut montre la part des aliments dans votre journée."
+      },
+      "alt": "L’écran d’ajout : un anneau en haut, des boutons de boissons, une carte caféine et des bulles d’aliments riches en eau"
+    },
+    "guide": {
+      "kicker": "Le guide The Water Check",
+      "title": "Éclatez une bulle. Gardez une perle.",
+      "lede": "Chaque chapitre est une bulle avec une question, et tous sont gratuits. Pourquoi vous sentez-vous « à plat » ? Que vous dit votre pipi ? Un gallon par jour, est-ce sérieux ? Lisez-en un jusqu’au bout et il se transforme en perle. Environ une sur six est une rare perle dorée.",
+      "electric": "Ton corps électrique : six chapitres sur le signal, le sodium et le potassium, le magnésium et le calcium, et l’énergie.",
+      "forHerKicker": "Pour elle",
+      "forHer": "Des chapitres roses sur son corps et l’eau : pipi rose ou fluo, la sensation de gonflement autour des règles, pourquoi les infections urinaires touchent davantage les femmes, une petite fuite quand on rit, la grossesse et la ménopause. Bienveillants, clairs et sourcés.",
+      "fine": "Chaque chapitre cite ses sources et indique quand consulter un médecin. Il récompense la compréhension, pas le temps d’écran : pas de séries, pas de pression.",
+      "alt": "Le guide The Water Check : les chapitres de Ton corps électrique sous forme de bulles-questions"
+    },
+    "widgets": {
+      "kicker": "Widgets",
+      "title": "<count>89</count> styles pour votre écran d’accueil.",
+      "lede": "Sports, lieux, saisons, vie marine et designs, en petit, moyen et grand format, avec des dispositions qui vont des anneaux aux vagues. Indiquez votre sport à l’inscription et le widget de votre sport apparaît en premier. Enregistrez une boisson directement depuis votre écran d’accueil.",
+      "ticks": {
+        "body": "Corps : votre silhouette se remplit avec l’eau de la journée. Étincelle : une batterie se remplit avec la charge du jour.",
+        "charge": "Placez la jauge Charge sur n’importe quel widget pour suivre vos électrolytes plutôt que votre eau."
+      },
+      "chips": {
+        "body": "Corps",
+        "spark": "Étincelle",
+        "running": "Course à pied",
+        "crossCountry": "Cross-country",
+        "volleyball": "Volley",
+        "basketball": "Basket",
+        "seaTurtle": "Tortue de mer",
+        "jellyfish": "Méduse",
+        "beach": "Plage",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Saisons"
+      },
+      "alt": "Le studio de widgets avec le widget Corps en Hologramme, ses coloris, ses dispositions et la jauge Charge"
+    },
+    "progress": {
+      "kicker": "Progrès",
+      "title": "Voyez ce que contiennent vos boissons, barre par barre.",
+      "lede": "La journée en barres simples qui se remplissent de gauche à droite : l’eau par rapport à votre chiffre, puis le sodium, le potassium, le magnésium et le calcium des boissons que vous scannez, ainsi que la caféine et le sucre. Touchez une barre pour voir les boissons qui la composent. Le Calendrier montre chaque jour côte à côte, avec votre série.",
+      "ticks": {
+        "dailyValues": "Les électrolytes sont mesurés par rapport aux valeurs quotidiennes d’une étiquette nutritionnelle.",
+        "caffeine": "La caféine par rapport à 400 mg, la quantité indiquée par la FDA pour la plupart des adultes en bonne santé, et le sucre par rapport à 50 g.",
+        "journal": "Votre journal des boissons se trouve juste sous les barres : chaque boisson scannée et ce qu’elle vous a fait ressentir.",
+        "real": "Chaque chiffre vient de quelque chose que vous avez enregistré ou scanné. Rien n’est inventé."
+      },
+      "fine": "Des repères, pas des objectifs, et pas un avis médical. Si vous surveillez votre sodium ou votre potassium pour une raison de santé, suivez les conseils de votre médecin.",
+      "alt": "Progrès : l’eau à 83 % du chiffre du jour, puis le sodium, le potassium, le magnésium, le calcium, la caféine et le sucre en barres"
+    },
+    "crew": {
+      "kicker": "Votre mois et vos proches",
+      "title": "Regardez le total grimper. Invitez vos amis.",
+      "calendarAlt": "Le calendrier : chaque jour se remplit comme un verre, avec les jours enregistrés, les jours à l’objectif et une série",
+      "calendarTitle": "Votre eau, jour après jour",
+      "calendarBody": "Chaque jour enregistré se remplit comme un verre. Jours à l’objectif, séries et marques de marée, et tout vous suit sur un nouveau téléphone.",
+      "crewAlt": "Une Bande nommée Track team avec des messages d’encouragement rapides",
+      "crewTitle": "Bande",
+      "crewBody": "Des groupes sur invitation, où l’on s’encourage les uns les autres. Vos amis voient le pourcentage de votre propre objectif et votre série, jamais vos onces ni votre corps. Signaler et Bloquer sont toujours là."
+    },
+    "bubbles": {
+      "kicker": "Voici Bubbles",
+      "title": "Votre guide est un poisson-globe.",
+      "lede": "Bubbles est le Responsable du bien-être au Département. Le premier jour, il vous fait visiter l’appli, et il ne peut pas s’empêcher de frimer. Allez, donnez-lui quelque chose à faire.",
+      "tricksLegend": "Les tours de Bubbles",
+      "tricks": {
+        "puff": "Se gonfler",
+        "spin": "Tourner",
+        "flip": "Salto arrière",
+        "wave": "Coucou",
+        "cheer": "Grand final"
+      }
+    },
+    "pricing": {
+      "kicker": "Tarifs",
+      "title": "Gratuit pour commencer. Tout, une seule fois.",
+      "free": {
+        "title": "Gratuit",
+        "sub": "Tout ce qu’il faut pour boire assez.",
+        "items": {
+          "number": "Votre propre chiffre d’eau",
+          "log": "Enregistrez boissons et aliments riches en eau",
+          "barcode": "Scans de codes-barres, gratuits et illimités",
+          "photo": "Un scan photo gratuit (18 ans et plus)",
+          "guide": "Tous les chapitres du Guide",
+          "widgets": "Widgets Classique, Saisons, et Corps et Étincelle simples",
+          "crew": "Votre calendrier, vos séries et la Bande d’un ami"
+        }
+      },
+      "forever": {
+        "tag": "Année de lancement",
+        "title": "Tout pour toujours",
+        "sub": "Un seul achat, sans abonnement.",
+        "items": {
+          "widgets": "Tous les styles et coloris de widget",
+          "bars": "Les barres électrolytes, caféine et sucre",
+          "journal": "Votre journal des boissons",
+          "photos": "Plus de scans photo (18 ans et plus)",
+          "summaries": "Bilans PDF sur 30 et 90 jours",
+          "crews": "Créez vos propres Bandes",
+          "later": "Tout ce que nous ajouterons ensuite"
+        },
+        "note": "Proposé pendant notre année de lancement. Ensuite, The Water Check pourrait passer à une formule mensuelle, et un achat unique effectué avant restera débloqué. Le prix est affiché dans l’App Store ou sur Google Play avant l’achat."
+      }
+    },
+    "privacy": {
+      "kicker": "Vos données",
+      "title": "Ce qui reste sur votre téléphone, et ce qui n’y reste pas.",
+      "phoneTitle": "Reste sur votre téléphone",
+      "phoneBody": "Votre journal des boissons, vos boissons et aliments enregistrés, vos perles du Guide, vos séances d’entraînement, vos notes de cycle et vos rappels.",
+      "accountTitle": "Conservé avec votre compte",
+      "accountBody": "Votre connexion, vos réponses à l’inscription, chaque boisson et chaque aliment enregistrés avec leur heure, vos totaux d’eau quotidiens et votre Bande, pour qu’ils vous suivent sur un nouveau téléphone.",
+      "neverTitle": "Jamais",
+      "neverBody": "Nous ne vendons pas vos informations et ne les partageons pas avec des régies publicitaires. Nous ne conservons pas vos photos Drink Check.",
+      "links": {
+        "privacy": "Politique de confidentialité",
+        "healthData": "Politique relative aux données de santé des consommateurs",
+        "deleteAccount": "Supprimer votre compte"
+      }
+    },
+    "calculator": {
+      "kicker": "Gratuit, sans inscription",
+      "title": "Commencez par les chiffres que vous connaissez.",
+      "lede": "Votre poids, votre taille, votre temps d’activité. Le calculateur vous donne un objectif quotidien en une vingtaine de secondes et montre son raisonnement pour que vous puissiez le discuter. Il fonctionne dans votre navigateur.",
+      "chips": {
+        "weight": "Base liée au poids",
+        "height": "Taille et gabarit",
+        "activity": "Ajustement pour l’activité",
+        "lifeStage": "Étape de vie",
+        "heat": "Chaleur et humidité",
+        "electrolytes": "Point électrolytes"
+      },
+      "open": "Ouvrir le calculateur",
+      "fine": "Une estimation de planification à visée éducative pour les adultes, et non un diagnostic ou une prescription. Ne vous forcez pas à boire. Demandez conseil à un professionnel de santé si vous êtes enceinte ou allaitez, prenez des médicaments qui influent sur l’équilibre hydrique, ou avez une maladie rénale ou cardiaque."
+    },
+    "faq": {
+      "kicker": "Questions",
+      "title": "Les réponses honnêtes.",
+      "items": {
+        "medical": {
+          "q": "The Water Check est-il un avis médical ?",
+          "a": "Non. C’est une appli de bien-être général. Votre chiffre d’eau est une estimation éducative, pas une prescription, et rien dans l’appli ne diagnostique ni ne traite quoi que ce soit. Si vous êtes enceinte ou allaitez, prenez un médicament qui agit sur les liquides, ou avez une maladie rénale, cardiaque ou autre, demandez à votre médecin ce qui vous convient."
+        },
+        "number": {
+          "q": "D’où vient mon chiffre ?",
+          "a": "De votre poids, votre taille, votre activité, le climat et votre étape de vie, à partir de recommandations publiques comme les références sur l’eau des National Academies américaines. Le calculateur gratuit montre son raisonnement, pour que vous voyiez chaque étape. C’est un point de départ, pas une règle."
+        },
+        "scan": {
+          "q": "Que se passe-t-il quand je scanne une boisson ?",
+          "a": "Un scan de code-barres envoie uniquement le numéro du code-barres à Open Food Facts, une base de données alimentaire gratuite et ouverte, et récupère ce qu’indique l’étiquette. Une photo, pour les adultes de 18 ans et plus, passe par notre serveur jusqu’à l’IA Gemini de Google, qui lit l’étiquette et renvoie ce qu’elle a trouvé. Nous ne conservons pas votre photo ; Google peut conserver des données pendant une durée limitée selon ses conditions. Les étiquettes et l’IA peuvent se tromper : vérifiez donc la vraie étiquette, et n’utilisez jamais Drink Check pour des allergies ou des régimes médicaux."
+        },
+        "phone": {
+          "q": "Qu’est-ce qui reste sur mon téléphone ?",
+          "a": "Votre journal des boissons, vos boissons et aliments enregistrés, vos perles du Guide, vos séances d’entraînement, votre réponse sur le cycle et vos notes de cycle, même si la sauvegarde de votre propre téléphone peut les inclure. Sur iPhone, les entraînements que vous autorisez l’appli à lire dans l’app Santé d’Apple restent aussi sur votre téléphone et ne nous sont jamais envoyés. Vos réponses à l’inscription, chaque boisson et chaque aliment enregistrés avec leur heure, et vos totaux quotidiens sont conservés avec votre compte pour vous suivre sur un nouveau téléphone. Nous ne vendons pas vos informations."
+        },
+        "audience": {
+          "q": "À qui s’adresse l’appli ?",
+          "a": "À toute personne de 13 ans ou plus. Si vous avez moins de 18 ans, utilisez-la avec la permission d’un parent ou d’un tuteur. Le Jeûne fruité, l’enregistrement de l’alcool et les scans photo sont réservés aux adultes. L’appli se base sur la tranche d’âge que vous indiquez : merci de répondre honnêtement. Si vous avez entre 13 et 17 ans, vérifiez votre chiffre avec un parent ou un professionnel de santé."
+        },
+        "cost": {
+          "q": "Combien ça coûte ?",
+          "a": "L’appli est gratuite pour commencer : obtenez votre chiffre, enregistrez l’eau et les aliments, scannez n’importe quel code-barres, lisez tous les chapitres du Guide, rejoignez une Bande et utilisez les widgets Classique, Saisons, Corps et Étincelle. Pendant notre année de lancement, un achat facultatif débloque tout, une seule fois, sans abonnement. L’App Store ou Google Play affiche le prix dans votre devise avant l’achat."
+        },
+        "deleteAccount": {
+          "q": "Comment supprimer mon compte ?",
+          "a": "Dans l’appli : Profil, puis Réglages, puis Supprimer le compte. C’est immédiat. Pas d’appli ? Notre page Supprimer votre compte explique comment en faire la demande par e-mail."
+        },
+        "download": {
+          "q": "Quand pourrai-je la télécharger ?",
+          "a": "The Water Check est en cours d’examen sur l’App Store et en test sur Google Play, et arrive bientôt sur les deux. Suivez @thewatercheck sur Instagram pour être informé en premier."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Comprenez ce que vous buvez. Créée en Floride par une entreprise d’une seule personne. Dès 13 ans.",
+      "legal": "Mentions légales",
+      "privacy": "Politique de confidentialité de The Water Check",
+      "terms": "Conditions générales de The Water Check",
+      "community": "Règles de la communauté",
+      "healthData": "Politique de confidentialité des données de santé des consommateurs",
+      "deleteAccount": "Supprimer votre compte",
+      "sitePrivacy": "Confidentialité du site",
+      "explore": "Explorer",
+      "calculator": "Calculateur d’hydratation",
+      "store": "Boutique The Water Check",
+      "instagram": "@thewatercheck sur Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Aide",
+      "email": "Assistance par e-mail",
+      "accessibility": "Accessibilité",
+      "contact": "Contact",
+      "note": "The Water Check est une appli de bien-être général. Elle ne diagnostique, ne traite ni ne prévient aucune maladie, et ne remplace pas l’avis d’un professionnel de santé. En cas d’urgence, appelez le 911 ou le numéro d’urgence local. Les écrans de l’appli montrent une version de test avec des données fictives ; les fonctionnalités peuvent changer avant la sortie."
+    }
+  },
+  "app": {
+    "eyebrow": "L’appli",
+    "title": "Votre eau, jour après jour.",
+    "body": "Commencez par une estimation personnelle, puis enregistrez boissons et aliments riches en eau au fil de la journée. Suivez votre progression dans l’appli, sur votre écran d’accueil et sur tout le mois.",
+    "comingSoon": "Bientôt sur l’App Store",
+    "calculator": "Essayer le calculateur gratuit",
+    "caveat": "Le calculateur fonctionne ici sans compte. Les captures d’écran montrent une version préliminaire ; les fonctionnalités et la disponibilité peuvent changer avant la sortie.",
+    "screens": {
+      "number": {
+        "alt": "L’estimation quotidienne personnelle d’eau de The Water Check sur un iPhone",
+        "caption": "Votre chiffre"
+      },
+      "log": {
+        "alt": "Le journal quotidien de The Water Check avec boissons et aliments sur un iPhone",
+        "caption": "Journal du jour"
+      },
+      "widgets": {
+        "alt": "Les réglages des widgets de l’écran d’accueil de The Water Check sur un iPhone",
+        "caption": "Widgets"
+      },
+      "wellness": {
+        "alt": "Le guide bien-être et le P-Meter de The Water Check sur un iPhone",
+        "caption": "Bien-être"
+      },
+      "calendar": {
+        "alt": "Le calendrier mensuel de l’eau de The Water Check sur un iPhone",
+        "caption": "Calendrier"
+      }
+    }
+  },
+  "footer": {
+    "note": "Le calculateur gratuit ne demande aucun compte. Il fonctionne dans votre navigateur et ne nous envoie pas vos chiffres.",
+    "navLabel": "Navigation du pied de page",
+    "calculator": "Calculateur d’hydratation",
+    "explore": "Découvrir l’appli",
+    "instagram": "@thewatercheck sur Instagram",
+    "store": "La boutique",
+    "builder": "Qui l’a créée",
+    "finePrint": "Les petits caractères",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "community": "Règles de la communauté",
+    "healthData": "Données de santé des consommateurs",
+    "deleteAccount": "Supprimer votre compte",
+    "accessibility": "Accessibilité",
+    "contact": "Contact",
+    "project": "Un projet <company>EXPECTEDEND LLC</company>. Estimation éducative, pas un avis médical.",
+    "backToTop": "Retour en haut ↑"
+  }
+}

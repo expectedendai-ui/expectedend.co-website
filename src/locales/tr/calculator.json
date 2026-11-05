@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Fenomenleri boş verin. Vücudunuzun gerçek biyolojisini öğrenin.",
+    "lead": "Ücretsiz hesaplayıcıyı hesap açmadan deneyin, ardından günlük takip için geliştirdiğimiz uygulamayı keşfedin.",
+    "appLink": "Uygulamayı keşfedin ↓",
+    "logoLabel": "The Water Check hesaplayıcısını kullanın"
+  },
+  "intro": {
+    "kicker": "Su ihtiyacı hesaplayıcısı",
+    "title": "Bildiğiniz rakamlarla başlayın."
+  },
+  "units": {
+    "legend": "Ağırlık birimi",
+    "pounds": "Pound (lb)",
+    "kilograms": "Kilogram (kg)"
+  },
+  "weight": {
+    "labelLb": "Kilo (lbs)",
+    "labelKg": "Kilo (kg)",
+    "valueTextLb": "{{value}} pound",
+    "valueTextKg": "{{value}} kilogram"
+  },
+  "height": {
+    "legend": "Boy",
+    "feet": "Boy (ft)",
+    "inches": "Boy (in)",
+    "centimeters": "Boy (cm)",
+    "note": "Sıvı ihtiyacı yağsız kütleyi izler; bu yüzden boy, kilonuz vücut yapınıza göre yüksek olduğunda en çok önem kazanır."
+  },
+  "activity": {
+    "label": "Günlük Aktivite (dakika)",
+    "value": "{{minutes}} dk",
+    "valueText": "{{minutes}} dakika"
+  },
+  "factors": {
+    "legend": "Sıvı ihtiyacını değiştirebilecek etkenler",
+    "intro": "Yalnızca savunulabilir bir günlük ayarlama olduğunda rakam ekliyoruz. Diğer yanıtlar, bilim kesin bir miktarı destekliyormuş gibi yapmadan yönlendirmenizi kişiselleştirir.",
+    "age": {
+      "label": "Yaş",
+      "hint": "Yaş bağlam sağlar; menopoz teşhisi koymaz."
+    },
+    "lifeStage": {
+      "label": "Yaşam evresi",
+      "hint": "Hamilelik veya süt üretimi için şeffaf bir ayarlama kullanır.",
+      "options": {
+        "standard": "Standart",
+        "pregnant": "Hamile",
+        "breastfeeding": "Emziriyor"
+      }
+    },
+    "sex": {
+      "label": "Cinsiyet",
+      "hint": "İsteğe bağlı. İdeal kilo ve referans alım hesaplarını inceltir.",
+      "options": {
+        "unspecified": "Belirtmek istemiyorum",
+        "woman": "Kadın",
+        "man": "Erkek"
+      }
+    },
+    "luteal": {
+      "label": "Adetinizden önceki hafta",
+      "hint": "Luteal fazdaki su tutulumunu ve hormonal şişkinliği dikkate alır. Herkese uyan sabit bir ekleme yoktur."
+    },
+    "heat": {
+      "label": "Sıcak veya nemli koşullar",
+      "hint": "Sıcak hava önerileri yalnızca konuma değil, maruz kalma süresine ve tere bağlıdır."
+    }
+  },
+  "result": {
+    "goal": "Günlük Hedefiniz: {{ounces}} Ons",
+    "breakdown": "Hesaplama dökümü",
+    "weightBaseline": "Kilo temeli",
+    "heightAndBuild": "Boy ve vücut yapısı",
+    "sexReference": "Cinsiyet referansı",
+    "notSet": "Belirtilmedi",
+    "activity": "Aktivite ayarlaması",
+    "lifeStage": {
+      "standard": "Yaşam evresi ayarlaması",
+      "pregnant": "Hamilelik ayarlaması",
+      "breastfeeding": "Emzirme ayarlaması"
+    },
+    "luteal": "Luteal faz önerisi",
+    "noFixedOunces": "Sabit +oz yok",
+    "electrolytes": "Elektrolit kontrolü",
+    "electrolytesAfterSweat": "Yoğun terlemeden sonra düşünün",
+    "electrolytesFromFood": "Genellikle yiyecekler karşılar",
+    "guidance": "Bu, yetişkinler için eğitim amaçlı bir planlama tahminidir; teşhis, tedavi veya klinik reçete değildir. Yiyecekler de su sağlar ve ihtiyaçlar kişiden kişiye değişir. Kendinizi sıvı içmeye zorlamayın. Hamileyseniz veya emziriyorsanız, sıvı dengesini etkileyen ilaçlar kullanıyorsanız, böbrek veya kalp rahatsızlığınız varsa, sıvı kısıtlamasına uymanız gerekiyorsa ya da endişe verici belirtileriniz varsa ihtiyaçlarınızı bir sağlık uzmanına danışın."
+  },
+  "equivalents": {
+    "title": "Bu yaklaşık olarak",
+    "cups": "{{value}} bardak",
+    "cupsNote": "her biri 8 oz",
+    "liters": "{{value}} litre",
+    "litersNote": "metrik",
+    "bottles": "{{value}} şişe",
+    "bottlesNote": "16,9 oz boy"
+  },
+  "eatYourWater": {
+    "kicker": "Suyunuzu yiyin",
+    "title": "Hepsinin bardaktan gelmesi gerekmez.",
+    "copy": "Çoğu insanın günlük suyunun yaklaşık beşte biri yiyeceklerden gelir. Taze meyve ve sebzelerin çoğu yüzde 70 ile 95 arasında su içerir ve bu su kan dolaşımınıza ulaştığında vücudunuzu tıpkı bir içecek gibi hidrate eder.",
+    "drink": "İçecek",
+    "drinkNote": "{{cups}} bardak su, çay veya süt",
+    "eat": "Yiyecek",
+    "eatNote": "su açısından zengin yiyeceklerden",
+    "pickLegend": "Yiyeceklerden gelen payı şöyle düşünün",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} yaklaşık {{ounces}} oz su içerir ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "bardak karpuz",
+      "serving": "1 bardak küp doğranmış karpuz",
+      "water": "%92 su"
+    },
+    "cucumber": {
+      "label": "salatalık",
+      "serving": "1 orta boy salatalık",
+      "water": "%95 su"
+    },
+    "strawberries": {
+      "label": "bardak çilek",
+      "serving": "1 bardak çilek",
+      "water": "%91 su"
+    },
+    "oranges": {
+      "label": "portakal",
+      "serving": "1 orta boy portakal",
+      "water": "%87 su"
+    },
+    "salad": {
+      "label": "kâse salata",
+      "serving": "2 bardak karışık salata",
+      "water": "yaklaşık %94 su"
+    },
+    "soup": {
+      "label": "kâse et suyu çorbası",
+      "serving": "1 bardak çorba",
+      "water": "yaklaşık %92 su"
+    },
+    "tomatoes": {
+      "label": "domates",
+      "serving": "1 orta boy domates",
+      "water": "%95 su"
+    },
+    "grapes": {
+      "label": "bardak üzüm",
+      "serving": "1 bardak üzüm",
+      "water": "%81 su"
+    },
+    "peaches": {
+      "label": "şeftali",
+      "serving": "1 orta boy şeftali",
+      "water": "%89 su"
+    },
+    "cantaloupe": {
+      "label": "bardak kavun",
+      "serving": "1 bardak küp doğranmış kavun",
+      "water": "%90 su"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Yiyeceklerdeki su neden sayılır",
+    "title": "Karpuzdan gelen su da aynı sudur.",
+    "sameMolecule": "<strong>Aynı molekül.</strong> Salatalıktaki H2O ile musluktan akan H2O birebir aynıdır. Bağırsaklarınızdan kan dolaşımınıza geçtikten sonra vücudunuz onu kaslarınıza aynı şekilde gönderir.",
+    "slowRelease": "<strong>Yavaş salınım.</strong> Meyve ve sebzelerdeki su, lifler ve hücre duvarları içinde tutulur; bu yüzden, böbreklerinizin genellikle hızla dışarı attığı, bir dikişte içilmiş bir bardak sudan daha kademeli olarak emilir.",
+    "electrolytes": "<strong>Elektrolitlerle birlikte gelir.</strong> Salatalık, ıspanak, kavun ve orman meyveleri; hücrelerinizin suyu tutmak için kullandığı mineraller olan potasyum ve magnezyumu içerir.",
+    "glycogen": "<strong>Hem yakıt hem depo.</strong> Kaslar karbonhidratı glikojen olarak depolar ve her gram glikojen yaklaşık üç gram suyla birlikte depolanır. Su ve karbonhidrat açısından zengin yiyecekler ikisini birden sağlar.",
+    "caveat": "Yine de içmeniz gerekir. Yiyecekler genellikle toplamın yaklaşık beşte birini karşılar; geri kalanı su ve diğer içeceklerden gelir. Kuru meyve, kuruyemiş ve ekmek çok az su içerir."
+  },
+  "grace": {
+    "kicker": "Bedeninize nazik olun",
+    "title": "Kendinize Anlayış Göstermek Üzerine Kısa Bir Not",
+    "body": "Aynadaki görüntünüz ve kıyafetlerinizin üzerinize oturuşu; su tutulumu, sindirim, hormonlar, uyku ve diğer olağan değişimler nedeniyle farklılaşabilir. Şişkin geçen tek bir gün bedeninizi tanımlamaz. Özenle için, kendinize zaman tanıyın ve utancın yerini merak alsın. Geçmeyen şişkinlik, vücutta şişlik, hızlı kilo değişimleri veya sizi endişelendiren belirtiler, bir sağlık uzmanıyla konuşmaya değer."
+  },
+  "overhydration": {
+    "title": "Zorla Su İçmenin Tehlikesi",
+    "kidneys": "Böbreklerinizin suyu atabilmesi için zamana ihtiyacı vardır. Uzun süreli egzersiz sırasında kaybettiğinizden daha hızlı sıvı içmek kandaki sodyumu seyreltebilir ve egzersizle ilişkili hiponatremiye neden olabilir. Erken belirtiler arasında baş ağrısı, bulantı, baş dönmesi, yorgunluk veya zihin karışıklığı olabilir. Ağır vakalar beyinde şişmeye, nöbetlere, komaya ve ölüme yol açabilir.",
+    "pacing": "Bu tahmine suyu bir dikişte içerek ulaşmaya çalışmayın. İçeceklerinizi güne yayın. Egzersiz sırasında alımınızı susuzluğunuza, koşullara ve kendi ter kaybınıza göre ayarlayın. Zihin karışıklığı, nöbet, yığılıp kalma veya ağır belirtiler durumunda acilen tıbbi yardım alın.",
+    "sources": "Kaynaklar: <nih>NIH'nin egzersizle ilişkili hiponatremi rehberi</nih> ve <academies>ABD Ulusal Akademilerinin sıvı önerileri</academies>."
+  },
+  "notes": {
+    "title": "Kanıt notlarınız",
+    "sexMan": "<strong>Cinsiyet:</strong> ABD Ulusal Akademilerinin referans alım değerleri, erkekler için günde yaklaşık 3,7 litre, kadınlar için 2,7 litre toplam sudur. Bu farkın büyük kısmını vücut ağırlığı açıklar; bu nedenle kalan kısım burada kilo temeline yüzde 4'lük bir artış olarak yansır ve boy ile vücut yapısı kontrolünde erkekler için ideal kilo formülü kullanılır.",
+    "sexWoman": "<strong>Cinsiyet:</strong> ABD Ulusal Akademilerinin referans alım değerleri, erkekler için günde yaklaşık 3,7 litre, kadınlar için 2,7 litre toplam sudur. Bu farkın büyük kısmını vücut ağırlığı açıklar; bu nedenle kalan kısım burada kilo temelinde yüzde 4'lük bir azalma olarak yansır ve boy ile vücut yapısı kontrolünde kadınlar için ideal kilo formülü kullanılır.",
+    "height": "<strong>Boy ve vücut yapısı:</strong> Sıvı ihtiyacı toplam kilodan çok yağsız kütleyi izler. Kilonuz boyunuz için olağan aralığın üzerinde olduğundan tahmin, yaygın bir klinik uygulama olan düzeltilmiş vücut ağırlığını (ideal kilo artı aradaki farkın yüzde 40'ı) kullanır. Bu kaba bir planlama rakamıdır, bedeniniz hakkında bir yargı değildir.",
+    "cycle": "<strong>Döngü evresi:</strong> Adet döngüsüne bağlı sıvı değişimleri gerçektir, ancak araştırmalar herkes için geçerli sabit bir ons artışı ortaya koymamıştır. Otomatik olarak ons eklenmedi. Düzenli öğünler genellikle elektrolitleri karşılar; magnezyum veya potasyum takviyeleri herkese yönelik bir öneri değildir.",
+    "age": "<strong>Yaş ve menopoz:</strong> Menopoz durumunu tek başına yaş belirlemez. Hormonal değişiklikler susuzluğu ve sıvı düzenlemesini etkileyebilir, ancak doğrulanmış bir “45 yaş üstü” ons ayarlaması yoktur; bu nedenle yaşınız toplamı değiştirmedi.",
+    "heat": "<strong>Sıcak hava:</strong> Sabit bir iklim eklemesi ihtiyacınızı olduğundan az veya fazla gösterebilir. Sıcakta iki saatten kısa süren orta düzeyde iş için NIOSH her 15–20 dakikada yaklaşık 8 ons önerir; daha uzun süren yoğun terleme kişiye özel bir sıvı yerine koyma planı gerektirir."
+  },
+  "evidence": {
+    "label": "Kanıt:",
+    "academies": "ABD Ulusal Akademilerinin su tüketimi rehberi",
+    "harvard": "Harvard Health: yiyecekler ve hidrasyon",
+    "cycle": "Adet döngüsü osmoregülasyon çalışması",
+    "menopause": "Menopozda sıvı düzenlemesi derlemesi",
+    "niosh": "CDC/NIOSH: sıcak hava rehberi"
+  },
+  "tips": {
+    "kicker": "Faydalı, takıntılı değil",
+    "title": "Gerçek hayat için üç kontrol.",
+    "schedule": {
+      "title": "Günlük Düzen",
+      "body": "Sabaha suyla başlayın, yemeklerle birlikte yudumlayın; gerisinde susuzluk, hava ve aktivite size yol göstersin."
+    },
+    "electrolytes": {
+      "title": "Elektrolitler",
+      "body": "Çoğu insan elektrolitleri düzenli öğünlerle yerine koyar. Uzun süreli veya yoğun terlemenin ardından dengeli bir elektrolit içeceği seçin; sodyumu sınırlamanız önerildiyse rutin olarak tuz eklemeyin."
+    },
+    "visualCheck": {
+      "title": "Görsel Kontrol",
+      "body": "Açık sarı idrar, hidrasyonun kaba bir göstergesi olabilir. Yiyecekler, vitaminler, ilaçlar ve sağlık sorunları rengi değiştirebilir; bu nedenle bu bir teşhis değildir."
+    }
+  },
+  "author": {
+    "kicker": "Onu yapan kişiden",
+    "title": "Bunu Neden Yaptım (Ve Neden Sadece Beni Dinlememelisiniz)",
+    "athlete": "Benim adım Denzel Rigaud. Dokuz yıldan uzun süre 400 metre ve engelli koşu yaptım; bu yüzden hidrasyon, antrenman yapma, toparlanma ve bedenimi okumayı öğrenme biçimimin bir parçası oldu.",
+    "purpose": "The Water Check'i, internetteki gürültünün içinde bedeninizi duyabilmeniz için yaptım. Deneyimimi bir reçete gibi görmenizi istemiyorum. Neye ihtiyacınız olduğunu biyolojiniz, çevreniz, sağlık geçmişiniz ve yaşam evreniz belirler.",
+    "technology": "Teknoloji, ekranı durmadan kaydırıp başkalarının hayatını yaşayalım diye var değil. Hayatlarımızı üretken tutmalı ve ruhumuzu, canımızı, zihnimizi ve bedenimizi iyileştirmeli ki olmak istediğimiz kişinin en iyi hâline dönüşelim. O yüzden herkesi dinlemeyi bırakın, çünkü size iyi gelen, size iyi gelir.",
+    "faith": "Kendi örüntülerinizi öğrenin ve sağlıkla ilgili endişelerinizi yetkin bir uzmana danışın. Fiziksel bedeninize özen göstermek sizi hem kendinize hem de her birimizin içine özen göstermeye değer bir kıvılcım koyan Tanrı'ya yaklaştırabilir.",
+    "motto": "Fenomenleri takip etmeyin. Kendinizi tanıyın.",
+    "date": "15 Mart 2021",
+    "founderPage": "Kurucu Sayfası"
+  },
+  "community": {
+    "kicker": "İnsani kalsın",
+    "title": "Gerçek topluluğa katılın.",
+    "instagram": "Instagram'da @thewatercheck'i takip edin",
+    "reelSoon": "Instagram Reel'i çok yakında",
+    "story": "Topluluk hikâyesi {{position}}"
+  }
+}

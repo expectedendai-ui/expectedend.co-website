@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Presă și media",
+    "title": "Resurse de presă pentru Expected End.",
+    "intro": "Biografii aprobate, fapte verificate și materiale media descărcabile pentru articole despre Expected End și fondatorul său, Denzel Rigaud.",
+    "downloadPortrait": "Descărcați portretul"
+  },
+  "inquiry": "Trimiteți o solicitare de presă",
+  "role": "Fondator și dezvoltator full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud în costum bleumarin și cu ochelari cu lentile portocalii"
+  },
+  "contents": {
+    "label": "Secțiunile paginii de presă",
+    "kit": "Kit de presă / 2026",
+    "biographies": "Biografii",
+    "facts": "Fapte verificate",
+    "projects": "Proiecte",
+    "licensing": "Utilizarea materialelor"
+  },
+  "bios": {
+    "kicker": "Texte aprobate",
+    "title": "Biografii",
+    "text": "Aceste versiuni pot fi citate sau adaptate pentru articole editoriale.",
+    "shortLabel": "Biografie scurtă / 24 de cuvinte",
+    "fullLabel": "Biografie completă",
+    "fullFirst": "Denzel Rigaud a fondat EXPECTEDEND LLC și a construit independent MyBibleLens și The Water Check. Este dezvoltatorul full-stack al companiei și modelează fiecare produs de la concept la design, inginerie și lansare.",
+    "fullSecond": "Munca sa se concentrează pe software centrat pe credință, bunăstare digitală și instrumente practice care îi ajută pe oameni să folosească tehnologia cu intenție. MyBibleLens este o aplicație sanctuar pentru creștinism. The Water Check combină o estimare privată a hidratării, obiceiuri practice legate de apă și o comunitate axată pe consecvența zilnică."
+  },
+  "facts": {
+    "kicker": "Fișă informativă",
+    "title": "Fapte verificate",
+    "text": "Detalii oficiale pentru profiluri, articole, legende foto și baze de date.",
+    "company": "Companie",
+    "founder": "Fondator",
+    "role": "Rol",
+    "products": "Produse",
+    "productsValue": "MyBibleLens și The Water Check",
+    "website": "Site oficial",
+    "profile": "Profilul fondatorului",
+    "entityLabel": "{{name}} pe Wikidata"
+  },
+  "projects": {
+    "kicker": "Produse",
+    "title": "Munca",
+    "text": "Două produse, construite independent sub Expected End.",
+    "mybiblelens": {
+      "alt": "Pictograma aplicației MyBibleLens",
+      "kicker": "Software centrat pe credință",
+      "text": "Aplicația Sanctuar pentru creștinism.",
+      "visit": "Vizitați MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Pictograma aplicației The Water Check",
+      "kicker": "Hidratare și comunitate",
+      "text": "O estimare privată a hidratării, obiceiuri practice legate de apă și comunitate.",
+      "visit": "Vizitați The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Utilizarea materialelor",
+    "title": "Portretul fondatorului",
+    "text": "Portretul poate fi distribuit și adaptat sub licența <license>Creative Commons Atribuire-Distribuire în condiții identice 4.0</license>. Credit: Denzel Rigaud / Expected End. Adaptările trebuie să folosească aceeași licență.",
+    "download": "Descărcați portretul fondatorului"
+  },
+  "contact": {
+    "kicker": "Contact pentru presă",
+    "title": "Aveți nevoie de un interviu, o declarație sau un fișier suplimentar?"
+  }
+}

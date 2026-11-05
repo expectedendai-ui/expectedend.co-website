@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Kusudi, lililojengwa kwa uzuri",
+    "description": "Expected End huunda programu zenye kufikiriwa vizuri, zana za tija, uzoefu wa kidijitali, na jumuiya."
+  },
+  "about": {
+    "title": "Kuhusu | Expected End",
+    "description": "Hadithi ya mwanzilishi Denzel Rigaud, dhamira ya Expected End, na miradi iliyojengwa kwa imani na kusudi."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Mwanzilishi wa Expected End",
+    "description": "Denzel Rigaud ni mwanzilishi na msanidi programu wa full-stack aliye nyuma ya Expected End, MyBibleLens, Programu ya Patakatifu pa Ukristo, na The Water Check."
+  },
+  "press": {
+    "title": "Vyombo vya Habari | Expected End",
+    "description": "Wasifu ulioidhinishwa, ukweli uliothibitishwa, viungo rasmi, na picha na video za kupakua kwa ajili ya habari kuhusu Expected End na Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Masharti ya Matumizi ya Tovuti | Expected End",
+    "description": "Masharti yanayosimamia matumizi ya tovuti ya Expected End."
+  },
+  "privacy": {
+    "title": "Taarifa ya Faragha | Expected End",
+    "description": "Jinsi Expected End inavyoshughulikia taarifa kwenye tovuti hii."
+  },
+  "watercheck-privacy": {
+    "title": "Sera ya Faragha ya The Water Check | Expected End",
+    "description": "Kile The Water Check inachokusanya, kinachobaki kwenye simu yako, wanaosaidia kuendesha programu, na chaguo zako."
+  },
+  "watercheck-terms": {
+    "title": "Sheria na Masharti ya The Water Check | Expected End",
+    "description": "Masharti ya kutumia programu ya The Water Check, ikiwemo afya na usalama, AI, kanuni za Vikundi na ununuzi."
+  },
+  "watercheck-health-data": {
+    "title": "Sera ya Faragha ya Data ya Afya ya Watumiaji ya The Water Check | Expected End",
+    "description": "Jinsi The Water Check inavyoshughulikia data ya afya ya watumiaji, na jinsi ya kuifikia, kuifuta au kukata rufaa."
+  },
+  "watercheck-delete-account": {
+    "title": "Futa akaunti yako | The Water Check",
+    "description": "Jinsi ya kufuta akaunti yako ya The Water Check na data yako, kwenye programu au kwa barua pepe."
+  },
+  "watercheck-community": {
+    "title": "Miongozo ya Jumuiya | The Water Check",
+    "description": "Jinsi Vikundi katika The Water Check vinavyobaki vya kirafiki: kanuni, kuripoti na kuzuia, na kinachotokea kanuni zinapovunjwa."
+  },
+  "accessibility": {
+    "title": "Ufikivu | Expected End",
+    "description": "Ahadi ya Expected End ya kutoa tovuti inayofikika kwa kila mtu."
+  },
+  "mybiblelens-store": {
+    "title": "Duka la MyBibleLens | Expected End",
+    "description": "Bidhaa zenye maana kwa ajili ya kutembea karibu zaidi na Neno. Duka la MyBibleLens linakuja hivi karibuni."
+  },
+  "watercheck-store": {
+    "title": "Duka la The Water Check | Expected End",
+    "description": "Bidhaa muhimu zilizochochewa na unywaji maji kutoka The Water Check. Toleo la kwanza linakuja hivi karibuni."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Programu ya Unywaji Maji na Kikokotoo cha Bure",
+    "description": "Gundua programu ya The Water Check na ujaribu makadirio ya bure na ya faragha ya maji unayohitaji, kwenye Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Kikokotoo cha Maji cha Bure | The Water Check",
+    "description": "Pata makadirio ya bure na ya faragha ya maji unayohitaji kila siku kwa kikokotoo cha The Water Check."
+  },
+  "not-found": {
+    "title": "Ukurasa haukupatikana | Expected End",
+    "description": "Ukurasa wa Expected End ulioombwa haukupatikana."
+  }
+}

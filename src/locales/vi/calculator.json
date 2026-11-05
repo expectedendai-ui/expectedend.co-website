@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Gác lại lời của người nổi tiếng trên mạng. Hãy hiểu cơ thể bạn thật sự hoạt động ra sao.",
+    "lead": "Dùng thử công cụ tính miễn phí mà không cần tài khoản, rồi khám phá ứng dụng chúng tôi đang xây dựng để theo dõi mỗi ngày.",
+    "appLink": "Khám phá ứng dụng ↓",
+    "logoLabel": "Dùng công cụ tính của Water Check"
+  },
+  "intro": {
+    "kicker": "Công cụ tính lượng nước",
+    "title": "Bắt đầu với những con số bạn biết."
+  },
+  "units": {
+    "legend": "Đơn vị cân nặng",
+    "pounds": "Pound (lb)",
+    "kilograms": "Kilôgam (kg)"
+  },
+  "weight": {
+    "labelLb": "Cân nặng (lb)",
+    "labelKg": "Cân nặng (kg)",
+    "valueTextLb": "{{value}} pound",
+    "valueTextKg": "{{value}} kilôgam"
+  },
+  "height": {
+    "legend": "Chiều cao",
+    "feet": "Chiều cao (ft)",
+    "inches": "Chiều cao (in)",
+    "centimeters": "Chiều cao (cm)",
+    "note": "Nhu cầu nước đi theo khối nạc của cơ thể, nên chiều cao quan trọng nhất khi cân nặng của bạn cao so với vóc người."
+  },
+  "activity": {
+    "label": "Vận động hằng ngày (phút)",
+    "value": "{{minutes}} phút",
+    "valueText": "{{minutes}} phút"
+  },
+  "factors": {
+    "legend": "Những yếu tố có thể thay đổi nhu cầu nước",
+    "intro": "Chúng tôi chỉ áp dụng một con số khi có mức điều chỉnh hằng ngày đủ cơ sở. Các câu trả lời khác giúp cá nhân hóa lời khuyên cho bạn, mà không giả vờ rằng khoa học đã xác định một liều lượng chính xác.",
+    "age": {
+      "label": "Tuổi",
+      "hint": "Tuổi chỉ là bối cảnh tham khảo; nó không dùng để chẩn đoán mãn kinh."
+    },
+    "lifeStage": {
+      "label": "Giai đoạn cuộc sống",
+      "hint": "Dùng một mức điều chỉnh minh bạch cho thai kỳ hoặc giai đoạn tiết sữa.",
+      "options": {
+        "standard": "Bình thường",
+        "pregnant": "Đang mang thai",
+        "breastfeeding": "Đang cho con bú"
+      }
+    },
+    "sex": {
+      "label": "Giới tính",
+      "hint": "Không bắt buộc. Giúp tinh chỉnh phép tính cân nặng lý tưởng và lượng nạp tham chiếu.",
+      "options": {
+        "unspecified": "Không muốn trả lời",
+        "woman": "Nữ",
+        "man": "Nam"
+      }
+    },
+    "luteal": {
+      "label": "Tuần trước kỳ kinh",
+      "hint": "Theo dõi tình trạng giữ nước ở giai đoạn hoàng thể và đầy hơi do nội tiết. Không có mức cộng thêm cố định nào áp dụng cho tất cả mọi người."
+    },
+    "heat": {
+      "label": "Thời tiết nóng hoặc ẩm",
+      "hint": "Lời khuyên khi trời nóng phụ thuộc vào mức độ tiếp xúc và lượng mồ hôi, không chỉ vào nơi bạn sống."
+    }
+  },
+  "result": {
+    "goal": "Mục tiêu mỗi ngày của bạn: {{ounces}} ounce",
+    "breakdown": "Chi tiết cách tính",
+    "weightBaseline": "Mức nền theo cân nặng",
+    "heightAndBuild": "Chiều cao và vóc người",
+    "sexReference": "Tham chiếu theo giới tính",
+    "notSet": "Chưa đặt",
+    "activity": "Điều chỉnh theo vận động",
+    "lifeStage": {
+      "standard": "Điều chỉnh theo giai đoạn cuộc sống",
+      "pregnant": "Điều chỉnh khi mang thai",
+      "breastfeeding": "Điều chỉnh khi cho con bú"
+    },
+    "luteal": "Hướng dẫn cho giai đoạn hoàng thể",
+    "noFixedOunces": "Không có +oz cố định",
+    "electrolytes": "Kiểm tra chất điện giải",
+    "electrolytesAfterSweat": "Cân nhắc sau khi ra nhiều mồ hôi",
+    "electrolytesFromFood": "Thức ăn thường đã đủ",
+    "guidance": "Đây là ước tính mang tính giáo dục giúp lên kế hoạch, dành cho người lớn, không phải chẩn đoán, điều trị hay chỉ định lâm sàng. Thực phẩm cũng cung cấp nước, và nhu cầu của mỗi người mỗi khác. Đừng ép mình uống. Hãy hỏi chuyên gia y tế về nhu cầu của bạn nếu bạn đang mang thai hoặc cho con bú, dùng thuốc ảnh hưởng đến cân bằng dịch trong cơ thể, có bệnh thận hoặc bệnh tim, đang phải hạn chế lượng dịch nạp vào, hoặc có triệu chứng đáng lo ngại."
+  },
+  "equivalents": {
+    "title": "Tương đương khoảng",
+    "cups": "{{value}} cốc",
+    "cupsNote": "mỗi cốc 8 oz",
+    "liters": "{{value}} lít",
+    "litersNote": "hệ mét",
+    "bottles": "{{value}} chai",
+    "bottlesNote": "loại 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Ăn cũng là uống",
+    "title": "Không phải tất cả đều phải đến từ một cốc nước.",
+    "copy": "Khoảng một phần năm lượng nước mỗi ngày của hầu hết mọi người đến từ thực phẩm. Phần lớn trái cây và rau củ tươi có 70 đến 95 phần trăm là nước, và khi đã vào máu, lượng nước này cấp nước cho cơ thể y hệt như đồ uống.",
+    "drink": "Uống",
+    "drinkNote": "{{cups}} cốc nước, trà hoặc sữa",
+    "eat": "Ăn",
+    "eatNote": "từ thực phẩm giàu nước",
+    "pickLegend": "Hình dung phần nước từ thức ăn bằng",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} chứa khoảng {{ounces}} oz nước ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "cốc dưa hấu",
+      "serving": "1 cốc cắt hạt lựu",
+      "water": "92% là nước"
+    },
+    "cucumber": {
+      "label": "quả dưa chuột",
+      "serving": "1 quả vừa",
+      "water": "95% là nước"
+    },
+    "strawberries": {
+      "label": "cốc dâu tây",
+      "serving": "1 cốc",
+      "water": "91% là nước"
+    },
+    "oranges": {
+      "label": "quả cam",
+      "serving": "1 quả vừa",
+      "water": "87% là nước"
+    },
+    "salad": {
+      "label": "bát salad",
+      "serving": "2 cốc rau trộn",
+      "water": "khoảng 94% là nước"
+    },
+    "soup": {
+      "label": "bát canh nước dùng",
+      "serving": "1 cốc",
+      "water": "khoảng 92% là nước"
+    },
+    "tomatoes": {
+      "label": "quả cà chua",
+      "serving": "1 quả vừa",
+      "water": "95% là nước"
+    },
+    "grapes": {
+      "label": "cốc nho",
+      "serving": "1 cốc",
+      "water": "81% là nước"
+    },
+    "peaches": {
+      "label": "quả đào",
+      "serving": "1 quả vừa",
+      "water": "89% là nước"
+    },
+    "cantaloupe": {
+      "label": "cốc dưa lưới",
+      "serving": "1 cốc cắt hạt lựu",
+      "water": "90% là nước"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Vì sao nước từ thức ăn cũng được tính",
+    "title": "Nước trong dưa hấu cũng chính là nước.",
+    "sameMolecule": "<strong>Cùng một phân tử.</strong> H2O từ quả dưa chuột và H2O từ vòi nước là giống hệt nhau. Khi đã đi qua ruột vào máu, cơ thể bạn đưa nó đến cơ bắp theo cùng một cách.",
+    "slowRelease": "<strong>Hấp thụ từ từ.</strong> Nước trong rau quả được giữ bên trong chất xơ và thành tế bào, nên được hấp thụ từ từ hơn một cốc nước uống ừng ực thật nhanh, vốn thường bị thận đào thải nhanh chóng.",
+    "electrolytes": "<strong>Có sẵn chất điện giải.</strong> Dưa chuột, cải bó xôi, các loại dưa và quả mọng chứa kali và magie, những khoáng chất mà tế bào dùng để giữ nước.",
+    "glycogen": "<strong>Vừa là nhiên liệu, vừa là dự trữ.</strong> Cơ bắp dự trữ carbohydrate dưới dạng glycogen, và mỗi gam glycogen được dự trữ cùng khoảng ba gam nước. Thực phẩm giàu nước và giàu carbohydrate cung cấp cả hai.",
+    "caveat": "Bạn vẫn cần uống. Thực phẩm thường chỉ đáp ứng khoảng một phần năm tổng lượng; phần còn lại đến từ nước và các đồ uống khác. Trái cây sấy, các loại hạt và bánh mì chứa rất ít nước."
+  },
+  "grace": {
+    "kicker": "Dịu dàng với cơ thể",
+    "title": "Đôi lời về việc bao dung với chính mình",
+    "body": "Hình ảnh trong gương và độ vừa vặn của quần áo có thể thay đổi do cơ thể giữ nước, tiêu hóa, hormone, giấc ngủ và những biến đổi bình thường khác. Một ngày bị đầy hơi không định nghĩa cơ thể bạn. Hãy uống nước một cách nhẹ nhàng, cho bản thân thời gian, và để sự tò mò thay cho cảm giác xấu hổ. Nếu đầy hơi kéo dài, sưng phù, cân nặng thay đổi nhanh hoặc có triệu chứng khiến bạn lo lắng, hãy trò chuyện với chuyên gia y tế."
+  },
+  "overhydration": {
+    "title": "Mối nguy của việc ép uống nước",
+    "kidneys": "Thận cần thời gian để đào thải nước. Khi vận động kéo dài, uống nhanh hơn lượng dịch bạn mất có thể làm loãng natri trong máu và gây hạ natri máu liên quan đến vận động. Triệu chứng ban đầu có thể gồm đau đầu, buồn nôn, chóng mặt, mệt mỏi hoặc lú lẫn. Trường hợp nặng có thể gây phù não, co giật, hôn mê và tử vong.",
+    "pacing": "Đừng cố đạt con số ước tính này bằng cách uống ừng ực. Hãy chia đồ uống ra suốt cả ngày. Khi vận động, hãy uống theo cơn khát, điều kiện môi trường và lượng mồ hôi của chính bạn. Hãy tìm trợ giúp y tế khẩn cấp nếu bị lú lẫn, co giật, ngã quỵ hoặc có triệu chứng nặng.",
+    "sources": "Nguồn: <nih>Hướng dẫn của NIH về hạ natri máu liên quan đến vận động</nih> và <academies>khuyến nghị về lượng dịch của Viện Hàn lâm Quốc gia Hoa Kỳ (National Academies)</academies>."
+  },
+  "notes": {
+    "title": "Ghi chú bằng chứng cho bạn",
+    "sexMan": "<strong>Giới tính:</strong> Lượng nạp tham chiếu của Viện Hàn lâm Quốc gia Hoa Kỳ (National Academies) là khoảng 3,7 lít tổng lượng nước mỗi ngày với nam và 2,7 lít với nữ. Cân nặng giải thích phần lớn chênh lệch đó, nên phần còn lại được thể hiện ở đây bằng mức tăng 4 phần trăm vào mức nền theo cân nặng, và phần kiểm tra chiều cao và vóc người dùng công thức cân nặng lý tưởng cho nam.",
+    "sexWoman": "<strong>Giới tính:</strong> Lượng nạp tham chiếu của Viện Hàn lâm Quốc gia Hoa Kỳ (National Academies) là khoảng 3,7 lít tổng lượng nước mỗi ngày với nam và 2,7 lít với nữ. Cân nặng giải thích phần lớn chênh lệch đó, nên phần còn lại được thể hiện ở đây bằng mức giảm 4 phần trăm vào mức nền theo cân nặng, và phần kiểm tra chiều cao và vóc người dùng công thức cân nặng lý tưởng cho nữ.",
+    "height": "<strong>Chiều cao và vóc người:</strong> Nhu cầu nước gắn với khối nạc nhiều hơn là tổng cân nặng. Vì cân nặng của bạn cao hơn khoảng thông thường so với chiều cao, ước tính dùng cân nặng điều chỉnh (cân nặng lý tưởng cộng 40 phần trăm phần chênh lệch), một quy ước lâm sàng phổ biến. Đây là con số sơ bộ để lên kế hoạch, không phải một lời phán xét về cơ thể bạn.",
+    "cycle": "<strong>Giai đoạn chu kỳ:</strong> Sự thay đổi dịch trong cơ thể theo chu kỳ kinh nguyệt là có thật, nhưng các nghiên cứu chưa xác lập một mức tăng ounce cố định áp dụng cho tất cả mọi người. Không có ounce nào được tự động cộng thêm. Các bữa ăn thường ngày thường đã cung cấp đủ chất điện giải; thực phẩm bổ sung magie hoặc kali không phải là khuyến nghị chung cho mọi người.",
+    "age": "<strong>Tuổi và mãn kinh:</strong> Chỉ riêng tuổi không quyết định tình trạng mãn kinh. Thay đổi nội tiết có thể ảnh hưởng đến cảm giác khát và sự điều hòa dịch, nhưng không có mức điều chỉnh ounce “trên 45 tuổi” nào đã được kiểm chứng, nên tuổi của bạn không làm thay đổi tổng lượng.",
+    "heat": "<strong>Nắng nóng:</strong> Một mức cộng thêm cố định theo khí hậu có thể đánh giá thấp hoặc quá cao nhu cầu của bạn. Với công việc ở mức độ vừa phải dưới trời nóng trong chưa đến hai giờ, NIOSH khuyên uống khoảng 8 ounce mỗi 15 đến 20 phút; ra nhiều mồ hôi trong thời gian dài hơn cần một kế hoạch bù nước riêng cho từng người."
+  },
+  "evidence": {
+    "label": "Bằng chứng:",
+    "academies": "Hướng dẫn về lượng nước nạp vào của Viện Hàn lâm Quốc gia Hoa Kỳ (National Academies)",
+    "harvard": "Harvard Health về thực phẩm và việc bù nước",
+    "cycle": "Nghiên cứu về điều hòa thẩm thấu theo chu kỳ kinh nguyệt",
+    "menopause": "Tổng quan về điều hòa dịch thời kỳ mãn kinh",
+    "niosh": "Hướng dẫn về nắng nóng của CDC/NIOSH"
+  },
+  "tips": {
+    "kicker": "Hữu ích, không ám ảnh",
+    "title": "Ba cách kiểm tra cho cuộc sống thực.",
+    "schedule": {
+      "title": "Lịch uống nước",
+      "body": "Bắt đầu buổi sáng bằng nước, nhấp từng ngụm trong bữa ăn, và để cơn khát, thời tiết cùng mức vận động dẫn dắt phần còn lại."
+    },
+    "electrolytes": {
+      "title": "Chất điện giải",
+      "body": "Hầu hết mọi người bù chất điện giải qua các bữa ăn thường ngày. Sau khi ra mồ hôi lâu hoặc nhiều, hãy chọn một loại đồ uống điện giải cân bằng; đừng thường xuyên thêm muối nếu bạn đã được khuyên hạn chế natri."
+    },
+    "visualCheck": {
+      "title": "Kiểm tra bằng mắt",
+      "body": "Nước tiểu màu vàng nhạt có thể là một dấu hiệu sơ bộ cho thấy cơ thể đủ nước. Thực phẩm, vitamin, thuốc và tình trạng sức khỏe có thể làm thay đổi màu sắc, nên đây không phải là chẩn đoán."
+    }
+  },
+  "author": {
+    "kicker": "Từ người tạo ra nó",
+    "title": "Vì sao tôi tạo ra công cụ này (và vì sao bạn không nên chỉ nghe theo tôi)",
+    "athlete": "Tôi là Denzel Rigaud. Tôi đã dành hơn chín năm chạy cự ly 400 mét và chạy vượt rào, nên việc uống nước trở thành một phần trong cách tôi tập luyện, phục hồi và học cách lắng nghe cơ thể.",
+    "purpose": "Tôi tạo ra The Water Check để giúp bạn nghe được tiếng nói của cơ thể mình giữa những ồn ào trên mạng. Tôi không muốn bạn xem trải nghiệm của tôi như một đơn thuốc. Sinh học, môi trường, tiền sử bệnh và giai đoạn cuộc sống của bạn mới quyết định bạn cần gì.",
+    "technology": "Công nghệ không phải để chúng ta lướt mạng vô tận và sống cuộc đời của người khác. Nó nên giúp cuộc sống của chúng ta hiệu quả hơn và làm tốt hơn tâm linh, linh hồn, tâm trí và thể xác, để chúng ta trở thành phiên bản tốt nhất của con người mình muốn trở thành. Vậy nên đừng nghe theo tất cả mọi người nữa, vì điều gì hợp với bạn thì hợp với bạn.",
+    "faith": "Hãy hiểu những khuôn mẫu của chính mình và mang các lo lắng về sức khỏe đến một chuyên gia có chuyên môn. Chăm sóc thân thể, chiếc bình chứa của bạn, có thể giúp bạn gần gũi hơn với chính mình và với Đức Chúa Trời, Đấng đã đặt trong mỗi chúng ta một tia lửa đáng được vun đắp.",
+    "motto": "Đừng chạy theo người nổi tiếng trên mạng. Hãy hiểu chính mình.",
+    "date": "Ngày 15 tháng 3 năm 2021",
+    "founderPage": "Trang nhà sáng lập"
+  },
+  "community": {
+    "kicker": "Giữ sự chân thật",
+    "title": "Tham gia cộng đồng thật sự.",
+    "instagram": "Theo dõi @thewatercheck trên Instagram",
+    "reelSoon": "Instagram Reel sắp ra mắt",
+    "story": "Câu chuyện cộng đồng {{position}}"
+  }
+}

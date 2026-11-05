@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud হলেন Expected End, খ্রিস্টীয় বিশ্বাসের পবিত্র আশ্রয় অ্যাপ MyBibleLens এবং The Water Check-এর পেছনের প্রতিষ্ঠাতা ও ফুল-স্ট্যাক ডেভেলপার।",
+  "projects": {
+    "mybiblelens": {
+      "category": "খ্রিস্টীয় অ্যাপ",
+      "action": "অ্যাপ দেখুন",
+      "tagline": "খ্রিস্টীয় বিশ্বাসের পবিত্র আশ্রয় অ্যাপ।",
+      "secondary": "বায়ো",
+      "badge": "App Store-এ"
+    },
+    "watercheck": {
+      "category": "হাইড্রেশন কমিউনিটি",
+      "action": "অ্যাপ দেখুন",
+      "tagline": "জানুন আপনি কী পান করছেন। আপনার নিজের জলের পরিমাণ, এক ট্যাপেই।",
+      "badge": "রিভিউতে আছে"
+    },
+    "mybiblelens-store": {
+      "category": "স্টোর · শিগগিরই আসছে",
+      "action": "স্টোরে ঢুকুন",
+      "tagline": "পরার মতো বিশ্বাস।"
+    },
+    "watercheck-store": {
+      "category": "স্টোর · শিগগিরই আসছে",
+      "action": "স্টোরে ঢুকুন",
+      "tagline": "হাইড্রেশন বিভাগের সাজসরঞ্জাম।"
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "খ্রিস্টীয় অ্যাপ · iOS",
+      "status": "App Store-এ"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "হাইড্রেশন অ্যাপ · iOS",
+      "status": "রিভিউতে আছে"
+    },
+    "mybiblelens-for-android": {
+      "name": "Android-এর জন্য MyBibleLens",
+      "category": "Google Play",
+      "status": "ক্লোজড টেস্টিং"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "অসীম ক্যানভাস",
+      "status": "লাইভ"
+    },
+    "journey-plans": {
+      "name": "Journey পরিকল্পনা",
+      "category": "পাঠ পরিকল্পনা + সিল",
+      "status": "লাইভ"
+    },
+    "water-check-crews": {
+      "name": "Water Check দল",
+      "category": "টিম হাইড্রেশন",
+      "status": "তৈরি"
+    },
+    "home-screen-widgets": {
+      "name": "হোম স্ক্রিন উইজেট",
+      "category": "iOS উইজেট",
+      "status": "তৈরি"
+    },
+    "hydration-calculator": {
+      "name": "হাইড্রেশন ক্যালকুলেটর",
+      "category": "ওয়েব টুল",
+      "status": "লাইভ"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "ব্যবসার HQ অ্যাপ",
+      "status": "ডেভেলপমেন্ট চলছে"
+    },
+    "43-language-rollout": {
+      "name": "43 ভাষায় রোলআউট",
+      "category": "লোকালাইজেশন",
+      "status": "43টি ভাষা"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens স্টোর",
+      "category": "মার্চেন্ডাইজ",
+      "status": "শিগগিরই আসছে"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "অ্যাপের ওয়েবসাইট",
+      "status": "লাইভ"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "কোম্পানির ওয়েবসাইট",
+      "status": "লাইভ"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI বাইবেল অধ্যয়ন",
+      "status": "AI ডেমো"
+    },
+    "hidden-art-world": {
+      "name": "লুকোনো শিল্পের জগৎ",
+      "category": "ইন্টারঅ্যাকটিভ ওয়েব আর্ট",
+      "status": "ইস্টার এগ"
+    },
+    "sanctuary-stickers": {
+      "name": "Sanctuary স্টিকার",
+      "category": "ইলাস্ট্রেশন সেট",
+      "status": "550+ স্টিকার"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens পিচ ফিল্ম",
+      "category": "ব্র্যান্ড ফিল্ম",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "ফিচার রিল",
+      "category": "ভিডিও সিরিজ",
+      "status": "10টি ভিডিও"
+    },
+    "look-closer-series": {
+      "name": "Look Closer সিরিজ",
+      "category": "সোশ্যাল সিরিজ",
+      "status": "60টি পোস্ট"
+    },
+    "25-week-campaign": {
+      "name": "25 সপ্তাহের ক্যাম্পেইন",
+      "category": "Instagram পরিকল্পনা",
+      "status": "100টি পোস্ট"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "ওয়ার্কবুক",
+      "status": "33টি ব্লক"
+    },
+    "water-check-store": {
+      "name": "Water Check স্টোর",
+      "category": "মার্চেন্ডাইজ",
+      "status": "শিগগিরই আসছে"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "অ্যাপ",
+      "body": "আসল মানুষের কথা ভেবে ডিজাইন করা, কাজের ও যত্নে গড়া প্রোডাক্ট।",
+      "interest": "অ্যাপ বা সফটওয়্যার আইডিয়া তৈরি"
+    },
+    "02": {
+      "title": "ওয়েবসাইট",
+      "body": "স্বতন্ত্র ডিজিটাল ঠিকানা, যা স্পষ্ট, প্রাণবন্ত আর আপন মনে হয়।",
+      "interest": "ওয়েবসাইট বা ডিজিটাল অভিজ্ঞতা"
+    },
+    "03": {
+      "title": "AI সিস্টেম",
+      "body": "কাজের বুদ্ধিমত্তা, যা আইডিয়া আর টিমকে এগিয়ে যেতে সাহায্য করে।",
+      "interest": "AI সিস্টেম বা প্রোডাক্টিভিটি টুল"
+    },
+    "04": {
+      "title": "ক্রিয়েটিভ",
+      "body": "পরিচিতি, দিকনির্দেশনা আর অভিজ্ঞতা, যার কেন্দ্রে আছে অর্থ।",
+      "interest": "ক্রিয়েটিভ ডিরেকশন বা ডিজাইন"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "আপনার ব্যবসার নিজস্ব কাস্টম ঘর। CRM, ফিন্যান্স, প্রজেক্ট, টিম টুল আর এরপর যা যা দরকার, সব এক জায়গায়।",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "অটোমেশন",
+      "body": "বারবার করা কাজের বদলে আনুন যুক্ত ওয়ার্কফ্লো, যা আপনার ব্যবসাকে সচল রাখে।",
+      "interest": "অটোমেশন"
+    },
+    "07": {
+      "title": "ক্লায়েন্ট পোর্টাল",
+      "body": "গ্রাহক বা সদস্যদের দিন একটি গোছানো জায়গা, যেখানে তাঁরা যোগাযোগ, বুকিং, ফাইল শেয়ার আর অগ্রগতি দেখা, সবই করতে পারবেন।",
+      "interest": "ক্লায়েন্ট পোর্টাল"
+    },
+    "08": {
+      "title": "ডিজিটাল রেসকিউ",
+      "body": "যে সফটওয়্যার আর আপনার ব্যবসার কাজে আসছে না, তা সারান, আধুনিক করুন বা নতুন করে গড়ুন।",
+      "interest": "ডিজিটাল রেসকিউ"
+    }
+  }
+}

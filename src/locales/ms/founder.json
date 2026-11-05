@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud memakai cermin mata berkanta jingga",
+    "stats": {
+      "gradeValue": "Darjah 5",
+      "gradeSuffix": "",
+      "grade": "RASA INGIN TAHU",
+      "grief": "KESEDIHAN",
+      "faith": "IMAN · KEMBALI"
+    },
+    "identity": "Identiti <b>/ Denzel Rigaud</b>",
+    "founded": "Diasaskan / <time>3 Mac 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Pengasas & Pembangun Full-Stack Solo</em>",
+    "title": "Minda <br/>di Sebalik <br/>Expected End",
+    "text": "Kisah tentang rasa ingin tahu, kesedihan, iman dan menjadikan teknologi jalan untuk terus maju.",
+    "cta": "Baca kisahnya"
+  },
+  "ticker": {
+    "curiosity": "Rasa ingin tahu",
+    "grief": "Kesedihan",
+    "faith": "Iman",
+    "code": "Kod",
+    "purpose": "Matlamat"
+  },
+  "coordinates": {
+    "eyebrow": "Tiga koordinat",
+    "title": "Jalan ke sini bukanlah <em>garis lurus.</em>",
+    "curiosity": {
+      "label": "01 / Darjah lima",
+      "title": "Rasa ingin tahu menjadi kemahiran untuk terus hidup.",
+      "body": "Saya bermula dengan enggan membiarkan satu kegagalan menentukan seluruh hidup saya.",
+      "big": "Darjah 5"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Kesedihan menutup pintu teknologi.",
+      "body": "Kehilangan ayah membuatkan setiap kemahiran yang diajarnya terasa mustahil untuk disentuh."
+    },
+    "faith": {
+      "label": "03 / 25 Februari 2026",
+      "title": "Iman memberi kerja ini matlamat.",
+      "body": "Saya kembali untuk membina alat yang menjadikan orang lebih kuat daripada sebelumnya."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Kisah pengasas / Orang pertama",
+    "title": "Hai, nama saya <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Teknologi telah menjadi sebahagian daripada hidup saya sejak darjah lima. Sekolah sudah mengecewakan saya sejak kecil. Saya gagal darjah dua ketika berdepan halangan bahasa, dan saya tidak percaya kegagalan itu patut menentukan siapa saya. Saya memutuskan untuk bermula dengan menggodam markah saya. Ia bermula kecil, tetapi apabila saya sedar sejauh mana saya boleh menembusi sistem dan melakukan jailbreak pada teknologi, saya mula ingin tahu tentang sistem di sekeliling saya dan mula berseronok.",
+      "second": "Rasa ingin tahu itu membawa saya kepada bot farming Instagram, pengekodan, automasi, pembelajaran mesin, komuniti dalam talian, pertumbuhan digital dan sudut paling gelap internet. Saya belajar betapa berkuasanya teknologi. Sesetengah pilihan juga mengajar saya untuk menimbang dengan lebih bijak."
+    },
+    "socials": {
+      "label": "Profil media sosial Denzel Rigaud",
+      "instagram": "Denzel Rigaud di Instagram",
+      "linkedin": "Denzel Rigaud di LinkedIn",
+      "youtube": "Denzel Rigaud di YouTube"
+    },
+    "records": {
+      "label": "Rekod identiti bebas",
+      "heading": "Rekod luaran",
+      "worldAthletics": "Profil World Athletics",
+      "lynn": "Profil atlet Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Bab 01",
+    "kicker": "Orang-orang yang mengajar saya",
+    "title": "Ahli sihir web pertama saya.",
+    "first": "Ayah dan <brother>abang</brother> saya ialah orang paling bijak yang saya kenal, tetapi saya jarang berjumpa mereka. Hubungan kami hanya melalui panggilan telefon. Setiap saat saya dapat bercakap dengan mereka, mereka mengajar saya sesuatu yang perlu saya tahu. Lama-kelamaan, saya belajar bahawa saya tetap perlu memutuskan sendiri apa yang betul untuk saya. Ayah saya seorang ahli sihir web, dan saya rasa tidak dapat dihalang di internet. Abang saya bekerja untuk NSA.",
+    "second": "Pada 2021, saya berpindah ke Florida selepas 17 tahun tinggal bersama dua ibu dan dua adik-beradik perempuan saya. Saya terselamat, haha. Kemudian buat pertama kalinya saya dapat tinggal bersama ayah. Enam bulan kemudian, dia meninggal dunia, jadi saya menutup pintu teknologi kerana setiap kemahiran mengingatkan saya kepadanya.",
+    "third": "Ayah saya beragama Islam bagi sebahagian besar hidupnya. Saya mengikut Islam sebahagiannya kerana saya mahu menjadi seperti dia. Sebelum dia meninggal dunia, dia menyerahkan hidupnya kepada Kristus. Keputusannya itu terus melekat dalam diri saya, lama selepas saya menyimpan alat-alat saya sendiri."
+  },
+  "return": {
+    "number": "Bab 02",
+    "kicker": "Kembali",
+    "title": "Saya membuka pintu itu semula.",
+    "first": "Bertahun-tahun saya mengelak bahagian diri saya yang mengingatkan saya kepada ayah. Saya masih menyentuh teknologi sekali-sekala, tetapi kesedihan membuatkan saya sukar untuk kekal. Saya mengisi ruang kosong itu dengan dosa nafsu dan semakin jauh daripada insan yang sepatutnya saya jadi.",
+    "second": "Pada Januari 2026, saya tahu saya perlu berubah. Saya memutuskan untuk membuka semula ahli sihir web yang diajar ayah saya, berhenti menjadi lelaki duniawi yang tidak percaya kepada Tuhan, dan mengikut Dia. Apabila saya berbuat begitu, hidup saya mula makmur.",
+    "third": "MyBibleLens lahir daripada keputusan itu. Saya tidak ada rancangan yang lengkap. Saya mula membina dan terus bergerak. Kerja ini membolehkan saya membuka pintu yang saya tutup selepas ayah meninggal dunia. Saya menghidupkan semula The Water Check dan mula mengejar impian yang saya bawa sejak kecil."
+  },
+  "draft": {
+    "label": "Bab 03 / Draf",
+    "title": "“Kebenaran di Sebalik Kod”"
+  },
+  "venom": {
+    "title": "Racun Digital",
+    "first": "Ia berlaku sebaik sahaja kita bangun. Sebelum kaki pun menyentuh lantai, tangan sudah menjangkau. Anda mencapai telefon. Kita semua melakukannya. Tetapi satu gerakan refleks itu serta-merta mengganggu laluan saraf otak anda, mencampakkan anda ke dalam keadaan genting dan cemas sebelum hari pun bermula.",
+    "second": "Sebagai pembangun perisian solo selama 10 tahun, dan mempunyai ayah seorang penggodam keselamatan siber solo yang mengajar saya sisi gelap dan misteri internet, saya nampak kod di sebalik skrin. Saya tahu dengan tepat cara algoritma berfungsi, dan hakikatnya, ia racun. Ketoksikan melampau yang anda rasa dalam talian sebenarnya bukan sifat manusia; ia ilusi yang direka. Kita sentiasa diserang oleh “pseudoisme”, di mana ruangan komen yang dibanjiri permusuhan jarang sekali merupakan luahan spontan pengguna internet biasa. Sebaliknya, ia sebahagian daripada strategi propaganda komputasi yang disengajakan dan sistematik. Akaun palsu dan rangkaian bot dikerahkan untuk menyuntik naratif buatan ke dalam suapan anda, direka khusus untuk memanipulasi persepsi awam, memperdalam perpecahan kita dan mempengaruhi tingkah laku dalam talian anda.",
+    "third": "Tidak kira betapa bersihnya sejarah carian anda atau anak-anak anda, atau betapa bersihnya suapan anda kelihatan; sistem ini direka untuk menarik anda kembali. Ia menarik anda ke arah negativiti, kecetekan dan guru cepat kaya yang memaksa kita meletakkan Wang di atas Tuhan (<strong>1 Timotius 6:10</strong>), lalu melahirkan manusia dengan roh mamon. Ia membuatkan saudari-saudari kita yang cantik tidak tahu bahawa kecantikan sebenar mereka bukanlah solekan, bukan pandangan seorang lelaki terhadapnya, atau berapa banyak like Instagram yang dia dapat… tetapi hatinya dan sifatnya yang bak malaikat bersama Tuhan. Ia mesin yang dibina untuk merampas minda anda dan mengawal tabiat anda.",
+    "fourth": "Arus kepalsuan yang tidak berhenti ini memerangkap kita dalam kehidupan yang serba tergesa-gesa, membutakan kita daripada hakikat bahawa perkara yang benar memerlukan masa. Cinta sejati, pertumbuhan yang tulen dan hubungan yang autentik memerlukan kesabaran, bukan kepuasan segera yang diberikan telefon. Ia menipu otak supaya sentiasa mengharapkan lonjakan dopamin daripada persetujuan. Sama seperti algoritma halaman “For You” yang dikurasi, ia membuatkan orang berasa berhak secara membuta tuli terhadap pendapat sendiri, menutup diri daripada manusia sebenar dan hakikat bahawa bukan semua orang akan bersetuju tentang perkara yang sama. Ia satu penyerahan perlahan, membiarkan teknologi yang dingin dan kepalsuan menguasai sepenuhnya minda manusia.",
+    "fifth": "Mereka mahu kita terganggu oleh perang rekaan ini. Mereka mahu otak anak-anak kita menjadi lembik, selamanya terperangkap di peringkat paling rendah <strong><bloom>Taksonomi Bloom</bloom></strong>: sekadar “mengingat” dan mengguna, tidak pernah bertanya, tidak pernah mencipta, tidak pernah menyelami lebih dalam. Kita sedang menyaksikan satu generasi menangguhkan <strong><erikson>peringkat hidup Erikson</erikson></strong> yang penting, lumpuh oleh realiti palsu yang dikurasi di skrin, takut untuk benar-benar membesar kerana tiada lagi yang terasa autentik. Dunia sudah benar-benar muak dengan pembohongan. Jika anda tidak nampak manipulasi dalam kod, tidak mengapa; generasi saya nampak, dan generasi akan datang juga akan nampak."
+  },
+  "crucible": {
+    "title": "Tempaan yang Membentuk Saya",
+    "first": "Saya bukan sekadar mempelajari ini daripada data; saya melaluinya: menjual dadah semata-mata untuk membina hidup yang saya janjikan kepada diri sendiri, hidup yang akan sampai ke masa depan yang cerah. Dihalau dari rumah orang tersayang, tiada tempat tinggal. Ditawarkan jalan masuk ke industri dewasa ketika saya paling memerlukan wang, 10 ribu dilambai betul-betul di depan muka saya, tetapi ibu membesarkan saya dengan nilai moral. <court>Dua</court> saman mahkamah <search>semasa</search> sekolah menengah. Saya mula menggodam markah saya di darjah 5 kerana saya sudah muak gagal, terutamanya apabila saya sedar saya pernah tidak naik darjah di darjah 2 kerana loghat yang saya bawa. Kemudian itu bertukar menjadi menggodam lebih banyak lagi… apabila suatu hari saya benar-benar mengenali <father>ayah</father> saya, saya nampak dari mana saya mewarisinya.",
+    "second": "Untuk masa yang sangat lama, saya fikir Tuhan tidak akan menerima saya kembali selepas semua itu. Saya fikir saya sudah terlalu jauh. Tetapi kemudian saya belajar tentang Rasul Paulus. Paulus benar-benar membunuh orang Kristian, namun Tuhan tetap berpaling dan memberinya karunia yang besar. Ketika itulah saya tersedar: jika Tuhan boleh menggunakan lelaki seperti Paulus, masa lalu saya tidak pernah terlalu berat untuk-Nya membina masa depan bersama saya.",
+    "third": "Naluri untuk terus hidup itu bermula awal. Membesar dikelilingi 4 wanita selama 16 tahun membentuk jiwa saya dengan cara yang masih saya cuba fahami. Minda saya dilatih untuk bekerja serentak merentasi pelbagai gelombang psikologi. Saya melalui psikologi yang berbelit, dinamik yang kompleks dan manipulasi yang mengukir saya menjadi diri saya hari ini. Dan saya sayang mereka kerana itu; ia menjimatkan tenaga saya dengan perempuan apabila saya benar-benar memutuskan untuk memikirkan apa yang ibu saya katakan. Dan selepas patah hati dan dicurangi, saya masih percaya pada <chivalry>sifat kesatria</chivalry>.",
+    "fourth": "Apa yang saya maksudkan, untuk terus hidup dalam rumah yang penuh dengan wanita, anda perlu berfikir seperti mereka, dan apabila saya meninggalkan mereka, saya terpaksa menjadi lelaki muda seperti saya hari ini, dengan begitu banyak perjuangan yang saya lalui. Persekitarannya huru-hara, dan saya hanya menemui kejelasan apabila saya memilih dengan sedar untuk menghapuskan satu dosa saya, “nafsu”, dan segala kebisingan melalui doa. Apabila akhirnya saya meletakkan Tuhan di tempat pertama, saya sedar siapa diri saya sebenarnya. Saya melihat cabaran yang membentuk saya bukan sebagai sumpahan, tetapi sebagai latihan tepat yang saya perlukan untuk lebih dekat kepada Tuhan, dan untuk membina jalan keluar bagi orang lain.",
+    "fifth": "Menemui Tuhan membawa saya untuk lebih mengenali diri sendiri. Mengikut Tuhan mengajar saya tentang luka dan karunia saya, dan memahami diri sendiri membuatkan saya mahu lebih mengenali-Nya. Ketika itulah hidup saya mula makmur: saya ada hala tuju, matlamat dan sebab untuk menjaga apa yang Tuhan berikan kepada saya. The Water Check ialah sebahagian daripada misi itu. Memberi perhatian kepada apa yang mempengaruhi tubuh anda boleh membantu anda memahami dan menjaga insan yang Tuhan ciptakan dalam diri anda. Saya mahu membina teknologi yang membantu anda menjadi versi paling berupaya bagi insan itu.",
+    "mission": "Segala yang saya bina di bawah syarikat ini menuju misi yang sama: mendekatkan orang kepada Tuhan dan membantu mereka menggunakan teknologi untuk hidup, mencipta, mengasihi dan berkhidmat dengan penuh niat. Itulah masa depan dan harapan yang sedang saya usahakan.",
+    "connect": {
+      "label": "Ikuti Denzel Rigaud",
+      "youtube": "Expected End di YouTube",
+      "instagram": "Ikuti Denzel Rigaud di Instagram",
+      "linkedin": "Berhubung dengan Denzel Rigaud di LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Fail peribadi / 04 kenangan",
+    "title": "Arkib kenangan",
+    "text": "Orang, bilik dan kerja sebenar di sebalik kod. Muat turun mana-mana bingkai dan simpanlah.",
+    "number": "Kenangan {{number}}",
+    "download": "Muat turun kenangan {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel semasa kecil bersama ayahnya",
+        "title": "Ayah dan saya"
+      },
+      "work": {
+        "alt": "Denzel bekerja dengan komputer riba bersama dua rakan kerja di sekeliling meja",
+        "title": "Kerja di sekeliling meja"
+      },
+      "workspace": {
+        "alt": "Ruang kerja MyBibleLens dan The Water Check",
+        "title": "Tempat MyBibleLens terbentuk"
+      },
+      "archive": {
+        "alt": "Arkib video Real Work milik Denzel di telefonnya",
+        "title": "Arkib Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Tamat transmisi / Kerja diteruskan",
+    "title": "Mari bina sesuatu yang <em>mengembalikan hidup</em> orang.",
+    "text": "Untuk perisian yang teliti, perbualan media atau permulaan sebuah idea yang baik, buka saluran melalui Expected End.",
+    "contact": "Hubungi Expected End",
+    "back": "Kembali ke syarikat"
+  },
+  "verse": {
+    "version": "Alkitab Versi Borneo",
+    "reference": "Yeremia 29:11",
+    "text": "Aku tahu rancangan-rancangan yang Kubuat bagi kamu, demikianlah firman TUHAN, iaitu rancangan kesejahteraan, bukan malapetaka, untuk mengurniakan kepada kamu masa depan dan harapan.",
+    "close": "Tutup ayat Alkitab"
+  },
+  "bio": {
+    "eyebrow": "Daripada Pengasas",
+    "title": "Apa yang berlaku kepada @thewatercheck?",
+    "close": "Tutup bio",
+    "first": "Sejak umur 15 tahun, saya mengurus dan mengembangkan halaman pempengaruh dan kandungan sambil terus membangunkan projek saya sendiri, @thewatercheck.",
+    "second": "Kemudian saya berpindah tinggal bersama ayah pada umur 17 tahun, dan akaun itu semakin malap kerana <em>“Jika anda mengejar dua ekor arnab, anda tidak akan dapat menangkap seekor pun.”</em> <proverb>(peribahasa Rusia)</proverb> Pada usia itu, saya hanya mementingkan wang. Saya tidak memberikan sepenuh tenaga kepada @thewatercheck.",
+    "third": "Kemudian <father>ayah</father> saya meninggal dunia secara mengejut pada <strong>10 Julai 2021.</strong> Saya masuk ke mod bertahan hidup, tertanya-tanya ke mana arah hidup saya. Untuk menghadapi kesakitan atas kematiannya, saya menutup pintu untuk menjadi ahli sihir web seperti yang pernah diajar oleh ayah saya, sehingga <strong>Januari 2026.</strong>",
+    "stat": {
+      "from": "200,000 pengikut",
+      "to": "7,000",
+      "caption": "Itulah kedudukannya sekarang."
+    },
+    "what": {
+      "eyebrow": "Jadi, apa sebenarnya itu?",
+      "title": "Peringatan ringkas yang disukai ramai.",
+      "first": "The Water Check dahulu begini sahaja: saya memuat naik satu gambar setiap hari untuk mengingatkan orang supaya minum air, dan ia benar-benar membantu mereka minum air. Ruangan komennya <em>dibanjiri</em> orang. Itu sahaja yang dilakukannya, dan orang ramai menyukainya.",
+      "second": "Kemudian sebuah bot memadam segala-galanya daripada halaman itu, dan kehidupan pun berjalan dari situ."
+    }
+  },
+  "footer": {
+    "line": "Teknologi bukan untuk kita menatal tanpa henti dan menjalani hidup orang lain. Ia sepatutnya memperbaik roh, jiwa, minda dan jasad kita.",
+    "sign": "Pengasas, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigasi pengaki",
+    "build": "Apa yang saya bina",
+    "pressKit": "Kit akhbar",
+    "find": "Cari saya",
+    "finePrint": "Maklumat undang-undang",
+    "terms": "Terma Penggunaan",
+    "privacy": "Penyata Privasi",
+    "accessibility": "Kebolehcapaian",
+    "contact": "Hubungi",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Hak cipta terpelihara.",
+    "blessing": "Yesus mengasihimu."
+  },
+  "egg": {
+    "label": "Masuki dunia seni tersembunyi",
+    "armed": "Tekan sekali lagi untuk memasuki dunia seni tersembunyi."
+  }
+}

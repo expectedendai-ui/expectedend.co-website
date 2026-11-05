@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud narancssárga színezésű szemüvegben",
+    "stats": {
+      "gradeValue": "5.",
+      "gradeSuffix": "",
+      "grade": "OSZTÁLY · KÍVÁNCSISÁG",
+      "grief": "GYÁSZ",
+      "faith": "HIT · A VISSZATÉRÉS"
+    },
+    "identity": "Identitás <b>/ Denzel Rigaud</b>",
+    "founded": "Alapítva / <time>2026. március 3.</time>",
+    "eyebrow": "Denzel Rigaud / <em>Alapító és egyszemélyes full-stack fejlesztő</em>",
+    "title": "Az Expected End <br/>mögötti <br/>elme",
+    "text": "Történet a kíváncsiságról, a gyászról, a hitről, és arról, hogyan válhat a technológia a továbblépés útjává.",
+    "cta": "A történet elolvasása"
+  },
+  "ticker": {
+    "curiosity": "Kíváncsiság",
+    "grief": "Gyász",
+    "faith": "Hit",
+    "code": "Kód",
+    "purpose": "Cél"
+  },
+  "coordinates": {
+    "eyebrow": "Három koordináta",
+    "title": "Az ide vezető út nem volt <em>egyenes vonal.</em>",
+    "curiosity": {
+      "label": "01 / Ötödik osztály",
+      "title": "A kíváncsiság túlélési készséggé vált.",
+      "body": "Azzal kezdtem, hogy nem hagytam, hogy egyetlen kudarc meghatározza az egész életemet.",
+      "big": "5."
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "A gyász bezárta az ajtót a technológia előtt.",
+      "body": "Az apám elvesztése után minden tudás, amit tőle tanultam, érinthetetlennek tűnt."
+    },
+    "faith": {
+      "label": "03 / 2026. február 25.",
+      "title": "A hit célt adott a munkának.",
+      "body": "Azért tértem vissza, hogy olyan eszközöket építsek, amelyek erősebben hagyják az embereket, mint ahogy rájuk találtak."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Az alapító története / Első személyben",
+    "title": "Helló, a nevem <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "A technológia ötödik osztály óta része az életemnek. Az iskola már egészen kicsi koromtól frusztrált. Másodikban megbuktam, miközben nyelvi akadállyal küzdöttem, és nem hittem, hogy ez a kudarc meghatározhat engem. Elhatároztam, hogy azzal kezdem, hogy meghackelem a jegyeimet. Kicsiben indult, de amikor rájöttem, milyen mélyre tudok hatolni rendszerekbe, és hogyan tudom jailbreakelni az eszközöket, kíváncsi lettem a körülöttem lévő rendszerekre, és elkezdtem élvezni.",
+      "second": "Ez a kíváncsiság vitt el az Instagram-botfarmokhoz, a kódoláshoz, az automatizáláshoz, a gépi tanuláshoz, az online közösségekhez, a digitális növekedéshez és az internet legsötétebb zugaihoz. Megtanultam, milyen hatalmas ereje lehet a technológiának. Néhány döntésem arra is megtanított, hogy jobb ítélőképességgel éljek vele."
+    },
+    "socials": {
+      "label": "Denzel Rigaud közösségimédia-profiljai",
+      "instagram": "Denzel Rigaud az Instagramon",
+      "linkedin": "Denzel Rigaud a LinkedInen",
+      "youtube": "Denzel Rigaud a YouTube-on"
+    },
+    "records": {
+      "label": "Független identitásnyilvántartások",
+      "heading": "Külső források",
+      "worldAthletics": "World Athletics-profil",
+      "lynn": "Lynn University sportolói profil",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "01. fejezet",
+    "kicker": "Akiktől tanultam",
+    "title": "Az első webvarázslóm.",
+    "first": "Az apám és a <brother>fivérem</brother> voltak a legokosabb emberek, akiket ismertem, de ritkán láttam őket. Telefonos kapcsolatunk volt. Minden másodpercben, amikor beszélhettem velük, megtanítottak valamire, amit tudnom kellett. Idővel megtanultam, hogy nekem kell eldöntenem, mi a helyes számomra. Az apám webvarázsló volt, én pedig megállíthatatlannak éreztem magam az interneten. A fivérem az NSA-nál dolgozik.",
+    "second": "2021-ben Floridába költöztem, miután 17 évig a két anyámmal és a két lánytestvéremmel éltem. Túléltem, haha. Aztán életemben először az apámmal élhettem. Hat hónappal később meghalt, ezért bezártam az ajtót a technológia előtt, mert minden tudásom rá emlékeztetett.",
+    "third": "Az apám élete nagy részében muszlim volt. Részben azért követtem az iszlámot, mert olyan akartam lenni, mint ő. Mielőtt meghalt, Krisztusnak adta az életét. A döntése még sokáig velem maradt azután is, hogy a saját eszközeimet félretettem."
+  },
+  "return": {
+    "number": "02. fejezet",
+    "kicker": "A visszatérés",
+    "title": "Újra kinyitottam az ajtót.",
+    "first": "Éveken át kerültem önmagam azon részét, amely az apámra emlékeztetett. Időnként azért hozzányúltam a technológiához, de a gyász miatt nehéz volt maradni. Ezt az üres helyet a bujaság bűnével töltöttem ki, és egyre távolabb kerültem attól az embertől, aki lehettem volna.",
+    "second": "2026 januárjában tudtam, hogy változnom kell. Elhatároztam, hogy újra előhívom magamból azt a webvarázslót, akivé az apám tanított, nem leszek többé testi ember, aki nem hisz Istenben, és helyette Őt követem. Amikor ezt megtettem, az életem virágozni kezdett.",
+    "third": "A MyBibleLens ebből a döntésből született. Nem volt kész tervem. Elkezdtem építeni, és haladtam tovább. A munka segített kinyitni azt az ajtót, amelyet apám halála után bezártam. Visszahoztam a The Water Checket, és újra felvettem a fonalat azokkal az álmokkal, amelyeket gyerekkorom óta hordoztam."
+  },
+  "draft": {
+    "label": "03. fejezet / A vázlat",
+    "title": "„Az igazság a kód mögött”"
+  },
+  "venom": {
+    "title": "A digitális méreg",
+    "first": "Abban a pillanatban történik, amikor felébredünk. Mielőtt a lábunk egyáltalán a padlót érné, a kéz már nyúl. Ön felkapja a telefont. Mindannyian így teszünk. De ez az egyetlen, reflexszerű mozdulat azonnal megzavarja az agy idegpályáit, és kritikus, szorongó állapotba taszítja, mielőtt a nap egyáltalán elkezdődött volna.",
+    "second": "Tíz éve dolgozom egyedül szoftverfejlesztőként, az apám pedig egyedül dolgozó kiberbiztonsági hacker volt, aki megtanította nekem az internet sötét és rejtélyes zugait, ezért látom a képernyő mögötti kódot. Pontosan tudom, hogyan működik az algoritmus, és az igazság az, hogy méreg. Az elsöprő toxicitás, amit online érez, valójában nem az emberi természet része, hanem megtervezett illúzió. Állandó támadás alatt állunk a „pszeudoizmus” részéről: az elárasztott, ellenséges kommentszekciók ritkán véletlenszerű, hétköznapi internetezők spontán kirohanásai. Ehelyett a számítógépes propaganda tudatos, rendszerszintű stratégiájának részei. Hamis fiókokat és botneteket vetnek be, hogy mesterséges narratívákat juttassanak az Ön hírfolyamába, kifejezetten azzal a céllal, hogy manipulálják a közvéleményt, elmélyítsék a megosztottságunkat, és befolyásolják az Ön online viselkedését.",
+    "third": "Nem számít, mennyire tiszta az Ön vagy a gyermekei keresési előzménye, vagy mennyire rendezettnek tűnik a hírfolyama; a rendszert arra tervezték, hogy visszarántsa. A negativitás, a felszínesség és a gyors meggazdagodást ígérő guruk felé húz, akik arra kényszerítenek, hogy a pénzt Isten elé helyezzük (<strong>1Timóteus 6:10</strong>), és így a mammon szellemétől vezérelt embereket formálnak. Elhomályosítja gyönyörű nőtestvéreink előtt, hogy az igazi szépségük nem a smink, nem az, amit egy srác gondol róluk, és nem az, hány Instagram-lájkot kapnak… hanem a szívük és az angyali útjuk Istennel. Ez egy gép, amelyet arra építettek, hogy eltérítse az elméjét és irányítsa a szokásait.",
+    "fourth": "A mesterkéltségnek ez az állandó áradata egy rohanó létbe zár minket, és elvakít az elől, hogy az igazi dolgokhoz idő kell. Az igazi szeretet, a valódi növekedés és a hiteles kapcsolatok türelmet igényelnek, nem azt az azonnali kielégülést, amelyet egy telefon ad. Becsapja az agyat, hogy állandó, egyetértésből fakadó dopaminlöketet várjon. Ahogy egy „For You” oldal gondosan válogatott algoritmusai, úgy ez is vakon feljogosítva érezteti az embereket a saját véleményükre, elzárva őket a valódi emberektől és attól a valóságtól, hogy nem fog mindenki ugyanabban egyetérteni. Ez lassú megadás, amely hagyja, hogy a hideg technológia és a mesterkéltség teljesen átvegye az uralmat az emberi elme felett.",
+    "fifth": "Azt akarják, hogy lekössenek minket ezek a gyártott háborúk. Azt akarják, hogy a gyerekeink agya péppé váljon, és örökre a <strong><bloom>Bloom-féle taxonómia</bloom></strong> legalsó szintjén ragadjon: csak „emlékezzen” és fogyasszon, soha ne kérdezzen, soha ne alkosson, soha ne ásson mélyebbre. Végignézzük, ahogy egy egész generáció halogatja az <strong><erikson>Erikson-féle életszakaszok</erikson></strong> kritikus lépéseit, megbénítva a képernyőn látott hamis, megrendezett valóságoktól, rettegve attól, hogy valóban felnőjön, mert már semmi sem tűnik hitelesnek. A világ végtelenül belefáradt a hazugságokba. Ha Ön nem látja a manipulációt a kódban, semmi gond; az én generációm látja, és a jövő generációja is látni fogja."
+  },
+  "crucible": {
+    "title": "A kohó, amely megformált",
+    "first": "Ezt nem csak adatok tanulmányozásából tanultam meg; meg is éltem: drogot árultam, csak hogy felépítsem azt az életet, amelyet megígértem magamnak, egy olyat, amely eljut egy fényes jövőig. Kidobtak a szeretteim házaiból, hajléktalan voltam. Felajánlottak egy utat a felnőttiparba, amikor a legnagyobb szükségem volt pénzre, 10 ezret lengettek az arcom előtt, de anya erkölcsökre nevelt. <court>Két</court> per, <search>még</search> középiskolásként. Ötödikben kezdtem el meghackelni a jegyeimet, mert elegem lett a bukásokból, különösen amikor rájöttem, hogy másodikban az akcentusom miatt tartottak vissza, amellyel érkeztem. Ez később sokkal több minden meghackelésévé nőtte ki magát… és amikor egy nap igazán megismertem az <father>apámat</father>, megláttam, kitől örököltem.",
+    "second": "Sokáig azt hittem, Isten mindezek után soha nem fogad vissza. Azt hittem, túl messzire mentem. Aztán megismertem Pál apostol történetét. Pál szó szerint keresztényeket gyilkolt, Isten mégis megfordította az életét, és hatalmas ajándékot adott neki. És akkor esett le: ha Isten fel tudott használni egy olyan embert, mint Pál, akkor az én múltam sem volt soha túl sok ahhoz, hogy jövőt építsen vele.",
+    "third": "Ez a túlélési ösztön korán kezdődött. Az, hogy 16 évig 4 nő vett körül, olyan módon formálta a lelkemet, amelyet még ma is bontogatok. Az elmém arra edződött, hogy egyszerre több pszichológiai hullámhosszon működjön. Kiismertem magam a csavaros pszichológiában, a bonyolult dinamikákban és a manipulációban, amelyek azzá formáltak, aki vagyok. És szeretem őket ezért; rengeteg energiát spórolt meg nekem a lányokkal, amikor végre tényleg elgondolkodtam azon, amiről anya beszélt. És a szívfájdalmak és a megcsalások után is hiszek a <chivalry>lovagiasságban</chivalry>.",
+    "fourth": "Azt akarom mondani, hogy ha az ember egy nőkkel teli házban akar túlélni, úgy kell gondolkodnia, mint nekik, és amikor elhagytam őket, azzá a fiatalemberré kellett válnom, aki ma vagyok, a rengeteg küzdelemmel együtt, amelyen keresztülmentem. Kaotikus környezet volt, és csak akkor találtam meg a tisztánlátást, amikor tudatosan úgy döntöttem, hogy imádsággal kiiktatom az egyetlen bűnömet, a „bujaságot”, és a zajt. Amikor végre Istent tettem az első helyre, rájöttem, ki is vagyok valójában. Az engem formáló kihívásokat nem átokként láttam, hanem pontosan olyan felkészítésként, amelyre szükségem volt ahhoz, hogy közelebb kerüljek Istenhez, és kiutat építsek mások számára.",
+    "fifth": "Isten megtalálása oda vezetett, hogy jobban megismerjem önmagam. Isten követése megtanított a sebeimre és az ajándékaimra, és az, hogy megértettem önmagam, arra késztetett, hogy Őt még jobban megismerjem. Ekkor kezdett virágozni az életem: volt irányom, célom, és okom arra, hogy gondját viseljem annak, amit Isten adott nekem. A The Water Check ennek a küldetésnek a része. Ha figyel arra, mi hat a testére, az segíthet megérteni azt az embert, akinek Isten megteremtette, és gondoskodni róla. Olyan technológiát szeretnék építeni, amely segít Önnek e személy legrátermettebb változatává válni.",
+    "mission": "Mindaz, amit ennek a cégnek a keretében építek, ugyanarra a küldetésre mutat: közelebb vinni az embereket Istenhez, és segíteni nekik abban, hogy a technológiát tudatosan használják az élethez, az alkotáshoz, a szeretethez és a szolgálathoz. Ez az a remélt jövő, amelyért dolgozom.",
+    "connect": {
+      "label": "Kövesse Denzel Rigaud-t",
+      "youtube": "Az Expected End a YouTube-on",
+      "instagram": "Kövesse Denzel Rigaud-t az Instagramon",
+      "linkedin": "Kapcsolódjon Denzel Rigaud-hoz a LinkedInen"
+    }
+  },
+  "memory": {
+    "label": "Személyes akta / 04 emlék",
+    "title": "Emlékarchívum",
+    "text": "Az emberek, a helyek és a valódi munka a kód mögött. Töltsön le bármelyik képkockát, és őrizze meg.",
+    "number": "{{number}}. emlék",
+    "download": "{{number}}. emlék letöltése: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel gyerekként az apjával",
+        "title": "Az apám és én"
+      },
+      "work": {
+        "alt": "Denzel egy laptopon dolgozik, egy asztal körül két munkatársával",
+        "title": "A munka az asztal körül"
+      },
+      "workspace": {
+        "alt": "A MyBibleLens és a The Water Check munkahelye",
+        "title": "Ahol a MyBibleLens formát öltött"
+      },
+      "archive": {
+        "alt": "Denzel Real Work videóarchívuma a telefonján",
+        "title": "A Real Work archívum"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Az adás vége / A munka folytatódik",
+    "title": "Építsünk valamit, ami visszaadja az embereknek az <em>életüket.</em>",
+    "text": "Átgondolt szoftverekért, sajtóbeszélgetésekért vagy egy jó ötlet kezdetéért nyisson csatornát az Expected Enden keresztül.",
+    "contact": "Kapcsolat az Expected Enddel",
+    "back": "Vissza a céghez"
+  },
+  "verse": {
+    "version": "Károli Gáspár fordítása",
+    "reference": "Jeremiás 29:11",
+    "text": "Mert én tudom az én gondolatimat, a melyeket én felőletek gondolok, azt mondja az Úr; békességnek és nem háborúságnak gondolata, hogy kivánatos véget adjak néktek.",
+    "close": "A bibliavers bezárása"
+  },
+  "bio": {
+    "eyebrow": "Az alapítótól",
+    "title": "Mi történt a @thewatercheck fiókkal?",
+    "close": "Életrajz bezárása",
+    "first": "15 éves koromtól influencer- és tartalomoldalakat kezeltem és növeltem, miközben a saját projektemet, a @thewatercheck fiókot is építettem.",
+    "second": "Később, 17 évesen az apámhoz költöztem, és a fiók haldoklott, mert <em>„Aki két nyulat kerget, egyet sem fog.”</em> <proverb>(orosz közmondás)</proverb> Abban a korban csak a pénz érdekelt. Nem adtam bele mindent a @thewatercheck fiókba.",
+    "third": "Aztán az <father>apám</father> váratlanul elhunyt <strong>2021. július 10-én.</strong> Túlélő üzemmódba kapcsoltam, és azon tűnődtem, merre tart az életem. Hogy elviseljem a halála okozta fájdalmat, bezártam az ajtót az elől, hogy az a webvarázsló legyek, akivé apám egykor tanított, egészen <strong>2026 januárjáig.</strong>",
+    "stat": {
+      "from": "200 000 követő",
+      "to": "7000",
+      "caption": "Most itt tart."
+    },
+    "what": {
+      "eyebrow": "Szóval mi volt ez?",
+      "title": "Egy egyszerű emlékeztető, amit az emberek imádtak.",
+      "first": "A The Water Check egyszerűen ennyi volt: minden egyes nap posztoltam egy képet, hogy emlékeztessem az embereket a vízivásra, és ez tényleg segített nekik inni. A kommenteket szó szerint <em>elárasztották</em> az emberek. Csak ennyit csinált, és az emberek imádták.",
+      "second": "Aztán egy bot mindent letörölt az oldalról, onnantól pedig közbeszólt az élet."
+    }
+  },
+  "footer": {
+    "line": "A technológia nem arra való, hogy végtelenül görgessük a rossz híreket, és mások életét éljük. Jobbá kellene tennie a szellemünket, a lelkünket, az elménket és a testünket.",
+    "sign": "Alapító, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Lábléc navigáció",
+    "build": "Amit építek",
+    "pressKit": "Sajtócsomag",
+    "find": "Itt talál meg",
+    "finePrint": "Az apró betűs rész",
+    "terms": "Felhasználási feltételek",
+    "privacy": "Adatvédelmi nyilatkozat",
+    "accessibility": "Akadálymentesség",
+    "contact": "Kapcsolat",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Minden jog fenntartva.",
+    "blessing": "Jézus szeret téged."
+  },
+  "egg": {
+    "label": "Belépés a rejtett művészeti világba",
+    "armed": "Még egy kattintás, és belép a rejtett művészeti világba."
+  }
+}

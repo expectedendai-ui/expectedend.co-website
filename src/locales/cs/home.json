@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, zakladatel Expected End",
+    "stats": {
+      "projects": "HOTOVÝCH PROJEKTŮ",
+      "languages": "JAZYKŮ",
+      "appStore": "V APP STORE"
+    },
+    "eyebrow": "Tvoje brána k <em>naději a budoucnosti</em>",
+    "title": "Smysl, <break/>krásně <break/>postavený.",
+    "intro": "Expected End vytváří promyšlený software, nástroje pro produktivitu, digitální zážitky a komunity, které lidi zábavně a jednoduše přibližují Bohu!",
+    "cta": "Prohlédnout práci",
+    "lensHint": "Pohni kurzorem a přečti si kód"
+  },
+  "projects": {
+    "eyebrow": "01 / Projekty",
+    "title": "Dvě aplikace v App Store. <break/><em>Android už brzy.</em>",
+    "visit": "Navštívit {{name}}",
+    "android": "Android už brzy",
+    "bio": "Bio",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Za prací",
+    "title": "Každý produkt tady začal otázkou ve <em>třídě páťáků.</em>",
+    "lead": "Mezi tou otázkou a těmito aplikacemi stál zármutek, víra a spousta probdělých nocí. Zbytek příběhu má vlastní stránku.",
+    "cta": "Přečíst příběh"
+  },
+  "proof": {
+    "caption": "Hotové projekty",
+    "eyebrow": "03 / Důkaz práce",
+    "title": "Postaveno od nuly. <em>Práce mluví sama za sebe.</em>",
+    "lead": "Aplikace, weby, AI nástroje, filmy a kampaně, navržené, naprogramované a spuštěné vlastními silami. Tady je jejich část.",
+    "stats": {
+      "apps": "<strong>2 aplikace</strong> v App Store",
+      "languages": "<strong>43 jazyků</strong> v MyBibleLens",
+      "years": "<strong>10 let</strong> psaní kódu",
+      "inHouse": "<strong>Od nápadu po spuštění</strong>, vše vlastními silami"
+    },
+    "bigline": "<count>20+</count> PROJEKTŮ <star>✦</star> POSTAVENO <star>✦</star> SPUŠTĚNO <star>✦</star> ŽIVĚ <star>✦</star>",
+    "rows": {
+      "products": "Aplikace a produkty",
+      "creative": "Weby, AI a kreativní práce"
+    },
+    "next": "Tvůj projekt může být <em>další.</em>",
+    "cta": "Začni ten svůj"
+  },
+  "services": {
+    "eyebrow": "04 / Vybrané služby",
+    "title": "Ty sníš, <em>já stavím.</em>",
+    "lead": "Na prvním místě jsou vlastní produkty. Když to sedí, stejná pečlivost jde i do vybrané práce pro ostatní.",
+    "note": "U každé poptávky prosím uveď cenové rozpětí a ve zprávě zmiň, jestli je potřeba smlouva o mlčenlivosti (NDA).",
+    "count": "Služba {{number}} / {{total}}",
+    "start": "Začít tento projekt"
+  }
+}

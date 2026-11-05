@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Сврха, лепо изграђена",
+    "description": "Expected End ствара промишљен софтвер, алате за продуктивност, дигитална искуства и заједнице."
+  },
+  "about": {
+    "title": "О нама | Expected End",
+    "description": "Како је Denzel Rigaud основао Expected End, мисија компаније и пројекти настали из вере и сврхе."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Оснивач компаније Expected End",
+    "description": "Denzel Rigaud је оснивач и full-stack програмер који стоји иза компаније Expected End, апликације MyBibleLens, апликације-светилишта за хришћане, и апликације The Water Check."
+  },
+  "press": {
+    "title": "Медији | Expected End",
+    "description": "Одобрене биографије, проверене чињенице, линкови ка ентитетима и медијски материјали за преузимање, за писање о Expected End и Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Услови коришћења сајта | Expected End",
+    "description": "Услови који уређују коришћење сајта Expected End."
+  },
+  "privacy": {
+    "title": "Изјава о приватности | Expected End",
+    "description": "Како Expected End поступа са подацима на овом сајту."
+  },
+  "watercheck-privacy": {
+    "title": "Политика приватности The Water Check | Expected End",
+    "description": "Шта The Water Check прикупља, шта остаје на вашем телефону, ко помаже у раду апликације и какав избор имате."
+  },
+  "watercheck-terms": {
+    "title": "Услови коришћења The Water Check | Expected End",
+    "description": "Услови коришћења апликације The Water Check, укључујући здравље и безбедност, AI, правила за Екипе и куповине."
+  },
+  "watercheck-health-data": {
+    "title": "Политика приватности здравствених података потрошача за The Water Check | Expected End",
+    "description": "Како The Water Check поступа са здравственим подацима потрошача и како да им приступите, избришете их или уложите жалбу."
+  },
+  "watercheck-delete-account": {
+    "title": "Брисање налога | The Water Check",
+    "description": "Како да избришете свој налог и податке у The Water Check, у апликацији или имејлом."
+  },
+  "watercheck-community": {
+    "title": "Смернице заједнице | The Water Check",
+    "description": "Како Екипе у The Water Check остају пријатељске: правила, пријављивање и блокирање и шта се дешава када се правила прекрше."
+  },
+  "accessibility": {
+    "title": "Приступачност | Expected End",
+    "description": "Посвећеност компаније Expected End приступачном искуству на сајту."
+  },
+  "mybiblelens-store": {
+    "title": "Продавница MyBibleLens | Expected End",
+    "description": "Промишљени производи за ближи ход са Речју. Продавница MyBibleLens ускоро се отвара."
+  },
+  "watercheck-store": {
+    "title": "Продавница The Water Check | Expected End",
+    "description": "Основни производи инспирисани хидратацијом, из The Water Check. Прва колекција стиже ускоро."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Апликација за хидратацију и бесплатан калкулатор",
+    "description": "Упознајте апликацију The Water Check и испробајте бесплатну, приватну процену хидратације на Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Бесплатан калкулатор хидратације | The Water Check",
+    "description": "Добијте бесплатну, приватну дневну процену хидратације помоћу калкулатора The Water Check."
+  },
+  "not-found": {
+    "title": "Страница није пронађена | Expected End",
+    "description": "Тражена страница на Expected End није пронађена."
+  }
+}

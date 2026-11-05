@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Navigazione principale",
+    "projects": "Progetti",
+    "services": "Servizi",
+    "company": "Missione · Chi siamo · Stampa",
+    "contact": "Contatti",
+    "home": "Home di Expected End",
+    "openMenu": "Apri il menu",
+    "closeMenu": "Chiudi il menu",
+    "links": {
+      "projects": "Progetti",
+      "services": "Servizi",
+      "story": "Storia",
+      "about": "Chi siamo",
+      "press": "Stampa",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigazione a piè di pagina",
+    "home": "Home",
+    "about": "Chi siamo",
+    "press": "Stampa",
+    "terms": "Termini d’uso",
+    "privacy": "Dichiarazione sulla privacy",
+    "accessibility": "Accessibilità",
+    "contact": "Contatti",
+    "mission": "Tutto ciò che costruisco con questa azienda punta alla stessa missione: avvicinare le persone a Dio e aiutarle a usare la tecnologia per vivere, creare, amare e servire con intenzione. È questo l’avvenire sperato verso cui lavoro.",
+    "verse": "Geremia 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Tutti i diritti riservati.",
+    "blessing": "Gesù ti ama."
+  }
+}

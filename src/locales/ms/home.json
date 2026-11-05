@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, pengasas Expected End",
+    "stats": {
+      "projects": "PROJEK DIBINA",
+      "languages": "BAHASA",
+      "appStore": "DI APP STORE"
+    },
+    "eyebrow": "Pintu menuju <em>masa depan dan harapan</em> anda",
+    "title": "Bermatlamat, <break/>dibina <break/>dengan indah.",
+    "intro": "Expected End mencipta perisian yang teliti, alat produktiviti, pengalaman digital dan komuniti yang mendekatkan orang kepada Tuhan dengan cara yang menarik dan mudah!",
+    "cta": "Lihat hasil kerja",
+    "lensHint": "Gerakkan kursor untuk membaca kodnya"
+  },
+  "projects": {
+    "eyebrow": "01 / Projek",
+    "title": "Dua aplikasi di App Store. <break/><em>Android akan datang.</em>",
+    "visit": "Lawati {{name}}",
+    "android": "Android akan datang",
+    "bio": "Bio",
+    "actionFor": "{{action}} untuk {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Di sebalik hasil kerja",
+    "title": "Setiap produk di sini bermula dengan satu soalan di <em>kelas darjah lima.</em>",
+    "lead": "Kesedihan, iman dan banyak malam yang panjang terletak di antara soalan itu dan aplikasi-aplikasi ini. Kisah selebihnya ada di halamannya sendiri.",
+    "cta": "Baca kisahnya"
+  },
+  "proof": {
+    "caption": "Projek yang dibina",
+    "eyebrow": "03 / Bukti kerja",
+    "title": "Dibina dari sifar. <em>Hasilnya bercakap sendiri.</em>",
+    "lead": "Aplikasi, laman web, alat AI, filem dan kempen, direka, dikod dan dilancarkan secara dalaman. Inilah sebahagiannya.",
+    "stats": {
+      "apps": "<strong>2 aplikasi</strong> di App Store",
+      "languages": "<strong>43 bahasa</strong> dalam MyBibleLens",
+      "years": "<strong>10 tahun</strong> menulis kod",
+      "inHouse": "<strong>Dari idea hingga pelancaran</strong>, semuanya secara dalaman"
+    },
+    "bigline": "<count>20+</count> PROJEK <star>✦</star> DIBINA <star>✦</star> DILANCARKAN <star>✦</star> AKTIF <star>✦</star>",
+    "rows": {
+      "products": "Aplikasi dan produk",
+      "creative": "Laman web, AI dan karya kreatif"
+    },
+    "next": "Projek anda mungkin <em>yang seterusnya.</em>",
+    "cta": "Mulakan projek anda"
+  },
+  "services": {
+    "eyebrow": "04 / Perkhidmatan terpilih",
+    "title": "Anda impikan, <em>saya binakan.</em>",
+    "lead": "Produk kami didahulukan. Apabila sesuai, ketelitian yang sama dicurahkan ke dalam kerja terpilih untuk orang lain.",
+    "note": "Sila nyatakan julat harga untuk semua pertanyaan dan sebutkan dalam mesej anda jika NDA diperlukan.",
+    "count": "Perkhidmatan {{number}} / {{total}}",
+    "start": "Mulakan projek ini"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | उद्देश्य, सुन्दर ढङ्गले साकार",
+    "description": "Expected End ले सोचविचार गरेर बनाइएका सफ्टवेयर, उत्पादकत्वका उपकरण, डिजिटल अनुभव र समुदायहरू सिर्जना गर्छ।"
+  },
+  "about": {
+    "title": "हाम्रोबारे | Expected End",
+    "description": "Denzel Rigaud को संस्थापक कथा, Expected End पछाडिको मिसन, र विश्वास तथा उद्देश्यबाट बनेका प्रोजेक्टहरू।"
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Expected End का संस्थापक",
+    "description": "Denzel Rigaud, Expected End, ख्रीष्टियन विश्वासको पवित्र स्थल एप MyBibleLens र The Water Check का संस्थापक तथा फुल-स्ट्याक डेभलपर हुनुहुन्छ।"
+  },
+  "press": {
+    "title": "प्रेस र मिडिया | Expected End",
+    "description": "Expected End र Denzel Rigaud को कभरेजका लागि स्वीकृत परिचय, पुष्टि गरिएका तथ्य, इन्टिटी लिङ्क र डाउनलोड गर्न मिल्ने मिडिया।"
+  },
+  "terms": {
+    "title": "वेबसाइट प्रयोगका सर्तहरू | Expected End",
+    "description": "Expected End वेबसाइटको प्रयोगसम्बन्धी सर्तहरू।"
+  },
+  "privacy": {
+    "title": "गोपनीयता वक्तव्य | Expected End",
+    "description": "Expected End ले यस वेबसाइटमा जानकारी कसरी सम्हाल्छ।"
+  },
+  "watercheck-privacy": {
+    "title": "The Water Check गोपनीयता नीति | Expected End",
+    "description": "The Water Check ले के सङ्कलन गर्छ, के तपाईंको फोनमै रहन्छ, एप चलाउन कसले मद्दत गर्छ, र तपाईंका विकल्पहरू।"
+  },
+  "watercheck-terms": {
+    "title": "The Water Check नियम तथा सर्तहरू | Expected End",
+    "description": "स्वास्थ्य र सुरक्षा, AI, टोलीका नियम र खरिदसहित The Water Check एप प्रयोगका सर्तहरू।"
+  },
+  "watercheck-health-data": {
+    "title": "The Water Check उपभोक्ता स्वास्थ्य डेटा गोपनीयता नीति | Expected End",
+    "description": "The Water Check ले उपभोक्ता स्वास्थ्य डेटा कसरी सम्हाल्छ, र त्यसलाई कसरी हेर्ने, मेटाउने वा पुनरावेदन गर्ने।"
+  },
+  "watercheck-delete-account": {
+    "title": "आफ्नो खाता मेटाउनुहोस् | The Water Check",
+    "description": "एपबाट वा इमेलमार्फत आफ्नो The Water Check खाता र डेटा कसरी मेटाउने।"
+  },
+  "watercheck-community": {
+    "title": "समुदाय दिशानिर्देश | The Water Check",
+    "description": "The Water Check का टोलीहरू कसरी मैत्रीपूर्ण रहन्छन्: नियम, रिपोर्ट र ब्लक गर्ने तरिका, र नियम तोडिँदा के हुन्छ।"
+  },
+  "accessibility": {
+    "title": "पहुँचयोग्यता | Expected End",
+    "description": "सबैका लागि पहुँचयोग्य वेबसाइट अनुभवप्रति Expected End को प्रतिबद्धता।"
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens स्टोर | Expected End",
+    "description": "परमेश्वरको वचनसँग अझ नजिक हिँड्नका लागि सोचविचार गरेर बनाइएका सामानहरू। MyBibleLens स्टोर छिट्टै आउँदैछ।"
+  },
+  "watercheck-store": {
+    "title": "The Water Check स्टोर | Expected End",
+    "description": "The Water Check का हाइड्रेसनबाट प्रेरित आवश्यक सामानहरू। पहिलो ड्रप छिट्टै आउँदैछ।"
+  },
+  "watercheck-page": {
+    "title": "The Water Check | हाइड्रेसन एप र निःशुल्क क्याल्कुलेटर",
+    "description": "The Water Check एप हेर्नुहोस् र Expected End मा निःशुल्क, निजी हाइड्रेसन अनुमान प्रयास गर्नुहोस्।"
+  },
+  "watercheck-calculator": {
+    "title": "निःशुल्क हाइड्रेसन क्याल्कुलेटर | The Water Check",
+    "description": "The Water Check क्याल्कुलेटरबाट दैनिक हाइड्रेसनको निःशुल्क, निजी अनुमान पाउनुहोस्।"
+  },
+  "not-found": {
+    "title": "पेज भेटिएन | Expected End",
+    "description": "तपाईंले खोज्नुभएको Expected End पेज भेटिएन।"
+  }
+}

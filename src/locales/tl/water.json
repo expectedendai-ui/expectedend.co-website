@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Ang app",
+      "drinkCheck": "Drink Check",
+      "guide": "Gabay",
+      "widgets": "Mga widget",
+      "progress": "Progreso",
+      "pricing": "Presyo",
+      "faq": "FAQ",
+      "calculator": "Calculator"
+    },
+    "hero": {
+      "title": "Inom lang.<break/>Kami na ang <em>bibilang</em>.",
+      "sub": "Ang sarili mong numero sa tubig, mga inuming puwedeng i-scan, ang katawan mong nagkakakarga, isang widget na talagang pananatilihin mo, at isang butete na nagngangalang Bubbles na maglilibot sa iyo. Walang patakarang isang galon, walang influencer, walang guilt.",
+      "comingSoon": "Malapit na",
+      "appStoreLead": "I-download sa",
+      "appStore": "App Store",
+      "googlePlayLead": "Kunin sa",
+      "googlePlay": "Google Play",
+      "calculator": "Subukan ang libreng calculator",
+      "instagram": "I-follow ang The Water Check sa Instagram",
+      "note": "Kasalukuyang nire-review sa App Store. Libre ang calculator at hindi kailangang mag-sign up.",
+      "todayAlt": "Ang screen na Ngayon ng The Water Check: 40 oz sa 81.2 oz na goal, may mga quick-add button at log ngayong araw",
+      "widgetsAlt": "Ang widget studio, ipinapakita ang Katawan na widget sa Hologram at mga hanay ng widget style",
+      "bubblesLabel": "Pagawin si Bubbles ng trick",
+      "bubblesSay": "Kumusta, ako si Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "widget style",
+      "pearls": "perlas ng Gabay na mahahanap",
+      "foods": "iginuhit na pagkaing mayaman sa tubig",
+      "languages": "wika"
+    },
+    "sixty": {
+      "kicker": "Bakit ito mahalaga",
+      "title": "Binubuo ka ng 60% na tubig.",
+      "lede": "Hindi ito target na dapat abutin. Gumagana ang tubig na iyon ngayon mismo: nagdadala ng oksiheno, nagpapalambot sa mga kasukasuan mo, nagpapalamig sa iyo, at naglalabas ng hindi mo kailangan. Nagbabago ang pangangailangan mo ayon sa aktibidad, panahon, at kalusugan.",
+      "pmeterKicker": "Ang P-Meter",
+      "pmeterLabel": "Walong kulay mula maputlang dayami hanggang madilim na amber, nakapangkat sa maayos ang hydration, dagdagan, at uminom na",
+      "wellHydrated": "Maayos ang hydration",
+      "topUp": "Dagdagan",
+      "drinkNow": "Uminom na",
+      "fine": "Magaspang na palatandaan, hindi diagnosis. Puwedeng magpabago ng kulay ang pagkain, bitamina, at gamot. Ipinapaliwanag ng app ang bawat kulay at kung kailan dapat kumonsulta sa isang healthcare professional."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "I-scan nang isang beses. Alamin. I-tap habambuhay.",
+      "lede": "I-scan ang barcode, libre at kahit ilang beses mo gusto. Walang barcode? Kung 18 taong gulang ka pataas, kumuha ng litrato at babasahin ng app ang label. Alinman doon, makikita mo ang asukal sa kutsarita, caffeine, electrolytes, at bawat sangkap na may markang Mabuti, Ayos, Ingat, o Iwasan.",
+      "scoresLabel": "Mga kulay ng score sa Drink Check",
+      "scores": {
+        "great": "Napakahusay",
+        "good": "Mabuti",
+        "okay": "Ayos lang",
+        "poor": "Mahina"
+      },
+      "ticks": {
+        "electrolytes": "Electrolytes mula sa label: sodium, potassium, magnesium, at calcium, kasama ang kanilang Daily Value.",
+        "save": "I-save ito (palitan ang pangalan kung gusto mo), at sa susunod, isang tap na lang sa Add page. Walang bagong scan.",
+        "food": "Puwede ring kumuha ng litrato ng pagkain ang mga adult: madadagdag ang mangga sa mangga mo, at ang bago ay magiging sarili nitong bula.",
+        "journal": "Itinatago ng Drink Journal mo kung ano ang naramdaman mo sa bawat inumin, sa phone mo."
+      },
+      "fine": "Mabilisang basa ng label, hindi lab test o rating ng anumang brand. Galing sa Open Food Facts ang resulta ng barcode, at puwedeng magkamali ang AI, kaya tingnan ang totoong label, lalo na kung may allergy. Hindi namin itinatago ang litrato mo.",
+      "alt": "Resulta ng Drink Check para sa isang sports drink: score 66, Mabuti, kasama ang asukal, caffeine, at electrolytes nito mula sa label"
+    },
+    "foods": {
+      "kicker": "Bilang din ang pagkain",
+      "title": "Mga ikalimang bahagi ng tubig mo ay nasa plato.",
+      "lede": "Ang Add page ay pahina ng mga iginuhit na bula ng prutas, tatlo bawat hanay: pakwan, pipino, strawberry, mangga, at iba pa. I-tap ang plus at nadagdag na ito, nandiyan lang ang I-undo. Napupunta sa unahan ang mga pagkaing pinakamadalas mong idagdag.",
+      "ticks": {
+        "amounts": "Baso, bote, o kahit anong dami, tig-iisang tap.",
+        "caffeine": "May caffeine card na kusang napupunan para sa mga mahilig sa kape.",
+        "ring": "Ipinapakita ng ring sa itaas ang pagkaing nabibilang sa araw mo."
+      },
+      "alt": "Ang Add page: ring sa itaas, mga button ng inumin, caffeine card, at mga bula ng pagkaing mayaman sa tubig"
+    },
+    "guide": {
+      "kicker": "Gabay ng The Water Check",
+      "title": "Paputukin ang bula. Itago ang perlas.",
+      "lede": "Bawat kabanata ay isang bula na may tanong, at libre ang lahat. Bakit parang “low battery” ka? Ano ang sinasabi ng ihi mo? Totoo ba ang isang galon kada araw? Basahin hanggang dulo ang isa at puputok ito at magiging perlas. Mga isa sa bawat anim ay bihirang gintong perlas.",
+      "electric": "Ang de-kuryente mong katawan: anim na kabanata tungkol sa signal, sodium at potassium, magnesium at calcium, at panggatong.",
+      "forHerKicker": "Para sa kababaihan",
+      "forHer": "Mga kabanatang kulay rosas tungkol sa katawan ng babae at tubig: pink o neon na ihi, pakiramdam na namamaga tuwing may regla, kung bakit mas madalas magka-UTI ang kababaihan, kaunting tulo kapag tumatawa, pagbubuntis, at menopause. Mabait, malinaw, at may sanggunian.",
+      "fine": "Nakalista sa bawat kabanata ang mga sanggunian nito at kung kailan dapat magpatingin sa doktor. Pag-unawa ang ginagantimpalaan, hindi oras sa screen: walang streak, walang presyur.",
+      "alt": "Gabay ng The Water Check: mga kabanata ng Ang de-kuryente mong katawan bilang mga bula ng tanong"
+    },
+    "widgets": {
+      "kicker": "Mga widget",
+      "title": "<count>89</count> style para sa Home Screen mo.",
+      "lede": "Sports, mga lugar, mga panahon, buhay-dagat, at mga disenyo, sa maliit, katamtaman, at malaking sukat, na may layout mula ring hanggang alon. Sabihin ang sport mo sa pag-sign up at unang lalabas ang widget ng sport mo. Mag-log ng inumin direkta mula sa Home Screen mo.",
+      "ticks": {
+        "body": "Katawan: napupuno ang outline mo ng tubig sa araw na iyon. Kislap: napupuno ang baterya ng karga ngayong araw.",
+        "charge": "Ilagay ang Karga meter sa kahit anong widget para bantayan ang electrolytes mo sa halip na tubig."
+      },
+      "chips": {
+        "body": "Katawan",
+        "spark": "Kislap",
+        "running": "Pagtakbo",
+        "crossCountry": "Cross Country",
+        "volleyball": "Balibol",
+        "basketball": "Basketbol",
+        "seaTurtle": "Pawikan",
+        "jellyfish": "Dikya",
+        "beach": "Tabing-dagat",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Mga Panahon"
+      },
+      "alt": "Ang widget studio na may Katawan na widget sa Hologram, mga kulay nito, mga layout, at ang Karga meter"
+    },
+    "progress": {
+      "kicker": "Progreso",
+      "title": "Tingnan ang laman ng mga inumin mo, bar por bar.",
+      "lede": "Ang araw na ito bilang mga simpleng bar na napupuno mula kaliwa pakanan: tubig kumpara sa numero mo, saka sodium, potassium, magnesium, at calcium mula sa mga inuming na-scan mo, pati caffeine at asukal. I-tap ang kahit anong bar para makita ang mga inumin sa likod nito. Ipinapakita ng Kalendaryo ang bawat araw nang magkakatabi, kasama ang streak mo.",
+      "ticks": {
+        "dailyValues": "Sinusukat ang electrolytes laban sa Daily Values sa Nutrition Facts label.",
+        "caffeine": "Caffeine laban sa 400 mg, ang halagang ibinibigay ng FDA para sa karamihan ng malulusog na adult, at asukal laban sa 50 g.",
+        "journal": "Nasa ilalim mismo ng mga bar ang Drink Journal mo: bawat inuming na-scan mo at kung ano ang naramdaman mo.",
+        "real": "Galing ang bawat numero sa isang bagay na ni-log o na-scan mo. Walang inimbento."
+      },
+      "fine": "Mga reference, hindi target, at hindi medikal na payo. Kung binabantayan mo ang sodium o potassium dahil sa kalusugan, sundin ang payo ng doktor mo.",
+      "alt": "Progreso: tubig sa 83% ng numero sa araw na iyon, saka sodium, potassium, magnesium, calcium, caffeine, at asukal bilang mga bar"
+    },
+    "crew": {
+      "kicker": "Ang buwan mo at ang mga tao mo",
+      "title": "Panoorin itong madagdagan. Isama ang mga kaibigan mo.",
+      "calendarAlt": "Ang kalendaryo: napupuno ang bawat araw na parang baso, kasama ang mga araw na may log, mga araw na naabot ang goal, at streak",
+      "calendarTitle": "Ang tubig mo, araw-araw",
+      "calendarBody": "Napupuno na parang baso ang bawat araw na nag-log ka. Mga araw na naabot ang goal, streak, at mga marka ng taog, at sumusunod ito sa iyo sa bagong phone.",
+      "crewAlt": "Isang Barkada na may pangalang Track team na may mabilisang cheer message",
+      "crewTitle": "Barkada",
+      "crewBody": "Mga grupong para lang sa inimbitahan na nagpapalakasan ng loob. Nakikita ng mga kaibigan ang porsiyento mo sa sarili mong goal at ang streak mo, hindi kailanman ang onsa o katawan mo. Laging nandiyan ang I-report at I-block."
+    },
+    "bubbles": {
+      "kicker": "Kilalanin si Bubbles",
+      "title": "Butete ang gabay mo.",
+      "lede": "Si Bubbles ang Wellness Officer sa The Department. Sa unang araw mo, ililibot ka niya sa app, at hindi niya mapigilang magpasikat. Sige, bigyan mo siya ng gagawin.",
+      "tricksLegend": "Mga trick ni Bubbles",
+      "tricks": {
+        "puff": "Lumobo",
+        "spin": "Umikot",
+        "flip": "Backflip",
+        "wave": "Kumaway",
+        "cheer": "Bonggang finale"
+      }
+    },
+    "pricing": {
+      "kicker": "Presyo",
+      "title": "Libreng simulan. Lahat, isang bayad lang.",
+      "free": {
+        "title": "Libre",
+        "sub": "Lahat ng kailangan mo para makainom nang sapat.",
+        "items": {
+          "number": "Ang sarili mong numero sa tubig",
+          "log": "Mag-log ng inumin at pagkaing mayaman sa tubig",
+          "barcode": "Pag-scan ng barcode, libre at walang limitasyon",
+          "photo": "Isang libreng photo scan (18 pataas)",
+          "guide": "Bawat kabanata ng Gabay",
+          "widgets": "Klasiko, Mga Panahon, at simpleng Katawan at Kislap na widget",
+          "crew": "Ang kalendaryo mo, mga streak, at Barkada ng kaibigan"
+        }
+      },
+      "forever": {
+        "tag": "Unang taon",
+        "title": "Lahat Habambuhay",
+        "sub": "Isang bili, walang subscription.",
+        "items": {
+          "widgets": "Bawat widget style at kulay",
+          "bars": "Ang mga bar ng electrolytes, caffeine, at asukal",
+          "journal": "Ang Drink Journal mo",
+          "photos": "Dagdag na photo scan (18 pataas)",
+          "summaries": "Mga PDF na buod ng 30 at 90 araw",
+          "crews": "Gumawa ng sarili mong Barkada",
+          "later": "Lahat ng idaragdag namin sa susunod"
+        },
+        "note": "Iniaalok sa unang taon namin. Pagkatapos noon, maaaring lumipat ang The Water Check sa buwanang plano, at mananatiling naka-unlock ang isang beses na pagbiling ginawa bago iyon. Ipinapakita ang presyo sa App Store o Google Play bago ka bumili."
+      }
+    },
+    "privacy": {
+      "kicker": "Ang datos mo",
+      "title": "Ano ang nananatili sa phone mo, at ano ang hindi.",
+      "phoneTitle": "Nananatili sa phone mo",
+      "phoneBody": "Ang Drink Journal mo, mga naka-save na inumin at pagkain, mga perlas ng Gabay, mga training session, mga tala sa siklo, at mga paalala.",
+      "accountTitle": "Itinatago kasama ng account mo",
+      "accountBody": "Ang sign-in mo, mga sagot sa sign-up, bawat inumin at pagkaing ni-log mo kasama ang oras, araw-araw na kabuuan ng tubig, at ang Barkada mo, para sumunod ang mga ito sa iyo sa bagong phone.",
+      "neverTitle": "Hindi kailanman",
+      "neverBody": "Hindi namin ibinebenta ang impormasyon mo o ibinabahagi sa mga advertising network. Hindi namin itinatago ang mga litrato mo sa Drink Check.",
+      "links": {
+        "privacy": "Patakaran sa Privacy",
+        "healthData": "Patakaran sa Datos sa Kalusugan ng Consumer",
+        "deleteAccount": "Burahin ang account mo"
+      }
+    },
+    "calculator": {
+      "kicker": "Libre, walang sign-up",
+      "title": "Magsimula sa mga numerong alam mo.",
+      "lede": "Ang timbang mo, ang taas mo, gaano katagal kang gumagalaw. Bibigyan ka ng calculator ng araw-araw na target sa mga dalawampung segundo, at ipinapakita nito ang kalkulasyon para makipagtalo ka rito. Tumatakbo ito sa browser mo.",
+      "chips": {
+        "weight": "Baseline ng timbang",
+        "height": "Taas at pangangatawan",
+        "activity": "Adjustment sa aktibidad",
+        "lifeStage": "Yugto ng buhay",
+        "heat": "Init at alinsangan",
+        "electrolytes": "Check ng electrolytes"
+      },
+      "open": "Buksan ang calculator",
+      "fine": "Isang pang-edukasyong tantiya para sa pagpaplano ng mga nasa hustong gulang, hindi diagnosis o reseta. Huwag pilitin ang pag-inom ng likido. Magtanong sa isang healthcare professional kung buntis ka o nagpapasuso, umiinom ng gamot na nakakaapekto sa balanse ng likido, o may sakit sa bato o puso."
+    },
+    "faq": {
+      "kicker": "Mga tanong",
+      "title": "Ang tapat na mga sagot.",
+      "items": {
+        "medical": {
+          "q": "Medikal na payo ba ang The Water Check?",
+          "a": "Hindi. Isa itong pangkalahatang wellness app. Ang numero mo sa tubig ay pang-edukasyong tantiya, hindi reseta, at walang anuman sa app na nagda-diagnose o gumagamot ng kahit ano. Kung buntis ka o nagpapasuso, umiinom ng gamot na nakakaapekto sa likido sa katawan, o may sakit sa bato, puso, o ibang kondisyon, tanungin ang doktor mo kung ano ang tama para sa iyo."
+        },
+        "number": {
+          "q": "Saan galing ang numero ko?",
+          "a": "Mula sa timbang, taas, aktibidad, klima, at yugto ng buhay mo, simula sa pampublikong gabay gaya ng mga reference sa tubig ng US National Academies. Ipinapakita ng libreng calculator ang kalkulasyon, kaya makikita mo ang bawat hakbang. Panimulang punto ito, hindi patakaran."
+        },
+        "scan": {
+          "q": "Ano ang nangyayari kapag nag-scan ako ng inumin?",
+          "a": "Ang barcode scan ay nagpapadala lang ng numero ng barcode sa Open Food Facts, isang libre at bukas na database ng pagkain, at ibinabalik nito ang nakasulat sa label. Ang litrato, para sa mga adult na 18 pataas, ay dumadaan sa server namin papunta sa Gemini AI ng Google, na nagbabasa ng label at nagbabalik ng nakita nito. Hindi namin itinatago ang litrato mo; maaaring magtago ang Google ng datos nang limitadong panahon ayon sa mga tuntunin nito. Puwedeng magkamali ang mga label at AI, kaya tingnan ang totoong label, at huwag kailanman gamitin ang Drink Check para sa allergy o medikal na diyeta."
+        },
+        "phone": {
+          "q": "Ano ang nananatili sa phone ko?",
+          "a": "Ang Drink Journal mo, mga naka-save na inumin at pagkain, mga perlas ng Gabay, mga training session, sagot tungkol sa siklo at mga tala sa siklo, bagama't maaaring maisama ang mga ito sa sarili mong phone backup. Sa iPhone, ang mga workout na pinayagan mong basahin ng app mula sa Apple Health ay nananatili rin sa phone mo, at hindi kailanman ipinapadala sa amin. Ang mga sagot mo sa sign-up, bawat inumin at pagkaing ni-log mo kasama ang oras, at ang araw-araw mong kabuuan ay itinatago kasama ng account mo para sumunod ang mga ito sa iyo sa bagong phone. Hindi namin ibinebenta ang impormasyon mo."
+        },
+        "audience": {
+          "q": "Para kanino ito?",
+          "a": "Sa sinumang 13 taong gulang pataas. Kung wala ka pang 18, gamitin ito nang may pahintulot ng magulang o guardian. Para lang sa mga adult ang Pag-aayuno sa Prutas, pag-log ng alak, at photo scan. Sumusunod ang app sa age range na ibinigay mo, kaya pakisagot nang tapat. Kung 13 hanggang 17 ka, ipa-check ang numero mo sa magulang o doktor."
+        },
+        "cost": {
+          "q": "Magkano ito?",
+          "a": "Libreng simulan ang app: kunin ang numero mo, mag-log ng tubig at pagkain, mag-scan ng kahit anong barcode, basahin ang bawat kabanata ng Gabay, sumali sa Barkada, at gamitin ang Klasiko, Mga Panahon, Katawan, at Kislap na widget. Sa unang taon namin, isang opsiyonal na pagbili ang magbubukas ng lahat, isang beses lang, walang subscription. Ipinapakita ng App Store o Google Play ang presyo sa currency mo bago ka bumili."
+        },
+        "deleteAccount": {
+          "q": "Paano ko buburahin ang account ko?",
+          "a": "Sa app: Profile, saka Settings, saka Burahin ang account. Agad itong mabubura. Walang app? Ipinapaliwanag ng aming pahinang Burahin ang account mo kung paano ito hilingin sa email."
+        },
+        "download": {
+          "q": "Kailan ko ito mada-download?",
+          "a": "Nire-review ang The Water Check sa App Store at tine-test sa Google Play, at malapit na sa dalawa. I-follow ang @thewatercheck sa Instagram para unang makaalam."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Unawain ang iniinom mo. Ginawa sa Florida ng isang one-person company. Para sa edad 13 pataas.",
+      "legal": "Legal",
+      "privacy": "Patakaran sa Privacy ng The Water Check",
+      "terms": "Mga Tuntunin at Kundisyon ng The Water Check",
+      "community": "Mga Alituntunin ng Komunidad",
+      "healthData": "Patakaran sa Privacy ng Datos sa Kalusugan ng Consumer",
+      "deleteAccount": "Burahin ang account mo",
+      "sitePrivacy": "Privacy ng website",
+      "explore": "Tuklasin",
+      "calculator": "Calculator ng hydration",
+      "store": "Tindahan ng The Water Check",
+      "instagram": "@thewatercheck sa Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Tulong",
+      "email": "Suporta sa email",
+      "accessibility": "Aksesibilidad",
+      "contact": "Makipag-ugnayan",
+      "note": "Ang The Water Check ay isang pangkalahatang wellness app. Hindi ito nagda-diagnose, gumagamot, o pumipigil sa anumang kondisyon, at hindi ito kapalit ng payo mula sa isang healthcare professional. Sa emergency, tumawag sa 911 o sa lokal mong emergency number. Ipinapakita ng mga screen ng app ang isang test build na may gawa-gawang datos; maaaring magbago ang mga feature bago ang release."
+    }
+  },
+  "app": {
+    "eyebrow": "Ang app",
+    "title": "Ang tubig mo, araw-araw.",
+    "body": "Magsimula sa personal na tantiya, saka mag-log ng inumin at pagkaing mayaman sa tubig habang lumilipas ang araw mo. Tingnan ang progreso mo sa app, sa Home Screen mo, at sa buong buwan.",
+    "comingSoon": "Malapit na sa App Store",
+    "calculator": "Subukan ang libreng calculator",
+    "caveat": "Gumagana rito ang calculator kahit walang account. Preview build ang ipinapakita ng mga screenshot ng app; maaaring magbago ang mga feature at availability bago ang release.",
+    "screens": {
+      "number": {
+        "alt": "Ang personal na tantiya ng araw-araw na tubig ng The Water Check sa isang iPhone",
+        "caption": "Ang numero mo"
+      },
+      "log": {
+        "alt": "Ang araw-araw na log ng The Water Check na may mga inumin at pagkain sa isang iPhone",
+        "caption": "Log ngayong araw"
+      },
+      "widgets": {
+        "alt": "Ang settings ng Home Screen widget ng The Water Check sa isang iPhone",
+        "caption": "Mga widget"
+      },
+      "wellness": {
+        "alt": "Ang wellness guide at P-Meter ng The Water Check sa isang iPhone",
+        "caption": "Wellness"
+      },
+      "calendar": {
+        "alt": "Ang buwanang kalendaryo ng tubig ng The Water Check sa isang iPhone",
+        "caption": "Kalendaryo"
+      }
+    }
+  },
+  "footer": {
+    "note": "Hindi kailangan ng account ang libreng calculator. Tumatakbo ito sa browser mo at hindi nito ipinapadala sa amin ang mga numero mo.",
+    "navLabel": "Navigation sa footer",
+    "calculator": "Calculator ng hydration",
+    "explore": "Tuklasin ang app",
+    "instagram": "@thewatercheck sa Instagram",
+    "store": "Ang tindahan",
+    "builder": "Sino ang gumawa nito",
+    "finePrint": "Ang fine print",
+    "terms": "Mga Tuntunin at Kundisyon",
+    "privacy": "Patakaran sa Privacy",
+    "community": "Mga Alituntunin ng Komunidad",
+    "healthData": "Datos sa Kalusugan ng Consumer",
+    "deleteAccount": "Burahin ang account mo",
+    "accessibility": "Aksesibilidad",
+    "contact": "Makipag-ugnayan",
+    "project": "Isang proyekto ng <company>EXPECTEDEND LLC</company>. Pang-edukasyong tantiya, hindi medikal na payo.",
+    "backToTop": "Bumalik sa itaas ↑"
+  }
+}

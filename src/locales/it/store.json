@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Per il cammino",
+    "headline": "Tieni vicino ciò che conta.",
+    "intro": "Una piccola collezione di oggetti curati per appunti, promemoria e il cammino quotidiano con Dio.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Quaderno guidato",
+        "kind": "Quaderno"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Un piccolo promemoria",
+        "kind": "Spilla"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Un capo morbido per tutti i giorni",
+        "kind": "Abbigliamento"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Per le mattine fresche",
+        "kind": "Abbigliamento"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "La prima collezione",
+    "headline": "Bevi acqua. Continua a muoverti.",
+    "intro": "Capi pensati per l’idratazione, per chi c’è sempre, riempie di nuovo la borraccia e tiene vivo il check.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Un essenziale luminoso per tutti i giorni",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Per dopo la lunga camminata",
+        "kind": "Felpa"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Una seconda variante di colore",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Un capo pesante dal tono calmo",
+        "kind": "Felpa"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigazione del negozio {{store}}",
+    "collection": "La collezione"
+  },
+  "hero": {
+    "action": "Scopri la prima collezione",
+    "mybiblelensArt": "Logo del negozio MyBibleLens e collage di adesivi",
+    "watercheckArt": "Bolla con il logo liquido di The Water Check"
+  },
+  "collection": {
+    "eyebrow": "In arrivo",
+    "title": "Fatto per entrare nella tua giornata.",
+    "body": "Questi sono i primi pezzi. Foto dei prodotti, opzioni e link per l’acquisto compariranno qui quando la collezione sarà pronta."
+  },
+  "product": {
+    "placeholder": "Immagine provvisoria di {{name}}",
+    "buy": "Acquista ora",
+    "comingSoon": "In arrivo",
+    "comingSoonLabel": "{{name}} in arrivo"
+  },
+  "checkout": {
+    "eyebrow": "Nessun account necessario",
+    "title": "Quando aprirà, il pagamento resterà semplice.",
+    "body": "Scegli un pezzo, tocca Acquista ora e paga in sicurezza con Stripe. Nessun account del negozio e nessun labirinto di carrelli."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Le condizioni del negozio saranno pubblicate prima della prima collezione.",
+    "policies": "Condizioni del negozio",
+    "terms": "Termini",
+    "privacy": "Privacy",
+    "accessibility": "Accessibilità",
+    "shipping": "Spedizioni e resi: prima del lancio"
+  }
+}

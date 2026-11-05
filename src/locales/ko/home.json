@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Expected End의 창업자 Denzel Rigaud",
+    "stats": {
+      "projects": "완성한 프로젝트",
+      "languages": "언어",
+      "appStore": "App Store 출시"
+    },
+    "eyebrow": "당신의 <em>소망의 장래</em>로 향하는 관문",
+    "title": "목적을 담아,<break/>아름답게<break/>만듭니다.",
+    "intro": "Expected End는 세심한 소프트웨어, 생산성 도구, 디지털 경험, 커뮤니티를 만들어, 사람들이 즐겁고 쉽게 하나님께 더 가까이 갈 수 있도록 도와요!",
+    "cta": "작업 보기",
+    "lensHint": "커서를 움직여 코드를 읽어 보세요"
+  },
+  "projects": {
+    "eyebrow": "01 / 프로젝트",
+    "title": "App Store에 앱 두 개. <break/><em>Android도 곧 출시돼요.</em>",
+    "visit": "{{name}} 방문하기",
+    "android": "Android 곧 출시",
+    "bio": "소개",
+    "actionFor": "{{name}}: {{action}}"
+  },
+  "behind": {
+    "eyebrow": "02 / 작업 뒤의 이야기",
+    "title": "이곳의 모든 제품은 <em>5학년 교실</em>에서 품은 질문 하나로 시작됐어요.",
+    "lead": "그 질문과 이 앱들 사이에는 슬픔과 믿음, 그리고 수많은 늦은 밤이 있었어요. 나머지 이야기는 별도 페이지에 있어요.",
+    "cta": "이야기 읽기"
+  },
+  "proof": {
+    "caption": "완성한 프로젝트",
+    "eyebrow": "03 / 작업 증명",
+    "title": "맨땅에서 시작했어요. <em>작업이 스스로 말해 줘요.</em>",
+    "lead": "앱, 웹사이트, AI 도구, 영상, 캠페인을 모두 직접 설계하고 코딩하고 출시했어요. 그중 일부를 소개해요.",
+    "stats": {
+      "apps": "App Store에 <strong>앱 2개</strong>",
+      "languages": "MyBibleLens <strong>43개 언어</strong> 지원",
+      "years": "<strong>10년</strong>간의 코딩",
+      "inHouse": "<strong>아이디어부터 출시까지</strong>, 모두 직접"
+    },
+    "bigline": "<count>20+</count> 프로젝트 <star>✦</star> 완성 <star>✦</star> 출시 <star>✦</star> 운영 중 <star>✦</star>",
+    "rows": {
+      "products": "앱과 제품",
+      "creative": "웹사이트, AI, 크리에이티브 작업"
+    },
+    "next": "다음은 <em>당신의 프로젝트</em>일 수 있어요.",
+    "cta": "프로젝트 시작하기"
+  },
+  "services": {
+    "eyebrow": "04 / 엄선한 서비스",
+    "title": "당신이 꿈꾸면, <em>제가 만들어요.</em>",
+    "lead": "제품이 먼저예요. 잘 맞는 기회라면, 같은 정성을 다른 분들을 위한 엄선된 작업에도 쏟아요.",
+    "note": "모든 문의에는 예산 범위를 적어 주시고, NDA가 필요하면 메시지에 함께 알려 주세요.",
+    "count": "서비스 {{number}} / {{total}}",
+    "start": "이 프로젝트 시작하기"
+  }
+}

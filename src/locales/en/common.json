@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "That page isn’t here.",
+    "home": "Return home"
+  },
+  "legal": {
+    "englishOnly": "This page is shown in English, and the English version controls.",
+    "effective": "Effective {{date}}",
+    "onThisPage": "On this page",
+    "related": "Related pages"
+  }
+}

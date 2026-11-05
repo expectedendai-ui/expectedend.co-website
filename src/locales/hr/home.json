@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, osnivač tvrtke Expected End",
+    "stats": {
+      "projects": "IZRAĐENIH PROJEKATA",
+      "languages": "JEZIKA",
+      "appStore": "U APP STOREU"
+    },
+    "eyebrow": "Vrata prema <em>budućnosti kojoj se nadate</em>",
+    "title": "Svrha, <break/>lijepo <break/>izgrađena.",
+    "intro": "Expected End stvara promišljen softver, alate za produktivnost, digitalna iskustva i zajednice koje ljude približavaju Bogu na uzbudljive i jednostavne načine!",
+    "cta": "Pogledajte radove",
+    "lensHint": "Pomičite pokazivač da biste čitali kod"
+  },
+  "projects": {
+    "eyebrow": "01 / Projekti",
+    "title": "Dvije aplikacije u App Storeu. <break/><em>Android uskoro.</em>",
+    "visit": "Posjetite {{name}}",
+    "android": "Android uskoro",
+    "bio": "Biografija",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Iza rada",
+    "title": "Svaki je proizvod ovdje počeo pitanjem u <em>učionici petog razreda.</em>",
+    "lead": "Između tog pitanja i ovih aplikacija bilo je tuge, vjere i mnogo dugih noći. Ostatak priče nalazi se na zasebnoj stranici.",
+    "cta": "Pročitajte priču"
+  },
+  "proof": {
+    "caption": "Izrađeni projekti",
+    "eyebrow": "03 / Dokaz rada",
+    "title": "Izgrađeno od nule. <em>Rad govori sam za sebe.</em>",
+    "lead": "Aplikacije, web-stranice, AI alati, filmovi i kampanje, osmišljeni, programirani i pokrenuti vlastitim snagama. Evo dijela toga.",
+    "stats": {
+      "apps": "<strong>2 aplikacije</strong> u App Storeu",
+      "languages": "<strong>43 jezika</strong> u aplikaciji MyBibleLens",
+      "years": "<strong>10 godina</strong> pisanja koda",
+      "inHouse": "<strong>Od ideje do lansiranja</strong>, sve vlastitim snagama"
+    },
+    "bigline": "<count>20+</count> PROJEKATA <star>✦</star> IZGRAĐENO <star>✦</star> ISPORUČENO <star>✦</star> AKTIVNO <star>✦</star>",
+    "rows": {
+      "products": "Aplikacije i proizvodi",
+      "creative": "Web-stranice, AI i kreativni rad"
+    },
+    "next": "Vaš bi projekt mogao biti <em>sljedeći.</em>",
+    "cta": "Pokrenite svoj"
+  },
+  "services": {
+    "eyebrow": "04 / Odabrane usluge",
+    "title": "Vi to sanjate, <em>ja to gradim.</em>",
+    "lead": "Proizvodi su na prvom mjestu. Kad se sve poklopi, ista promišljenost ulazi i u odabrane projekte za druge.",
+    "note": "Molimo navedite cjenovni raspon za sve upite i u poruci napomenite trebate li ugovor o povjerljivosti (NDA).",
+    "count": "Usluga {{number}} / {{total}}",
+    "start": "Pokrenite ovaj projekt"
+  }
+}

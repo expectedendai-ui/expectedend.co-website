@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud i oransjetonede briller",
+    "stats": {
+      "gradeValue": "5.",
+      "gradeSuffix": "",
+      "grade": "KLASSE · NYSGJERRIGHET",
+      "grief": "SORG",
+      "faith": "TRO · VEIEN TILBAKE"
+    },
+    "identity": "Identitet <b>/ Denzel Rigaud</b>",
+    "founded": "Grunnlagt / <time>3. mars 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Gründer & enslig fullstack-utvikler</em>",
+    "title": "Hjernen <br/>bak <br/>Expected End",
+    "text": "En historie om nysgjerrighet, sorg, tro og om å gjøre teknologi til en vei videre.",
+    "cta": "Les historien"
+  },
+  "ticker": {
+    "curiosity": "Nysgjerrighet",
+    "grief": "Sorg",
+    "faith": "Tro",
+    "code": "Kode",
+    "purpose": "Mening"
+  },
+  "coordinates": {
+    "eyebrow": "Tre koordinater",
+    "title": "Veien hit var ingen <em>rett linje.</em>",
+    "curiosity": {
+      "label": "01 / Femte klasse",
+      "title": "Nysgjerrighet ble en overlevelsesferdighet.",
+      "body": "Det begynte med at jeg nektet å la én fiasko bestemme resten av livet mitt.",
+      "big": "5."
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Sorgen lukket døren til teknologien.",
+      "body": "Da jeg mistet faren min, føltes hver ferdighet han hadde lært meg, umulig å røre."
+    },
+    "faith": {
+      "label": "03 / 25. februar 2026",
+      "title": "Troen ga arbeidet mening.",
+      "body": "Jeg kom tilbake for å bygge verktøy som gjør folk sterkere enn de var."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Gründerhistorie / I jeg-form",
+    "title": "Hei, jeg heter <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Teknologi har vært en del av livet mitt siden femte klasse. Skolen hadde frustrert meg fra tidlig alder. Jeg måtte gå om igjen andre klasse mens jeg slet med en språkbarriere, og jeg mente ikke at det nederlaget skulle definere meg. Jeg bestemte meg for å begynne med å hacke karakterene mine. Det startet i det små, men da jeg skjønte hvor dypt jeg kunne trenge inn i systemer og jailbreake teknologi, ble jeg nysgjerrig på systemene rundt meg og begynte å ha det gøy.",
+      "second": "Den nysgjerrigheten tok meg med inn i Instagram-botfarmer, koding, automatisering, maskinlæring, nettfellesskap, digital vekst og de mørkeste krokene av internett. Jeg lærte hvor mektig teknologi kan være. Noen valg lærte meg også å bruke bedre dømmekraft."
+    },
+    "socials": {
+      "label": "Denzel Rigauds profiler i sosiale medier",
+      "instagram": "Denzel Rigaud på Instagram",
+      "linkedin": "Denzel Rigaud på LinkedIn",
+      "youtube": "Denzel Rigaud på YouTube"
+    },
+    "records": {
+      "label": "Uavhengige identitetsopplysninger",
+      "heading": "Eksterne kilder",
+      "worldAthletics": "Profil hos World Athletics",
+      "lynn": "Utøverprofil ved Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Kapittel 01",
+    "kicker": "Menneskene som lærte meg",
+    "title": "Min første nettrollmann.",
+    "first": "Faren min og <brother>broren</brother> min var de smarteste menneskene jeg kjente, men jeg så dem sjelden. Vi hadde et forhold over telefon. Hvert sekund jeg fikk snakke med dem, lærte de meg noe jeg trengte å vite. Etter hvert lærte jeg at jeg likevel måtte bestemme selv hva som var riktig for meg. Faren min var en nettrollmann, og på internett følte jeg meg ustoppelig. Broren min jobber for NSA.",
+    "second": "I 2021 flyttet jeg til Florida etter 17 år sammen med mine to mødre og to søstre. Jeg overlevde, haha. Så fikk jeg bo sammen med faren min for første gang. Seks måneder senere døde han, så jeg lukket døren til teknologien, fordi hver ferdighet minnet meg om ham.",
+    "third": "Faren min hadde vært muslim store deler av livet. Jeg fulgte islam delvis fordi jeg ville være som ham. Før han døde, ga han livet sitt til Kristus. Valget hans ble med meg lenge etter at jeg hadde lagt fra meg mine egne verktøy."
+  },
+  "return": {
+    "number": "Kapittel 02",
+    "kicker": "Veien tilbake",
+    "title": "Jeg åpnet døren igjen.",
+    "first": "I årevis unngikk jeg den delen av meg selv som minnet meg om faren min. Jeg var fortsatt borti teknologi av og til, men sorgen gjorde det vanskelig å bli værende. Jeg fylte det tomrommet med begjærets synd og kom stadig lenger bort fra den personen jeg kunne ha blitt.",
+    "second": "I januar 2026 visste jeg at jeg måtte forandre meg. Jeg bestemte meg for å slippe fram igjen nettrollmannen faren min lærte meg å være, slutte å være en kjødelig mann som ikke trodde på Gud, og i stedet følge Ham. Da jeg gjorde det, begynte livet mitt å blomstre.",
+    "third": "MyBibleLens kom ut av den beslutningen. Jeg hadde ingen ferdig plan. Jeg begynte å bygge og fortsatte fremover. Arbeidet lot meg åpne døren jeg hadde lukket etter at faren min døde. Jeg hentet tilbake The Water Check og begynte å plukke opp drømmer jeg hadde båret på siden barndommen."
+  },
+  "draft": {
+    "label": "Kapittel 03 / Utkastet",
+    "title": "«Sannheten bak koden»"
+  },
+  "venom": {
+    "title": "Den digitale giften",
+    "first": "Det skjer i det sekundet vi våkner. Før føttene i det hele tatt treffer gulvet, strekker hånden seg ut. Du griper telefonen. Vi gjør det alle sammen. Men den ene, refleksmessige bevegelsen forstyrrer umiddelbart hjernens nervebaner og kaster deg inn i en kritisk, engstelig tilstand før dagen i det hele tatt har begynt.",
+    "second": "Som enslig programvareutvikler i 10 år, og med en far som var en enslig cybersikkerhetshacker og lærte meg internetts mørke og mystiske kroker, ser jeg koden bak skjermen. Jeg vet nøyaktig hvordan algoritmen fungerer, og sannheten er at den er gift. Den overveldende giftigheten du kjenner på nettet, er egentlig ikke menneskets natur, men en konstruert illusjon. Vi er under konstant angrep fra «pseudoisme», der oversvømte, fiendtlige kommentarfelt sjelden er spontane utbrudd fra tilfeldige, vanlige internettbrukere. De er i stedet en del av en bevisst, systematisk strategi for datastyrt propaganda. Falske kontoer og botnettverk settes inn for å plante kunstige fortellinger i feeden din, laget spesielt for å manipulere folks oppfatninger, forsterke splittelsene våre og påvirke hvordan du oppfører deg på nettet.",
+    "third": "Det spiller ingen rolle hvor ren søkehistorikken din eller barnas er, eller hvor ren feeden din virker; systemet er laget for å trekke deg tilbake. Det drar deg mot negativitet, mot overfladiskhet og mot bli-rik-fort-guruer som får oss til å sette penger over Gud (<strong>1. Timoteus 6,10</strong>) og skaper mennesker med mammons ånd. Det gjør at våre vakre søstre ikke vet at deres sanne skjønnhet ikke er sminke, ikke hva en fyr synes om henne, eller hvor mange Instagram-likes hun får… det er hjertet hennes og hennes englelike vei med Gud. Det er en maskin bygget for å kapre sinnet ditt og styre vanene dine.",
+    "fourth": "Denne konstante strømmen av kunstighet fanger oss i en jaget tilværelse og gjør oss blinde for at ekte ting tar tid. Ekte kjærlighet, ekte vekst og autentiske relasjoner krever tålmodighet, ikke den umiddelbare belønningen en telefon leverer. Den lurer hjernen til å forvente et konstant dopaminrush av enighet. Akkurat som de kuraterte algoritmene på en «For deg»-side får den folk til å føle seg blindt berettiget til sine egne meninger, og stenger dem ute fra ekte mennesker og fra virkeligheten om at ikke alle kommer til å være enige om det samme. Det er en langsom overgivelse som lar kald teknologi og kunstighet ta fullstendig over menneskesinnet.",
+    "fifth": "De vil at vi skal bli distrahert av disse fabrikkerte krigene. De vil at barnas hjerner skal bli til grøt, for alltid fanget på det laveste nivået i <strong><bloom>Blooms taksonomi</bloom></strong>: bare «huske» og konsumere, aldri stille spørsmål, aldri skape, aldri gå dypere. Vi ser en hel generasjon utsette de avgjørende <strong><erikson>Eriksons utviklingsstadier</erikson></strong>, lammet av de falske, kuraterte virkelighetene de ser på skjermer, livredde for å faktisk bli voksne fordi ingenting føles ekte lenger. Verden er lut lei løgnene. Hvis du ikke ser manipulasjonen i koden, ikke noe problem: min generasjon ser den, og den neste generasjonen kommer også til å gjøre det."
+  },
+  "crucible": {
+    "title": "Smeltedigelen som formet meg",
+    "first": "Jeg lærte ikke dette bare ved å studere data; jeg levde det: solgte dop bare for å bygge livet jeg hadde lovet meg selv, et liv som skulle nå en lys fremtid. Kastet ut av hjemmene til folk jeg var glad i, hjemløs. Tilbudt en vei inn i pornobransjen da jeg trengte penger som mest, 10k viftet rett foran ansiktet mitt, men mamma oppdro meg med moral. <court>To</court> søksmål <search>på</search> videregående. Jeg begynte å hacke karakterene mine i femte klasse fordi jeg var lei av å stryke, særlig da jeg skjønte at jeg hadde måttet gå om igjen andre klasse på grunn av aksenten jeg kom med. Det ble senere til hacking av mye mer… da jeg en dag virkelig ble kjent med <father>faren</father> min, så jeg hvor jeg har det fra.",
+    "second": "Lenge trodde jeg at Gud aldri ville ta meg tilbake etter alt det der. Jeg trodde jeg var for langt borte. Men så lærte jeg om apostelen Paulus. Paulus drepte bokstavelig talt kristne, og Gud snudde seg likevel og ga ham en enorm gave. Det var da det slo meg: Hvis Gud kunne bruke en mann som Paulus, var fortiden min aldri for mye for Ham å bygge en fremtid med.",
+    "third": "Det overlevelsesinstinktet startet tidlig. Å vokse opp omgitt av 4 kvinner i 16 år formet psyken min på måter jeg fortsatt holder på å pakke ut. Sinnet mitt ble trent til å jobbe samtidig på ulike psykologiske bølgelengder. Jeg navigerte gjennom forvridd psykologi, komplekse dynamikker og manipulasjon som formet meg til den jeg er. Og jeg elsker dem for det; det sparte meg energi med jenter da jeg virkelig bestemte meg for å tenke over hva mamma snakket om. Og etter knuste hjerter og etter å ha blitt bedratt, tror jeg fortsatt på <chivalry>ridderlighet</chivalry>.",
+    "fourth": "Det jeg sier, er at for å overleve i et hus fullt av kvinner må du tenke som en, og da jeg forlot dem, måtte jeg bli den unge mannen jeg er i dag, med alle kampene jeg har gått gjennom. Det var et kaotisk miljø, og jeg fant først klarhet da jeg aktivt valgte å fjerne min ene synd, «begjær», og støyen gjennom bønn. Da jeg endelig satte Gud først, skjønte jeg hvem jeg faktisk var. Jeg så utfordringene som hadde formet meg, ikke som forbannelser, men som akkurat den treningen jeg trengte for å komme nærmere Gud og bygge en vei ut for andre.",
+    "fifth": "Å finne Gud fikk meg til å lære mer om meg selv. Å følge Gud lærte meg om sårene og gavene mine, og å forstå meg selv fikk meg til å ville kjenne Ham mer. Det var da livet mitt begynte å blomstre: Jeg hadde retning, mening og en grunn til å ta vare på det Gud ga meg. The Water Check hører til det oppdraget. Å være oppmerksom på hva som påvirker kroppen din, kan hjelpe deg å forstå og ta vare på den personen Gud skapte deg til å være. Jeg vil bygge teknologi som hjelper deg å bli den mest kapable versjonen av den personen.",
+    "mission": "Alt jeg bygger i dette selskapet, peker mot det samme oppdraget: å bringe mennesker nærmere Gud og hjelpe dem å bruke teknologi til å leve, skape, elske og tjene med vilje og mening. Det er den fremtiden og det håpet jeg arbeider mot.",
+    "connect": {
+      "label": "Følg Denzel Rigaud",
+      "youtube": "Expected End på YouTube",
+      "instagram": "Følg Denzel Rigaud på Instagram",
+      "linkedin": "Koble deg til Denzel Rigaud på LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Personlig mappe / 04 minner",
+    "title": "Minnearkiv",
+    "text": "Menneskene, rommene og det ekte arbeidet bak koden. Last ned hvilket som helst bilde og behold det.",
+    "number": "Minne {{number}}",
+    "download": "Last ned minne {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel som barn sammen med faren sin",
+        "title": "Faren min og meg"
+      },
+      "work": {
+        "alt": "Denzel jobber på en bærbar PC med to samarbeidspartnere rundt et bord",
+        "title": "Arbeidet rundt bordet"
+      },
+      "workspace": {
+        "alt": "Arbeidsplassen for MyBibleLens og The Water Check",
+        "title": "Der MyBibleLens tok form"
+      },
+      "archive": {
+        "alt": "Denzels videoarkiv Real Work på telefonen hans",
+        "title": "Real Work-arkivet"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Sending avsluttet / Arbeidet fortsetter",
+    "title": "La oss bygge noe som gir folk <em>livet tilbake.</em>",
+    "text": "For gjennomtenkt programvare, pressesamtaler eller starten på en god idé: åpne en kanal via Expected End.",
+    "contact": "Kontakt Expected End",
+    "back": "Tilbake til selskapet"
+  },
+  "verse": {
+    "version": "Bibelen 1930",
+    "reference": "Jeremia 29,11",
+    "text": "For jeg vet de tanker jeg tenker om eder, sier Herren, fredstanker og ikke tanker til ulykke, å gi eder fremtid og håp.",
+    "close": "Lukk bibelverset"
+  },
+  "bio": {
+    "eyebrow": "Fra gründeren",
+    "title": "Hva skjedde med @thewatercheck?",
+    "close": "Lukk biografien",
+    "first": "Fra jeg var 15, drev og vokste jeg influencer- og innholdssider samtidig som jeg bygde mitt eget prosjekt, @thewatercheck.",
+    "second": "Senere, da jeg var 17, flyttet jeg inn hos faren min, og kontoen var i ferd med å dø, fordi <em>«Den som jager to harer, fanger ingen.»</em> <proverb>(russisk ordtak)</proverb> I den alderen brydde jeg meg bare om pengene. Jeg ga ikke @thewatercheck alt.",
+    "third": "Så døde <father>faren</father> min uventet <strong>10. juli 2021.</strong> Jeg gikk i overlevelsesmodus og lurte på hvor livet mitt var på vei. For å takle smerten etter at han døde, lukket jeg døren til nettrollmannen faren min en gang lærte meg å være, helt fram til <strong>januar 2026.</strong>",
+    "stat": {
+      "from": "200 000 følgere",
+      "to": "7 000",
+      "caption": "Der står det nå."
+    },
+    "what": {
+      "eyebrow": "Så hva var det?",
+      "title": "En enkel påminnelse folk elsket.",
+      "first": "The Water Check var rett og slett dette: Jeg la ut et bilde hver eneste dag for å minne folk på å drikke vann, og det hjalp dem faktisk å drikke vann. Kommentarfeltet ble <em>oversvømt</em> av folk. Det var alt den gjorde, og folk elsket det.",
+      "second": "Så slettet en bot alt fra siden, og livet gikk sin gang derfra."
+    }
+  },
+  "footer": {
+    "line": "Teknologi er ikke til for at vi skal doomscrolle og leve andres liv. Den skal styrke ånd, sjel, sinn og kropp.",
+    "sign": "Gründer, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigasjon i bunnteksten",
+    "build": "Det jeg bygger",
+    "pressKit": "Pressesett",
+    "find": "Finn meg",
+    "finePrint": "Det med liten skrift",
+    "terms": "Vilkår for bruk",
+    "privacy": "Personvernerklæring",
+    "accessibility": "Tilgjengelighet",
+    "contact": "Kontakt",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Med enerett.",
+    "blessing": "Jesus elsker deg."
+  },
+  "egg": {
+    "label": "Gå inn i den skjulte kunstverdenen",
+    "armed": "Trykk én gang til for å gå inn i den skjulte kunstverdenen."
+  }
+}

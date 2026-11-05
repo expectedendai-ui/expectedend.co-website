@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Pangunahing navigation",
+    "projects": "Mga Proyekto",
+    "services": "Mga Serbisyo",
+    "company": "Misyon · Tungkol · Press",
+    "contact": "Makipag-ugnayan",
+    "home": "Home ng Expected End",
+    "openMenu": "Buksan ang menu",
+    "closeMenu": "Isara ang menu",
+    "links": {
+      "projects": "Mga Proyekto",
+      "services": "Mga Serbisyo",
+      "story": "Kuwento",
+      "about": "Tungkol",
+      "press": "Press",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigation sa footer",
+    "home": "Home",
+    "about": "Tungkol",
+    "press": "Press",
+    "terms": "Mga Tuntunin sa Paggamit",
+    "privacy": "Pahayag sa Privacy",
+    "accessibility": "Aksesibilidad",
+    "contact": "Makipag-ugnayan",
+    "mission": "Lahat ng binubuo ko sa ilalim ng kumpanyang ito ay tumuturo sa iisang misyon: ilapit ang mga tao sa Diyos at tulungan silang gamitin ang teknolohiya para mamuhay, lumikha, magmahal, at maglingkod nang may intensiyon. Iyan ang inaasahang kinabukasan na pinagsisikapan kong marating.",
+    "verse": "Jeremias 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. Nakalaan ang lahat ng karapatan.",
+    "blessing": "Mahal ka ni Hesus."
+  }
+}

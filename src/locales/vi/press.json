@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Báo chí & truyền thông",
+    "title": "Tài liệu báo chí về Expected End.",
+    "intro": "Tiểu sử đã duyệt, thông tin đã xác minh và tư liệu có thể tải xuống để đưa tin về Expected End và nhà sáng lập Denzel Rigaud.",
+    "downloadPortrait": "Tải ảnh chân dung"
+  },
+  "inquiry": "Gửi yêu cầu báo chí",
+  "role": "Nhà sáng lập kiêm lập trình viên full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud mặc bộ vest xanh navy và đeo kính tròng màu cam"
+  },
+  "contents": {
+    "label": "Các mục của trang báo chí",
+    "kit": "Bộ tài liệu báo chí / 2026",
+    "biographies": "Tiểu sử",
+    "facts": "Thông tin đã xác minh",
+    "projects": "Dự án",
+    "licensing": "Sử dụng tư liệu"
+  },
+  "bios": {
+    "kicker": "Nội dung đã duyệt",
+    "title": "Tiểu sử",
+    "text": "Các phiên bản này có thể được trích dẫn hoặc điều chỉnh cho mục đích đưa tin.",
+    "shortLabel": "Tiểu sử ngắn / 24 từ",
+    "fullLabel": "Tiểu sử đầy đủ",
+    "fullFirst": "Denzel Rigaud sáng lập EXPECTEDEND LLC và tự mình xây dựng MyBibleLens cùng The Water Check. Anh là lập trình viên full-stack của công ty, định hình mỗi sản phẩm từ ý tưởng đến thiết kế, kỹ thuật và phát hành.",
+    "fullSecond": "Công việc của anh tập trung vào phần mềm lấy đức tin làm trung tâm, sức khỏe số và những công cụ thiết thực giúp mọi người dùng công nghệ một cách có chủ đích. MyBibleLens là một ứng dụng Thánh Sở Cơ Đốc. The Water Check kết hợp ước tính lượng nước riêng tư, thói quen uống nước thiết thực và một cộng đồng chú trọng sự đều đặn mỗi ngày."
+  },
+  "facts": {
+    "kicker": "Bảng thông tin",
+    "title": "Thông tin đã xác minh",
+    "text": "Thông tin chuẩn dùng cho hồ sơ, bài viết, chú thích ảnh và cơ sở dữ liệu.",
+    "company": "Công ty",
+    "founder": "Nhà sáng lập",
+    "role": "Vai trò",
+    "products": "Sản phẩm",
+    "productsValue": "MyBibleLens và The Water Check",
+    "website": "Website chính thức",
+    "profile": "Hồ sơ nhà sáng lập",
+    "entityLabel": "{{name}} trên Wikidata"
+  },
+  "projects": {
+    "kicker": "Sản phẩm",
+    "title": "Các dự án",
+    "text": "Hai sản phẩm, được xây dựng độc lập dưới tên Expected End.",
+    "mybiblelens": {
+      "alt": "Biểu tượng ứng dụng MyBibleLens",
+      "kicker": "Phần mềm lấy đức tin làm trung tâm",
+      "text": "Ứng dụng Thánh Sở Cơ Đốc.",
+      "visit": "Truy cập MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Biểu tượng ứng dụng The Water Check",
+      "kicker": "Uống nước và cộng đồng",
+      "text": "Ước tính lượng nước riêng tư, thói quen uống nước thiết thực và cộng đồng.",
+      "visit": "Truy cập The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Sử dụng tư liệu",
+    "title": "Ảnh chân dung nhà sáng lập",
+    "text": "Ảnh chân dung có thể được chia sẻ và chỉnh sửa theo giấy phép <license>Creative Commons Ghi công, Chia sẻ tương tự 4.0 (CC BY-SA 4.0)</license>. Ghi công: Denzel Rigaud / Expected End. Các bản chỉnh sửa phải dùng cùng giấy phép.",
+    "download": "Tải ảnh chân dung nhà sáng lập"
+  },
+  "contact": {
+    "kicker": "Liên hệ báo chí",
+    "title": "Cần phỏng vấn, trích dẫn hay thêm tệp tư liệu?"
+  }
+}

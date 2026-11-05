@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Presse & media",
+    "title": "Pressemateriell om Expected End.",
+    "intro": "Godkjente biografier, verifiserte fakta og nedlastbart materiell for omtale av Expected End og gründeren Denzel Rigaud.",
+    "downloadPortrait": "Last ned portrett"
+  },
+  "inquiry": "Send en pressehenvendelse",
+  "role": "Gründer og fullstack-utvikler",
+  "portrait": {
+    "alt": "Denzel Rigaud i marineblå dress og oransjetonede briller"
+  },
+  "contents": {
+    "label": "Deler av pressesiden",
+    "kit": "Pressesett / 2026",
+    "biographies": "Biografier",
+    "facts": "Verifiserte fakta",
+    "projects": "Prosjekter",
+    "licensing": "Bruk av materiell"
+  },
+  "bios": {
+    "kicker": "Godkjent tekst",
+    "title": "Biografier",
+    "text": "Disse versjonene kan siteres eller tilpasses for redaksjonell omtale.",
+    "shortLabel": "Kort biografi / 24 ord",
+    "fullLabel": "Full biografi",
+    "fullFirst": "Denzel Rigaud grunnla EXPECTEDEND LLC og bygde MyBibleLens og The Water Check på egen hånd. Han er selskapets fullstack-utvikler og former hvert produkt fra idé via design og utvikling til lansering.",
+    "fullSecond": "Arbeidet hans handler om trosbasert programvare, digital trivsel og praktiske verktøy som hjelper folk å bruke teknologi bevisst. MyBibleLens er en helligdomsapp for kristen tro. The Water Check kombinerer et privat anslag over væskebehovet, praktiske vannvaner og et fellesskap med fokus på daglig jevnhet."
+  },
+  "facts": {
+    "kicker": "Faktaark",
+    "title": "Verifiserte fakta",
+    "text": "Offisielle opplysninger for profiler, artikler, bildetekster og databaser.",
+    "company": "Selskap",
+    "founder": "Gründer",
+    "role": "Rolle",
+    "products": "Produkter",
+    "productsValue": "MyBibleLens og The Water Check",
+    "website": "Offisielt nettsted",
+    "profile": "Gründerprofil",
+    "entityLabel": "{{name}} på Wikidata"
+  },
+  "projects": {
+    "kicker": "Produkter",
+    "title": "Arbeidet",
+    "text": "To produkter, bygget på egen hånd under Expected End.",
+    "mybiblelens": {
+      "alt": "Appikonet til MyBibleLens",
+      "kicker": "Trosbasert programvare",
+      "text": "Helligdomsappen for kristen tro.",
+      "visit": "Besøk MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Appikonet til The Water Check",
+      "kicker": "Væske og fellesskap",
+      "text": "Et privat anslag over væskebehovet, praktiske vannvaner og fellesskap.",
+      "visit": "Besøk The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Bruk av materiell",
+    "title": "Portrett av gründeren",
+    "text": "Portrettet kan deles og bearbeides under lisensen <license>Creative Commons Navngivelse-DelPåSammeVilkår 4.0</license>. Kreditering: Denzel Rigaud / Expected End. Bearbeidelser må bruke samme lisens.",
+    "download": "Last ned portrettet av gründeren"
+  },
+  "contact": {
+    "kicker": "Pressekontakt",
+    "title": "Trenger du et intervju, et sitat eller flere filer?"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | நோக்கம், அழகாக உருவானது",
+    "description": "Expected End சிந்தித்து உருவாக்கிய மென்பொருள், செயல்திறன் கருவிகள், டிஜிட்டல் அனுபவங்கள், சமூகங்களை உருவாக்குகிறது."
+  },
+  "about": {
+    "title": "எங்களைப் பற்றி | Expected End",
+    "description": "Denzel Rigaud-இன் நிறுவனர் கதை, Expected End-இன் பின்னால் உள்ள நோக்கம், விசுவாசத்திலும் நோக்கத்திலும் இருந்து உருவான திட்டங்கள்."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Expected End-இன் நிறுவனர்",
+    "description": "Denzel Rigaud, Expected End, கிறிஸ்தவ விசுவாசத்திற்கான பரிசுத்த இட ஆப் MyBibleLens, The Water Check ஆகியவற்றின் நிறுவனரும் ஃபுல்-ஸ்டாக் டெவலப்பரும் ஆவார்."
+  },
+  "press": {
+    "title": "பத்திரிகை & ஊடகம் | Expected End",
+    "description": "Expected End மற்றும் Denzel Rigaud பற்றிய செய்திகளுக்கான அங்கீகரிக்கப்பட்ட அறிமுகக் குறிப்புகள், சரிபார்க்கப்பட்ட தகவல்கள், என்டிட்டி இணைப்புகள், பதிவிறக்கக்கூடிய ஊடகங்கள்."
+  },
+  "terms": {
+    "title": "இணையதளப் பயன்பாட்டு விதிமுறைகள் | Expected End",
+    "description": "Expected End இணையதளத்தைப் பயன்படுத்துவதற்கான விதிமுறைகள்."
+  },
+  "privacy": {
+    "title": "தனியுரிமை அறிக்கை | Expected End",
+    "description": "இந்த இணையதளத்தில் Expected End தகவல்களை எப்படிக் கையாள்கிறது."
+  },
+  "watercheck-privacy": {
+    "title": "The Water Check தனியுரிமைக் கொள்கை | Expected End",
+    "description": "The Water Check எதைச் சேகரிக்கிறது, எது உங்கள் போனிலேயே இருக்கும், ஆப்பை இயக்க யார் உதவுகிறார்கள், உங்களுக்கு உள்ள தேர்வுகள்."
+  },
+  "watercheck-terms": {
+    "title": "The Water Check விதிமுறைகள் மற்றும் நிபந்தனைகள் | Expected End",
+    "description": "The Water Check ஆப்பைப் பயன்படுத்துவதற்கான விதிமுறைகள்: உடல்நலம் மற்றும் பாதுகாப்பு, AI, குழு விதிகள், வாங்குதல்கள் உட்பட."
+  },
+  "watercheck-health-data": {
+    "title": "The Water Check நுகர்வோர் உடல்நலத் தரவு தனியுரிமைக் கொள்கை | Expected End",
+    "description": "The Water Check நுகர்வோர் உடல்நலத் தரவை எப்படிக் கையாள்கிறது, அதை அணுக, நீக்க அல்லது மேல்முறையீடு செய்வது எப்படி."
+  },
+  "watercheck-delete-account": {
+    "title": "உங்கள் கணக்கை நீக்குங்கள் | The Water Check",
+    "description": "ஆப்பில் அல்லது மின்னஞ்சல் மூலம் உங்கள் The Water Check கணக்கையும் தரவையும் நீக்குவது எப்படி."
+  },
+  "watercheck-community": {
+    "title": "சமூக வழிகாட்டுதல்கள் | The Water Check",
+    "description": "The Water Check-இல் குழுக்கள் நட்புடன் இருப்பது எப்படி: விதிகள், புகாரளித்தல் மற்றும் தடுத்தல், விதிகளை மீறினால் என்ன நடக்கும்."
+  },
+  "accessibility": {
+    "title": "அணுகல்தன்மை | Expected End",
+    "description": "அனைவரும் அணுகக்கூடிய இணையதள அனுபவத்துக்கான Expected End-இன் உறுதிப்பாடு."
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens ஸ்டோர் | Expected End",
+    "description": "தேவனுடைய வார்த்தையோடு இன்னும் நெருக்கமாக நடக்க, சிந்தித்து உருவாக்கிய பொருட்கள். MyBibleLens ஸ்டோர் விரைவில் வருகிறது."
+  },
+  "watercheck-store": {
+    "title": "The Water Check ஸ்டோர் | Expected End",
+    "description": "The Water Check-இன் நீரேற்றத்தால் ஈர்க்கப்பட்ட அத்தியாவசியப் பொருட்கள். முதல் டிராப் விரைவில் வருகிறது."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | நீரேற்ற ஆப் & இலவச கால்குலேட்டர்",
+    "description": "The Water Check ஆப்பைப் பாருங்கள், Expected End-இல் இலவசமான, தனிப்பட்ட நீரேற்ற மதிப்பீட்டை முயற்சி செய்யுங்கள்."
+  },
+  "watercheck-calculator": {
+    "title": "இலவச நீரேற்ற கால்குலேட்டர் | The Water Check",
+    "description": "The Water Check கால்குலேட்டர் மூலம் இலவசமான, தனிப்பட்ட தினசரி நீரேற்ற மதிப்பீட்டைப் பெறுங்கள்."
+  },
+  "not-found": {
+    "title": "பக்கம் கிடைக்கவில்லை | Expected End",
+    "description": "நீங்கள் தேடிய Expected End பக்கம் கிடைக்கவில்லை."
+  }
+}

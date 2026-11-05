@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud គឺជាស្ថាបនិក និងអ្នកអភិវឌ្ឍន៍ Full-Stack នៅពីក្រោយ Expected End, MyBibleLens (កម្មវិធីទីបរិសុទ្ធសម្រាប់គ្រីស្ទបរិស័ទ) និង The Water Check។",
+  "projects": {
+    "mybiblelens": {
+      "category": "កម្មវិធីគ្រីស្ទបរិស័ទ",
+      "action": "ចូលមើលកម្មវិធី",
+      "tagline": "កម្មវិធីទីបរិសុទ្ធសម្រាប់គ្រីស្ទបរិស័ទ។",
+      "secondary": "ជីវប្រវត្តិ",
+      "badge": "មាននៅលើ App Store"
+    },
+    "watercheck": {
+      "category": "សហគមន៍ផឹកទឹក",
+      "action": "ចូលមើលកម្មវិធី",
+      "tagline": "យល់ពីអ្វីដែលអ្នកផឹក។ គោលដៅទឹកផ្ទាល់ខ្លួនរបស់អ្នក ត្រឹមតែមួយចុច។",
+      "badge": "កំពុងត្រួតពិនិត្យ"
+    },
+    "mybiblelens-store": {
+      "category": "ហាង · នឹងមកដល់ឆាប់ៗ",
+      "action": "ចូលហាង",
+      "tagline": "ជំនឿដែលអ្នកអាចពាក់បាន។"
+    },
+    "watercheck-store": {
+      "category": "ហាង · នឹងមកដល់ឆាប់ៗ",
+      "action": "ចូលហាង",
+      "tagline": "សម្ភារៈសម្រាប់នាយកដ្ឋានជាតិទឹក។"
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "កម្មវិធីជំនឿ · iOS",
+      "status": "មាននៅលើ App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "កម្មវិធីផឹកទឹក · iOS",
+      "status": "កំពុងត្រួតពិនិត្យ"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens សម្រាប់ Android",
+      "category": "Google Play",
+      "status": "ការសាកល្បងបិទ"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "ផ្ទាំងគំនូរគ្មានដែនកំណត់",
+      "status": "ដំណើរការហើយ"
+    },
+    "journey-plans": {
+      "name": "ផែនការ Journey",
+      "category": "ផែនការអាន + ត្រា",
+      "status": "ដំណើរការហើយ"
+    },
+    "water-check-crews": {
+      "name": "ក្រុម Water Check",
+      "category": "ការផឹកទឹកជាក្រុម",
+      "status": "បានបង្កើតរួច"
+    },
+    "home-screen-widgets": {
+      "name": "វីជែតអេក្រង់ដើម",
+      "category": "វីជែត iOS",
+      "status": "បានបង្កើតរួច"
+    },
+    "hydration-calculator": {
+      "name": "ម៉ាស៊ីនគណនាជាតិទឹក",
+      "category": "ឧបករណ៍គេហទំព័រ",
+      "status": "ដំណើរការហើយ"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "កម្មវិធីទីស្នាក់ការអាជីវកម្ម",
+      "status": "កំពុងអភិវឌ្ឍ"
+    },
+    "43-language-rollout": {
+      "name": "ការដាក់ឱ្យប្រើ 43 ភាសា",
+      "category": "ការធ្វើមូលដ្ឋានីយកម្ម",
+      "status": "43 ភាសា"
+    },
+    "mybiblelens-store": {
+      "name": "ហាង MyBibleLens",
+      "category": "ទំនិញម៉ាក",
+      "status": "នឹងមកដល់ឆាប់ៗ"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "គេហទំព័រកម្មវិធី",
+      "status": "ដំណើរការហើយ"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "គេហទំព័រក្រុមហ៊ុន",
+      "status": "ដំណើរការហើយ"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "ការសិក្សាព្រះគម្ពីរដោយ AI",
+      "status": "ការបង្ហាញ AI"
+    },
+    "hidden-art-world": {
+      "name": "ពិភពសិល្បៈលាក់កំបាំង",
+      "category": "សិល្បៈគេហទំព័រអន្តរកម្ម",
+      "status": "ការភ្ញាក់ផ្អើលលាក់ទុក"
+    },
+    "sanctuary-stickers": {
+      "name": "ស្ទីគ័រទីបរិសុទ្ធ",
+      "category": "សំណុំរូបគំនូរ",
+      "status": "ស្ទីគ័រ 550+"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "ភាពយន្តណែនាំ MyBibleLens",
+      "category": "ភាពយន្តម៉ាក",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "វីដេអូខ្លីអំពីមុខងារ",
+      "category": "ស៊េរីវីដេអូ",
+      "status": "វីដេអូ 10"
+    },
+    "look-closer-series": {
+      "name": "ស៊េរី Look Closer",
+      "category": "ស៊េរីបណ្តាញសង្គម",
+      "status": "ការបង្ហោះ 60"
+    },
+    "25-week-campaign": {
+      "name": "យុទ្ធនាការ 25 សប្តាហ៍",
+      "category": "ផែនការ Instagram",
+      "status": "ការបង្ហោះ 100"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "សៀវភៅលំហាត់",
+      "status": "33 ប្លុក"
+    },
+    "water-check-store": {
+      "name": "ហាង Water Check",
+      "category": "ទំនិញម៉ាក",
+      "status": "នឹងមកដល់ឆាប់ៗ"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "កម្មវិធី",
+      "body": "ផលិតផលដែលមានប្រយោជន៍ និងគិតគូរល្អិតល្អន់ រចនាឡើងជុំវិញមនុស្សពិត។",
+      "interest": "បង្កើតកម្មវិធី ឬគំនិតសូហ្វវែរ"
+    },
+    "02": {
+      "title": "គេហទំព័រ",
+      "body": "ផ្ទះឌីជីថលប្លែកពីគេ ដែលច្បាស់លាស់ រស់រវើក និងស្វាគមន៍។",
+      "interest": "គេហទំព័រ ឬបទពិសោធន៍ឌីជីថល"
+    },
+    "03": {
+      "title": "ប្រព័ន្ធ AI",
+      "body": "បញ្ញាសិប្បនិម្មិតជាក់ស្តែង ដែលជួយឱ្យគំនិត និងក្រុមការងាររីកចម្រើនទៅមុខ។",
+      "interest": "ប្រព័ន្ធ AI ឬឧបករណ៍ផលិតភាព"
+    },
+    "04": {
+      "title": "ការច្នៃប្រឌិត",
+      "body": "អត្តសញ្ញាណ ទិសដៅ និងបទពិសោធន៍ ដែលមានអត្ថន័យនៅចំកណ្តាល។",
+      "interest": "ទិសដៅច្នៃប្រឌិត ឬការរចនា"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "ផ្ទះអាជីវកម្មដែលរៀបចំឡើងសម្រាប់អ្នកផ្ទាល់។ CRM ហិរញ្ញវត្ថុ គម្រោង ឧបករណ៍ក្រុមការងារ និងមុខងារណាក៏ដោយដែលអ្នកត្រូវការបន្ទាប់ ទាំងអស់នៅកន្លែងតែមួយ។",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "ស្វ័យប្រវត្តិកម្ម",
+      "body": "ជំនួសការងារដដែលៗ ដោយលំហូរការងារដែលភ្ជាប់គ្នា ដែលធ្វើឱ្យអាជីវកម្មរបស់អ្នកដំណើរការជានិច្ច។",
+      "interest": "ស្វ័យប្រវត្តិកម្ម"
+    },
+    "07": {
+      "title": "វិបផតថលអតិថិជន",
+      "body": "ផ្តល់ឱ្យអតិថិជន ឬសមាជិកនូវកន្លែងតែមួយដ៏ប្រណីត ដើម្បីទំនាក់ទំនង កក់ពេល ចែករំលែកឯកសារ និងតាមដានវឌ្ឍនភាព។",
+      "interest": "វិបផតថលអតិថិជន"
+    },
+    "08": {
+      "title": "ការសង្គ្រោះឌីជីថល",
+      "body": "ជួសជុល ធ្វើទំនើបកម្ម ឬកសាងឡើងវិញ នូវសូហ្វវែរដែលលែងបម្រើអាជីវកម្មរបស់អ្នក។",
+      "interest": "ការសង្គ្រោះឌីជីថល"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Hapụ okwu ndị influencer. Mụta otú ahụ gị si arụ ọrụ n'ezie.",
+    "lead": "Nwalee ihe mgbako n'efu na-enweghị akaụntụ, wee lelee ngwa anyị na-ewu maka ndekọ kwa ụbọchị.",
+    "appLink": "Lelee ngwa ahụ ↓",
+    "logoLabel": "Jiri ihe mgbako The Water Check"
+  },
+  "intro": {
+    "kicker": "Ihe mgbako mmiri ahụ",
+    "title": "Malite na ọnụọgụ ị maara."
+  },
+  "units": {
+    "legend": "Nkeji ibu",
+    "pounds": "Paụnd (lb)",
+    "kilograms": "Kilogram (kg)"
+  },
+  "weight": {
+    "labelLb": "Ibu (lbs)",
+    "labelKg": "Ibu (kg)",
+    "valueTextLb": "Paụnd {{value}}",
+    "valueTextKg": "Kilogram {{value}}"
+  },
+  "height": {
+    "legend": "Ogologo",
+    "feet": "Ogologo (ft)",
+    "inches": "Ogologo (in)",
+    "centimeters": "Ogologo (cm)",
+    "note": "Mmiri ahụ gị chọrọ na-eso ibu ahụ na-enweghị abụba, ya mere ogologo kacha dị mkpa mgbe ibu gị dị elu maka ọdịdị ahụ gị."
+  },
+  "activity": {
+    "label": "Mmegharị Ahụ Kwa Ụbọchị (nkeji)",
+    "value": "Nkeji {{minutes}}",
+    "valueText": "Nkeji {{minutes}}"
+  },
+  "factors": {
+    "legend": "Ihe ndị nwere ike ịgbanwe mmiri ahụ gị chọrọ",
+    "intro": "Anyị na-etinye ọnụọgụ naanị ebe enwere mgbanwe kwa ụbọchị a pụrụ ịgbachitere. Azịza ndị ọzọ na-eme ka ndụmọdụ gị dabara gị, n'emeghị ka à ga-asị na sayensị kwadoro otu ọnụ ọgụgụ kpọmkwem.",
+    "age": {
+      "label": "Afọ",
+      "hint": "Afọ na-enye nghọta; ọ naghị egosi na mmadụ eruola oge nsọ ịkwụsị (menopause)."
+    },
+    "lifeStage": {
+      "label": "Ọkwa ndụ",
+      "hint": "Ọ na-eji mgbanwe doro anya maka ịdị ime ma ọ bụ mmepụta mmiri ara.",
+      "options": {
+        "standard": "Nkịtị",
+        "pregnant": "Dị ime",
+        "breastfeeding": "Na-enye nwa ara"
+      }
+    },
+    "sex": {
+      "label": "Nwoke ma ọ bụ nwanyị",
+      "hint": "Ọ bụghị iwu. Ọ na-eme ka mgbako ibu kwesịrị ekwesị na mmiri ntụaka doo anya karịa.",
+      "options": {
+        "unspecified": "Achọghị m ikwu",
+        "woman": "Nwanyị",
+        "man": "Nwoke"
+      }
+    },
+    "luteal": {
+      "label": "Izu tupu oge nsọ gị",
+      "hint": "Ọ na-eso mmiri ahụ na-ejide n'oge luteal na afọ ọzịza homonụ kpatara. Ọ dịghị mgbakwunye a kapịrị ọnụ dabara onye ọ bụla."
+    },
+    "heat": {
+      "label": "Okpomọkụ ma ọ bụ iru mmiri n'ikuku",
+      "hint": "Ndụmọdụ okpomọkụ dabere n'otú ị nọ n'okpomọkụ na ọsụsọ gị, ọ bụghị naanị ebe ị nọ."
+    }
+  },
+  "result": {
+    "goal": "Ebumnuche Gị Kwa Ụbọchị: Ounce {{ounces}}",
+    "breakdown": "Nkọwa mgbako",
+    "weightBaseline": "Ntọala ibu",
+    "heightAndBuild": "Ogologo na ọdịdị ahụ",
+    "sexReference": "Ntụaka nwoke ma ọ bụ nwanyị",
+    "notSet": "Edobeghị",
+    "activity": "Mgbanwe maka mmegharị ahụ",
+    "lifeStage": {
+      "standard": "Mgbanwe ọkwa ndụ",
+      "pregnant": "Mgbanwe maka ịdị ime",
+      "breastfeeding": "Mgbanwe maka inye nwa ara"
+    },
+    "luteal": "Ndụmọdụ oge luteal",
+    "noFixedOunces": "Enweghị +oz a kapịrị ọnụ",
+    "electrolytes": "Nlele electrolytes",
+    "electrolytesAfterSweat": "Tụlee ya mgbe ọsụsọ buru ibu",
+    "electrolytesFromFood": "Nri na-ezukarị ya",
+    "guidance": "Nke a bụ ntụle mmụta maka ime atụmatụ, maka ndị toro eto; ọ bụghị nchọpụta ọrịa, ọgwụgwọ, ma ọ bụ ndenye ọgwụ nke dọkịta. Nri na-enyekwa mmiri, ihe onye ọ bụla chọrọ na-adịkwa iche. Amanyela onwe gị ịṅụ ihe ọṅụṅụ. Jụọ onye ọkachamara ahụike gbasara ihe ị chọrọ ma ọ bụrụ na ị dị ime ma ọ bụ na-enye nwa ara, na-aṅụ ọgwụ na-emetụta nguzozi mmiri n'ahụ, nwere ọrịa akụrụ ma ọ bụ nke obi, a gwara gị ka ị belata mmiri ị na-aṅụ, ma ọ bụ nwere mgbaàmà na-echegbu gị."
+  },
+  "equivalents": {
+    "title": "Nke ahụ dị ka",
+    "cups": "Iko {{value}}",
+    "cupsNote": "8 oz nke ọ bụla",
+    "liters": "Lita {{value}}",
+    "litersNote": "metrik",
+    "bottles": "Karama {{value}}",
+    "bottlesNote": "karama 16.9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Rie mmiri gị",
+    "title": "Ọ bụghị ya niile ga-esi n'iko.",
+    "copy": "Ihe dị ka otu ụzọ n'ụzọ ise nke mmiri ọtụtụ mmadụ na-enweta kwa ụbọchị na-esi na nri. Ọtụtụ mkpụrụ osisi na akwụkwọ nri ọhụrụ bụ mmiri pasentị 70 ruo 95, ma ozugbo mmiri ahụ ruru n'ọbara gị, ọ na-enye ahụ gị mmiri kpọmkwem otú ihe ọṅụṅụ si eme.",
+    "drink": "Ṅụọ",
+    "drinkNote": "Iko {{cups}} nke mmiri, tii, ma ọ bụ mmiri ara ehi",
+    "eat": "Rie",
+    "eatNote": "site na nri nwere ọtụtụ mmiri",
+    "pickLegend": "Gosi òkè nri ahụ dị ka",
+    "estimate": "{{food}}: ≈ {{amount}}",
+    "detail": "{{serving}} nwere ihe dị ka {{ounces}} oz mmiri ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "Iko anyụ",
+      "serving": "Iko 1, e beere obere obere",
+      "water": "mmiri 92%"
+    },
+    "cucumber": {
+      "label": "Kukumba",
+      "serving": "Kukumba 1 nke nha etiti",
+      "water": "mmiri 95%"
+    },
+    "strawberries": {
+      "label": "Iko strọberị",
+      "serving": "Iko 1",
+      "water": "mmiri 91%"
+    },
+    "oranges": {
+      "label": "Oroma",
+      "serving": "Oroma 1 nke nha etiti",
+      "water": "mmiri 87%"
+    },
+    "salad": {
+      "label": "Efere salad",
+      "serving": "Iko 2, agwakọtara agwakọta",
+      "water": "ihe dị ka mmiri 94%"
+    },
+    "soup": {
+      "label": "Efere ofe mmiri",
+      "serving": "Iko 1",
+      "water": "ihe dị ka mmiri 92%"
+    },
+    "tomatoes": {
+      "label": "Tomatọ",
+      "serving": "Tomatọ 1 nke nha etiti",
+      "water": "mmiri 95%"
+    },
+    "grapes": {
+      "label": "Iko mkpụrụ vaịn",
+      "serving": "Iko 1",
+      "water": "mmiri 81%"
+    },
+    "peaches": {
+      "label": "Pịchị",
+      "serving": "Pịchị 1 nke nha etiti",
+      "water": "mmiri 89%"
+    },
+    "cantaloupe": {
+      "label": "Iko kantalupụ",
+      "serving": "Iko 1, e beere obere obere",
+      "water": "mmiri 90%"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Ihe mere mmiri nri ji agụ",
+    "title": "Mmiri si n'anyụ bụ otu mmiri ahụ.",
+    "sameMolecule": "<strong>Otu molekụl ahụ.</strong> H2O si na kukumba na H2O si na pọmpụ bụ otu ihe. Ozugbo ọ gafere n'eriri afọ gị banye n'ọbara gị, ahụ gị na-ezigara ya akwara gị n'otu ụzọ ahụ.",
+    "slowRelease": "<strong>Ọ na-apụta nwayọọ nwayọọ.</strong> Mmiri dị na mkpụrụ osisi na akwụkwọ nri na-anọ n'ime eriri (fiber) na mgbidi sel, ya mere ahụ na-amị ya nwayọọ nwayọọ karịa iko mmiri ị ṅụrụ ọsọ ọsọ, nke akụrụ gị na-ewepụkarị ngwa ngwa.",
+    "electrolytes": "<strong>Electrolytes na-eso ya.</strong> Kukumba, inine (spinach), anyụ, na mkpụrụ osisi ndị dị ka strọberị nwere potassium na magnesium, mineral ndị sel gị na-eji ejide mmiri.",
+    "glycogen": "<strong>Ike na nchekwa ọnụ.</strong> Akwara na-echekwa carbohydrate dị ka glycogen, ma gram ọ bụla nke glycogen na-eso ihe dị ka gram mmiri atọ echekwa. Nri nwere ọtụtụ mmiri na carbohydrate na-enye ha abụọ.",
+    "caveat": "Ị ka kwesịrị ịṅụ ihe. Nri na-enyekarị ihe dị ka otu ụzọ n'ụzọ ise nke mkpokọta; nke fọdụrụ na-esi na mmiri na ihe ọṅụṅụ ndị ọzọ. Mkpụrụ osisi a mịrị amị, akụ, na achịcha nwere naanị ntakịrị mmiri."
+  },
+  "grace": {
+    "kicker": "Obiọma nye ahụ",
+    "title": "Ndetu Nkenke Maka Iwere Onwe Gị Nwayọọ",
+    "body": "Ihe ị na-ahụ n'enyo na otú uwe gị si ekwe gị nwere ike ịgbanwe n'ihi mmiri ahụ na-ejide, mgbari nri, homonụ, ụra, na mgbanwe ndị ọzọ nkịtị. Otu ụbọchị afọ zara aza anaghị akọwa ahụ gị. Jiri nlezianya ṅụọ mmiri, nye onwe gị oge, ma hapụ ka ọchịchọ ịmata dochie ihere. Afọ ọzịza na-adịgide adịgide, ọzịza ahụ, mgbanwe ibu na mberede, ma ọ bụ mgbaàmà na-echegbu gị kwesịrị ka gị na onye ọkachamara ahụike kparịta ụka."
+  },
+  "overhydration": {
+    "title": "Ihe Ize Ndụ nke Ịmanye Onwe Gị Ịṅụ Mmiri",
+    "kidneys": "Akụrụ gị chọrọ oge iji wepụ mmiri. Mgbe ị na-emega ahụ ogologo oge, ịṅụ mmiri ọsọ ọsọ karịa ka ị na-atụfu ya nwere ike ime ka sodium dị n'ọbara gị dị mmiri mmiri, wee kpata hyponatremia metụtara mmega ahụ. Mgbaàmà mbụ nwere ike ịgụnye isi ọwụwa, mmetụta ịgbọ agbọ, isi ịgba gburugburu, ike ọgwụgwụ, ma ọ bụ mgbagwoju anya. Ọnọdụ siri ike nwere ike ịkpata ọzịza ụbụrụ, ọdịdọ, ịnọ n'ọnọdụ amaghị onwe (coma), na ọnwụ.",
+    "pacing": "Agbala ọsọ ịru atụmatụ a site n'ịṅụ ọtụtụ mmiri n'otu mgbe. Kesaa ihe ọṅụṅụ gị n'ụbọchị niile. Mgbe ị na-emega ahụ, ṅụọ dabere n'akpịrị ịkpọ nkụ gị, ọnọdụ gburugburu, na ọsụsọ nke gị ị na-atụfu. Chọọ nlekọta ahụike ozugbo maka mgbagwoju anya, ọdịdọ, ịda n'ala na mberede, ma ọ bụ mgbaàmà siri ike.",
+    "sources": "Isi mmalite: <nih>Ntụziaka NIH gbasara hyponatremia metụtara mmega ahụ</nih> na <academies>ndụmọdụ National Academies gbasara mmiri ọṅụṅụ</academies>."
+  },
+  "notes": {
+    "title": "Ndetu ihe akaebe gị",
+    "sexMan": "<strong>Nwoke ma ọ bụ nwanyị:</strong> Ntụaka National Academies bụ ihe dị ka lita 3.7 nke mmiri niile kwa ụbọchị maka ụmụ nwoke na lita 2.7 maka ụmụ nwanyị. Ibu ahụ na-akọwa ọtụtụ n'ime ọdịiche ahụ, ya mere nke fọdụrụ na-apụta ebe a dị ka mmụba pasentị 4 na ntọala ibu, nlele ogologo na ọdịdị ahụ na-ejikwa usoro ibu kwesịrị ekwesị nke ụmụ nwoke.",
+    "sexWoman": "<strong>Nwoke ma ọ bụ nwanyị:</strong> Ntụaka National Academies bụ ihe dị ka lita 3.7 nke mmiri niile kwa ụbọchị maka ụmụ nwoke na lita 2.7 maka ụmụ nwanyị. Ibu ahụ na-akọwa ọtụtụ n'ime ọdịiche ahụ, ya mere nke fọdụrụ na-apụta ebe a dị ka mbelata pasentị 4 na ntọala ibu, nlele ogologo na ọdịdị ahụ na-ejikwa usoro ibu kwesịrị ekwesị nke ụmụ nwanyị.",
+    "height": "<strong>Ogologo na ọdịdị ahụ:</strong> Mmiri ahụ chọrọ na-eso ibu ahụ na-enweghị abụba karịa ibu niile. Ebe ibu gị karịrị oke a na-ahụkarị maka ogologo gị, ntụle a na-eji ibu ahụ a gbanwere (ibu kwesịrị ekwesị gbakwunyere pasentị 40 nke ọdịiche ahụ), usoro a na-ejikarị n'ọrụ ahụike. Ọ bụ ọnụọgụ nkịtị maka ime atụmatụ, ọ bụghị ikpe gbasara ahụ gị.",
+    "cycle": "<strong>Ọkwa oge nsọ:</strong> Mgbanwe mmiri n'ahụ metụtara oge nsọ dị adị, mana nchọcha egosighị otu mmụba ounce a kapịrị ọnụ dabara onye ọ bụla. Etinyeghị ounce ọ bụla n'onwe ya. Nri a na-eri kwa ụbọchị na-ezukarị maka electrolytes; mgbakwunye magnesium ma ọ bụ potassium abụghị ndụmọdụ maka onye ọ bụla.",
+    "age": "<strong>Afọ na oge nsọ ịkwụsị:</strong> Naanị afọ anaghị egosi ma mmadụ ọ ruola oge nsọ ịkwụsị (menopause). Mgbanwe homonụ nwere ike imetụta akpịrị ịkpọ nkụ na otú ahụ si achịkwa mmiri, mana ọ dịghị mgbanwe ounce “karịa afọ 45” e nyochara, ya mere afọ gị agbanweghị mkpokọta ahụ.",
+    "heat": "<strong>Okpomọkụ:</strong> Mgbakwunye a kapịrị ọnụ maka ihu igwe nwere ike ime ka a tụọ ihe ị chọrọ ala karịa ma ọ bụ elu karịa. Maka ọrụ na-adịghị oke ike n'okpomọkụ nke na-erughị awa abụọ, NIOSH na-adụ ọdụ ka ị ṅụọ ihe dị ka ounce 8 kwa nkeji 15 ruo 20; ọsụsọ buru ibu nke na-adị ogologo oge chọrọ atụmatụ nnọchi mmiri a haziri maka gị."
+  },
+  "evidence": {
+    "label": "Akaebe:",
+    "academies": "Ntụziaka National Academies gbasara ịṅụ mmiri",
+    "harvard": "Harvard Health gbasara nri na mmiri n'ahụ",
+    "cycle": "Nchọcha gbasara nguzozi mmiri n'oge nsọ",
+    "menopause": "Nyocha gbasara njikwa mmiri n'oge nsọ ịkwụsị",
+    "niosh": "Ntụziaka CDC/NIOSH gbasara okpomọkụ"
+  },
+  "tips": {
+    "kicker": "Bara uru, na-enweghị oke nchegbu",
+    "title": "Nlele atọ maka ndụ n'ezie.",
+    "schedule": {
+      "title": "Usoro Oge",
+      "body": "Were mmiri malite ụtụtụ gị, ṅụọ ntakịrị ntakịrị mgbe ị na-eri nri, ma hapụ ka akpịrị ịkpọ nkụ, ihu igwe, na mmegharị ahụ duzie nke fọdụrụ."
+    },
+    "electrolytes": {
+      "title": "Electrolytes",
+      "body": "Ọtụtụ mmadụ na-eji nri ha na-eri kwa ụbọchị dochie electrolytes. Mgbe ị gbasịrị ọsụsọ ogologo oge ma ọ bụ nke ukwuu, họrọ ihe ọṅụṅụ electrolyte nwere nguzozi; etinyela nnu mgbe niile ma ọ bụrụ na a dụrụ gị ọdụ ka ị belata sodium."
+    },
+    "visualCheck": {
+      "title": "Nlele Anya",
+      "body": "Mamịrị na-acha odo odo nke na-adịghị ike nwere ike ịbụ otu ihe ngosi na-adịghị nnọọ ziri ezi na ahụ gị nwere mmiri zuru ezu. Nri, vitamin, ọgwụ, na ọnọdụ ahụike nwere ike ịgbanwe agba ya, ya mere ọ bụghị nchọpụta ọrịa."
+    }
+  },
+  "author": {
+    "kicker": "Site n'aka onye wuru ya",
+    "title": "Ihe Mere M Ji Wuo Nke A (Na Ihe Mere I Kwesịghị Ige Naanị M Ntị)",
+    "athlete": "Aha m bụ Denzel Rigaud. Agbara m ọsọ mita 400 na ọsọ ịwụfe ihe mgbochi (hurdles) ihe karịrị afọ itoolu, ya mere ịṅụ mmiri ghọrọ akụkụ nke otú m si eme mmega, otú ahụ m si agbake, na otú m si mụta ịghọta ahụ m.",
+    "purpose": "M wuru The Water Check ka m nyere gị aka ịnụ olu ahụ gị karịa mkpọtụ ịntanetị. Achọghị m ka ị were ahụmịhe m dị ka ndenye ọgwụ. Otú ahụ gị si arụ ọrụ, gburugburu gị, akụkọ ahụike gị, na ọkwa ndụ gị na-akpụzi ihe ị chọrọ.",
+    "technology": "Teknụzụ adịghị maka ka anyị na-akpụgharị ihuenyo n'enweghị nkwụsị ma na-ebi ndụ ndị ọzọ. O kwesịrị ime ka ndụ anyị na-amị mkpụrụ ma mee ka mmụọ, mkpụrụ obi, uche, na anụ ahụ anyị ka mma, ka anyị ghọọ ezigbo onye anyị chọrọ ịbụ. Ya mere, kwụsị ige onye ọ bụla ọzọ ntị, n'ihi na ihe na-arụrụ gị ọrụ, na-arụrụ gị ọrụ.",
+    "faith": "Mụta usoro ahụ gị ma kọọrọ onye ọkachamara ruru eru nsogbu ahụike gị. Ilekọta ahụ gị, bụ arịa gị, nwere ike ime ka ị bịaruo onwe gị nso na Chineke, onye tinyere n'ime onye ọ bụla n'ime anyị ọkụ kwesịrị nlekọta.",
+    "motto": "Esola ndị influencer. Mata onwe gị.",
+    "date": "15 Maachị 2021",
+    "founderPage": "Ibe Onye Guzobere"
+  },
+  "community": {
+    "kicker": "Mee ka ọ bụrụ nke mmadụ",
+    "title": "Sonye n'ezigbo obodo ahụ.",
+    "instagram": "Soro @thewatercheck na Instagram",
+    "reelSoon": "Instagram Reel na-abịa n'oge na-adịghị anya",
+    "story": "Akụkọ obodo {{position}}"
+  }
+}

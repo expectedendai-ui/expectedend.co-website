@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Akhbar & media",
+    "title": "Sumber akhbar untuk Expected End.",
+    "intro": "Biografi rasmi, fakta yang disahkan dan media yang boleh dimuat turun untuk liputan tentang Expected End dan pengasasnya, Denzel Rigaud.",
+    "downloadPortrait": "Muat turun potret"
+  },
+  "inquiry": "Mulakan pertanyaan media",
+  "role": "Pengasas dan pembangun full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud memakai sut biru tua dan cermin mata berkanta jingga"
+  },
+  "contents": {
+    "label": "Bahagian halaman akhbar",
+    "kit": "Kit akhbar / 2026",
+    "biographies": "Biografi",
+    "facts": "Fakta yang disahkan",
+    "projects": "Projek",
+    "licensing": "Penggunaan media"
+  },
+  "bios": {
+    "kicker": "Teks rasmi",
+    "title": "Biografi",
+    "text": "Versi ini boleh dipetik atau disesuaikan untuk liputan editorial.",
+    "shortLabel": "Bio ringkas / 24 patah perkataan",
+    "fullLabel": "Bio penuh",
+    "fullFirst": "Denzel Rigaud mengasaskan EXPECTEDEND LLC dan membina MyBibleLens serta The Water Check secara bebas. Beliau bekerja sebagai pembangun full-stack syarikat, membentuk setiap produk daripada konsep hingga reka bentuk, kejuruteraan dan pelancaran.",
+    "fullSecond": "Kerjanya memberi tumpuan kepada perisian berpaksikan iman, kesejahteraan digital dan alat praktikal yang membantu orang menggunakan teknologi dengan penuh niat. MyBibleLens ialah aplikasi sanctuary untuk Kristian. The Water Check menggabungkan anggaran penghidratan peribadi, tabiat minum air yang praktikal dan komuniti yang memberi tumpuan kepada konsistensi harian."
+  },
+  "facts": {
+    "kicker": "Helaian fakta",
+    "title": "Fakta yang disahkan",
+    "text": "Butiran rasmi untuk profil, artikel, kapsyen dan pangkalan data.",
+    "company": "Syarikat",
+    "founder": "Pengasas",
+    "role": "Peranan",
+    "products": "Produk",
+    "productsValue": "MyBibleLens dan The Water Check",
+    "website": "Laman web rasmi",
+    "profile": "Profil pengasas",
+    "entityLabel": "{{name}} di Wikidata"
+  },
+  "projects": {
+    "kicker": "Produk",
+    "title": "Hasil kerja",
+    "text": "Dua produk, dibina secara bebas di bawah Expected End.",
+    "mybiblelens": {
+      "alt": "Ikon aplikasi MyBibleLens",
+      "kicker": "Perisian berpaksikan iman",
+      "text": "Aplikasi Sanctuary untuk Kristian.",
+      "visit": "Lawati MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Ikon aplikasi The Water Check",
+      "kicker": "Penghidratan dan komuniti",
+      "text": "Anggaran penghidratan peribadi, tabiat minum air yang praktikal dan komuniti.",
+      "visit": "Lawati The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Penggunaan media",
+    "title": "Potret pengasas",
+    "text": "Potret ini boleh dikongsi dan disesuaikan di bawah lesen <license>Creative Commons Attribution-ShareAlike 4.0</license>. Kredit: Denzel Rigaud / Expected End. Sebarang penyesuaian mesti menggunakan lesen yang sama.",
+    "download": "Muat turun potret pengasas"
+  },
+  "contact": {
+    "kicker": "Hubungan media",
+    "title": "Perlukan temu bual, petikan atau fail tambahan?"
+  }
+}

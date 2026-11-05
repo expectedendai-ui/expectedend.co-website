@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Si Denzel Rigaud ang founder at full-stack developer sa likod ng Expected End, MyBibleLens (ang Santuwaryong App para sa Kristiyanismo), at The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "App para sa Kristiyanismo",
+      "action": "Bisitahin ang app",
+      "tagline": "Ang Santuwaryong App para sa Kristiyanismo.",
+      "secondary": "Bio",
+      "badge": "Nasa App Store"
+    },
+    "watercheck": {
+      "category": "Komunidad ng hydration",
+      "action": "Bisitahin ang app",
+      "tagline": "Unawain ang iniinom mo. Ang sarili mong numero sa tubig, sa isang tap.",
+      "badge": "Nire-review"
+    },
+    "mybiblelens-store": {
+      "category": "Tindahan · Malapit na",
+      "action": "Pumasok sa tindahan",
+      "tagline": "Pananampalatayang puwede mong isuot."
+    },
+    "watercheck-store": {
+      "category": "Tindahan · Malapit na",
+      "action": "Pumasok sa tindahan",
+      "tagline": "Gamit para sa Departamento ng Hydration."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "App ng pananampalataya · iOS",
+      "status": "Nasa App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "App sa hydration · iOS",
+      "status": "Nire-review"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens para sa Android",
+      "category": "Google Play",
+      "status": "Saradong pagsubok"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Walang hangganang canvas",
+      "status": "Live na"
+    },
+    "journey-plans": {
+      "name": "Mga plano sa Journey",
+      "category": "Mga plano sa pagbabasa + selyo",
+      "status": "Live na"
+    },
+    "water-check-crews": {
+      "name": "Mga Barkada ng Water Check",
+      "category": "Hydration ng team",
+      "status": "Tapos na"
+    },
+    "home-screen-widgets": {
+      "name": "Mga widget sa Home Screen",
+      "category": "Mga iOS widget",
+      "status": "Tapos na"
+    },
+    "hydration-calculator": {
+      "name": "Calculator ng hydration",
+      "category": "Web tool",
+      "status": "Live na"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "App na HQ ng negosyo",
+      "status": "Binubuo pa"
+    },
+    "43-language-rollout": {
+      "name": "Paglulunsad sa 43 wika",
+      "category": "Localization",
+      "status": "43 wika"
+    },
+    "mybiblelens-store": {
+      "name": "Tindahan ng MyBibleLens",
+      "category": "Merch",
+      "status": "Malapit na"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Website ng app",
+      "status": "Live na"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Website ng kumpanya",
+      "status": "Live na"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Pag-aaral ng Bibliya gamit ang AI",
+      "status": "AI demo"
+    },
+    "hidden-art-world": {
+      "name": "Nakatagong mundo ng sining",
+      "category": "Interactive na web art",
+      "status": "Easter egg"
+    },
+    "sanctuary-stickers": {
+      "name": "Mga sticker ng Santuwaryo",
+      "category": "Set ng ilustrasyon",
+      "status": "550+ sticker"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Pitch film ng MyBibleLens",
+      "category": "Brand film",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Mga feature reel",
+      "category": "Serye ng video",
+      "status": "10 video"
+    },
+    "look-closer-series": {
+      "name": "Seryeng Look Closer",
+      "category": "Serye sa social media",
+      "status": "60 post"
+    },
+    "25-week-campaign": {
+      "name": "25-linggong kampanya",
+      "category": "Plano sa Instagram",
+      "status": "100 post"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Workbook",
+      "status": "33 block"
+    },
+    "water-check-store": {
+      "name": "Tindahan ng Water Check",
+      "category": "Merch",
+      "status": "Malapit na"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Mga App",
+      "body": "Kapaki-pakinabang at maingat na pinag-isipang mga produkto para sa totoong tao.",
+      "interest": "Pagbuo ng ideya para sa app o software"
+    },
+    "02": {
+      "title": "Mga Website",
+      "body": "Natatanging digital na tahanan na malinaw, buhay, at magiliw.",
+      "interest": "Website o digital experience"
+    },
+    "03": {
+      "title": "Mga AI system",
+      "body": "Praktikal na talino na tumutulong sa mga ideya at team na umusad.",
+      "interest": "AI system o productivity tool"
+    },
+    "04": {
+      "title": "Creative",
+      "body": "Pagkakakilanlan, direksiyon, at mga karanasang may kahulugan sa gitna.",
+      "interest": "Creative direction o disenyo"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ang custom na tahanan ng negosyo mo. CRM, pananalapi, mga proyekto, tool para sa team, at kahit anong kakayahang kailangan mo sa susunod, lahat sa iisang lugar.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Mga Automation",
+      "body": "Palitan ang paulit-ulit na trabaho ng magkakakonektang workflow na nagpapatuloy sa takbo ng negosyo mo.",
+      "interest": "Mga Automation"
+    },
+    "07": {
+      "title": "Mga Client Portal",
+      "body": "Bigyan ang mga customer o miyembro ng iisang maayos na lugar para makipag-usap, mag-book, magbahagi ng file, at subaybayan ang progreso.",
+      "interest": "Mga Client Portal"
+    },
+    "08": {
+      "title": "Digital na Pagsagip",
+      "body": "Ayusin, gawing moderno, o buuin muli ang software na hindi na umaayon sa negosyo mo.",
+      "interest": "Digital na Pagsagip"
+    }
+  }
+}

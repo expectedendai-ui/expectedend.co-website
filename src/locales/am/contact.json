@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected Endን ያግኙ",
+    "title": "በጥቂት <em>ዐውድ</em> ይጀምሩ።",
+    "intro": "ጥቂት ዝርዝሮችን ይምረጡ፤ ግልጽ የሆነ ኢሜይል ይዘጋጅልዎታል። ምንም ነገር ከመላኩ በፊት የኢሜይል መተግበሪያዎ ይከፈታል።"
+  },
+  "fields": {
+    "name": "ስምዎ",
+    "email": "ኢሜይልዎ",
+    "reason": "ይህ ስለ ምንድን ነው?",
+    "project": "የትኛው ፕሮጀክት?",
+    "priceRange": "የዋጋ ክልል",
+    "timeline": "ተመራጭ የጊዜ ሰሌዳ",
+    "discovery": "Expected Endን እንዴት አገኙት?",
+    "message": "ምን አስበዋል?",
+    "chooseOne": "አንዱን ይምረጡ"
+  },
+  "reasons": {
+    "partnership": "አጋርነት ወይም ትብብር",
+    "press": "ሚዲያ",
+    "general": "አጠቃላይ ጥያቄ"
+  },
+  "projects": {
+    "waterCheckCommunity": "የThe Water Check ማህበረሰብ",
+    "newIdea": "አዲስ ሐሳብ"
+  },
+  "timelines": {
+    "exploring": "ገና እያሰብኩ ነው",
+    "month": "በአንድ ወር ውስጥ",
+    "threeMonths": "በሦስት ወራት ውስጥ",
+    "laterThisYear": "በዚህ ዓመት በኋላ",
+    "notSure": "ገና እርግጠኛ አይደለሁም"
+  },
+  "discovery": {
+    "waterCheckCommunity": "የThe Water Check ማህበረሰብ",
+    "search": "ፍለጋ",
+    "referral": "በሰው ጥቆማ",
+    "elsewhere": "ሌላ ቦታ"
+  },
+  "submit": {
+    "note": "እርስዎ ገምግመው በኢሜይል መተግበሪያዎ ውስጥ ላክ የሚለውን እስኪጫኑ ድረስ ምንም አይላክም።",
+    "apps": "<app>የኢሜይል መተግበሪያዎን</app>፣ <gmail>Gmail</gmail>፣ <outlook>Outlook</outlook> ወይም <yahoo>Yahoo Mail</yahoo> ይምረጡ።",
+    "button": "ኢሜይል ያዘጋጁ"
+  },
+  "dialog": {
+    "close": "የመገናኛ ቅጹን ይዝጉ"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Ukurasa huo haupo hapa.",
+    "home": "Rudi mwanzo"
+  },
+  "legal": {
+    "englishOnly": "Ukurasa huu unaonyeshwa kwa Kiingereza, na toleo la Kiingereza ndilo linalotumika.",
+    "effective": "Inatumika kuanzia {{date}}",
+    "onThisPage": "Kwenye ukurasa huu",
+    "related": "Kurasa zinazohusiana"
+  }
+}

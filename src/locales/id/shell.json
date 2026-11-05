@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Navigasi utama",
+    "projects": "Proyek",
+    "services": "Layanan",
+    "company": "Misi · Tentang · Pers",
+    "contact": "Kontak",
+    "home": "Beranda Expected End",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "links": {
+      "projects": "Proyek",
+      "services": "Layanan",
+      "story": "Kisah",
+      "about": "Tentang",
+      "press": "Pers",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigasi footer",
+    "home": "Beranda",
+    "about": "Tentang",
+    "press": "Pers",
+    "terms": "Ketentuan Penggunaan",
+    "privacy": "Pernyataan Privasi",
+    "accessibility": "Aksesibilitas",
+    "contact": "Kontak",
+    "mission": "Semua yang saya bangun di bawah perusahaan ini mengarah pada misi yang sama: membawa orang lebih dekat kepada Tuhan dan membantu mereka memakai teknologi untuk hidup, berkarya, mengasihi, dan melayani dengan penuh kesengajaan. Itulah hari depan yang penuh harapan yang sedang saya perjuangkan.",
+    "verse": "Yeremia 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. Semua hak dilindungi.",
+    "blessing": "Yesus mengasihimu."
+  }
+}

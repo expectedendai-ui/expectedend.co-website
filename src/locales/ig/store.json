@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Ihe maka njem ahụ",
+    "headline": "Debe ihe dị mkpa nso.",
+    "intro": "Obere nchịkọta ngwaahịa e chere echiche, e mere maka ndetu, ihe ncheta, na ije gị kwa ụbọchị na Chineke.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Akwụkwọ ndetu nwere nduzi",
+        "kind": "Akwụkwọ ndetu"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Obere ihe ncheta",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Uwe dị nro maka kwa ụbọchị",
+        "kind": "Uwe"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Maka ụtụtụ oyi",
+        "kind": "Uwe"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Mwepụta mbụ",
+    "headline": "Ṅụọ mmiri. Gaa n'ihu.",
+    "intro": "Uwe e mere maka ndị na-eche maka mmiri, ndị na-apụta, na-ejupụta karama ha ọzọ, ma na-aga n'ihu na Check ha.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Uwe elu na-egbuke egbuke maka kwa ụbọchị",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Maka mgbe ogologo ije gachara",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Agba nke abụọ",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Uwe dị arọ, dị jụụ",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Nduzi ụlọ ahịa {{store}}",
+    "collection": "Nchịkọta ahụ"
+  },
+  "hero": {
+    "action": "Lelee mwepụta mbụ",
+    "mybiblelensArt": "Akara ụlọ ahịa MyBibleLens na nchịkọta stickers",
+    "watercheckArt": "Afụ akara mmiri The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Ọ na-abịa n'oge na-adịghị anya",
+    "title": "E mere ha ka ha bụrụ akụkụ nke ụbọchị gị.",
+    "body": "Ndị a bụ ihe mbụ. Foto ngwaahịa, nhọrọ, na njikọ ịkwụ ụgwọ ga-apụta ebe a mgbe mwepụta ahụ dị njikere."
+  },
+  "product": {
+    "placeholder": "Ihe nnọchi foto {{name}}",
+    "buy": "Zụta ugbu a",
+    "comingSoon": "Ọ na-abịa n'oge na-adịghị anya",
+    "comingSoonLabel": "{{name}} na-abịa n'oge na-adịghị anya"
+  },
+  "checkout": {
+    "eyebrow": "Ọ dịghị mkpa akaụntụ",
+    "title": "Mgbe o meghere, ịkwụ ụgwọ ga-adị mfe.",
+    "body": "Họrọ ihe, pịa Zụta ugbu a, ma kwụọ ụgwọ n'ụzọ dị nchebe site na Stripe. Enweghị akaụntụ ụlọ ahịa, enweghịkwa ọgbaaghara nkata ịzụ ahịa."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. A ga-ebipụta iwu ụlọ ahịa tupu mwepụta mbụ.",
+    "policies": "Iwu ụlọ ahịa",
+    "terms": "Usoro",
+    "privacy": "Nzuzo",
+    "accessibility": "Ịdị mfe iji",
+    "shipping": "Nziga na nlọghachi (tupu mwepụta)"
+  }
+}

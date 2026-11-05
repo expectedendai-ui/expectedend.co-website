@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Mga butang alang sa panaw",
+    "headline": "Ipaduol ang mga importante.",
+    "intro": "Usa ka gamay nga koleksyon sa makahuluganong mga butang para sa mga nota, pahinumdom, ug sa adlaw-adlaw nga paglakaw uban sa Dios.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Notebook nga may giya",
+        "kind": "Notebook"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Usa ka gamay nga pahinumdom",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Humok nga adlaw-adlaw nga sul-ob",
+        "kind": "Sinina"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Para sa mas bugnaw nga mga buntag",
+        "kind": "Sinina"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Ang unang drop",
+    "headline": "Inom og tubig. Padayon sa paglihok.",
+    "intro": "Mga sinina nga dinasig sa hydration para sa mga tawo nga kanunay mopakita, mo-refill, ug mopadayon sa check.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Hayag nga adlaw-adlaw nga essential",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Para human sa layo nga paglakaw",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Ikaduhang kolor",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Kalmado ug baga nga sul-ob",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigation sa tindahan sa {{store}}",
+    "collection": "Ang koleksyon"
+  },
+  "hero": {
+    "action": "Tan-awa ang unang drop",
+    "mybiblelensArt": "Logo sa tindahan sa MyBibleLens ug collage sa sticker",
+    "watercheckArt": "Ang likido nga logo bubble sa The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Hapit na",
+    "title": "Gihimo aron mahimong bahin sa imong adlaw.",
+    "body": "Mao kini ang unang mga piraso. Ang mga litrato sa produkto, mga opsyon, ug mga checkout link makita dinhi kung andam na ang drop."
+  },
+  "product": {
+    "placeholder": "Placeholder sa produkto nga {{name}}",
+    "buy": "Palita karon",
+    "comingSoon": "Hapit na",
+    "comingSoonLabel": "Hapit na ang {{name}}"
+  },
+  "checkout": {
+    "eyebrow": "Dili kinahanglan og account",
+    "title": "Inig abli, simple lang ang checkout.",
+    "body": "Pagpili og piraso, i-tap ang Palita karon, ug mag-check out nga luwas pinaagi sa Stripe. Walay store account ug walay makalibog nga shopping cart."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Ipatik ang mga palisiya sa tindahan sa dili pa ang unang drop.",
+    "policies": "Mga palisiya sa tindahan",
+    "terms": "Mga Termino",
+    "privacy": "Pagkapribado",
+    "accessibility": "Aksesibilidad",
+    "shipping": "Pagpadala ug pagbalik (sa dili pa ang drop)"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Laprès ak medya",
+    "title": "Resous pou laprès sou Expected End.",
+    "intro": "Biyografi apwouve, enfòmasyon verifye ak medya ou ka telechaje pou pale sou Expected End ak fondatè li, Denzel Rigaud.",
+    "downloadPortrait": "Telechaje pòtrè a"
+  },
+  "inquiry": "Voye yon demann laprès",
+  "role": "Fondatè ak devlopè full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud ak yon kostim ble maren ak linèt vè oranj"
+  },
+  "contents": {
+    "label": "Seksyon paj laprès la",
+    "kit": "Kit laprès / 2026",
+    "biographies": "Biyografi",
+    "facts": "Enfòmasyon verifye",
+    "projects": "Pwojè",
+    "licensing": "Itilizasyon medya"
+  },
+  "bios": {
+    "kicker": "Tèks apwouve",
+    "title": "Biyografi",
+    "text": "Ou ka site oswa adapte vèsyon sa yo pou atik ak repòtaj.",
+    "shortLabel": "Biyografi kout / 24 mo",
+    "fullLabel": "Biyografi konplè",
+    "fullFirst": "Denzel Rigaud fonde EXPECTEDEND LLC epi li bati MyBibleLens ak The Water Check poukont li. Li travay kòm devlopè full-stack konpayi an, epi li fòme chak pwodwi depi lide a rive nan design, jeni ak lansman.",
+    "fullSecond": "Travay li konsantre sou lojisyèl ki santre sou lafwa, byennèt dijital, ak zouti pratik ki ede moun sèvi ak teknoloji ak entansyon. MyBibleLens se yon aplikasyon sanktyè pou Krisyanis. The Water Check mete ansanm yon estimasyon idratasyon prive, bon abitid pratik ak dlo, ak yon kominote ki konsantre sou konsistans chak jou."
+  },
+  "facts": {
+    "kicker": "Fich enfòmasyon",
+    "title": "Enfòmasyon verifye",
+    "text": "Detay ofisyèl pou pwofil, atik, lejann foto ak baz done.",
+    "company": "Konpayi",
+    "founder": "Fondatè",
+    "role": "Wòl",
+    "products": "Pwodwi",
+    "productsValue": "MyBibleLens ak The Water Check",
+    "website": "Sit entènèt ofisyèl",
+    "profile": "Pwofil fondatè a",
+    "entityLabel": "{{name}} sou Wikidata"
+  },
+  "projects": {
+    "kicker": "Pwodwi",
+    "title": "Travay la",
+    "text": "De pwodwi, bati poukont yo anba Expected End.",
+    "mybiblelens": {
+      "alt": "Ikòn aplikasyon MyBibleLens",
+      "kicker": "Lojisyèl ki santre sou lafwa",
+      "text": "Aplikasyon Sanktyè pou Krisyanis la.",
+      "visit": "Vizite MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Ikòn aplikasyon The Water Check",
+      "kicker": "Idratasyon ak kominote",
+      "text": "Yon estimasyon idratasyon prive, bon abitid pratik ak dlo, ak kominote.",
+      "visit": "Vizite The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Itilizasyon medya",
+    "title": "Pòtrè fondatè a",
+    "text": "Ou ka pataje epi adapte pòtrè a anba lisans <license>Creative Commons Attribution-ShareAlike 4.0</license>. Kredi: Denzel Rigaud / Expected End. Adaptasyon yo dwe sèvi ak menm lisans lan.",
+    "download": "Telechaje pòtrè fondatè a"
+  },
+  "contact": {
+    "kicker": "Kontak pou laprès",
+    "title": "Ou bezwen yon entèvyou, yon sitasyon, oswa yon lòt fichye?"
+  }
+}

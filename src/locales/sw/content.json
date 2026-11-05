@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud ni mwanzilishi na msanidi programu wa full-stack aliye nyuma ya Expected End, MyBibleLens, Programu ya Patakatifu pa Ukristo, na The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Programu ya Kikristo",
+      "action": "Tembelea programu",
+      "tagline": "Programu ya Patakatifu pa Ukristo.",
+      "secondary": "Wasifu",
+      "badge": "Kwenye App Store"
+    },
+    "watercheck": {
+      "category": "Jumuiya ya unywaji maji",
+      "action": "Tembelea programu",
+      "tagline": "Elewa unachokunywa. Kiasi chako cha maji, kwa mguso mmoja.",
+      "badge": "Inakaguliwa"
+    },
+    "mybiblelens-store": {
+      "category": "Duka · Linakuja hivi karibuni",
+      "action": "Ingia dukani",
+      "tagline": "Imani unayoweza kuivaa."
+    },
+    "watercheck-store": {
+      "category": "Duka · Linakuja hivi karibuni",
+      "action": "Ingia dukani",
+      "tagline": "Vifaa vya Idara ya Maji."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Programu ya imani · iOS",
+      "status": "Kwenye App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Programu ya unywaji maji · iOS",
+      "status": "Inakaguliwa"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens kwa Android",
+      "category": "Google Play",
+      "status": "Majaribio ya ndani"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Turubai isiyo na mwisho",
+      "status": "Iko hewani"
+    },
+    "journey-plans": {
+      "name": "Mipango ya Journey",
+      "category": "Mipango ya kusoma + mihuri",
+      "status": "Iko hewani"
+    },
+    "water-check-crews": {
+      "name": "Vikundi vya Water Check",
+      "category": "Unywaji maji kwa timu",
+      "status": "Imejengwa"
+    },
+    "home-screen-widgets": {
+      "name": "Wijeti za Skrini ya Mwanzo",
+      "category": "Wijeti za iOS",
+      "status": "Imejengwa"
+    },
+    "hydration-calculator": {
+      "name": "Kikokotoo cha maji",
+      "category": "Zana ya mtandaoni",
+      "status": "Iko hewani"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Programu ya makao makuu ya biashara",
+      "status": "Inatengenezwa"
+    },
+    "43-language-rollout": {
+      "name": "Uzinduzi kwa lugha 43",
+      "category": "Ujanibishaji",
+      "status": "Lugha 43"
+    },
+    "mybiblelens-store": {
+      "name": "Duka la MyBibleLens",
+      "category": "Bidhaa za chapa",
+      "status": "Linakuja hivi karibuni"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Tovuti ya programu",
+      "status": "Iko hewani"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Tovuti ya kampuni",
+      "status": "Iko hewani"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Kujifunza Biblia kwa AI",
+      "status": "Onyesho la AI"
+    },
+    "hidden-art-world": {
+      "name": "Ulimwengu wa sanaa uliofichwa",
+      "category": "Sanaa shirikishi ya mtandaoni",
+      "status": "Hazina iliyofichwa"
+    },
+    "sanctuary-stickers": {
+      "name": "Stika za Patakatifu",
+      "category": "Seti ya michoro",
+      "status": "Stika 550+"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Filamu ya utambulisho ya MyBibleLens",
+      "category": "Filamu ya chapa",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Video fupi za vipengele",
+      "category": "Mfululizo wa video",
+      "status": "Video 10"
+    },
+    "look-closer-series": {
+      "name": "Mfululizo wa Look Closer",
+      "category": "Mfululizo wa mitandao ya kijamii",
+      "status": "Machapisho 60"
+    },
+    "25-week-campaign": {
+      "name": "Kampeni ya wiki 25",
+      "category": "Mpango wa Instagram",
+      "status": "Machapisho 100"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Kitabu cha mazoezi",
+      "status": "Sehemu 33"
+    },
+    "water-check-store": {
+      "name": "Duka la Water Check",
+      "category": "Bidhaa za chapa",
+      "status": "Linakuja hivi karibuni"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Programu",
+      "body": "Bidhaa zenye manufaa na zilizofikiriwa vizuri, zilizobuniwa kwa ajili ya watu halisi.",
+      "interest": "Kujenga programu au wazo la kiteknolojia"
+    },
+    "02": {
+      "title": "Tovuti",
+      "body": "Makao ya kidijitali ya kipekee yanayohisi wazi, hai, na yenye kukaribisha.",
+      "interest": "Tovuti au uzoefu wa kidijitali"
+    },
+    "03": {
+      "title": "Mifumo ya AI",
+      "body": "Akili bandia ya vitendo inayosaidia mawazo na timu kusonga mbele.",
+      "interest": "Mfumo wa AI au zana ya tija"
+    },
+    "04": {
+      "title": "Ubunifu",
+      "body": "Utambulisho, mwelekeo, na uzoefu ambao maana iko katikati yake.",
+      "interest": "Mwelekeo wa ubunifu au usanifu"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Makao yako maalum ya biashara. CRM, fedha, miradi, zana za timu, na uwezo wowote utakaohitaji baadaye, vyote mahali pamoja.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Uendeshaji Otomatiki",
+      "body": "Badilisha kazi zinazojirudia kwa mtiririko wa kazi uliounganishwa unaofanya biashara yako iendelee kusonga.",
+      "interest": "Uendeshaji Otomatiki"
+    },
+    "07": {
+      "title": "Lango la Wateja",
+      "body": "Wape wateja au wanachama mahali pamoja palipoboreshwa pa kuwasiliana, kuweka miadi, kushiriki faili, na kufuatilia maendeleo.",
+      "interest": "Lango la Wateja"
+    },
+    "08": {
+      "title": "Uokoaji wa Kidijitali",
+      "body": "Rekebisha, boresha, au jenga upya programu ambayo haifanyi kazi tena kwa biashara yako.",
+      "interest": "Uokoaji wa Kidijitali"
+    }
+  }
+}

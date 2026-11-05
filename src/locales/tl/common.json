@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Wala rito ang pahinang iyan.",
+    "home": "Bumalik sa home"
+  },
+  "legal": {
+    "englishOnly": "Ipinapakita ang pahinang ito sa Ingles, at ang bersiyong Ingles ang masusunod.",
+    "effective": "Epektibo simula {{date}}",
+    "onThisPage": "Sa pahinang ito",
+    "related": "Mga kaugnay na pahina"
+  }
+}

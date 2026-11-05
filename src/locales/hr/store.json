@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Predmeti za put",
+    "headline": "Držite blizu ono što je važno.",
+    "intro": "Mala kolekcija promišljenih predmeta za bilješke, podsjetnike i svakodnevni hod s Bogom.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Vođena bilježnica",
+        "kind": "Bilježnica"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Mali podsjetnik",
+        "kind": "Značka"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Mekan sloj za svaki dan",
+        "kind": "Odjeća"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Za hladnija jutra",
+        "kind": "Odjeća"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Prva kolekcija",
+    "headline": "Pijte vodu. Ne stajte.",
+    "intro": "Odjeća s mislima na hidrataciju, za ljude koji se pojave, natoče ponovno i nastave s provjerom.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Vedar komad za svaki dan",
+        "kind": "Majica"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Za nakon duge šetnje",
+        "kind": "Hudica"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Druga kombinacija boja",
+        "kind": "Majica"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Smiren, težak sloj",
+        "kind": "Hudica"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigacija trgovine {{store}}",
+    "collection": "Kolekcija"
+  },
+  "hero": {
+    "action": "Istražite prvu kolekciju",
+    "mybiblelensArt": "Logo trgovine MyBibleLens i kolaž naljepnica",
+    "watercheckArt": "Tekući logo The Water Check u obliku mjehurića"
+  },
+  "collection": {
+    "eyebrow": "Uskoro",
+    "title": "Stvoreno da postane dio vašeg dana.",
+    "body": "Ovo su prvi komadi. Fotografije proizvoda, opcije i poveznice za plaćanje pojavit će se ovdje kad kolekcija bude spremna."
+  },
+  "product": {
+    "placeholder": "{{name}}, rezervirano mjesto za fotografiju proizvoda",
+    "buy": "Kupi odmah",
+    "comingSoon": "Uskoro",
+    "comingSoonLabel": "{{name}} uskoro"
+  },
+  "checkout": {
+    "eyebrow": "Bez korisničkog računa",
+    "title": "Kad se otvori, plaćanje ostaje jednostavno.",
+    "body": "Odaberite komad, dodirnite Kupi odmah i sigurno platite putem servisa Stripe. Bez računa u trgovini i bez labirinta košarica."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Pravila trgovine bit će objavljena prije prve kolekcije.",
+    "policies": "Pravila trgovine",
+    "terms": "Uvjeti",
+    "privacy": "Privatnost",
+    "accessibility": "Pristupačnost",
+    "shipping": "Dostava i povrat: prije prve kolekcije"
+  }
+}

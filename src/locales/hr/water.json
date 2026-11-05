@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Aplikacija",
+      "drinkCheck": "Drink Check",
+      "guide": "Vodič",
+      "widgets": "Widgeti",
+      "progress": "Napredak",
+      "pricing": "Cijene",
+      "faq": "Česta pitanja",
+      "calculator": "Kalkulator"
+    },
+    "hero": {
+      "title": "Pijte.<break/>Mi ćemo <em>brojati</em>.",
+      "sub": "Vaš vlastiti broj za vodu, pića koja možete skenirati, tijelo koje se puni energijom, widget koji ćete stvarno zadržati i Bubbles, riba napuhača, kao vaš vodič. Bez pravila o galonu dnevno, bez influencera, bez krivnje.",
+      "comingSoon": "Uskoro",
+      "appStoreLead": "Preuzmite na",
+      "appStore": "App Store",
+      "googlePlayLead": "Nabavite na",
+      "googlePlay": "Google Play",
+      "calculator": "Isprobajte besplatni kalkulator",
+      "instagram": "Pratite The Water Check na Instagramu",
+      "note": "Trenutačno je na pregledu u App Storeu. Kalkulator je besplatan i ne traži registraciju.",
+      "todayAlt": "Zaslon Danas u aplikaciji The Water Check: 40 oz od cilja od 81,2 oz, s gumbima za brzo dodavanje i današnjim zapisnikom",
+      "widgetsAlt": "Studio widgeta s widgetom Tijelo u stilu Hologram i redovima stilova widgeta",
+      "bubblesLabel": "Neka Bubbles izvede trik",
+      "bubblesSay": "Bok, ja sam Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "stilova widgeta",
+      "pearls": "biser koji vas čeka u Vodiču",
+      "foods": "nacrtanih namirnica bogatih vodom",
+      "languages": "jezika"
+    },
+    "sixty": {
+      "kicker": "Zašto je to važno",
+      "title": "Sastojite se od 60% vode.",
+      "lede": "To nije cilj koji treba dostići. Ta voda radi upravo sada: prenosi kisik, štiti zglobove, hladi vas i uklanja ono što vam ne treba. Vaše se potrebe mijenjaju s aktivnošću, vremenom i zdravljem.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Osam nijansi od blijede slame do tamnog jantara, grupiranih u dobro hidriran, nadopuni i popij sada",
+      "wellHydrated": "Dobro hidriran",
+      "topUp": "Nadopuni",
+      "drinkNow": "Popij sada",
+      "fine": "Grub znak, a ne dijagnoza. Hrana, vitamini i lijekovi mijenjaju boju. Aplikacija objašnjava svaku razinu i kada razgovarati sa zdravstvenim djelatnikom."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Skenirajte jednom. Znajte. Dodajte jednim dodirom zauvijek.",
+      "lede": "Skenirajte crtični kod, besplatno i koliko god često želite. Nema crtičnog koda? Ako imate 18 ili više godina, fotografirajte i aplikacija će pročitati deklaraciju. U oba slučaja vidite šećer u čajnim žličicama, kofein, elektrolite i svaki sastojak označen kao Dobro, Može, Oprez ili Izbjegni.",
+      "scoresLabel": "Boje ocjena u značajci Drink Check",
+      "scores": {
+        "great": "Odlično",
+        "good": "Dobro",
+        "okay": "Solidno",
+        "poor": "Slabo"
+      },
+      "ticks": {
+        "electrolytes": "Elektroliti s deklaracije: natrij, kalij, magnezij i kalcij, s njihovim dnevnim vrijednostima.",
+        "save": "Spremite piće (preimenujte ga ako želite) i sljedeći put dovoljan je jedan dodir na stranici za dodavanje. Bez novog skeniranja.",
+        "food": "Odrasli mogu fotografirati i hranu: mango se dodaje vašem mangu, a nešto novo postaje zaseban mjehurić.",
+        "journal": "Vaš dnevnik pića na telefonu čuva kako ste se osjećali nakon svakog pića."
+      },
+      "fine": "Brzo čitanje deklaracije, a ne laboratorijski test ni ocjena bilo koje marke. Rezultati za crtične kodove dolaze iz baze Open Food Facts, a AI može pogriješiti, pa provjerite pravu deklaraciju, osobito kod alergija. Ne čuvamo vašu fotografiju.",
+      "alt": "Rezultat Drink Check za sportski napitak: ocjena 66, Dobro, sa šećerom, kofeinom i elektrolitima s deklaracije"
+    },
+    "foods": {
+      "kicker": "I hrana se računa",
+      "title": "Otprilike petina vaše vode stiže na tanjuru.",
+      "lede": "Stranica za dodavanje puna je nacrtanih voćnih mjehurića, po tri u redu: lubenica, krastavac, jagode, mango i još mnogo toga. Dodirnite plus i dodano je, a Poništi je odmah tu. Namirnice koje najčešće dodajete pomiču se naprijed.",
+      "ticks": {
+        "amounts": "Čaša, boca ili bilo koja količina, svaka jednim dodirom.",
+        "caffeine": "Ljubitelji kave dobivaju karticu za kofein koja se sama ispunjava.",
+        "ring": "Prsten na vrhu pokazuje kako se hrana računa u vaš dan."
+      },
+      "alt": "Stranica za dodavanje: prsten na vrhu, gumbi za pića, kartica za kofein i mjehurići s hranom bogatom vodom"
+    },
+    "guide": {
+      "kicker": "Vodič The Water Check",
+      "title": "Probušite mjehurić. Zadržite biser.",
+      "lede": "Svako poglavlje je mjehurić s pitanjem i sva su besplatna. Zašto se osjećate kao da vam je „baterija pri kraju”? Što vam govori vaša mokraća? Je li galon na dan stvaran? Pročitajte jedno do kraja i ono postaje biser. Otprilike jedno od šest je rijedak zlatni biser.",
+      "electric": "Tvoje električno tijelo: šest poglavlja o signalu, natriju i kaliju, magneziju i kalciju te gorivu.",
+      "forHerKicker": "Za nju",
+      "forHer": "Ružičasta poglavlja o njezinu tijelu i vodi: ružičasta ili neonska mokraća, nadutost oko mjesečnice, zašto infekcije mokraćnog sustava češće pogađaju žene, malo curenja kad se smijete, trudnoća i menopauza. Nježno, jednostavno i s izvorima.",
+      "fine": "Svako poglavlje navodi svoje izvore i kaže kada otići liječniku. Nagrađuje razumijevanje, a ne vrijeme pred ekranom: bez nizova, bez pritiska.",
+      "alt": "Vodič The Water Check: poglavlja „Tvoje električno tijelo” kao mjehurići s pitanjima"
+    },
+    "widgets": {
+      "kicker": "Widgeti",
+      "title": "<count>89</count> stilova za vaš početni zaslon.",
+      "lede": "Sportovi, mjesta, godišnja doba, morski svijet i dizajni, u maloj, srednjoj i velikoj veličini, s rasporedima od prstenova do valova. Recite nam svoj sport pri registraciji i widget vašeg sporta pojavit će se prvi. Zabilježite piće izravno s početnog zaslona.",
+      "ticks": {
+        "body": "Tijelo: vaš se obris puni dnevnom vodom. Iskra: baterija se puni današnjom napunjenošću.",
+        "charge": "Stavite pokazatelj Napunjenost na bilo koji widget kako biste pratili elektrolite umjesto vode."
+      },
+      "chips": {
+        "body": "Tijelo",
+        "spark": "Iskra",
+        "running": "Trčanje",
+        "crossCountry": "Kros",
+        "volleyball": "Odbojka",
+        "basketball": "Košarka",
+        "seaTurtle": "Morska kornjača",
+        "jellyfish": "Meduza",
+        "beach": "Plaža",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Godišnja doba"
+      },
+      "alt": "Studio widgeta s widgetom Tijelo u stilu Hologram, njegovim paletama boja, rasporedima i pokazateljem Napunjenost"
+    },
+    "progress": {
+      "kicker": "Napredak",
+      "title": "Pogledajte što je u vašim pićima, traku po traku.",
+      "lede": "Današnji dan kao jednostavne trake koje se pune slijeva nadesno: voda u odnosu na vaš broj, zatim natrij, kalij, magnezij i kalcij iz pića koja skenirate, plus kofein i šećer. Dodirnite bilo koju traku da vidite pića iza nje. Kalendar prikazuje sve dane jedan uz drugi, zajedno s vašim nizom.",
+      "ticks": {
+        "dailyValues": "Elektroliti se mjere prema dnevnim vrijednostima s nutritivne deklaracije.",
+        "caffeine": "Kofein u odnosu na 400 mg, količinu koju FDA navodi za većinu zdravih odraslih, a šećer u odnosu na 50 g.",
+        "journal": "Vaš dnevnik pića nalazi se odmah ispod traka: svako skenirano piće i kako ste se osjećali nakon njega.",
+        "real": "Svaki broj dolazi iz nečega što ste zabilježili ili skenirali. Ništa nije izmišljeno."
+      },
+      "fine": "Referentne vrijednosti, a ne ciljevi, i nisu liječnički savjet. Ako pazite na natrij ili kalij iz zdravstvenih razloga, slijedite savjet svog liječnika.",
+      "alt": "Napredak: voda na 83% dnevnog broja, zatim natrij, kalij, magnezij, kalcij, kofein i šećer kao trake"
+    },
+    "crew": {
+      "kicker": "Vaš mjesec i vaši ljudi",
+      "title": "Gledajte kako se zbraja. Dovedite prijatelje.",
+      "calendarAlt": "Kalendar: svaki se dan puni kao čaša, s danima sa zapisima, danima s postignutim ciljem i nizom",
+      "calendarTitle": "Vaša voda, dan po dan",
+      "calendarBody": "Svaki dan koji zabilježite puni se kao čaša. Dani s postignutim ciljem, nizovi i oznake plime, a sve vas prati i na novi telefon.",
+      "crewAlt": "Ekipa pod imenom Track team s brzim porukama podrške",
+      "crewTitle": "Ekipa",
+      "crewBody": "Grupe samo na poziv u kojima se međusobno bodrite. Prijatelji vide postotak vašeg vlastitog cilja i vaš niz, nikad vaše unce ili vaše tijelo. Prijavi i Blokiraj uvijek su dostupni."
+    },
+    "bubbles": {
+      "kicker": "Ovo je Bubbles",
+      "title": "Vaš vodič je riba napuhača.",
+      "lede": "Bubbles je službenik za dobrobit u Odjelu. Prvog dana provodi vas kroz aplikaciju i jednostavno ne može odoljeti da se ne pokaže. Hajde, dajte mu nešto da napravi.",
+      "tricksLegend": "Trikovi koje Bubbles zna",
+      "tricks": {
+        "puff": "Napuhni se",
+        "spin": "Zavrti se",
+        "flip": "Salto unatrag",
+        "wave": "Mahni",
+        "cheer": "Veliko finale"
+      }
+    },
+    "pricing": {
+      "kicker": "Cijene",
+      "title": "Besplatno za početak. Sve, jednom.",
+      "free": {
+        "title": "Besplatno",
+        "sub": "Sve što vam treba da pijete dovoljno.",
+        "items": {
+          "number": "Vaš vlastiti broj za vodu",
+          "log": "Bilježenje pića i hrane bogate vodom",
+          "barcode": "Skeniranje crtičnih kodova, besplatno i neograničeno",
+          "photo": "Jedno besplatno skeniranje fotografijom (18+)",
+          "guide": "Sva poglavlja Vodiča",
+          "widgets": "Widgeti Klasičan, Godišnja doba te obični Tijelo i Iskra",
+          "crew": "Vaš kalendar, nizovi i prijateljeva Ekipa"
+        }
+      },
+      "forever": {
+        "tag": "Prva godina",
+        "title": "Sve zauvijek",
+        "sub": "Jedna kupnja, bez pretplate.",
+        "items": {
+          "widgets": "Svi stilovi i palete boja widgeta",
+          "bars": "Trake za elektrolite, kofein i šećer",
+          "journal": "Vaš dnevnik pića",
+          "photos": "Više skeniranja fotografijom (18+)",
+          "summaries": "PDF sažeci za 30 i 90 dana",
+          "crews": "Stvarajte vlastite Ekipe",
+          "later": "Sve što kasnije dodamo"
+        },
+        "note": "Nudi se tijekom naše prve godine. Nakon toga The Water Check može prijeći na mjesečni plan, a jednokratna kupnja obavljena prije toga ostaje otključana. Cijena se prikazuje u App Storeu ili na Google Playu prije kupnje."
+      }
+    },
+    "privacy": {
+      "kicker": "Vaši podaci",
+      "title": "Što ostaje na vašem telefonu, a što ne.",
+      "phoneTitle": "Ostaje na vašem telefonu",
+      "phoneBody": "Vaš dnevnik pića, spremljena pića i hrana, biseri iz Vodiča, treninzi, bilješke o ciklusu i podsjetnici.",
+      "accountTitle": "Čuva se uz vaš račun",
+      "accountBody": "Vaša prijava, odgovori pri registraciji, svako piće i hrana koje zabilježite s vremenom, dnevni ukupni unos vode i vaša Ekipa, kako bi vas pratili i na novi telefon.",
+      "neverTitle": "Nikad",
+      "neverBody": "Ne prodajemo vaše podatke niti ih dijelimo s oglašivačkim mrežama. Ne čuvamo fotografije koje snimite za Drink Check.",
+      "links": {
+        "privacy": "Pravila privatnosti",
+        "healthData": "Pravila o potrošačkim zdravstvenim podacima",
+        "deleteAccount": "Izbrišite svoj račun"
+      }
+    },
+    "calculator": {
+      "kicker": "Besplatno, bez registracije",
+      "title": "Počnite s brojevima koje znate.",
+      "lede": "Vaša težina, visina i koliko se krećete. Kalkulator vam daje dnevni cilj za dvadesetak sekundi i pokazuje izračun kako biste se mogli s njim prepirati. Radi u vašem pregledniku.",
+      "chips": {
+        "weight": "Osnovica prema težini",
+        "height": "Visina i građa",
+        "activity": "Prilagodba za aktivnost",
+        "lifeStage": "Životna faza",
+        "heat": "Vrućina i vlaga",
+        "electrolytes": "Provjera elektrolita"
+      },
+      "open": "Otvorite kalkulator",
+      "fine": "Edukativna procjena za planiranje namijenjena odraslima, a ne dijagnoza ni recept. Ne pijte na silu. Pitajte zdravstvenog djelatnika ako ste trudni ili dojite, uzimate lijekove koji utječu na ravnotežu tekućine ili imate bolest bubrega ili srca."
+    },
+    "faq": {
+      "kicker": "Pitanja",
+      "title": "Iskreni odgovori.",
+      "items": {
+        "medical": {
+          "q": "Je li The Water Check liječnički savjet?",
+          "a": "Ne. To je aplikacija za opću dobrobit. Vaš broj za vodu edukativna je procjena, a ne recept, i ništa u aplikaciji ne dijagnosticira ni ne liječi. Ako ste trudni ili dojite, uzimate lijekove koji utječu na tekućinu ili imate bolest bubrega, srca ili neko drugo stanje, pitajte svog liječnika što je ispravno za vas."
+        },
+        "number": {
+          "q": "Odakle dolazi moj broj?",
+          "a": "Iz vaše težine, visine, aktivnosti, klime i životne faze, polazeći od javnih smjernica kao što su referentne vrijednosti za vodu američkih Nacionalnih akademija (National Academies). Besplatni kalkulator pokazuje izračun, pa vidite svaki korak. To je polazna točka, a ne pravilo."
+        },
+        "scan": {
+          "q": "Što se događa kad skeniram piće?",
+          "a": "Skeniranje crtičnog koda šalje samo broj crtičnog koda bazi Open Food Facts, besplatnoj otvorenoj bazi podataka o hrani, i dobiva natrag ono što piše na deklaraciji. Fotografija, za odrasle od 18 godina naviše, ide preko našeg poslužitelja do modela Gemini AI tvrtke Google, koji čita deklaraciju i vraća ono što je pronašao. Ne čuvamo vašu fotografiju; Google može zadržati podatke ograničeno vrijeme prema svojim uvjetima. Deklaracije i AI mogu pogriješiti, pa provjerite pravu deklaraciju i nikad ne koristite Drink Check za alergije ili medicinske dijete."
+        },
+        "phone": {
+          "q": "Što ostaje na mom telefonu?",
+          "a": "Vaš dnevnik pića, spremljena pića i hrana, biseri iz Vodiča, treninzi, odgovor o ciklusu i bilješke o ciklusu, iako ih sigurnosna kopija vašeg telefona može uključivati. Na iPhoneu treninzi koje aplikaciji dopustite čitati iz aplikacije Apple Health također ostaju na vašem telefonu i nikad nam se ne šalju. Vaši odgovori pri registraciji, svako piće i hrana koje zabilježite s vremenom te vaši dnevni zbrojevi čuvaju se uz vaš račun kako bi vas pratili i na novi telefon. Ne prodajemo vaše podatke."
+        },
+        "audience": {
+          "q": "Za koga je?",
+          "a": "Za sve od 13 godina naviše. Ako imate manje od 18 godina, koristite je uz dopuštenje roditelja ili skrbnika. Voćni post, bilježenje alkohola i skeniranje fotografijom samo su za odrasle. Aplikacija se ravna prema dobnoj skupini koju navedete, pa vas molimo da odgovorite iskreno. Ako imate između 13 i 17 godina, provjerite svoj broj s roditeljem ili liječnikom."
+        },
+        "cost": {
+          "q": "Koliko košta?",
+          "a": "Aplikacija je besplatna za početak: dobijte svoj broj, bilježite vodu i hranu, skenirajte bilo koji crtični kod, čitajte sva poglavlja Vodiča, pridružite se Ekipi i koristite widgete Klasičan, Godišnja doba, Tijelo i Iskra. Tijekom naše prve godine jedna neobavezna kupnja otključava sve, jednom, bez pretplate. App Store ili Google Play prikazuje cijenu u vašoj valuti prije kupnje."
+        },
+        "deleteAccount": {
+          "q": "Kako izbrisati svoj račun?",
+          "a": "U aplikaciji: Profil, zatim Postavke, zatim Izbriši račun. Račun se briše odmah. Nemate aplikaciju? Naša stranica Izbrišite svoj račun objašnjava kako to zatražiti e-poštom."
+        },
+        "download": {
+          "q": "Kada je mogu preuzeti?",
+          "a": "The Water Check je na pregledu u App Storeu i u testiranju na Google Playu, a uskoro stiže u obje trgovine. Pratite @thewatercheck na Instagramu i saznajte prvi."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Shvatite što pijete. Izrađeno u saveznoj državi Florida, u tvrtki s jednom osobom. Za dob od 13 godina naviše.",
+      "legal": "Pravne informacije",
+      "privacy": "Pravila privatnosti aplikacije The Water Check",
+      "terms": "Uvjeti i odredbe aplikacije The Water Check",
+      "community": "Smjernice zajednice",
+      "healthData": "Pravila privatnosti potrošačkih zdravstvenih podataka",
+      "deleteAccount": "Izbrišite svoj račun",
+      "sitePrivacy": "Privatnost web-stranice",
+      "explore": "Istražite",
+      "calculator": "Kalkulator hidratacije",
+      "store": "Trgovina The Water Check",
+      "instagram": "@thewatercheck na Instagramu",
+      "expectedEnd": "Expected End",
+      "help": "Pomoć",
+      "email": "Podrška e-poštom",
+      "accessibility": "Pristupačnost",
+      "contact": "Kontakt",
+      "note": "The Water Check je aplikacija za opću dobrobit. Ne dijagnosticira, ne liječi i ne sprječava nikakvo stanje te nije zamjena za savjet zdravstvenog djelatnika. U hitnom slučaju nazovite 911 ili lokalni broj za hitne slučajeve. Zasloni aplikacije prikazuju testnu verziju s izmišljenim podacima; značajke se mogu promijeniti prije izlaska."
+    }
+  },
+  "app": {
+    "eyebrow": "Aplikacija",
+    "title": "Vaša voda, dan po dan.",
+    "body": "Počnite s osobnom procjenom, a zatim bilježite pića i hranu bogatu vodom kako vam dan teče. Pratite svoj napredak u aplikaciji, na početnom zaslonu i kroz cijeli mjesec.",
+    "comingSoon": "Uskoro u App Storeu",
+    "calculator": "Isprobajte besplatni kalkulator",
+    "caveat": "Kalkulator ovdje radi bez računa. Snimke zaslona aplikacije prikazuju pretpremijernu verziju; značajke i dostupnost mogu se promijeniti prije izlaska.",
+    "screens": {
+      "number": {
+        "alt": "Osobna dnevna procjena vode u aplikaciji The Water Check na iPhoneu",
+        "caption": "Vaš broj"
+      },
+      "log": {
+        "alt": "Dnevni zapisnik aplikacije The Water Check s pićima i hranom na iPhoneu",
+        "caption": "Današnji zapisnik"
+      },
+      "widgets": {
+        "alt": "Postavke widgeta za početni zaslon u aplikaciji The Water Check na iPhoneu",
+        "caption": "Widgeti"
+      },
+      "wellness": {
+        "alt": "Vodič za dobrobit i P-Meter u aplikaciji The Water Check na iPhoneu",
+        "caption": "Dobrobit"
+      },
+      "calendar": {
+        "alt": "Mjesečni kalendar vode u aplikaciji The Water Check na iPhoneu",
+        "caption": "Kalendar"
+      }
+    }
+  },
+  "footer": {
+    "note": "Besplatni kalkulator ne traži račun. Radi u vašem pregledniku i ne šalje nam vaše brojeve.",
+    "navLabel": "Navigacija u podnožju",
+    "calculator": "Kalkulator hidratacije",
+    "explore": "Istražite aplikaciju",
+    "instagram": "@thewatercheck na Instagramu",
+    "store": "Trgovina",
+    "builder": "Tko je ovo izgradio",
+    "finePrint": "Sitni tisak",
+    "terms": "Uvjeti i odredbe",
+    "privacy": "Pravila privatnosti",
+    "community": "Smjernice zajednice",
+    "healthData": "Potrošački zdravstveni podaci",
+    "deleteAccount": "Izbrišite svoj račun",
+    "accessibility": "Pristupačnost",
+    "contact": "Kontakt",
+    "project": "Projekt tvrtke <company>EXPECTEDEND LLC</company>. Edukativna procjena, a ne liječnički savjet.",
+    "backToTop": "Natrag na vrh ↑"
+  }
+}

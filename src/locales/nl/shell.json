@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Hoofdnavigatie",
+    "projects": "Projecten",
+    "services": "Diensten",
+    "company": "Missie · Over ons · Pers",
+    "contact": "Contact",
+    "home": "Startpagina van Expected End",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "links": {
+      "projects": "Projecten",
+      "services": "Diensten",
+      "story": "Verhaal",
+      "about": "Over ons",
+      "press": "Pers",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigatie in de footer",
+    "home": "Home",
+    "about": "Over ons",
+    "press": "Pers",
+    "terms": "Gebruiksvoorwaarden",
+    "privacy": "Privacyverklaring",
+    "accessibility": "Toegankelijkheid",
+    "contact": "Contact",
+    "mission": "Alles wat ik binnen dit bedrijf bouw, wijst naar dezelfde missie: mensen dichter bij God brengen en ze helpen technologie te gebruiken om bewust te leven, te creëren, lief te hebben en te dienen. Dat is het einde en de verwachting waar ik naartoe werk.",
+    "verse": "Jeremia 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Alle rechten voorbehouden.",
+    "blessing": "Jezus houdt van je."
+  }
+}

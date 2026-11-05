@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Cél, gyönyörűen megépítve",
+    "description": "Az Expected End átgondolt szoftvereket, produktivitási eszközöket, digitális élményeket és közösségeket hoz létre."
+  },
+  "about": {
+    "title": "Rólunk | Expected End",
+    "description": "Denzel Rigaud alapítói története, az Expected End küldetése és a hitből és céltudatosságból született projektek."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Az Expected End alapítója",
+    "description": "Denzel Rigaud alapító és full-stack fejlesztő; ő áll az Expected End, a MyBibleLens, a kereszténység szentélyalkalmazása, valamint a The Water Check mögött."
+  },
+  "press": {
+    "title": "Sajtó és média | Expected End",
+    "description": "Jóváhagyott életrajzok, ellenőrzött tények, entitáshivatkozások és letölthető médiaanyagok az Expected Endről és Denzel Rigaud-ról szóló tudósításokhoz."
+  },
+  "terms": {
+    "title": "A weboldal felhasználási feltételei | Expected End",
+    "description": "Az Expected End weboldalának használatára vonatkozó feltételek."
+  },
+  "privacy": {
+    "title": "Adatvédelmi nyilatkozat | Expected End",
+    "description": "Hogyan kezeli az Expected End az adatokat ezen a weboldalon."
+  },
+  "watercheck-privacy": {
+    "title": "A The Water Check adatvédelmi szabályzata | Expected End",
+    "description": "Mit gyűjt a The Water Check, mi marad a telefonján, kik segítenek az alkalmazás működtetésében, és milyen lehetőségei vannak."
+  },
+  "watercheck-terms": {
+    "title": "A The Water Check általános szerződési feltételei | Expected End",
+    "description": "A The Water Check alkalmazás használatának feltételei, többek között az egészségről és biztonságról, az AI-ról, a Csapatok szabályairól és a vásárlásokról."
+  },
+  "watercheck-health-data": {
+    "title": "A The Water Check fogyasztói egészségügyi adatokra vonatkozó adatvédelmi szabályzata | Expected End",
+    "description": "Hogyan kezeli a The Water Check a fogyasztói egészségügyi adatokat, és hogyan kérhet hozzáférést vagy törlést, illetve hogyan fellebbezhet."
+  },
+  "watercheck-delete-account": {
+    "title": "Fiók törlése | The Water Check",
+    "description": "Hogyan törölheti The Water Check-fiókját és adatait az alkalmazásban vagy e-mailben."
+  },
+  "watercheck-community": {
+    "title": "Közösségi irányelvek | The Water Check",
+    "description": "Hogyan maradnak barátságosak a Csapatok a The Water Checkben: a szabályok, a jelentés és a letiltás, és mi történik szabályszegés esetén."
+  },
+  "accessibility": {
+    "title": "Akadálymentesség | Expected End",
+    "description": "Az Expected End elkötelezettsége az akadálymentes weboldalélmény iránt."
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens bolt | Expected End",
+    "description": "Átgondolt tárgyak az Igével való szorosabb járáshoz. A MyBibleLens bolt hamarosan nyílik."
+  },
+  "watercheck-store": {
+    "title": "The Water Check bolt | Expected End",
+    "description": "Hidratáció ihlette alapdarabok a The Water Checktől. Az első kollekció hamarosan érkezik."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Hidratációs alkalmazás és ingyenes kalkulátor",
+    "description": "Fedezze fel a The Water Check alkalmazást, és próbáljon ki egy ingyenes, privát hidratációs becslést az Expected Enden."
+  },
+  "watercheck-calculator": {
+    "title": "Ingyenes hidratációs kalkulátor | The Water Check",
+    "description": "Kapjon ingyenes, privát napi hidratációs becslést a The Water Check kalkulátorával."
+  },
+  "not-found": {
+    "title": "Az oldal nem található | Expected End",
+    "description": "A keresett Expected End-oldal nem található."
+  }
+}

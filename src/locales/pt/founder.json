@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud de óculos com lentes alaranjadas",
+    "stats": {
+      "gradeValue": "5",
+      "gradeSuffix": "º",
+      "grade": "ANO · CURIOSIDADE",
+      "grief": "LUTO",
+      "faith": "FÉ · O RETORNO"
+    },
+    "identity": "Identidade <b>/ Denzel Rigaud</b>",
+    "founded": "Fundação / <time>3 de março de 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Fundador e único desenvolvedor full-stack</em>",
+    "title": "A mente <br/>por trás da <br/>Expected End",
+    "text": "Uma história sobre curiosidade, luto, fé e sobre transformar a tecnologia em um caminho adiante.",
+    "cta": "Ler a história"
+  },
+  "ticker": {
+    "curiosity": "Curiosidade",
+    "grief": "Luto",
+    "faith": "Fé",
+    "code": "Código",
+    "purpose": "Propósito"
+  },
+  "coordinates": {
+    "eyebrow": "Três coordenadas",
+    "title": "O caminho até aqui não foi uma <em>linha reta.</em>",
+    "curiosity": {
+      "label": "01 / Quinto ano",
+      "title": "A curiosidade virou uma habilidade de sobrevivência.",
+      "body": "Comecei me recusando a deixar que um fracasso definisse o resto da minha vida.",
+      "big": "5º"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "O luto fechou a porta para a tecnologia.",
+      "body": "Perder meu pai fez cada habilidade que ele me ensinou parecer impossível de tocar."
+    },
+    "faith": {
+      "label": "03 / 25 de fevereiro de 2026",
+      "title": "A fé deu um propósito ao trabalho.",
+      "body": "Voltei para criar ferramentas que deixem as pessoas mais fortes do que estavam."
+    }
+  },
+  "memoir": {
+    "eyebrow": "História do fundador / Em primeira pessoa",
+    "title": "Oi, meu nome é <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "A tecnologia faz parte da minha vida desde o quinto ano. A escola me frustrava desde cedo. Repeti o segundo ano enquanto enfrentava uma barreira de idioma, e eu não acreditava que esse fracasso devesse me definir. Decidi começar hackeando minhas notas. Começou pequeno, mas quando percebi até onde eu conseguia invadir sistemas e fazer jailbreak na tecnologia, fiquei curioso sobre os sistemas ao meu redor e comecei a me divertir.",
+      "second": "Essa curiosidade me levou a fazendas de bots no Instagram, programação, automação, machine learning, comunidades online, crescimento digital e aos cantos mais sombrios da internet. Aprendi o quanto a tecnologia pode ser poderosa. Algumas escolhas também me ensinaram a ter mais discernimento."
+    },
+    "socials": {
+      "label": "Perfis sociais de Denzel Rigaud",
+      "instagram": "Denzel Rigaud no Instagram",
+      "linkedin": "Denzel Rigaud no LinkedIn",
+      "youtube": "Denzel Rigaud no YouTube"
+    },
+    "records": {
+      "label": "Registros de identidade independentes",
+      "heading": "Registros externos",
+      "worldAthletics": "Perfil na World Athletics",
+      "lynn": "Perfil de atleta da Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Capítulo 01",
+    "kicker": "As pessoas que me ensinaram",
+    "title": "Meu primeiro mago da web.",
+    "first": "Meu pai e meu <brother>irmão</brother> eram as pessoas mais inteligentes que eu conhecia, mas eu quase nunca os via. A gente tinha uma relação por telefone. Cada segundo que eu conseguia falar com eles, eles me ensinavam algo que eu precisava saber. Com o tempo, aprendi que ainda assim eu tinha que decidir o que era certo para mim. Meu pai era um mago da web, e eu me sentia imparável na internet. Meu irmão trabalha para a NSA.",
+    "second": "Em 2021, me mudei para a Flórida depois de 17 anos morando com minhas duas mães e minhas duas irmãs. Sobrevivi, haha. Depois, pude morar com meu pai pela primeira vez. Seis meses depois, ele morreu, então fechei a porta para a tecnologia, porque cada habilidade me lembrava dele.",
+    "third": "Meu pai foi muçulmano durante boa parte da vida. Eu segui o islã em parte porque queria ser como ele. Antes de morrer, ele entregou a vida a Cristo. A decisão dele ficou comigo muito tempo depois que eu guardei minhas próprias ferramentas."
+  },
+  "return": {
+    "number": "Capítulo 02",
+    "kicker": "O retorno",
+    "title": "Abri a porta de novo.",
+    "first": "Passei anos evitando a parte de mim que me lembrava do meu pai. Ainda mexia com tecnologia de vez em quando, mas o luto tornava difícil ficar. Preenchi esse espaço vazio com o pecado da luxúria e me afastei cada vez mais da pessoa que eu poderia ter me tornado.",
+    "second": "Em janeiro de 2026, eu soube que precisava mudar. Decidi despertar de novo o mago da web que meu pai me ensinou a ser, deixar de ser um homem carnal que não acreditava em Deus e segui-Lo. Quando fiz isso, minha vida começou a prosperar.",
+    "third": "O MyBibleLens nasceu dessa decisão. Eu não tinha um plano completo. Comecei a construir e continuei seguindo em frente. O trabalho me deixou abrir a porta que eu tinha fechado depois que meu pai morreu. Trouxe o The Water Check de volta e comecei a retomar sonhos que eu carregava desde criança."
+  },
+  "draft": {
+    "label": "Capítulo 03 / O rascunho",
+    "title": "“A verdade por trás do código”"
+  },
+  "venom": {
+    "title": "O veneno digital",
+    "first": "Acontece no segundo em que acordamos. Antes mesmo de os pés tocarem o chão, a mão se estica. Você pega o celular. Todos nós fazemos isso. Mas esse único movimento reflexo perturba na hora as vias neurais do seu cérebro e joga você num estado crítico e ansioso antes mesmo de o dia começar.",
+    "second": "Como desenvolvedor de software independente há 10 anos, e tendo um pai que era hacker de cibersegurança por conta própria e me ensinou os cantos sombrios e misteriosos da internet, eu vejo o código por trás da tela. Sei exatamente como o algoritmo funciona, e a verdade é que ele é veneno. A toxicidade esmagadora que você sente na internet não é, na verdade, a natureza humana: é uma ilusão fabricada. Estamos sob ataque constante do “pseudoísmo”, em que seções de comentários lotadas e hostis raramente são explosões espontâneas de usuários comuns. Elas fazem parte de uma estratégia deliberada e sistemática de propaganda computacional. Contas falsas e redes de bots são usadas para injetar narrativas sintéticas no seu feed, criadas especificamente para manipular a percepção pública, aprofundar nossas divisões e influenciar o seu comportamento online.",
+    "third": "Não importa o quanto o seu histórico de pesquisa ou o dos seus filhos seja limpo, nem o quanto o seu feed pareça saudável; o sistema foi feito para puxar você de volta. Ele empurra você para a negatividade, para a superficialidade e para gurus do enriquecimento rápido que nos forçam a colocar o dinheiro acima de Deus (<strong>1 Timóteo 6:10</strong>), criando pessoas com o espírito de Mamom. Faz nossas lindas irmãs não saberem que a verdadeira beleza delas não é a maquiagem, nem o que um cara pensa dela, nem quantas curtidas ela recebe no Instagram… é o coração dela e o seu jeito angelical de andar com Deus. É uma máquina construída para sequestrar a sua mente e controlar os seus hábitos.",
+    "fourth": "Esse fluxo constante de artificialidade nos prende numa existência apressada e nos cega para o fato de que as coisas verdadeiras levam tempo. O amor real, o crescimento genuíno e as conexões autênticas exigem paciência, não a gratificação instantânea que um celular entrega. Ele engana o cérebro para esperar uma descarga constante de dopamina de gente concordando com você. Assim como os algoritmos selecionados de uma página “Para você”, ele faz as pessoas se sentirem cegamente no direito às próprias opiniões, fechando-as para seres humanos reais e para a realidade de que nem todo mundo vai concordar com a mesma coisa. É uma rendição lenta, que deixa a tecnologia fria e a artificialidade tomarem conta da mente humana por completo.",
+    "fifth": "Eles nos querem distraídos com essas guerras fabricadas. Querem o cérebro dos nossos filhos virando papinha, preso para sempre no nível mais baixo da <strong><bloom>Taxonomia de Bloom</bloom></strong>: só “lembrar” e consumir, sem nunca fazer perguntas, sem nunca criar, sem nunca ir mais fundo. Estamos vendo uma geração inteira atrasar os <strong><erikson>estágios da vida de Erikson</erikson></strong> mais decisivos, paralisada pelas realidades falsas e editadas que vê nas telas, com medo de realmente crescer porque nada mais parece autêntico. O mundo está cansado das mentiras. Se você não vê a manipulação no código, tudo bem; a minha geração vê, e a próxima também vai ver."
+  },
+  "crucible": {
+    "title": "O crisol que me formou",
+    "first": "Eu não aprendi isso só estudando dados; eu vivi isso: vendi droga só para construir a vida que eu tinha prometido a mim mesmo, uma que chegasse a um futuro brilhante. Fui expulso da casa de pessoas que eu amava e fiquei sem ter onde morar. Me ofereceram entrar na indústria adulta quando eu mais precisava de dinheiro, com 10k balançando bem na minha cara, mas minha mãe me criou com valores. <court>Dois</court> processos <search>no</search> ensino médio. Comecei a hackear minhas notas no 5º ano porque cansei de reprovar, ainda mais quando percebi que tinha repetido o 2º ano por causa do sotaque com que cheguei. Depois isso virou hackear muito mais… quando finalmente conheci de verdade o meu <father>pai</father>, vi de onde eu herdei isso.",
+    "second": "Por muito tempo, achei que Deus nunca me aceitaria de volta depois de tudo aquilo. Achei que eu estava perdido demais. Mas aí aprendi sobre o apóstolo Paulo. Paulo literalmente matava cristãos, e ainda assim Deus virou o jogo e deu a ele um dom enorme. Foi aí que a ficha caiu: se Deus pôde usar um homem como Paulo, o meu passado nunca foi demais para Ele construir um futuro com ele.",
+    "third": "Esse instinto de sobrevivência começou cedo. Crescer cercado por 4 mulheres durante 16 anos moldou a minha psique de formas que ainda estou desvendando. Minha mente foi treinada para funcionar ao mesmo tempo em diferentes comprimentos de onda psicológicos. Atravessei psicologia distorcida, dinâmicas complexas e manipulação que me esculpiram em quem eu sou. E eu as amo por isso; me poupou energia com as garotas quando eu realmente decidi pensar no que a minha mãe estava falando. E, depois de corações partidos e de ser traído, eu ainda acredito em <chivalry>cavalheirismo</chivalry>.",
+    "fourth": "O que eu quero dizer é que, para sobreviver numa casa cheia de mulheres, você tem que pensar como uma, e quando saí de lá eu tive que me tornar o jovem que sou hoje, com a enorme quantidade de lutas que enfrentei. Era um ambiente caótico, e só encontrei clareza quando escolhi ativamente eliminar o meu único pecado, a “luxúria”, e o barulho por meio da oração. Quando finalmente coloquei Deus em primeiro lugar, percebi quem eu realmente era. Vi os desafios que me moldaram não como maldições, mas como o treinamento exato de que eu precisava para chegar mais perto de Deus e para construir uma saída para os outros.",
+    "fifth": "Encontrar Deus me levou a conhecer mais a mim mesmo. Seguir a Deus me ensinou sobre as minhas feridas e os meus dons, e entender a mim mesmo me fez querer conhecê-Lo mais. Foi aí que minha vida começou a prosperar: eu tinha direção, propósito e um motivo para cuidar do que Deus me deu. O The Water Check faz parte dessa missão. Prestar atenção no que afeta o seu corpo pode ajudar você a entender e cuidar da pessoa que Deus criou você para ser. Quero construir tecnologia que ajude você a se tornar a versão mais capaz dessa pessoa.",
+    "mission": "Tudo o que eu construo nesta empresa aponta para a mesma missão: aproximar as pessoas de Deus e ajudá-las a usar a tecnologia para viver, criar, amar e servir com intenção. Esse é o fim esperado pelo qual eu trabalho.",
+    "connect": {
+      "label": "Siga Denzel Rigaud",
+      "youtube": "Expected End no YouTube",
+      "instagram": "Siga Denzel Rigaud no Instagram",
+      "linkedin": "Conecte-se com Denzel Rigaud no LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Arquivo pessoal / 04 memórias",
+    "title": "Arquivo de memórias",
+    "text": "As pessoas, os lugares e o trabalho real por trás do código. Baixe qualquer imagem e guarde com você.",
+    "number": "Memória {{number}}",
+    "download": "Baixar a memória {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel criança com o pai",
+        "title": "Meu pai e eu"
+      },
+      "work": {
+        "alt": "Denzel trabalhando no notebook com dois colaboradores em volta de uma mesa",
+        "title": "O trabalho em volta da mesa"
+      },
+      "workspace": {
+        "alt": "O espaço de trabalho do MyBibleLens e do The Water Check",
+        "title": "Onde o MyBibleLens ganhou forma"
+      },
+      "archive": {
+        "alt": "O arquivo de vídeos Real Work do Denzel no celular",
+        "title": "O arquivo Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Fim da transmissão / O trabalho continua",
+    "title": "Vamos construir algo que devolva às pessoas a sua <em>vida.</em>",
+    "text": "Para softwares bem pensados, conversas com a imprensa ou o começo de uma boa ideia, abra um canal com a Expected End.",
+    "contact": "Fale com a Expected End",
+    "back": "Voltar para a empresa"
+  },
+  "verse": {
+    "version": "Almeida Revista e Corrigida",
+    "reference": "Jeremias 29:11",
+    "text": "Porque eu bem sei os pensamentos que penso de vós, diz o Senhor; pensamentos de paz e não de mal, para vos dar o fim que esperais.",
+    "close": "Fechar o versículo bíblico"
+  },
+  "bio": {
+    "eyebrow": "Do fundador",
+    "title": "O que aconteceu com o @thewatercheck?",
+    "close": "Fechar a bio",
+    "first": "Aos 15 anos, eu já gerenciava e fazia crescer páginas de influenciadores e de conteúdo enquanto ainda desenvolvia meu próprio projeto, o @thewatercheck.",
+    "second": "Depois, aos 17 anos, fui morar com meu pai, e a conta estava morrendo porque <em>“Quem corre atrás de dois coelhos não pega nenhum.”</em> <proverb>(provérbio russo)</proverb> Nessa idade, eu só me importava com o dinheiro. Eu não estava dando tudo de mim para o @thewatercheck.",
+    "third": "Então meu <father>pai</father> faleceu de forma inesperada em <strong>10 de julho de 2021.</strong> Entrei no modo sobrevivência, me perguntando para onde a minha vida estava indo. Para lidar com a dor da morte dele, fechei a porta para o mago da web que meu pai um dia me ensinou a ser, até <strong>janeiro de 2026.</strong>",
+    "stat": {
+      "from": "200.000 seguidores",
+      "to": "7.000",
+      "caption": "É onde ela está agora."
+    },
+    "what": {
+      "eyebrow": "Então, o que era?",
+      "title": "Um lembrete simples que as pessoas amavam.",
+      "first": "O The Water Check era simplesmente isto: eu postava uma foto todo santo dia para lembrar as pessoas de beber água, e isso realmente ajudava elas a beber água. Os comentários ficavam <em>lotados</em> de gente. Era só isso, e as pessoas amavam.",
+      "second": "Aí um bot apagou tudo da página, e a vida seguiu a partir dali."
+    }
+  },
+  "footer": {
+    "line": "A tecnologia não existe para a gente ficar rolando a tela sem parar e vivendo a vida dos outros. Ela deveria fazer bem ao nosso espírito, alma, mente e carne.",
+    "sign": "Fundador, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navegação do rodapé",
+    "build": "O que eu construo",
+    "pressKit": "Kit de imprensa",
+    "find": "Onde me encontrar",
+    "finePrint": "Letras miúdas",
+    "terms": "Termos de Uso",
+    "privacy": "Declaração de Privacidade",
+    "accessibility": "Acessibilidade",
+    "contact": "Contato",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Todos os direitos reservados.",
+    "blessing": "Jesus te ama."
+  },
+  "egg": {
+    "label": "Entrar no mundo de arte escondido",
+    "armed": "Toque mais uma vez para entrar no mundo de arte escondido."
+  }
+}

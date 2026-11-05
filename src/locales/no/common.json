@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Den siden finnes ikke her.",
+    "home": "Tilbake til forsiden"
+  },
+  "legal": {
+    "englishOnly": "Denne siden vises på engelsk, og det er den engelske versjonen som gjelder.",
+    "effective": "Gjelder fra {{date}}",
+    "onThisPage": "På denne siden",
+    "related": "Relaterte sider"
+  }
+}

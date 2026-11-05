@@ -1,0 +1,11 @@
+{
+  "pageTitle": "加入小队 · The Water Check",
+  "invited": "你受邀加入一个小队",
+  "invitedBody": "一起喝水，互相加油。打开应用即可加入，或在“小队”中输入这个邀请码。",
+  "open": "打开 The Water Check",
+  "copy": "复制邀请码",
+  "copied": "已复制",
+  "noApp": "还没有安装应用？The Water Check 即将登陆 App Store 和 Google Play。安装后，再次打开这个链接，或使用邀请码加入。",
+  "incomplete": "这个邀请链接不完整",
+  "incompleteBody": "请让朋友重新分享邀请，或在应用的“小队”中输入他们发给你的邀请码加入。"
+}

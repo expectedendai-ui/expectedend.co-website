@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "이 페이지는 여기 없어요.",
+    "home": "홈으로 돌아가기"
+  },
+  "legal": {
+    "englishOnly": "이 페이지는 영어로 표시되며, 영어 버전이 우선합니다.",
+    "effective": "시행일: {{date}}",
+    "onThisPage": "이 페이지의 내용",
+    "related": "관련 페이지"
+  }
+}

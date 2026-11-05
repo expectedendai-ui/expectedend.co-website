@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | 以使命为本，用心打造",
+    "description": "Expected End 打造用心的软件、效率工具、数字体验和社区。"
+  },
+  "about": {
+    "title": "关于我们 | Expected End",
+    "description": "Denzel Rigaud 的创业故事、Expected End 背后的使命，以及源于信仰与使命的项目。"
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Expected End 创始人",
+    "description": "Denzel Rigaud 是 Expected End、MyBibleLens（基督信仰圣所应用）和 The Water Check 背后的创始人兼全栈开发者。"
+  },
+  "press": {
+    "title": "媒体与新闻 | Expected End",
+    "description": "经审核的个人简介、核实过的资料、实体链接和可下载的媒体素材，供报道 Expected End 和 Denzel Rigaud 使用。"
+  },
+  "terms": {
+    "title": "网站使用条款 | Expected End",
+    "description": "规范 Expected End 网站使用的条款。"
+  },
+  "privacy": {
+    "title": "隐私声明 | Expected End",
+    "description": "Expected End 如何处理本网站上的信息。"
+  },
+  "watercheck-privacy": {
+    "title": "The Water Check 隐私政策 | Expected End",
+    "description": "The Water Check 收集哪些信息、哪些只保存在你的手机上、谁协助运营这款应用，以及你有哪些选择。"
+  },
+  "watercheck-terms": {
+    "title": "The Water Check 条款与条件 | Expected End",
+    "description": "使用 The Water Check 应用的条款，包括健康与安全、AI、小队规则和购买。"
+  },
+  "watercheck-health-data": {
+    "title": "The Water Check 消费者健康数据隐私政策 | Expected End",
+    "description": "The Water Check 如何处理消费者健康数据，以及如何查阅、删除或提出申诉。"
+  },
+  "watercheck-delete-account": {
+    "title": "删除账户 | The Water Check",
+    "description": "如何在应用内或通过电子邮件删除你的 The Water Check 账户和数据。"
+  },
+  "watercheck-community": {
+    "title": "社区准则 | The Water Check",
+    "description": "The Water Check 的小队如何保持友好：规则、举报与屏蔽，以及违反规则的后果。"
+  },
+  "accessibility": {
+    "title": "无障碍 | Expected End",
+    "description": "Expected End 致力于提供无障碍的网站体验。"
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens 商店 | Expected End",
+    "description": "为更亲近神的话语而设计的用心好物。MyBibleLens 商店即将开业。"
+  },
+  "watercheck-store": {
+    "title": "The Water Check 商店 | Expected End",
+    "description": "来自 The Water Check、以补水为灵感的必备好物。首批商品即将推出。"
+  },
+  "watercheck-page": {
+    "title": "The Water Check | 补水应用与免费计算器",
+    "description": "了解 The Water Check 应用，并在 Expected End 上免费、私密地估算你的饮水量。"
+  },
+  "watercheck-calculator": {
+    "title": "免费补水计算器 | The Water Check",
+    "description": "使用 The Water Check 计算器，免费、私密地估算每日饮水量。"
+  },
+  "not-found": {
+    "title": "页面未找到 | Expected End",
+    "description": "找不到你要访问的 Expected End 页面。"
+  }
+}

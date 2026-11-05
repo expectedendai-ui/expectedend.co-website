@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Ndị nta akụkọ na mgbasa ozi",
+    "title": "Ihe enyemaka ndị nta akụkọ maka Expected End.",
+    "intro": "Akụkọ ndụ a kwadoro, eziokwu e nyochara, na mgbasa ozi ị nwere ike ibudata maka akụkọ gbasara Expected End na onye guzobere ya, Denzel Rigaud.",
+    "downloadPortrait": "Budata foto"
+  },
+  "inquiry": "Bido arịrịọ ndị nta akụkọ",
+  "role": "Onye guzobere na onye mmepụta full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud yi kootu na-acha anụnụ anụnụ gbara ọchịchịrị na ugogbe anya nwere agba oroma"
+  },
+  "contents": {
+    "label": "Ngalaba ibe ndị nta akụkọ",
+    "kit": "Ngwugwu ndị nta akụkọ / 2026",
+    "biographies": "Akụkọ ndụ",
+    "facts": "Eziokwu e nyochara",
+    "projects": "Ọrụ",
+    "licensing": "Iji mgbasa ozi"
+  },
+  "bios": {
+    "kicker": "Ederede a kwadoro",
+    "title": "Akụkọ ndụ",
+    "text": "Enwere ike ihota ma ọ bụ megharịa ụdị ndị a maka akụkọ ndị nta akụkọ.",
+    "shortLabel": "Akụkọ ndụ dị mkpụmkpụ / okwu 24",
+    "fullLabel": "Akụkọ ndụ zuru ezu",
+    "fullFirst": "Denzel Rigaud guzobere EXPECTEDEND LLC ma wuo MyBibleLens na The Water Check n'onwe ya. Ọ na-arụ ọrụ dị ka onye mmepụta full-stack nke ụlọ ọrụ ahụ, na-akpụzi ngwaahịa ọ bụla site n'echiche ruo n'imewe, injinịa, na mwepụta.",
+    "fullSecond": "Ọrụ ya gbadoro ụkwụ na software gbadoro ụkwụ n'okwukwe, ọdịmma n'ụwa dijitalụ, na ngwaọrụ bara uru na-enyere ndị mmadụ aka iji teknụzụ n'ebumnuche. MyBibleLens bụ ngwa ebe nsọ maka Ndị Kraịst. The Water Check jikọtara ntụle mmiri nzuzo, omume mmiri bara uru, na obodo lekwasịrị anya n'ịnọgide na-eme ya kwa ụbọchị."
+  },
+  "facts": {
+    "kicker": "Mpempe akwụkwọ eziokwu",
+    "title": "Eziokwu e nyochara",
+    "text": "Nkọwa ziri ezi maka profaịlụ, edemede, nkọwa foto, na ebe nchekwa data.",
+    "company": "Ụlọ ọrụ",
+    "founder": "Onye guzobere",
+    "role": "Ọrụ ya",
+    "products": "Ngwaahịa",
+    "productsValue": "MyBibleLens na The Water Check",
+    "website": "Weebụsaịtị nke ikike",
+    "profile": "Profaịlụ onye guzobere",
+    "entityLabel": "{{name}} na Wikidata"
+  },
+  "projects": {
+    "kicker": "Ngwaahịa",
+    "title": "Ọrụ ahụ",
+    "text": "Ngwaahịa abụọ, e wuru n'onwe n'okpuru Expected End.",
+    "mybiblelens": {
+      "alt": "Akara ngwa MyBibleLens",
+      "kicker": "Software gbadoro ụkwụ n'okwukwe",
+      "text": "Ngwa Ebe Nsọ Ndị Kraịst.",
+      "visit": "Gaa na MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Akara ngwa The Water Check",
+      "kicker": "Ịṅụ mmiri na obodo",
+      "text": "Ntụle mmiri nzuzo, omume mmiri bara uru, na obodo.",
+      "visit": "Gaa na The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Iji mgbasa ozi",
+    "title": "Foto onye guzobere",
+    "text": "Enwere ike ikesa ma megharịa foto a n'okpuru ikike <license>Creative Commons Attribution-ShareAlike 4.0</license>. Nkwanye ugwu: Denzel Rigaud / Expected End. Ihe ọ bụla e megharịrị ga-eji otu ikike ahụ.",
+    "download": "Budata foto onye guzobere"
+  },
+  "contact": {
+    "kicker": "Kpọtụrụ ndị nta akụkọ",
+    "title": "Ị chọrọ ajụjụ ọnụ, okwu ị ga-ehota, ma ọ bụ faịlụ ọzọ?"
+  }
+}

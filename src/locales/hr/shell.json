@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Glavna navigacija",
+    "projects": "Projekti",
+    "services": "Usluge",
+    "company": "Misija · O nama · Mediji",
+    "contact": "Kontakt",
+    "home": "Expected End, početna stranica",
+    "openMenu": "Otvori izbornik",
+    "closeMenu": "Zatvori izbornik",
+    "links": {
+      "projects": "Projekti",
+      "services": "Usluge",
+      "story": "Priča",
+      "about": "O nama",
+      "press": "Mediji",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigacija u podnožju",
+    "home": "Početna",
+    "about": "O nama",
+    "press": "Mediji",
+    "terms": "Uvjeti korištenja",
+    "privacy": "Izjava o privatnosti",
+    "accessibility": "Pristupačnost",
+    "contact": "Kontakt",
+    "mission": "Sve što gradim u ovoj tvrtki usmjereno je prema istoj misiji: približiti ljude Bogu i pomoći im da tehnologiju koriste kako bi živjeli, stvarali, voljeli i služili s namjerom. To je budućnost kojoj se nadam i prema kojoj radim.",
+    "verse": "Jeremija 29,11",
+    "copyright": "© 2026 EXPECTED END LLC. Sva prava pridržana.",
+    "blessing": "Isus te voli."
+  }
+}

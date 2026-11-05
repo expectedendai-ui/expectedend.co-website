@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, mwanzilishi wa Expected End",
+    "stats": {
+      "projects": "MIRADI ILIYOJENGWA",
+      "languages": "LUGHA",
+      "appStore": "KWENYE APP STORE"
+    },
+    "eyebrow": "Lango la kuelekea <em>mwisho wako unaotarajiwa</em>",
+    "title": "Kusudi, <break/>lililojengwa <break/>kwa uzuri.",
+    "intro": "Expected End huunda programu zenye kufikiriwa vizuri, zana za tija, uzoefu wa kidijitali, na jumuiya zinazowaleta watu karibu na Mungu kwa njia za kusisimua na rahisi!",
+    "cta": "Tazama kazi",
+    "lensHint": "Sogeza kishale chako ili kusoma msimbo"
+  },
+  "projects": {
+    "eyebrow": "01 / Miradi",
+    "title": "Programu mbili kwenye App Store. <break/><em>Android inakuja hivi karibuni.</em>",
+    "visit": "Tembelea {{name}}",
+    "android": "Android inakuja hivi karibuni",
+    "bio": "Wasifu",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Nyuma ya kazi",
+    "title": "Kila bidhaa hapa ilianza na swali katika <em>darasa la tano.</em>",
+    "lead": "Huzuni, imani na usiku mwingi wa kukesha vilikuwa kati ya swali hilo na programu hizi. Hadithi iliyobaki iko kwenye ukurasa wake.",
+    "cta": "Soma hadithi"
+  },
+  "proof": {
+    "caption": "Miradi iliyojengwa",
+    "eyebrow": "03 / Ushahidi wa kazi",
+    "title": "Imejengwa kutoka sifuri. <em>Kazi inajieleza yenyewe.</em>",
+    "lead": "Programu, tovuti, zana za AI, filamu na kampeni, zilizobuniwa, kuandikiwa msimbo na kuzinduliwa ndani ya kampuni. Hii ni sehemu yake.",
+    "stats": {
+      "apps": "<strong>Programu 2</strong> kwenye App Store",
+      "languages": "<strong>Lugha 43</strong> ndani ya MyBibleLens",
+      "years": "<strong>Miaka 10</strong> ya kuandika msimbo",
+      "inHouse": "<strong>Kutoka wazo hadi uzinduzi</strong>, vyote ndani ya kampuni"
+    },
+    "bigline": "<count>20+</count> MIRADI <star>✦</star> IMEJENGWA <star>✦</star> IMEZINDULIWA <star>✦</star> IKO HEWANI <star>✦</star>",
+    "rows": {
+      "products": "Programu na bidhaa",
+      "creative": "Tovuti, AI na kazi za ubunifu"
+    },
+    "next": "Mradi wako unaweza kuwa <em>unaofuata.</em>",
+    "cta": "Anza wako"
+  },
+  "services": {
+    "eyebrow": "04 / Huduma teule",
+    "title": "Wewe ota, <em>mimi nitajenga.</em>",
+    "lead": "Bidhaa zinakuja kwanza. Pale inapofaa, umakini ule ule unawekwa kwenye kazi teule kwa ajili ya wengine.",
+    "note": "Tafadhali weka kiwango cha bei katika maombi yote na utaje katika ujumbe wako ikiwa NDA inahitajika.",
+    "count": "Huduma {{number}} / {{total}}",
+    "start": "Anza mradi huu"
+  }
+}

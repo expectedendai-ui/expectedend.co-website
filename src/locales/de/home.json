@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, Gründer von Expected End",
+    "stats": {
+      "projects": "GEBAUTE PROJEKTE",
+      "languages": "SPRACHEN",
+      "appStore": "IM APP STORE"
+    },
+    "eyebrow": "Dein Tor zu <em>Zukunft und Hoffnung</em>",
+    "title": "Sinn, <break/>schön <break/>gebaut.",
+    "intro": "Expected End entwickelt durchdachte Software, Produktivitätstools, digitale Erlebnisse und Communities, die Menschen auf spannende und einfache Weise näher zu Gott bringen!",
+    "cta": "Die Arbeit ansehen",
+    "lensHint": "Bewege den Cursor, um den Code zu lesen"
+  },
+  "projects": {
+    "eyebrow": "01 / Projekte",
+    "title": "Zwei Apps im App Store. <break/><em>Android folgt bald.</em>",
+    "visit": "{{name}} besuchen",
+    "android": "Android folgt bald",
+    "bio": "Bio",
+    "actionFor": "{{action}} für {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Hinter der Arbeit",
+    "title": "Jedes Produkt hier begann mit einer Frage in einem <em>Klassenzimmer der fünften Klasse.</em>",
+    "lead": "Zwischen dieser Frage und diesen Apps lagen Trauer, Glaube und viele lange Nächte. Der Rest der Geschichte hat eine eigene Seite.",
+    "cta": "Die Geschichte lesen"
+  },
+  "proof": {
+    "caption": "Gebaute Projekte",
+    "eyebrow": "03 / Arbeitsproben",
+    "title": "Bei null angefangen. <em>Die Arbeit spricht für sich.</em>",
+    "lead": "Apps, Websites, KI-Tools, Filme und Kampagnen, komplett selbst gestaltet, programmiert und gelauncht. Hier ein Ausschnitt.",
+    "stats": {
+      "apps": "<strong>2 Apps</strong> im App Store",
+      "languages": "<strong>43 Sprachen</strong> in MyBibleLens",
+      "years": "<strong>10 Jahre</strong> Programmieren",
+      "inHouse": "<strong>Von der Idee bis zum Launch</strong>, alles aus einer Hand"
+    },
+    "bigline": "<count>20+</count> PROJEKTE <star>✦</star> GEBAUT <star>✦</star> VERÖFFENTLICHT <star>✦</star> LIVE <star>✦</star>",
+    "rows": {
+      "products": "Apps und Produkte",
+      "creative": "Websites, KI und kreative Arbeit"
+    },
+    "next": "Dein Projekt könnte das <em>nächste sein.</em>",
+    "cta": "Starte deins"
+  },
+  "services": {
+    "eyebrow": "04 / Ausgewählte Leistungen",
+    "title": "Du träumst es, <em>ich baue es.</em>",
+    "lead": "Die eigenen Produkte stehen an erster Stelle. Wenn es passt, fließt dieselbe Sorgfalt in ausgewählte Projekte für andere.",
+    "note": "Bitte gib bei jeder Anfrage einen Preisrahmen an und erwähne in deiner Nachricht, ob eine Geheimhaltungsvereinbarung (NDA) nötig ist.",
+    "count": "Leistung {{number}} / {{total}}",
+    "start": "Dieses Projekt starten"
+  }
+}

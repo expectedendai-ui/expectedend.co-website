@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Wasiliana na Expected End",
+    "title": "Anza kwa <em>maelezo machache.</em>",
+    "intro": "Chagua maelezo machache na barua pepe iliyo wazi itaandaliwa kwa ajili yako. Programu yako ya barua pepe hufunguka kabla chochote hakijatumwa."
+  },
+  "fields": {
+    "name": "Jina lako",
+    "email": "Barua pepe yako",
+    "reason": "Hii inahusu nini?",
+    "project": "Mradi gani?",
+    "priceRange": "Kiwango cha bei",
+    "timeline": "Muda unaofaa",
+    "discovery": "Uliipataje Expected End?",
+    "message": "Una wazo gani?",
+    "chooseOne": "Chagua moja"
+  },
+  "reasons": {
+    "partnership": "Ushirikiano au kufanya kazi pamoja",
+    "press": "Vyombo vya habari",
+    "general": "Swali la jumla"
+  },
+  "projects": {
+    "waterCheckCommunity": "Jumuiya ya The Water Check",
+    "newIdea": "Wazo jipya"
+  },
+  "timelines": {
+    "exploring": "Ninaangalia tu",
+    "month": "Ndani ya mwezi mmoja",
+    "threeMonths": "Ndani ya miezi mitatu",
+    "laterThisYear": "Baadaye mwaka huu",
+    "notSure": "Bado sina uhakika"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Jumuiya ya The Water Check",
+    "search": "Utafutaji mtandaoni",
+    "referral": "Nilielekezwa na mtu",
+    "elsewhere": "Mahali pengine"
+  },
+  "submit": {
+    "note": "Hakuna kinachotumwa hadi uikague na ubonyeze Tuma kwenye programu yako ya barua pepe.",
+    "apps": "Chagua <app>programu yako ya barua pepe</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, au <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Andaa barua pepe"
+  },
+  "dialog": {
+    "close": "Funga fomu ya mawasiliano"
+  }
+}

@@ -1,4 +1,5 @@
 import type * as React from "react";
+import { useTranslation } from "react-i18next";
 import { ArrowDownIcon, ArrowUpRightIcon } from "./action-icons";
 import styles from "./storefront.module.css";
 import { WaterIntro } from "./water-intro";
@@ -11,6 +12,7 @@ type StorefrontProps = {
 };
 
 type Product = {
+  id: string;
   name: string;
   detail: string;
   kind: string;
@@ -29,6 +31,7 @@ type Store = {
 
 // This is the only place a launch needs to be configured. Add a real product
 // image and Stripe Payment Link here when the Tap-Stitch mockups are ready.
+// The English here is the fallback; locales/<id>/store.json holds each language's words by brand and id.
 const STORES: Record<StoreBrand, Store> = {
   mybiblelens: {
     name: "MyBibleLens",
@@ -37,10 +40,10 @@ const STORES: Record<StoreBrand, Store> = {
     intro: "A small collection of thoughtful goods made for notes, reminders, and the everyday walk with God.",
     wordmarkClassName: "mbl",
     products: [
-      { name: "The Daily Bread Journal", detail: "Guided notebook", kind: "Notebook", art: "journal" },
-      { name: "The Lens Pin", detail: "A little reminder", kind: "Pin", art: "pin" },
-      { name: "The Word Tee", detail: "Soft everyday layer", kind: "Apparel", art: "tee" },
-      { name: "First Light Hoodie", detail: "For cooler mornings", kind: "Apparel", art: "hoodie" },
+      { id: "dailyBreadJournal", name: "The Daily Bread Journal", detail: "Guided notebook", kind: "Notebook", art: "journal" },
+      { id: "lensPin", name: "The Lens Pin", detail: "A little reminder", kind: "Pin", art: "pin" },
+      { id: "wordTee", name: "The Word Tee", detail: "Soft everyday layer", kind: "Apparel", art: "tee" },
+      { id: "firstLightHoodie", name: "First Light Hoodie", detail: "For cooler mornings", kind: "Apparel", art: "hoodie" },
     ],
   },
   watercheck: {
@@ -50,10 +53,10 @@ const STORES: Record<StoreBrand, Store> = {
     intro: "Hydration-minded layers for the people who show up, refill, and keep the check going.",
     wordmarkClassName: "watercheck",
     products: [
-      { name: "The Daily Check Tee", detail: "A bright everyday essential", kind: "Tee", art: "tee" },
-      { name: "Refill Hoodie", detail: "For after the long walk", kind: "Hoodie", art: "hoodie" },
-      { name: "The Flow Tee", detail: "A second colorway", kind: "Tee", art: "tee" },
-      { name: "Hydration Hoodie", detail: "A calm, heavyweight layer", kind: "Hoodie", art: "hoodie" },
+      { id: "dailyCheckTee", name: "The Daily Check Tee", detail: "A bright everyday essential", kind: "Tee", art: "tee" },
+      { id: "refillHoodie", name: "Refill Hoodie", detail: "For after the long walk", kind: "Hoodie", art: "hoodie" },
+      { id: "flowTee", name: "The Flow Tee", detail: "A second colorway", kind: "Tee", art: "tee" },
+      { id: "hydrationHoodie", name: "Hydration Hoodie", detail: "A calm, heavyweight layer", kind: "Hoodie", art: "hoodie" },
     ],
   },
 };
@@ -67,34 +70,42 @@ const MY_BIBLE_LENS_HERO_STICKERS = [
 ] as const;
 
 export function Storefront({ brand, onNavigate }: StorefrontProps) {
+  const { t } = useTranslation("store");
   const store = STORES[brand];
+  const text = (key: string, english: string) => t(`${brand}.${key}`, { defaultValue: english });
+  const products = store.products.map((product) => ({
+    ...product,
+    name: text(`products.${product.id}.name`, product.name),
+    detail: text(`products.${product.id}.detail`, product.detail),
+    kind: text(`products.${product.id}.kind`, product.kind),
+  }));
 
   return (
     <main className={styles.store} data-store-brand={brand}>
       <div className={styles.waterField} aria-hidden="true" />
       {brand === "watercheck" && <WaterIntro />}
-      <nav className={styles.nav} aria-label={`${store.name} store navigation`}>
+      <nav className={styles.nav} aria-label={t("nav.label", { store: store.name })}>
         <a href="/" onClick={onNavigate} className={styles.backLink}>
           Expected End
         </a>
         <a href="#collection" className={styles.collectionLink}>
-          The collection <ArrowDownIcon />
+          {t("nav.collection")} <ArrowDownIcon />
         </a>
       </nav>
 
       <section className={styles.hero} aria-labelledby="store-title">
         <div className={styles.heroGlow} aria-hidden="true" />
-        <p className={styles.eyebrow}>{store.eyebrow}</p>
+        <p className={styles.eyebrow}>{text("eyebrow", store.eyebrow)}</p>
         <h1 id="store-title" className={styles[store.wordmarkClassName]}>
           {store.name}
         </h1>
-        <p className={styles.headline}>{store.headline}</p>
-        <p className={styles.intro}>{store.intro}</p>
+        <p className={styles.headline}>{text("headline", store.headline)}</p>
+        <p className={styles.intro}>{text("intro", store.intro)}</p>
         <a href="#collection" className={styles.heroAction}>
-          Explore the first drop <ArrowDownIcon />
+          {t("hero.action")} <ArrowDownIcon />
         </a>
         {brand === "mybiblelens" && (
-          <div className={styles.mblHeroArt} role="img" aria-label="MyBibleLens store logo and sticker collage">
+          <div className={styles.mblHeroArt} role="img" aria-label={t("hero.mybiblelensArt")}>
             <div className={styles.mblFlipStage} data-flip-logo>
               <div className={styles.mblFlipCard}>
                 <img
@@ -131,7 +142,7 @@ export function Storefront({ brand, onNavigate }: StorefrontProps) {
           </div>
         )}
         {brand === "watercheck" && (
-          <div className={styles.waterHeroArt} role="img" aria-label="The Water Check liquid logo bubble">
+          <div className={styles.waterHeroArt} role="img" aria-label={t("hero.watercheckArt")}>
             <span className={styles.waterHeroBubble}>
               <img src="/brand/watercheck-store/c-mark-magic-eraser.png" alt="" width="700" height="700" decoding="async" />
             </span>
@@ -144,17 +155,17 @@ export function Storefront({ brand, onNavigate }: StorefrontProps) {
 
       <section className={styles.collection} id="collection" aria-labelledby="collection-title">
         <div className={styles.collectionHead}>
-          <p className={styles.eyebrow}>Coming soon</p>
-          <h2 id="collection-title">Made to become part of your day.</h2>
-          <p>These are the first pieces. Product photos, options, and checkout links will appear here when the drop is ready.</p>
+          <p className={styles.eyebrow}>{t("collection.eyebrow")}</p>
+          <h2 id="collection-title">{t("collection.title")}</h2>
+          <p>{t("collection.body")}</p>
         </div>
         <div className={styles.productGrid}>
-          {store.products.map((product, index) => (
-            <article className={styles.product} key={product.name}>
+          {products.map((product, index) => (
+            <article className={styles.product} key={product.id}>
               <div
                 className={styles.productArt}
                 data-product-art={product.art}
-                aria-label={`${product.name} product placeholder`}
+                aria-label={t("product.placeholder", { name: product.name })}
                 role="img"
               >
                 <span className={styles.productNumber}>{String(index + 1).padStart(2, "0")}</span>
@@ -168,11 +179,11 @@ export function Storefront({ brand, onNavigate }: StorefrontProps) {
                 </div>
                 {product.stripePaymentLink ? (
                   <a className={styles.buyButton} href={product.stripePaymentLink} target="_blank" rel="noreferrer">
-                    Buy now <ArrowUpRightIcon />
+                    {t("product.buy")} <ArrowUpRightIcon />
                   </a>
                 ) : (
-                  <button className={styles.comingSoon} type="button" disabled aria-label={`${product.name} coming soon`}>
-                    Coming soon
+                  <button className={styles.comingSoon} type="button" disabled aria-label={t("product.comingSoonLabel", { name: product.name })}>
+                    {t("product.comingSoon")}
                   </button>
                 )}
               </div>
@@ -182,29 +193,27 @@ export function Storefront({ brand, onNavigate }: StorefrontProps) {
       </section>
 
       <section className={styles.dropNote} aria-labelledby="drop-note-title">
-        <p className={styles.eyebrow}>No account needed</p>
-        <h2 id="drop-note-title">When it opens, checkout stays simple.</h2>
-        <p>Choose a piece, tap Buy now, and check out securely through Stripe. No store account and no shopping-cart maze.</p>
+        <p className={styles.eyebrow}>{t("checkout.eyebrow")}</p>
+        <h2 id="drop-note-title">{t("checkout.title")}</h2>
+        <p>{t("checkout.body")}</p>
       </section>
 
       <footer className={styles.footer}>
         <div>
           <p className={styles.footerMark}>{store.name}</p>
-          <p className={styles.footerNote}>
-            © {new Date().getFullYear()} Expected End. Store policies will be published before the first drop.
-          </p>
+          <p className={styles.footerNote}>{t("footer.note", { year: new Date().getFullYear() })}</p>
         </div>
-        <nav aria-label="Store policies" className={styles.policyLinks}>
+        <nav aria-label={t("footer.policies")} className={styles.policyLinks}>
           <a href="/terms" onClick={onNavigate}>
-            Terms
+            {t("footer.terms")}
           </a>
           <a href="/privacy" onClick={onNavigate}>
-            Privacy
+            {t("footer.privacy")}
           </a>
           <a href="/accessibility" onClick={onNavigate}>
-            Accessibility
+            {t("footer.accessibility")}
           </a>
-          <span>Shipping & returns — before drop</span>
+          <span>{t("footer.shipping")}</span>
         </nav>
       </footer>
     </main>

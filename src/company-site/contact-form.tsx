@@ -1,6 +1,8 @@
 import * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { ArrowUpRightIcon } from "./action-icons";
 import { SERVICES } from "./content";
+import { useContentText } from "./content-i18n";
 import styles from "./style.module.css";
 
 type ContactDetails = {
@@ -77,12 +79,19 @@ export const buildYahooComposeUrl = (details: ContactDetails, source: string) =>
 
 const readField = (formData: FormData, name: string) => String(formData.get(name) ?? "").trim();
 
+// Trans supplies the link words, so the anchor gets its children at render time.
+function ComposeLink({ href, children }: { href: string; children?: React.ReactNode }) {
+  return <a href={href}>{children}</a>;
+}
+
 type ContactFormProps = {
   initialProject?: string;
   initialReason?: string;
 };
 
 export function ContactForm({ initialProject = "", initialReason = "" }: ContactFormProps = {}) {
+  const { t } = useTranslation("contact");
+  const { service } = useContentText();
   const [preparedEmail, setPreparedEmail] = React.useState("");
   const [gmailComposeUrl, setGmailComposeUrl] = React.useState("");
   const [outlookComposeUrl, setOutlookComposeUrl] = React.useState("");
@@ -117,51 +126,51 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
     <section className={styles.contactSection} id="contact" aria-labelledby="contact-title">
       <div className={styles.contactHeader}>
         <div>
-          <p className={styles.kicker}>Contact Expected End</p>
-          <h2 id="contact-title">Start with a little <em>context.</em></h2>
+          <p className={styles.kicker}>{t("header.kicker")}</p>
+          <h2 id="contact-title"><Trans t={t} i18nKey="header.title" components={{ em: <em /> }} /></h2>
         </div>
-        <p>Choose a few details and a clear email is prepared for you. Your email app opens before anything is sent.</p>
+        <p>{t("header.intro")}</p>
       </div>
 
       <form className={styles.contactForm} onSubmit={onSubmit}>
         <label className={styles.contactField}>
-          <span>Your name</span>
+          <span>{t("fields.name")}</span>
           <input name="name" type="text" autoComplete="name" maxLength={80} required />
         </label>
 
         <label className={styles.contactField}>
-          <span>Your email</span>
+          <span>{t("fields.email")}</span>
           <input name="replyEmail" type="email" autoComplete="email" maxLength={120} required />
         </label>
 
         <label className={styles.contactField}>
-          <span>What is this about?</span>
+          <span>{t("fields.reason")}</span>
           <select name="reason" defaultValue={initialReason} required>
-            <option value="" disabled>Choose one</option>
-            {SERVICES.map(([, , , contactReason]) => (
-              <option key={contactReason}>{contactReason}</option>
+            <option value="" disabled>{t("fields.chooseOne")}</option>
+            {SERVICES.map(service).map(({ reason, reasonLabel }) => (
+              <option key={reason} value={reason}>{reasonLabel}</option>
             ))}
-            <option>Partnership or collaboration</option>
-            <option>Press or media</option>
-            <option>General question</option>
+            <option value="Partnership or collaboration">{t("reasons.partnership")}</option>
+            <option value="Press or media">{t("reasons.press")}</option>
+            <option value="General question">{t("reasons.general")}</option>
           </select>
         </label>
 
         <label className={styles.contactField}>
-          <span>Which project?</span>
+          <span>{t("fields.project")}</span>
           <select name="project" defaultValue={initialProject} required>
-            <option value="" disabled>Choose one</option>
+            <option value="" disabled>{t("fields.chooseOne")}</option>
             <option>Expected End</option>
             <option>MyBibleLens</option>
-            <option>The Water Check community</option>
-            <option>A new idea</option>
+            <option value="The Water Check community">{t("projects.waterCheckCommunity")}</option>
+            <option value="A new idea">{t("projects.newIdea")}</option>
           </select>
         </label>
 
         <label className={styles.contactField}>
-          <span>Price range</span>
+          <span>{t("fields.priceRange")}</span>
           <select name="priceRange" defaultValue="" required>
-            <option value="" disabled>Choose one</option>
+            <option value="" disabled>{t("fields.chooseOne")}</option>
             <option>$100-$1,000</option>
             <option>$1,000-$2,000</option>
             <option>$2,000-$10,000</option>
@@ -171,32 +180,32 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
         </label>
 
         <label className={styles.contactField}>
-          <span>Ideal timeline</span>
+          <span>{t("fields.timeline")}</span>
           <select name="timeline" defaultValue="" required>
-            <option value="" disabled>Choose one</option>
-            <option>Just exploring</option>
-            <option>Within a month</option>
-            <option>Within three months</option>
-            <option>Later this year</option>
-            <option>Not sure yet</option>
+            <option value="" disabled>{t("fields.chooseOne")}</option>
+            <option value="Just exploring">{t("timelines.exploring")}</option>
+            <option value="Within a month">{t("timelines.month")}</option>
+            <option value="Within three months">{t("timelines.threeMonths")}</option>
+            <option value="Later this year">{t("timelines.laterThisYear")}</option>
+            <option value="Not sure yet">{t("timelines.notSure")}</option>
           </select>
         </label>
 
         <label className={styles.contactField}>
-          <span>How did you find Expected End?</span>
+          <span>{t("fields.discovery")}</span>
           <select name="discovery" defaultValue="" required>
-            <option value="" disabled>Choose one</option>
+            <option value="" disabled>{t("fields.chooseOne")}</option>
             <option>Instagram</option>
             <option>MyBibleLens</option>
-            <option>The Water Check community</option>
-            <option>Search</option>
-            <option>A referral</option>
-            <option>Somewhere else</option>
+            <option value="The Water Check community">{t("discovery.waterCheckCommunity")}</option>
+            <option value="Search">{t("discovery.search")}</option>
+            <option value="A referral">{t("discovery.referral")}</option>
+            <option value="Somewhere else">{t("discovery.elsewhere")}</option>
           </select>
         </label>
 
         <label className={`${styles.contactField} ${styles.contactMessage}`}>
-          <span>What do you have in mind?</span>
+          <span>{t("fields.message")}</span>
           <textarea
             name="message"
             rows={8}
@@ -208,11 +217,25 @@ export function ContactForm({ initialProject = "", initialReason = "" }: Contact
 
         <div className={styles.contactSubmit}>
           <p>
-            Nothing is sent until you review it and press Send in your email app.
-            {preparedEmail && gmailComposeUrl && outlookComposeUrl && yahooComposeUrl ? <> Choose <a href={preparedEmail}>your email app</a>, <a href={gmailComposeUrl}>Gmail</a>, <a href={outlookComposeUrl}>Outlook</a>, or <a href={yahooComposeUrl}>Yahoo Mail</a>.</> : null}
+            {t("submit.note")}
+            {preparedEmail && gmailComposeUrl && outlookComposeUrl && yahooComposeUrl ? (
+              <>
+                {" "}
+                <Trans
+                  t={t}
+                  i18nKey="submit.apps"
+                  components={{
+                    app: <ComposeLink href={preparedEmail} />,
+                    gmail: <ComposeLink href={gmailComposeUrl} />,
+                    outlook: <ComposeLink href={outlookComposeUrl} />,
+                    yahoo: <ComposeLink href={yahooComposeUrl} />,
+                  }}
+                />
+              </>
+            ) : null}
           </p>
           <button className={styles.actionWithIcon} type="submit">
-            Prepare email <ArrowUpRightIcon className={styles.actionIcon} />
+            {t("submit.button")} <ArrowUpRightIcon className={styles.actionIcon} />
           </button>
         </div>
       </form>

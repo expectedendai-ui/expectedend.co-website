@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "ሚዲያ",
+    "title": "ለExpected End የሚዲያ ግብዓቶች።",
+    "intro": "ስለ Expected End እና ስለ መሥራቹ Denzel Rigaud ለሚሠሩ ዘገባዎች የጸደቁ የሕይወት ታሪኮች፣ የተረጋገጡ እውነታዎችና ሊወርዱ የሚችሉ ሚዲያዎች።",
+    "downloadPortrait": "ፎቶውን ያውርዱ"
+  },
+  "inquiry": "የሚዲያ ጥያቄ ይጀምሩ",
+  "role": "መሥራችና የፉል-ስታክ ገንቢ",
+  "portrait": {
+    "alt": "Denzel Rigaud የባሕር ኃይል ሰማያዊ ሱፍና ብርቱካናማ ቀለም ያለው መነጽር አድርጎ"
+  },
+  "contents": {
+    "label": "የሚዲያ ገጹ ክፍሎች",
+    "kit": "የሚዲያ ጥቅል / 2026",
+    "biographies": "የሕይወት ታሪኮች",
+    "facts": "የተረጋገጡ እውነታዎች",
+    "projects": "ፕሮጀክቶች",
+    "licensing": "የሚዲያ አጠቃቀም"
+  },
+  "bios": {
+    "kicker": "የጸደቀ ጽሑፍ",
+    "title": "የሕይወት ታሪኮች",
+    "text": "እነዚህ ቅጂዎች ለዜና ዘገባ ሊጠቀሱ ወይም ሊሻሻሉ ይችላሉ።",
+    "shortLabel": "አጭር የሕይወት ታሪክ / 24 ቃላት",
+    "fullLabel": "ሙሉ የሕይወት ታሪክ",
+    "fullFirst": "Denzel Rigaud EXPECTEDEND LLCን መሠረተ፤ MyBibleLens እና The Water Checkን ለብቻው ገነባ። የኩባንያው የፉል-ስታክ ገንቢ ሆኖ ይሠራል፤ እያንዳንዱን ምርት ከሐሳብ ጀምሮ በዲዛይን፣ በምሕንድስና እና በምርቃት ይቀርጻል።",
+    "fullSecond": "ሥራው የሚያተኩረው በእምነት ተኮር ሶፍትዌር፣ በዲጂታል ደኅንነት እና ሰዎች ቴክኖሎጂን በዓላማ እንዲጠቀሙ በሚያግዙ ተግባራዊ መሣሪያዎች ላይ ነው። MyBibleLens የክርስትና መቅደስ መተግበሪያ ነው። The Water Check ግላዊ የውሃ ፍላጎት ግምትን፣ ተግባራዊ የውሃ ልማዶችንና በዕለት ተዕለት ወጥነት ላይ ያተኮረ ማህበረሰብን ያጣምራል።"
+  },
+  "facts": {
+    "kicker": "የእውነታ ሰነድ",
+    "title": "የተረጋገጡ እውነታዎች",
+    "text": "ለመገለጫዎች፣ ለጽሑፎች፣ ለምስል መግለጫዎችና ለዳታቤዞች የሚሆኑ ይፋዊ ዝርዝሮች።",
+    "company": "ኩባንያ",
+    "founder": "መሥራች",
+    "role": "ሚና",
+    "products": "ምርቶች",
+    "productsValue": "MyBibleLens እና The Water Check",
+    "website": "ይፋዊ ድረ-ገጽ",
+    "profile": "የመሥራቹ መገለጫ",
+    "entityLabel": "{{name}} በWikidata"
+  },
+  "projects": {
+    "kicker": "ምርቶች",
+    "title": "ሥራው",
+    "text": "በExpected End ስር ለብቻ የተገነቡ ሁለት ምርቶች።",
+    "mybiblelens": {
+      "alt": "የMyBibleLens መተግበሪያ አዶ",
+      "kicker": "እምነት ተኮር ሶፍትዌር",
+      "text": "የክርስትና መቅደስ መተግበሪያ።",
+      "visit": "MyBibleLensን ይጎብኙ"
+    },
+    "watercheck": {
+      "alt": "የThe Water Check መተግበሪያ አዶ",
+      "kicker": "ውሃ መጠጣትና ማህበረሰብ",
+      "text": "ግላዊ የውሃ ፍላጎት ግምት፣ ተግባራዊ የውሃ ልማዶችና ማህበረሰብ።",
+      "visit": "The Water Checkን ይጎብኙ"
+    }
+  },
+  "license": {
+    "kicker": "የሚዲያ አጠቃቀም",
+    "title": "የመሥራቹ ፎቶ",
+    "text": "ፎቶው በ<license>Creative Commons Attribution-ShareAlike 4.0</license> ፈቃድ መሠረት ሊጋራና ሊሻሻል ይችላል። ምስጋና፦ Denzel Rigaud / Expected End። የተሻሻሉ ቅጂዎች ተመሳሳይ ፈቃድ መጠቀም አለባቸው።",
+    "download": "የመሥራቹን ፎቶ ያውርዱ"
+  },
+  "contact": {
+    "kicker": "የሚዲያ ግንኙነት",
+    "title": "ቃለ መጠይቅ፣ ጥቅስ ወይም ተጨማሪ ፋይል ያስፈልግዎታል?"
+  }
+}

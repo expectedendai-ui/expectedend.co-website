@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Oubliez les influenceurs. Découvrez votre vraie biologie.",
+    "lead": "Essayez le calculateur gratuit sans créer de compte, puis découvrez l’appli que nous préparons pour le suivi au quotidien.",
+    "appLink": "Découvrir l’appli ↓",
+    "logoLabel": "Utiliser le calculateur The Water Check"
+  },
+  "intro": {
+    "kicker": "Calculateur d’hydratation",
+    "title": "Commencez par les chiffres que vous connaissez."
+  },
+  "units": {
+    "legend": "Unité de poids",
+    "pounds": "Livres (lb)",
+    "kilograms": "Kilogrammes (kg)"
+  },
+  "weight": {
+    "labelLb": "Poids (lbs)",
+    "labelKg": "Poids (kg)",
+    "valueTextLb": "{{value}} livres",
+    "valueTextKg": "{{value}} kilogrammes"
+  },
+  "height": {
+    "legend": "Taille",
+    "feet": "Taille (ft)",
+    "inches": "Taille (in)",
+    "centimeters": "Taille (cm)",
+    "note": "Les besoins en liquides suivent la masse maigre : la taille compte donc surtout quand le poids est élevé pour votre gabarit."
+  },
+  "activity": {
+    "label": "Activité quotidienne (minutes)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minutes"
+  },
+  "factors": {
+    "legend": "Facteurs qui peuvent modifier vos besoins en liquides",
+    "intro": "Nous n’appliquons un chiffre que lorsqu’un ajustement quotidien défendable existe. Les autres réponses personnalisent vos conseils sans prétendre que la science justifie une dose exacte.",
+    "age": {
+      "label": "Âge",
+      "hint": "L’âge donne du contexte ; il ne permet pas de diagnostiquer la ménopause."
+    },
+    "lifeStage": {
+      "label": "Étape de vie",
+      "hint": "Applique un ajustement transparent pour la grossesse ou la production de lait.",
+      "options": {
+        "standard": "Standard",
+        "pregnant": "Enceinte",
+        "breastfeeding": "Allaitante"
+      }
+    },
+    "sex": {
+      "label": "Sexe",
+      "hint": "Facultatif. Affine les calculs du poids idéal et des apports de référence.",
+      "options": {
+        "unspecified": "Je préfère ne pas répondre",
+        "woman": "Femme",
+        "man": "Homme"
+      }
+    },
+    "luteal": {
+      "label": "La semaine avant vos règles",
+      "hint": "Prend en compte la rétention d’eau de la phase lutéale et les ballonnements hormonaux. Aucun ajout fixe ne vaut pour tout le monde."
+    },
+    "heat": {
+      "label": "Chaleur ou humidité",
+      "hint": "Les conseils liés à la chaleur dépendent de l’exposition et de la transpiration, pas seulement du lieu."
+    }
+  },
+  "result": {
+    "goal": "Votre objectif quotidien : {{ounces}} onces",
+    "breakdown": "Détail du calcul",
+    "weightBaseline": "Base liée au poids",
+    "heightAndBuild": "Taille et gabarit",
+    "sexReference": "Référence selon le sexe",
+    "notSet": "Non renseigné",
+    "activity": "Ajustement pour l’activité",
+    "lifeStage": {
+      "standard": "Ajustement selon l’étape de vie",
+      "pregnant": "Ajustement grossesse",
+      "breastfeeding": "Ajustement allaitement"
+    },
+    "luteal": "Conseils pour la phase lutéale",
+    "noFixedOunces": "Pas de +oz fixe",
+    "electrolytes": "Point électrolytes",
+    "electrolytesAfterSweat": "À envisager après une forte transpiration",
+    "electrolytesFromFood": "L’alimentation suffit généralement",
+    "guidance": "Il s’agit d’une estimation de planification à visée éducative pour les adultes, et non d’un diagnostic, d’un traitement ou d’une prescription médicale. Les aliments apportent aussi de l’eau, et les besoins varient d’une personne à l’autre. Ne vous forcez pas à boire. Parlez de vos besoins à un professionnel de santé si vous êtes enceinte ou allaitez, prenez des médicaments qui influent sur l’équilibre hydrique, avez une maladie rénale ou cardiaque, suivez une restriction hydrique ou présentez des symptômes inquiétants."
+  },
+  "equivalents": {
+    "title": "Cela représente environ",
+    "cups": "{{value}} tasses",
+    "cupsNote": "de 8 oz chacune",
+    "liters": "{{value}} litres",
+    "litersNote": "système métrique",
+    "bottles": "{{value}} bouteilles",
+    "bottlesNote": "format 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Mangez votre eau",
+    "title": "Pas besoin que tout vienne d’un verre.",
+    "copy": "Environ un cinquième de l’eau quotidienne de la plupart des gens provient des aliments. La plupart des fruits et légumes frais contiennent de 70 à 95 % d’eau, et une fois dans votre circulation sanguine, cette eau vous hydrate exactement comme une boisson.",
+    "drink": "Buvez",
+    "drinkNote": "{{cups}} tasses d’eau, de thé ou de lait",
+    "eat": "Mangez",
+    "eatNote": "grâce aux aliments riches en eau",
+    "pickLegend": "Visualiser la part des aliments en",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} : environ {{ounces}} oz d’eau ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "tasses de pastèque",
+      "serving": "1 tasse en dés",
+      "water": "92 % d’eau"
+    },
+    "cucumber": {
+      "label": "concombres",
+      "serving": "1 moyen",
+      "water": "95 % d’eau"
+    },
+    "strawberries": {
+      "label": "tasses de fraises",
+      "serving": "1 tasse",
+      "water": "91 % d’eau"
+    },
+    "oranges": {
+      "label": "oranges",
+      "serving": "1 moyenne",
+      "water": "87 % d’eau"
+    },
+    "salad": {
+      "label": "bols de salade",
+      "serving": "2 tasses de salade composée",
+      "water": "environ 94 % d’eau"
+    },
+    "soup": {
+      "label": "bols de bouillon",
+      "serving": "1 tasse",
+      "water": "environ 92 % d’eau"
+    },
+    "tomatoes": {
+      "label": "tomates",
+      "serving": "1 moyenne",
+      "water": "95 % d’eau"
+    },
+    "grapes": {
+      "label": "tasses de raisin",
+      "serving": "1 tasse",
+      "water": "81 % d’eau"
+    },
+    "peaches": {
+      "label": "pêches",
+      "serving": "1 moyenne",
+      "water": "89 % d’eau"
+    },
+    "cantaloupe": {
+      "label": "tasses de melon",
+      "serving": "1 tasse en dés",
+      "water": "90 % d’eau"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Pourquoi l’eau des aliments compte",
+    "title": "L’eau d’une pastèque, c’est la même eau.",
+    "sameMolecule": "<strong>Même molécule.</strong> L’H2O d’un concombre et l’H2O du robinet sont identiques. Une fois que cette eau traverse votre intestin et rejoint votre sang, votre corps l’envoie vers vos muscles de la même façon.",
+    "slowRelease": "<strong>Libération lente.</strong> Dans les fruits et légumes, l’eau est retenue dans les fibres et les parois cellulaires : elle est donc absorbée plus progressivement qu’un verre bu d’un trait, que vos reins ont tendance à éliminer rapidement.",
+    "electrolytes": "<strong>Électrolytes inclus.</strong> Le concombre, les épinards, le melon et les fruits rouges apportent du potassium et du magnésium, des minéraux que vos cellules utilisent pour retenir l’eau.",
+    "glycogen": "<strong>Énergie et réserves à la fois.</strong> Les muscles stockent les glucides sous forme de glycogène, et chaque gramme de glycogène est stocké avec environ trois grammes d’eau. Les aliments riches en eau et en glucides apportent les deux.",
+    "caveat": "Vous devez quand même boire. Les aliments couvrent généralement environ un cinquième du total ; le reste vient de l’eau et des autres boissons. Les fruits séchés, les noix et le pain contiennent très peu d’eau."
+  },
+  "grace": {
+    "kicker": "Bienveillance envers votre corps",
+    "title": "Un petit mot sur l’indulgence envers soi",
+    "body": "Le miroir et la façon dont vos vêtements tombent peuvent changer à cause de la rétention d’eau, de la digestion, des hormones, du sommeil et d’autres variations normales. Une journée de ballonnements ne définit pas votre corps. Buvez avec attention, donnez-vous du temps et laissez la curiosité remplacer la honte. Des ballonnements persistants, un gonflement, des variations de poids rapides ou des symptômes qui vous inquiètent méritent d’être évoqués avec un professionnel de santé."
+  },
+  "overhydration": {
+    "title": "Le danger de l’hydratation forcée",
+    "kidneys": "Vos reins ont besoin de temps pour éliminer l’eau. Lors d’un effort prolongé, boire plus vite que vous ne perdez de liquide peut diluer le sodium dans le sang et provoquer une hyponatrémie associée à l’exercice. Les premiers symptômes peuvent inclure des maux de tête, des nausées, des vertiges, de la fatigue ou une confusion. Les cas graves peuvent provoquer un gonflement du cerveau, des convulsions, le coma et la mort.",
+    "pacing": "Ne cherchez pas à atteindre cette estimation en buvant d’un trait. Répartissez vos boissons sur la journée. Pendant l’effort, adaptez ce que vous buvez à votre soif, aux conditions et à vos propres pertes de sueur. Consultez d’urgence un médecin en cas de confusion, de convulsions, d’effondrement ou de symptômes graves.",
+    "sources": "Sources : <nih>recommandations des NIH sur l’hyponatrémie associée à l’exercice</nih> et <academies>recommandations des National Academies sur les liquides</academies>."
+  },
+  "notes": {
+    "title": "Vos repères scientifiques",
+    "sexMan": "<strong>Sexe :</strong> Les apports de référence des National Academies sont d’environ 3,7 litres d’eau totale par jour pour les hommes et 2,7 pour les femmes. Le poids corporel explique l’essentiel de cet écart : le reste apparaît donc ici sous la forme d’une hausse de 4 % de la base liée au poids, et la vérification taille et gabarit utilise la formule du poids idéal masculin.",
+    "sexWoman": "<strong>Sexe :</strong> Les apports de référence des National Academies sont d’environ 3,7 litres d’eau totale par jour pour les hommes et 2,7 pour les femmes. Le poids corporel explique l’essentiel de cet écart : le reste apparaît donc ici sous la forme d’une baisse de 4 % de la base liée au poids, et la vérification taille et gabarit utilise la formule du poids idéal féminin.",
+    "height": "<strong>Taille et gabarit :</strong> Les besoins en liquides suivent davantage la masse maigre que le poids total. Comme votre poids dépasse la fourchette habituelle pour votre taille, l’estimation utilise le poids corporel ajusté (poids idéal plus 40 % de la différence), une convention clinique courante. C’est un chiffre approximatif pour vous organiser, pas un jugement sur votre corps.",
+    "cycle": "<strong>Phase du cycle :</strong> Les variations hydriques liées au cycle sont réelles, mais les études n’établissent aucune hausse universelle et fixe en onces. Aucune once n’a été ajoutée automatiquement. Des repas réguliers couvrent généralement les électrolytes ; les compléments de magnésium ou de potassium ne sont pas une recommandation universelle.",
+    "age": "<strong>Âge et ménopause :</strong> L’âge seul ne détermine pas le statut ménopausique. Les changements hormonaux peuvent influer sur la soif et la régulation des liquides, mais il n’existe aucun ajustement validé en onces « après 45 ans » : votre âge n’a donc pas modifié le total.",
+    "heat": "<strong>Chaleur :</strong> Un bonus climatique fixe peut sous-estimer ou surestimer vos besoins. Pour un travail modéré à la chaleur de moins de deux heures, le NIOSH conseille environ 8 onces toutes les 15 à 20 minutes ; une transpiration abondante plus longue nécessite un plan de remplacement individualisé."
+  },
+  "evidence": {
+    "label": "Références :",
+    "academies": "Recommandations des National Academies sur les apports en eau",
+    "harvard": "Harvard Health sur l’alimentation et l’hydratation",
+    "cycle": "Étude sur l’osmorégulation au cours du cycle menstruel",
+    "menopause": "Revue sur la régulation hydrique à la ménopause",
+    "niosh": "Recommandations CDC/NIOSH sur la chaleur"
+  },
+  "tips": {
+    "kicker": "Utile, pas obsessionnel",
+    "title": "Trois repères pour la vraie vie.",
+    "schedule": {
+      "title": "Le rythme",
+      "body": "Commencez la matinée avec de l’eau, buvez quelques gorgées pendant les repas et laissez la soif, la météo et l’activité guider le reste."
+    },
+    "electrolytes": {
+      "title": "Électrolytes",
+      "body": "La plupart des gens remplacent leurs électrolytes grâce à leurs repas habituels. Après une transpiration longue ou abondante, choisissez une boisson électrolytique équilibrée ; n’ajoutez pas de sel systématiquement si l’on vous a conseillé de limiter le sodium."
+    },
+    "visualCheck": {
+      "title": "Le contrôle visuel",
+      "body": "Une urine jaune pâle peut être un indice approximatif d’hydratation. L’alimentation, les vitamines, les médicaments et les problèmes de santé peuvent en modifier la couleur : ce n’est donc pas un diagnostic."
+    }
+  },
+  "author": {
+    "kicker": "Par celui qui l’a créé",
+    "title": "Pourquoi j’ai créé ceci (et pourquoi vous ne devriez pas simplement m’écouter)",
+    "athlete": "Je m’appelle Denzel Rigaud. J’ai couru le 400 mètres et les haies pendant plus de neuf ans : l’hydratation est donc devenue une partie de ma façon de m’entraîner, de récupérer et d’apprendre à écouter mon corps.",
+    "purpose": "J’ai créé The Water Check pour vous aider à entendre votre corps au-dessus du bruit d’Internet. Je ne veux pas que vous preniez mon expérience pour une ordonnance. Votre biologie, votre environnement, vos antécédents médicaux et votre étape de vie déterminent ce dont vous avez besoin.",
+    "technology": "La technologie n’est pas là pour que nous fassions défiler des écrans sans fin en vivant la vie des autres. Elle devrait garder nos vies productives et faire grandir notre esprit, notre âme, notre mental et notre chair, pour que nous devenions la meilleure version de qui nous voulons être. Alors arrêtez d’écouter tout le monde, parce que ce qui marche pour vous marche pour vous.",
+    "faith": "Apprenez à connaître vos habitudes et confiez vos questions médicales à un professionnel qualifié. Prendre soin de votre corps, ce vase physique, peut vous rapprocher de vous-même et de Dieu, qui a placé en chacun de nous une étincelle qui mérite d’être entretenue.",
+    "motto": "Ne suivez pas les influenceurs. Apprenez à vous connaître.",
+    "date": "15 mars 2021",
+    "founderPage": "Page du fondateur"
+  },
+  "community": {
+    "kicker": "Restons humains",
+    "title": "Rejoignez la vraie communauté.",
+    "instagram": "Suivez @thewatercheck sur Instagram",
+    "reelSoon": "Reel Instagram bientôt disponible",
+    "story": "Histoire de la communauté {{position}}"
+  }
+}

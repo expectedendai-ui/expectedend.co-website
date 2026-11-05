@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud alapító és full-stack fejlesztő; ő áll az Expected End, a MyBibleLens, a kereszténység szentélyalkalmazása, valamint a The Water Check mögött.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Keresztény alkalmazás",
+      "action": "Az alkalmazás megtekintése",
+      "tagline": "A kereszténység szentélyalkalmazása.",
+      "secondary": "Életrajz",
+      "badge": "Az App Store-ban"
+    },
+    "watercheck": {
+      "category": "Hidratációs közösség",
+      "action": "Az alkalmazás megtekintése",
+      "tagline": "Értse meg, mit iszik. Az Ön saját vízmennyisége, egy koppintással.",
+      "badge": "Ellenőrzés alatt"
+    },
+    "mybiblelens-store": {
+      "category": "Bolt · Hamarosan",
+      "action": "Belépés a boltba",
+      "tagline": "Hit, amit viselhet."
+    },
+    "watercheck-store": {
+      "category": "Bolt · Hamarosan",
+      "action": "Belépés a boltba",
+      "tagline": "Felszerelés a Hidratációs Osztálynak."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Hitéleti alkalmazás · iOS",
+      "status": "Az App Store-ban"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Hidratációs alkalmazás · iOS",
+      "status": "Ellenőrzés alatt"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens Androidra",
+      "category": "Google Play",
+      "status": "Zárt tesztelés"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Végtelen vászon",
+      "status": "Elérhető"
+    },
+    "journey-plans": {
+      "name": "Journey-tervek",
+      "category": "Olvasási tervek + pecsétek",
+      "status": "Elérhető"
+    },
+    "water-check-crews": {
+      "name": "Water Check Csapatok",
+      "category": "Csapatos hidratálás",
+      "status": "Elkészült"
+    },
+    "home-screen-widgets": {
+      "name": "Főképernyő-widgetek",
+      "category": "iOS-widgetek",
+      "status": "Elkészült"
+    },
+    "hydration-calculator": {
+      "name": "Hidratációs kalkulátor",
+      "category": "Webes eszköz",
+      "status": "Elérhető"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Üzleti központ alkalmazás",
+      "status": "Fejlesztés alatt"
+    },
+    "43-language-rollout": {
+      "name": "43 nyelvű bevezetés",
+      "category": "Lokalizáció",
+      "status": "43 nyelv"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens bolt",
+      "category": "Ajándéktárgyak",
+      "status": "Hamarosan"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Az alkalmazás weboldala",
+      "status": "Elérhető"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Céges weboldal",
+      "status": "Elérhető"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI-alapú bibliatanulmányozás",
+      "status": "AI-demó"
+    },
+    "hidden-art-world": {
+      "name": "Rejtett művészeti világ",
+      "category": "Interaktív webes művészet",
+      "status": "Rejtett meglepetés"
+    },
+    "sanctuary-stickers": {
+      "name": "Szentély-matricák",
+      "category": "Illusztrációsorozat",
+      "status": "550+ matrica"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens bemutatófilm",
+      "category": "Márkafilm",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Funkcióbemutató reelek",
+      "category": "Videósorozat",
+      "status": "10 videó"
+    },
+    "look-closer-series": {
+      "name": "Look Closer sorozat",
+      "category": "Közösségimédia-sorozat",
+      "status": "60 poszt"
+    },
+    "25-week-campaign": {
+      "name": "25 hetes kampány",
+      "category": "Instagram-terv",
+      "status": "100 poszt"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Munkafüzet",
+      "status": "33 blokk"
+    },
+    "water-check-store": {
+      "name": "Water Check bolt",
+      "category": "Ajándéktárgyak",
+      "status": "Hamarosan"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Alkalmazások",
+      "body": "Hasznos, átgondolt termékek, valódi emberekre tervezve.",
+      "interest": "Alkalmazás vagy szoftverötlet megvalósítása"
+    },
+    "02": {
+      "title": "Weboldalak",
+      "body": "Egyedi digitális otthonok, amelyek tiszták, élők és barátságosak.",
+      "interest": "Weboldal vagy digitális élmény"
+    },
+    "03": {
+      "title": "AI-rendszerek",
+      "body": "Gyakorlatias intelligencia, amely előre viszi az ötleteket és a csapatokat.",
+      "interest": "AI-rendszer vagy produktivitási eszköz"
+    },
+    "04": {
+      "title": "Kreatív munka",
+      "body": "Arculat, irány és élmények, amelyek középpontjában a jelentés áll.",
+      "interest": "Kreatív irány vagy design"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Az Ön egyedi üzleti központja. CRM, pénzügyek, projektek, csapateszközök és bármilyen funkció, amire legközelebb szüksége lesz, mind egy helyen.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automatizálás",
+      "body": "Cserélje le az ismétlődő munkát összekapcsolt munkafolyamatokra, amelyek mozgásban tartják a vállalkozását.",
+      "interest": "Automatizálás"
+    },
+    "07": {
+      "title": "Ügyfélportálok",
+      "body": "Adjon ügyfeleinek vagy tagjainak egyetlen igényes helyet a kommunikációra, az időpontfoglalásra, a fájlmegosztásra és a haladás követésére.",
+      "interest": "Ügyfélportálok"
+    },
+    "08": {
+      "title": "Digitális mentőakció",
+      "body": "Javítsa, korszerűsítse vagy építse újra azt a szoftvert, amely már nem szolgálja a vállalkozását.",
+      "interest": "Digitális mentőakció"
+    }
+  }
+}

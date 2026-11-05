@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Aplikace",
+      "drinkCheck": "Drink Check",
+      "guide": "Průvodce",
+      "widgets": "Widgety",
+      "progress": "Pokrok",
+      "pricing": "Ceník",
+      "faq": "Otázky",
+      "calculator": "Kalkulačka"
+    },
+    "hero": {
+      "title": "Napij se.<break/>My to <em>spočítáme</em>.",
+      "sub": "Tvoje vlastní vodní číslo, nápoje, které můžeš naskenovat, tělo, které se nabíjí, widget, který si opravdu necháš, a čtverzubec jménem Bubbles, který tě všude provede. Žádná pravidla o galonu, žádní influenceři, žádné výčitky.",
+      "comingSoon": "Už brzy",
+      "appStoreLead": "Stáhni v",
+      "appStore": "App Store",
+      "googlePlayLead": "Nyní na",
+      "googlePlay": "Google Play",
+      "calculator": "Vyzkoušet kalkulačku zdarma",
+      "instagram": "Sleduj The Water Check na Instagramu",
+      "note": "Teď ve schvalování v App Store. Kalkulačka je zdarma a nevyžaduje registraci.",
+      "todayAlt": "Obrazovka Dnes v The Water Check: 40 oz z cíle 81,2 oz, s tlačítky pro rychlé přidání a dnešními záznamy",
+      "widgetsAlt": "Studio widgetů s widgetem Tělo ve variantě Hologram a řadami stylů widgetů",
+      "bubblesLabel": "Ať Bubbles předvede trik",
+      "bubblesSay": "Ahoj, já jsem Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "stylů widgetů",
+      "pearls": "perel k nalezení v Průvodci",
+      "foods": "nakreslených potravin bohatých na vodu",
+      "languages": "jazyků"
+    },
+    "sixty": {
+      "kicker": "Proč na tom záleží",
+      "title": "Z 60 % tě tvoří voda.",
+      "lede": "Není to cíl, který musíš splnit. Ta voda právě teď pracuje: přenáší kyslík, tlumí klouby, ochlazuje tě a odplavuje, co nepotřebuješ. Tvoje potřeby se mění s aktivitou, počasím a zdravím.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Osm odstínů od světlé slámy po tmavý jantar, rozdělených na Dobře zavodněný, Doplň a Napij se teď",
+      "wellHydrated": "Dobře zavodněný",
+      "topUp": "Doplň",
+      "drinkNow": "Napij se teď",
+      "fine": "Hrubý ukazatel, ne diagnóza. Barvu mění jídlo, vitamíny i léky. Aplikace vysvětluje každé pásmo a kdy je dobré promluvit si se zdravotníkem."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Naskenuj jednou. Měj přehled. Pak už jen klepni.",
+      "lede": "Skenuj čárový kód zdarma a kolikrát chceš. Nemá čárový kód? Pokud ti je 18 nebo víc, vyfoť ho a aplikace přečte etiketu. Tak či tak uvidíš cukr v lžičkách, kofein, elektrolyty a každou složku označenou jako Dobré, OK, Pozor nebo Vyhnout se.",
+      "scoresLabel": "Barvy hodnocení Drink Check",
+      "scores": {
+        "great": "Skvělý",
+        "good": "Dobrý",
+        "okay": "Ujde",
+        "poor": "Slabý"
+      },
+      "ticks": {
+        "electrolytes": "Elektrolyty z etikety: sodík, draslík, hořčík a vápník, včetně referenčních hodnot příjmu.",
+        "save": "Ulož si ho (a klidně ho přejmenuj) a příště stačí jedno klepnutí na obrazovce přidání. Žádné nové skenování.",
+        "food": "Dospělí můžou vyfotit i jídlo: mango se přičte k tvému mangu a něco nového dostane vlastní bublinu.",
+        "journal": "Tvůj Deník nápojů si v telefonu ukládá, jak ti bylo po každém nápoji."
+      },
+      "fine": "Rychlé přečtení etikety, ne laboratorní test ani hodnocení značky. Výsledky čárových kódů pocházejí z Open Food Facts a AI se může mýlit, takže zkontroluj skutečnou etiketu, hlavně při alergiích. Tvoji fotku si neukládáme.",
+      "alt": "Výsledek Drink Check pro sportovní nápoj: hodnocení 66, Dobrý, s cukrem, kofeinem a elektrolyty z etikety"
+    },
+    "foods": {
+      "kicker": "Jídlo se počítá taky",
+      "title": "Zhruba pětina tvé vody přichází na talíři.",
+      "lede": "Obrazovka přidání je plná nakreslených ovocných bublin, tři v řadě: vodní meloun, okurka, jahody, mango a další. Klepni na plus a je přidáno, s tlačítkem Zpět hned vedle. Potraviny, které přidáváš nejčastěji, se posouvají dopředu.",
+      "ticks": {
+        "amounts": "Sklenice, láhev nebo libovolné množství, vždy jedním klepnutím.",
+        "caffeine": "Kdo pije kávu, dostane kartu kofeinu, která se vyplní sama.",
+        "ring": "Kroužek nahoře ukazuje, kolik jídlo přidává k tvému dni."
+      },
+      "alt": "Obrazovka přidání: kroužek nahoře, tlačítka nápojů, karta kofeinu a bubliny potravin bohatých na vodu"
+    },
+    "guide": {
+      "kicker": "Průvodce The Water Check",
+      "title": "Prasklou bublinu vyměň za perlu.",
+      "lede": "Každá kapitola je bublina s otázkou a každá je zdarma. Proč máš pocit „vybité baterky“? Co ti říká tvoje moč? Platí galon denně? Dočti kapitolu do konce a promění se v perlu. Zhruba každá šestá je vzácná zlatá.",
+      "electric": "Tvoje elektrické tělo: šest kapitol o signálu, sodíku a draslíku, hořčíku a vápníku a o palivu.",
+      "forHerKicker": "Pro ni",
+      "forHer": "Růžové kapitoly o jejím těle a vodě: růžová nebo neonová moč, otoky kolem menstruace, proč infekce močových cest trápí víc ženy, malý únik při smíchu, těhotenství a menopauza. Laskavě, srozumitelně a se zdroji.",
+      "fine": "Každá kapitola uvádí zdroje a říká, kdy jít k lékaři. Odměňuje porozumění, ne čas u obrazovky: žádné série, žádný tlak.",
+      "alt": "Průvodce The Water Check: kapitoly Tvého elektrického těla jako bubliny s otázkami"
+    },
+    "widgets": {
+      "kicker": "Widgety",
+      "title": "<count>89</count> stylů na tvou plochu.",
+      "lede": "Sporty, místa, roční období, mořský život a designy, v malé, střední a velké velikosti, s rozvržením od kroužků po vlny. Při registraci nám řekni svůj sport a widget tvého sportu se objeví jako první. Zapiš nápoj přímo z plochy.",
+      "ticks": {
+        "body": "Tělo: tvoje silueta se plní vodou za celý den. Jiskra: baterie se plní dnešním nabitím.",
+        "charge": "Dej ukazatel Nabití na libovolný widget a sleduj místo vody své elektrolyty."
+      },
+      "chips": {
+        "body": "Tělo",
+        "spark": "Jiskra",
+        "running": "Běh",
+        "crossCountry": "Běh v terénu",
+        "volleyball": "Volejbal",
+        "basketball": "Basketbal",
+        "seaTurtle": "Mořská želva",
+        "jellyfish": "Medúza",
+        "beach": "Pláž",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Roční období"
+      },
+      "alt": "Studio widgetů s widgetem Tělo ve variantě Hologram, jeho barevnými provedeními, rozvrženími a ukazatelem Nabití"
+    },
+    "progress": {
+      "kicker": "Pokrok",
+      "title": "Podívej se, co je v tvých nápojích, pruh po pruhu.",
+      "lede": "Dnešek jako jednoduché pruhy, které se plní zleva doprava: voda vůči tvému číslu, pak sodík, draslík, hořčík a vápník z nápojů, které naskenuješ, a k tomu kofein a cukr. Klepni na kterýkoli pruh a uvidíš nápoje, které za ním stojí. Kalendář ukazuje všechny dny vedle sebe i s tvou sérií.",
+      "ticks": {
+        "dailyValues": "Elektrolyty se měří vůči referenčním hodnotám příjmu z tabulky výživových údajů na etiketě.",
+        "caffeine": "Kofein vůči 400 mg, což je množství, které FDA uvádí pro většinu zdravých dospělých, a cukr vůči 50 g.",
+        "journal": "Tvůj Deník nápojů je přímo pod pruhy: každý naskenovaný nápoj a jak ti po něm bylo.",
+        "real": "Každé číslo pochází z tvých záznamů nebo skenů. Nic není vymyšlené."
+      },
+      "fine": "Referenční hodnoty, ne cíle a ne lékařská rada. Pokud kvůli zdraví hlídáš sodík nebo draslík, řiď se radou svého lékaře.",
+      "alt": "Pokrok: voda na 83 % denního čísla, pak sodík, draslík, hořčík, vápník, kofein a cukr jako pruhy"
+    },
+    "crew": {
+      "kicker": "Tvůj měsíc a tvoji lidé",
+      "title": "Sleduj, jak to přibývá. Vezmi s sebou přátele.",
+      "calendarAlt": "Kalendář: každý den se plní jako sklenice, se zapsanými dny, dny se splněným cílem a sérií",
+      "calendarTitle": "Tvoje voda, den po dni",
+      "calendarBody": "Každý den, který zapíšeš, se naplní jako sklenice. Dny se splněným cílem, série a značky přílivu, a všechno se s tebou přesune i do nového telefonu.",
+      "crewAlt": "Parta jménem Track team s rychlými povzbudivými zprávami",
+      "crewTitle": "Parta",
+      "crewBody": "Skupiny jen na pozvánku, které se navzájem povzbuzují. Přátelé vidí, kolik procent svého vlastního cíle máš splněno, a tvoji sérii, nikdy ne tvoje unce ani tvoje tělo. Nahlásit a Zablokovat jsou vždy po ruce."
+    },
+    "bubbles": {
+      "kicker": "Seznam se s Bubblesem",
+      "title": "Tvým průvodcem je čtverzubec.",
+      "lede": "Bubbles je wellness referent v Oddělení. První den tě provede aplikací a nemůže si pomoct, aby se nepředváděl. Tak do toho, dej mu něco na práci.",
+      "tricksLegend": "Bubblesovy triky",
+      "tricks": {
+        "puff": "Nafouknout se",
+        "spin": "Otočka",
+        "flip": "Salto vzad",
+        "wave": "Zamávat",
+        "cheer": "Velké finále"
+      }
+    },
+    "pricing": {
+      "kicker": "Ceník",
+      "title": "Začni zdarma. Všechno, jednou.",
+      "free": {
+        "title": "Zdarma",
+        "sub": "Všechno, co potřebuješ k dostatečnému pití.",
+        "items": {
+          "number": "Tvoje vlastní vodní číslo",
+          "log": "Zapisování nápojů a potravin bohatých na vodu",
+          "barcode": "Skenování čárových kódů, zdarma a bez omezení",
+          "photo": "Jeden sken fotky zdarma (od 18 let)",
+          "guide": "Všechny kapitoly Průvodce",
+          "widgets": "Widgety Klasický a Roční období a základní Tělo a Jiskra",
+          "crew": "Tvůj kalendář, série a Parta kamaráda"
+        }
+      },
+      "forever": {
+        "tag": "Úvodní rok",
+        "title": "Všechno navždy",
+        "sub": "Jeden nákup, žádné předplatné.",
+        "items": {
+          "widgets": "Každý styl widgetu a každé barevné provedení",
+          "bars": "Pruhy elektrolytů, kofeinu a cukru",
+          "journal": "Tvůj Deník nápojů",
+          "photos": "Víc skenů fotek (od 18 let)",
+          "summaries": "Souhrny v PDF za 30 a 90 dní",
+          "crews": "Zakládání vlastních Part",
+          "later": "Všechno, co přidáme později"
+        },
+        "note": "Nabízíme během našeho úvodního roku. Potom může The Water Check přejít na měsíční plán a jednorázový nákup provedený předtím zůstane odemčený. Cenu uvidíš v App Store nebo na Google Play ještě před nákupem."
+      }
+    },
+    "privacy": {
+      "kicker": "Tvoje data",
+      "title": "Co zůstává v tvém telefonu a co ne.",
+      "phoneTitle": "Zůstává v tvém telefonu",
+      "phoneBody": "Tvůj Deník nápojů, uložené nápoje a potraviny, perly z Průvodce, tréninky, poznámky k cyklu a připomínky.",
+      "accountTitle": "Uloženo s tvým účtem",
+      "accountBody": "Tvoje přihlášení, odpovědi z registrace, každý zapsaný nápoj a potravina i s časem, denní součty vody a tvoje Parta, aby se s tebou přesunuly do nového telefonu.",
+      "neverTitle": "Nikdy",
+      "neverBody": "Tvoje informace neprodáváme ani je nesdílíme s reklamními sítěmi. Fotky z Drink Check si neukládáme.",
+      "links": {
+        "privacy": "Zásady ochrany osobních údajů",
+        "healthData": "Zásady pro zdravotní údaje spotřebitelů",
+        "deleteAccount": "Smazání účtu"
+      }
+    },
+    "calculator": {
+      "kicker": "Zdarma, bez registrace",
+      "title": "Začni čísly, která znáš.",
+      "lede": "Tvoje hmotnost, tvoje výška, jak dlouho se hýbeš. Kalkulačka ti zhruba za dvacet sekund dá denní cíl a ukáže svůj výpočet, ať s ním můžeš polemizovat. Běží v tvém prohlížeči.",
+      "chips": {
+        "weight": "Základ podle hmotnosti",
+        "height": "Výška a postava",
+        "activity": "Úprava podle aktivity",
+        "lifeStage": "Životní fáze",
+        "heat": "Horko a vlhkost",
+        "electrolytes": "Kontrola elektrolytů"
+      },
+      "open": "Otevřít kalkulačku",
+      "fine": "Orientační odhad pro dospělé, určený ke vzdělávání a plánování, ne diagnóza ani předpis. Nenuť se do pití. Poraď se se zdravotníkem, pokud jsi těhotná nebo kojíš, užíváš léky ovlivňující rovnováhu tekutin nebo máš onemocnění ledvin či srdce."
+    },
+    "faq": {
+      "kicker": "Otázky",
+      "title": "Upřímné odpovědi.",
+      "items": {
+        "medical": {
+          "q": "Je The Water Check lékařská rada?",
+          "a": "Ne. Je to obecná wellness aplikace. Tvoje vodní číslo je orientační odhad pro vzdělávací účely, ne předpis, a nic v aplikaci nic nediagnostikuje ani neléčí. Pokud jsi těhotná nebo kojíš, užíváš léky, které ovlivňují tekutiny, nebo máš onemocnění ledvin, srdce či jiné, zeptej se lékaře, co je pro tebe správné."
+        },
+        "number": {
+          "q": "Odkud se bere moje číslo?",
+          "a": "Z tvé hmotnosti, výšky, aktivity, klimatu a životní fáze, s výchozím bodem ve veřejných doporučeních, jako jsou referenční hodnoty pro vodu od amerických National Academies. Kalkulačka zdarma ukazuje svůj výpočet, takže vidíš každý krok. Je to výchozí bod, ne pravidlo."
+        },
+        "scan": {
+          "q": "Co se stane, když naskenuji nápoj?",
+          "a": "Sken čárového kódu posílá jen číslo kódu do Open Food Facts, bezplatné otevřené databáze potravin, a vrací to, co je na etiketě. Fotka, dostupná dospělým od 18 let, jde přes náš server do AI Gemini od Googlu, která přečte etiketu a pošle zpět, co našla. Tvoji fotku si neukládáme; Google může data podle svých podmínek uchovávat po omezenou dobu. Etikety i AI se mohou mýlit, takže zkontroluj skutečnou etiketu a nikdy nepoužívej Drink Check kvůli alergiím nebo léčebným dietám."
+        },
+        "phone": {
+          "q": "Co zůstává v mém telefonu?",
+          "a": "Tvůj Deník nápojů, uložené nápoje a potraviny, perly z Průvodce, tréninky, odpověď k cyklu a poznámky k cyklu, i když je může obsahovat záloha tvého telefonu. Na iPhonu v telefonu zůstávají i tréninky, které aplikaci povolíš číst z aplikace Zdraví, a nikdy se nám neposílají. Odpovědi z registrace, každý zapsaný nápoj a potravina i s časem a tvoje denní součty se ukládají s tvým účtem, aby se s tebou přesunuly do nového telefonu. Tvoje informace neprodáváme."
+        },
+        "audience": {
+          "q": "Pro koho je určená?",
+          "a": "Pro každého od 13 let. Pokud ti ještě není 18, používej ji se svolením rodiče nebo zákonného zástupce. Ovocný půst, zapisování alkoholu a skeny fotek jsou jen pro dospělé. Aplikace se řídí věkovým rozmezím, které uvedeš, tak prosím odpovídej pravdivě. Pokud ti je 13 až 17, ověř si své číslo s rodičem nebo lékařem."
+        },
+        "cost": {
+          "q": "Kolik to stojí?",
+          "a": "Začít s aplikací je zdarma: zjisti své číslo, zapisuj vodu a jídlo, skenuj jakýkoli čárový kód, čti všechny kapitoly Průvodce, přidej se k Partě a používej widgety Klasický, Roční období, Tělo a Jiskra. Během našeho úvodního roku odemkne jeden volitelný nákup všechno, jednou, bez předplatného. App Store nebo Google Play ti před nákupem ukáže cenu ve tvé měně."
+        },
+        "deleteAccount": {
+          "q": "Jak smažu svůj účet?",
+          "a": "V aplikaci: Profil, pak Nastavení, pak Smazat účet. Účet zmizí hned. Nemáš aplikaci? Na naší stránce Smazání účtu vysvětlujeme, jak o to požádat e-mailem."
+        },
+        "download": {
+          "q": "Kdy si ji můžu stáhnout?",
+          "a": "The Water Check je ve schvalování v App Store a v testování na Google Play a brzy bude v obou obchodech. Sleduj @thewatercheck na Instagramu a dozvíš se to mezi prvními."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Pochop, co piješ. Postaveno na Floridě firmou o jednom člověku. Pro věk od 13 let.",
+      "legal": "Právní informace",
+      "privacy": "Zásady ochrany osobních údajů The Water Check",
+      "terms": "Obchodní podmínky The Water Check",
+      "community": "Pravidla komunity",
+      "healthData": "Zásady ochrany zdravotních údajů spotřebitelů",
+      "deleteAccount": "Smazání účtu",
+      "sitePrivacy": "Soukromí na webu",
+      "explore": "Prozkoumat",
+      "calculator": "Kalkulačka pitného režimu",
+      "store": "Obchod The Water Check",
+      "instagram": "@thewatercheck na Instagramu",
+      "expectedEnd": "Expected End",
+      "help": "Pomoc",
+      "email": "Podpora e-mailem",
+      "accessibility": "Přístupnost",
+      "contact": "Kontakt",
+      "note": "The Water Check je obecná wellness aplikace. Nediagnostikuje, neléčí ani nepředchází žádnému onemocnění a nenahrazuje radu zdravotníka. V nouzi volej 911 nebo místní tísňovou linku. Obrazovky aplikace ukazují testovací verzi s vymyšlenými daty; funkce se mohou před vydáním změnit."
+    }
+  },
+  "app": {
+    "eyebrow": "Aplikace",
+    "title": "Tvoje voda, den po dni.",
+    "body": "Začni osobním odhadem a pak během dne zapisuj nápoje a potraviny bohaté na vodu. Sleduj svůj pokrok v aplikaci, na ploše i v průběhu celého měsíce.",
+    "comingSoon": "Brzy v App Store",
+    "calculator": "Vyzkoušet kalkulačku zdarma",
+    "caveat": "Kalkulačka tu funguje bez účtu. Snímky obrazovky ukazují předběžnou verzi aplikace; funkce a dostupnost se mohou před vydáním změnit.",
+    "screens": {
+      "number": {
+        "alt": "Osobní denní odhad vody v The Water Check na iPhonu",
+        "caption": "Tvoje číslo"
+      },
+      "log": {
+        "alt": "Denní záznamy v The Water Check s nápoji a jídlem na iPhonu",
+        "caption": "Dnešní záznamy"
+      },
+      "widgets": {
+        "alt": "Nastavení widgetů na plochu v The Water Check na iPhonu",
+        "caption": "Widgety"
+      },
+      "wellness": {
+        "alt": "Průvodce pohodou a P-Meter v The Water Check na iPhonu",
+        "caption": "Pohoda"
+      },
+      "calendar": {
+        "alt": "Měsíční kalendář vody v The Water Check na iPhonu",
+        "caption": "Kalendář"
+      }
+    }
+  },
+  "footer": {
+    "note": "Kalkulačka zdarma nepotřebuje účet. Běží v tvém prohlížeči a tvoje čísla nám neposílá.",
+    "navLabel": "Navigace v patičce",
+    "calculator": "Kalkulačka pitného režimu",
+    "explore": "Prozkoumat aplikaci",
+    "instagram": "@thewatercheck na Instagramu",
+    "store": "Obchod",
+    "builder": "Kdo to postavil",
+    "finePrint": "Drobné písmo",
+    "terms": "Obchodní podmínky",
+    "privacy": "Zásady ochrany osobních údajů",
+    "community": "Pravidla komunity",
+    "healthData": "Zdravotní údaje spotřebitelů",
+    "deleteAccount": "Smazání účtu",
+    "accessibility": "Přístupnost",
+    "contact": "Kontakt",
+    "project": "Projekt <company>EXPECTEDEND LLC</company>. Orientační odhad, ne lékařská rada.",
+    "backToTop": "Zpět nahoru ↑"
+  }
+}

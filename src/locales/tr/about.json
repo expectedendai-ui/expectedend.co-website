@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "kicker": "Expected End Hakkında",
+    "title": "Amacı olan teknoloji, gerçek hayat için tasarlandı."
+  },
+  "founder": {
+    "kicker": "Şirketin arkasında",
+    "title": "Expected End'in arkasındaki hikâye.",
+    "body": "Beşinci sınıftaki teknoloji deneylerinden yasa, imana, MyBibleLens'e ve yeni bir başlangıca uzanan kişisel bir yol. <more>Devamını okuyun</more>",
+    "link": "Kurucunun Hikâyesi, Denzel Rigaud"
+  },
+  "mission": {
+    "kicker": "Misyon",
+    "title": "Teknoloji, hayatınıza dönmenize yardım etmeli.",
+    "attention": "Teknoloji, ilgi ve ödül arayışımızı şekillendirebilir. Bitmeyen kıyaslamalar, flört uygulamaları ve başkalarının hayatlarının cilalanmış halleri; gerçek ilişkileri ve sessiz anları daha değersiz hissettirebilir. Çocuklar bu sistemlere, arkalarındaki baskıyı anlamadan önce giriyor.",
+    "screen": "Expected End, insanlara ekranı daha iyi kullanmanın bir yolunu sunar. Çocukların ve yetişkinlerin öğrenmesi, üretmesi, çalışması, güvenli bir yer bulması ya da Tanrı'ya yaklaşması için araçlar geliştirir. Her ürün onları önlerindeki hayata geri döndürmelidir.",
+    "line": "Misyonumuz, gerçek hayata yer bırakan üretken, faydalı ve keyifli teknolojiyle insanları Tanrı'ya yaklaştırmaktır."
+  },
+  "press": {
+    "kicker": "Basın",
+    "title": "Hikâyeyi anlatmamıza yardım edin.",
+    "body": "Expected End; inanç odaklı teknoloji, dijital iyi oluş, bir kurucunun yası, MyBibleLens, The Water Check ve gerçek hayata zaman kazandıran ürünler hakkındaki sohbetlere açıktır.",
+    "link": "Basın ve medya kitini açın"
+  }
+}

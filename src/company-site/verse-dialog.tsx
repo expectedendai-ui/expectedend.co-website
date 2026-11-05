@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import styles from "./style.module.css";
 
 type VerseDialogProps = {
@@ -6,6 +7,7 @@ type VerseDialogProps = {
 };
 
 export function VerseDialog({ onClose }: VerseDialogProps) {
+  const { t } = useTranslation("founder");
   const dialogRef = React.useRef<HTMLDialogElement>(null);
   const closeRef = React.useRef<HTMLButtonElement>(null);
   const openerRef = React.useRef<HTMLElement | null>(null);
@@ -40,13 +42,13 @@ export function VerseDialog({ onClose }: VerseDialogProps) {
       <div className={styles.verseDialogInner}>
         <div className={styles.verseDialogHead}>
           <div>
-            <p>King James Version</p>
-            <h2 id={titleId}>Jeremiah 29:11</h2>
+            <p>{t("verse.version")}</p>
+            <h2 id={titleId}>{t("verse.reference")}</h2>
           </div>
-          <button ref={closeRef} type="button" aria-label="Close Bible verse" onClick={onClose}>×</button>
+          <button ref={closeRef} type="button" aria-label={t("verse.close")} onClick={onClose}>×</button>
         </div>
         <blockquote id={verseId}>
-          <sup>11</sup> For I know the thoughts that I think toward you, saith the Lord, thoughts of peace, and not of evil, to give you an expected end.
+          <sup>11</sup> {t("verse.text")}
         </blockquote>
       </div>
     </dialog>

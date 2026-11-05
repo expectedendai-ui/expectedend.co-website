@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud основал Expected End и как full-stack-разработчик создал MyBibleLens, приложение-святилище для христиан, и The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Христианское приложение",
+      "action": "Открыть приложение",
+      "tagline": "Приложение-святилище для христиан.",
+      "secondary": "Био",
+      "badge": "В App Store"
+    },
+    "watercheck": {
+      "category": "Сообщество о питьевом режиме",
+      "action": "Открыть приложение",
+      "tagline": "Понимайте, что вы пьёте. Ваша личная норма воды в одно касание.",
+      "badge": "На проверке"
+    },
+    "mybiblelens-store": {
+      "category": "Магазин · Скоро",
+      "action": "Перейти в магазин",
+      "tagline": "Вера, которую можно носить."
+    },
+    "watercheck-store": {
+      "category": "Магазин · Скоро",
+      "action": "Перейти в магазин",
+      "tagline": "Экипировка для отдела гидратации."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Приложение о вере · iOS",
+      "status": "В App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Приложение о питьевом режиме · iOS",
+      "status": "На проверке"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens для Android",
+      "category": "Google Play",
+      "status": "Закрытое тестирование"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Бесконечный холст",
+      "status": "Запущено"
+    },
+    "journey-plans": {
+      "name": "Планы Journey",
+      "category": "Планы чтения + печати",
+      "status": "Запущено"
+    },
+    "water-check-crews": {
+      "name": "Команды в Water Check",
+      "category": "Командный питьевой режим",
+      "status": "Готово"
+    },
+    "home-screen-widgets": {
+      "name": "Виджеты для экрана «Домой»",
+      "category": "Виджеты iOS",
+      "status": "Готово"
+    },
+    "hydration-calculator": {
+      "name": "Калькулятор питьевой нормы",
+      "category": "Веб-инструмент",
+      "status": "Запущено"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Приложение-штаб для бизнеса",
+      "status": "В разработке"
+    },
+    "43-language-rollout": {
+      "name": "Запуск на 43 языках",
+      "category": "Локализация",
+      "status": "43 языка"
+    },
+    "mybiblelens-store": {
+      "name": "Магазин MyBibleLens",
+      "category": "Мерч",
+      "status": "Скоро"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Сайт приложения",
+      "status": "Запущено"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Сайт компании",
+      "status": "Запущено"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Изучение Библии с ИИ",
+      "status": "Демо с ИИ"
+    },
+    "hidden-art-world": {
+      "name": "Скрытый мир искусства",
+      "category": "Интерактивное веб-искусство",
+      "status": "Пасхалка"
+    },
+    "sanctuary-stickers": {
+      "name": "Стикеры святилища",
+      "category": "Набор иллюстраций",
+      "status": "550+ стикеров"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Питч-фильм MyBibleLens",
+      "category": "Имиджевый фильм",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Ролики о функциях",
+      "category": "Видеосерия",
+      "status": "10 видео"
+    },
+    "look-closer-series": {
+      "name": "Серия Look Closer",
+      "category": "Серия для соцсетей",
+      "status": "60 публикаций"
+    },
+    "25-week-campaign": {
+      "name": "Кампания на 25 недель",
+      "category": "План для Instagram",
+      "status": "100 публикаций"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Рабочая тетрадь",
+      "status": "33 блока"
+    },
+    "water-check-store": {
+      "name": "Магазин Water Check",
+      "category": "Мерч",
+      "status": "Скоро"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Приложения",
+      "body": "Полезные, продуманные продукты, созданные вокруг реальных людей.",
+      "interest": "Создание приложения или программного продукта"
+    },
+    "02": {
+      "title": "Сайты",
+      "body": "Яркие цифровые дома: понятные, живые и гостеприимные.",
+      "interest": "Сайт или цифровой опыт"
+    },
+    "03": {
+      "title": "ИИ-системы",
+      "body": "Практичный интеллект, который помогает идеям и командам двигаться вперёд.",
+      "interest": "ИИ-система или инструмент продуктивности"
+    },
+    "04": {
+      "title": "Креатив",
+      "body": "Айдентика, направление и впечатления, в центре которых смысл.",
+      "interest": "Креативное направление или дизайн"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ваш собственный дом для бизнеса. CRM, финансы, проекты, инструменты для команды и любые возможности, которые понадобятся дальше, в одном месте.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Автоматизация",
+      "body": "Замените рутину связанными процессами, которые не дают бизнесу стоять на месте.",
+      "interest": "Автоматизация"
+    },
+    "07": {
+      "title": "Клиентские порталы",
+      "body": "Дайте клиентам или участникам одно аккуратное место, где можно общаться, записываться, обмениваться файлами и следить за прогрессом.",
+      "interest": "Клиентские порталы"
+    },
+    "08": {
+      "title": "Цифровое спасение",
+      "body": "Починим, обновим или пересоберём софт, который больше не работает на ваш бизнес.",
+      "interest": "Цифровое спасение"
+    }
+  }
+}

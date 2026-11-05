@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { ArrowDownIcon, ArrowUpRightIcon, InstagramIcon, LinkedInIcon, YouTubeIcon } from "./action-icons";
 import { FOUNDER_DESCRIPTION } from "./content";
 import { type ArcStat, CyberHero, Ticker } from "./cyber-hero";
@@ -13,14 +14,14 @@ type DenzelPageProps = {
 
 const EXTERNAL_RECORDS = [
   {
-    label: "World Athletics profile",
+    id: "worldAthletics",
     href: "https://worldathletics.org/athletes/united-states/denzel-rigaud-15142195",
   },
   {
-    label: "Lynn University athlete profile",
+    id: "lynn",
     href: "https://lynnfightingknights.com/sports/mens-cross-country/roster/denzel-rigaud/7913",
   },
-  { label: "Wikidata", href: "https://www.wikidata.org/wiki/Q140198525" },
+  { id: "wikidata", href: "https://www.wikidata.org/wiki/Q140198525" },
 ] as const;
 
 const PERSON_SCHEMA = {
@@ -91,47 +92,43 @@ const PROFILE_PAGE_SCHEMA = {
   mainEntity: PERSON_SCHEMA,
 };
 
-const TURNING_POINTS: readonly ArcStat[] = [
-  { value: "5", suffix: "th", label: "GRADE · CURIOSITY" },
-  { value: "2021", label: "GRIEF" },
-  { value: "2026", label: "FAITH · THE RETURN" },
-];
-
 const MEMORY_PHOTOS = [
   {
+    id: "father",
     src: "/media/denzel-memory-01-father.jpg",
     download: "/media/denzel-memory-01-father.jpg",
     filename: "denzel-rigaud-father-memory.jpg",
-    alt: "Denzel as a child with his father",
-    title: "My father and me",
   },
   {
+    id: "work",
     src: "/media/denzel-memory-02-real-work.jpg",
     download: "/media/denzel-memory-02-real-work.jpg",
     filename: "denzel-rigaud-real-work-memory.jpg",
-    alt: "Denzel working at a laptop with two collaborators around a table",
-    title: "The work around the table",
   },
   {
+    id: "workspace",
     src: "/media/denzel-memory-03-workspace-display.jpg",
     download: "/media/denzel-memory-03-workspace.jpg",
     filename: "denzel-rigaud-mybiblelens-workspace.jpg",
-    alt: "The MyBibleLens and The Water Check workspace",
-    title: "Where MyBibleLens took shape",
   },
   {
+    id: "archive",
     src: "/media/denzel-memory-04-real-work-archive-display.jpg",
     download: "/media/denzel-memory-04-real-work-archive.png",
     filename: "denzel-rigaud-real-work-archive.png",
-    alt: "Denzel's Real Work video archive on his phone",
-    title: "The Real Work archive",
   },
 ] as const;
 
 export function DenzelPage({ onNavigate }: DenzelPageProps) {
+  const { t } = useTranslation("founder");
   const mainRef = React.useRef<HTMLElement>(null);
   const [showVerse, setShowVerse] = React.useState(false);
   useHomeMotion(mainRef);
+  const turningPoints: readonly ArcStat[] = [
+    { value: t("hero.stats.gradeValue"), suffix: t("hero.stats.gradeSuffix"), label: t("hero.stats.grade") },
+    { value: "2021", label: t("hero.stats.grief") },
+    { value: "2026", label: t("hero.stats.faith") },
+  ];
 
   return (
     <main className={`${cyber.page} ${pageStyles.page}`} ref={mainRef}>
@@ -140,71 +137,78 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
       <CyberHero
         variant="founder"
         labelledBy="denzel-hero-title"
-        photoAlt="Denzel Rigaud in orange-tinted glasses"
-        stats={TURNING_POINTS}
+        photoAlt={t("hero.photoAlt")}
+        stats={turningPoints}
         scan
         hud={
           <>
             <span>
-              Identity <b>/ Denzel Rigaud</b>
+              <Trans t={t} i18nKey="hero.identity" components={{ b: <b /> }} />
             </span>
             <span>
-              Founded / <time dateTime="2026-03-03">March 3, 2026</time>
+              <Trans t={t} i18nKey="hero.founded" components={{ time: <time dateTime="2026-03-03" /> }} />
             </span>
             <span aria-hidden="true">26.0218° N / 80.1484° W</span>
           </>
         }
       >
         <p className={`${cyber.heroEyebrow} ${cyber.rise}`} style={{ animationDelay: ".15s" }}>
-          Denzel Rigaud / <em>Founder &amp; Solo Full-Stack Developer</em>
+          <Trans t={t} i18nKey="hero.eyebrow" components={{ em: <em /> }} />
         </p>
         <h1 id="denzel-hero-title" className={`${cyber.heroTitle} ${cyber.rise}`} style={{ animationDelay: ".3s" }}>
-          The Mind <br />
-          Behind <br />
-          Expected End
+          <Trans t={t} i18nKey="hero.title" components={{ br: <br /> }} />
         </h1>
         <p className={`${cyber.heroText} ${cyber.rise}`} style={{ animationDelay: ".5s" }}>
-          A story about curiosity, grief, faith, and turning technology into a way forward.
+          {t("hero.text")}
         </p>
         <div className={cyber.rise} style={{ animationDelay: ".7s" }}>
           <a className={cyber.cta} href="#memoir">
             <span className={cyber.shine} aria-hidden="true" />
-            <span className={cyber.ctaLabel}>Read the story</span>
+            <span className={cyber.ctaLabel}>{t("hero.cta")}</span>
             <ArrowDownIcon />
           </a>
         </div>
       </CyberHero>
 
-      <Ticker items={["Curiosity", "Grief", "Faith", "Code", "Purpose", "Jeremiah 29:11"]} />
+      <Ticker
+        items={[
+          t("ticker.curiosity"),
+          t("ticker.grief"),
+          t("ticker.faith"),
+          t("ticker.code"),
+          t("ticker.purpose"),
+          t("verse.reference"),
+        ]}
+      />
 
       <section className={pageStyles.coordinates} aria-labelledby="coordinates-title">
         <header data-reveal>
-          <p className={cyber.eyebrow}>Three coordinates</p>
+          <p className={cyber.eyebrow}>{t("coordinates.eyebrow")}</p>
           <h2 id="coordinates-title">
-            The road here was not a <em>straight line.</em>
+            <Trans t={t} i18nKey="coordinates.title" components={{ em: <em /> }} />
           </h2>
         </header>
         <ol>
           <li data-reveal>
-            <span>01 / Fifth grade</span>
-            <strong>Curiosity became a survival skill.</strong>
-            <p>I started by refusing to let one failure define the rest of my life.</p>
+            <span>{t("coordinates.curiosity.label")}</span>
+            <strong>{t("coordinates.curiosity.title")}</strong>
+            <p>{t("coordinates.curiosity.body")}</p>
             <span className={pageStyles.coordBig} aria-hidden="true">
-              5th
+              {t("coordinates.curiosity.big")}
             </span>
           </li>
           <li data-reveal>
-            <span>02 / 2021</span>
-            <strong>Grief closed the door on technology.</strong>
-            <p>Losing my father made every skill he taught me feel impossible to touch.</p>
+            <span>{t("coordinates.grief.label")}</span>
+            <strong>{t("coordinates.grief.title")}</strong>
+            <p>{t("coordinates.grief.body")}</p>
             <span className={pageStyles.coordBig} aria-hidden="true">
               2021
             </span>
           </li>
           <li data-reveal>
-            <span>03 / February 25, 2026</span>
-            <strong>Faith gave the work a purpose.</strong>
-            <p>I came back to build tools that leave people stronger than they found them.</p>
+            <span>{t("coordinates.faith.label")}</span>
+            <strong>{t("coordinates.faith.title")}</strong>
+            <p>{t("coordinates.faith.body")}</p>
             <span className={pageStyles.coordBig} aria-hidden="true">
               2026
             </span>
@@ -214,29 +218,20 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
 
       <article className={pageStyles.memoir} id="memoir" aria-labelledby="memoir-title">
         <header className={pageStyles.memoirIntro} data-reveal>
-          <p className={cyber.eyebrow}>Founder story / First person</p>
+          <p className={cyber.eyebrow}>{t("memoir.eyebrow")}</p>
           <h2 id="memoir-title">
-            Hi, my name is <em>Denzel Rigaud.</em>
+            <Trans t={t} i18nKey="memoir.title" components={{ em: <em /> }} />
           </h2>
           <div>
-            <p>
-              Technology has been part of my life since fifth grade. School had frustrated me from an early age. I failed second
-              grade while facing a language barrier, and I did not believe that failure should define me. I decided to start by
-              hacking my grades. It began small, but when I realized how far I could penetrate systems and jailbreak technology, I
-              became curious about the systems around me and started having fun.
-            </p>
-            <p>
-              That curiosity carried me into Instagram bot farming, coding, automation, machine learning, online communities,
-              digital growth, and the darkest corners of the internet. I learned how powerful technology could be. Some choices
-              also taught me to use better judgment.
-            </p>
+            <p>{t("memoir.intro.first")}</p>
+            <p>{t("memoir.intro.second")}</p>
           </div>
-          <nav className={pageStyles.socials} aria-label="Denzel Rigaud social profiles">
+          <nav className={pageStyles.socials} aria-label={t("memoir.socials.label")}>
             <a
               href="https://www.instagram.com/smiledenzel/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Denzel Rigaud on Instagram"
+              aria-label={t("memoir.socials.instagram")}
             >
               <InstagramIcon />
             </a>
@@ -244,19 +239,19 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
               href="https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Denzel Rigaud on LinkedIn"
+              aria-label={t("memoir.socials.linkedin")}
             >
               <LinkedInIcon />
             </a>
-            <a href="https://www.youtube.com/@expectedendco" target="_blank" rel="noopener noreferrer" aria-label="Denzel Rigaud on YouTube">
+            <a href="https://www.youtube.com/@expectedendco" target="_blank" rel="noopener noreferrer" aria-label={t("memoir.socials.youtube")}>
               <YouTubeIcon />
             </a>
           </nav>
-          <nav className={pageStyles.profileRecords} aria-label="Independent identity records">
-            <span>External records</span>
-            {EXTERNAL_RECORDS.map(({ label, href }) => (
+          <nav className={pageStyles.profileRecords} aria-label={t("memoir.records.label")}>
+            <span>{t("memoir.records.heading")}</span>
+            {EXTERNAL_RECORDS.map(({ id, href }) => (
               <a key={href} href={href} target="_blank" rel="noopener noreferrer">
-                {label}
+                {t(`memoir.records.${id}`)}
               </a>
             ))}
           </nav>
@@ -264,204 +259,123 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
 
         <section className={pageStyles.chapter} aria-labelledby="family-title" data-reveal>
           <div className={pageStyles.chapterHeading}>
-            <span>Chapter 01</span>
-            <p>The people who taught me</p>
-            <h3 id="family-title">My first web wizard.</h3>
+            <span>{t("family.number")}</span>
+            <p>{t("family.kicker")}</p>
+            <h3 id="family-title">{t("family.title")}</h3>
           </div>
           <div className={pageStyles.chapterCopy}>
             <p>
-              My father and{" "}
-              <a href="https://www.linkedin.com/in/kareem-rigaud-2b61b97a" target="_blank" rel="noopener noreferrer">
-                brother
-              </a>{" "}
-              were the smartest people I knew, but I rarely saw them. We had a phone-call relationship. Every second I got to
-              speak with them, they taught me something I needed to know. In time, I learned that I still had to decide what was
-              right for me. My father was a web wizard, and I felt unstoppable on the internet. My brother works for the NSA.
+              <Trans
+                t={t}
+                i18nKey="family.first"
+                components={{
+                  // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                  brother: <a href="https://www.linkedin.com/in/kareem-rigaud-2b61b97a" target="_blank" rel="noopener noreferrer" />,
+                }}
+              />
             </p>
-            <p>
-              In 2021, I moved to Florida after 17 years of living with my two mothers and two sisters. I survived, haha. Then I
-              got to live with my father for the first time. Six months later, he died, so I closed the door on technology because
-              every skill reminded me of him.
-            </p>
-            <p>
-              My father had been Muslim for much of his life. I followed Islam in part because I wanted to be like him. Before he
-              died, he gave his life to Christ. His decision stayed with me long after I put my own tools away.
-            </p>
+            <p>{t("family.second")}</p>
+            <p>{t("family.third")}</p>
           </div>
         </section>
 
         <section className={pageStyles.chapter} aria-labelledby="return-title" data-reveal>
           <div className={pageStyles.chapterHeading}>
-            <span>Chapter 02</span>
-            <p>The return</p>
-            <h3 id="return-title">I opened the door again.</h3>
+            <span>{t("return.number")}</span>
+            <p>{t("return.kicker")}</p>
+            <h3 id="return-title">{t("return.title")}</h3>
           </div>
           <div className={pageStyles.chapterCopy}>
-            <p>
-              I spent years avoiding the part of myself that reminded me of my father. I still touched technology from time to
-              time, but grief made it hard to stay. I filled that empty space with the sin of lust and moved farther from the
-              person I could have become.
-            </p>
-            <p>
-              In January 2026, I knew I needed to change. I decided to open up the web wizard my dad taught me how to be, stop
-              being a carnal man who did not believe in God, and follow Him instead. When I did, my life began to prosper.
-            </p>
-            <p>
-              MyBibleLens came from that decision. I did not have a complete plan. I began building and kept moving. The work let
-              me open the door I had closed after my father died. I brought back The Water Check and started picking up dreams I
-              had carried since childhood.
-            </p>
+            <p>{t("return.first")}</p>
+            <p>{t("return.second")}</p>
+            <p>{t("return.third")}</p>
           </div>
         </section>
 
         <section className={pageStyles.draft} aria-labelledby="truth-code-title">
           <header data-reveal>
-            <span>Chapter 03 / The Draft</span>
-            <h2 id="truth-code-title">“The Truth Behind the Code”</h2>
+            <span>{t("draft.label")}</span>
+            <h2 id="truth-code-title">{t("draft.title")}</h2>
           </header>
           <section className={pageStyles.draftChapter} aria-labelledby="digital-venom-title" data-reveal>
-            <h3 id="digital-venom-title">The Digital Venom</h3>
+            <h3 id="digital-venom-title">{t("venom.title")}</h3>
             <div className={pageStyles.chapterCopy}>
+              <p>{t("venom.first")}</p>
+              <p>{t("venom.second")}</p>
               <p>
-                It happens the second we wake up. Before our feet even touch the floor, the hand reaches out. You grab the phone.
-                We all do it. But that single, reflexive motion immediately disrupts your brain’s neural pathways, throwing you
-                into a critical, anxious state before the day has even begun.
+                <Trans
+                  t={t}
+                  i18nKey="venom.third"
+                  components={{
+                    strong: <strong />,
+                  }}
+                />
               </p>
+              <p>{t("venom.fourth")}</p>
               <p>
-                As a solo software developer for 10 years, and having a father who was a solo cyber security hacker that taught me
-                the dark and mystery ends of the internet, I see the code behind the screen. I know exactly how the algorithm
-                works, and the truth is, it’s venom. The overwhelming toxicity you feel online isn&apos;t actually human nature—it
-                is an engineered illusion. We are under constant attack by &quot;pseudoism,&quot; where flooded, hostile comment
-                sections are rarely spontaneous outbursts from random, everyday internet users. Instead, they are part of a
-                deliberate, systematic strategy of computational propaganda. Fake accounts and bot networks are deployed to inject
-                synthetic narratives into your feed, designed specifically to manipulate public perception, deepen our divisions,
-                and influence your online behavior.
-              </p>
-              <p>
-                It doesn’t matter how pure your or your children’s search history is, or how clean your feed seems; the system is
-                designed to drag you back. It pulls you toward negativity, toward superficiality, and toward get-rich-quick gurus
-                that force us to put Money over God (<strong>1 Timothy 6:10</strong>), creating people with the mammon spirit. It
-                makes our beautiful sisters not know their true beauty isn’t makeup, isn’t how a guy thinks of her, or how many
-                Instagram likes she gets… it’s her heart and her angelic ways with God. It is a machine built to hijack your mind
-                and control your habits.
-              </p>
-              <p>
-                This constant stream of artificiality traps us in a rushed existence, blinding us to the fact that true things take
-                time. Real love, genuine growth, and authentic connections require patience—not the instant gratification a phone
-                delivers. It tricks the brain into expecting a constant dopamine rush of agreement. Just like the curated
-                algorithms of a &quot;For You&quot; page, it makes people feel blindly entitled to their own opinions, closing
-                them off from real human beings and the reality that not everyone is going to agree on the same thing. It is a slow
-                surrender, allowing cold technology and artificiality to completely take over the human mind.
-              </p>
-              <p>
-                They want us distracted by these manufactured wars. They want our kids’ brains turning to mush, forever trapped at the lowest tier of{" "}
-                <strong>
-                  <a
-                    href="https://www.google.com/search?q=Bloom%E2%80%99s+Taxonomy&rlz=1C5CHFA_enUS943US944&oq=Bloom%E2%80%99s+Taxonomy&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiRAhiABBiKBTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzYxM2owajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8#sv=CAMSVhozKhFpYy1HNmY1Y0hkMnBHTXd3TTIORzZmNWNIZDJwR013d006DlJma0VGQmdwZUNVZzRNIAQqGwoEc3ZpbRIRaWMtRzZmNWNIZDJwR013d00YATABGAcgs57hCA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Bloom’s Taxonomy
-                  </a>
-                </strong>
-                : just “remembering” and consuming, never asking questions, never creating, never going deeper. We are watching an
-                entire generation delay the critical{" "}
-                <strong>
-                  <a
-                    href="https://www.google.com/search?sca_esv=d99a864848ea4cca&rlz=1C5CHFA_enUS943US944&sxsrf=APpeQnunCsq8WpbDElkjRbmEZUbf8b9yuw:1786282564310&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYSIu8Q64jU5EwQ-803VaKbd8XGNh2EAGT96nVa30badWZdQJOrgSsOpll5rxyNcIceuSHrD98r42QCy2VpGaYtAW8zKT6mHypPIWJGeeRm7tzF71PjUOVFXsXUiM6lom55kLPulHeTkVQO3xs0VJ3Z6hOEzmQ&q=Erikson+stages+of+life&sa=X&ved=2ahUKEwjy6dqN1ZOWAxUiSzABHXMiOC8QtKgLegQIGRAB&biw=859&bih=872&dpr=2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Erikson stages of life
-                  </a>
-                </strong>
-                , paralyzed by the fake, curated realities they see on screens, terrified of actually growing up because nothing
-                feels authentic anymore. The world is entirely sick and tired of the lies. If you don’t see the manipulation in the code, no worries; my
-                generation does, and the future generation will too.
+                <Trans
+                  t={t}
+                  i18nKey="venom.fifth"
+                  components={{
+                    strong: <strong />,
+                    // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                    bloom: <a href="https://www.google.com/search?q=Bloom%E2%80%99s+Taxonomy&rlz=1C5CHFA_enUS943US944&oq=Bloom%E2%80%99s+Taxonomy&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiRAhiABBiKBTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzYxM2owajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8#sv=CAMSVhozKhFpYy1HNmY1Y0hkMnBHTXd3TTIORzZmNWNIZDJwR013d006DlJma0VGQmdwZUNVZzRNIAQqGwoEc3ZpbRIRaWMtRzZmNWNIZDJwR013d00YATABGAcgs57hCA" target="_blank" rel="noopener noreferrer" />,
+                    // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                    erikson: <a href="https://www.google.com/search?sca_esv=d99a864848ea4cca&rlz=1C5CHFA_enUS943US944&sxsrf=APpeQnunCsq8WpbDElkjRbmEZUbf8b9yuw:1786282564310&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYSIu8Q64jU5EwQ-803VaKbd8XGNh2EAGT96nVa30badWZdQJOrgSsOpll5rxyNcIceuSHrD98r42QCy2VpGaYtAW8zKT6mHypPIWJGeeRm7tzF71PjUOVFXsXUiM6lom55kLPulHeTkVQO3xs0VJ3Z6hOEzmQ&q=Erikson+stages+of+life&sa=X&ved=2ahUKEwjy6dqN1ZOWAxUiSzABHXMiOC8QtKgLegQIGRAB&biw=859&bih=872&dpr=2" target="_blank" rel="noopener noreferrer" />,
+                  }}
+                />
               </p>
             </div>
           </section>
 
           <section className={pageStyles.draftChapter} aria-labelledby="crucible-title" data-reveal>
-            <h3 id="crucible-title">The Crucible That Built Me</h3>
+            <h3 id="crucible-title">{t("crucible.title")}</h3>
             <div className={pageStyles.chapterCopy}>
               <p>
-                I didn’t just learn this by studying data; I lived it: selling dope just to build the life I’d promised myself,
-                one that’d make it to a bright future. Kicked out of loved ones’ houses, homeless. Offered a way into the adult
-                industry when I needed money the most, 10k waved right in front of my face, but momma raised me with morals.{" "}
-                <a href="https://unicourt.com/case/fl-pal-rigaud-denzel-v-hall-aaron-914059" target="_blank" rel="noreferrer">
-                  Two
-                </a>{" "}
-                lawsuits{" "}
-                <a
-                  href="https://www.google.com/search?sca_esv=4f4e6eb4e747ddd2&rlz=1C5CHFA_enUS943US944&sxsrf=APpeQnuG9TE471N73TYP7yCoA2imGwD_zA%3A1782396826570&q=rigaud+vs+pineapple+scuba&sa=X&ved=2ahUKEwjM5sjNyaKVAxUhnWoFHVgDL1IQ7xYoAHoECBAQAQ&biw=1041&bih=872&dpr=2"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  in
-                </a>{" "}
-                high school. I started hacking my grades in 5th grade because I got sick and tired of failing, especially when I
-                realized I’d been held back in 2nd grade over the accent I came in with. That later turned into hacking a whole
-                lot more… truly meeting my{" "}
-                <a href="https://www.google.com/search?q=clifford+rigaud" target="_blank" rel="noreferrer">
-                  father
-                </a>{" "}
-                one day, I see where I get it from.
+                <Trans
+                  t={t}
+                  i18nKey="crucible.first"
+                  components={{
+                    // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                    court: <a href="https://unicourt.com/case/fl-pal-rigaud-denzel-v-hall-aaron-914059" target="_blank" rel="noreferrer" />,
+                    // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                    search: <a href="https://www.google.com/search?sca_esv=4f4e6eb4e747ddd2&rlz=1C5CHFA_enUS943US944&sxsrf=APpeQnuG9TE471N73TYP7yCoA2imGwD_zA%3A1782396826570&q=rigaud+vs+pineapple+scuba&sa=X&ved=2ahUKEwjM5sjNyaKVAxUhnWoFHVgDL1IQ7xYoAHoECBAQAQ&biw=1041&bih=872&dpr=2" target="_blank" rel="noreferrer" />,
+                    // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                    father: <a href="https://www.google.com/search?q=clifford+rigaud" target="_blank" rel="noreferrer" />,
+                  }}
+                />
               </p>
+              <p>{t("crucible.second")}</p>
               <p>
-                For the longest time, I thought God would never take me back after all that. I thought I was too far gone. But
-                then I learned about the Apostle Paul. Paul literally murdered Christians, and God still turned around and gave
-                him a massive gift. And that’s when it hit me: if God could use a man like Paul, my past was never too much for
-                Him to build a future with.
+                <Trans
+                  t={t}
+                  i18nKey="crucible.third"
+                  components={{
+                    // biome-ignore lint/a11y/useAnchorContent: Trans puts the link words inside.
+                    chivalry: <a href="https://www.youtube.com/watch?v=SHVKb2j6rfc&list=RDSHVKb2j6rfc&start_radio=1" target="_blank" rel="noreferrer" />,
+                  }}
+                />
               </p>
-              <p>
-                That survival instinct started early. Growing up surrounded by 4 women for 16 years shaped my psyche in ways I am
-                still unpacking. My mind was trained to work simultaneously across different psychological wavelengths. I
-                navigated twisted psychology, complex dynamics, and manipulation that sculpted me into who I am. And I love them
-                for that; it saved me energy with girls when I truly decided to think about what my momma’s was talking about. And
-                after heartbreaks and being cheated on, I still believe in{" "}
-                <a
-                  href="https://www.youtube.com/watch?v=SHVKb2j6rfc&list=RDSHVKb2j6rfc&start_radio=1"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  chivalry
-                </a>
-                .
-              </p>
-              <p>
-                What I’m saying is, to survive in a house full of women you have to think like one, and when I left them I had to
-                become the young man I am today, with the numerous amount of struggles I went through. It was a chaotic
-                environment, and I only found clarity when I actively chose to eliminate my one sin “lust” and the noise through
-                prayer. When I finally put God first, I realized who I actually was. I saw the challenges that shaped me not as
-                curses, but as the exact training I needed to get closer to God, and to build a way out for others.
-              </p>
-              <p>
-                Finding God led me to learn more about myself. Following God taught me about my wounds and my gifts, and
-                understanding myself made me want to know Him more. That is when my life began to prosper: I had direction,
-                purpose, and a reason to care for what God gave me. The Water Check belongs to that mission. Paying attention to
-                what affects your body can help you understand and care for the person God made you to be. I want to build
-                technology that helps you become the most capable version of that person.
-              </p>
+              <p>{t("crucible.fourth")}</p>
+              <p>{t("crucible.fifth")}</p>
               <p className={pageStyles.closingMission}>
-                Everything I build under this company points toward the same mission: bring people closer to God and help them use
-                technology to live, create, love, and serve with intention. That is the expected ending I am working toward.{" "}
+                {t("crucible.mission")}{" "}
                 <button
                   className={pageStyles.inlineVerse}
                   type="button"
                   aria-haspopup="dialog"
                   onClick={() => setShowVerse(true)}
                 >
-                  Jeremiah 29:11
+                  {t("verse.reference")}
                 </button>
               </p>
-              <nav className={pageStyles.connectRow} aria-label="Follow Denzel Rigaud">
+              <nav className={pageStyles.connectRow} aria-label={t("crucible.connect.label")}>
                 <a
                   className={`${pageStyles.connectButton} ${pageStyles.connectYouTube}`}
                   href="https://www.youtube.com/@expectedendco"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Expected End on YouTube"
+                  aria-label={t("crucible.connect.youtube")}
                 >
                   <span className={pageStyles.connectSweep} aria-hidden="true" />
                   <YouTubeIcon />
@@ -471,7 +385,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
                   href="https://www.instagram.com/smiledenzel/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Follow Denzel Rigaud on Instagram"
+                  aria-label={t("crucible.connect.instagram")}
                 >
                   <span className={pageStyles.connectSweep} aria-hidden="true" />
                   <InstagramIcon />
@@ -481,7 +395,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
                   href="https://www.linkedin.com/in/denzel-rigaud-2b0200210/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Connect with Denzel Rigaud on LinkedIn"
+                  aria-label={t("crucible.connect.linkedin")}
                 >
                   <span className={pageStyles.connectSweep} aria-hidden="true" />
                   <LinkedInIcon />
@@ -492,29 +406,30 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
 
           <section className={pageStyles.memoryArchive} aria-labelledby="memory-archive-title">
             <header className={pageStyles.memoryHeader} data-reveal>
-              <span>Personal file / 04 memories</span>
-              <h3 id="memory-archive-title">Memory archive</h3>
-              <p>The people, rooms, and real work behind the code. Download any frame and keep it.</p>
+              <span>{t("memory.label")}</span>
+              <h3 id="memory-archive-title">{t("memory.title")}</h3>
+              <p>{t("memory.text")}</p>
             </header>
             <div className={pageStyles.memoryGrid}>
               {MEMORY_PHOTOS.map((photo, index) => {
                 const memoryNumber = String(index + 1).padStart(2, "0");
+                const title = t(`memory.photos.${photo.id}.title`);
                 return (
                   <figure className={pageStyles.memoryCard} key={photo.download} data-reveal>
                     <div className={pageStyles.memoryFrame}>
-                      <img src={photo.src} alt={photo.alt} loading="lazy" decoding="async" />
+                      <img src={photo.src} alt={t(`memory.photos.${photo.id}.alt`)} loading="lazy" decoding="async" />
                       <a
                         className={pageStyles.memoryDownload}
                         href={photo.download}
                         download={photo.filename}
-                        aria-label={`Download memory ${memoryNumber}: ${photo.title}`}
+                        aria-label={t("memory.download", { number: memoryNumber, title })}
                       >
                         <ArrowDownIcon />
                       </a>
                     </div>
                     <figcaption>
-                      <span>Memory {memoryNumber}</span>
-                      <strong>{photo.title}</strong>
+                      <span>{t("memory.number", { number: memoryNumber })}</span>
+                      <strong>{title}</strong>
                     </figcaption>
                   </figure>
                 );
@@ -531,18 +446,18 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
           <span />
           <span />
         </div>
-        <p className={cyber.eyebrow}>End of transmission / The work continues</p>
+        <p className={cyber.eyebrow}>{t("channel.eyebrow")}</p>
         <h2 id="channel-title">
-          Let’s build something that gives people their <em>life back.</em>
+          <Trans t={t} i18nKey="channel.title" components={{ em: <em /> }} />
         </h2>
-        <p>For thoughtful software, press conversations, or the beginning of a good idea, open a channel through Expected End.</p>
+        <p>{t("channel.text")}</p>
         <div className={pageStyles.channelActions}>
           {/* biome-ignore lint/a11y/useValidAnchor: this is an addressable cross-route section link */}
-          <a href="/about#contact" onClick={onNavigate} aria-label="Contact Expected End">
-            Contact Expected End <ArrowUpRightIcon />
+          <a href="/about#contact" onClick={onNavigate} aria-label={t("channel.contact")}>
+            {t("channel.contact")} <ArrowUpRightIcon />
           </a>
           <a href="/about" onClick={onNavigate}>
-            Return to the company
+            {t("channel.back")}
           </a>
         </div>
       </section>

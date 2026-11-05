@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud，Expected End 创始人",
+    "stats": {
+      "projects": "已打造项目",
+      "languages": "种语言",
+      "appStore": "款应用上架 App Store"
+    },
+    "eyebrow": "通往你<em>末后指望</em>的大门",
+    "title": "以使命为本，<break/>用心打造，<break/>尽显美好。",
+    "intro": "Expected End 打造用心的软件、效率工具、数字体验和社区，用轻松又有趣的方式，让人们更亲近上帝！",
+    "cta": "查看作品",
+    "lensHint": "移动光标，读出代码"
+  },
+  "projects": {
+    "eyebrow": "01 / 项目",
+    "title": "两款应用已上架 App Store。<break/><em>Android 版即将推出。</em>",
+    "visit": "访问 {{name}}",
+    "android": "Android 版即将推出",
+    "bio": "简介",
+    "actionFor": "{{name}}：{{action}}"
+  },
+  "behind": {
+    "eyebrow": "02 / 作品背后",
+    "title": "这里的每一款产品，都始于<em>五年级课堂</em>上的一个问题。",
+    "lead": "从那个问题到这些应用之间，隔着悲伤、信仰和无数个深夜。完整的故事在另一个页面上。",
+    "cta": "阅读故事"
+  },
+  "proof": {
+    "caption": "已打造项目",
+    "eyebrow": "03 / 作品实证",
+    "title": "从零开始。<em>作品自己会说话。</em>",
+    "lead": "应用、网站、AI 工具、影片和推广活动，全部自主设计、开发和发布。这里展示其中一部分。",
+    "stats": {
+      "apps": "<strong>2 款应用</strong>已上架 App Store",
+      "languages": "MyBibleLens 支持 <strong>43 种语言</strong>",
+      "years": "<strong>10 年</strong>编程经验",
+      "inHouse": "<strong>从创意到发布</strong>，全部自主完成"
+    },
+    "bigline": "<count>20+</count> 个项目 <star>✦</star> 打造 <star>✦</star> 交付 <star>✦</star> 上线 <star>✦</star>",
+    "rows": {
+      "products": "应用与产品",
+      "creative": "网站、AI 与创意作品"
+    },
+    "next": "下一个可能就是<em>你的项目。</em>",
+    "cta": "开始你的项目"
+  },
+  "services": {
+    "eyebrow": "04 / 精选服务",
+    "title": "你来构想，<em>我来实现。</em>",
+    "lead": "产品永远优先。当合作契合时，同样的用心也会投入到为他人打造的精选项目中。",
+    "note": "所有咨询请注明预算范围；如需签署保密协议（NDA），也请在留言中说明。",
+    "count": "服务 {{number}} / {{total}}",
+    "start": "开始这个项目"
+  }
+}

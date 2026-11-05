@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Ditch the influencers. Learn your actual biology.",
+    "lead": "Try the free calculator without an account, then explore the app we are building for everyday tracking.",
+    "appLink": "Explore the app ↓",
+    "logoLabel": "Use the Water Check calculator"
+  },
+  "intro": {
+    "kicker": "Hydration calculator",
+    "title": "Start with the numbers you know."
+  },
+  "units": {
+    "legend": "Weight unit",
+    "pounds": "Pounds (lb)",
+    "kilograms": "Kilograms (kg)"
+  },
+  "weight": {
+    "labelLb": "Weight (lbs)",
+    "labelKg": "Weight (kg)",
+    "valueTextLb": "{{value}} pounds",
+    "valueTextKg": "{{value}} kilograms"
+  },
+  "height": {
+    "legend": "Height",
+    "feet": "Height (ft)",
+    "inches": "Height (in)",
+    "centimeters": "Height (cm)",
+    "note": "Fluid needs follow lean mass, so height matters most when weight is high for your frame."
+  },
+  "activity": {
+    "label": "Daily Activity (minutes)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minutes"
+  },
+  "factors": {
+    "legend": "Factors that can change fluid needs",
+    "intro": "We apply a number only where a defensible daily adjustment exists. The other answers personalize your guidance without pretending the science supports an exact dose.",
+    "age": {
+      "label": "Age",
+      "hint": "Age provides context; it does not diagnose menopause."
+    },
+    "lifeStage": {
+      "label": "Life stage",
+      "hint": "Uses a transparent pregnancy or milk-production adjustment.",
+      "options": {
+        "standard": "Standard",
+        "pregnant": "Pregnant",
+        "breastfeeding": "Breastfeeding"
+      }
+    },
+    "sex": {
+      "label": "Sex",
+      "hint": "Optional. Refines the ideal-weight and reference-intake math.",
+      "options": {
+        "unspecified": "Prefer not to say",
+        "woman": "Woman",
+        "man": "Man"
+      }
+    },
+    "luteal": {
+      "label": "Week before your period",
+      "hint": "Tracks luteal-phase water retention and hormonal bloating. No fixed add applies to everyone."
+    },
+    "heat": {
+      "label": "Hot or humid conditions",
+      "hint": "Heat guidance depends on exposure and sweat—not location alone."
+    }
+  },
+  "result": {
+    "goal": "Your Daily Goal: {{ounces}} Ounces",
+    "breakdown": "Calculation breakdown",
+    "weightBaseline": "Weight baseline",
+    "heightAndBuild": "Height and build",
+    "sexReference": "Sex reference",
+    "notSet": "Not set",
+    "activity": "Activity adjustment",
+    "lifeStage": {
+      "standard": "Life-stage adjustment",
+      "pregnant": "Pregnancy adjustment",
+      "breastfeeding": "Breastfeeding adjustment"
+    },
+    "luteal": "Luteal phase guidance",
+    "noFixedOunces": "No fixed +oz",
+    "electrolytes": "Electrolyte check",
+    "electrolytesAfterSweat": "Consider after heavy sweat",
+    "electrolytesFromFood": "Food usually covers it",
+    "guidance": "This is an educational planning estimate for adults—not a diagnosis, treatment, or clinical prescription. Food also supplies water, and individual needs vary. Do not force fluids. Ask a healthcare professional about your needs if you are pregnant or breastfeeding, take medicines that affect fluid balance, have a kidney or heart condition, follow a fluid restriction, or have concerning symptoms."
+  },
+  "equivalents": {
+    "title": "That's about",
+    "cups": "{{value}} cups",
+    "cupsNote": "8 oz each",
+    "liters": "{{value}} liters",
+    "litersNote": "metric",
+    "bottles": "{{value}} bottles",
+    "bottlesNote": "16.9 oz size"
+  },
+  "eatYourWater": {
+    "kicker": "Eat your water",
+    "title": "Not all of it has to come from a glass.",
+    "copy": "About a fifth of most people's daily water arrives in food. Most fresh fruits and vegetables are 70 to 95 percent water, and once it reaches your bloodstream it hydrates you exactly like a drink does.",
+    "drink": "Drink",
+    "drinkNote": "{{cups}} cups of water, tea, or milk",
+    "eat": "Eat",
+    "eatNote": "from water-rich food",
+    "pickLegend": "Picture the food share as",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} is about {{ounces}} oz of water ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "cups of watermelon",
+      "serving": "1 cup diced",
+      "water": "92% water"
+    },
+    "cucumber": {
+      "label": "cucumbers",
+      "serving": "1 medium",
+      "water": "95% water"
+    },
+    "strawberries": {
+      "label": "cups of strawberries",
+      "serving": "1 cup",
+      "water": "91% water"
+    },
+    "oranges": {
+      "label": "oranges",
+      "serving": "1 medium",
+      "water": "87% water"
+    },
+    "salad": {
+      "label": "bowls of salad",
+      "serving": "2 cups mixed",
+      "water": "about 94% water"
+    },
+    "soup": {
+      "label": "bowls of broth soup",
+      "serving": "1 cup",
+      "water": "about 92% water"
+    },
+    "tomatoes": {
+      "label": "tomatoes",
+      "serving": "1 medium",
+      "water": "95% water"
+    },
+    "grapes": {
+      "label": "cups of grapes",
+      "serving": "1 cup",
+      "water": "81% water"
+    },
+    "peaches": {
+      "label": "peaches",
+      "serving": "1 medium",
+      "water": "89% water"
+    },
+    "cantaloupe": {
+      "label": "cups of cantaloupe",
+      "serving": "1 cup diced",
+      "water": "90% water"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Why food water counts",
+    "title": "Water from a watermelon is the same water.",
+    "sameMolecule": "<strong>Same molecule.</strong> H2O from a cucumber and H2O from a tap are identical. Once it crosses your gut into your bloodstream, your body sends it to your muscles the same way.",
+    "slowRelease": "<strong>Slow release.</strong> Water in produce is held inside fibers and cell walls, so it's absorbed more gradually than a fast-chugged glass, which your kidneys tend to pass quickly.",
+    "electrolytes": "<strong>Comes with electrolytes.</strong> Cucumbers, spinach, melon, and berries carry potassium and magnesium, minerals your cells use to hold onto water.",
+    "glycogen": "<strong>Fuel and storage together.</strong> Muscles store carbohydrate as glycogen, and every gram of glycogen is stored with roughly three grams of water. Water-rich, carb-rich foods deliver both.",
+    "caveat": "You still need to drink. Food usually covers about a fifth of the total; the rest comes from water and other beverages. Dried fruit, nuts, and bread carry very little water."
+  },
+  "grace": {
+    "kicker": "Body kindness",
+    "title": "A Quick Note on Giving Yourself Grace",
+    "body": "The mirror and the way your clothes fit can change from water retention, digestion, hormones, sleep, and other normal shifts. One bloated day does not define your body. Drink with care, give yourself time, and let curiosity replace shame. Persistent bloating, swelling, rapid weight changes, or symptoms that worry you deserve a conversation with a healthcare professional."
+  },
+  "overhydration": {
+    "title": "The Danger of Forced Hydration",
+    "kidneys": "Your kidneys need time to clear water. During prolonged exercise, drinking faster than you lose fluid can dilute blood sodium and cause exercise-associated hyponatremia. Early symptoms can include headache, nausea, dizziness, fatigue, or confusion. Severe cases can cause brain swelling, seizures, coma, and death.",
+    "pacing": "Do not chase this estimate by chugging. Spread drinks across the day. During exercise, match intake to thirst, conditions, and your own sweat losses. Seek urgent medical care for confusion, seizure, collapse, or severe symptoms.",
+    "sources": "Sources: <nih>NIH exercise-associated hyponatremia guidance</nih> and <academies>National Academies fluid recommendations</academies>."
+  },
+  "notes": {
+    "title": "Your evidence notes",
+    "sexMan": "<strong>Sex:</strong> National Academies reference intakes are about 3.7 liters of total water a day for men and 2.7 for women. Body weight explains most of that gap, so the remainder appears here as a 4 percent increase to the weight baseline, and the height-and-build check uses the male ideal-weight formula.",
+    "sexWoman": "<strong>Sex:</strong> National Academies reference intakes are about 3.7 liters of total water a day for men and 2.7 for women. Body weight explains most of that gap, so the remainder appears here as a 4 percent decrease to the weight baseline, and the height-and-build check uses the female ideal-weight formula.",
+    "height": "<strong>Height and build:</strong> Fluid needs track lean mass more than total weight. Because your weight sits above the usual range for your height, the estimate uses adjusted body weight (ideal weight plus 40 percent of the difference), a common clinical convention. It is a rough planning number, not a judgment about your body.",
+    "cycle": "<strong>Cycle phase:</strong> Cycle-related fluid shifts are real, but studies do not establish a universal fixed-ounce increase. No automatic ounces were added. Regular meals usually cover electrolytes; magnesium or potassium supplements are not a universal recommendation.",
+    "age": "<strong>Age and menopause:</strong> Age alone does not determine menopause status. Hormonal changes can affect thirst and fluid regulation, but there is no validated “over 45” ounce adjustment, so your age did not change the total.",
+    "heat": "<strong>Heat:</strong> A fixed climate bonus can under- or overestimate your needs. For moderate work in heat under two hours, NIOSH advises about 8 ounces every 15–20 minutes; longer heavy sweating needs an individualized replacement plan."
+  },
+  "evidence": {
+    "label": "Evidence:",
+    "academies": "National Academies water intake guidance",
+    "harvard": "Harvard Health on food and hydration",
+    "cycle": "Menstrual-cycle osmoregulation study",
+    "menopause": "Menopause fluid-regulation review",
+    "niosh": "CDC/NIOSH heat guidance"
+  },
+  "tips": {
+    "kicker": "Useful, not obsessive",
+    "title": "Three checks for real life.",
+    "schedule": {
+      "title": "The Schedule",
+      "body": "Start your morning with water, sip with meals, and let thirst, weather, and activity guide the rest."
+    },
+    "electrolytes": {
+      "title": "Electrolytes",
+      "body": "Most people replace electrolytes through regular meals. After long or heavy sweating, choose a balanced electrolyte drink; do not add salt routinely if you have been advised to limit sodium."
+    },
+    "visualCheck": {
+      "title": "The Visual Check",
+      "body": "Pale yellow urine can be one rough sign of hydration. Food, vitamins, medicines, and health conditions can change color, so it is not a diagnosis."
+    }
+  },
+  "author": {
+    "kicker": "From the person who built it",
+    "title": "Why I Built This (And Why You Shouldn't Just Listen To Me)",
+    "athlete": "My name is Denzel Rigaud. I spent more than nine years running the 400 meters and hurdles, so hydration became part of how I trained, recovered, and learned to read my body.",
+    "purpose": "I built The Water Check to help you hear your body above online noise. I do not want you to treat my experience as a prescription. Your biology, environment, medical history, and life stage shape what you need.",
+    "technology": "Technology isn't for us to doom-scroll and live other people's lives. It should keep our lives productive and better our spirit, soul, mind, and flesh, so we become the best version of who we want to be. So stop listening to everyone else, because what works for you, works for you.",
+    "faith": "Learn your patterns and bring medical concerns to a qualified professional. Caring for your physical vessel can bring you closer to yourself and to God, who placed a spark in each of us worth tending.",
+    "motto": "Don't follow influencers. Learn yourself.",
+    "date": "March 15, 2021",
+    "founderPage": "Founder Page"
+  },
+  "community": {
+    "kicker": "Keep it human",
+    "title": "Join the actual community.",
+    "instagram": "Follow @thewatercheck on Instagram",
+    "reelSoon": "Instagram Reel coming soon",
+    "story": "Community story {{position}}"
+  }
+}

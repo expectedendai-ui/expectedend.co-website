@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Bagay pou wout la",
+    "headline": "Kenbe sa ki enpòtan toupre ou.",
+    "intro": "Yon ti koleksyon bagay byen panse pou nòt, rapèl, ak mache chak jou ak Bondye.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Kaye gide",
+        "kind": "Kaye"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Yon ti rapèl",
+        "kind": "Epeng"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Yon rad dous pou chak jou",
+        "kind": "Rad"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Pou maten ki pi fre",
+        "kind": "Rad"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Premye koleksyon an",
+    "headline": "Bwè dlo. Kontinye avanse.",
+    "intro": "Rad ki fèt ak lespri idratasyon pou moun ki toujou la, ki ranpli boutèy yo ankò, epi ki kenbe check la ap mache.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Yon esansyèl klere pou chak jou",
+        "kind": "Mayo"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Pou apre yon long mache",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Yon dezyèm koulè",
+        "kind": "Mayo"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Yon rad epè, ak yon stil kalm",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigasyon boutik {{store}}",
+    "collection": "Koleksyon an"
+  },
+  "hero": {
+    "action": "Dekouvri premye koleksyon an",
+    "mybiblelensArt": "Logo boutik MyBibleLens ak yon kolaj etikèt",
+    "watercheckArt": "Bul logo likid The Water Check la"
+  },
+  "collection": {
+    "eyebrow": "Ap vini byento",
+    "title": "Fèt pou vin yon pati nan jounen ou.",
+    "body": "Sa yo se premye pyès yo. Foto pwodwi yo, opsyon yo ak lyen pou achte yo ap parèt isit la lè koleksyon an pare."
+  },
+  "product": {
+    "placeholder": "Imaj tanporè pou {{name}}",
+    "buy": "Achte kounye a",
+    "comingSoon": "Ap vini byento",
+    "comingSoonLabel": "{{name}} ap vini byento"
+  },
+  "checkout": {
+    "eyebrow": "Ou pa bezwen kont",
+    "title": "Lè l louvri, peye ap rete senp.",
+    "body": "Chwazi yon pyès, tape Achte kounye a, epi peye an sekirite atravè Stripe. Pa gen kont boutik, pa gen labirent panye."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. N ap pibliye politik boutik la anvan premye koleksyon an.",
+    "policies": "Politik boutik la",
+    "terms": "Kondisyon",
+    "privacy": "Konfidansyalite",
+    "accessibility": "Aksesiblite",
+    "shipping": "Livrezon ak retou: anvan lansman an"
+  }
+}

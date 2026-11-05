@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected End ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
+    "title": "ਸ਼ੁਰੂਆਤ ਥੋੜ੍ਹੇ ਜਿਹੇ <em>ਸੰਦਰਭ ਨਾਲ।</em>",
+    "intro": "ਕੁਝ ਵੇਰਵੇ ਚੁਣੋ ਅਤੇ ਤੁਹਾਡੇ ਲਈ ਇੱਕ ਸਾਫ਼ ਈਮੇਲ ਤਿਆਰ ਹੋ ਜਾਵੇਗੀ। ਕੁਝ ਵੀ ਭੇਜੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੀ ਈਮੇਲ ਐਪ ਖੁੱਲ੍ਹਦੀ ਹੈ।"
+  },
+  "fields": {
+    "name": "ਤੁਹਾਡਾ ਨਾਮ",
+    "email": "ਤੁਹਾਡੀ ਈਮੇਲ",
+    "reason": "ਇਹ ਕਿਸ ਬਾਰੇ ਹੈ?",
+    "project": "ਕਿਹੜਾ ਪ੍ਰੋਜੈਕਟ?",
+    "priceRange": "ਬਜਟ ਰੇਂਜ",
+    "timeline": "ਪਸੰਦੀਦਾ ਸਮਾਂ-ਸੀਮਾ",
+    "discovery": "ਤੁਹਾਨੂੰ Expected End ਬਾਰੇ ਕਿਵੇਂ ਪਤਾ ਲੱਗਾ?",
+    "message": "ਤੁਹਾਡੇ ਮਨ ਵਿੱਚ ਕੀ ਹੈ?",
+    "chooseOne": "ਇੱਕ ਚੁਣੋ"
+  },
+  "reasons": {
+    "partnership": "ਭਾਈਵਾਲੀ ਜਾਂ ਸਹਿਯੋਗ",
+    "press": "ਪ੍ਰੈੱਸ ਜਾਂ ਮੀਡੀਆ",
+    "general": "ਆਮ ਸਵਾਲ"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check ਕਮਿਊਨਿਟੀ",
+    "newIdea": "ਕੋਈ ਨਵਾਂ ਆਈਡੀਆ"
+  },
+  "timelines": {
+    "exploring": "ਬੱਸ ਦੇਖ ਰਹੇ ਹਾਂ",
+    "month": "ਇੱਕ ਮਹੀਨੇ ਦੇ ਅੰਦਰ",
+    "threeMonths": "ਤਿੰਨ ਮਹੀਨਿਆਂ ਦੇ ਅੰਦਰ",
+    "laterThisYear": "ਇਸ ਸਾਲ ਦੇ ਅਖੀਰ ਵਿੱਚ",
+    "notSure": "ਅਜੇ ਪੱਕਾ ਨਹੀਂ"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check ਕਮਿਊਨਿਟੀ",
+    "search": "ਸਰਚ",
+    "referral": "ਕਿਸੇ ਨੇ ਦੱਸਿਆ",
+    "elsewhere": "ਕਿਤੇ ਹੋਰ"
+  },
+  "submit": {
+    "note": "ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਇਸ ਨੂੰ ਦੇਖ ਕੇ ਆਪਣੀ ਈਮੇਲ ਐਪ ਵਿੱਚ ਭੇਜੋ ਨਹੀਂ ਦਬਾਉਂਦੇ, ਕੁਝ ਵੀ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ।",
+    "apps": "<app>ਆਪਣੀ ਈਮੇਲ ਐਪ</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> ਜਾਂ <yahoo>Yahoo Mail</yahoo> ਚੁਣੋ।",
+    "button": "ਈਮੇਲ ਤਿਆਰ ਕਰੋ"
+  },
+  "dialog": {
+    "close": "ਸੰਪਰਕ ਫ਼ਾਰਮ ਬੰਦ ਕਰੋ"
+  }
+}

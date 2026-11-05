@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Boggaasi halkan ma joogo.",
+    "home": "Ku noqo bogga hore"
+  },
+  "legal": {
+    "englishOnly": "Boggan waxaa lagu soo bandhigay Ingiriisi, nuqulka Ingiriisiga ayaana go'aanka leh.",
+    "effective": "Dhaqan gal: {{date}}",
+    "onThisPage": "Boggan dhexdiisa",
+    "related": "Bogag la xidhiidha"
+  }
+}

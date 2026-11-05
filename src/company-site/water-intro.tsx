@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import "./water-intro.css";
 
 type WaterIntroProps = {
@@ -23,6 +24,7 @@ const markPlayed = (sessionKey: string) => {
 };
 
 export function WaterIntro({ sessionKey }: WaterIntroProps) {
+  const { t } = useTranslation("water");
   const [visible] = React.useState(() => (sessionKey ? !hasPlayedThisSession(sessionKey) : true));
 
   React.useEffect(() => {
@@ -46,7 +48,7 @@ export function WaterIntro({ sessionKey }: WaterIntroProps) {
           <path d="M0 78C244 164 476 18 735 99C970 173 1199 25 1440 108V190H0Z" />
         </svg>
       </div>
-      <p className="waterIntroWordmark">The Water Check</p>
+      <p className="waterIntroWordmark">{t("brand")}</p>
     </div>
   );
 }

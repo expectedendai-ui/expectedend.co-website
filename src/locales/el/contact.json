@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Επικοινωνία με την Expected End",
+    "title": "Ξεκινήστε με λίγο <em>πλαίσιο.</em>",
+    "intro": "Επιλέξτε μερικές λεπτομέρειες και θα ετοιμαστεί για εσάς ένα σαφές email. Η εφαρμογή email σας ανοίγει πριν σταλεί οτιδήποτε."
+  },
+  "fields": {
+    "name": "Το όνομά σας",
+    "email": "Το email σας",
+    "reason": "Για ποιο θέμα πρόκειται;",
+    "project": "Ποιο έργο;",
+    "priceRange": "Εύρος τιμής",
+    "timeline": "Ιδανικό χρονοδιάγραμμα",
+    "discovery": "Πώς βρήκατε την Expected End;",
+    "message": "Τι έχετε στο μυαλό σας;",
+    "chooseOne": "Επιλέξτε"
+  },
+  "reasons": {
+    "partnership": "Συνεργασία ή σύμπραξη",
+    "press": "Τύπος ή μέσα ενημέρωσης",
+    "general": "Γενική ερώτηση"
+  },
+  "projects": {
+    "waterCheckCommunity": "Η κοινότητα του The Water Check",
+    "newIdea": "Μια νέα ιδέα"
+  },
+  "timelines": {
+    "exploring": "Απλώς εξερευνώ",
+    "month": "Μέσα σε έναν μήνα",
+    "threeMonths": "Μέσα σε τρεις μήνες",
+    "laterThisYear": "Αργότερα μέσα στη χρονιά",
+    "notSure": "Δεν ξέρω ακόμη"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Η κοινότητα του The Water Check",
+    "search": "Αναζήτηση",
+    "referral": "Σύσταση",
+    "elsewhere": "Κάπου αλλού"
+  },
+  "submit": {
+    "note": "Τίποτα δεν στέλνεται μέχρι να το ελέγξετε και να πατήσετε Αποστολή στην εφαρμογή email σας.",
+    "apps": "Επιλέξτε <app>την εφαρμογή email σας</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> ή <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Προετοιμασία email"
+  },
+  "dialog": {
+    "close": "Κλείσιμο φόρμας επικοινωνίας"
+  }
+}

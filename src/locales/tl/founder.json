@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Si Denzel Rigaud na nakasuot ng salaming may orange na tint",
+    "stats": {
+      "gradeValue": "Ika-5",
+      "gradeSuffix": "",
+      "grade": "BAITANG · PAGKAUSISA",
+      "grief": "PAGDADALAMHATI",
+      "faith": "PANANAMPALATAYA · ANG PAGBABALIK"
+    },
+    "identity": "Pagkakakilanlan <b>/ Denzel Rigaud</b>",
+    "founded": "Itinatag / <time>Marso 3, 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Founder at Solo Full-Stack Developer</em>",
+    "title": "Ang Isip <br/>sa Likod ng <br/>Expected End",
+    "text": "Isang kuwento tungkol sa pagkausisa, pagdadalamhati, pananampalataya, at paggawa sa teknolohiya bilang daan pasulong.",
+    "cta": "Basahin ang kuwento"
+  },
+  "ticker": {
+    "curiosity": "Pagkausisa",
+    "grief": "Pagdadalamhati",
+    "faith": "Pananampalataya",
+    "code": "Code",
+    "purpose": "Layunin"
+  },
+  "coordinates": {
+    "eyebrow": "Tatlong coordinate",
+    "title": "Hindi <em>tuwid na linya</em> ang daan papunta rito.",
+    "curiosity": {
+      "label": "01 / Ikalimang baitang",
+      "title": "Naging paraan ng pag-survive ang pagkausisa.",
+      "body": "Nagsimula ako sa pagtangging hayaang itakda ng isang kabiguan ang natitirang bahagi ng buhay ko.",
+      "big": "Ika-5"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Isinara ng pagdadalamhati ang pinto sa teknolohiya.",
+      "body": "Ang pagkawala ng tatay ko ay nagparamdam na imposibleng hawakan ang bawat kasanayang itinuro niya sa akin."
+    },
+    "faith": {
+      "label": "03 / Pebrero 25, 2026",
+      "title": "Binigyan ng pananampalataya ng layunin ang trabaho.",
+      "body": "Bumalik ako para gumawa ng mga tool na nag-iiwan sa mga tao nang mas matatag kaysa noong una."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Kuwento ng founder / Unang panauhan",
+    "title": "Kumusta, ako si <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Bahagi na ng buhay ko ang teknolohiya mula pa noong ikalimang baitang. Bata pa lang ako, dismayado na ako sa paaralan. Bumagsak ako sa ikalawang baitang habang humaharap sa language barrier, at hindi ako naniwalang dapat akong itakda ng kabiguang iyon. Nagpasya akong magsimula sa pag-hack ng mga grado ko. Nagsimula ito nang maliit, pero nang mapagtanto ko kung gaano kalalim ang kaya kong pasukin sa mga sistema at i-jailbreak ang teknolohiya, naging mausisa ako sa mga sistemang nakapaligid sa akin at nagsimula akong mag-enjoy.",
+      "second": "Dinala ako ng pagkausisang iyon sa Instagram bot farming, coding, automation, machine learning, mga online community, digital growth, at sa pinakamadidilim na sulok ng internet. Natutunan ko kung gaano kalakas ang teknolohiya. Tinuruan din ako ng ilang desisyon na gumamit ng mas mabuting pagpapasya."
+    },
+    "socials": {
+      "label": "Mga social profile ni Denzel Rigaud",
+      "instagram": "Si Denzel Rigaud sa Instagram",
+      "linkedin": "Si Denzel Rigaud sa LinkedIn",
+      "youtube": "Si Denzel Rigaud sa YouTube"
+    },
+    "records": {
+      "label": "Mga independiyenteng rekord ng pagkakakilanlan",
+      "heading": "Mga panlabas na rekord",
+      "worldAthletics": "Profile sa World Athletics",
+      "lynn": "Athlete profile sa Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Kabanata 01",
+    "kicker": "Ang mga taong nagturo sa akin",
+    "title": "Ang una kong web wizard.",
+    "first": "Ang tatay at <brother>kuya</brother> ko ang pinakamatatalinong taong kilala ko, pero bihira ko silang makita. Sa telepono lang ang relasyon namin. Bawat segundong nakakausap ko sila, may itinuturo silang kailangan kong malaman. Sa paglipas ng panahon, natutunan kong ako pa rin ang dapat magpasya kung ano ang tama para sa akin. Web wizard ang tatay ko, at pakiramdam ko'y walang makakapigil sa akin sa internet. Nagtatrabaho ang kuya ko sa NSA.",
+    "second": "Noong 2021, lumipat ako sa Florida pagkatapos ng 17 taong pamumuhay kasama ang dalawa kong nanay at dalawang kapatid na babae. Nakaligtas ako, haha. Saka ko unang nakasama sa bahay ang tatay ko. Pagkalipas ng anim na buwan, namatay siya, kaya isinara ko ang pinto sa teknolohiya dahil bawat kasanayan ay nagpapaalala sa akin sa kanya.",
+    "third": "Muslim ang tatay ko sa malaking bahagi ng buhay niya. Sumunod ako sa Islam dahil gusto kong maging katulad niya. Bago siya namatay, ibinigay niya ang buhay niya kay Cristo. Nanatili sa akin ang desisyon niyang iyon, matagal pagkatapos kong itabi ang sarili kong mga tool."
+  },
+  "return": {
+    "number": "Kabanata 02",
+    "kicker": "Ang pagbabalik",
+    "title": "Binuksan ko ulit ang pinto.",
+    "first": "Ilang taon kong iniwasan ang bahagi ng sarili ko na nagpapaalala sa akin sa tatay ko. Paminsan-minsan humahawak pa rin ako ng teknolohiya, pero pinahirap ng pagdadalamhati na manatili roon. Pinunan ko ang bakanteng espasyong iyon ng kasalanan ng pagnanasa at lalo akong napalayo sa taong puwede sana akong maging.",
+    "second": "Noong Enero 2026, alam kong kailangan kong magbago. Nagpasya akong buksan muli ang web wizard na itinuro sa akin ng tatay ko, tumigil na maging makalamang tao na hindi naniniwala sa Diyos, at sumunod sa Kanya. Nang gawin ko iyon, nagsimulang umunlad ang buhay ko.",
+    "third": "Nagmula ang MyBibleLens sa desisyong iyon. Wala akong kumpletong plano. Nagsimula akong bumuo at nagpatuloy. Sa trabahong ito, nabuksan ko ang pintong isinara ko nang mamatay ang tatay ko. Ibinalik ko ang The Water Check at sinimulan kong balikan ang mga pangarap na dala ko mula pagkabata."
+  },
+  "draft": {
+    "label": "Kabanata 03 / Ang Draft",
+    "title": "“Ang Katotohanan sa Likod ng Code”"
+  },
+  "venom": {
+    "title": "Ang Digital na Lason",
+    "first": "Nangyayari ito sa sandaling magising tayo. Bago pa man dumampi ang paa sa sahig, umaabot na ang kamay. Dinadampot mo ang phone. Lahat tayo, ginagawa ito. Pero ang iisang kusang galaw na iyon ay agad na gumugulo sa neural pathways ng utak mo, at itinutulak ka sa kritikal at balisang kalagayan bago pa man magsimula ang araw.",
+    "second": "Bilang solo software developer sa loob ng 10 taon, at may tatay na solo cyber security hacker na nagturo sa akin ng madilim at misteryosong sulok ng internet, nakikita ko ang code sa likod ng screen. Alam na alam ko kung paano gumagana ang algorithm, at ang totoo, lason ito. Ang matinding toxicity na nararamdaman mo online ay hindi talaga kalikasan ng tao; isa itong inhinyerong ilusyon. Palagi tayong inaatake ng “pseudoism”, kung saan ang mga binahang comment section na puno ng galit ay bihirang biglaang reaksiyon ng mga ordinaryong user ng internet. Sa halip, bahagi ito ng sinadya at sistematikong estratehiya ng computational propaganda. Ipinapakalat ang mga pekeng account at bot network para magsingit ng artipisyal na naratibo sa feed mo, na idinisenyo para manipulahin ang pananaw ng publiko, palalimin ang pagkakahati-hati natin, at impluwensiyahan ang kilos mo online.",
+    "third": "Hindi mahalaga kung gaano kalinis ang search history mo o ng mga anak mo, o kung gaano kalinis ang tingin mo sa feed mo; dinisenyo ang sistema para hilahin ka pabalik. Hinihila ka nito patungo sa negatibidad, sa kababawan, at sa mga get-rich-quick guru na pumipilit sa ating unahin ang Pera kaysa sa Diyos (<strong>1 Timoteo 6:10</strong>), na lumilikha ng mga taong may espiritu ng mammon. Pinapangyari nitong hindi malaman ng magaganda nating kapatid na babae na ang tunay nilang ganda ay hindi makeup, hindi ang tingin sa kanila ng isang lalaki, o kung ilang Instagram like ang nakukuha nila… kundi ang puso nila at ang parang anghel nilang pakikitungo kasama ang Diyos. Isa itong makinang ginawa para agawin ang isip mo at kontrolin ang mga gawi mo.",
+    "fourth": "Ang walang tigil na agos ng pagkukunwari ay nagkukulong sa atin sa nagmamadaling pamumuhay, at binubulag tayo sa katotohanang nangangailangan ng panahon ang mga totoong bagay. Ang tunay na pag-ibig, totoong paglago, at tapat na koneksiyon ay nangangailangan ng pasensiya, hindi ng instant na kasiyahang ibinibigay ng phone. Nililinlang nito ang utak na umasa ng tuloy-tuloy na dopamine rush ng pagsang-ayon. Gaya ng mga piniling algorithm ng isang “For You” page, pinaparamdam nito sa mga tao na may bulag silang karapatan sa sarili nilang opinyon, at isinasara sila mula sa totoong tao at sa realidad na hindi lahat ay magkakasundo sa iisang bagay. Isa itong mabagal na pagsuko, na hinahayaang tuluyang sakupin ng malamig na teknolohiya at pagkukunwari ang isip ng tao.",
+    "fifth": "Gusto nilang malibang tayo sa mga gawa-gawang digmaang ito. Gusto nilang maging lugaw ang utak ng mga anak natin, habambuhay na nakakulong sa pinakamababang antas ng <strong><bloom>Bloom’s Taxonomy</bloom></strong>: puro “pag-alala” at pagkonsumo lang, hindi nagtatanong, hindi lumilikha, hindi lumalalim. Pinapanood natin ang isang buong henerasyon na naaantala sa mahahalagang <strong><erikson>yugto ng buhay ayon kay Erikson</erikson></strong>, paralisado ng mga peke at piniling realidad na nakikita nila sa screen, takot na talagang lumaki dahil wala nang nararamdamang totoo. Sawang-sawa na ang mundo sa mga kasinungalingan. Kung hindi mo nakikita ang manipulasyon sa code, okay lang; nakikita ito ng henerasyon ko, at makikita rin ito ng susunod na henerasyon."
+  },
+  "crucible": {
+    "title": "Ang Pugon na Humubog sa Akin",
+    "first": "Hindi ko lang ito natutunan sa pag-aaral ng datos; dinanas ko ito: nagbenta ng droga para lang mabuo ang buhay na ipinangako ko sa sarili ko, isang buhay na aabot sa maliwanag na kinabukasan. Pinalayas sa bahay ng mga mahal sa buhay, walang matirhan. Inalok ng daan papasok sa adult industry noong pinakakailangan ko ng pera, 10k na iwinawagayway mismo sa harap ng mukha ko, pero pinalaki ako ni nanay nang may moralidad. <court>Dalawang</court> kaso <search>noong</search> high school. Nagsimula akong mag-hack ng mga grado ko noong Grade 5 dahil sawang-sawa na akong bumagsak, lalo na nang mapagtanto kong ibinagsak ako noong Grade 2 dahil sa accent na dala ko. Kalaunan, naging pag-hack iyon ng mas marami pang bagay… nang tunay kong makilala ang <father>tatay</father> ko balang araw, nakita ko kung kanino ko ito namana.",
+    "second": "Napakatagal kong inakala na hindi na ako tatanggapin muli ng Diyos pagkatapos ng lahat ng iyon. Akala ko'y masyado na akong malayo. Pero saka ko nalaman ang tungkol kay Apostol Pablo. Literal na pumatay ng mga Kristiyano si Pablo, at gayunman ay binigyan pa rin siya ng Diyos ng napakalaking kaloob. Doon ko natanto: kung kayang gamitin ng Diyos ang isang taong tulad ni Pablo, hindi kailanman naging labis ang nakaraan ko para bumuo Siya ng kinabukasan kasama ko.",
+    "third": "Maagang nagsimula ang survival instinct na iyon. Ang paglaki nang napapaligiran ng 4 na babae sa loob ng 16 na taon ay humubog sa isip ko sa mga paraang hanggang ngayon ay inuunawa ko pa. Sinanay ang isip ko na sabay-sabay gumana sa iba't ibang psychological wavelength. Hinarap ko ang baluktot na sikolohiya, komplikadong dinamika, at manipulasyong humubog sa kung sino ako ngayon. At mahal ko sila dahil doon; nakatipid ako ng lakas pagdating sa mga babae nang talagang pagpasyahan kong pag-isipan ang sinasabi ng nanay ko. At pagkatapos ng mga heartbreak at pagtataksil, naniniwala pa rin ako sa <chivalry>pagiging maginoo</chivalry>.",
+    "fourth": "Ang sinasabi ko, para makaligtas sa bahay na puno ng babae, kailangan mong mag-isip na parang sila, at nang iwan ko sila, kinailangan kong maging ang binatang ako ngayon, dala ang napakaraming pagsubok na dinaanan ko. Magulo ang kapaligiran, at nakakita lang ako ng linaw nang aktibo kong piliing alisin ang iisa kong kasalanan, ang “pagnanasa”, at ang ingay sa pamamagitan ng panalangin. Nang sa wakas ay inuna ko ang Diyos, natanto ko kung sino talaga ako. Nakita ko ang mga pagsubok na humubog sa akin hindi bilang sumpa, kundi bilang eksaktong pagsasanay na kailangan ko para mapalapit sa Diyos, at para gumawa ng daan palabas para sa iba.",
+    "fifth": "Ang paghahanap sa Diyos ang nagdala sa akin para mas makilala ang sarili ko. Ang pagsunod sa Diyos ang nagturo sa akin tungkol sa mga sugat at kaloob ko, at ang pag-unawa sa sarili ang nagpagusto sa aking mas makilala Siya. Doon nagsimulang umunlad ang buhay ko: nagkaroon ako ng direksiyon, layunin, at dahilan para alagaan ang ibinigay sa akin ng Diyos. Bahagi ng misyong iyon ang The Water Check. Ang pagbibigay-pansin sa nakakaapekto sa katawan mo ay makatutulong sa iyong maunawaan at alagaan ang taong nilikha ng Diyos sa iyo. Gusto kong bumuo ng teknolohiyang tutulong sa iyong maging pinakamahusay na bersiyon ng taong iyon.",
+    "mission": "Lahat ng binubuo ko sa ilalim ng kumpanyang ito ay tumuturo sa iisang misyon: ilapit ang mga tao sa Diyos at tulungan silang gamitin ang teknolohiya para mamuhay, lumikha, magmahal, at maglingkod nang may intensiyon. Iyan ang inaasahang kinabukasan na pinagsisikapan kong marating.",
+    "connect": {
+      "label": "I-follow si Denzel Rigaud",
+      "youtube": "Expected End sa YouTube",
+      "instagram": "I-follow si Denzel Rigaud sa Instagram",
+      "linkedin": "Kumonekta kay Denzel Rigaud sa LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Personal na file / 04 alaala",
+    "title": "Archive ng alaala",
+    "text": "Ang mga tao, silid, at totoong trabaho sa likod ng code. I-download ang kahit anong frame at itago ito.",
+    "number": "Alaala {{number}}",
+    "download": "I-download ang alaala {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Si Denzel noong bata kasama ang tatay niya",
+        "title": "Ang tatay ko at ako"
+      },
+      "work": {
+        "alt": "Si Denzel na nagtatrabaho sa laptop kasama ang dalawang katuwang sa paligid ng mesa",
+        "title": "Ang trabaho sa paligid ng mesa"
+      },
+      "workspace": {
+        "alt": "Ang workspace ng MyBibleLens at The Water Check",
+        "title": "Kung saan nabuo ang MyBibleLens"
+      },
+      "archive": {
+        "alt": "Ang Real Work na video archive ni Denzel sa phone niya",
+        "title": "Ang Real Work archive"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Katapusan ng transmisyon / Nagpapatuloy ang trabaho",
+    "title": "Bumuo tayo ng isang bagay na <em>nagbabalik ng buhay</em> sa mga tao.",
+    "text": "Para sa maingat na software, mga usapang pang-press, o simula ng isang magandang ideya, magbukas ng channel sa pamamagitan ng Expected End.",
+    "contact": "Makipag-ugnayan sa Expected End",
+    "back": "Bumalik sa kumpanya"
+  },
+  "verse": {
+    "version": "Ang Dating Biblia (1905)",
+    "reference": "Jeremias 29:11",
+    "text": "Sapagka't nalalaman ko ang mga pagiisip na aking iniisip sa inyo, sabi ng Panginoon, mga pagiisip tungkol sa kapayapaan, at hindi tungkol sa kasamaan, upang bigyan kayo ng pagasa sa inyong huling wakas.",
+    "close": "Isara ang talata ng Bibliya"
+  },
+  "bio": {
+    "eyebrow": "Mula sa Founder",
+    "title": "Ano ang nangyari sa @thewatercheck?",
+    "close": "Isara ang bio",
+    "first": "Simula edad 15, nagma-manage at nagpapalago ako ng mga influencer at content page habang pinapalago pa rin ang sarili kong proyekto, ang @thewatercheck.",
+    "second": "Kalaunan, lumipat ako sa tatay ko noong 17 ako, at namamatay na ang account dahil <em>“Kapag hinabol mo ang dalawang kuneho, wala kang mahuhuli kahit isa.”</em> <proverb>(kasabihang Ruso)</proverb> Sa edad na iyon, pera lang ang mahalaga sa akin. Hindi ko ibinibigay ang lahat ko sa @thewatercheck.",
+    "third": "Pagkatapos ay biglang pumanaw ang <father>tatay</father> ko noong <strong>Hulyo 10, 2021.</strong> Pumasok ako sa survival mode, nagtataka kung saan patungo ang buhay ko. Para harapin ang sakit ng pagkamatay niya, isinara ko ang pinto sa pagiging web wizard na minsang itinuro sa akin ng tatay ko, hanggang <strong>Enero 2026.</strong>",
+    "stat": {
+      "from": "200,000 follower",
+      "to": "7,000",
+      "caption": "Diyan na lang ito ngayon."
+    },
+    "what": {
+      "eyebrow": "Kaya ano ba ito?",
+      "title": "Isang simpleng paalala na minahal ng mga tao.",
+      "first": "Ganito lang kasimple ang The Water Check: nagpo-post ako ng larawan araw-araw para paalalahanan ang mga tao na uminom ng tubig, at talagang nakatulong ito sa kanilang uminom ng tubig. <em>Binaha</em> ng mga tao ang comments. Iyon lang ang ginagawa nito, at minahal ito ng mga tao.",
+      "second": "Pagkatapos, binura ng isang bot ang lahat sa page, at mula roon, nagpatuloy ang buhay."
+    }
+  },
+  "footer": {
+    "line": "Hindi para sa walang katapusang pag-scroll at pamumuhay sa buhay ng iba ang teknolohiya. Dapat nitong pagbutihin ang ating espiritu, kaluluwa, isip, at laman.",
+    "sign": "Founder ng EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigation sa footer",
+    "build": "Ang binubuo ko",
+    "pressKit": "Press kit",
+    "find": "Hanapin ako",
+    "finePrint": "Ang fine print",
+    "terms": "Mga Tuntunin sa Paggamit",
+    "privacy": "Pahayag sa Privacy",
+    "accessibility": "Aksesibilidad",
+    "contact": "Makipag-ugnayan",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Nakalaan ang lahat ng karapatan.",
+    "blessing": "Mahal ka ni Hesus."
+  },
+  "egg": {
+    "label": "Pumasok sa nakatagong mundo ng sining",
+    "armed": "Isa pang pindot para makapasok sa nakatagong mundo ng sining."
+  }
+}

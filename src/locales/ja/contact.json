@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected End へのお問い合わせ",
+    "title": "まずは、少しだけ<em>背景を。</em>",
+    "intro": "いくつかの項目を選ぶだけで、わかりやすいメールが用意されます。何かが送信される前に、まずメールアプリが開きます。"
+  },
+  "fields": {
+    "name": "お名前",
+    "email": "メールアドレス",
+    "reason": "ご用件は？",
+    "project": "どのプロジェクトについてですか？",
+    "priceRange": "ご予算",
+    "timeline": "希望のスケジュール",
+    "discovery": "Expected End をどこで知りましたか？",
+    "message": "どんなことをお考えですか？",
+    "chooseOne": "選択してください"
+  },
+  "reasons": {
+    "partnership": "提携・コラボレーション",
+    "press": "プレス・メディア",
+    "general": "一般的なご質問"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check コミュニティ",
+    "newIdea": "新しいアイデア"
+  },
+  "timelines": {
+    "exploring": "まだ情報収集中",
+    "month": "1か月以内",
+    "threeMonths": "3か月以内",
+    "laterThisYear": "今年の後半",
+    "notSure": "まだわからない"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check コミュニティ",
+    "search": "検索",
+    "referral": "紹介",
+    "elsewhere": "その他"
+  },
+  "submit": {
+    "note": "内容を確認して、メールアプリで送信を押すまで、何も送信されません。",
+    "apps": "<app>お使いのメールアプリ</app>、<gmail>Gmail</gmail>、<outlook>Outlook</outlook>、<yahoo>Yahoo Mail</yahoo>から選べます。",
+    "button": "メールを準備する"
+  },
+  "dialog": {
+    "close": "お問い合わせフォームを閉じる"
+  }
+}

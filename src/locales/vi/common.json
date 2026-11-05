@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Trang này không tồn tại.",
+    "home": "Về trang chủ"
+  },
+  "legal": {
+    "englishOnly": "Trang này được hiển thị bằng tiếng Anh, và bản tiếng Anh là bản có hiệu lực.",
+    "effective": "Có hiệu lực từ {{date}}",
+    "onThisPage": "Trên trang này",
+    "related": "Trang liên quan"
+  }
+}

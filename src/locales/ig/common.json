@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Ibe ahụ adịghị ebe a.",
+    "home": "Laghachi n'ibe mbụ"
+  },
+  "legal": {
+    "englishOnly": "E gosiri ibe a n'asụsụ Bekee, ọ bụkwa nsụgharị Bekee na-achị.",
+    "effective": "Na-arụ ọrụ site na {{date}}",
+    "onThisPage": "N'ibe a",
+    "related": "Ibe ndị metụtara ya"
+  }
+}

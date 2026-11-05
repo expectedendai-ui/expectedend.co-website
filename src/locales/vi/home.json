@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, nhà sáng lập Expected End",
+    "stats": {
+      "projects": "DỰ ÁN ĐÃ XÂY DỰNG",
+      "languages": "NGÔN NGỮ",
+      "appStore": "TRÊN APP STORE"
+    },
+    "eyebrow": "Cánh cửa dẫn đến <em>tương lai đầy trông cậy</em> của bạn",
+    "title": "Mục đích,<break/>kiến tạo<break/>thật đẹp.",
+    "intro": "Expected End tạo ra phần mềm chu đáo, công cụ năng suất, trải nghiệm số và cộng đồng, giúp mọi người đến gần Đức Chúa Trời hơn theo những cách thú vị và dễ dàng!",
+    "cta": "Xem các dự án",
+    "lensHint": "Di chuyển con trỏ để đọc mã"
+  },
+  "projects": {
+    "eyebrow": "01 / Dự án",
+    "title": "Hai ứng dụng trên App Store. <break/><em>Android sắp ra mắt.</em>",
+    "visit": "Truy cập {{name}}",
+    "android": "Android sắp ra mắt",
+    "bio": "Tiểu sử",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Phía sau công việc",
+    "title": "Mỗi sản phẩm ở đây đều bắt đầu từ một câu hỏi trong <em>lớp học hồi lớp năm.</em>",
+    "lead": "Giữa câu hỏi ấy và những ứng dụng này là nỗi đau mất mát, đức tin và rất nhiều đêm thức khuya. Phần còn lại của câu chuyện nằm ở một trang riêng.",
+    "cta": "Đọc câu chuyện"
+  },
+  "proof": {
+    "caption": "Dự án đã xây dựng",
+    "eyebrow": "03 / Minh chứng",
+    "title": "Xây dựng từ con số không. <em>Thành quả tự nói lên tất cả.</em>",
+    "lead": "Ứng dụng, website, công cụ AI, phim và chiến dịch, tất cả đều được thiết kế, lập trình và ra mắt bởi chính chúng tôi. Đây là một phần trong số đó.",
+    "stats": {
+      "apps": "<strong>2 ứng dụng</strong> trên App Store",
+      "languages": "<strong>43 ngôn ngữ</strong> trong MyBibleLens",
+      "years": "<strong>10 năm</strong> viết mã",
+      "inHouse": "<strong>Từ ý tưởng đến ra mắt</strong>, tất cả đều tự làm"
+    },
+    "bigline": "<count>20+</count> DỰ ÁN <star>✦</star> XÂY DỰNG <star>✦</star> PHÁT HÀNH <star>✦</star> ĐANG CHẠY <star>✦</star>",
+    "rows": {
+      "products": "Ứng dụng và sản phẩm",
+      "creative": "Website, AI và sáng tạo"
+    },
+    "next": "Dự án của bạn có thể là <em>dự án tiếp theo.</em>",
+    "cta": "Bắt đầu dự án của bạn"
+  },
+  "services": {
+    "eyebrow": "04 / Dịch vụ chọn lọc",
+    "title": "Bạn mơ ước, <em>tôi xây dựng.</em>",
+    "lead": "Sản phẩm luôn được ưu tiên. Khi thật sự phù hợp, sự chu đáo ấy cũng được dành cho một số dự án chọn lọc của người khác.",
+    "note": "Vui lòng ghi khoảng ngân sách cho mọi yêu cầu và cho biết trong tin nhắn nếu cần ký NDA.",
+    "count": "Dịch vụ {{number}} / {{total}}",
+    "start": "Bắt đầu dự án này"
+  }
+}

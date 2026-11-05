@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud คือผู้ก่อตั้งและนักพัฒนาฟูลสแตกเบื้องหลัง Expected End, MyBibleLens แอปสถานศักดิ์สิทธิ์สำหรับคริสเตียน และ The Water Check",
+  "projects": {
+    "mybiblelens": {
+      "category": "แอปคริสเตียน",
+      "action": "ไปที่แอป",
+      "tagline": "แอปสถานศักดิ์สิทธิ์สำหรับคริสเตียน",
+      "secondary": "ประวัติ",
+      "badge": "มีบน App Store"
+    },
+    "watercheck": {
+      "category": "คอมมูนิตี้การดื่มน้ำ",
+      "action": "ไปที่แอป",
+      "tagline": "เข้าใจสิ่งที่คุณดื่ม รู้เป้าหมายน้ำของคุณเองในแตะเดียว",
+      "badge": "อยู่ระหว่างการตรวจสอบ"
+    },
+    "mybiblelens-store": {
+      "category": "ร้านค้า · เร็วๆ นี้",
+      "action": "เข้าสู่ร้านค้า",
+      "tagline": "ความเชื่อที่คุณสวมใส่ได้"
+    },
+    "watercheck-store": {
+      "category": "ร้านค้า · เร็วๆ นี้",
+      "action": "เข้าสู่ร้านค้า",
+      "tagline": "อุปกรณ์สำหรับแผนกดื่มน้ำ"
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "แอปความเชื่อ · iOS",
+      "status": "มีบน App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "แอปดื่มน้ำ · iOS",
+      "status": "อยู่ระหว่างการตรวจสอบ"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens สำหรับ Android",
+      "category": "Google Play",
+      "status": "ทดสอบแบบปิด"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "ผืนผ้าใบไร้ขอบเขต",
+      "status": "ใช้งานได้แล้ว"
+    },
+    "journey-plans": {
+      "name": "แผน Journey",
+      "category": "แผนการอ่าน + ตรา",
+      "status": "ใช้งานได้แล้ว"
+    },
+    "water-check-crews": {
+      "name": "แก๊ง Water Check",
+      "category": "ดื่มน้ำเป็นทีม",
+      "status": "สร้างเสร็จแล้ว"
+    },
+    "home-screen-widgets": {
+      "name": "วิดเจ็ตหน้าจอโฮม",
+      "category": "วิดเจ็ต iOS",
+      "status": "สร้างเสร็จแล้ว"
+    },
+    "hydration-calculator": {
+      "name": "เครื่องคำนวณปริมาณน้ำ",
+      "category": "เครื่องมือบนเว็บ",
+      "status": "ใช้งานได้แล้ว"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "แอปศูนย์กลางธุรกิจ",
+      "status": "กำลังพัฒนา"
+    },
+    "43-language-rollout": {
+      "name": "เปิดใช้ 43 ภาษา",
+      "category": "การแปลภาษา",
+      "status": "43 ภาษา"
+    },
+    "mybiblelens-store": {
+      "name": "ร้านค้า MyBibleLens",
+      "category": "สินค้าที่ระลึก",
+      "status": "เร็วๆ นี้"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "เว็บไซต์แอป",
+      "status": "ใช้งานได้แล้ว"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "เว็บไซต์บริษัท",
+      "status": "ใช้งานได้แล้ว"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "ศึกษาพระคัมภีร์ด้วย AI",
+      "status": "เดโม AI"
+    },
+    "hidden-art-world": {
+      "name": "โลกศิลปะที่ซ่อนอยู่",
+      "category": "ศิลปะเว็บแบบอินเทอร์แอกทีฟ",
+      "status": "อีสเตอร์เอ้ก"
+    },
+    "sanctuary-stickers": {
+      "name": "สติกเกอร์สถานศักดิ์สิทธิ์",
+      "category": "ชุดภาพประกอบ",
+      "status": "สติกเกอร์ 550+ แบบ"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "ภาพยนตร์นำเสนอ MyBibleLens",
+      "category": "ภาพยนตร์แบรนด์",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "คลิปแนะนำฟีเจอร์",
+      "category": "ซีรีส์วิดีโอ",
+      "status": "10 วิดีโอ"
+    },
+    "look-closer-series": {
+      "name": "ซีรีส์ Look Closer",
+      "category": "ซีรีส์โซเชียล",
+      "status": "60 โพสต์"
+    },
+    "25-week-campaign": {
+      "name": "แคมเปญ 25 สัปดาห์",
+      "category": "แผน Instagram",
+      "status": "100 โพสต์"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "สมุดแบบฝึกหัด",
+      "status": "33 บล็อก"
+    },
+    "water-check-store": {
+      "name": "ร้านค้า Water Check",
+      "category": "สินค้าที่ระลึก",
+      "status": "เร็วๆ นี้"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "แอป",
+      "body": "ผลิตภัณฑ์ที่มีประโยชน์และใส่ใจ ออกแบบโดยมีคนจริงเป็นศูนย์กลาง",
+      "interest": "สร้างแอปหรือไอเดียซอฟต์แวร์"
+    },
+    "02": {
+      "title": "เว็บไซต์",
+      "body": "บ้านดิจิทัลที่มีเอกลักษณ์ ชัดเจน มีชีวิตชีวา และเป็นมิตร",
+      "interest": "เว็บไซต์หรือประสบการณ์ดิจิทัล"
+    },
+    "03": {
+      "title": "ระบบ AI",
+      "body": "ความฉลาดที่ใช้งานได้จริง ช่วยให้ไอเดียและทีมก้าวไปข้างหน้า",
+      "interest": "ระบบ AI หรือเครื่องมือเพิ่มประสิทธิภาพ"
+    },
+    "04": {
+      "title": "งานสร้างสรรค์",
+      "body": "อัตลักษณ์ ทิศทาง และประสบการณ์ ที่มีความหมายเป็นแกนกลาง",
+      "interest": "ทิศทางงานสร้างสรรค์หรืองานออกแบบ"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "ศูนย์กลางธุรกิจที่สร้างมาเพื่อคุณโดยเฉพาะ ทั้ง CRM การเงิน โปรเจกต์ เครื่องมือสำหรับทีม และความสามารถใดก็ตามที่คุณต้องการต่อไป ทั้งหมดอยู่ในที่เดียว",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "ระบบอัตโนมัติ",
+      "body": "แทนที่งานซ้ำซากด้วยเวิร์กโฟลว์ที่เชื่อมต่อกัน เพื่อให้ธุรกิจของคุณเดินหน้าต่อไป",
+      "interest": "ระบบอัตโนมัติ"
+    },
+    "07": {
+      "title": "พอร์ทัลลูกค้า",
+      "body": "มอบพื้นที่เดียวที่ดูดีให้ลูกค้าหรือสมาชิกได้สื่อสาร จองนัด แชร์ไฟล์ และติดตามความคืบหน้า",
+      "interest": "พอร์ทัลลูกค้า"
+    },
+    "08": {
+      "title": "กู้ชีพดิจิทัล",
+      "body": "ซ่อมแซม ปรับให้ทันสมัย หรือสร้างใหม่ ซอฟต์แวร์ที่ไม่ตอบโจทย์ธุรกิจของคุณอีกต่อไป",
+      "interest": "กู้ชีพดิจิทัล"
+    }
+  }
+}

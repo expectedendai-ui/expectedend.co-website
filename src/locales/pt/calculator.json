@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Esqueça os influenciadores. Conheça sua biologia de verdade.",
+    "lead": "Experimente a calculadora grátis sem criar conta e depois conheça o app que estamos criando para o acompanhamento diário.",
+    "appLink": "Conheça o app ↓",
+    "logoLabel": "Usar a calculadora do The Water Check"
+  },
+  "intro": {
+    "kicker": "Calculadora de hidratação",
+    "title": "Comece pelos números que você sabe."
+  },
+  "units": {
+    "legend": "Unidade de peso",
+    "pounds": "Libras (lb)",
+    "kilograms": "Quilogramas (kg)"
+  },
+  "weight": {
+    "labelLb": "Peso (lbs)",
+    "labelKg": "Peso (kg)",
+    "valueTextLb": "{{value}} libras",
+    "valueTextKg": "{{value}} quilogramas"
+  },
+  "height": {
+    "legend": "Altura",
+    "feet": "Altura (ft)",
+    "inches": "Altura (in)",
+    "centimeters": "Altura (cm)",
+    "note": "A necessidade de líquidos acompanha a massa magra, então a altura pesa mais quando o peso está alto para o seu biotipo."
+  },
+  "activity": {
+    "label": "Atividade diária (minutos)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minutos"
+  },
+  "factors": {
+    "legend": "Fatores que podem mudar sua necessidade de líquidos",
+    "intro": "Só aplicamos um número quando existe um ajuste diário defensável. As outras respostas personalizam suas orientações sem fingir que a ciência sustenta uma dose exata.",
+    "age": {
+      "label": "Idade",
+      "hint": "A idade dá contexto; ela não diagnostica a menopausa."
+    },
+    "lifeStage": {
+      "label": "Fase da vida",
+      "hint": "Usa um ajuste transparente para gravidez ou produção de leite.",
+      "options": {
+        "standard": "Padrão",
+        "pregnant": "Grávida",
+        "breastfeeding": "Amamentando"
+      }
+    },
+    "sex": {
+      "label": "Sexo",
+      "hint": "Opcional. Refina os cálculos de peso ideal e de ingestão de referência.",
+      "options": {
+        "unspecified": "Prefiro não dizer",
+        "woman": "Mulher",
+        "man": "Homem"
+      }
+    },
+    "luteal": {
+      "label": "Semana antes da menstruação",
+      "hint": "Considera a retenção de líquidos da fase lútea e o inchaço hormonal. Nenhum acréscimo fixo vale para todo mundo."
+    },
+    "heat": {
+      "label": "Calor ou umidade",
+      "hint": "As orientações para o calor dependem da exposição e do suor, não apenas do lugar."
+    }
+  },
+  "result": {
+    "goal": "Sua meta diária: {{ounces}} onças",
+    "breakdown": "Detalhes do cálculo",
+    "weightBaseline": "Base pelo peso",
+    "heightAndBuild": "Altura e biotipo",
+    "sexReference": "Referência por sexo",
+    "notSet": "Não definido",
+    "activity": "Ajuste por atividade",
+    "lifeStage": {
+      "standard": "Ajuste por fase da vida",
+      "pregnant": "Ajuste por gravidez",
+      "breastfeeding": "Ajuste por amamentação"
+    },
+    "luteal": "Orientação para a fase lútea",
+    "noFixedOunces": "Sem +oz fixas",
+    "electrolytes": "Checagem de eletrólitos",
+    "electrolytesAfterSweat": "Considere após suar muito",
+    "electrolytesFromFood": "A comida costuma dar conta",
+    "guidance": "Esta é uma estimativa educativa de planejamento para adultos, não um diagnóstico, tratamento ou prescrição clínica. Os alimentos também fornecem água, e as necessidades variam de pessoa para pessoa. Não force a ingestão de líquidos. Converse com um profissional de saúde sobre as suas necessidades se você estiver grávida ou amamentando, tomar remédios que afetam o equilíbrio de líquidos, tiver uma condição renal ou cardíaca, seguir uma restrição de líquidos ou tiver sintomas preocupantes."
+  },
+  "equivalents": {
+    "title": "Isso equivale a cerca de",
+    "cups": "{{value}} xícaras",
+    "cupsNote": "de 8 oz cada",
+    "liters": "{{value}} litros",
+    "litersNote": "sistema métrico",
+    "bottles": "{{value}} garrafas",
+    "bottlesNote": "de 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Coma sua água",
+    "title": "Nem tudo precisa vir de um copo.",
+    "copy": "Cerca de um quinto da água diária da maioria das pessoas vem dos alimentos. A maioria das frutas e verduras frescas tem de 70 a 95 por cento de água e, quando essa água chega à sua corrente sanguínea, hidrata você exatamente como uma bebida.",
+    "drink": "Beba",
+    "drinkNote": "{{cups}} xícaras de água, chá ou leite",
+    "eat": "Coma",
+    "eatNote": "de alimentos ricos em água",
+    "pickLegend": "Imagine a parte que vem da comida como",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: cerca de {{ounces}} oz de água ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "xícaras de melancia",
+      "serving": "1 xícara em cubos",
+      "water": "92% de água"
+    },
+    "cucumber": {
+      "label": "pepinos",
+      "serving": "1 médio",
+      "water": "95% de água"
+    },
+    "strawberries": {
+      "label": "xícaras de morangos",
+      "serving": "1 xícara",
+      "water": "91% de água"
+    },
+    "oranges": {
+      "label": "laranjas",
+      "serving": "1 média",
+      "water": "87% de água"
+    },
+    "salad": {
+      "label": "tigelas de salada",
+      "serving": "2 xícaras de salada mista",
+      "water": "cerca de 94% de água"
+    },
+    "soup": {
+      "label": "tigelas de caldo",
+      "serving": "1 xícara",
+      "water": "cerca de 92% de água"
+    },
+    "tomatoes": {
+      "label": "tomates",
+      "serving": "1 médio",
+      "water": "95% de água"
+    },
+    "grapes": {
+      "label": "xícaras de uvas",
+      "serving": "1 xícara",
+      "water": "81% de água"
+    },
+    "peaches": {
+      "label": "pêssegos",
+      "serving": "1 médio",
+      "water": "89% de água"
+    },
+    "cantaloupe": {
+      "label": "xícaras de melão",
+      "serving": "1 xícara em cubos",
+      "water": "90% de água"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Por que a água dos alimentos conta",
+    "title": "A água de uma melancia é a mesma água.",
+    "sameMolecule": "<strong>Mesma molécula.</strong> O H2O de um pepino e o H2O da torneira são idênticos. Depois que ele passa do intestino para a corrente sanguínea, seu corpo o envia para os músculos da mesma forma.",
+    "slowRelease": "<strong>Liberação lenta.</strong> A água das frutas e verduras fica retida em fibras e paredes celulares, por isso é absorvida de forma mais gradual do que um copo bebido de uma vez, que seus rins tendem a eliminar rapidamente.",
+    "electrolytes": "<strong>Vem com eletrólitos.</strong> Pepino, espinafre, melão e frutas vermelhas trazem potássio e magnésio, minerais que suas células usam para reter água.",
+    "glycogen": "<strong>Energia e reserva juntas.</strong> Os músculos armazenam carboidratos na forma de glicogênio, e cada grama de glicogênio é armazenado com cerca de três gramas de água. Alimentos ricos em água e em carboidratos fornecem os dois.",
+    "caveat": "Você ainda precisa beber. A comida costuma cobrir cerca de um quinto do total; o resto vem da água e de outras bebidas. Frutas secas, castanhas e pão têm muito pouca água."
+  },
+  "grace": {
+    "kicker": "Gentileza com o corpo",
+    "title": "Uma nota rápida sobre se tratar com gentileza",
+    "body": "O espelho e o caimento das suas roupas podem mudar por causa da retenção de líquidos, da digestão, dos hormônios, do sono e de outras variações normais. Um dia de estufamento não define o seu corpo. Beba com cuidado, dê tempo a você e deixe a curiosidade substituir a vergonha. Estufamento persistente, inchaço, mudanças rápidas de peso ou sintomas que preocupam você merecem uma conversa com um profissional de saúde."
+  },
+  "overhydration": {
+    "title": "O perigo da hidratação forçada",
+    "kidneys": "Seus rins precisam de tempo para eliminar a água. Durante exercícios prolongados, beber mais rápido do que você perde líquido pode diluir o sódio no sangue e causar hiponatremia associada ao exercício. Os primeiros sintomas podem incluir dor de cabeça, náusea, tontura, cansaço ou confusão. Casos graves podem causar inchaço cerebral, convulsões, coma e morte.",
+    "pacing": "Não tente alcançar esta estimativa bebendo tudo de uma vez. Distribua as bebidas ao longo do dia. Durante o exercício, ajuste o quanto você bebe à sede, às condições e às suas próprias perdas de suor. Procure atendimento médico urgente em caso de confusão, convulsão, colapso ou sintomas graves.",
+    "sources": "Fontes: <nih>orientações do NIH sobre hiponatremia associada ao exercício</nih> e <academies>recomendações de líquidos das National Academies</academies>."
+  },
+  "notes": {
+    "title": "Suas notas de evidências",
+    "sexMan": "<strong>Sexo:</strong> As ingestões de referência das National Academies são de cerca de 3,7 litros de água total por dia para homens e 2,7 para mulheres. O peso corporal explica a maior parte dessa diferença, então o restante aparece aqui como um aumento de 4 por cento na base pelo peso, e a checagem de altura e biotipo usa a fórmula de peso ideal masculina.",
+    "sexWoman": "<strong>Sexo:</strong> As ingestões de referência das National Academies são de cerca de 3,7 litros de água total por dia para homens e 2,7 para mulheres. O peso corporal explica a maior parte dessa diferença, então o restante aparece aqui como uma redução de 4 por cento na base pelo peso, e a checagem de altura e biotipo usa a fórmula de peso ideal feminina.",
+    "height": "<strong>Altura e biotipo:</strong> A necessidade de líquidos acompanha mais a massa magra do que o peso total. Como o seu peso está acima da faixa habitual para a sua altura, a estimativa usa o peso corporal ajustado (peso ideal mais 40 por cento da diferença), uma convenção clínica comum. É um número aproximado para planejamento, não um julgamento sobre o seu corpo.",
+    "cycle": "<strong>Fase do ciclo:</strong> As variações de líquidos ligadas ao ciclo são reais, mas os estudos não estabelecem um aumento fixo e universal em onças. Nenhuma onça foi adicionada automaticamente. As refeições regulares costumam cobrir os eletrólitos; suplementos de magnésio ou potássio não são uma recomendação universal.",
+    "age": "<strong>Idade e menopausa:</strong> A idade sozinha não determina se você está na menopausa. As mudanças hormonais podem afetar a sede e a regulação dos líquidos, mas não existe um ajuste validado em onças para “acima de 45”, então a sua idade não mudou o total.",
+    "heat": "<strong>Calor:</strong> Um bônus fixo por clima pode subestimar ou superestimar suas necessidades. Para trabalho moderado no calor por menos de duas horas, o NIOSH recomenda cerca de 8 onças a cada 15–20 minutos; suor intenso por mais tempo exige um plano de reposição individualizado."
+  },
+  "evidence": {
+    "label": "Evidências:",
+    "academies": "Orientações das National Academies sobre ingestão de água",
+    "harvard": "Harvard Health sobre alimentação e hidratação",
+    "cycle": "Estudo sobre osmorregulação no ciclo menstrual",
+    "menopause": "Revisão sobre regulação de líquidos na menopausa",
+    "niosh": "Orientações do CDC/NIOSH sobre calor"
+  },
+  "tips": {
+    "kicker": "Útil, não obsessivo",
+    "title": "Três checagens para a vida real.",
+    "schedule": {
+      "title": "A rotina",
+      "body": "Comece a manhã com água, tome uns goles nas refeições e deixe a sede, o clima e a atividade guiarem o resto."
+    },
+    "electrolytes": {
+      "title": "Eletrólitos",
+      "body": "A maioria das pessoas repõe eletrólitos com as refeições do dia a dia. Depois de suar muito ou por muito tempo, escolha uma bebida eletrolítica equilibrada; não adicione sal por rotina se você recebeu orientação para limitar o sódio."
+    },
+    "visualCheck": {
+      "title": "A checagem visual",
+      "body": "Urina amarelo-clara pode ser um sinal aproximado de hidratação. Alimentos, vitaminas, medicamentos e condições de saúde podem alterar a cor, então isso não é um diagnóstico."
+    }
+  },
+  "author": {
+    "kicker": "De quem criou",
+    "title": "Por que eu criei isto (e por que você não deveria só me ouvir)",
+    "athlete": "Meu nome é Denzel Rigaud. Passei mais de nove anos correndo os 400 metros e provas com barreiras, então a hidratação virou parte de como eu treinava, me recuperava e aprendia a ler meu corpo.",
+    "purpose": "Criei o The Water Check para ajudar você a ouvir seu corpo acima do barulho da internet. Não quero que você trate a minha experiência como uma receita. Sua biologia, seu ambiente, seu histórico médico e sua fase da vida definem do que você precisa.",
+    "technology": "A tecnologia não existe para a gente ficar rolando a tela sem parar e vivendo a vida dos outros. Ela deveria manter nossa vida produtiva e fazer bem ao nosso espírito, alma, mente e carne, para nos tornarmos a melhor versão de quem queremos ser. Então pare de ouvir todo mundo, porque o que funciona para você, funciona para você.",
+    "faith": "Aprenda seus padrões e leve suas preocupações médicas a um profissional qualificado. Cuidar do seu vaso físico pode aproximar você de si mesmo e de Deus, que colocou em cada um de nós uma centelha que vale a pena cuidar.",
+    "motto": "Não siga influenciadores. Conheça a si mesmo.",
+    "date": "15 de março de 2021",
+    "founderPage": "Página do fundador"
+  },
+  "community": {
+    "kicker": "Com gente de verdade",
+    "title": "Participe da comunidade de verdade.",
+    "instagram": "Siga @thewatercheck no Instagram",
+    "reelSoon": "Reel do Instagram em breve",
+    "story": "História da comunidade {{position}}"
+  }
+}

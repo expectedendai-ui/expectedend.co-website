@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Fő navigáció",
+    "projects": "Projektek",
+    "services": "Szolgáltatások",
+    "company": "Küldetés · Rólunk · Sajtó",
+    "contact": "Kapcsolat",
+    "home": "Expected End főoldal",
+    "openMenu": "Menü megnyitása",
+    "closeMenu": "Menü bezárása",
+    "links": {
+      "projects": "Projektek",
+      "services": "Szolgáltatások",
+      "story": "Történet",
+      "about": "Rólunk",
+      "press": "Sajtó",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Lábléc navigáció",
+    "home": "Főoldal",
+    "about": "Rólunk",
+    "press": "Sajtó",
+    "terms": "Felhasználási feltételek",
+    "privacy": "Adatvédelmi nyilatkozat",
+    "accessibility": "Akadálymentesség",
+    "contact": "Kapcsolat",
+    "mission": "Mindaz, amit ennek a cégnek a keretében építek, ugyanarra a küldetésre mutat: közelebb vinni az embereket Istenhez, és segíteni nekik abban, hogy a technológiát tudatosan használják az élethez, az alkotáshoz, a szeretethez és a szolgálathoz. Ez az a remélt jövő, amelyért dolgozom.",
+    "verse": "Jeremiás 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Minden jog fenntartva.",
+    "blessing": "Jézus szeret téged."
+  }
+}

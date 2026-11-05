@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Zapomnij o influencerach. Poznaj swoją prawdziwą biologię.",
+    "lead": "Wypróbuj darmowy kalkulator bez zakładania konta, a potem poznaj aplikację, którą budujemy do codziennego śledzenia.",
+    "appLink": "Poznaj aplikację ↓",
+    "logoLabel": "Skorzystaj z kalkulatora The Water Check"
+  },
+  "intro": {
+    "kicker": "Kalkulator nawodnienia",
+    "title": "Zacznij od liczb, które znasz."
+  },
+  "units": {
+    "legend": "Jednostka wagi",
+    "pounds": "Funty (lb)",
+    "kilograms": "Kilogramy (kg)"
+  },
+  "weight": {
+    "labelLb": "Waga (lbs)",
+    "labelKg": "Waga (kg)",
+    "valueTextLb": "Funty: {{value}}",
+    "valueTextKg": "Kilogramy: {{value}}"
+  },
+  "height": {
+    "legend": "Wzrost",
+    "feet": "Wzrost (ft)",
+    "inches": "Wzrost (in)",
+    "centimeters": "Wzrost (cm)",
+    "note": "Zapotrzebowanie na płyny zależy od beztłuszczowej masy ciała, więc wzrost ma największe znaczenie, gdy waga jest wysoka jak na Twoją budowę."
+  },
+  "activity": {
+    "label": "Codzienna aktywność (minuty)",
+    "value": "{{minutes}} min",
+    "valueText": "Minuty: {{minutes}}"
+  },
+  "factors": {
+    "legend": "Czynniki, które mogą zmienić zapotrzebowanie na płyny",
+    "intro": "Liczbę stosujemy tylko tam, gdzie istnieje uzasadniona dzienna korekta. Pozostałe odpowiedzi personalizują Twoje wskazówki, bez udawania, że nauka potwierdza dokładną dawkę.",
+    "age": {
+      "label": "Wiek",
+      "hint": "Wiek daje kontekst; nie służy do diagnozowania menopauzy."
+    },
+    "lifeStage": {
+      "label": "Etap życia",
+      "hint": "Stosuje przejrzystą korektę na ciążę lub wytwarzanie mleka.",
+      "options": {
+        "standard": "Standardowy",
+        "pregnant": "Ciąża",
+        "breastfeeding": "Karmienie piersią"
+      }
+    },
+    "sex": {
+      "label": "Płeć",
+      "hint": "Opcjonalnie. Doprecyzowuje obliczenia masy idealnej i spożycia referencyjnego.",
+      "options": {
+        "unspecified": "Wolę nie podawać",
+        "woman": "Kobieta",
+        "man": "Mężczyzna"
+      }
+    },
+    "luteal": {
+      "label": "Tydzień przed miesiączką",
+      "hint": "Uwzględnia zatrzymywanie wody i wzdęcia hormonalne w fazie lutealnej. Nie ma stałego dodatku, który pasowałby każdemu."
+    },
+    "heat": {
+      "label": "Upał lub wysoka wilgotność",
+      "hint": "Zalecenia na upał zależą od ekspozycji i pocenia się, a nie tylko od miejsca."
+    }
+  },
+  "result": {
+    "goal": "Twój dzienny cel: {{ounces}} oz",
+    "breakdown": "Szczegóły obliczeń",
+    "weightBaseline": "Wartość bazowa z wagi",
+    "heightAndBuild": "Wzrost i budowa ciała",
+    "sexReference": "Wartość referencyjna dla płci",
+    "notSet": "Nie podano",
+    "activity": "Korekta za aktywność",
+    "lifeStage": {
+      "standard": "Korekta za etap życia",
+      "pregnant": "Korekta za ciążę",
+      "breastfeeding": "Korekta za karmienie piersią"
+    },
+    "luteal": "Wskazówki dla fazy lutealnej",
+    "noFixedOunces": "Bez stałych +oz",
+    "electrolytes": "Kontrola elektrolitów",
+    "electrolytesAfterSweat": "Rozważ po intensywnym poceniu się",
+    "electrolytesFromFood": "Zwykle wystarcza jedzenie",
+    "guidance": "To orientacyjne wyliczenie dla dorosłych, służące edukacji i planowaniu, a nie diagnoza, leczenie ani zlecenie lekarskie. Jedzenie również dostarcza wody, a indywidualne potrzeby są różne. Nie zmuszaj się do picia. Zapytaj lekarza lub innego pracownika ochrony zdrowia o swoje potrzeby, jeśli jesteś w ciąży lub karmisz piersią, przyjmujesz leki wpływające na równowagę płynów, masz chorobę nerek lub serca, stosujesz ograniczenie płynów albo masz niepokojące objawy."
+  },
+  "equivalents": {
+    "title": "To mniej więcej",
+    "cups": "Szklanki: {{value}}",
+    "cupsNote": "po 8 oz",
+    "liters": "Litry: {{value}}",
+    "litersNote": "w systemie metrycznym",
+    "bottles": "Butelki: {{value}}",
+    "bottlesNote": "butelka 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Jedz swoją wodę",
+    "title": "Nie wszystko musi pochodzić ze szklanki.",
+    "copy": "U większości osób około jednej piątej dziennej ilości wody pochodzi z jedzenia. Większość świeżych owoców i warzyw składa się w 70 do 95 procentach z wody, a gdy ta woda trafi do krwiobiegu, nawadnia Cię dokładnie tak samo jak napój.",
+    "drink": "Pij",
+    "drinkNote": "Szklanki wody, herbaty lub mleka: {{cups}}",
+    "eat": "Jedz",
+    "eatNote": "z produktów bogatych w wodę",
+    "pickLegend": "Pokaż część z jedzenia jako",
+    "estimate": "{{food}}: ≈ {{amount}}",
+    "detail": "{{serving}}: około {{ounces}} oz wody ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "Szklanki arbuza",
+      "serving": "1 szklanka w kostkach",
+      "water": "92% wody"
+    },
+    "cucumber": {
+      "label": "Ogórki",
+      "serving": "1 średni ogórek",
+      "water": "95% wody"
+    },
+    "strawberries": {
+      "label": "Szklanki truskawek",
+      "serving": "1 szklanka",
+      "water": "91% wody"
+    },
+    "oranges": {
+      "label": "Pomarańcze",
+      "serving": "1 średnia pomarańcza",
+      "water": "87% wody"
+    },
+    "salad": {
+      "label": "Miski sałatki",
+      "serving": "2 szklanki, mieszana",
+      "water": "około 94% wody"
+    },
+    "soup": {
+      "label": "Miski zupy na bulionie",
+      "serving": "1 szklanka",
+      "water": "około 92% wody"
+    },
+    "tomatoes": {
+      "label": "Pomidory",
+      "serving": "1 średni pomidor",
+      "water": "95% wody"
+    },
+    "grapes": {
+      "label": "Szklanki winogron",
+      "serving": "1 szklanka",
+      "water": "81% wody"
+    },
+    "peaches": {
+      "label": "Brzoskwinie",
+      "serving": "1 średnia brzoskwinia",
+      "water": "89% wody"
+    },
+    "cantaloupe": {
+      "label": "Szklanki melona kantalupa",
+      "serving": "1 szklanka w kostkach",
+      "water": "90% wody"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Dlaczego woda z jedzenia się liczy",
+    "title": "Woda z arbuza to ta sama woda.",
+    "sameMolecule": "<strong>Ta sama cząsteczka.</strong> H2O z ogórka i H2O z kranu są identyczne. Gdy woda przejdzie z jelit do krwiobiegu, organizm kieruje ją do mięśni w ten sam sposób.",
+    "slowRelease": "<strong>Powolne uwalnianie.</strong> Woda w owocach i warzywach jest zamknięta we włóknach i ścianach komórkowych, więc wchłania się stopniowo, wolniej niż szklanka wypita duszkiem, którą nerki zwykle szybko wydalają.",
+    "electrolytes": "<strong>Razem z elektrolitami.</strong> Ogórki, szpinak, melon i owoce jagodowe dostarczają potasu i magnezu, czyli minerałów, dzięki którym komórki zatrzymują wodę.",
+    "glycogen": "<strong>Paliwo i magazyn w jednym.</strong> Mięśnie magazynują węglowodany w postaci glikogenu, a każdy gram glikogenu jest magazynowany razem z mniej więcej trzema gramami wody. Produkty bogate zarówno w wodę, jak i w węglowodany dostarczają jednego i drugiego.",
+    "caveat": "Nadal musisz pić. Jedzenie zwykle pokrywa około jednej piątej całości; resztę dostarczają woda i inne napoje. Suszone owoce, orzechy i pieczywo zawierają bardzo mało wody."
+  },
+  "grace": {
+    "kicker": "Życzliwość dla ciała",
+    "title": "Krótko o wyrozumiałości dla siebie",
+    "body": "Odbicie w lustrze i to, jak leżą ubrania, mogą się zmieniać przez zatrzymywanie wody, trawienie, hormony, sen i inne normalne wahania. Jeden dzień ze wzdęciami nie definiuje Twojego ciała. Pij z troską, daj sobie czas i pozwól, by ciekawość zastąpiła wstyd. Uporczywe wzdęcia, obrzęki, szybkie zmiany wagi lub objawy, które Cię niepokoją, zasługują na rozmowę z lekarzem lub innym pracownikiem ochrony zdrowia."
+  },
+  "overhydration": {
+    "title": "Niebezpieczeństwo picia na siłę",
+    "kidneys": "Nerki potrzebują czasu, żeby usunąć wodę. Jeśli podczas długotrwałego wysiłku pijesz szybciej, niż tracisz płyny, sód we krwi może się rozcieńczyć, co może wywołać hiponatremię wysiłkową. Wczesne objawy mogą obejmować ból głowy, nudności, zawroty głowy, zmęczenie lub dezorientację. W ciężkich przypadkach może dojść do obrzęku mózgu, drgawek, śpiączki i śmierci.",
+    "pacing": "Nie próbuj dogonić tego wyliczenia, pijąc duszkiem. Rozłóż picie na cały dzień. Podczas wysiłku dopasuj ilość płynów do pragnienia, warunków i własnej utraty potu. W razie dezorientacji, napadu drgawek, zasłabnięcia lub ciężkich objawów pilnie szukaj pomocy medycznej.",
+    "sources": "Źródła: <nih>zalecenia NIH dotyczące hiponatremii wysiłkowej</nih> i <academies>zalecenia National Academies dotyczące płynów</academies>."
+  },
+  "notes": {
+    "title": "Na czym opiera się Twój wynik",
+    "sexMan": "<strong>Płeć:</strong> Wartości referencyjne National Academies to około 3,7 litra wody całkowitej dziennie dla mężczyzn i 2,7 dla kobiet. Masa ciała wyjaśnia większość tej różnicy, więc reszta pojawia się tu jako zwiększenie wartości bazowej z wagi o 4 procent, a kontrola wzrostu i budowy ciała korzysta ze wzoru na masę idealną dla mężczyzn.",
+    "sexWoman": "<strong>Płeć:</strong> Wartości referencyjne National Academies to około 3,7 litra wody całkowitej dziennie dla mężczyzn i 2,7 dla kobiet. Masa ciała wyjaśnia większość tej różnicy, więc reszta pojawia się tu jako zmniejszenie wartości bazowej z wagi o 4 procent, a kontrola wzrostu i budowy ciała korzysta ze wzoru na masę idealną dla kobiet.",
+    "height": "<strong>Wzrost i budowa ciała:</strong> Zapotrzebowanie na płyny zależy bardziej od beztłuszczowej masy ciała niż od masy całkowitej. Ponieważ Twoja waga przekracza typowy zakres dla Twojego wzrostu, wyliczenie korzysta ze skorygowanej masy ciała (masa idealna plus 40 procent różnicy), czyli powszechnej konwencji klinicznej. To przybliżona liczba do planowania, a nie ocena Twojego ciała.",
+    "cycle": "<strong>Faza cyklu:</strong> Przesunięcia płynów związane z cyklem są realne, ale badania nie potwierdzają uniwersalnego, stałego zwiększenia w uncjach. Żadne uncje nie zostały dodane automatycznie. Zwykłe posiłki zazwyczaj pokrywają zapotrzebowanie na elektrolity; suplementy magnezu lub potasu nie są uniwersalnym zaleceniem.",
+    "age": "<strong>Wiek i menopauza:</strong> Sam wiek nie przesądza o menopauzie. Zmiany hormonalne mogą wpływać na pragnienie i regulację płynów, ale nie istnieje zweryfikowana korekta w uncjach „po 45. roku życia”, więc Twój wiek nie zmienił sumy.",
+    "heat": "<strong>Upał:</strong> Stały dodatek klimatyczny może zaniżyć lub zawyżyć Twoje zapotrzebowanie. Przy umiarkowanej pracy w upale trwającej krócej niż dwie godziny NIOSH zaleca około 8 uncji co 15–20 minut; dłuższe intensywne pocenie się wymaga indywidualnego planu uzupełniania płynów."
+  },
+  "evidence": {
+    "label": "Dowody:",
+    "academies": "National Academies: zalecenia dotyczące spożycia wody",
+    "harvard": "Harvard Health: jedzenie a nawodnienie",
+    "cycle": "Badanie osmoregulacji w cyklu miesiączkowym",
+    "menopause": "Przegląd badań o regulacji płynów w menopauzie",
+    "niosh": "CDC/NIOSH: zalecenia dotyczące upałów"
+  },
+  "tips": {
+    "kicker": "Przydatne, a nie obsesyjne",
+    "title": "Trzy kontrole na co dzień.",
+    "schedule": {
+      "title": "Plan dnia",
+      "body": "Zacznij poranek od wody, popijaj do posiłków, a resztą niech pokierują pragnienie, pogoda i aktywność."
+    },
+    "electrolytes": {
+      "title": "Elektrolity",
+      "body": "Większość osób uzupełnia elektrolity dzięki zwykłym posiłkom. Po długim lub intensywnym poceniu się wybierz zbilansowany napój elektrolitowy; nie dosalaj rutynowo, jeśli zalecono Ci ograniczenie sodu."
+    },
+    "visualCheck": {
+      "title": "Kontrola koloru",
+      "body": "Jasnożółty mocz może być jedną z orientacyjnych oznak nawodnienia. Jedzenie, witaminy, leki i schorzenia mogą zmieniać jego kolor, więc nie jest to diagnoza."
+    }
+  },
+  "author": {
+    "kicker": "Od twórcy",
+    "title": "Dlaczego to zbudowałem (i dlaczego nie warto słuchać tylko mnie)",
+    "athlete": "Nazywam się Denzel Rigaud. Przez ponad dziewięć lat biegałem na 400 metrów i przez płotki, więc nawodnienie stało się częścią tego, jak trenowałem, regenerowałem się i uczyłem się czytać swoje ciało.",
+    "purpose": "Zbudowałem The Water Check, żeby pomóc Ci usłyszeć swoje ciało ponad internetowym szumem. Nie chcę, by moje doświadczenie było dla Ciebie receptą. Twoja biologia, otoczenie, historia choroby i etap życia kształtują to, czego potrzebujesz.",
+    "technology": "Technologia nie jest po to, żebyśmy bezmyślnie scrollowali i żyli cudzym życiem. Ma sprawiać, że nasze życie będzie produktywne, i umacniać naszego ducha, duszę, umysł i ciało, abyśmy stali się najlepszą wersją tego, kim chcemy być. Więc przestań słuchać wszystkich innych, bo to, co działa dla Ciebie, działa dla Ciebie.",
+    "faith": "Poznaj swoje wzorce, a sprawy medyczne omawiaj z wykwalifikowanym specjalistą. Troska o swoje ciało może zbliżyć Cię do siebie i do Boga, który w każdym z nas umieścił iskrę wartą pielęgnowania.",
+    "motto": "Nie podążaj za influencerami. Poznaj siebie.",
+    "date": "15 marca 2021",
+    "founderPage": "Strona założyciela"
+  },
+  "community": {
+    "kicker": "Po ludzku",
+    "title": "Dołącz do prawdziwej społeczności.",
+    "instagram": "Obserwuj @thewatercheck na Instagramie",
+    "reelSoon": "Rolka na Instagramie już wkrótce",
+    "story": "Historia ze społeczności {{position}}"
+  }
+}

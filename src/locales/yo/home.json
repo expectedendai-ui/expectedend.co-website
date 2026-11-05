@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, olùdásílẹ̀ Expected End",
+    "stats": {
+      "projects": "IṢẸ́ ÀKÀNṢE TÍ A TI ṢE",
+      "languages": "ÈDÈ",
+      "appStore": "LÓRÍ APP STORE"
+    },
+    "eyebrow": "Ẹnu-ọ̀nà sí <em>ìgbà ìkẹyìn àti ìrètí rẹ</em>",
+    "title": "Ète, <break/>tí a kọ́ <break/>lọ́nà ẹlẹ́wà.",
+    "intro": "Expected End ń ṣẹ̀dá sọ́fútúwọ̀ tí a ronú jinlẹ̀ lé lórí, irinṣẹ́ iṣẹ́ ṣíṣe, ìrírí oní-nọ́ńbà, àti àwùjọ tó ń mú àwọn ènìyàn sún mọ́ Ọlọ́run ní ọ̀nà tó dùn mọ́ni, tó sì rọrùn!",
+    "cta": "Wo iṣẹ́ náà",
+    "lensHint": "Gbé kọ́sọ̀ rẹ kiri láti ka kóòdù náà"
+  },
+  "projects": {
+    "eyebrow": "01 / Àwọn iṣẹ́ àkànṣe",
+    "title": "Áàpù méjì lórí App Store. <break/><em>Android ń bọ̀ láìpẹ́.</em>",
+    "visit": "Ṣàbẹ̀wò sí {{name}}",
+    "android": "Android ń bọ̀ láìpẹ́",
+    "bio": "Ìtàn ṣókí",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Lẹ́yìn iṣẹ́ náà",
+    "title": "Gbogbo ọjà tó wà níbí bẹ̀rẹ̀ pẹ̀lú ìbéèrè kan ní <em>kíláàsì karùn-ún.</em>",
+    "lead": "Ọ̀fọ̀, ìgbàgbọ́ àti ọ̀pọ̀ òru àìsùn ló wà láàárín ìbéèrè yẹn àti àwọn áàpù wọ̀nyí. Ìyókù ìtàn náà wà lójú ìwé tirẹ̀.",
+    "cta": "Ka ìtàn náà"
+  },
+  "proof": {
+    "caption": "Iṣẹ́ àkànṣe tí a ti ṣe",
+    "eyebrow": "03 / Ẹ̀rí iṣẹ́",
+    "title": "A kọ́ ọ láti òdo. <em>Iṣẹ́ náà ń sọ̀rọ̀ fúnra rẹ̀.</em>",
+    "lead": "Áàpù, ojú òpó wẹ́ẹ̀bù, irinṣẹ́ AI, fíìmù àti ìpolongo, tí a ṣe àpẹẹrẹ wọn, tí a kọ kóòdù wọn, tí a sì gbé wọn jáde nínú ilé. Díẹ̀ nínú wọn nìyí.",
+    "stats": {
+      "apps": "<strong>Áàpù 2</strong> lórí App Store",
+      "languages": "<strong>Èdè 43</strong> nínú MyBibleLens",
+      "years": "<strong>Ọdún 10</strong> ti kíkọ kóòdù",
+      "inHouse": "<strong>Láti èrò dé ìfilọ́lẹ̀</strong>, gbogbo rẹ̀ nínú ilé"
+    },
+    "bigline": "<count>20+</count> IṢẸ́ ÀKÀNṢE <star>✦</star> A KỌ́ WỌN <star>✦</star> A GBÉ WỌN JÁDE <star>✦</star> WỌ́N WÀ NÍTA <star>✦</star>",
+    "rows": {
+      "products": "Áàpù àti ọjà",
+      "creative": "Ojú òpó wẹ́ẹ̀bù, AI àti iṣẹ́ ọnà"
+    },
+    "next": "Iṣẹ́ àkànṣe rẹ lè jẹ́ <em>èyí tó kàn.</em>",
+    "cta": "Bẹ̀rẹ̀ tìrẹ"
+  },
+  "services": {
+    "eyebrow": "04 / Àwọn iṣẹ́ tí a yàn",
+    "title": "Ìwọ lá a, <em>èmi yóò kọ́ ọ.</em>",
+    "lead": "Àwọn ọjà wa ló ń kọ́kọ́ ṣáájú. Nígbà tí ó bá bá a mu, irú ìfarabalẹ̀ kan náà ni a ń fi sínú iṣẹ́ tí a yàn fún àwọn ẹlòmíràn.",
+    "note": "Jọ̀wọ́ fi ìwọ̀n iye owó sínú gbogbo ìbéèrè, kí o sì sọ nínú ọ̀rọ̀ rẹ bí o bá nílò NDA.",
+    "count": "Iṣẹ́ {{number}} / {{total}}",
+    "start": "Bẹ̀rẹ̀ iṣẹ́ àkànṣe yìí"
+  }
+}

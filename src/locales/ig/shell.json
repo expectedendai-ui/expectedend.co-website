@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Nchọgharị isi",
+    "projects": "Ọrụ",
+    "services": "Ọrụ enyemaka",
+    "company": "Ebumnuche · Maka Anyị · Ndị Nta Akụkọ",
+    "contact": "Kpọtụrụ anyị",
+    "home": "Ibe mbụ Expected End",
+    "openMenu": "Mepee menu",
+    "closeMenu": "Mechie menu",
+    "links": {
+      "projects": "Ọrụ",
+      "services": "Ọrụ enyemaka",
+      "story": "Akụkọ",
+      "about": "Maka Anyị",
+      "press": "Ndị Nta Akụkọ",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Nduzi ala ibe",
+    "home": "Ibe mbụ",
+    "about": "Maka Anyị",
+    "press": "Ndị Nta Akụkọ",
+    "terms": "Usoro Iji",
+    "privacy": "Nkwupụta Nzuzo",
+    "accessibility": "Ịdị mfe iji",
+    "contact": "Kpọtụrụ anyị",
+    "mission": "Ihe niile m na-ewu n'okpuru ụlọ ọrụ a na-atụ aka n'otu ebumnuche: ime ka ndị mmadụ bịaruo Chineke nso ma nyere ha aka iji teknụzụ bie ndụ, mepụta ihe, hụ n'anya, ma jee ozi n'ebumnuche. Nke ahụ bụ ọdịnihu na olileanya m na-arụ ọrụ maka ya.",
+    "verse": "Jeremaịa 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Ikike niile echekwara.",
+    "blessing": "Jizọs hụrụ gị n'anya."
+  }
+}

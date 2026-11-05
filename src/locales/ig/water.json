@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Ngwa ahụ",
+      "drinkCheck": "Drink Check",
+      "guide": "Ntụziaka",
+      "widgets": "Wijetị",
+      "progress": "Ọganihu",
+      "pricing": "Ọnụahịa",
+      "faq": "Ajụjụ a na-ajụkarị",
+      "calculator": "Ihe mgbako"
+    },
+    "hero": {
+      "title": "Ṅụọ mmiri.<break/>Anyị ga-<em>agụ ọnụ ya</em>.",
+      "sub": "Ọnụọgụ mmiri nke gị, ihe ọṅụṅụ ị nwere ike inyocha, ahụ gị na-achaji, wijetị ị ga-edebe n'ezie, na azụ pufferfish aha ya bụ Bubbles ga-egosi gị gburugburu. Enweghị iwu galọn, enweghị ndị influencer, enweghị ịta onwe gị ụta.",
+      "comingSoon": "Ọ na-abịa n'oge na-adịghị anya",
+      "appStoreLead": "Budata na",
+      "appStore": "App Store",
+      "googlePlayLead": "Nweta ya na",
+      "googlePlay": "Google Play",
+      "calculator": "Nwalee ihe mgbako n'efu",
+      "instagram": "Soro The Water Check na Instagram",
+      "note": "A na-enyocha ya ugbu a na App Store. Ihe mgbako ahụ bụ n'efu, ọ dịghịkwa mkpa ndebanye aha.",
+      "todayAlt": "Ihuenyo Taa nke The Water Check: 40 oz n'ime ebumnuche 81.2 oz, nwere bọtịnụ itinye ngwa ngwa na ndekọ nke taa",
+      "widgetsAlt": "Studio widget, na-egosi wijetị Ahụ na Hologram na ahịrị ụdị wijetị",
+      "bubblesLabel": "Mee ka Bubbles mee ihe ngosi",
+      "bubblesSay": "Ndewo, abụ m Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "ụdị wijetị",
+      "pearls": "pearl Ntụziaka ị ga-achọta",
+      "foods": "nri nwere ọtụtụ mmiri, e sere ese",
+      "languages": "asụsụ"
+    },
+    "sixty": {
+      "kicker": "Ihe kpatara o ji dị mkpa",
+      "title": "Mmiri bụ pasent 60 nke ahụ gị.",
+      "lede": "Ọ bụghị ebumnuche ị ga-eru. Mmiri ahụ na-arụ ọrụ ugbu a: ọ na-ebu ikuku oxygen, na-echedo nkwonkwo gị, na-eme ka ahụ dị jụụ, ma na-ewepụ ihe ị na-achọghị. Ihe ị chọrọ na-agbanwe dabere na mmegharị ahụ, ihu igwe na ahụike.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Agba asatọ site na odo ahịhịa dị nro ruo odo gbara ọchịchịrị, e kewara n'ime Mmiri zuru, Tinyekwu, na Ṅụọ ugbu a",
+      "wellHydrated": "Mmiri zuru",
+      "topUp": "Tinyekwu",
+      "drinkNow": "Ṅụọ ugbu a",
+      "fine": "Ihe ngosi nkịtị, ọ bụghị nchọpụta ọrịa. Nri, vitamin na ọgwụ na-agbanwe agba ya. Ngwa ahụ na-akọwa agba ọ bụla na mgbe ị ga-agwa onye ọkachamara ahụike okwu."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Nyochaa ya otu ugboro. Mara ya. Pịa ya ruo mgbe ebighị ebi.",
+      "lede": "Nyochaa barcode ahụ, n'efu ma ugboro ole ọ masịrị gị. Enweghị barcode? Ọ bụrụ na ị dị afọ 18 ma ọ bụ karịa, see foto, ngwa ahụ ga-agụ akara ngwaahịa ahụ. N'ụzọ ọ bụla, ị na-ahụ shuga n'ọnụ ngaji tii, caffeine, electrolytes, na ihe ọ bụla e ji mee ya, nwere akara Ọma, Ọ dị, Kpachara ma ọ bụ Zere.",
+      "scoresLabel": "Agba akara Drink Check",
+      "scores": {
+        "great": "Ọ magburu onwe ya",
+        "good": "Ọ dị mma",
+        "okay": "Ọ dị ofụma",
+        "poor": "Ọ dịghị mma"
+      },
+      "ticks": {
+        "electrolytes": "Electrolytes site n'akara ngwaahịa: sodium, potassium, magnesium na calcium, ya na Daily Values ha.",
+        "save": "Chekwaa ya (gbanwee aha ya ma ọ masị gị), oge ọzọ ọ ga-abụ otu mpị na ibe Tinye. Ọ dịghị nyocha ọhụrụ.",
+        "food": "Ndị toro eto nwekwara ike ise foto nri: mango na-agbakwunye na mango gị, ihe ọhụrụ na-aghọ afụ nke ya.",
+        "journal": "Akwụkwọ Ihe Ọṅụṅụ gị na-edebe otú ihe ọṅụṅụ ọ bụla mere gị, na ekwentị gị."
+      },
+      "fine": "Ọgụgụ ngwa ngwa nke akara ngwaahịa, ọ bụghị nnwale ụlọ nyocha ma ọ bụ ntụle nke akara ọ bụla. Nsonaazụ barcode sitere na Open Food Facts, AI nwekwara ike ihie ụzọ, ya mere lelee ezigbo akara ngwaahịa ahụ, karịsịa maka allergies. Anyị anaghị edebe foto gị.",
+      "alt": "Nsonaazụ Drink Check maka ihe ọṅụṅụ egwuregwu: akara 66, Ọ dị mma, ya na shuga, caffeine na electrolytes ya site n'akara ngwaahịa"
+    },
+    "foods": {
+      "kicker": "Nri na-agụkwa",
+      "title": "Ihe dị ka otu ụzọ n'ụzọ ise nke mmiri gị na-abịa n'efere.",
+      "lede": "Ibe Tinye bụ ibe nwere afụ mkpụrụ osisi e sere ese, atọ n'ahịrị: anyụ, kukumba, strọberị, mango na ndị ọzọ. Pịa akara gbakwunye, a ga-etinye ya, Weghachi dịkwa ebe ahụ. Nri ị na-etinyekarị na-aga n'ihu.",
+      "ticks": {
+        "amounts": "Iko, karama ma ọ bụ oke ọ bụla, otu mpị nke ọ bụla.",
+        "caffeine": "Ndị na-aṅụ kọfị na-enweta kaadị caffeine na-ejupụta onwe ya.",
+        "ring": "Mgbanaka dị n'elu na-egosi nri na-agụ maka ụbọchị gị."
+      },
+      "alt": "Ibe Tinye: mgbanaka n'elu, bọtịnụ ihe ọṅụṅụ, kaadị caffeine na afụ nri nwere ọtụtụ mmiri"
+    },
+    "guide": {
+      "kicker": "Ntụziaka The Water Check",
+      "title": "Gbawaa afụ. Debe pearl.",
+      "lede": "Isi ọ bụla bụ afụ nwere ajụjụ n'elu ya, ha niile bụkwa n'efu. Gịnị mere ị na-enwe mmetụta “batrị dara ala”? Gịnị ka mamịrị gị na-agwa gị? Otu galọn kwa ụbọchị, ọ bụ eziokwu? Gụchaa otu, ọ ga-agbawa ghọọ pearl. Ihe dị ka otu n'ime isii bụ pearl ọla edo dị ụkọ.",
+      "electric": "Ahụ gị nke ọkụ eletrik: isi isii gbasara mgbama ahụ, sodium na potassium, magnesium na calcium, na ike nri.",
+      "forHerKicker": "Maka ụmụ nwanyị",
+      "forHer": "Isi ndị na-acha ka rose gbasara ahụ ya na mmiri: mamịrị na-acha pink ma ọ bụ odo na-egbuke egbuke, afọ ọzịza n'oge nsọ, ihe mere UTI ji achọta ụmụ nwanyị karịa, ntakịrị mamịrị na-agbapụ mgbe ị chịrị ọchị, ịdị ime na oge nsọ ịkwụsị. Ọ dị nwayọọ, doro anya, nwekwa isi mmalite.",
+      "fine": "Isi ọ bụla na-edepụta isi mmalite ya ma na-ekwu mgbe ị ga-ahụ dọkịta. Ọ na-akwụ ụgwọ maka nghọta, ọ bụghị oge ihuenyo: enweghị ụbọchị n'usoro, enweghị nrụgide.",
+      "alt": "Ntụziaka The Water Check: isi Ahụ gị nke ọkụ eletrik dị ka afụ ajụjụ"
+    },
+    "widgets": {
+      "kicker": "Wijetị",
+      "title": "Ụdị <count>89</count> maka ihuenyo mbụ gị.",
+      "lede": "Egwuregwu, ebe, oge n'afọ, anụ mmiri na imewe, n'Obere, Nha etiti na Nnukwu, ya na nhazi site na mgbanaka ruo ebili mmiri. Gwa anyị egwuregwu gị mgbe ị na-edebanye aha, wijetị egwuregwu gị ga-ebu ụzọ pụta. Dekọọ ihe ọṅụṅụ ozugbo site n'ihuenyo mbụ gị.",
+      "ticks": {
+        "body": "Ahụ: ọdịdị ahụ gị na-ejupụta na mmiri nke ụbọchị ahụ. Ọkụ: batrị na-ejupụta na chaj nke taa.",
+        "charge": "Tinye mita Chaj na wijetị ọ bụla ka ị na-ele electrolytes gị kama mmiri gị."
+      },
+      "chips": {
+        "body": "Ahụ",
+        "spark": "Ọkụ",
+        "running": "Ọsọ",
+        "crossCountry": "Ọsọ n'ime ọhịa",
+        "volleyball": "Volleyball",
+        "basketball": "Bọọlụ nkata",
+        "seaTurtle": "Mbe oké osimiri",
+        "jellyfish": "Jelifish",
+        "beach": "Ụsọ mmiri",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Oge anọ"
+      },
+      "alt": "Studio widget nwere wijetị Ahụ na Hologram, agba ya, nhazi ya na mita Chaj"
+    },
+    "progress": {
+      "kicker": "Ọganihu",
+      "title": "Hụ ihe dị n'ihe ọṅụṅụ gị, ogwe na ogwe.",
+      "lede": "Taa dị ka ogwe dị mfe na-ejupụta site n'aka ekpe gaa n'aka nri: mmiri tụnyere ọnụọgụ gị, wee sodium, potassium, magnesium na calcium site n'ihe ọṅụṅụ ị nyochara, gbakwunyere caffeine na shuga. Pịa ogwe ọ bụla ka ị hụ ihe ọṅụṅụ dị n'azụ ya. Kalenda na-egosi ụbọchị niile n'akụkụ ibe ha, ya na ụbọchị n'usoro gị.",
+      "ticks": {
+        "dailyValues": "A na-atụnyere electrolytes na Daily Values dị n'akara Nutrition Facts.",
+        "caffeine": "Caffeine tụnyere 400 mg, oke FDA nyere maka ọtụtụ ndị toro eto nwere ahụike, shuga tụnyere 50 g.",
+        "journal": "Akwụkwọ Ihe Ọṅụṅụ gị dị n'okpuru ogwe ndị ahụ: ihe ọṅụṅụ ọ bụla ị nyochara na otú o mere gị.",
+        "real": "Ọnụọgụ ọ bụla sitere n'ihe ị dekọrọ ma ọ bụ nyochaa. Ọ dịghị ihe e chepụtara echepụta."
+      },
+      "fine": "Ntụaka, ọ bụghị ebumnuche, ọ bụghịkwa ndụmọdụ ahụike. Ọ bụrụ na ị na-ele sodium ma ọ bụ potassium gị anya n'ihi ahụike, soro ndụmọdụ dọkịta gị.",
+      "alt": "Ọganihu: mmiri ruru 83% nke ọnụọgụ ụbọchị ahụ, wee sodium, potassium, magnesium, calcium, caffeine na shuga dị ka ogwe"
+    },
+    "crew": {
+      "kicker": "Ọnwa gị na ndị gị",
+      "title": "Lee ka ọ na-agbakọ. Kpọta ndị enyi gị.",
+      "calendarAlt": "Kalenda: ụbọchị ọ bụla na-ejupụta dị ka iko, ya na ụbọchị e dekọrọ, ụbọchị e ruru ebumnuche na ụbọchị n'usoro",
+      "calendarTitle": "Mmiri gị, kwa ụbọchị",
+      "calendarBody": "Ụbọchị ọ bụla ị dekọrọ na-ejupụta dị ka iko. Ụbọchị e ruru ebumnuche, ụbọchị n'usoro na akara mmiri, ọ na-esokwa gị gaa na ekwentị ọhụrụ.",
+      "crewAlt": "Otu aha ya bụ Track team nwere ozi ngwa ngwa ịgba ume",
+      "crewTitle": "Otu",
+      "crewBody": "Otu ndị a na-abanye naanị site n'òkù, ndị na-agba ibe ha ume. Ndị enyi na-ahụ pasentị gị nke ebumnuche gị na ụbọchị n'usoro gị, ọ dịghị mgbe ha na-ahụ ounce gị ma ọ bụ ahụ gị. Kpesa na Gbochie na-adị mgbe niile."
+    },
+    "bubbles": {
+      "kicker": "Zute Bubbles",
+      "title": "Onye ndu gị bụ azụ pufferfish.",
+      "lede": "Bubbles bụ Onye Nlekọta Ahụike nke The Department. N'ụbọchị mbụ gị, ọ na-eduga gị gburugburu ngwa ahụ, ọ pụghịkwa izere igosi onwe ya. Gaa n'ihu, nye ya ihe ọ ga-eme.",
+      "tricksLegend": "Ihe ngosi Bubbles",
+      "tricks": {
+        "puff": "Fụlie ahụ",
+        "spin": "Gbaa gburugburu",
+        "flip": "Wụgharịa azụ",
+        "wave": "Fee aka",
+        "cheer": "Mmechi dị egwu"
+      }
+    },
+    "pricing": {
+      "kicker": "Ọnụahịa",
+      "title": "N'efu ịmalite. Ihe niile, otu ugboro.",
+      "free": {
+        "title": "N'efu",
+        "sub": "Ihe niile ị chọrọ iji ṅụọ mmiri zuru ezu.",
+        "items": {
+          "number": "Ọnụọgụ mmiri nke gị",
+          "log": "Dekọọ ihe ọṅụṅụ na nri nwere ọtụtụ mmiri",
+          "barcode": "Nyocha barcode, n'efu na-enweghị oke",
+          "photo": "Otu nyocha foto n'efu (afọ 18 gbagoo)",
+          "guide": "Isi Ntụziaka niile",
+          "widgets": "Wijetị Nkịtị, Oge anọ, na Ahụ na Ọkụ dị mfe",
+          "crew": "Kalenda gị, ụbọchị n'usoro na Otu enyi"
+        }
+      },
+      "forever": {
+        "tag": "Afọ mmeghe",
+        "title": "Ihe Niile Ruo Mgbe Ebighị Ebi",
+        "sub": "Otu ịzụ ihe, enweghị ndebanye aha.",
+        "items": {
+          "widgets": "Ụdị na agba wijetị niile",
+          "bars": "Ogwe electrolytes, caffeine na shuga",
+          "journal": "Akwụkwọ ihe ọṅụṅụ gị",
+          "photos": "Nyocha foto ndị ọzọ (afọ 18 gbagoo)",
+          "summaries": "Nchịkọta PDF nke ụbọchị 30 na 90",
+          "crews": "Mepụta Otu nke gị",
+          "later": "Ihe niile anyị ga-agbakwunye n'ọdịnihu"
+        },
+        "note": "A na-enye ya n'afọ mmeghe anyị. Mgbe nke ahụ gasịrị, The Water Check nwere ike ịgbanwe gaa n'atụmatụ kwa ọnwa, ma ihe ị zụtara otu ugboro tupu mgbe ahụ ga-anọgide na-emeghe. A na-egosi ọnụahịa ya na App Store ma ọ bụ Google Play tupu ị zụta."
+      }
+    },
+    "privacy": {
+      "kicker": "Data gị",
+      "title": "Ihe na-anọ na ekwentị gị, na ihe na-adịghị.",
+      "phoneTitle": "Na-anọ na ekwentị gị",
+      "phoneBody": "Akwụkwọ Ihe Ọṅụṅụ gị, ihe ọṅụṅụ na nri ị chekwara, pearl Ntụziaka, oge mmega ahụ, ndetu oge nsọ na ihe ncheta.",
+      "accountTitle": "Edebere na akaụntụ gị",
+      "accountBody": "Ịbanye gị, azịza ndebanye aha gị, ihe ọṅụṅụ na nri ọ bụla ị dekọrọ ya na oge ya, mkpokọta mmiri kwa ụbọchị na Otu gị, ka ha soro gị gaa na ekwentị ọhụrụ.",
+      "neverTitle": "Ọ dịghị mgbe",
+      "neverBody": "Anyị anaghị ere ozi gị ma ọ bụ kesaa ya na netwọk mgbasa ozi ahịa. Anyị anaghị edebe foto Drink Check gị.",
+      "links": {
+        "privacy": "Iwu Nzuzo",
+        "healthData": "Iwu Data Ahụike Ndị Ahịa",
+        "deleteAccount": "Hichapụ akaụntụ gị"
+      }
+    },
+    "calculator": {
+      "kicker": "N'efu, enweghị ndebanye aha",
+      "title": "Malite na ọnụọgụ ị maara.",
+      "lede": "Ibu gị, ogologo gị, oge ole ị na-emegharị ahụ. Ihe mgbako ahụ na-enye gị ebumnuche kwa ụbọchị n'ihe dị ka sekọnd iri abụọ, ma na-egosi otú o si gbakọọ ya ka i nwee ike ịrụ ụka na ya. Ọ na-arụ ọrụ na ihe nchọgharị gị.",
+      "chips": {
+        "weight": "Ntọala ibu",
+        "height": "Ogologo na ọdịdị ahụ",
+        "activity": "Mgbanwe maka mmegharị ahụ",
+        "lifeStage": "Ọkwa ndụ",
+        "heat": "Okpomọkụ na iru mmiri n'ikuku",
+        "electrolytes": "Nlele electrolytes"
+      },
+      "open": "Mepee ihe mgbako",
+      "fine": "Ntụle mmụta maka ime atụmatụ, maka ndị toro eto, ọ bụghị nchọpụta ọrịa ma ọ bụ ndenye ọgwụ. Amanyela onwe gị ịṅụ ihe ọṅụṅụ. Jụọ onye ọkachamara ahụike ma ọ bụrụ na ị dị ime ma ọ bụ na-enye nwa ara, na-aṅụ ọgwụ na-emetụta nguzozi mmiri n'ahụ, ma ọ bụ nwere ọrịa akụrụ ma ọ bụ nke obi."
+    },
+    "faq": {
+      "kicker": "Ajụjụ",
+      "title": "Azịza n'eziokwu.",
+      "items": {
+        "medical": {
+          "q": "The Water Check ọ̀ bụ ndụmọdụ ahụike?",
+          "a": "Mba. Ọ bụ ngwa ọdịmma ahụike izugbe. Ọnụọgụ mmiri gị bụ ntụle mmụta, ọ bụghị ndenye ọgwụ, ọ dịghịkwa ihe ọ bụla na ngwa ahụ na-achọpụta ma ọ bụ na-agwọ ọrịa ọ bụla. Ọ bụrụ na ị dị ime ma ọ bụ na-enye nwa ara, na-aṅụ ọgwụ na-emetụta mmiri ahụ, ma ọ bụ nwere ọrịa akụrụ, obi ma ọ bụ ọrịa ọzọ, jụọ dọkịta gị ihe dabara gị."
+        },
+        "number": {
+          "q": "Ebee ka ọnụọgụ m si?",
+          "a": "Site n'ibu gị, ogologo gị, mmegharị ahụ, ihu igwe na ọkwa ndụ gị, malite na ntụziaka ọha dị ka ntụaka mmiri nke US National Academies. Ihe mgbako n'efu ahụ na-egosi otú o si gbakọọ ya, ka i nwee ike ịhụ nzọụkwụ ọ bụla. Ọ bụ mmalite, ọ bụghị iwu."
+        },
+        "scan": {
+          "q": "Gịnị na-eme mgbe m nyochara ihe ọṅụṅụ?",
+          "a": "Nyocha barcode na-ezipu naanị nọmba barcode ahụ na Open Food Facts, ebe nchekwa data nri mepere emepe n'efu, ma na-enweta ihe akara ngwaahịa ahụ kwuru. Foto, maka ndị toro eto dị afọ 18 gbagoo, na-agafe n'ihe nkesa anyị gaa na Gemini AI nke Google, nke na-agụ akara ngwaahịa ahụ ma zighachi ihe ọ chọtara. Anyị anaghị edebe foto gị; Google nwere ike idebe data ruo obere oge dị ka usoro ya si dị. Akara ngwaahịa na AI nwere ike ihie ụzọ, ya mere lelee ezigbo akara ngwaahịa ahụ, ejikwala Drink Check maka allergies ma ọ bụ nri ahụike pụrụ iche."
+        },
+        "phone": {
+          "q": "Gịnị na-anọ na ekwentị m?",
+          "a": "Akwụkwọ Ihe Ọṅụṅụ gị, ihe ọṅụṅụ na nri ị chekwara, pearl Ntụziaka, oge mmega ahụ, azịza oge nsọ na ndetu oge nsọ, n'agbanyeghị na nkwado (backup) ekwentị gị nwere ike ịgụnye ha. Na iPhone, mmega ahụ ị kwere ka ngwa ahụ gụọ site na Apple Health na-anọkwa na ekwentị gị, ọ dịghịkwa mgbe a na-ezitere anyị ha. Azịza ndebanye aha gị, ihe ọṅụṅụ na nri ọ bụla ị dekọrọ ya na oge ya, na mkpokọta gị kwa ụbọchị ka edebere na akaụntụ gị ka ha soro gị gaa na ekwentị ọhụrụ. Anyị anaghị ere ozi gị."
+        },
+        "audience": {
+          "q": "Ọ bụ maka onye?",
+          "a": "Onye ọ bụla dị afọ 13 ma ọ bụ karịa. Ọ bụrụ na ị erubeghị afọ 18, jiri ya n'ikike nne ma ọ bụ nna gị ma ọ bụ onye nlekọta gị. Ibu Ọnụ Mkpụrụ Osisi, ndekọ mmanya na nyocha foto bụ naanị maka ndị toro eto. Ngwa ahụ na-eso oke afọ ị nyere, ya mere biko zaa n'eziokwu. Ọ bụrụ na ị dị afọ 13 ruo 17, gị na nne ma ọ bụ nna gị ma ọ bụ onye ọrụ ahụike lelee ọnụọgụ gị."
+        },
+        "cost": {
+          "q": "Ego ole ka ọ na-efu?",
+          "a": "Ngwa ahụ bụ n'efu ịmalite: nweta ọnụọgụ gị, dekọọ mmiri na nri, nyochaa barcode ọ bụla, gụọ isi Ntụziaka niile, sonye n'Otu, ma jiri wijetị Nkịtị, Oge anọ, Ahụ na Ọkụ. N'afọ mmeghe anyị, otu ịzụ ihe nhọrọ na-emeghe ihe niile, otu ugboro, na-enweghị ndebanye aha. App Store ma ọ bụ Google Play na-egosi ọnụahịa ya n'ego obodo gị tupu ị zụta."
+        },
+        "deleteAccount": {
+          "q": "Kedu ka m ga-esi hichapụ akaụntụ m?",
+          "a": "Na ngwa ahụ: Profaịlụ, wee Ntọala, wee Hichapụ akaụntụ. Ọ na-apụ ozugbo. Enweghị ngwa ahụ? Ibe anyị Hichapụ akaụntụ gị na-akọwa otú ị ga-esi rịọ site na email."
+        },
+        "download": {
+          "q": "Olee mgbe m nwere ike ibudata ya?",
+          "a": "A na-enyocha The Water Check na App Store, a na-anwalekwa ya na Google Play, ọ na-abịakwa n'abụọ n'oge na-adịghị anya. Soro @thewatercheck na Instagram ka ị bụrụ onye mbụ nụrụ."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Ghọta ihe ị na-aṅụ. E wuru ya na Florida site n'aka ụlọ ọrụ nwere naanị otu onye. Maka ndị dị afọ 13 gbagoo.",
+      "legal": "Iwu",
+      "privacy": "Iwu Nzuzo The Water Check",
+      "terms": "Usoro na Ọnọdụ The Water Check",
+      "community": "Ụkpụrụ Obodo",
+      "healthData": "Iwu Nzuzo Data Ahụike Ndị Ahịa",
+      "deleteAccount": "Hichapụ akaụntụ gị",
+      "sitePrivacy": "Nzuzo weebụsaịtị",
+      "explore": "Lelee",
+      "calculator": "Ihe mgbako mmiri",
+      "store": "Ụlọ ahịa The Water Check",
+      "instagram": "@thewatercheck na Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Enyemaka",
+      "email": "Enyemaka site na email",
+      "accessibility": "Ịdị mfe iji",
+      "contact": "Kpọtụrụ anyị",
+      "note": "The Water Check bụ ngwa ọdịmma ahụike izugbe. Ọ naghị achọpụta, agwọ ma ọ bụ egbochi ọrịa ọ bụla, ọ bụghịkwa ihe nnọchi maka ndụmọdụ onye ọkachamara ahụike. N'oge ihe mberede, kpọọ 911 ma ọ bụ nọmba ihe mberede mpaghara gị. Ihuenyo ngwa ahụ na-egosi ụdị nnwale nwere data e chepụtara echepụta; njirimara nwere ike ịgbanwe tupu mwepụta."
+    }
+  },
+  "app": {
+    "eyebrow": "Ngwa ahụ",
+    "title": "Mmiri gị, kwa ụbọchị.",
+    "body": "Malite na ntụle nke gị, wee dekọọ ihe ọṅụṅụ na nri nwere ọtụtụ mmiri ka ụbọchị gị na-aga. Hụ ọganihu gị na ngwa ahụ, n'ihuenyo mbụ gị, na n'ọnwa niile.",
+    "comingSoon": "Ọ na-abịa na App Store n'oge na-adịghị anya",
+    "calculator": "Nwalee ihe mgbako n'efu",
+    "caveat": "Ihe mgbako ahụ na-arụ ọrụ ebe a na-enweghị akaụntụ. Foto ihuenyo ngwa ahụ na-egosi ụdị nlele tupu mwepụta; njirimara na nnweta nwere ike ịgbanwe tupu mwepụta.",
+    "screens": {
+      "number": {
+        "alt": "Ntụle mmiri kwa ụbọchị nke gị na The Water Check n'elu iPhone",
+        "caption": "Ọnụọgụ gị"
+      },
+      "log": {
+        "alt": "Ndekọ kwa ụbọchị nke The Water Check nwere ihe ọṅụṅụ na nri n'elu iPhone",
+        "caption": "Ndekọ nke taa"
+      },
+      "widgets": {
+        "alt": "Ntọala wijetị ihuenyo mbụ nke The Water Check n'elu iPhone",
+        "caption": "Wijetị"
+      },
+      "wellness": {
+        "alt": "Ntụziaka ahụike na P-Meter nke The Water Check n'elu iPhone",
+        "caption": "Ahụ ike"
+      },
+      "calendar": {
+        "alt": "Kalenda mmiri kwa ọnwa nke The Water Check n'elu iPhone",
+        "caption": "Kalenda"
+      }
+    }
+  },
+  "footer": {
+    "note": "Ihe mgbako n'efu ahụ achọghị akaụntụ. Ọ na-arụ ọrụ na ihe nchọgharị gị, ọ naghịkwa ezitere anyị ọnụọgụ gị.",
+    "navLabel": "Nduzi ala ibe",
+    "calculator": "Ihe mgbako mmiri",
+    "explore": "Lelee ngwa ahụ",
+    "instagram": "@thewatercheck na Instagram",
+    "store": "Ụlọ ahịa",
+    "builder": "Onye wuru nke a",
+    "finePrint": "Nkọwa iwu",
+    "terms": "Usoro na Ọnọdụ",
+    "privacy": "Iwu Nzuzo",
+    "community": "Ụkpụrụ Obodo",
+    "healthData": "Data Ahụike Ndị Ahịa",
+    "deleteAccount": "Hichapụ akaụntụ gị",
+    "accessibility": "Ịdị mfe iji",
+    "contact": "Kpọtụrụ anyị",
+    "project": "Ọrụ <company>EXPECTEDEND LLC</company>. Ntụle mmụta, ọ bụghị ndụmọdụ ahụike.",
+    "backToTop": "Laghachi n'elu ↑"
+  }
+}

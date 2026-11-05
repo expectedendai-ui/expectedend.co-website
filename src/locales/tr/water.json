@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Uygulama",
+      "drinkCheck": "Drink Check",
+      "guide": "Rehber",
+      "widgets": "Widget'lar",
+      "progress": "İlerleme",
+      "pricing": "Fiyatlar",
+      "faq": "SSS",
+      "calculator": "Hesaplayıcı"
+    },
+    "hero": {
+      "title": "Afiyetle için.<break/><em>Saymayı</em> bize bırakın.",
+      "sub": "Size özel su miktarı, tarayabileceğiniz içecekler, şarj olan bedeniniz, gerçekten ekranınızda tutacağınız bir widget ve size yolu gösterecek Bubbles adında bir balon balığı. Galon kuralı yok, fenomen yok, suçluluk yok.",
+      "comingSoon": "Çok yakında",
+      "appStoreLead": "Şuradan indirin",
+      "appStore": "App Store",
+      "googlePlayLead": "Buradan edinin",
+      "googlePlay": "Google Play",
+      "calculator": "Ücretsiz hesaplayıcıyı deneyin",
+      "instagram": "The Water Check'i Instagram'da takip edin",
+      "note": "Şu anda App Store'da incelemede. Hesaplayıcı ücretsizdir ve kayıt gerektirmez.",
+      "todayAlt": "The Water Check Bugün ekranı: 81,2 oz hedefin 40 oz'u, hızlı ekleme düğmeleri ve bugünkü kayıtlarla",
+      "widgetsAlt": "Hologram görünümünde bir Beden widget'ı ve sıra sıra widget stilleri gösteren widget stüdyosu",
+      "bubblesLabel": "Bubbles'a bir numara yaptırın",
+      "bubblesSay": "Merhaba, ben Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "widget stili",
+      "pearls": "bulunacak Rehber incisi",
+      "foods": "çizimli, su açısından zengin yiyecek",
+      "languages": "dil"
+    },
+    "sixty": {
+      "kicker": "Neden önemli",
+      "title": "Vücudunuzun %60'ı sudur.",
+      "lede": "Tutturulacak bir hedef değil. O su tam şu anda çalışıyor: oksijen taşıyor, eklemlerinizi koruyor, sizi serinletiyor ve ihtiyacınız olmayanı dışarı atıyor. İhtiyacınız aktiviteye, havaya ve sağlığınıza göre değişir.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Açık saman renginden koyu kehribara sekiz ton; su dengen iyi, biraz tamamla ve şimdi iç olarak gruplanmış",
+      "wellHydrated": "Su dengen iyi",
+      "topUp": "Biraz tamamla",
+      "drinkNow": "Şimdi iç",
+      "fine": "Kaba bir gösterge, teşhis değil. Yiyecekler, vitaminler ve ilaçlar rengi değiştirebilir. Uygulama her renk aralığını ve ne zaman bir sağlık uzmanıyla konuşmanız gerektiğini açıklar."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Bir kez tarayın. Tanıyın. Sonra tek dokunuşla ekleyin.",
+      "lede": "Barkodu ücretsiz ve istediğiniz kadar tarayın. Barkod yok mu? 18 yaş ve üzerindeyseniz bir fotoğraf çekin, uygulama etiketi okusun. Her iki yolla da çay kaşığı cinsinden şekeri, kafeini, elektrolitleri ve İyi, Olur, Dikkat veya Kaçının olarak işaretlenmiş her içeriği görürsünüz.",
+      "scoresLabel": "Drink Check puan renkleri",
+      "scores": {
+        "great": "Harika",
+        "good": "İyi",
+        "okay": "İdare eder",
+        "poor": "Zayıf"
+      },
+      "ticks": {
+        "electrolytes": "Etiketteki elektrolitler: sodyum, potasyum, magnezyum ve kalsiyum, Günlük Değerleriyle birlikte.",
+        "save": "Kaydedin (isterseniz adını değiştirin), bir dahaki sefere Ekle sayfasında tek dokunuş yeter. Yeniden taramak gerekmez.",
+        "food": "Yetişkinler yiyeceklerin de fotoğrafını çekebilir: bir mango mangonuza eklenir, yeni bir şeyse kendi baloncuğu olur.",
+        "journal": "İçecek Günlüğünüz, her içeceğin size nasıl hissettirdiğini telefonunuzda saklar."
+      },
+      "fine": "Etiketin hızlı bir okuması; laboratuvar testi ya da herhangi bir markanın değerlendirmesi değildir. Barkod sonuçları Open Food Facts'ten gelir ve yapay zekâ yanılabilir; bu yüzden özellikle alerjiler için gerçek etiketi kontrol edin. Fotoğrafınızı saklamayız.",
+      "alt": "Bir spor içeceği için Drink Check sonucu: puan 66, İyi; etiketteki şeker, kafein ve elektrolitlerle birlikte"
+    },
+    "foods": {
+      "kicker": "Yiyecekler de sayılır",
+      "title": "Suyunuzun yaklaşık beşte biri tabağınızdan gelir.",
+      "lede": "Ekle sayfası, her satırda üç tane olmak üzere çizilmiş meyve baloncuklarından oluşur: karpuz, salatalık, çilek, mango ve daha fazlası. Artıya dokunun, eklensin; Geri al düğmesi hemen yanında. En sık eklediğiniz yiyecekler öne geçer.",
+      "ticks": {
+        "amounts": "Bardak, şişe veya istediğiniz miktar, her biri tek dokunuşla.",
+        "caffeine": "Kahve içenler için kendiliğinden dolan bir kafein kartı var.",
+        "ring": "Üstteki halka, gününüze sayılan yiyecekleri gösterir."
+      },
+      "alt": "Ekle sayfası: üstte bir halka, içecek düğmeleri, bir kafein kartı ve su açısından zengin yiyecek baloncukları"
+    },
+    "guide": {
+      "kicker": "The Water Check Rehberi",
+      "title": "Baloncuğu patlatın. İnciyi saklayın.",
+      "lede": "Her bölüm üzerinde bir soru olan bir baloncuktur ve hepsi ücretsizdir. Neden kendinizi “şarjı azalmış” gibi hissedersiniz? İdrarınız size ne söylüyor? Günde bir galon gerçek mi? Bir bölümü sonuna kadar okuyun, baloncuk patlayıp inciye dönüşsün. Yaklaşık altıda biri nadir bulunan altın incidir.",
+      "electric": "Elektrikli vücudunuz: sinyal, sodyum ve potasyum, magnezyum ve kalsiyum ile yakıt üzerine altı bölüm.",
+      "forHerKicker": "Kadınlar için",
+      "forHer": "Kadın bedeni ve su üzerine gül rengi bölümler: pembe ya da neon renkli idrar, adet döneminde şişkinlik hissi, idrar yolu enfeksiyonlarının kadınlarda neden daha sık görüldüğü, gülerken küçük kaçırmalar, hamilelik ve menopoz. Nazik, sade ve kaynaklı.",
+      "fine": "Her bölüm kaynaklarını listeler ve ne zaman doktora gitmeniz gerektiğini söyler. Ekran süresini değil anlamayı ödüllendirir: seri yok, baskı yok.",
+      "alt": "The Water Check Rehberi: soru baloncukları olarak Elektrikli vücudunuz bölümleri"
+    },
+    "widgets": {
+      "kicker": "Widget'lar",
+      "title": "Ana Ekranınız için <count>89</count> stil.",
+      "lede": "Sporlar, mekânlar, mevsimler, deniz canlıları ve tasarımlar; küçük, orta ve büyük boyutlarda, halkalardan dalgalara uzanan düzenlerle. Kayıt olurken sporunuzu söyleyin, sporunuzun widget'ı ilk sırada çıksın. İçeceklerinizi doğrudan Ana Ekranınızdan kaydedin.",
+      "ticks": {
+        "body": "Beden: silüetiniz günün suyuyla dolar. Kıvılcım: bir pil bugünün şarjıyla dolar.",
+        "charge": "Suyunuz yerine elektrolitlerinizi izlemek için Şarj göstergesini herhangi bir widget'a ekleyin."
+      },
+      "chips": {
+        "body": "Beden",
+        "spark": "Kıvılcım",
+        "running": "Koşu",
+        "crossCountry": "Kros",
+        "volleyball": "Voleybol",
+        "basketball": "Basketbol",
+        "seaTurtle": "Deniz Kaplumbağası",
+        "jellyfish": "Denizanası",
+        "beach": "Sahil",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Mevsimler"
+      },
+      "alt": "Hologram görünümünde Beden widget'ı, renk seçenekleri, düzenleri ve Şarj göstergesiyle widget stüdyosu"
+    },
+    "progress": {
+      "kicker": "İlerleme",
+      "title": "İçeceklerinizde ne olduğunu çubuk çubuk görün.",
+      "lede": "Bugününüz soldan sağa dolan sade çubuklarla: suyunuz hedef miktarınıza göre, ardından taradığınız içeceklerden gelen sodyum, potasyum, magnezyum ve kalsiyum, bir de kafein ve şeker. Arkasındaki içecekleri görmek için herhangi bir çubuğa dokunun. Takvim, serinizle birlikte her günü yan yana gösterir.",
+      "ticks": {
+        "dailyValues": "Elektrolitler, Besin Değerleri etiketindeki Günlük Değerlere göre ölçülür.",
+        "caffeine": "Kafein, FDA'nın sağlıklı yetişkinlerin çoğu için belirttiği 400 mg'a; şeker ise 50 g'a göre gösterilir.",
+        "journal": "İçecek Günlüğünüz çubukların hemen altında: taradığınız her içecek ve size nasıl hissettirdiği.",
+        "real": "Her rakam kaydettiğiniz ya da taradığınız bir şeyden gelir. Hiçbiri uydurma değildir."
+      },
+      "fine": "Hedef değil referanstır ve tıbbi tavsiye değildir. Sağlık nedeniyle sodyum veya potasyum alımınızı takip ediyorsanız doktorunuzun önerilerine uyun.",
+      "alt": "İlerleme: su, günün hedef miktarının %83'ünde; ardından çubuklar halinde sodyum, potasyum, magnezyum, kalsiyum, kafein ve şeker"
+    },
+    "crew": {
+      "kicker": "Ayınız ve sevdikleriniz",
+      "title": "Biriktiğini izleyin. Arkadaşlarınızı getirin.",
+      "calendarAlt": "Takvim: her gün bir bardak gibi dolar; kayıtlı günler, hedefe ulaşılan günler ve bir seriyle",
+      "calendarTitle": "Suyunuz, gün gün",
+      "calendarBody": "Kaydettiğiniz her gün bir bardak gibi dolar. Hedefe ulaştığınız günler, seriler ve gelgit işaretleri; üstelik yeni telefonunuza da sizinle gelir.",
+      "crewAlt": "Hızlı destek mesajlarıyla Atletizm takımı adlı bir Ekip",
+      "crewTitle": "Ekip",
+      "crewBody": "Birbirine destek olan, yalnızca davetle katılınan gruplar. Arkadaşlarınız kendi hedefinizin yüzdesini ve serinizi görür; onslarınızı ya da bedeninizi asla görmez. Bildir ve Engelle her zaman elinizin altında."
+    },
+    "bubbles": {
+      "kicker": "Bubbles ile tanışın",
+      "title": "Rehberiniz bir balon balığı.",
+      "lede": "Bubbles, The Department'ın Sağlıklı Yaşam Sorumlusu. İlk gününüzde size uygulamayı gezdirir ve hava atmadan duramaz. Hadi, ona yapacak bir şey verin.",
+      "tricksLegend": "Bubbles'ın numaraları",
+      "tricks": {
+        "puff": "Şişin",
+        "spin": "Dön",
+        "flip": "Geriye takla",
+        "wave": "El salla",
+        "cheer": "Büyük final"
+      }
+    },
+    "pricing": {
+      "kicker": "Fiyatlar",
+      "title": "Başlamak ücretsiz. Her şey, tek seferde.",
+      "free": {
+        "title": "Ücretsiz",
+        "sub": "Yeterince su içmek için ihtiyacınız olan her şey.",
+        "items": {
+          "number": "Size özel su miktarı",
+          "log": "İçecekleri ve su açısından zengin yiyecekleri kaydedin",
+          "barcode": "Ücretsiz ve sınırsız barkod taraması",
+          "photo": "Bir ücretsiz fotoğraf taraması (18 yaş ve üzeri)",
+          "guide": "Rehber'in tüm bölümleri",
+          "widgets": "Klasik, Mevsimler ve sade Beden ile Kıvılcım widget'ları",
+          "crew": "Takviminiz, serileriniz ve bir arkadaşınızın Ekibi"
+        }
+      },
+      "forever": {
+        "tag": "Açılış yılı",
+        "title": "Her Şey Sonsuza Dek",
+        "sub": "Tek satın alma, abonelik yok.",
+        "items": {
+          "widgets": "Tüm widget stilleri ve renk seçenekleri",
+          "bars": "Elektrolit, kafein ve şeker çubukları",
+          "journal": "İçecek Günlüğünüz",
+          "photos": "Daha fazla fotoğraf taraması (18 yaş ve üzeri)",
+          "summaries": "30 ve 90 günlük PDF özetleri",
+          "crews": "Kendi Ekiplerinizi kurun",
+          "later": "Sonradan eklediğimiz her şey"
+        },
+        "note": "Açılış yılımız boyunca sunulmaktadır. Sonrasında The Water Check aylık bir plana geçebilir; o tarihten önce yapılan tek seferlik satın almanın kilidi açık kalır. Fiyat, satın almadan önce App Store'da veya Google Play'de gösterilir."
+      }
+    },
+    "privacy": {
+      "kicker": "Verileriniz",
+      "title": "Telefonunuzda neyin kaldığı, neyin kalmadığı.",
+      "phoneTitle": "Telefonunuzda kalır",
+      "phoneBody": "İçecek Günlüğünüz, kayıtlı içecekler ve yiyecekler, Rehber incileri, antrenman oturumları, döngü notları ve hatırlatıcılar.",
+      "accountTitle": "Hesabınızla saklanır",
+      "accountBody": "Giriş bilgileriniz, kayıt sırasındaki yanıtlarınız, saatiyle birlikte kaydettiğiniz her içecek ve yiyecek, günlük su toplamlarınız ve Ekibiniz; böylece yeni telefonunuza da sizinle gelir.",
+      "neverTitle": "Asla",
+      "neverBody": "Bilgilerinizi satmayız veya reklam ağlarıyla paylaşmayız. Drink Check fotoğraflarınızı saklamayız.",
+      "links": {
+        "privacy": "Gizlilik Politikası",
+        "healthData": "Tüketici Sağlık Verileri Politikası",
+        "deleteAccount": "Hesabınızı silin"
+      }
+    },
+    "calculator": {
+      "kicker": "Ücretsiz, kayıt gerekmez",
+      "title": "Bildiğiniz rakamlarla başlayın.",
+      "lede": "Kilonuz, boyunuz ve ne kadar süre hareket ettiğiniz. Hesaplayıcı yaklaşık yirmi saniyede size günlük bir hedef verir ve itiraz edebilmeniz için hesabını da gösterir. Tarayıcınızda çalışır.",
+      "chips": {
+        "weight": "Kilo temeli",
+        "height": "Boy ve vücut yapısı",
+        "activity": "Aktivite ayarlaması",
+        "lifeStage": "Yaşam evresi",
+        "heat": "Sıcaklık ve nem",
+        "electrolytes": "Elektrolit kontrolü"
+      },
+      "open": "Hesaplayıcıyı açın",
+      "fine": "Yetişkinler için eğitim amaçlı bir planlama tahminidir; teşhis veya reçete değildir. Kendinizi sıvı içmeye zorlamayın. Hamileyseniz veya emziriyorsanız, sıvı dengesini etkileyen ilaçlar kullanıyorsanız ya da böbrek veya kalp rahatsızlığınız varsa bir sağlık uzmanına danışın."
+    },
+    "faq": {
+      "kicker": "Sorular",
+      "title": "Dürüst yanıtlar.",
+      "items": {
+        "medical": {
+          "q": "The Water Check tıbbi tavsiye mi?",
+          "a": "Hayır. Genel bir sağlıklı yaşam uygulamasıdır. Su miktarınız eğitim amaçlı bir tahmindir, reçete değildir ve uygulamadaki hiçbir şey herhangi bir şeyi teşhis etmez veya tedavi etmez. Hamileyseniz veya emziriyorsanız, vücut sıvılarını etkileyen ilaçlar kullanıyorsanız ya da böbrek, kalp veya başka bir rahatsızlığınız varsa sizin için neyin doğru olduğunu doktorunuza sorun."
+        },
+        "number": {
+          "q": "Miktarım nereden geliyor?",
+          "a": "Kilonuzdan, boyunuzdan, aktivitenizden, ikliminizden ve yaşam evrenizden; ABD Ulusal Akademilerinin su referansları gibi kamuya açık rehberlerden yola çıkarak. Ücretsiz hesaplayıcı hesabını gösterir, böylece her adımı görebilirsiniz. Bu bir başlangıç noktasıdır, kural değil."
+        },
+        "scan": {
+          "q": "Bir içeceği taradığımda ne olur?",
+          "a": "Barkod taraması, ücretsiz ve açık bir gıda veritabanı olan Open Food Facts'e yalnızca barkod numarasını gönderir ve etikette yazanları geri alır. 18 yaş ve üzeri yetişkinler için fotoğraf, sunucumuz üzerinden Google'ın Gemini yapay zekâsına gider; o da etiketi okuyup bulduklarını geri gönderir. Fotoğrafınızı saklamayız; Google kendi koşulları kapsamında verileri sınırlı bir süre saklayabilir. Etiketler ve yapay zekâ yanılabilir; bu yüzden gerçek etiketi kontrol edin ve Drink Check'i asla alerjiler veya tıbbi diyetler için kullanmayın."
+        },
+        "phone": {
+          "q": "Telefonumda neler kalır?",
+          "a": "İçecek Günlüğünüz, kayıtlı içecekler ve yiyecekler, Rehber incileri, antrenman oturumları, döngü yanıtınız ve döngü notlarınız; ancak kendi telefon yedeğiniz bunları içerebilir. iPhone'da, uygulamanın Apple Health'ten okumasına izin verdiğiniz antrenmanlar da telefonunuzda kalır ve bize asla gönderilmez. Kayıt yanıtlarınız, saatiyle birlikte kaydettiğiniz her içecek ve yiyecek ve günlük toplamlarınız, yeni telefonunuza da sizinle gelmesi için hesabınızla saklanır. Bilgilerinizi satmayız."
+        },
+        "audience": {
+          "q": "Kimler için?",
+          "a": "13 yaş ve üzeri herkes için. 18 yaşından küçükseniz bir ebeveyn veya vasinin izniyle kullanın. Meyve Orucu, alkol kaydı ve fotoğraf taramaları yalnızca yetişkinler içindir. Uygulama verdiğiniz yaş aralığını esas alır; bu yüzden lütfen dürüstçe yanıtlayın. 13 ile 17 yaş arasındaysanız miktarınızı bir ebeveyn veya hekimle birlikte kontrol edin."
+        },
+        "cost": {
+          "q": "Ücreti ne kadar?",
+          "a": "Uygulamaya başlamak ücretsizdir: miktarınızı öğrenin, su ve yiyecek kaydedin, herhangi bir barkodu tarayın, Rehber'in her bölümünü okuyun, bir Ekibe katılın ve Klasik, Mevsimler, Beden ve Kıvılcım widget'larını kullanın. Açılış yılımız boyunca isteğe bağlı tek bir satın alma her şeyin kilidini bir kez ve abonelik olmadan açar. App Store veya Google Play, satın almadan önce fiyatı kendi para biriminizde gösterir."
+        },
+        "deleteAccount": {
+          "q": "Hesabımı nasıl silerim?",
+          "a": "Uygulamada: Profil, ardından Ayarlar, ardından Hesabı sil. Hesabınız hemen silinir. Uygulamanız yok mu? Hesabınızı silin sayfamız, bunu e-postayla nasıl talep edebileceğinizi açıklar."
+        },
+        "download": {
+          "q": "Ne zaman indirebilirim?",
+          "a": "The Water Check, App Store'da incelemede ve Google Play'de test aşamasında; ikisinde de çok yakında. İlk siz duymak için Instagram'da @thewatercheck'i takip edin."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Ne içtiğinizi anlayın. Florida'da tek kişilik bir şirket tarafından geliştirildi. 13 yaş ve üzeri içindir.",
+      "legal": "Yasal",
+      "privacy": "The Water Check Gizlilik Politikası",
+      "terms": "The Water Check Şartlar ve Koşullar",
+      "community": "Topluluk Kuralları",
+      "healthData": "Tüketici Sağlık Verileri Gizlilik Politikası",
+      "deleteAccount": "Hesabınızı silin",
+      "sitePrivacy": "Web sitesi gizliliği",
+      "explore": "Keşfedin",
+      "calculator": "Su ihtiyacı hesaplayıcısı",
+      "store": "The Water Check mağazası",
+      "instagram": "Instagram'da @thewatercheck",
+      "expectedEnd": "Expected End",
+      "help": "Yardım",
+      "email": "E-posta desteği",
+      "accessibility": "Erişilebilirlik",
+      "contact": "İletişim",
+      "note": "The Water Check genel bir sağlıklı yaşam uygulamasıdır. Hiçbir rahatsızlığı teşhis etmez, tedavi etmez veya önlemez ve bir sağlık uzmanının tavsiyesinin yerini tutmaz. Acil bir durumda 911'i veya yerel acil durum numaranızı arayın. Uygulama ekranları uydurma verilerle bir test sürümünü gösterir; özellikler yayından önce değişebilir."
+    }
+  },
+  "app": {
+    "eyebrow": "Uygulama",
+    "title": "Suyunuz, gün gün.",
+    "body": "Kişisel bir tahminle başlayın, ardından gün boyunca içecekleri ve su açısından zengin yiyecekleri kaydedin. İlerlemenizi uygulamada, Ana Ekranınızda ve ay boyunca görün.",
+    "comingSoon": "App Store'da çok yakında",
+    "calculator": "Ücretsiz hesaplayıcıyı deneyin",
+    "caveat": "Hesaplayıcı burada hesap olmadan çalışır. Uygulama ekran görüntüleri bir önizleme sürümünü gösterir; özellikler ve kullanılabilirlik yayından önce değişebilir.",
+    "screens": {
+      "number": {
+        "alt": "Bir iPhone'da The Water Check'in kişisel günlük su tahmini",
+        "caption": "Miktarınız"
+      },
+      "log": {
+        "alt": "Bir iPhone'da içecekler ve yiyeceklerle The Water Check günlük kaydı",
+        "caption": "Bugünkü kayıtlar"
+      },
+      "widgets": {
+        "alt": "Bir iPhone'da The Water Check Ana Ekran widget ayarları",
+        "caption": "Widget'lar"
+      },
+      "wellness": {
+        "alt": "Bir iPhone'da The Water Check sağlıklı yaşam rehberi ve P-Meter",
+        "caption": "Sağlıklı yaşam"
+      },
+      "calendar": {
+        "alt": "Bir iPhone'da The Water Check aylık su takvimi",
+        "caption": "Takvim"
+      }
+    }
+  },
+  "footer": {
+    "note": "Ücretsiz hesaplayıcı hesap gerektirmez. Tarayıcınızda çalışır ve rakamlarınızı bize göndermez.",
+    "navLabel": "Alt bilgi gezinmesi",
+    "calculator": "Su ihtiyacı hesaplayıcısı",
+    "explore": "Uygulamayı keşfedin",
+    "instagram": "Instagram'da @thewatercheck",
+    "store": "Mağaza",
+    "builder": "Bunu kim yaptı",
+    "finePrint": "Yasal ayrıntılar",
+    "terms": "Şartlar ve Koşullar",
+    "privacy": "Gizlilik Politikası",
+    "community": "Topluluk Kuralları",
+    "healthData": "Tüketici Sağlık Verileri",
+    "deleteAccount": "Hesabınızı silin",
+    "accessibility": "Erişilebilirlik",
+    "contact": "İletişim",
+    "project": "Bir <company>EXPECTEDEND LLC</company> projesi. Eğitim amaçlı tahmindir, tıbbi tavsiye değildir.",
+    "backToTop": "Başa dön ↑"
+  }
+}

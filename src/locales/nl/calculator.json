@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Vergeet de influencers. Leer je echte biologie kennen.",
+    "lead": "Probeer de gratis calculator zonder account en ontdek daarna de app die we bouwen om elke dag bij te houden.",
+    "appLink": "Ontdek de app ↓",
+    "logoLabel": "Gebruik de calculator van The Water Check"
+  },
+  "intro": {
+    "kicker": "Hydratatiecalculator",
+    "title": "Begin met de getallen die je kent."
+  },
+  "units": {
+    "legend": "Gewichtseenheid",
+    "pounds": "Pond (lb)",
+    "kilograms": "Kilogram (kg)"
+  },
+  "weight": {
+    "labelLb": "Gewicht (lbs)",
+    "labelKg": "Gewicht (kg)",
+    "valueTextLb": "{{value}} pond",
+    "valueTextKg": "{{value}} kilogram"
+  },
+  "height": {
+    "legend": "Lengte",
+    "feet": "Lengte (ft)",
+    "inches": "Lengte (in)",
+    "centimeters": "Lengte (cm)",
+    "note": "Je vochtbehoefte volgt je vetvrije massa, dus lengte telt vooral mee als je gewicht hoog is voor je lichaamsbouw."
+  },
+  "activity": {
+    "label": "Dagelijkse activiteit (minuten)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minuten"
+  },
+  "factors": {
+    "legend": "Factoren die je vochtbehoefte kunnen veranderen",
+    "intro": "We rekenen alleen met een getal als er een goed onderbouwde dagelijkse aanpassing bestaat. De andere antwoorden maken je advies persoonlijker, zonder te doen alsof de wetenschap een exacte hoeveelheid onderbouwt.",
+    "age": {
+      "label": "Leeftijd",
+      "hint": "Leeftijd geeft context; het stelt geen overgang vast."
+    },
+    "lifeStage": {
+      "label": "Levensfase",
+      "hint": "Gebruikt een transparante aanpassing voor zwangerschap of melkproductie.",
+      "options": {
+        "standard": "Standaard",
+        "pregnant": "Zwanger",
+        "breastfeeding": "Borstvoeding"
+      }
+    },
+    "sex": {
+      "label": "Geslacht",
+      "hint": "Optioneel. Verfijnt de berekening van ideaal gewicht en referentie-inname.",
+      "options": {
+        "unspecified": "Zeg ik liever niet",
+        "woman": "Vrouw",
+        "man": "Man"
+      }
+    },
+    "luteal": {
+      "label": "Week voor je menstruatie",
+      "hint": "Houdt rekening met vochtvasthouden en een hormonaal opgeblazen gevoel in de luteale fase. Er is geen vaste toevoeging die voor iedereen geldt."
+    },
+    "heat": {
+      "label": "Hete of vochtige omstandigheden",
+      "hint": "Advies bij hitte hangt af van blootstelling en zweten, niet alleen van waar je bent."
+    }
+  },
+  "result": {
+    "goal": "Je dagdoel: {{ounces}} ounces",
+    "breakdown": "Opbouw van de berekening",
+    "weightBaseline": "Basis op gewicht",
+    "heightAndBuild": "Lengte en lichaamsbouw",
+    "sexReference": "Referentie op geslacht",
+    "notSet": "Niet ingesteld",
+    "activity": "Aanpassing voor activiteit",
+    "lifeStage": {
+      "standard": "Aanpassing voor levensfase",
+      "pregnant": "Aanpassing voor zwangerschap",
+      "breastfeeding": "Aanpassing voor borstvoeding"
+    },
+    "luteal": "Advies voor de luteale fase",
+    "noFixedOunces": "Geen vaste +oz",
+    "electrolytes": "Elektrolytencheck",
+    "electrolytesAfterSweat": "Overweeg na flink zweten",
+    "electrolytesFromFood": "Eten dekt het meestal",
+    "guidance": "Dit is een educatieve schatting voor volwassenen om mee te plannen, geen diagnose, behandeling of klinisch voorschrift. Eten levert ook water, en wat iemand nodig heeft verschilt. Dwing jezelf niet om te drinken. Vraag een zorgverlener wat je nodig hebt als je zwanger bent of borstvoeding geeft, medicijnen gebruikt die de vochtbalans beïnvloeden, een nier- of hartaandoening hebt, een vochtbeperking volgt of zorgwekkende klachten hebt."
+  },
+  "equivalents": {
+    "title": "Dat is ongeveer",
+    "cups": "{{value}} kopjes",
+    "cupsNote": "8 oz per kopje",
+    "liters": "{{value}} liter",
+    "litersNote": "metrisch",
+    "bottles": "{{value}} flesjes",
+    "bottlesNote": "flesjes van 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Eet je water",
+    "title": "Niet alles hoeft uit een glas te komen.",
+    "copy": "Ongeveer een vijfde van het dagelijkse water van de meeste mensen komt uit eten. De meeste verse groenten en fruit bestaan voor 70 tot 95 procent uit water, en zodra dat water in je bloedbaan komt, hydrateert het je precies zoals een drankje.",
+    "drink": "Drinken",
+    "drinkNote": "{{cups}} kopjes water, thee of melk",
+    "eat": "Eten",
+    "eatNote": "uit waterrijk eten",
+    "pickLegend": "Bekijk het deel uit eten als",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: ongeveer {{ounces}} oz water ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "kopjes watermeloen",
+      "serving": "1 kopje in blokjes",
+      "water": "92% water"
+    },
+    "cucumber": {
+      "label": "komkommers",
+      "serving": "1 middelgrote komkommer",
+      "water": "95% water"
+    },
+    "strawberries": {
+      "label": "kopjes aardbeien",
+      "serving": "1 kopje",
+      "water": "91% water"
+    },
+    "oranges": {
+      "label": "sinaasappels",
+      "serving": "1 middelgrote sinaasappel",
+      "water": "87% water"
+    },
+    "salad": {
+      "label": "kommen salade",
+      "serving": "2 kopjes, gemengd",
+      "water": "ongeveer 94% water"
+    },
+    "soup": {
+      "label": "kommen bouillon",
+      "serving": "1 kopje",
+      "water": "ongeveer 92% water"
+    },
+    "tomatoes": {
+      "label": "tomaten",
+      "serving": "1 middelgrote tomaat",
+      "water": "95% water"
+    },
+    "grapes": {
+      "label": "kopjes druiven",
+      "serving": "1 kopje",
+      "water": "81% water"
+    },
+    "peaches": {
+      "label": "perziken",
+      "serving": "1 middelgrote perzik",
+      "water": "89% water"
+    },
+    "cantaloupe": {
+      "label": "kopjes cantaloupe",
+      "serving": "1 kopje in blokjes",
+      "water": "90% water"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Waarom water uit eten telt",
+    "title": "Water uit een watermeloen is hetzelfde water.",
+    "sameMolecule": "<strong>Hetzelfde molecuul.</strong> H2O uit een komkommer en H2O uit de kraan zijn identiek. Zodra het via je darmen in je bloedbaan komt, stuurt je lichaam het op dezelfde manier naar je spieren.",
+    "slowRelease": "<strong>Langzame afgifte.</strong> Water in groenten en fruit zit vast in vezels en celwanden, dus het wordt geleidelijker opgenomen dan een snel achterovergeslagen glas, dat je nieren meestal snel weer afvoeren.",
+    "electrolytes": "<strong>Met elektrolyten erbij.</strong> Komkommer, spinazie, meloen en bessen bevatten kalium en magnesium, mineralen die je cellen gebruiken om water vast te houden.",
+    "glycogen": "<strong>Brandstof en opslag in één.</strong> Spieren slaan koolhydraten op als glycogeen, en elke gram glycogeen wordt opgeslagen met ongeveer drie gram water. Waterrijk eten met veel koolhydraten levert allebei.",
+    "caveat": "Je moet nog steeds drinken. Eten dekt meestal ongeveer een vijfde van het totaal; de rest komt uit water en andere dranken. Gedroogd fruit, noten en brood bevatten heel weinig water."
+  },
+  "grace": {
+    "kicker": "Mild voor je lichaam",
+    "title": "Even over mild zijn voor jezelf",
+    "body": "Wat je in de spiegel ziet en hoe je kleding zit, kan veranderen door vochtophoping, spijsvertering, hormonen, slaap en andere normale schommelingen. Eén dag met een opgeblazen gevoel definieert je lichaam niet. Drink met zorg, geef jezelf de tijd en laat nieuwsgierigheid de plaats innemen van schaamte. Een aanhoudend opgeblazen gevoel, zwellingen, snelle gewichtsveranderingen of klachten waar je je zorgen over maakt, zijn het waard om met een zorgverlener te bespreken."
+  },
+  "overhydration": {
+    "title": "Het gevaar van geforceerd drinken",
+    "kidneys": "Je nieren hebben tijd nodig om water af te voeren. Als je tijdens langdurige inspanning sneller drinkt dan je vocht verliest, kan het natrium in je bloed verdund raken en kan inspanningsgerelateerde hyponatriëmie ontstaan. Vroege symptomen kunnen hoofdpijn, misselijkheid, duizeligheid, vermoeidheid of verwardheid zijn. Ernstige gevallen kunnen leiden tot zwelling van de hersenen, toevallen, coma en de dood.",
+    "pacing": "Probeer deze schatting niet te halen door snel veel achter elkaar te drinken. Verdeel je drankjes over de dag. Stem tijdens het sporten wat je drinkt af op je dorst, de omstandigheden en je eigen zweetverlies. Zoek dringend medische hulp bij verwardheid, een toeval, een collaps of ernstige klachten.",
+    "sources": "Bronnen: <nih>NIH-richtlijnen over inspanningsgerelateerde hyponatriëmie</nih> en <academies>vochtaanbevelingen van de National Academies</academies>."
+  },
+  "notes": {
+    "title": "Je toelichting bij de wetenschap",
+    "sexMan": "<strong>Geslacht:</strong> De referentiewaarden van de National Academies zijn ongeveer 3,7 liter totaal water per dag voor mannen en 2,7 voor vrouwen. Lichaamsgewicht verklaart het grootste deel van dat verschil, dus de rest zie je hier als een verhoging van 4 procent op de basis op gewicht, en de controle van lengte en lichaamsbouw gebruikt de formule voor het ideale gewicht van mannen.",
+    "sexWoman": "<strong>Geslacht:</strong> De referentiewaarden van de National Academies zijn ongeveer 3,7 liter totaal water per dag voor mannen en 2,7 voor vrouwen. Lichaamsgewicht verklaart het grootste deel van dat verschil, dus de rest zie je hier als een verlaging van 4 procent op de basis op gewicht, en de controle van lengte en lichaamsbouw gebruikt de formule voor het ideale gewicht van vrouwen.",
+    "height": "<strong>Lengte en lichaamsbouw:</strong> Je vochtbehoefte hangt meer samen met je vetvrije massa dan met je totale gewicht. Omdat je gewicht boven het gebruikelijke bereik voor je lengte ligt, gebruikt de schatting een aangepast lichaamsgewicht (ideaal gewicht plus 40 procent van het verschil), een gangbare klinische conventie. Het is een ruw getal om mee te plannen, geen oordeel over je lichaam.",
+    "cycle": "<strong>Cyclusfase:</strong> Vochtverschuivingen door je cyclus zijn echt, maar onderzoek toont geen universele, vaste verhoging in ounces aan. Er zijn geen ounces automatisch toegevoegd. Gewone maaltijden dekken elektrolyten meestal; supplementen met magnesium of kalium zijn geen algemene aanbeveling.",
+    "age": "<strong>Leeftijd en overgang:</strong> Leeftijd alleen bepaalt niet of je in de overgang bent. Hormonale veranderingen kunnen dorst en vochtregulatie beïnvloeden, maar er bestaat geen gevalideerde aanpassing in ounces voor ‘boven de 45’, dus je leeftijd heeft het totaal niet veranderd.",
+    "heat": "<strong>Hitte:</strong> Een vaste klimaattoeslag kan je behoefte onder- of overschatten. Voor matig werk in de hitte korter dan twee uur adviseert NIOSH ongeveer 8 ounces elke 15–20 minuten; langdurig hevig zweten vraagt om een persoonlijk plan om vocht aan te vullen."
+  },
+  "evidence": {
+    "label": "Onderbouwing:",
+    "academies": "Richtlijnen van de National Academies voor waterinname",
+    "harvard": "Harvard Health over voeding en hydratatie",
+    "cycle": "Onderzoek naar osmoregulatie tijdens de menstruatiecyclus",
+    "menopause": "Overzichtsstudie over vochtregulatie in de overgang",
+    "niosh": "CDC/NIOSH-richtlijnen over hitte"
+  },
+  "tips": {
+    "kicker": "Nuttig, niet obsessief",
+    "title": "Drie checks voor het echte leven.",
+    "schedule": {
+      "title": "Het ritme",
+      "body": "Begin de ochtend met water, neem slokjes bij de maaltijden en laat dorst, weer en activiteit de rest bepalen."
+    },
+    "electrolytes": {
+      "title": "Elektrolyten",
+      "body": "De meeste mensen vullen elektrolyten aan via hun gewone maaltijden. Kies na lang of hevig zweten een uitgebalanceerde elektrolytendrank; voeg niet standaard zout toe als je het advies hebt gekregen om natrium te beperken."
+    },
+    "visualCheck": {
+      "title": "De kleurcheck",
+      "body": "Lichtgele urine kan een ruwe aanwijzing voor hydratatie zijn. Eten, vitamines, medicijnen en gezondheidsproblemen kunnen de kleur veranderen, dus het is geen diagnose."
+    }
+  },
+  "author": {
+    "kicker": "Van degene die het bouwde",
+    "title": "Waarom ik dit bouwde (en waarom je niet zomaar naar mij moet luisteren)",
+    "athlete": "Mijn naam is Denzel Rigaud. Ik heb meer dan negen jaar de 400 meter en horden gelopen, dus hydratatie werd een vast onderdeel van hoe ik trainde, herstelde en mijn lichaam leerde lezen.",
+    "purpose": "Ik bouwde The Water Check om je te helpen je lichaam te horen boven de online ruis uit. Ik wil niet dat je mijn ervaring als voorschrift ziet. Je biologie, omgeving, medische geschiedenis en levensfase bepalen wat je nodig hebt.",
+    "technology": "Technologie is er niet om eindeloos te doomscrollen en andermans leven te leven. Ze hoort ons leven productief te houden en onze geest, ziel, verstand en lichaam te versterken, zodat we de beste versie worden van wie we willen zijn. Dus stop met naar iedereen te luisteren, want wat voor jou werkt, werkt voor jou.",
+    "faith": "Leer je eigen patronen kennen en bespreek medische zorgen met een gekwalificeerde professional. Zorgen voor je lichaam kan je dichter bij jezelf brengen, en dichter bij God, die in ieder van ons een vonk heeft gelegd die het waard is om te koesteren.",
+    "motto": "Volg geen influencers. Leer jezelf kennen.",
+    "date": "15 maart 2021",
+    "founderPage": "Oprichterspagina"
+  },
+  "community": {
+    "kicker": "Houd het menselijk",
+    "title": "Word deel van de echte community.",
+    "instagram": "Volg @thewatercheck op Instagram",
+    "reelSoon": "Instagram-reel volgt binnenkort",
+    "story": "Communityverhaal {{position}}"
+  }
+}

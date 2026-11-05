@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Diese Seite gibt es hier nicht.",
+    "home": "Zur Startseite"
+  },
+  "legal": {
+    "englishOnly": "Diese Seite wird auf Englisch angezeigt, und die englische Fassung ist maßgeblich.",
+    "effective": "Gültig ab {{date}}",
+    "onThisPage": "Auf dieser Seite",
+    "related": "Weitere Seiten"
+  }
+}

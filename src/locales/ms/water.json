@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Aplikasinya",
+      "drinkCheck": "Drink Check",
+      "guide": "Panduan",
+      "widgets": "Widget",
+      "progress": "Kemajuan",
+      "pricing": "Harga",
+      "faq": "Soalan Lazim",
+      "calculator": "Kalkulator"
+    },
+    "hero": {
+      "title": "Minumlah.<break/>Kami akan <em>kira</em>.",
+      "sub": "Jumlah air anda sendiri, minuman yang boleh diimbas, tubuh anda yang dicas semula, widget yang anda pasti kekalkan, dan seekor ikan buntal bernama Bubbles yang akan membawa anda bersiar-siar. Tiada peraturan segelen, tiada pempengaruh, tiada rasa bersalah.",
+      "comingSoon": "Akan datang",
+      "appStoreLead": "Muat turun di",
+      "appStore": "App Store",
+      "googlePlayLead": "Dapatkannya di",
+      "googlePlay": "Google Play",
+      "calculator": "Cuba kalkulator percuma",
+      "instagram": "Ikuti The Water Check di Instagram",
+      "note": "Kini dalam semakan di App Store. Kalkulatornya percuma dan tidak perlu mendaftar.",
+      "todayAlt": "Skrin Hari ini The Water Check: 40 oz daripada sasaran 81.2 oz, dengan butang tambah pantas dan catatan hari ini",
+      "widgetsAlt": "Studio widget yang menunjukkan widget Badan dalam gaya Hologram dan barisan gaya widget",
+      "bubblesLabel": "Suruh Bubbles buat helah",
+      "bubblesSay": "Hai, saya Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "gaya widget",
+      "pearls": "mutiara Panduan untuk ditemui",
+      "foods": "makanan kaya air, dilukis tangan",
+      "languages": "bahasa"
+    },
+    "sixty": {
+      "kicker": "Mengapa ia penting",
+      "title": "Anda terdiri daripada 60% air.",
+      "lede": "Bukan sasaran untuk dicapai. Air itu sedang bekerja sekarang: membawa oksigen, melindungi sendi anda, menyejukkan anda dan membuang apa yang tidak diperlukan. Keperluan anda berubah mengikut aktiviti, cuaca dan kesihatan.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Lapan warna daripada kuning jerami pucat hingga perang keemasan gelap, dikumpulkan kepada hidrasi baik, tambah dan minum sekarang",
+      "wellHydrated": "Hidrasi baik",
+      "topUp": "Tambah",
+      "drinkNow": "Minum sekarang",
+      "fine": "Petunjuk kasar, bukan diagnosis. Makanan, vitamin dan ubat-ubatan semuanya boleh mengubah warna. Aplikasi menerangkan setiap jalur warna dan bila perlu berjumpa profesional penjagaan kesihatan."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Imbas sekali. Kenali isinya. Ketik selamanya.",
+      "lede": "Imbas kod bar, percuma dan sekerap yang anda mahu. Tiada kod bar? Jika anda berumur 18 tahun ke atas, ambil foto dan aplikasi akan membaca labelnya. Apa pun caranya, anda dapat melihat gula dalam sudu teh, kafein, elektrolit dan setiap bahan yang ditanda Baik, Okey, Awas atau Elak.",
+      "scoresLabel": "Warna skor Drink Check",
+      "scores": {
+        "great": "Sangat baik",
+        "good": "Baik",
+        "okay": "Sederhana",
+        "poor": "Lemah"
+      },
+      "ticks": {
+        "electrolytes": "Elektrolit daripada label: natrium, kalium, magnesium dan kalsium, bersama Nilai Harian masing-masing.",
+        "save": "Simpan (tukar namanya jika mahu), dan lain kali hanya satu ketikan di halaman Tambah. Tiada imbasan baharu.",
+        "food": "Orang dewasa juga boleh mengambil foto makanan: mangga akan ditambah pada mangga anda, sesuatu yang baharu menjadi buihnya sendiri.",
+        "journal": "Jurnal Minuman anda menyimpan perasaan anda selepas setiap minuman, di telefon anda."
+      },
+      "fine": "Bacaan pantas label, bukan ujian makmal atau penarafan mana-mana jenama. Keputusan kod bar datang daripada Open Food Facts, dan AI boleh tersilap, jadi semak label sebenar, terutamanya untuk alahan. Kami tidak menyimpan foto anda.",
+      "alt": "Keputusan Drink Check untuk minuman sukan: skor 66, Baik, dengan gula, kafein dan elektrolitnya daripada label"
+    },
+    "foods": {
+      "kicker": "Makanan juga dikira",
+      "title": "Kira-kira satu perlima air anda datang dari pinggan.",
+      "lede": "Halaman Tambah ialah halaman buih buah yang dilukis, tiga sebaris: tembikai, timun, strawberi, mangga dan banyak lagi. Ketik tanda tambah dan ia terus ditambah, dengan Buat asal di sebelahnya. Makanan yang paling kerap anda tambah akan beralih ke hadapan.",
+      "ticks": {
+        "amounts": "Gelas, botol atau apa jua jumlah, satu ketikan setiap satu.",
+        "caffeine": "Peminum kopi mendapat kad kafein yang terisi sendiri.",
+        "ring": "Gelang di bahagian atas menunjukkan makanan yang dikira untuk hari anda."
+      },
+      "alt": "Halaman Tambah: gelang di bahagian atas, butang minuman, kad kafein dan buih makanan kaya air"
+    },
+    "guide": {
+      "kicker": "Panduan The Water Check",
+      "title": "Pecahkan buih. Simpan mutiaranya.",
+      "lede": "Setiap bab ialah buih dengan satu soalan, dan semuanya percuma. Mengapa anda berasa “bateri lemah”? Apa kata air kencing anda? Segelen sehari, betulkah? Baca satu bab hingga habis dan ia pecah menjadi mutiara. Kira-kira satu daripada enam ialah mutiara emas yang jarang ditemui.",
+      "electric": "Tubuh elektrik anda: enam bab tentang isyarat, natrium dan kalium, magnesium dan kalsium, serta bahan api.",
+      "forHerKicker": "Untuk wanita",
+      "forHer": "Bab berwarna mawar tentang tubuh wanita dan air: air kencing merah jambu atau neon, rasa sembap ketika haid, mengapa UTI lebih kerap menimpa wanita, sedikit bocor ketika ketawa, kehamilan dan menopaus. Mesra, jelas dan bersumber.",
+      "fine": "Setiap bab menyenaraikan sumbernya dan memberitahu bila perlu berjumpa doktor. Ia menghargai kefahaman, bukan masa skrin: tiada streak, tiada tekanan.",
+      "alt": "Panduan The Water Check: bab Tubuh elektrik anda sebagai buih soalan"
+    },
+    "widgets": {
+      "kicker": "Widget",
+      "title": "<count>89</count> gaya untuk Skrin Utama anda.",
+      "lede": "Sukan, tempat, musim, hidupan laut dan reka bentuk, dalam saiz kecil, sederhana dan besar, dengan susun atur daripada gelang hingga ombak. Beritahu kami sukan anda semasa mendaftar dan widget sukan anda muncul dahulu. Catat minuman terus dari Skrin Utama anda.",
+      "ticks": {
+        "body": "Badan: siluet anda terisi dengan air hari itu. Percikan: bateri terisi dengan cas hari ini.",
+        "charge": "Letakkan meter Cas pada mana-mana widget untuk memantau elektrolit, bukan air."
+      },
+      "chips": {
+        "body": "Badan",
+        "spark": "Percikan",
+        "running": "Larian",
+        "crossCountry": "Merentas Desa",
+        "volleyball": "Bola Tampar",
+        "basketball": "Bola Keranjang",
+        "seaTurtle": "Penyu",
+        "jellyfish": "Obor-obor",
+        "beach": "Pantai",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Musim"
+      },
+      "alt": "Studio widget dengan widget Badan dalam gaya Hologram, pilihan warna, susun atur dan meter Cas"
+    },
+    "progress": {
+      "kicker": "Kemajuan",
+      "title": "Lihat kandungan minuman anda, bar demi bar.",
+      "lede": "Hari ini dalam bentuk bar ringkas yang terisi dari kiri ke kanan: air berbanding jumlah anda, kemudian natrium, kalium, magnesium dan kalsium daripada minuman yang anda imbas, serta kafein dan gula. Ketik mana-mana bar untuk melihat minuman di sebaliknya. Kalendar memaparkan setiap hari bersebelahan, bersama streak anda.",
+      "ticks": {
+        "dailyValues": "Elektrolit diukur berbanding Nilai Harian pada label Fakta Pemakanan.",
+        "caffeine": "Kafein berbanding 400 mg, jumlah yang dinyatakan FDA bagi kebanyakan orang dewasa yang sihat, dan gula berbanding 50 g.",
+        "journal": "Jurnal Minuman anda terletak betul-betul di bawah bar: setiap minuman yang anda imbas dan perasaan anda selepasnya.",
+        "real": "Setiap angka datang daripada sesuatu yang anda catat atau imbas. Tiada yang direka-reka."
+      },
+      "fine": "Rujukan, bukan sasaran, dan bukan nasihat perubatan. Jika anda menjaga pengambilan natrium atau kalium atas sebab kesihatan, ikut nasihat doktor anda.",
+      "alt": "Kemajuan: air pada 83% daripada jumlah hari itu, kemudian natrium, kalium, magnesium, kalsium, kafein dan gula sebagai bar"
+    },
+    "crew": {
+      "kicker": "Bulan anda dan orang-orang anda",
+      "title": "Lihat ia bertambah. Bawa rakan anda.",
+      "calendarAlt": "Kalendar: setiap hari terisi seperti gelas, dengan hari dicatat, hari mencapai sasaran dan streak",
+      "calendarTitle": "Air anda, hari demi hari",
+      "calendarBody": "Setiap hari yang anda catat terisi seperti gelas. Hari mencapai sasaran, streak dan tanda pasang, dan semuanya ikut anda ke telefon baharu.",
+      "crewAlt": "Geng bernama Pasukan Olahraga dengan mesej sorakan pantas",
+      "crewTitle": "Geng",
+      "crewBody": "Kumpulan dengan jemputan sahaja yang saling memberi semangat. Rakan nampak peratusan sasaran anda sendiri dan streak anda, bukan auns atau tubuh anda. Laporkan dan Sekat sentiasa tersedia."
+    },
+    "bubbles": {
+      "kicker": "Kenali Bubbles",
+      "title": "Pemandu anda ialah ikan buntal.",
+      "lede": "Bubbles ialah Pegawai Kesejahteraan di The Department. Pada hari pertama anda, dia membawa anda melawat aplikasi, dan dia memang suka menunjuk-nunjuk. Ayuh, beri dia sesuatu untuk dibuat.",
+      "tricksLegend": "Helah Bubbles",
+      "tricks": {
+        "puff": "Kembung",
+        "spin": "Berpusing",
+        "flip": "Lentingan ke belakang",
+        "wave": "Melambai",
+        "cheer": "Aksi penutup"
+      }
+    },
+    "pricing": {
+      "kicker": "Harga",
+      "title": "Percuma untuk bermula. Semuanya, sekali bayar.",
+      "free": {
+        "title": "Percuma",
+        "sub": "Semua yang anda perlukan untuk minum secukupnya.",
+        "items": {
+          "number": "Jumlah air anda sendiri",
+          "log": "Catat minuman dan makanan kaya air",
+          "barcode": "Imbasan kod bar, percuma dan tanpa had",
+          "photo": "Satu imbasan foto percuma (18 tahun ke atas)",
+          "guide": "Setiap bab Panduan",
+          "widgets": "Widget Klasik, Musim, serta Badan dan Percikan asas",
+          "crew": "Kalendar, streak dan Geng rakan anda"
+        }
+      },
+      "forever": {
+        "tag": "Tahun pembukaan",
+        "title": "Semuanya Selamanya",
+        "sub": "Satu pembelian, tiada langganan.",
+        "items": {
+          "widgets": "Setiap gaya dan pilihan warna widget",
+          "bars": "Bar elektrolit, kafein dan gula",
+          "journal": "Jurnal Minuman anda",
+          "photos": "Lebih banyak imbasan foto (18 tahun ke atas)",
+          "summaries": "Ringkasan PDF 30 dan 90 hari",
+          "crews": "Bentuk Geng anda sendiri",
+          "later": "Semua yang kami tambah kemudian"
+        },
+        "note": "Ditawarkan sepanjang tahun pembukaan kami. Selepas itu, The Water Check mungkin beralih kepada pelan bulanan, dan pembelian sekali bayar yang dibuat sebelum itu kekal terbuka. Harga dipaparkan di App Store atau Google Play sebelum anda membeli."
+      }
+    },
+    "privacy": {
+      "kicker": "Data anda",
+      "title": "Apa yang kekal di telefon anda, dan apa yang tidak.",
+      "phoneTitle": "Kekal di telefon anda",
+      "phoneBody": "Jurnal Minuman, minuman dan makanan yang disimpan, mutiara Panduan, sesi latihan, nota kitaran dan peringatan anda.",
+      "accountTitle": "Disimpan bersama akaun anda",
+      "accountBody": "Log masuk anda, jawapan semasa mendaftar, setiap minuman dan makanan yang anda catat beserta masanya, jumlah air harian dan Geng anda, supaya semuanya ikut anda ke telefon baharu.",
+      "neverTitle": "Tidak sekali-kali",
+      "neverBody": "Kami tidak menjual maklumat anda atau berkongsinya dengan rangkaian pengiklanan. Kami tidak menyimpan foto Drink Check anda.",
+      "links": {
+        "privacy": "Dasar Privasi",
+        "healthData": "Dasar Data Kesihatan Pengguna",
+        "deleteAccount": "Padam akaun anda"
+      }
+    },
+    "calculator": {
+      "kicker": "Percuma, tanpa mendaftar",
+      "title": "Mulakan dengan angka yang anda tahu.",
+      "lede": "Berat anda, ketinggian anda dan berapa lama anda bergerak. Kalkulator memberi anda sasaran harian dalam kira-kira dua puluh saat, dan menunjukkan cara pengiraannya supaya anda boleh mempersoalkannya. Ia berjalan dalam pelayar anda.",
+      "chips": {
+        "weight": "Garis dasar berat",
+        "height": "Ketinggian dan bentuk badan",
+        "activity": "Pelarasan aktiviti",
+        "lifeStage": "Peringkat hidup",
+        "heat": "Panas dan kelembapan",
+        "electrolytes": "Semakan elektrolit"
+      },
+      "open": "Buka kalkulator",
+      "fine": "Anggaran perancangan untuk tujuan pendidikan bagi orang dewasa, bukan diagnosis atau preskripsi. Jangan paksa diri untuk minum. Tanya profesional penjagaan kesihatan jika anda hamil atau menyusukan bayi, mengambil ubat yang menjejaskan keseimbangan cecair, atau mempunyai penyakit buah pinggang atau jantung."
+    },
+    "faq": {
+      "kicker": "Soalan",
+      "title": "Jawapan yang jujur.",
+      "items": {
+        "medical": {
+          "q": "Adakah The Water Check nasihat perubatan?",
+          "a": "Tidak. Ia ialah aplikasi kesejahteraan umum. Jumlah air anda ialah anggaran untuk tujuan pendidikan, bukan preskripsi, dan tiada apa-apa dalam aplikasi ini yang mendiagnosis atau merawat apa-apa. Jika anda hamil atau menyusukan bayi, mengambil ubat yang menjejaskan cecair badan, atau mempunyai penyakit buah pinggang, jantung atau keadaan lain, tanya doktor anda apa yang sesuai untuk anda."
+        },
+        "number": {
+          "q": "Dari mana datangnya jumlah saya?",
+          "a": "Daripada berat, ketinggian, aktiviti, iklim dan peringkat hidup anda, bermula daripada panduan awam seperti rujukan air National Academies di AS. Kalkulator percuma menunjukkan cara pengiraannya, jadi anda boleh melihat setiap langkah. Ia titik permulaan, bukan peraturan."
+        },
+        "scan": {
+          "q": "Apa yang berlaku apabila saya mengimbas minuman?",
+          "a": "Imbasan kod bar hanya menghantar nombor kod bar kepada Open Food Facts, pangkalan data makanan yang percuma dan terbuka, lalu menerima semula apa yang tertulis pada label. Foto, untuk orang dewasa berumur 18 tahun ke atas, melalui pelayan kami ke Gemini AI milik Google, yang membaca label dan menghantar semula hasilnya. Kami tidak menyimpan foto anda; Google mungkin menyimpan data untuk tempoh terhad di bawah termanya. Label dan AI boleh tersilap, jadi semak label sebenar, dan jangan sekali-kali gunakan Drink Check untuk alahan atau diet perubatan."
+        },
+        "phone": {
+          "q": "Apa yang kekal di telefon saya?",
+          "a": "Jurnal Minuman, minuman dan makanan yang disimpan, mutiara Panduan, sesi latihan, jawapan kitaran dan nota kitaran anda, walaupun sandaran telefon anda sendiri mungkin turut menyimpannya. Di iPhone, senaman yang anda benarkan aplikasi baca daripada Apple Health juga kekal di telefon anda dan tidak pernah dihantar kepada kami. Jawapan semasa mendaftar, setiap minuman dan makanan yang anda catat beserta masanya, dan jumlah harian anda disimpan bersama akaun supaya semuanya ikut anda ke telefon baharu. Kami tidak menjual maklumat anda."
+        },
+        "audience": {
+          "q": "Untuk siapa aplikasi ini?",
+          "a": "Sesiapa sahaja yang berumur 13 tahun ke atas. Jika anda bawah 18 tahun, gunakannya dengan kebenaran ibu bapa atau penjaga. Puasa Buah, pencatatan alkohol dan imbasan foto hanya untuk orang dewasa. Aplikasi mengikut julat umur yang anda berikan, jadi sila jawab dengan jujur. Jika anda berumur 13 hingga 17 tahun, semak jumlah anda bersama ibu bapa atau doktor."
+        },
+        "cost": {
+          "q": "Berapakah kosnya?",
+          "a": "Aplikasi ini percuma untuk bermula: dapatkan jumlah anda, catat air dan makanan, imbas mana-mana kod bar, baca setiap bab Panduan, sertai Geng dan gunakan widget Klasik, Musim, Badan dan Percikan. Sepanjang tahun pembukaan kami, satu pembelian pilihan membuka semuanya, sekali bayar, tanpa langganan. App Store atau Google Play memaparkan harga dalam mata wang anda sebelum anda membeli."
+        },
+        "deleteAccount": {
+          "q": "Bagaimana saya memadam akaun saya?",
+          "a": "Dalam aplikasi: Profil, kemudian Tetapan, kemudian Padam akaun. Ia terus dipadam. Tiada aplikasi? Halaman Padam akaun anda menerangkan cara memintanya melalui e-mel."
+        },
+        "download": {
+          "q": "Bilakah saya boleh memuat turunnya?",
+          "a": "The Water Check sedang dalam semakan di App Store dan dalam ujian di Google Play, dan akan hadir di kedua-duanya tidak lama lagi. Ikuti @thewatercheck di Instagram untuk mengetahuinya dahulu."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Fahami apa yang anda minum. Dibina di Florida oleh syarikat satu orang. Untuk umur 13 tahun ke atas.",
+      "legal": "Undang-undang",
+      "privacy": "Dasar Privasi The Water Check",
+      "terms": "Terma dan Syarat The Water Check",
+      "community": "Garis Panduan Komuniti",
+      "healthData": "Dasar Privasi Data Kesihatan Pengguna",
+      "deleteAccount": "Padam akaun anda",
+      "sitePrivacy": "Privasi laman web",
+      "explore": "Terokai",
+      "calculator": "Kalkulator penghidratan",
+      "store": "Kedai The Water Check",
+      "instagram": "@thewatercheck di Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Bantuan",
+      "email": "Sokongan e-mel",
+      "accessibility": "Kebolehcapaian",
+      "contact": "Hubungi",
+      "note": "The Water Check ialah aplikasi kesejahteraan umum. Ia tidak mendiagnosis, merawat atau mencegah sebarang keadaan, dan bukan pengganti nasihat daripada profesional penjagaan kesihatan. Dalam kecemasan, hubungi 911 atau nombor kecemasan tempatan anda. Skrin aplikasi menunjukkan binaan ujian dengan data rekaan; ciri mungkin berubah sebelum dilancarkan."
+    }
+  },
+  "app": {
+    "eyebrow": "Aplikasinya",
+    "title": "Air anda, hari demi hari.",
+    "body": "Mulakan dengan anggaran peribadi, kemudian catat minuman dan makanan kaya air sepanjang hari. Lihat kemajuan anda dalam aplikasi, di Skrin Utama dan sepanjang bulan.",
+    "comingSoon": "Akan datang ke App Store",
+    "calculator": "Cuba kalkulator percuma",
+    "caveat": "Kalkulator ini berfungsi di sini tanpa akaun. Tangkapan skrin aplikasi menunjukkan binaan pratonton; ciri dan ketersediaan mungkin berubah sebelum dilancarkan.",
+    "screens": {
+      "number": {
+        "alt": "Anggaran air harian peribadi The Water Check pada iPhone",
+        "caption": "Jumlah anda"
+      },
+      "log": {
+        "alt": "Catatan harian The Water Check dengan minuman dan makanan pada iPhone",
+        "caption": "Catatan hari ini"
+      },
+      "widgets": {
+        "alt": "Tetapan widget Skrin Utama The Water Check pada iPhone",
+        "caption": "Widget"
+      },
+      "wellness": {
+        "alt": "Panduan kesejahteraan dan P-Meter The Water Check pada iPhone",
+        "caption": "Kesejahteraan"
+      },
+      "calendar": {
+        "alt": "Kalendar air bulanan The Water Check pada iPhone",
+        "caption": "Kalendar"
+      }
+    }
+  },
+  "footer": {
+    "note": "Kalkulator percuma ini tidak memerlukan akaun. Ia berjalan dalam pelayar anda dan tidak menghantar angka anda kepada kami.",
+    "navLabel": "Navigasi pengaki",
+    "calculator": "Kalkulator penghidratan",
+    "explore": "Terokai aplikasinya",
+    "instagram": "@thewatercheck di Instagram",
+    "store": "Kedai",
+    "builder": "Siapa yang membinanya",
+    "finePrint": "Maklumat undang-undang",
+    "terms": "Terma dan Syarat",
+    "privacy": "Dasar Privasi",
+    "community": "Garis Panduan Komuniti",
+    "healthData": "Data Kesihatan Pengguna",
+    "deleteAccount": "Padam akaun anda",
+    "accessibility": "Kebolehcapaian",
+    "contact": "Hubungi",
+    "project": "Sebuah projek <company>EXPECTEDEND LLC</company>. Anggaran untuk tujuan pendidikan, bukan nasihat perubatan.",
+    "backToTop": "Kembali ke atas ↑"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Свържете се с Expected End",
+    "title": "Започнете с малко <em>контекст.</em>",
+    "intro": "Изберете няколко подробности и ще подготвим ясен имейл за вас. Имейл приложението ви се отваря, преди да бъде изпратено каквото и да е."
+  },
+  "fields": {
+    "name": "Вашето име",
+    "email": "Вашият имейл",
+    "reason": "За какво става дума?",
+    "project": "Кой проект?",
+    "priceRange": "Ценови диапазон",
+    "timeline": "Желан срок",
+    "discovery": "Как открихте Expected End?",
+    "message": "Какво имате предвид?",
+    "chooseOne": "Изберете"
+  },
+  "reasons": {
+    "partnership": "Партньорство или сътрудничество",
+    "press": "Медии",
+    "general": "Общ въпрос"
+  },
+  "projects": {
+    "waterCheckCommunity": "Общността на The Water Check",
+    "newIdea": "Нова идея"
+  },
+  "timelines": {
+    "exploring": "Само проучвам",
+    "month": "До месец",
+    "threeMonths": "До три месеца",
+    "laterThisYear": "По-късно тази година",
+    "notSure": "Още не знам"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Общността на The Water Check",
+    "search": "Търсачка",
+    "referral": "Препоръка",
+    "elsewhere": "Другаде"
+  },
+  "submit": {
+    "note": "Нищо не се изпраща, докато не го прегледате и не натиснете „Изпрати“ в имейл приложението си.",
+    "apps": "Изберете <app>вашето имейл приложение</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> или <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Подготви имейла"
+  },
+  "dialog": {
+    "close": "Затвори формата за контакт"
+  }
+}

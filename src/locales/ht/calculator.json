@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Bliye enfliyansè yo. Aprann vrè byoloji kò w.",
+    "lead": "Eseye kalkilatè gratis la san kont, epi apre sa dekouvri aplikasyon n ap bati pou swiv chak jou.",
+    "appLink": "Dekouvri aplikasyon an ↓",
+    "logoLabel": "Sèvi ak kalkilatè The Water Check la"
+  },
+  "intro": {
+    "kicker": "Kalkilatè idratasyon",
+    "title": "Kòmanse ak chif ou konnen yo."
+  },
+  "units": {
+    "legend": "Inite pwa",
+    "pounds": "Liv (lb)",
+    "kilograms": "Kilogram (kg)"
+  },
+  "weight": {
+    "labelLb": "Pwa (lbs)",
+    "labelKg": "Pwa (kg)",
+    "valueTextLb": "{{value}} liv",
+    "valueTextKg": "{{value}} kilogram"
+  },
+  "height": {
+    "legend": "Wotè",
+    "feet": "Wotè (ft)",
+    "inches": "Wotè (in)",
+    "centimeters": "Wotè (cm)",
+    "note": "Bezwen likid swiv mas mèg kò a, kidonk wotè a konte plis lè pwa a wo pou kalite kò ou."
+  },
+  "activity": {
+    "label": "Aktivite chak jou (minit)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minit"
+  },
+  "factors": {
+    "legend": "Faktè ki ka chanje bezwen likid ou",
+    "intro": "Nou mete yon chif sèlman kote ki gen yon ajisteman chak jou nou ka defann. Lòt repons yo pèsonalize konsèy ou yo san nou pa fè kòmsi syans la sipòte yon dòz egzak.",
+    "age": {
+      "label": "Laj",
+      "hint": "Laj bay kontèks; li pa fè dyagnostik menopoz."
+    },
+    "lifeStage": {
+      "label": "Etap lavi",
+      "hint": "Li sèvi ak yon ajisteman transparan pou gwosès oswa pwodiksyon lèt.",
+      "options": {
+        "standard": "Estanda",
+        "pregnant": "Ansent",
+        "breastfeeding": "Ap bay tete"
+      }
+    },
+    "sex": {
+      "label": "Sèks",
+      "hint": "Opsyonèl. Li rafine kalkil pwa ideyal la ak konsomasyon referans lan.",
+      "options": {
+        "unspecified": "M pito pa di",
+        "woman": "Fanm",
+        "man": "Gason"
+      }
+    },
+    "luteal": {
+      "label": "Semèn anvan règ ou",
+      "hint": "Li konsidere dlo kò a kenbe nan faz luteal la ak gonfleman ki soti nan òmòn. Pa gen okenn ogmantasyon fiks ki aplike pou tout moun."
+    },
+    "heat": {
+      "label": "Kondisyon cho oswa imid",
+      "hint": "Konsèy pou chalè depann de ekspozisyon ak swe, pa sèlman de kote ou ye."
+    }
+  },
+  "result": {
+    "goal": "Objektif ou chak jou: {{ounces}} ons",
+    "breakdown": "Detay kalkil la",
+    "weightBaseline": "Baz selon pwa",
+    "heightAndBuild": "Wotè ak fòm kò",
+    "sexReference": "Referans selon sèks",
+    "notSet": "Pa defini",
+    "activity": "Ajisteman pou aktivite",
+    "lifeStage": {
+      "standard": "Ajisteman pou etap lavi",
+      "pregnant": "Ajisteman pou gwosès",
+      "breastfeeding": "Ajisteman pou bay tete"
+    },
+    "luteal": "Konsèy pou faz luteal la",
+    "noFixedOunces": "Pa gen +oz fiks",
+    "electrolytes": "Tchèk elektwolit",
+    "electrolytesAfterSweat": "Konsidere yo apre anpil swe",
+    "electrolytesFromFood": "Manje anjeneral kouvri yo",
+    "guidance": "Sa a se yon estimasyon edikatif pou planifye, pou granmoun, se pa yon dyagnostik, yon tretman, ni yon preskripsyon klinik. Manje bay dlo tou, epi bezwen chak moun diferan. Pa fòse tèt ou bwè likid. Mande yon pwofesyonèl lasante konsèy sou bezwen ou si ou ansent oswa w ap bay tete, si w ap pran medikaman ki afekte balans likid nan kò w, si ou gen yon pwoblèm ren oswa kè, si w ap swiv yon restriksyon likid, oswa si ou gen sentòm ki enkyetan."
+  },
+  "equivalents": {
+    "title": "Sa fè apeprè",
+    "cups": "{{value}} tas",
+    "cupsNote": "8 oz chak",
+    "liters": "{{value}} lit",
+    "litersNote": "sistèm metrik",
+    "bottles": "{{value}} boutèy",
+    "bottlesNote": "gwosè 16.9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Manje dlo ou",
+    "title": "Se pa tout ki dwe soti nan yon vè.",
+    "copy": "Apeprè yon senkyèm nan dlo pifò moun jwenn chak jou soti nan manje. Pifò fwi ak legim fre gen 70 a 95 pousan dlo, epi yon fwa dlo sa a rive nan san w, li idrate w egzakteman menm jan yon bwason fè l.",
+    "drink": "Bwè",
+    "drinkNote": "{{cups}} tas dlo, te oswa lèt",
+    "eat": "Manje",
+    "eatNote": "nan manje ki gen anpil dlo",
+    "pickLegend": "Imajine pati ki soti nan manje a kòm",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: apeprè {{ounces}} oz dlo ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "tas melon dlo",
+      "serving": "1 tas an ti moso",
+      "water": "92% dlo"
+    },
+    "cucumber": {
+      "label": "konkonm",
+      "serving": "1 mwayen",
+      "water": "95% dlo"
+    },
+    "strawberries": {
+      "label": "tas frèz",
+      "serving": "1 tas",
+      "water": "91% dlo"
+    },
+    "oranges": {
+      "label": "zoranj",
+      "serving": "1 mwayen",
+      "water": "87% dlo"
+    },
+    "salad": {
+      "label": "bòl salad",
+      "serving": "2 tas salad melanje",
+      "water": "apeprè 94% dlo"
+    },
+    "soup": {
+      "label": "bòl bouyon klè",
+      "serving": "1 tas",
+      "water": "apeprè 92% dlo"
+    },
+    "tomatoes": {
+      "label": "tomat",
+      "serving": "1 mwayen",
+      "water": "95% dlo"
+    },
+    "grapes": {
+      "label": "tas rezen",
+      "serving": "1 tas",
+      "water": "81% dlo"
+    },
+    "peaches": {
+      "label": "pèch",
+      "serving": "1 mwayen",
+      "water": "89% dlo"
+    },
+    "cantaloupe": {
+      "label": "tas melon frans",
+      "serving": "1 tas an ti moso",
+      "water": "90% dlo"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Poukisa dlo ki nan manje konte",
+    "title": "Dlo ki soti nan yon melon dlo se menm dlo a.",
+    "sameMolecule": "<strong>Menm molekil la.</strong> H2O ki soti nan yon konkonm ak H2O ki soti nan tiyo a se egzakteman menm bagay la. Yon fwa li travèse trip ou pou l antre nan san w, kò w voye l nan misk ou yo menm jan an.",
+    "slowRelease": "<strong>Li lage dousman.</strong> Dlo ki nan fwi ak legim rete kenbe anndan fib ak mi selil yo, kidonk kò w absòbe l pi dousman pase yon vè dlo ou bwè byen vit, ke ren ou gen tandans elimine rapid.",
+    "electrolytes": "<strong>Li vini ak elektwolit.</strong> Konkonm, zepina, melon, ak ti fwi tankou frèz gen potasyòm ak mayezyòm, mineral selil ou yo itilize pou kenbe dlo.",
+    "glycogen": "<strong>Enèji ak rezèv ansanm.</strong> Misk yo estoke idrat kabòn sou fòm glikojèn, epi chak gram glikojèn estoke ak apeprè twa gram dlo. Manje ki gen anpil dlo ak anpil idrat kabòn bay tou de.",
+    "caveat": "Ou toujou bezwen bwè. Manje anjeneral kouvri apeprè yon senkyèm nan total la; rès la soti nan dlo ak lòt bwason. Fwi sèk, nwa, ak pen gen trè piti dlo."
+  },
+  "grace": {
+    "kicker": "Dousè pou kò w",
+    "title": "Yon ti nòt sou pran pasyans ak tèt ou",
+    "body": "Sa ou wè nan glas la ak jan rad ou chita sou ou ka chanje akoz dlo kò a kenbe, dijesyon, òmòn, dòmi, ak lòt chanjman nòmal. Yon jou vant ou gonfle pa defini kò w. Bwè avèk atansyon, ba tèt ou tan, epi kite kiryozite pran plas wont. Vant gonfle ki pa pase, anfleman, pwa ki chanje rapid, oswa sentòm ki enkyete w merite yon konvèsasyon ak yon pwofesyonèl lasante."
+  },
+  "overhydration": {
+    "title": "Danje pou fòse tèt ou bwè dlo",
+    "kidneys": "Ren ou bezwen tan pou elimine dlo. Pandan yon egzèsis ki dire lontan, bwè pi vit pase jan ou pèdi likid ka dilye sodyòm nan san w epi lakòz yon iponatremi ki gen rapò ak egzèsis. Premye sentòm yo ka gen ladan tèt fè mal, kè plen, tèt vire, fatig, oswa konfizyon. Ka ki grav yo ka lakòz sèvo a anfle, kriz konvilsyon, koma, ak lanmò.",
+    "pacing": "Pa kouri dèyè estimasyon sa a lè w vale anpil dlo yon sèl kou. Separe bwason yo sou tout jounen an. Pandan egzèsis, bwè selon swaf ou, kondisyon yo, ak kantite swe pa w ou pèdi. Chèche swen medikal ijan pou konfizyon, kriz konvilsyon, tonbe endispoze, oswa sentòm grav.",
+    "sources": "Sous: <nih>gid NIH sou iponatremi ki gen rapò ak egzèsis</nih> ak <academies>rekòmandasyon National Academies sou likid</academies>."
+  },
+  "notes": {
+    "title": "Nòt prèv ou yo",
+    "sexMan": "<strong>Sèks:</strong> Konsomasyon referans National Academies yo se apeprè 3.7 lit dlo total pa jou pou gason ak 2.7 pou fanm. Pwa kò a eksplike pifò nan diferans sa a, kidonk rès la parèt isit la kòm yon ogmantasyon 4 pousan sou baz selon pwa a, epi tchèk wotè ak fòm kò a sèvi ak fòmil pwa ideyal pou gason.",
+    "sexWoman": "<strong>Sèks:</strong> Konsomasyon referans National Academies yo se apeprè 3.7 lit dlo total pa jou pou gason ak 2.7 pou fanm. Pwa kò a eksplike pifò nan diferans sa a, kidonk rès la parèt isit la kòm yon diminisyon 4 pousan sou baz selon pwa a, epi tchèk wotè ak fòm kò a sèvi ak fòmil pwa ideyal pou fanm.",
+    "height": "<strong>Wotè ak fòm kò:</strong> Bezwen likid swiv mas mèg kò a plis pase pwa total la. Paske pwa ou pi wo pase ranje abityèl pou wotè ou, estimasyon an sèvi ak pwa kò ajiste (pwa ideyal plis 40 pousan diferans lan), yon konvansyon klinik ki komen. Se yon chif apwoksimatif pou planifye, se pa yon jijman sou kò w.",
+    "cycle": "<strong>Faz sik la:</strong> Chanjman likid ki gen rapò ak sik la reyèl, men etid yo pa etabli yon ogmantasyon fiks an ons ki valab pou tout moun. Nou pa t ajoute okenn ons otomatikman. Repa regilye anjeneral kouvri elektwolit yo; sipleman mayezyòm oswa potasyòm pa yon rekòmandasyon pou tout moun.",
+    "age": "<strong>Laj ak menopoz:</strong> Laj pou kont li pa detèmine si yon moun nan menopoz. Chanjman òmòn ka afekte swaf ak jan kò a regle likid, men pa gen okenn ajisteman an ons ki valide pou “plis pase 45 an”, kidonk laj ou pa t chanje total la.",
+    "heat": "<strong>Chalè:</strong> Yon bonis fiks pou klima ka sousestime oswa sirestime bezwen ou. Pou travay modere nan chalè pandan mwens pase dezèdtan, NIOSH konseye apeprè 8 ons chak 15–20 minit; swe anpil pandan pi lontan bezwen yon plan ranplasman ki fèt pou chak moun."
+  },
+  "evidence": {
+    "label": "Prèv:",
+    "academies": "Gid National Academies sou konsomasyon dlo",
+    "harvard": "Harvard Health sou manje ak idratasyon",
+    "cycle": "Etid sou osmoregilasyon pandan sik menstriyèl la",
+    "menopause": "Revizyon sou jan kò a regle likid nan menopoz",
+    "niosh": "Gid CDC/NIOSH sou chalè"
+  },
+  "tips": {
+    "kicker": "Itil, san obsesyon",
+    "title": "Twa tchèk pou lavi reyèl.",
+    "schedule": {
+      "title": "Orè a",
+      "body": "Kòmanse maten w ak dlo, bwè ti gòje pandan w ap manje, epi kite swaf, tan an, ak aktivite w gide rès la."
+    },
+    "electrolytes": {
+      "title": "Elektwolit",
+      "body": "Pifò moun ranplase elektwolit yo nan repa yo manje regilyèman. Apre w fin swe lontan oswa anpil, chwazi yon bwason elektwolit ki balanse; pa ajoute sèl regilyèman si yo te konseye w limite sodyòm."
+    },
+    "visualCheck": {
+      "title": "Tchèk vizyèl la",
+      "body": "Pipi jòn pal ka youn nan siy apwoksimatif ki montre ou byen idrate. Manje, vitamin, medikaman, ak pwoblèm sante ka chanje koulè a, kidonk se pa yon dyagnostik."
+    }
+  },
+  "author": {
+    "kicker": "Nan men moun ki bati l la",
+    "title": "Poukisa m bati sa a (ak poukisa ou pa ta dwe jis koute m)",
+    "athlete": "Non m se Denzel Rigaud. Mwen pase plis pase nevan ap kouri 400 mèt ak kous obstak, kidonk idratasyon te vin yon pati nan jan m te antrene, jan m te refè kò m, ak jan m te aprann li kò m.",
+    "purpose": "Mwen bati The Water Check pou ede w tande kò w pi fò pase bri entènèt la. Mwen pa vle ou pran eksperyans mwen kòm yon preskripsyon. Byoloji ou, anviwònman ou, istwa medikal ou ak etap lavi w detèmine sa ou bezwen.",
+    "technology": "Teknoloji pa la pou nou pase tout jounen ap woule ekran epi viv lavi lòt moun. Li ta dwe kenbe lavi nou pwodiktif epi fè lespri nou, nanm nou, tèt nou ak lachè nou vin pi bon, pou nou vin pi bon vèsyon moun nou vle ye a. Kidonk sispann koute tout lòt moun, paske sa ki mache pou ou, se li ki mache pou ou.",
+    "faith": "Aprann konnen abitid kò w epi pote kesyon medikal ou bay yon pwofesyonèl ki kalifye. Pran swen veso fizik ou ka rapwoche w ak tèt ou e ak Bondye, ki mete yon etensèl nan chak grenn nan nou ki merite pou nou pran swen l.",
+    "motto": "Pa swiv enfliyansè yo. Aprann konnen tèt ou.",
+    "date": "15 mas 2021",
+    "founderPage": "Paj fondatè a"
+  },
+  "community": {
+    "kicker": "Kenbe l imen",
+    "title": "Antre nan vrè kominote a.",
+    "instagram": "Swiv @thewatercheck sou Instagram",
+    "reelSoon": "Reel Instagram ap vini byento",
+    "story": "Istwa kominote {{position}}"
+  }
+}

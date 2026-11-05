@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Expected End'in kurucusu Denzel Rigaud",
+    "stats": {
+      "projects": "TAMAMLANAN PROJE",
+      "languages": "DİL",
+      "appStore": "APP STORE'DA"
+    },
+    "eyebrow": "<em>Umutlu bir geleceğe</em> açılan kapı",
+    "title": "Amaçla, <break/>özenle <break/>inşa edildi.",
+    "intro": "Expected End; insanları heyecan verici ve kolay yollarla Tanrı'ya yaklaştıran özenli yazılımlar, verimlilik araçları, dijital deneyimler ve topluluklar yaratır!",
+    "cta": "Çalışmaları görün",
+    "lensHint": "Kodu okumak için imleci hareket ettirin"
+  },
+  "projects": {
+    "eyebrow": "01 / Projeler",
+    "title": "App Store'da iki uygulama. <break/><em>Android çok yakında.</em>",
+    "visit": "Ziyaret edin: {{name}}",
+    "android": "Android çok yakında",
+    "bio": "Biyografi",
+    "actionFor": "{{name}}: {{action}}"
+  },
+  "behind": {
+    "eyebrow": "02 / İşin arkasında",
+    "title": "Buradaki her ürün, <em>beşinci sınıftaki bir sorudan</em> doğdu.",
+    "lead": "O soruyla bu uygulamalar arasında yas, iman ve sayısız uzun gece var. Hikâyenin devamı kendi sayfasında.",
+    "cta": "Hikâyeyi okuyun"
+  },
+  "proof": {
+    "caption": "Tamamlanan projeler",
+    "eyebrow": "03 / İşin kanıtı",
+    "title": "Sıfırdan inşa edildi. <em>İşler kendini anlatıyor.</em>",
+    "lead": "Uygulamalar, web siteleri, yapay zekâ araçları, filmler ve kampanyalar; hepsi şirket içinde tasarlandı, kodlandı ve yayına alındı. İşte bazıları.",
+    "stats": {
+      "apps": "App Store'da <strong>2 uygulama</strong>",
+      "languages": "MyBibleLens'te <strong>43 dil</strong>",
+      "years": "<strong>10 yıllık</strong> kodlama deneyimi",
+      "inHouse": "<strong>Fikirden lansmana</strong>, her şey şirket içinde"
+    },
+    "bigline": "<count>20+</count> PROJE <star>✦</star> GELİŞTİRİLDİ <star>✦</star> TESLİM EDİLDİ <star>✦</star> YAYINDA <star>✦</star>",
+    "rows": {
+      "products": "Uygulamalar ve ürünler",
+      "creative": "Web siteleri, yapay zekâ ve yaratıcı işler"
+    },
+    "next": "Sıradaki <em>sizin projeniz olabilir.</em>",
+    "cta": "Projenizi başlatın"
+  },
+  "services": {
+    "eyebrow": "04 / Seçili hizmetler",
+    "title": "Siz hayal edin, <em>ben inşa edeyim.</em>",
+    "lead": "Önce kendi ürünlerimiz gelir. Uyum doğru olduğunda, aynı özen başkaları için seçilmiş işlere de yansır.",
+    "note": "Lütfen tüm taleplerde bir fiyat aralığı belirtin ve gizlilik sözleşmesi (NDA) gerekiyorsa mesajınızda yazın.",
+    "count": "Hizmet {{number}} / {{total}}",
+    "start": "Bu projeyi başlatın"
+  }
+}

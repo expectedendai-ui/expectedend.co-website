@@ -1,8 +1,10 @@
 import * as React from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { ArrowDownIcon, ArrowUpRightIcon } from "./action-icons";
 import { BioDialog } from "./bio-dialog";
 import { ContactDialog } from "./contact-dialog";
 import { PROJECTS, SERVICES } from "./content";
+import { useContentText } from "./content-i18n";
 import { type ArcStat, CyberHero, Ticker } from "./cyber-hero";
 import cyber from "./cyber.module.css";
 import { AndroidMark, AppStoreMark, ServiceArt, tiltHandlers, useHomeMotion } from "./home-motion";
@@ -13,56 +15,58 @@ type HomePageProps = {
   onNavigate: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 };
 
-const HERO_STATS: readonly ArcStat[] = [
-  { value: "20", suffix: "+", label: "PROJECTS BUILT" },
-  { value: "43", label: "LANGUAGES" },
-  { value: "2", label: "ON THE APP STORE" },
-];
+const HERO_STATS = [
+  { key: "projects", value: "20", suffix: "+" },
+  { key: "languages", value: "43" },
+  { key: "appStore", value: "2" },
+] as const;
 
 export function HomePage({ onNavigate }: HomePageProps) {
+  const { t } = useTranslation("home");
+  const { project: projectText, service: serviceText } = useContentText();
   const [bioOpener, setBioOpener] = React.useState<HTMLButtonElement | null>(null);
   const [activeService, setActiveService] = React.useState<{ reason: string; opener: HTMLButtonElement } | null>(null);
   const [previewIndex, setPreviewIndex] = React.useState(0);
   const mainRef = React.useRef<HTMLElement>(null);
   useHomeMotion(mainRef);
   const tilt = tiltHandlers();
+  const heroStats: readonly ArcStat[] = HERO_STATS.map(({ key, ...stat }) => ({ ...stat, label: t(`hero.stats.${key}`) }));
+  const services = SERVICES.map(serviceText);
+  const preview = services[previewIndex];
 
   return (
     <main className={cyber.page} ref={mainRef}>
-      <CyberHero variant="home" labelledBy="hero-title" photoAlt="Denzel Rigaud, founder of Expected End" stats={HERO_STATS} lens>
+      <CyberHero variant="home" labelledBy="hero-title" photoAlt={t("hero.photoAlt")} stats={heroStats} lens>
         <p className={`${cyber.heroEyebrow} ${cyber.rise}`} style={{ animationDelay: ".15s" }}>
-          Gateway to your <em>expected end</em>
+          <Trans t={t} i18nKey="hero.eyebrow" components={{ em: <em /> }} />
         </p>
         <h1 id="hero-title" className={`${cyber.heroTitle} ${cyber.rise}`} style={{ animationDelay: ".3s" }}>
-          Purpose, <br />
-          built <br />
-          beautifully.
+          <Trans t={t} i18nKey="hero.title" components={{ break: <br /> }} />
         </h1>
         <p className={`${cyber.heroText} ${cyber.rise}`} style={{ animationDelay: ".5s" }}>
-          Expected End creates thoughtful software, productivity tools, digital experiences, and communities that bring people closer to God in exciting and easy ways!
+          {t("hero.intro")}
         </p>
         <div className={cyber.rise} style={{ animationDelay: ".7s" }}>
           <a className={cyber.cta} href="#projects">
             <span className={cyber.shine} aria-hidden="true" />
-            <span className={cyber.ctaLabel}>See the work</span>
+            <span className={cyber.ctaLabel}>{t("hero.cta")}</span>
             <ArrowDownIcon />
           </a>
         </div>
       </CyberHero>
 
-      <Ticker items={SERVICES.map(([, title]) => title)} />
+      <Ticker items={services.map(({ title }) => title)} />
 
       <section className={cyber.section} id="projects" aria-labelledby="projects-title">
         <div className={cyber.wrap}>
           <div data-reveal>
-            <p className={cyber.eyebrow}>01 / Projects</p>
+            <p className={cyber.eyebrow}>{t("projects.eyebrow")}</p>
             <h2 className={cyber.title} id="projects-title">
-              Two apps on the App Store. <br />
-              <em>Android coming soon.</em>
+              <Trans t={t} i18nKey="projects.title" components={{ break: <br />, em: <em /> }} />
             </h2>
           </div>
           <div className={styles.projectGrid}>
-            {PROJECTS.filter((project) => !project.artVariant.endsWith("-store")).map((project, index) => (
+            {PROJECTS.filter((project) => !project.artVariant.endsWith("-store")).map(projectText).map((project, index) => (
               <article
                 className={styles.card}
                 key={project.name}
@@ -75,7 +79,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   {...tilt}
                   href={project.destination.href}
                   {...(project.destination.href.startsWith("http") ? { target: "_blank", rel: "noreferrer" } : { onClick: onNavigate })}
-                  aria-label={`Visit ${project.name}`}
+                  aria-label={t("projects.visit", { name: project.name })}
                 >
                   <span className={styles.stageTag} aria-hidden="true">
                     EE / {String(index + 1).padStart(3, "0")}
@@ -93,7 +97,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
                     ) : null}
                     <span className={`${styles.chip} ${styles.chipSoft}`}>
                       <AndroidMark />
-                      Android coming soon
+                      {t("projects.android")}
                     </span>
                   </div>
                   <h3 className={styles.name}>{project.name}</h3>
@@ -109,16 +113,21 @@ export function HomePage({ onNavigate }: HomePageProps) {
                       <ArrowUpRightIcon />
                     </a>
                     {project.name === "The Water Check" ? (
-                      <button className={cyber.btn} type="button" aria-label="Bio for The Water Check" onClick={(event) => setBioOpener(event.currentTarget)}>
-                        Bio
+                      <button
+                        className={cyber.btn}
+                        type="button"
+                        aria-label={t("projects.actionFor", { action: t("projects.bio"), name: project.name })}
+                        onClick={(event) => setBioOpener(event.currentTarget)}
+                      >
+                        {t("projects.bio")}
                       </button>
-                    ) : "secondaryAction" in project ? (
+                    ) : project.secondaryAction ? (
                       <a
                         className={cyber.btn}
                         href={project.secondaryAction.href}
                         target="_blank"
                         rel="noreferrer"
-                        aria-label={`${project.secondaryAction.label} for ${project.name}`}
+                        aria-label={t("projects.actionFor", { action: project.secondaryAction.label, name: project.name })}
                       >
                         {project.secondaryAction.label}
                       </a>
@@ -136,14 +145,14 @@ export function HomePage({ onNavigate }: HomePageProps) {
           <div className={styles.behind} data-reveal>
             <img className={styles.behindPhoto} src="/media/denzel-founder-scroll-poster.jpg" alt="" width="2560" height="1136" loading="lazy" decoding="async" />
             <div className={styles.behindCopy}>
-              <p className={cyber.eyebrow}>02 / Behind the work</p>
+              <p className={cyber.eyebrow}>{t("behind.eyebrow")}</p>
               <h2 id="behind-title" className={cyber.title}>
-                Every product here started with a question in a <em>fifth-grade classroom.</em>
+                <Trans t={t} i18nKey="behind.title" components={{ em: <em /> }} />
               </h2>
-              <p className={cyber.lead}>Grief, faith and a lot of late nights came between that question and these apps. The rest of the story is on its own page.</p>
+              <p className={cyber.lead}>{t("behind.lead")}</p>
               <div className={cyber.actions}>
                 <a className={`${cyber.btn} ${cyber.btnLight}`} href="/denzel-rigaud" onClick={onNavigate}>
-                  Read the story <ArrowUpRightIcon />
+                  {t("behind.cta")} <ArrowUpRightIcon />
                 </a>
               </div>
             </div>
@@ -156,16 +165,16 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className={`${cyber.section} ${styles.services}`} id="services" aria-labelledby="services-title">
         <div className={cyber.wrap}>
           <div data-reveal>
-            <p className={cyber.eyebrow}>04 / Selected services</p>
+            <p className={cyber.eyebrow}>{t("services.eyebrow")}</p>
             <h2 id="services-title" className={cyber.title}>
-              You dream it, <em>I build it.</em>
+              <Trans t={t} i18nKey="services.title" components={{ em: <em /> }} />
             </h2>
-            <p className={cyber.lead}>The products come first. When the fit is right, the same thoughtfulness goes into selected work for others.</p>
-            <p className={cyber.note}>Please include a price range for all inquiries and mention in your message if an NDA is needed.</p>
+            <p className={cyber.lead}>{t("services.lead")}</p>
+            <p className={cyber.note}>{t("services.note")}</p>
           </div>
           <div className={styles.picker}>
             <div className={styles.serviceList}>
-              {SERVICES.map(([number, title, description, contactReason], index) => (
+              {services.map(({ number, title, body, reason }, index) => (
                 <button
                   className={styles.service}
                   type="button"
@@ -175,12 +184,12 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   style={{ "--reveal-delay": `${index * 50}ms` } as React.CSSProperties}
                   onPointerEnter={() => setPreviewIndex(index)}
                   onFocus={() => setPreviewIndex(index)}
-                  onClick={(event) => setActiveService({ reason: contactReason, opener: event.currentTarget })}
+                  onClick={(event) => setActiveService({ reason, opener: event.currentTarget })}
                 >
                   <span className={styles.serviceNumber}>{number}</span>
                   <span className={styles.serviceMain}>
                     <h3>{title}</h3>
-                    <p>{description}</p>
+                    <p>{body}</p>
                   </span>
                   <svg className={styles.serviceArrow} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
                     <path d="M7 17 17 7" />
@@ -202,15 +211,15 @@ export function HomePage({ onNavigate }: HomePageProps) {
               </div>
               <div className={styles.previewFoot}>
                 <p className={styles.previewCount}>
-                  Service {SERVICES[previewIndex][0]} / {SERVICES.length.toString().padStart(2, "0")}
+                  {t("services.count", { number: preview.number, total: SERVICES.length.toString().padStart(2, "0") })}
                 </p>
-                <p className={styles.previewTitle}>{SERVICES[previewIndex][1]}</p>
+                <p className={styles.previewTitle}>{preview.title}</p>
                 <button
                   className={`${cyber.btn} ${cyber.btnLight}`}
                   type="button"
-                  onClick={(event) => setActiveService({ reason: SERVICES[previewIndex][3], opener: event.currentTarget })}
+                  onClick={(event) => setActiveService({ reason: preview.reason, opener: event.currentTarget })}
                 >
-                  Start this project
+                  {t("services.start")}
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
                     <path d="M5 12h14" />
                     <path d="m13 6 6 6-6 6" />

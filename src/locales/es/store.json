@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Artículos para el camino",
+    "headline": "Mantén cerca lo que importa.",
+    "intro": "Una pequeña colección de artículos bien pensados para tus notas, tus recordatorios y el caminar diario con Dios.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Cuaderno guiado",
+        "kind": "Cuaderno"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Un pequeño recordatorio",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Una prenda suave para todos los días",
+        "kind": "Ropa"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Para las mañanas frescas",
+        "kind": "Ropa"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "El primer lanzamiento",
+    "headline": "Toma agua. Sigue adelante.",
+    "intro": "Prendas pensadas para la hidratación, para quienes siempre llegan, rellenan la botella y mantienen el check en marcha.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Un básico luminoso para todos los días",
+        "kind": "Camiseta"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Para después de la caminata larga",
+        "kind": "Sudadera"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Un segundo color",
+        "kind": "Camiseta"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Una prenda gruesa, de estilo sereno",
+        "kind": "Sudadera"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navegación de la tienda {{store}}",
+    "collection": "La colección"
+  },
+  "hero": {
+    "action": "Explora el primer lanzamiento",
+    "mybiblelensArt": "Logo de la tienda MyBibleLens y collage de stickers",
+    "watercheckArt": "Burbuja con el logo líquido de The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Muy pronto",
+    "title": "Hecho para formar parte de tu día.",
+    "body": "Estas son las primeras piezas. Las fotos de los productos, las opciones y los enlaces de pago aparecerán aquí cuando el lanzamiento esté listo."
+  },
+  "product": {
+    "placeholder": "Imagen provisional de {{name}}",
+    "buy": "Comprar ahora",
+    "comingSoon": "Muy pronto",
+    "comingSoonLabel": "{{name}}, muy pronto"
+  },
+  "checkout": {
+    "eyebrow": "Sin necesidad de cuenta",
+    "title": "Cuando abra, pagar será sencillo.",
+    "body": "Elige una pieza, toca Comprar ahora y paga de forma segura con Stripe. Sin cuenta en la tienda y sin laberintos de carrito."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Las políticas de la tienda se publicarán antes del primer lanzamiento.",
+    "policies": "Políticas de la tienda",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "accessibility": "Accesibilidad",
+    "shipping": "Envíos y devoluciones: antes del lanzamiento"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | มีเป้าหมาย สร้างสรรค์อย่างงดงาม",
+    "description": "Expected End สร้างซอฟต์แวร์ที่ใส่ใจ เครื่องมือเพิ่มประสิทธิภาพ ประสบการณ์ดิจิทัล และคอมมูนิตี้"
+  },
+  "about": {
+    "title": "เกี่ยวกับเรา | Expected End",
+    "description": "เรื่องราวผู้ก่อตั้งของ Denzel Rigaud พันธกิจเบื้องหลัง Expected End และโปรเจกต์ที่สร้างขึ้นจากความเชื่อและเป้าหมาย"
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | ผู้ก่อตั้ง Expected End",
+    "description": "Denzel Rigaud คือผู้ก่อตั้งและนักพัฒนาฟูลสแตกเบื้องหลัง Expected End, MyBibleLens แอปสถานศักดิ์สิทธิ์สำหรับคริสเตียน และ The Water Check"
+  },
+  "press": {
+    "title": "สื่อมวลชน | Expected End",
+    "description": "ประวัติที่ได้รับอนุมัติ ข้อเท็จจริงที่ตรวจสอบแล้ว ลิงก์ข้อมูลอ้างอิง และสื่อที่ดาวน์โหลดได้ สำหรับการนำเสนอข่าวเกี่ยวกับ Expected End และ Denzel Rigaud"
+  },
+  "terms": {
+    "title": "ข้อกำหนดการใช้งานเว็บไซต์ | Expected End",
+    "description": "ข้อกำหนดที่ใช้กับการใช้งานเว็บไซต์ Expected End"
+  },
+  "privacy": {
+    "title": "คำชี้แจงความเป็นส่วนตัว | Expected End",
+    "description": "วิธีที่ Expected End จัดการข้อมูลบนเว็บไซต์นี้"
+  },
+  "watercheck-privacy": {
+    "title": "นโยบายความเป็นส่วนตัวของ The Water Check | Expected End",
+    "description": "สิ่งที่ The Water Check เก็บรวบรวม สิ่งที่อยู่บนโทรศัพท์ของคุณ ใครช่วยดูแลแอป และทางเลือกของคุณ"
+  },
+  "watercheck-terms": {
+    "title": "ข้อกำหนดและเงื่อนไขของ The Water Check | Expected End",
+    "description": "ข้อกำหนดในการใช้แอป The Water Check รวมถึงสุขภาพและความปลอดภัย AI กฎของแก๊ง และการซื้อ"
+  },
+  "watercheck-health-data": {
+    "title": "นโยบายความเป็นส่วนตัวของข้อมูลสุขภาพผู้บริโภคของ The Water Check | Expected End",
+    "description": "วิธีที่ The Water Check จัดการข้อมูลสุขภาพผู้บริโภค และวิธีขอเข้าถึง ลบ หรือยื่นอุทธรณ์"
+  },
+  "watercheck-delete-account": {
+    "title": "ลบบัญชีของคุณ | The Water Check",
+    "description": "วิธีลบบัญชีและข้อมูล The Water Check ของคุณ ในแอปหรือทางอีเมล"
+  },
+  "watercheck-community": {
+    "title": "แนวทางชุมชน | The Water Check",
+    "description": "แก๊งใน The Water Check รักษาความเป็นมิตรได้อย่างไร: กฎ การรายงานและการบล็อก และสิ่งที่เกิดขึ้นเมื่อมีการทำผิดกฎ"
+  },
+  "accessibility": {
+    "title": "การเข้าถึง | Expected End",
+    "description": "ความมุ่งมั่นของ Expected End ในการมอบประสบการณ์เว็บไซต์ที่ทุกคนเข้าถึงได้"
+  },
+  "mybiblelens-store": {
+    "title": "ร้านค้า MyBibleLens | Expected End",
+    "description": "ของใช้ที่ใส่ใจ เพื่อการเดินใกล้ชิดพระวจนะ ร้านค้า MyBibleLens เปิดเร็วๆ นี้"
+  },
+  "watercheck-store": {
+    "title": "ร้านค้า The Water Check | Expected End",
+    "description": "ของจำเป็นที่ได้แรงบันดาลใจจากการดื่มน้ำ จาก The Water Check คอลเลกชันแรกมาเร็วๆ นี้"
+  },
+  "watercheck-page": {
+    "title": "The Water Check | แอปดื่มน้ำและเครื่องคำนวณฟรี",
+    "description": "สำรวจแอป The Water Check และลองประเมินปริมาณน้ำแบบฟรีและเป็นส่วนตัวบน Expected End"
+  },
+  "watercheck-calculator": {
+    "title": "เครื่องคำนวณปริมาณน้ำฟรี | The Water Check",
+    "description": "รับค่าประมาณปริมาณน้ำต่อวันแบบฟรีและเป็นส่วนตัว ด้วยเครื่องคำนวณ The Water Check"
+  },
+  "not-found": {
+    "title": "ไม่พบหน้า | Expected End",
+    "description": "ไม่พบหน้า Expected End ที่คุณต้องการ"
+  }
+}

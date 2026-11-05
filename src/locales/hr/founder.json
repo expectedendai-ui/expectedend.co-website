@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud u naočalama s narančastim staklima",
+    "stats": {
+      "gradeValue": "5.",
+      "gradeSuffix": "",
+      "grade": "RAZRED · ZNATIŽELJA",
+      "grief": "TUGA",
+      "faith": "VJERA · POVRATAK"
+    },
+    "identity": "Identitet <b>/ Denzel Rigaud</b>",
+    "founded": "Osnovano / <time>3. ožujka 2026.</time>",
+    "eyebrow": "Denzel Rigaud / <em>Osnivač i samostalni full-stack programer</em>",
+    "title": "Um <br/>iza tvrtke <br/>Expected End",
+    "text": "Priča o znatiželji, tuzi, vjeri i pretvaranju tehnologije u put naprijed.",
+    "cta": "Pročitajte priču"
+  },
+  "ticker": {
+    "curiosity": "Znatiželja",
+    "grief": "Tuga",
+    "faith": "Vjera",
+    "code": "Kod",
+    "purpose": "Svrha"
+  },
+  "coordinates": {
+    "eyebrow": "Tri koordinate",
+    "title": "Put dovde nije bio <em>ravna crta.</em>",
+    "curiosity": {
+      "label": "01 / Peti razred",
+      "title": "Znatiželja je postala vještina preživljavanja.",
+      "body": "Počeo sam tako što sam odbio dopustiti da jedan neuspjeh odredi ostatak mog života.",
+      "big": "5."
+    },
+    "grief": {
+      "label": "02 / 2021.",
+      "title": "Tuga je zatvorila vrata tehnologiji.",
+      "body": "Nakon što sam izgubio oca, svaka vještina kojoj me naučio činila mi se nedodirljivom."
+    },
+    "faith": {
+      "label": "03 / 25. veljače 2026.",
+      "title": "Vjera je radu dala svrhu.",
+      "body": "Vratio sam se da gradim alate koji ljude ostavljaju jačima nego što su bili."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Priča osnivača / U prvom licu",
+    "title": "Bok, zovem se <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Tehnologija je dio mog života od petog razreda. Škola me frustrirala od malih nogu. Pao sam drugi razred dok sam se borio s jezičnom barijerom i nisam vjerovao da me taj neuspjeh treba definirati. Odlučio sam početi tako što ću hakirati svoje ocjene. Počelo je malo, ali kad sam shvatio koliko duboko mogu prodrijeti u sustave i probijati zaštite uređaja, postao sam znatiželjan prema sustavima oko sebe i počeo se zabavljati.",
+      "second": "Ta me znatiželja odvela do farmi botova na Instagramu, programiranja, automatizacije, strojnog učenja, online zajednica, digitalnog rasta i najmračnijih kutaka interneta. Naučio sam koliko tehnologija može biti moćna. Neki su me izbori naučili i da bolje prosuđujem."
+    },
+    "socials": {
+      "label": "Profili Denzela Rigauda na društvenim mrežama",
+      "instagram": "Denzel Rigaud na Instagramu",
+      "linkedin": "Denzel Rigaud na LinkedInu",
+      "youtube": "Denzel Rigaud na YouTubeu"
+    },
+    "records": {
+      "label": "Neovisni zapisi o identitetu",
+      "heading": "Vanjski zapisi",
+      "worldAthletics": "Profil na World Athletics",
+      "lynn": "Sportski profil na Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Poglavlje 01",
+    "kicker": "Ljudi koji su me učili",
+    "title": "Moj prvi web-čarobnjak.",
+    "first": "Moj otac i <brother>brat</brother> bili su najpametniji ljudi koje sam poznavao, ali rijetko sam ih viđao. Imali smo odnos preko telefona. Svake sekunde koju sam dobio za razgovor s njima učili su me nečemu što sam trebao znati. S vremenom sam shvatio da ipak sam moram odlučiti što je ispravno za mene. Moj otac bio je web-čarobnjak, a ja sam se na internetu osjećao nezaustavljivo. Moj brat radi za NSA.",
+    "second": "Godine 2021. preselio sam se u saveznu državu Florida nakon 17 godina života s dvije majke i dvije sestre. Preživio sam, haha. Tada sam prvi put mogao živjeti s ocem. Šest mjeseci kasnije umro je, pa sam zatvorio vrata tehnologiji jer me svaka vještina podsjećala na njega.",
+    "third": "Moj otac bio je musliman veći dio života. Slijedio sam islam dijelom zato što sam htio biti poput njega. Prije smrti predao je svoj život Kristu. Njegova odluka ostala je sa mnom dugo nakon što sam odložio vlastite alate."
+  },
+  "return": {
+    "number": "Poglavlje 02",
+    "kicker": "Povratak",
+    "title": "Ponovno sam otvorio vrata.",
+    "first": "Godinama sam izbjegavao dio sebe koji me podsjećao na oca. Tehnologije sam se još povremeno doticao, ali zbog tuge nisam mogao ostati. Tu sam prazninu ispunio grijehom požude i udaljio se od osobe koja sam mogao postati.",
+    "second": "U siječnju 2026. znao sam da se moram promijeniti. Odlučio sam ponovno probuditi web-čarobnjaka kakvim me tata naučio biti, prestati biti tjelesan čovjek koji ne vjeruje u Boga i umjesto toga slijediti Njega. Kad sam to učinio, život mi je počeo napredovati.",
+    "third": "MyBibleLens je nastao iz te odluke. Nisam imao gotov plan. Počeo sam graditi i nastavio dalje. Taj mi je rad omogućio da otvorim vrata koja sam zatvorio nakon očeve smrti. Vratio sam The Water Check i počeo ostvarivati snove koje nosim od djetinjstva."
+  },
+  "draft": {
+    "label": "Poglavlje 03 / Nacrt",
+    "title": "„Istina iza koda”"
+  },
+  "venom": {
+    "title": "Digitalni otrov",
+    "first": "Događa se u sekundi kad se probudimo. Prije nego što nam stopala uopće dotaknu pod, ruka se ispruži. Zgrabite telefon. Svi to radimo. Ali taj jedan refleksni pokret odmah remeti neuronske putove u vašem mozgu i baca vas u kritično, tjeskobno stanje prije nego što je dan uopće počeo.",
+    "second": "Kao samostalni programer već 10 godina, i kao sin oca koji je bio samostalni haker za kibernetičku sigurnost i koji me naučio mračnim i tajanstvenim krajevima interneta, vidim kod iza ekrana. Točno znam kako algoritam radi, a istina je da je on otrov. Silna toksičnost koju osjećate na internetu zapravo nije ljudska priroda: to je proizvedena iluzija. Pod stalnim smo napadom „pseudoizma”, u kojem preplavljeni, neprijateljski odjeljci s komentarima rijetko jesu spontani ispadi nasumičnih, običnih korisnika interneta. Umjesto toga, oni su dio namjerne, sustavne strategije računalne propagande. Lažni računi i mreže botova koriste se kako bi u vaš feed ubacili umjetne narative, osmišljene upravo da manipuliraju percepcijom javnosti, prodube naše podjele i utječu na vaše ponašanje na internetu.",
+    "third": "Nije važno koliko je čista povijest pretraživanja vas ili vaše djece, ni koliko vam se feed čini čistim; sustav je osmišljen da vas vuče natrag. Vuče vas prema negativnosti, prema površnosti i prema guruima za brzo bogaćenje koji nas tjeraju da Novac stavimo iznad Boga (<strong>1 Tim 6,10</strong>), stvarajući ljude s duhom mamona. Zbog njega naše prekrasne sestre ne znaju da njihova prava ljepota nije šminka, nije ono što neki dečko misli o njoj ni koliko lajkova dobije na Instagramu… to je njezino srce i njezini anđeoski putovi s Bogom. To je stroj izgrađen da otme vaš um i kontrolira vaše navike.",
+    "fourth": "Ta stalna bujica izvještačenosti zarobljava nas u užurbanom postojanju i zasljepljuje nas za činjenicu da prave stvari traže vrijeme. Prava ljubav, istinski rast i autentične veze zahtijevaju strpljenje, a ne trenutačno zadovoljstvo koje pruža telefon. Navodi mozak da očekuje stalan dopaminski nalet slaganja. Baš kao kurirani algoritmi stranice „Za vas”, ljudima daje osjećaj da slijepo imaju pravo na vlastito mišljenje, zatvarajući ih prema stvarnim ljudskim bićima i stvarnosti da se neće svi složiti oko istoga. To je spora predaja koja dopušta da hladna tehnologija i izvještačenost potpuno preuzmu ljudski um.",
+    "fifth": "Žele da nas zaokupljaju ovi proizvedeni ratovi. Žele da se mozgovi naše djece pretvore u kašu, zauvijek zarobljeni na najnižoj razini <strong><bloom>Bloomove taksonomije</bloom></strong>: samo „pamćenje” i konzumiranje, bez postavljanja pitanja, bez stvaranja, bez ikakvog dubljeg razmišljanja. Gledamo kako cijela generacija odgađa ključne <strong><erikson>Eriksonove faze života</erikson></strong>, paralizirana lažnim, kuriranim stvarnostima koje vidi na ekranima, prestravljena od pravog odrastanja jer joj se ništa više ne čini autentičnim. Svijet je potpuno sit laži. Ako ne vidite manipulaciju u kodu, ništa zato; moja generacija je vidi, a vidjet će je i buduća generacija."
+  },
+  "crucible": {
+    "title": "Kušnja koja me izgradila",
+    "first": "Ovo nisam naučio samo proučavajući podatke; to sam proživio: prodavao sam drogu samo da bih izgradio život koji sam sam sebi obećao, onaj koji će stići do svijetle budućnosti. Izbačen iz kuća voljenih ljudi, beskućnik. Ponuđen mi je ulaz u industriju za odrasle kad mi je novac najviše trebao, 10 tisuća mahali su mi pred licem, ali mama me odgojila s moralom. <court>Dvije</court> tužbe <search>u</search> srednjoj školi. Počeo sam hakirati ocjene u 5. razredu jer mi je bilo dosta neuspjeha, osobito kad sam shvatio da su me zadržali u 2. razredu zbog naglaska s kojim sam došao. To se kasnije pretvorilo u hakiranje puno više toga… kad sam jednog dana zaista upoznao svog <father>oca</father>, shvatio sam na koga sam.",
+    "second": "Dugo sam mislio da me Bog nikad neće primiti natrag nakon svega toga. Mislio sam da sam otišao predaleko. Ali onda sam saznao za apostola Pavla. Pavao je doslovno ubijao kršćane, a Bog se ipak okrenuo i dao mu golem dar. I tada mi je sinulo: ako je Bog mogao upotrijebiti čovjeka poput Pavla, moja prošlost nikad nije bila previše da On s njom izgradi budućnost.",
+    "third": "Taj instinkt preživljavanja počeo je rano. Odrastanje okružen s 4 žene tijekom 16 godina oblikovalo je moju psihu na načine koje još raspetljavam. Moj je um bio uvježban da istodobno radi na različitim psihološkim valnim duljinama. Snalazio sam se u iskrivljenoj psihologiji, složenim odnosima i manipulaciji koji su me oblikovali u to što jesam. I volim ih zbog toga; to mi je uštedjelo energiju s djevojkama kad sam stvarno odlučio razmisliti o onome o čemu mi je mama govorila. I nakon slomljenih srca i prevara još uvijek vjerujem u <chivalry>viteštvo</chivalry>.",
+    "fourth": "Hoću reći, da bi preživio u kući punoj žena, moraš razmišljati kao one, a kad sam ih napustio, morao sam postati mladić kakav sam danas, kroz brojne borbe kroz koje sam prošao. Bilo je to kaotično okruženje, a jasnoću sam pronašao tek kad sam svjesno odlučio molitvom ukloniti svoj jedini grijeh, „požudu”, i buku. Kad sam napokon stavio Boga na prvo mjesto, shvatio sam tko zapravo jesam. Izazove koji su me oblikovali nisam vidio kao prokletstva, nego kao upravo onu obuku koja mi je trebala da se približim Bogu i izgradim izlaz za druge.",
+    "fifth": "Pronalazak Boga naveo me da naučim više o sebi. Slijedeći Boga, naučio sam o svojim ranama i darovima, a razumijevanje sebe probudilo je u meni želju da Ga bolje upoznam. Tada mi je život počeo napredovati: imao sam smjer, svrhu i razlog da se brinem o onome što mi je Bog dao. The Water Check pripada toj misiji. Obraćanje pažnje na ono što utječe na vaše tijelo može vam pomoći da razumijete osobu kakvom vas je Bog stvorio i da se brinete o njoj. Želim graditi tehnologiju koja vam pomaže da postanete najsposobnija verzija te osobe.",
+    "mission": "Sve što gradim u ovoj tvrtki usmjereno je prema istoj misiji: približiti ljude Bogu i pomoći im da tehnologiju koriste kako bi živjeli, stvarali, voljeli i služili s namjerom. To je budućnost kojoj se nadam i prema kojoj radim.",
+    "connect": {
+      "label": "Pratite Denzela Rigauda",
+      "youtube": "Expected End na YouTubeu",
+      "instagram": "Pratite Denzela Rigauda na Instagramu",
+      "linkedin": "Povežite se s Denzelom Rigaudom na LinkedInu"
+    }
+  },
+  "memory": {
+    "label": "Osobni dosje / 04 uspomene",
+    "title": "Arhiv uspomena",
+    "text": "Ljudi, prostorije i pravi rad iza koda. Preuzmite bilo koji kadar i zadržite ga.",
+    "number": "Uspomena {{number}}",
+    "download": "Preuzmite uspomenu {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel kao dijete s ocem",
+        "title": "Moj otac i ja"
+      },
+      "work": {
+        "alt": "Denzel radi na prijenosnom računalu s dvoje suradnika za stolom",
+        "title": "Rad za stolom"
+      },
+      "workspace": {
+        "alt": "Radni prostor aplikacija MyBibleLens i The Water Check",
+        "title": "Gdje je MyBibleLens dobio oblik"
+      },
+      "archive": {
+        "alt": "Denzelov videoarhiv Real Work na njegovu telefonu",
+        "title": "Arhiv Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Kraj prijenosa / Rad se nastavlja",
+    "title": "Izgradimo nešto što ljudima vraća <em>njihov život.</em>",
+    "text": "Za promišljen softver, razgovore s medijima ili početak dobre ideje otvorite kanal putem tvrtke Expected End.",
+    "contact": "Kontaktirajte Expected End",
+    "back": "Natrag na stranicu tvrtke"
+  },
+  "verse": {
+    "version": "Zagrebačka Biblija (Kršćanska sadašnjost)",
+    "reference": "Jeremija 29,11",
+    "text": "Jer ja znam svoje naume koje s vama namjeravam, riječ je Jahvina, naume mira, a ne nesreće: da vam dadnem budućnost i nadu.",
+    "close": "Zatvori biblijski redak"
+  },
+  "bio": {
+    "eyebrow": "Od osnivača",
+    "title": "Što se dogodilo s @thewatercheck?",
+    "close": "Zatvori biografiju",
+    "first": "Od 15. godine vodio sam i razvijao stranice influencera i stranice sa sadržajem, a usput sam gradio i vlastiti projekt, @thewatercheck.",
+    "second": "Kasnije, sa 17 godina, preselio sam se k tati, a profil je umirao jer <em>„Tko lovi dva zeca, ne ulovi nijednoga.”</em> <proverb>(ruska poslovica)</proverb> U toj su me dobi zanimali samo novci. Nisam davao sve od sebe za @thewatercheck.",
+    "third": "Tada je moj <father>otac</father> neočekivano preminuo <strong>10. srpnja 2021.</strong> Prešao sam u način preživljavanja, pitajući se kamo mi ide život. Da bih se nosio s boli zbog njegove smrti, zatvorio sam vrata web-čarobnjaku kakvim me otac nekoć naučio biti, sve do <strong>siječnja 2026.</strong>",
+    "stat": {
+      "from": "200.000 pratitelja",
+      "to": "7.000",
+      "caption": "Ondje je sada."
+    },
+    "what": {
+      "eyebrow": "Pa što je to bilo?",
+      "title": "Jednostavan podsjetnik koji su ljudi voljeli.",
+      "first": "The Water Check bio je samo ovo: svaki dan objavljivao sam sliku da podsjetim ljude da piju vodu, i to im je stvarno pomoglo da piju vodu. Komentari su bili <em>preplavljeni</em> ljudima. To je bilo sve što je radio, a ljudi su ga voljeli.",
+      "second": "Onda je bot izbrisao sve sa stranice, a život je od tada krenuo svojim tijekom."
+    }
+  },
+  "footer": {
+    "line": "Tehnologija nije tu da bismo besciljno skrolali i živjeli tuđe živote. Trebala bi jačati naš duh, dušu, um i tijelo.",
+    "sign": "Osnivač, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigacija u podnožju",
+    "build": "Što gradim",
+    "pressKit": "Medijski paket",
+    "find": "Pronađite me",
+    "finePrint": "Sitni tisak",
+    "terms": "Uvjeti korištenja",
+    "privacy": "Izjava o privatnosti",
+    "accessibility": "Pristupačnost",
+    "contact": "Kontakt",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Sva prava pridržana.",
+    "blessing": "Isus te voli."
+  },
+  "egg": {
+    "label": "Uđite u skriveni svijet umjetnosti",
+    "armed": "Još jedan pritisak i ulazite u skriveni svijet umjetnosti."
+  }
+}
