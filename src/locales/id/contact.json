@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Hubungi Expected End",
+    "title": "Mulailah dengan sedikit <em>konteks.</em>",
+    "intro": "Pilih beberapa detail dan email yang jelas akan disiapkan untuk Anda. Aplikasi email Anda terbuka lebih dulu sebelum apa pun dikirim."
+  },
+  "fields": {
+    "name": "Nama Anda",
+    "email": "Email Anda",
+    "reason": "Tentang apa ini?",
+    "project": "Proyek yang mana?",
+    "priceRange": "Kisaran harga",
+    "timeline": "Jadwal ideal",
+    "discovery": "Dari mana Anda mengenal Expected End?",
+    "message": "Apa yang ada di pikiran Anda?",
+    "chooseOne": "Pilih salah satu"
+  },
+  "reasons": {
+    "partnership": "Kemitraan atau kolaborasi",
+    "press": "Pers atau media",
+    "general": "Pertanyaan umum"
+  },
+  "projects": {
+    "waterCheckCommunity": "Komunitas The Water Check",
+    "newIdea": "Ide baru"
+  },
+  "timelines": {
+    "exploring": "Baru melihat-lihat",
+    "month": "Dalam sebulan",
+    "threeMonths": "Dalam tiga bulan",
+    "laterThisYear": "Akhir tahun ini",
+    "notSure": "Belum yakin"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Komunitas The Water Check",
+    "search": "Mesin pencari",
+    "referral": "Rekomendasi seseorang",
+    "elsewhere": "Dari tempat lain"
+  },
+  "submit": {
+    "note": "Tidak ada yang terkirim sampai Anda memeriksanya dan menekan Kirim di aplikasi email Anda.",
+    "apps": "Pilih <app>aplikasi email Anda</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, atau <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Siapkan email"
+  },
+  "dialog": {
+    "close": "Tutup formulir kontak"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud este fondatorul și dezvoltatorul full-stack din spatele Expected End, MyBibleLens, Aplicația Sanctuar pentru creștinism, și The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Aplicație creștină",
+      "action": "Vizitați aplicația",
+      "tagline": "Aplicația Sanctuar pentru creștinism.",
+      "secondary": "Bio",
+      "badge": "Pe App Store"
+    },
+    "watercheck": {
+      "category": "Comunitate pentru hidratare",
+      "action": "Vizitați aplicația",
+      "tagline": "Înțelegeți ce beți. Propriul număr de apă, dintr-o atingere.",
+      "badge": "În evaluare"
+    },
+    "mybiblelens-store": {
+      "category": "Magazin · În curând",
+      "action": "Intrați în magazin",
+      "tagline": "Credință pe care o puteți purta."
+    },
+    "watercheck-store": {
+      "category": "Magazin · În curând",
+      "action": "Intrați în magazin",
+      "tagline": "Echipamentul oficial al Departamentului de Hidratare."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Aplicație de credință · iOS",
+      "status": "Pe App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Aplicație de hidratare · iOS",
+      "status": "În evaluare"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens pentru Android",
+      "category": "Google Play",
+      "status": "Testare închisă"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Pânză infinită",
+      "status": "Disponibil"
+    },
+    "journey-plans": {
+      "name": "Planuri Journey",
+      "category": "Planuri de citire + sigilii",
+      "status": "Disponibil"
+    },
+    "water-check-crews": {
+      "name": "Găștile Water Check",
+      "category": "Hidratare în echipă",
+      "status": "Dezvoltat"
+    },
+    "home-screen-widgets": {
+      "name": "Widgeturi pentru ecranul principal",
+      "category": "Widgeturi iOS",
+      "status": "Dezvoltat"
+    },
+    "hydration-calculator": {
+      "name": "Calculator de hidratare",
+      "category": "Instrument web",
+      "status": "Disponibil"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Aplicație de management pentru afaceri",
+      "status": "În dezvoltare"
+    },
+    "43-language-rollout": {
+      "name": "Lansare în 43 de limbi",
+      "category": "Localizare",
+      "status": "43 de limbi"
+    },
+    "mybiblelens-store": {
+      "name": "Magazinul MyBibleLens",
+      "category": "Merch",
+      "status": "În curând"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Site-ul aplicației",
+      "status": "Disponibil"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Site-ul companiei",
+      "status": "Disponibil"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Studiu biblic cu AI",
+      "status": "Demo AI"
+    },
+    "hidden-art-world": {
+      "name": "Lume de artă ascunsă",
+      "category": "Artă web interactivă",
+      "status": "Easter egg"
+    },
+    "sanctuary-stickers": {
+      "name": "Stickerele Sanctuarului",
+      "category": "Set de ilustrații",
+      "status": "550+ stickere"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Filmul de prezentare MyBibleLens",
+      "category": "Film de brand",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Reels cu funcții",
+      "category": "Serie video",
+      "status": "10 videoclipuri"
+    },
+    "look-closer-series": {
+      "name": "Seria Look Closer",
+      "category": "Serie pentru social media",
+      "status": "60 de postări"
+    },
+    "25-week-campaign": {
+      "name": "Campanie de 25 de săptămâni",
+      "category": "Plan pentru Instagram",
+      "status": "100 de postări"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Caiet de lucru",
+      "status": "33 de blocuri"
+    },
+    "water-check-store": {
+      "name": "Magazinul Water Check",
+      "category": "Merch",
+      "status": "În curând"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Aplicații",
+      "body": "Produse utile și bine gândite, create în jurul oamenilor reali.",
+      "interest": "Construirea unei aplicații sau a unei idei de software"
+    },
+    "02": {
+      "title": "Site-uri web",
+      "body": "Case digitale distincte, clare, vii și primitoare.",
+      "interest": "Site web sau experiență digitală"
+    },
+    "03": {
+      "title": "Sisteme AI",
+      "body": "Inteligență practică ce ajută ideile și echipele să avanseze.",
+      "interest": "Sistem AI sau instrument de productivitate"
+    },
+    "04": {
+      "title": "Creație",
+      "body": "Identitate, direcție și experiențe care pun sensul în centru.",
+      "interest": "Direcție creativă sau design"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Casa personalizată a afacerii dvs. CRM, finanțe, proiecte, instrumente pentru echipă și orice funcție de care veți avea nevoie în continuare, totul într-un singur loc.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automatizări",
+      "body": "Înlocuiți munca repetitivă cu fluxuri conectate care țin afacerea în mișcare.",
+      "interest": "Automatizări"
+    },
+    "07": {
+      "title": "Portaluri pentru clienți",
+      "body": "Oferiți clienților sau membrilor un singur loc, bine finisat, unde să comunice, să facă rezervări, să partajeze fișiere și să urmărească progresul.",
+      "interest": "Portaluri pentru clienți"
+    },
+    "08": {
+      "title": "Salvare digitală",
+      "body": "Reparați, modernizați sau reconstruiți software-ul care nu mai funcționează pentru afacerea dvs.",
+      "interest": "Salvare digitală"
+    }
+  }
+}

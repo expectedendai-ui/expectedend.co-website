@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud ist Gründer und Full-Stack-Entwickler hinter Expected End, MyBibleLens (der Heiligtum-App für den christlichen Glauben) und The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "App für den christlichen Glauben",
+      "action": "App ansehen",
+      "tagline": "Die Heiligtum-App für den christlichen Glauben.",
+      "secondary": "Bio",
+      "badge": "Im App Store"
+    },
+    "watercheck": {
+      "category": "Community fürs Trinken",
+      "action": "App ansehen",
+      "tagline": "Versteh, was du trinkst. Deine eigene Wasserzahl, mit einem Tipp.",
+      "badge": "In Prüfung"
+    },
+    "mybiblelens-store": {
+      "category": "Store · Bald erhältlich",
+      "action": "Zum Store",
+      "tagline": "Glauben zum Anziehen."
+    },
+    "watercheck-store": {
+      "category": "Store · Bald erhältlich",
+      "action": "Zum Store",
+      "tagline": "Ausrüstung für die Trink-Abteilung."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Glaubens-App · iOS",
+      "status": "Im App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Trink-App · iOS",
+      "status": "In Prüfung"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens für Android",
+      "category": "Google Play",
+      "status": "Geschlossener Test"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Unendliche Leinwand",
+      "status": "Live"
+    },
+    "journey-plans": {
+      "name": "Journey-Pläne",
+      "category": "Lesepläne + Siegel",
+      "status": "Live"
+    },
+    "water-check-crews": {
+      "name": "Water Check Crews",
+      "category": "Trinken im Team",
+      "status": "Gebaut"
+    },
+    "home-screen-widgets": {
+      "name": "Widgets für den Home-Bildschirm",
+      "category": "iOS-Widgets",
+      "status": "Gebaut"
+    },
+    "hydration-calculator": {
+      "name": "Wasserbedarfsrechner",
+      "category": "Web-Tool",
+      "status": "Live"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Business-HQ-App",
+      "status": "In Entwicklung"
+    },
+    "43-language-rollout": {
+      "name": "Rollout in 43 Sprachen",
+      "category": "Lokalisierung",
+      "status": "43 Sprachen"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens Store",
+      "category": "Merch",
+      "status": "Bald erhältlich"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "App-Website",
+      "status": "Live"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Unternehmenswebsite",
+      "status": "Live"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "KI-Bibelstudium",
+      "status": "KI-Demo"
+    },
+    "hidden-art-world": {
+      "name": "Versteckte Kunstwelt",
+      "category": "Interaktive Webkunst",
+      "status": "Easter Egg"
+    },
+    "sanctuary-stickers": {
+      "name": "Heiligtum-Sticker",
+      "category": "Illustrationsset",
+      "status": "550+ Sticker"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens Pitch-Film",
+      "category": "Markenfilm",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Feature-Reels",
+      "category": "Videoserie",
+      "status": "10 Videos"
+    },
+    "look-closer-series": {
+      "name": "Serie Look Closer",
+      "category": "Social-Media-Serie",
+      "status": "60 Posts"
+    },
+    "25-week-campaign": {
+      "name": "25-Wochen-Kampagne",
+      "category": "Instagram-Plan",
+      "status": "100 Posts"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Arbeitsbuch",
+      "status": "33 Blöcke"
+    },
+    "water-check-store": {
+      "name": "Water Check Store",
+      "category": "Merch",
+      "status": "Bald erhältlich"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Apps",
+      "body": "Nützliche, durchdachte Produkte, gestaltet rund um echte Menschen.",
+      "interest": "Eine App- oder Software-Idee umsetzen"
+    },
+    "02": {
+      "title": "Websites",
+      "body": "Unverwechselbare digitale Zuhause, die klar, lebendig und einladend wirken.",
+      "interest": "Website oder digitales Erlebnis"
+    },
+    "03": {
+      "title": "KI-Systeme",
+      "body": "Praktische Intelligenz, die Ideen und Teams voranbringt.",
+      "interest": "KI-System oder Produktivitätstool"
+    },
+    "04": {
+      "title": "Kreativ",
+      "body": "Identität, Richtung und Erlebnisse mit Bedeutung im Mittelpunkt.",
+      "interest": "Kreative Leitung oder Design"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Dein individuelles Zuhause fürs Business. CRM, Finanzen, Projekte, Team-Tools und jede Funktion, die du als Nächstes brauchst, alles an einem Ort.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automatisierungen",
+      "body": "Wiederkehrende Arbeit durch vernetzte Abläufe ersetzen, die dein Unternehmen am Laufen halten.",
+      "interest": "Automatisierungen"
+    },
+    "07": {
+      "title": "Kundenportale",
+      "body": "Kunden oder Mitgliedern einen hochwertigen Ort geben, um zu kommunizieren, zu buchen, Dateien zu teilen und Fortschritte zu verfolgen.",
+      "interest": "Kundenportale"
+    },
+    "08": {
+      "title": "Digitale Rettung",
+      "body": "Software reparieren, modernisieren oder neu bauen, wenn sie für dein Unternehmen nicht mehr funktioniert.",
+      "interest": "Digitale Rettung"
+    }
+  }
+}

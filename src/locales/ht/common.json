@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Paj sa a pa la.",
+    "home": "Retounen nan paj dakèy la"
+  },
+  "legal": {
+    "englishOnly": "Paj sa a parèt an angle, epi se vèsyon angle a ki konte.",
+    "effective": "An vigè: {{date}}",
+    "onThisPage": "Sou paj sa a",
+    "related": "Paj ki gen rapò"
+  }
+}

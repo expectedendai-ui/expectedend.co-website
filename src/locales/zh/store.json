@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "旅程好物",
+    "headline": "把重要的留在身边。",
+    "intro": "一组用心的小物，为笔记、提醒和每天与上帝同行而作。",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "引导式笔记本",
+        "kind": "笔记本"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "一个小小的提醒",
+        "kind": "徽章"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "柔软的日常单品",
+        "kind": "服饰"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "为微凉的清晨而备",
+        "kind": "服饰"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "首批上新",
+    "headline": "喝水。继续前进。",
+    "intro": "为每天坚持到场、续杯、把打卡一直坚持下去的人准备的补水主题服饰。",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "明亮的日常必备",
+        "kind": "T 恤"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "长距离步行之后穿",
+        "kind": "连帽衫"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "第二种配色",
+        "kind": "T 恤"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "沉稳的厚磅单品",
+        "kind": "连帽衫"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}}商店导航",
+    "collection": "系列商品"
+  },
+  "hero": {
+    "action": "探索首批上新",
+    "mybiblelensArt": "MyBibleLens 商店标志与贴纸拼贴",
+    "watercheckArt": "The Water Check 液态标志气泡"
+  },
+  "collection": {
+    "eyebrow": "即将推出",
+    "title": "为融入你的日常而设计。",
+    "body": "这是第一批单品。商品照片、选项和购买链接会在上新时出现在这里。"
+  },
+  "product": {
+    "placeholder": "{{name}} 商品占位图",
+    "buy": "立即购买",
+    "comingSoon": "即将推出",
+    "comingSoonLabel": "{{name}} 即将推出"
+  },
+  "checkout": {
+    "eyebrow": "无需账户",
+    "title": "开放后，结账也会保持简单。",
+    "body": "选好单品，轻点“立即购买”，通过 Stripe 安全结账。不用注册商店账户，也没有绕来绕去的购物车流程。"
+  },
+  "footer": {
+    "note": "© {{year}} Expected End。商店政策将在首批商品上新前公布。",
+    "policies": "商店政策",
+    "terms": "条款",
+    "privacy": "隐私",
+    "accessibility": "无障碍",
+    "shipping": "配送与退货（上新前公布）"
+  }
+}

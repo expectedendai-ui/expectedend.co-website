@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Ez az oldal nincs itt.",
+    "home": "Vissza a főoldalra"
+  },
+  "legal": {
+    "englishOnly": "Ez az oldal angolul jelenik meg, és az angol változat az irányadó.",
+    "effective": "Hatályos: {{date}}",
+    "onThisPage": "Ezen az oldalon",
+    "related": "Kapcsolódó oldalak"
+  }
+}

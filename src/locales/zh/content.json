@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud 是 Expected End、MyBibleLens（基督信仰圣所应用）和 The Water Check 背后的创始人兼全栈开发者。",
+  "projects": {
+    "mybiblelens": {
+      "category": "基督信仰应用",
+      "action": "访问应用",
+      "tagline": "基督信仰圣所应用。",
+      "secondary": "简介",
+      "badge": "已上架 App Store"
+    },
+    "watercheck": {
+      "category": "补水社区",
+      "action": "访问应用",
+      "tagline": "了解你喝的是什么。轻点一下，就能得到你专属的饮水目标。",
+      "badge": "审核中"
+    },
+    "mybiblelens-store": {
+      "category": "商店 · 即将推出",
+      "action": "进入商店",
+      "tagline": "可以穿在身上的信仰。"
+    },
+    "watercheck-store": {
+      "category": "商店 · 即将推出",
+      "action": "进入商店",
+      "tagline": "补水部专属装备。"
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "信仰应用 · iOS",
+      "status": "已上架 App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "补水应用 · iOS",
+      "status": "审核中"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens Android 版",
+      "category": "Google Play",
+      "status": "封闭测试中"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "无限画布",
+      "status": "已上线"
+    },
+    "journey-plans": {
+      "name": "Journey 计划",
+      "category": "读经计划 + 印章",
+      "status": "已上线"
+    },
+    "water-check-crews": {
+      "name": "Water Check 小队",
+      "category": "团队补水",
+      "status": "已完成"
+    },
+    "home-screen-widgets": {
+      "name": "主屏幕小组件",
+      "category": "iOS 小组件",
+      "status": "已完成"
+    },
+    "hydration-calculator": {
+      "name": "补水计算器",
+      "category": "网页工具",
+      "status": "已上线"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "企业总部应用",
+      "status": "开发中"
+    },
+    "43-language-rollout": {
+      "name": "43 种语言版本",
+      "category": "本地化",
+      "status": "43 种语言"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens 商店",
+      "category": "周边商品",
+      "status": "即将推出"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "应用官网",
+      "status": "已上线"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "公司官网",
+      "status": "已上线"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI 圣经学习",
+      "status": "AI 演示"
+    },
+    "hidden-art-world": {
+      "name": "隐藏的艺术世界",
+      "category": "互动网页艺术",
+      "status": "彩蛋"
+    },
+    "sanctuary-stickers": {
+      "name": "圣所贴纸",
+      "category": "插画系列",
+      "status": "550+ 张贴纸"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens 宣传片",
+      "category": "品牌影片",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "功能短片",
+      "category": "视频系列",
+      "status": "10 支视频"
+    },
+    "look-closer-series": {
+      "name": "Look Closer 系列",
+      "category": "社交媒体系列",
+      "status": "60 篇帖子"
+    },
+    "25-week-campaign": {
+      "name": "25 周推广计划",
+      "category": "Instagram 计划",
+      "status": "100 篇帖子"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "练习册",
+      "status": "33 个模块"
+    },
+    "water-check-store": {
+      "name": "Water Check 商店",
+      "category": "周边商品",
+      "status": "即将推出"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "应用",
+      "body": "围绕真实的人设计的实用、贴心的产品。",
+      "interest": "开发应用或软件创意"
+    },
+    "02": {
+      "title": "网站",
+      "body": "清晰、鲜活、让人愿意停留的独特数字家园。",
+      "interest": "网站或数字体验"
+    },
+    "03": {
+      "title": "AI 系统",
+      "body": "帮助想法和团队向前推进的实用智能。",
+      "interest": "AI 系统或效率工具"
+    },
+    "04": {
+      "title": "创意",
+      "body": "以意义为核心的品牌形象、方向与体验。",
+      "interest": "创意方向或设计"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "你专属的企业大本营。CRM、财务、项目、团队工具，以及你接下来需要的任何功能，全部集中在一处。",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "自动化",
+      "body": "用互相连通的工作流取代重复性工作，让你的业务持续运转。",
+      "interest": "自动化"
+    },
+    "07": {
+      "title": "客户门户",
+      "body": "为客户或会员提供一个精致的统一平台，用来沟通、预约、共享文件和跟进进度。",
+      "interest": "客户门户"
+    },
+    "08": {
+      "title": "数字救援",
+      "body": "修复、升级或重建已经跟不上业务需求的软件。",
+      "interest": "数字救援"
+    }
+  }
+}

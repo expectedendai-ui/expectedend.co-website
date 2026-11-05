@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Den sidan finns inte här.",
+    "home": "Tillbaka till startsidan"
+  },
+  "legal": {
+    "englishOnly": "Den här sidan visas på engelska, och det är den engelska versionen som gäller.",
+    "effective": "Gäller från {{date}}",
+    "onThisPage": "På den här sidan",
+    "related": "Relaterade sidor"
+  }
+}

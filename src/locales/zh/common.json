@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "这个页面不存在。",
+    "home": "返回首页"
+  },
+  "legal": {
+    "englishOnly": "本页面以英文显示，并以英文版本为准。",
+    "effective": "生效日期：{{date}}",
+    "onThisPage": "本页内容",
+    "related": "相关页面"
+  }
+}

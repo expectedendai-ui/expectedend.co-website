@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, aasaasaha Expected End",
+    "stats": {
+      "projects": "MASHAARIIC LA DHISAY",
+      "languages": "LUUQADOOD",
+      "appStore": "KU JIRA APP STORE"
+    },
+    "eyebrow": "Albaabka <em>dhammaadka aad sugayso</em>",
+    "title": "Ujeeddo, <break/>si qurux badan <break/>loo dhisay.",
+    "intro": "Expected End waxay abuurtaa software si fiican looga fikiray, qalab wax-soo-saar, waayo-aragnimo dijitaal ah, iyo bulshooyin dadka ugu soo dhoweeya Ilaah habab xiiso leh oo fudud!",
+    "cta": "Arag shaqada",
+    "lensHint": "Dhaqaaji tilmaamahaaga si aad u akhrido koodhka"
+  },
+  "projects": {
+    "eyebrow": "01 / Mashaariic",
+    "title": "Laba ab oo ku jira App Store. <break/><em>Android dhowaan.</em>",
+    "visit": "Booqo {{name}}",
+    "android": "Android dhowaan",
+    "bio": "Taariikh nololeed",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Waxa ka dambeeya shaqada",
+    "title": "Badeecad kasta oo halkan ah waxay ka bilaabatay su'aal ka dhalatay <em>fasalka shanaad.</em>",
+    "lead": "Murugo, iimaan iyo habeenno badan oo soo jeed ah ayaa u dhexeeyay su'aashaas iyo ababkan. Inta kale ee sheekada waxay ku jirtaa boggeeda gaarka ah.",
+    "cta": "Akhri sheekada"
+  },
+  "proof": {
+    "caption": "Mashaariic la dhisay",
+    "eyebrow": "03 / Caddaynta shaqada",
+    "title": "Laga dhisay eber. <em>Shaqadu iyada ayaa is sheegaysa.</em>",
+    "lead": "Abab, bogag internet, qalab AI, filimo iyo olole, kuwaas oo gudaha lagu naqshadeeyay, lagu koodeeyay laguna soo saaray. Halkan waa qayb ka mid ah.",
+    "stats": {
+      "apps": "<strong>2 ab</strong> oo ku jira App Store",
+      "languages": "<strong>43 luuqadood</strong> oo ku jira MyBibleLens",
+      "years": "<strong>10 sano</strong> oo kood qoris ah",
+      "inHouse": "<strong>Fikrad ilaa soo saarid</strong>, dhammaan gudaha"
+    },
+    "bigline": "<count>20+</count> MASHRUUC <star>✦</star> LA DHISAY <star>✦</star> LA SOO SAARAY <star>✦</star> SHAQAYNAYA <star>✦</star>",
+    "rows": {
+      "products": "Abab iyo badeecado",
+      "creative": "Bogag internet, AI iyo shaqo hal-abuur"
+    },
+    "next": "Mashruucaaga ayaa noqon kara <em>kan xiga.</em>",
+    "cta": "Bilow kaaga"
+  },
+  "services": {
+    "eyebrow": "04 / Adeegyo la xushay",
+    "title": "Adigu riyood, <em>aniguna waan dhisayaa.</em>",
+    "lead": "Badeecadaha ayaa hormara. Marka ay ku habboon tahay, isla feejignaantaas ayaa la geliyaa shaqo la xushay oo loo qabto dad kale.",
+    "note": "Fadlan codsi kasta ku dar xadka qiimaha, farriintaadana ku sheeg haddii NDA loo baahan yahay.",
+    "count": "Adeegga {{number}} / {{total}}",
+    "start": "Bilow mashruucan"
+  }
+}

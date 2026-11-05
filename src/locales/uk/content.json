@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud: засновник і full-stack розробник Expected End, MyBibleLens (застосунку-святилища для християн) і The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Християнський застосунок",
+      "action": "Перейти до застосунку",
+      "tagline": "Застосунок-святилище для християн.",
+      "secondary": "Біо",
+      "badge": "В App Store"
+    },
+    "watercheck": {
+      "category": "Спільнота гідратації",
+      "action": "Перейти до застосунку",
+      "tagline": "Розумійте, що ви п’єте. Ваша власна норма води одним дотиком.",
+      "badge": "На перевірці"
+    },
+    "mybiblelens-store": {
+      "category": "Магазин · Скоро",
+      "action": "Перейти до магазину",
+      "tagline": "Віра, яку можна носити."
+    },
+    "watercheck-store": {
+      "category": "Магазин · Скоро",
+      "action": "Перейти до магазину",
+      "tagline": "Екіпірування для відділу гідратації."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Застосунок віри · iOS",
+      "status": "В App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Застосунок гідратації · iOS",
+      "status": "На перевірці"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens для Android",
+      "category": "Google Play",
+      "status": "Закрите тестування"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Нескінченне полотно",
+      "status": "Працює"
+    },
+    "journey-plans": {
+      "name": "Плани Journey",
+      "category": "Плани читання + печатки",
+      "status": "Працює"
+    },
+    "water-check-crews": {
+      "name": "Команди Water Check",
+      "category": "Командна гідратація",
+      "status": "Створено"
+    },
+    "home-screen-widgets": {
+      "name": "Віджети для початкового екрана",
+      "category": "Віджети iOS",
+      "status": "Створено"
+    },
+    "hydration-calculator": {
+      "name": "Калькулятор гідратації",
+      "category": "Вебінструмент",
+      "status": "Працює"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Застосунок-штаб для бізнесу",
+      "status": "У розробці"
+    },
+    "43-language-rollout": {
+      "name": "Запуск 43 мовами",
+      "category": "Локалізація",
+      "status": "43 мови"
+    },
+    "mybiblelens-store": {
+      "name": "Магазин MyBibleLens",
+      "category": "Мерч",
+      "status": "Скоро"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Сайт застосунку",
+      "status": "Працює"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Сайт компанії",
+      "status": "Працює"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Вивчення Біблії з AI",
+      "status": "AI-демо"
+    },
+    "hidden-art-world": {
+      "name": "Прихований світ мистецтва",
+      "category": "Інтерактивне вебмистецтво",
+      "status": "Пасхалка"
+    },
+    "sanctuary-stickers": {
+      "name": "Стікери святилища",
+      "category": "Набір ілюстрацій",
+      "status": "550+ стікерів"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Презентаційний фільм MyBibleLens",
+      "category": "Бренд-фільм",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Ролики про функції",
+      "category": "Відеосерія",
+      "status": "10 відео"
+    },
+    "look-closer-series": {
+      "name": "Серія Look Closer",
+      "category": "Серія для соцмереж",
+      "status": "60 публікацій"
+    },
+    "25-week-campaign": {
+      "name": "Кампанія на 25 тижнів",
+      "category": "План для Instagram",
+      "status": "100 публікацій"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Робочий зошит",
+      "status": "33 блоки"
+    },
+    "water-check-store": {
+      "name": "Магазин Water Check",
+      "category": "Мерч",
+      "status": "Скоро"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Застосунки",
+      "body": "Корисні, продумані продукти, створені навколо реальних людей.",
+      "interest": "Створення застосунку або програмної ідеї"
+    },
+    "02": {
+      "title": "Сайти",
+      "body": "Самобутні цифрові домівки: зрозумілі, живі та привітні.",
+      "interest": "Сайт або цифровий досвід"
+    },
+    "03": {
+      "title": "AI-системи",
+      "body": "Практичний інтелект, що допомагає ідеям і командам рухатися вперед.",
+      "interest": "AI-система або інструмент продуктивності"
+    },
+    "04": {
+      "title": "Креатив",
+      "body": "Айдентика, напрям і досвід, у центрі яких сенс.",
+      "interest": "Креативний напрям або дизайн"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ваш власний цифровий дім для бізнесу. CRM, фінанси, проєкти, інструменти для команди та будь-які можливості, які знадобляться далі, усе в одному місці.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Автоматизації",
+      "body": "Замініть рутинну роботу пов’язаними робочими процесами, які не дають вашому бізнесу зупинятися.",
+      "interest": "Автоматизації"
+    },
+    "07": {
+      "title": "Клієнтські портали",
+      "body": "Дайте клієнтам або учасникам одне доглянуте місце, де можна спілкуватися, бронювати, ділитися файлами й стежити за прогресом.",
+      "interest": "Клієнтські портали"
+    },
+    "08": {
+      "title": "Цифрове рятування",
+      "body": "Полагодимо, осучаснимо або перебудуємо програми, які більше не працюють на ваш бізнес.",
+      "interest": "Цифрове рятування"
+    }
+  }
+}

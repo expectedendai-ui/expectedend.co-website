@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Связаться с Expected End",
+    "title": "Начните с небольшого <em>контекста.</em>",
+    "intro": "Выберите несколько деталей, и мы подготовим для вас понятное письмо. Сначала откроется ваше почтовое приложение, и только потом что-то будет отправлено."
+  },
+  "fields": {
+    "name": "Ваше имя",
+    "email": "Ваш email",
+    "reason": "О чём речь?",
+    "project": "Какой проект?",
+    "priceRange": "Бюджет",
+    "timeline": "Желаемые сроки",
+    "discovery": "Как вы узнали об Expected End?",
+    "message": "Что вы задумали?",
+    "chooseOne": "Выберите вариант"
+  },
+  "reasons": {
+    "partnership": "Партнёрство или сотрудничество",
+    "press": "Пресса или СМИ",
+    "general": "Общий вопрос"
+  },
+  "projects": {
+    "waterCheckCommunity": "Сообщество The Water Check",
+    "newIdea": "Новая идея"
+  },
+  "timelines": {
+    "exploring": "Пока просто изучаю",
+    "month": "В течение месяца",
+    "threeMonths": "В течение трёх месяцев",
+    "laterThisYear": "Позже в этом году",
+    "notSure": "Пока не знаю"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Сообщество The Water Check",
+    "search": "Поиск",
+    "referral": "По рекомендации",
+    "elsewhere": "Другое"
+  },
+  "submit": {
+    "note": "Ничего не отправится, пока вы не проверите письмо и не нажмёте «Отправить» в своём почтовом приложении.",
+    "apps": "Выберите <app>ваше почтовое приложение</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> или <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Подготовить письмо"
+  },
+  "dialog": {
+    "close": "Закрыть форму обратной связи"
+  }
+}

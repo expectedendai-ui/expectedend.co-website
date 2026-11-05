@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud ni olùdásílẹ̀ àti olùgbéejáde full-stack tó wà lẹ́yìn Expected End, MyBibleLens, Áàpù Ibi Mímọ́ Kristẹni, àti The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Áàpù Kristẹni",
+      "action": "Ṣàbẹ̀wò sí áàpù",
+      "tagline": "Áàpù Ibi Mímọ́ Kristẹni.",
+      "secondary": "Ìtàn ṣókí",
+      "badge": "Lórí App Store"
+    },
+    "watercheck": {
+      "category": "Àwùjọ mímu omi",
+      "action": "Ṣàbẹ̀wò sí áàpù",
+      "tagline": "Mọ ohun tí o ń mu. Iye omi tìrẹ, pẹ̀lú títẹ̀ kan.",
+      "badge": "Wọ́n ń ṣàyẹ̀wò rẹ̀"
+    },
+    "mybiblelens-store": {
+      "category": "Ilé ìtajà · Ó ń bọ̀ láìpẹ́",
+      "action": "Wọ ilé ìtajà",
+      "tagline": "Ìgbàgbọ́ tí o lè wọ̀."
+    },
+    "watercheck-store": {
+      "category": "Ilé ìtajà · Ó ń bọ̀ láìpẹ́",
+      "action": "Wọ ilé ìtajà",
+      "tagline": "Ẹrù fún Ẹ̀ka Omi Mímu."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Áàpù ìgbàgbọ́ · iOS",
+      "status": "Lórí App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Áàpù mímu omi · iOS",
+      "status": "Wọ́n ń ṣàyẹ̀wò rẹ̀"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens fún Android",
+      "category": "Google Play",
+      "status": "Ìdánwò àdáni"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Kanfasi aláìlópin",
+      "status": "Ó ti jáde"
+    },
+    "journey-plans": {
+      "name": "Àwọn ètò Journey",
+      "category": "Àwọn ètò kíkà + èdìdí",
+      "status": "Ó ti jáde"
+    },
+    "water-check-crews": {
+      "name": "Àwọn Ẹgbẹ́ Water Check",
+      "category": "Mímu omi pẹ̀lú ẹgbẹ́",
+      "status": "A ti kọ́ ọ"
+    },
+    "home-screen-widgets": {
+      "name": "Wíjẹ́ẹ̀tì ojú-ìbojú ilé",
+      "category": "Wíjẹ́ẹ̀tì iOS",
+      "status": "A ti kọ́ ọ"
+    },
+    "hydration-calculator": {
+      "name": "Ẹ̀rọ ìṣirò omi",
+      "category": "Irinṣẹ́ orí ayélujára",
+      "status": "Ó ti jáde"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Áàpù olú-iléeṣẹ́ òwò",
+      "status": "À ń kọ́ ọ lọ́wọ́"
+    },
+    "43-language-rollout": {
+      "name": "Ìtumọ̀ sí èdè 43",
+      "category": "Ìmúbádọ́gba èdè",
+      "status": "Èdè 43"
+    },
+    "mybiblelens-store": {
+      "name": "Ilé Ìtajà MyBibleLens",
+      "category": "Ọjà àmì-ìdámọ̀",
+      "status": "Ó ń bọ̀ láìpẹ́"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Ojú òpó wẹ́ẹ̀bù áàpù",
+      "status": "Ó ti jáde"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Ojú òpó wẹ́ẹ̀bù ilé-iṣẹ́",
+      "status": "Ó ti jáde"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Ẹ̀kọ́ Bíbélì pẹ̀lú AI",
+      "status": "Àfihàn AI"
+    },
+    "hidden-art-world": {
+      "name": "Ayé iṣẹ́ ọnà tó farapamọ́",
+      "category": "Iṣẹ́ ọnà wẹ́ẹ̀bù aláfọwọ́kàn",
+      "status": "Ìṣúra tó farapamọ́"
+    },
+    "sanctuary-stickers": {
+      "name": "Àwọn Sticker Ibi Mímọ́",
+      "category": "Àkójọ àwòrán",
+      "status": "Sticker 550+"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Fíìmù ìpolówó MyBibleLens",
+      "category": "Fíìmù àmì-ìdámọ̀",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Fídíò kúkúrú àwọn ẹ̀yà",
+      "category": "Ọ̀wọ́ fídíò",
+      "status": "Fídíò 10"
+    },
+    "look-closer-series": {
+      "name": "Ọ̀wọ́ Look Closer",
+      "category": "Ọ̀wọ́ ìkànnì àjọlò",
+      "status": "Àtẹ̀jáde 60"
+    },
+    "25-week-campaign": {
+      "name": "Ìpolongo ọ̀sẹ̀ 25",
+      "category": "Ètò Instagram",
+      "status": "Àtẹ̀jáde 100"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Ìwé iṣẹ́",
+      "status": "Abala 33"
+    },
+    "water-check-store": {
+      "name": "Ilé Ìtajà Water Check",
+      "category": "Ọjà àmì-ìdámọ̀",
+      "status": "Ó ń bọ̀ láìpẹ́"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Àwọn Áàpù",
+      "body": "Àwọn ọjà tó wúlò, tí a ronú jinlẹ̀ lé lórí, tí a ṣe fún àwọn ènìyàn gidi.",
+      "interest": "Kíkọ́ áàpù tàbí èrò sọ́fútúwọ̀"
+    },
+    "02": {
+      "title": "Ojú Òpó Wẹ́ẹ̀bù",
+      "body": "Ilé oní-nọ́ńbà tó dá yàtọ̀, tó ṣe kedere, tó ní ìyè, tó sì ń kíni káàbọ̀.",
+      "interest": "Ojú òpó wẹ́ẹ̀bù tàbí ìrírí oní-nọ́ńbà"
+    },
+    "03": {
+      "title": "Ètò AI",
+      "body": "Òye àtọwọ́dá tó wúlò, tó ń ran àwọn èrò àti ẹgbẹ́ lọ́wọ́ láti tẹ̀síwájú.",
+      "interest": "Ètò AI tàbí irinṣẹ́ iṣẹ́ ṣíṣe"
+    },
+    "04": {
+      "title": "Iṣẹ́ Ọnà",
+      "body": "Ìdánimọ̀, ìdarí, àti àwọn ìrírí tí ìtumọ̀ wà ní àárín wọn.",
+      "interest": "Ìdarí iṣẹ́ ọnà tàbí àpẹẹrẹ"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ilé òwò rẹ tí a ṣe fún ọ ní pàtó. CRM, ìnáwó, iṣẹ́ àkànṣe, irinṣẹ́ ẹgbẹ́, àti agbára èyíkéyìí tí o bá nílò lẹ́yìn náà, gbogbo rẹ̀ ní ibì kan.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Iṣẹ́ Aládàáṣe",
+      "body": "Fi àwọn ìlànà iṣẹ́ tó so pọ̀ rọ́pò iṣẹ́ tí à ń ṣe léraléra, kí òwò rẹ lè máa tẹ̀síwájú.",
+      "interest": "Iṣẹ́ Aládàáṣe"
+    },
+    "07": {
+      "title": "Ẹnu-ọ̀nà Oníbàárà",
+      "body": "Fún àwọn oníbàárà tàbí ọmọ ẹgbẹ́ ní ibì kan tó mọ́yán lórí láti bá ọ sọ̀rọ̀, láti ṣètò ìpàdé, láti pín fáìlì, àti láti tọpa ìlọsíwájú.",
+      "interest": "Ẹnu-ọ̀nà Oníbàárà"
+    },
+    "08": {
+      "title": "Ìgbàlà Oní-nọ́ńbà",
+      "body": "Tún ṣe, sọ di òde òní, tàbí tún kọ́ sọ́fútúwọ̀ tí kò ṣiṣẹ́ fún òwò rẹ mọ́.",
+      "interest": "Ìgbàlà Oní-nọ́ńbà"
+    }
+  }
+}

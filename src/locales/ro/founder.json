@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud cu ochelari cu lentile portocalii",
+    "stats": {
+      "gradeValue": "5",
+      "gradeSuffix": "-a",
+      "grade": "CLASĂ · CURIOZITATE",
+      "grief": "DOLIU",
+      "faith": "CREDINȚĂ · ÎNTOARCEREA"
+    },
+    "identity": "Identitate <b>/ Denzel Rigaud</b>",
+    "founded": "Fondare / <time>3 martie 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Fondator și singurul dezvoltator full-stack</em>",
+    "title": "Mintea <br/>din spatele <br/>Expected End",
+    "text": "O poveste despre curiozitate, doliu, credință și despre cum tehnologia poate deveni un drum înainte.",
+    "cta": "Citiți povestea"
+  },
+  "ticker": {
+    "curiosity": "Curiozitate",
+    "grief": "Doliu",
+    "faith": "Credință",
+    "code": "Cod",
+    "purpose": "Scop"
+  },
+  "coordinates": {
+    "eyebrow": "Trei coordonate",
+    "title": "Drumul până aici nu a fost o <em>linie dreaptă.</em>",
+    "curiosity": {
+      "label": "01 / Clasa a cincea",
+      "title": "Curiozitatea a devenit o abilitate de supraviețuire.",
+      "body": "Am început prin a refuza să las un eșec să-mi definească restul vieții.",
+      "big": "a 5-a"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Doliul a închis ușa tehnologiei.",
+      "body": "Pierderea tatălui meu a făcut ca fiecare abilitate pe care m-a învățat-o să pară imposibil de atins."
+    },
+    "faith": {
+      "label": "03 / 25 februarie 2026",
+      "title": "Credința a dat un scop muncii.",
+      "body": "M-am întors ca să construiesc instrumente care îi lasă pe oameni mai puternici decât i-au găsit."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Povestea fondatorului / La persoana întâi",
+    "title": "Bună, mă numesc <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Tehnologia face parte din viața mea din clasa a cincea. Școala m-a frustrat de mic. Am rămas repetent în clasa a doua, când mă confruntam cu o barieră lingvistică, și nu credeam că acel eșec trebuie să mă definească. Am decis să încep prin a-mi hackui notele. A început cu ceva mic, dar când mi-am dat seama cât de adânc puteam pătrunde în sisteme și cum puteam face jailbreak tehnologiei, am devenit curios în privința sistemelor din jurul meu și am început să mă distrez.",
+      "second": "Curiozitatea aceea m-a dus spre fermele de boți de pe Instagram, programare, automatizare, machine learning, comunități online, creștere digitală și cele mai întunecate colțuri ale internetului. Am învățat cât de puternică poate fi tehnologia. Unele alegeri m-au învățat și să judec mai bine."
+    },
+    "socials": {
+      "label": "Profilurile sociale ale lui Denzel Rigaud",
+      "instagram": "Denzel Rigaud pe Instagram",
+      "linkedin": "Denzel Rigaud pe LinkedIn",
+      "youtube": "Denzel Rigaud pe YouTube"
+    },
+    "records": {
+      "label": "Înregistrări independente de identitate",
+      "heading": "Înregistrări externe",
+      "worldAthletics": "Profil World Athletics",
+      "lynn": "Profil de atlet la Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Capitolul 01",
+    "kicker": "Oamenii care m-au învățat",
+    "title": "Primul meu vrăjitor al webului.",
+    "first": "Tatăl și <brother>fratele</brother> meu erau cei mai deștepți oameni pe care îi cunoșteam, dar rareori îi vedeam. Aveam o relație prin telefon. În fiecare secundă în care reușeam să vorbesc cu ei, mă învățau ceva ce trebuia să știu. Cu timpul, am învățat că tot eu trebuia să decid ce era bine pentru mine. Tatăl meu era un vrăjitor al webului, iar eu mă simțeam de neoprit pe internet. Fratele meu lucrează pentru NSA.",
+    "second": "În 2021 m-am mutat în Florida, după 17 ani în care am locuit cu cele două mame și cele două surori ale mele. Am supraviețuit, haha. Apoi am ajuns să locuiesc cu tatăl meu pentru prima dată. Șase luni mai târziu, a murit, așa că am închis ușa tehnologiei, pentru că fiecare abilitate îmi amintea de el.",
+    "third": "Tatăl meu fusese musulman o mare parte din viață. Am urmat islamul în parte pentru că voiam să fiu ca el. Înainte să moară, și-a dat viața lui Hristos. Decizia lui a rămas cu mine mult timp după ce mi-am pus deoparte propriile unelte."
+  },
+  "return": {
+    "number": "Capitolul 02",
+    "kicker": "Întoarcerea",
+    "title": "Am deschis din nou ușa.",
+    "first": "Am petrecut ani întregi evitând partea din mine care îmi amintea de tatăl meu. Mai atingeam tehnologia din când în când, dar doliul îmi făcea greu să rămân. Am umplut golul acela cu păcatul poftei și m-am îndepărtat tot mai mult de omul care aș fi putut deveni.",
+    "second": "În ianuarie 2026 am știut că trebuie să mă schimb. Am decis să redau viață vrăjitorului webului care tata m-a învățat să fiu, să nu mai fiu un om trupesc care nu credea în Dumnezeu și să-L urmez pe El. Când am făcut asta, viața mea a început să prospere.",
+    "third": "MyBibleLens s-a născut din această decizie. Nu aveam un plan complet. Am început să construiesc și am mers mai departe. Munca m-a lăsat să deschid ușa pe care o închisesem după moartea tatălui meu. Am readus The Water Check și am început să-mi reiau visurile pe care le purtam încă din copilărie."
+  },
+  "draft": {
+    "label": "Capitolul 03 / Ciorna",
+    "title": "„Adevărul din spatele codului”"
+  },
+  "venom": {
+    "title": "Veninul digital",
+    "first": "Se întâmplă în secunda în care ne trezim. Înainte ca picioarele să atingă podeaua, mâna se întinde. Luați telefonul. Toți facem asta. Dar acel singur gest reflex vă perturbă imediat căile neuronale și vă aruncă într-o stare critică, anxioasă, înainte ca ziua să fi început.",
+    "second": "Ca dezvoltator independent de software de 10 ani, cu un tată care era hacker de securitate cibernetică pe cont propriu și care m-a învățat colțurile întunecate și misterioase ale internetului, văd codul din spatele ecranului. Știu exact cum funcționează algoritmul, iar adevărul este că e venin. Toxicitatea copleșitoare pe care o simțiți online nu este de fapt natura umană: este o iluzie fabricată. Suntem sub atacul constant al „pseudoismului”, în care secțiunile de comentarii inundate și ostile sunt rareori izbucniri spontane ale unor utilizatori obișnuiți. Ele fac parte dintr-o strategie deliberată și sistematică de propagandă computațională. Conturi false și rețele de boți sunt folosite pentru a injecta narațiuni sintetice în feedul dvs., concepute special pentru a manipula percepția publică, a ne adânci diviziunile și a vă influența comportamentul online.",
+    "third": "Nu contează cât de curat este istoricul de căutare al dvs. sau al copiilor dvs., nici cât de sănătos pare feedul; sistemul este conceput să vă tragă înapoi. Vă împinge spre negativitate, spre superficialitate și spre guru ai îmbogățirii rapide care ne fac să punem banii mai presus de Dumnezeu (<strong>1 Timotei 6:10</strong>), creând oameni cu duhul lui Mamona. Le face pe minunatele noastre surori să nu știe că adevărata lor frumusețe nu este machiajul, nici ce crede un băiat despre ele, nici câte like-uri primesc pe Instagram… ci inima lor și felul lor îngeresc de a umbla cu Dumnezeu. Este o mașinărie construită ca să vă deturneze mintea și să vă controleze obiceiurile.",
+    "fourth": "Acest flux constant de artificialitate ne prinde într-o existență grăbită și ne orbește în fața faptului că lucrurile adevărate cer timp. Iubirea reală, creșterea autentică și legăturile sincere cer răbdare, nu gratificarea instantanee pe care o oferă un telefon. Păcălește creierul să aștepte o descărcare constantă de dopamină din aprobarea celorlalți. La fel ca algoritmii atent selectați ai unei pagini „Pentru tine”, îi face pe oameni să se simtă orbește îndreptățiți la propriile opinii, închizându-i față de oamenii reali și față de realitatea că nu toată lumea va fi de acord cu același lucru. Este o capitulare lentă, care lasă tehnologia rece și artificialitatea să preia complet controlul asupra minții umane.",
+    "fifth": "Ne vor distrași de aceste războaie fabricate. Vor ca mintea copiilor noștri să se transforme în terci, prinsă pentru totdeauna pe cea mai de jos treaptă a <strong><bloom>taxonomiei lui Bloom</bloom></strong>: doar să „își amintească” și să consume, fără să pună vreodată întrebări, fără să creeze, fără să meargă mai adânc. Vedem o generație întreagă care amână cele mai importante <strong><erikson>stadii ale vieții descrise de Erikson</erikson></strong>, paralizată de realitățile false și cosmetizate pe care le vede pe ecrane, îngrozită să crească cu adevărat pentru că nimic nu mai pare autentic. Lumea s-a săturat de minciuni. Dacă nu vedeți manipularea din cod, nicio problemă; generația mea o vede, și o va vedea și generația următoare."
+  },
+  "crucible": {
+    "title": "Creuzetul care m-a format",
+    "first": "Nu am învățat asta doar studiind date; am trăit-o: am vândut droguri doar ca să-mi construiesc viața pe care mi-o promisesem, una care să ajungă la un viitor luminos. Dat afară din casele celor dragi, fără adăpost. Mi s-a oferit o cale de intrare în industria pentru adulți tocmai când aveam cea mai mare nevoie de bani, cu 10k fluturați chiar în fața ochilor, dar mama m-a crescut cu principii. <court>Două</court> procese <search>în</search> liceu. Am început să-mi hackuiesc notele în clasa a 5-a pentru că mă săturasem să pic, mai ales când mi-am dat seama că fusesem lăsat repetent în clasa a 2-a din cauza accentului cu care venisem. Mai târziu, asta s-a transformat în hackuirea a mult mai multe… când mi-am cunoscut cu adevărat <father>tatăl</father>, am văzut de la cine am moștenit asta.",
+    "second": "Multă vreme am crezut că Dumnezeu nu mă va primi niciodată înapoi după toate astea. Credeam că sunt prea departe. Dar apoi am aflat despre apostolul Pavel. Pavel ucidea literalmente creștini, și totuși Dumnezeu a întors totul și i-a dat un dar uriaș. Atunci am înțeles: dacă Dumnezeu a putut folosi un om ca Pavel, trecutul meu nu a fost niciodată prea mult ca El să construiască un viitor din el.",
+    "third": "Acel instinct de supraviețuire a început devreme. Faptul că am crescut înconjurat de 4 femei timp de 16 ani mi-a modelat psihicul în moduri pe care încă le descopăr. Mintea mea a fost antrenată să lucreze simultan pe lungimi de undă psihologice diferite. Am navigat printre psihologie întortocheată, dinamici complexe și manipulare, care m-au sculptat în cel care sunt. Și le iubesc pentru asta; m-a scutit de multă energie cu fetele când am decis cu adevărat să mă gândesc la ce spunea mama. Iar după inimi frânte și după ce am fost înșelat, încă cred în <chivalry>cavalerism</chivalry>.",
+    "fourth": "Ce vreau să spun este că, pentru a supraviețui într-o casă plină de femei, trebuie să gândești ca una, iar când le-am părăsit a trebuit să devin tânărul care sunt azi, cu nenumăratele lupte prin care am trecut. Era un mediu haotic și am găsit claritate doar când am ales în mod activ să elimin singurul meu păcat, „pofta”, și zgomotul, prin rugăciune. Când L-am pus în sfârșit pe Dumnezeu pe primul loc, mi-am dat seama cine eram de fapt. Am văzut provocările care m-au format nu ca pe niște blesteme, ci ca pe antrenamentul exact de care aveam nevoie ca să mă apropii de Dumnezeu și să construiesc o cale de ieșire pentru alții.",
+    "fifth": "Găsirea lui Dumnezeu m-a dus să învăț mai multe despre mine. Urmându-L pe Dumnezeu, am aflat despre rănile și darurile mele, iar înțelegându-mă pe mine am vrut să-L cunosc mai mult. Atunci viața mea a început să prospere: aveam direcție, scop și un motiv să am grijă de ce mi-a dat Dumnezeu. The Water Check face parte din această misiune. Atenția la ce vă afectează corpul vă poate ajuta să înțelegeți și să aveți grijă de persoana care Dumnezeu a vrut să fiți. Vreau să construiesc tehnologie care să vă ajute să deveniți cea mai capabilă versiune a acelei persoane.",
+    "mission": "Tot ce construiesc în cadrul acestei companii urmărește aceeași misiune: să-i apropii pe oameni de Dumnezeu și să-i ajut să folosească tehnologia pentru a trăi, a crea, a iubi și a sluji cu intenție. Acesta este viitorul nădăjduit spre care lucrez.",
+    "connect": {
+      "label": "Urmăriți-l pe Denzel Rigaud",
+      "youtube": "Expected End pe YouTube",
+      "instagram": "Urmăriți-l pe Denzel Rigaud pe Instagram",
+      "linkedin": "Conectați-vă cu Denzel Rigaud pe LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Dosar personal / 04 amintiri",
+    "title": "Arhiva de amintiri",
+    "text": "Oamenii, încăperile și munca reală din spatele codului. Descărcați orice imagine și păstrați-o.",
+    "number": "Amintirea {{number}}",
+    "download": "Descărcați amintirea {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel copil, alături de tatăl său",
+        "title": "Tata și cu mine"
+      },
+      "work": {
+        "alt": "Denzel lucrând la laptop cu doi colaboratori în jurul unei mese",
+        "title": "Munca din jurul mesei"
+      },
+      "workspace": {
+        "alt": "Spațiul de lucru MyBibleLens și The Water Check",
+        "title": "Unde a prins contur MyBibleLens"
+      },
+      "archive": {
+        "alt": "Arhiva video Real Work a lui Denzel pe telefonul său",
+        "title": "Arhiva Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Sfârșitul transmisiei / Munca continuă",
+    "title": "Să construim ceva care le redă oamenilor <em>viața.</em>",
+    "text": "Pentru software bine gândit, discuții cu presa sau începutul unei idei bune, deschideți un canal prin Expected End.",
+    "contact": "Contactați Expected End",
+    "back": "Înapoi la companie"
+  },
+  "verse": {
+    "version": "Biblia Cornilescu (1924)",
+    "reference": "Ieremia 29:11",
+    "text": "Căci Eu știu gândurile pe care le am cu privire la voi, zice Domnul, gânduri de pace, și nu de nenorocire, ca să vă dau un viitor și o nădejde.",
+    "close": "Închideți versetul biblic"
+  },
+  "bio": {
+    "eyebrow": "De la fondator",
+    "title": "Ce s-a întâmplat cu @thewatercheck?",
+    "close": "Închideți biografia",
+    "first": "De la 15 ani gestionam și făceam să crească pagini de influenceri și de conținut, în timp ce îmi dezvoltam propriul proiect, @thewatercheck.",
+    "second": "Mai târziu, la 17 ani, m-am mutat la tata, iar contul murea, pentru că <em>„Cine aleargă după doi iepuri nu prinde niciunul.”</em> <proverb>(proverb rusesc)</proverb> La vârsta aceea, îmi păsa doar de bani. Nu dădeam tot ce aveam mai bun pentru @thewatercheck.",
+    "third": "Apoi <father>tatăl</father> meu a murit pe neașteptate pe <strong>10 iulie 2021.</strong> Am intrat în modul de supraviețuire, întrebându-mă încotro se îndreaptă viața mea. Ca să fac față durerii morții lui, am închis ușa vrăjitorului webului care tata m-a învățat odată să fiu, până în <strong>ianuarie 2026.</strong>",
+    "stat": {
+      "from": "200.000 de urmăritori",
+      "to": "7.000",
+      "caption": "Acolo a ajuns acum."
+    },
+    "what": {
+      "eyebrow": "Deci, ce era?",
+      "title": "Un memento simplu pe care oamenii îl iubeau.",
+      "first": "The Water Check era pur și simplu asta: postam o poză în fiecare zi ca să le amintesc oamenilor să bea apă, și chiar îi ajuta să bea apă. Comentariile erau <em>inundate</em> de oameni. Asta era tot ce făcea, iar oamenii îl iubeau.",
+      "second": "Apoi un bot a șters totul de pe pagină, iar de acolo viața și-a urmat cursul."
+    }
+  },
+  "footer": {
+    "line": "Tehnologia nu există ca să derulăm la nesfârșit și să trăim viețile altora. Ar trebui să ne facă mai buni în duh, suflet, minte și trup.",
+    "sign": "Fondator, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigare în subsolul paginii",
+    "build": "Ce construiesc",
+    "pressKit": "Kit de presă",
+    "find": "Unde mă găsiți",
+    "finePrint": "Detaliile legale",
+    "terms": "Termeni de utilizare",
+    "privacy": "Declarația de confidențialitate",
+    "accessibility": "Accesibilitate",
+    "contact": "Contact",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Toate drepturile rezervate.",
+    "blessing": "Isus te iubește."
+  },
+  "egg": {
+    "label": "Intrați în lumea de artă ascunsă",
+    "armed": "Încă o apăsare ca să intrați în lumea de artă ascunsă."
+  }
+}

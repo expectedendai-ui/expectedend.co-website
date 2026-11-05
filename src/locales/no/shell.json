@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Hovednavigasjon",
+    "projects": "Prosjekter",
+    "services": "Tjenester",
+    "company": "Oppdrag · Om oss · Presse",
+    "contact": "Kontakt",
+    "home": "Forsiden til Expected End",
+    "openMenu": "Åpne menyen",
+    "closeMenu": "Lukk menyen",
+    "links": {
+      "projects": "Prosjekter",
+      "services": "Tjenester",
+      "story": "Historien",
+      "about": "Om oss",
+      "press": "Presse",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigasjon i bunnteksten",
+    "home": "Forside",
+    "about": "Om oss",
+    "press": "Presse",
+    "terms": "Vilkår for bruk",
+    "privacy": "Personvernerklæring",
+    "accessibility": "Tilgjengelighet",
+    "contact": "Kontakt",
+    "mission": "Alt jeg bygger i dette selskapet, peker mot det samme oppdraget: å bringe mennesker nærmere Gud og hjelpe dem å bruke teknologi til å leve, skape, elske og tjene med vilje og mening. Det er den fremtiden og det håpet jeg arbeider mot.",
+    "verse": "Jeremia 29,11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Med enerett.",
+    "blessing": "Jesus elsker deg."
+  }
+}

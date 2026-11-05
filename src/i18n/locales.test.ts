@@ -41,6 +41,8 @@ describe("every language has every line", () => {
             : [key];
           for (const want of wanted.filter((name, index) => wanted.indexOf(name) === index)) {
             const line = lines[want];
+            // A suffix (the "th" in 5th) may be blank where the language puts the whole value in the number.
+            if (want.endsWith("Suffix") && line === "") continue;
             expect(line, `${id}/${namespace}: ${want}`).toBeTruthy();
             const english_ = PLURAL.test(want) ? (english[`${want.replace(PLURAL, "")}_other`] ?? source) : source;
             expect(tokens(line ?? ""), `${id}/${namespace}: ${want} keeps its {{values}} and <tags>`).toEqual(tokens(english_));

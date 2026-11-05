@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | ዓላማ፣ በውበት የተገነባ",
+    "description": "Expected End በጥንቃቄ የታሰቡ ሶፍትዌሮችን፣ የምርታማነት መሣሪያዎችን፣ ዲጂታል ተሞክሮዎችንና ማህበረሰቦችን ይፈጥራል።"
+  },
+  "about": {
+    "title": "ስለ እኛ | Expected End",
+    "description": "የመሥራቹ Denzel Rigaud ታሪክ፣ ከExpected End ጀርባ ያለው ተልዕኮ እና በእምነትና በዓላማ የተገነቡ ፕሮጀክቶች።"
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | የExpected End መሥራች",
+    "description": "Denzel Rigaud ከExpected End፣ ከMyBibleLens (የክርስትና መቅደስ መተግበሪያ) እና ከThe Water Check ጀርባ ያለው መሥራችና የፉል-ስታክ ገንቢ ነው።"
+  },
+  "press": {
+    "title": "ሚዲያ | Expected End",
+    "description": "ስለ Expected End እና Denzel Rigaud ለሚሠሩ ዘገባዎች የጸደቁ የሕይወት ታሪኮች፣ የተረጋገጡ እውነታዎች፣ የማንነት ሊንኮች እና ሊወርዱ የሚችሉ ሚዲያዎች።"
+  },
+  "terms": {
+    "title": "የድረ-ገጽ አጠቃቀም ውሎች | Expected End",
+    "description": "የExpected End ድረ-ገጽ አጠቃቀምን የሚመሩ ውሎች።"
+  },
+  "privacy": {
+    "title": "የግላዊነት መግለጫ | Expected End",
+    "description": "Expected End በዚህ ድረ-ገጽ ላይ መረጃን እንዴት እንደሚይዝ።"
+  },
+  "watercheck-privacy": {
+    "title": "የThe Water Check የግላዊነት ፖሊሲ | Expected End",
+    "description": "The Water Check ምን እንደሚሰበስብ፣ በስልክዎ ላይ ምን እንደሚቀር፣ መተግበሪያውን ለማስኬድ ማን እንደሚያግዝ እና ምርጫዎችዎ።"
+  },
+  "watercheck-terms": {
+    "title": "የThe Water Check ውሎች እና ሁኔታዎች | Expected End",
+    "description": "The Water Check መተግበሪያን ለመጠቀም የሚያስፈልጉ ውሎች፣ ጤናና ደኅንነትን፣ AIን፣ የቡድን ሕጎችንና ግዢዎችን ጨምሮ።"
+  },
+  "watercheck-health-data": {
+    "title": "የThe Water Check የሸማቾች የጤና መረጃ ግላዊነት ፖሊሲ | Expected End",
+    "description": "The Water Check የሸማቾችን የጤና መረጃ እንዴት እንደሚይዝ፣ እንዲሁም መረጃውን እንዴት ማግኘት፣ መሰረዝ ወይም ይግባኝ ማለት እንደሚችሉ።"
+  },
+  "watercheck-delete-account": {
+    "title": "መለያዎን ይሰርዙ | The Water Check",
+    "description": "የThe Water Check መለያዎንና መረጃዎን በመተግበሪያው ውስጥ ወይም በኢሜይል እንዴት እንደሚሰርዙ።"
+  },
+  "watercheck-community": {
+    "title": "የማህበረሰብ መመሪያዎች | The Water Check",
+    "description": "በThe Water Check ያሉ ቡድኖች እንዴት ወዳጃዊ ሆነው እንደሚቀጥሉ፦ ሕጎቹ፣ ሪፖርት ማድረግና ማገድ፣ ሕጎች ሲጣሱ ምን እንደሚሆን።"
+  },
+  "accessibility": {
+    "title": "ተደራሽነት | Expected End",
+    "description": "Expected End ለሁሉም ተደራሽ የሆነ የድረ-ገጽ ተሞክሮ ለማቅረብ ያለው ቁርጠኝነት።"
+  },
+  "mybiblelens-store": {
+    "title": "የMyBibleLens መደብር | Expected End",
+    "description": "ከቃሉ ጋር ይበልጥ ተቀራርቦ ለመጓዝ የሚረዱ በጥንቃቄ የተመረጡ ዕቃዎች። የMyBibleLens መደብር በቅርቡ ይከፈታል።"
+  },
+  "watercheck-store": {
+    "title": "የThe Water Check መደብር | Expected End",
+    "description": "ከThe Water Check በውሃ መጠጣት የተቃኙ አስፈላጊ ዕቃዎች። የመጀመሪያው ስብስብ በቅርቡ ይመጣል።"
+  },
+  "watercheck-page": {
+    "title": "The Water Check | የውሃ መጠጣት መተግበሪያ እና ነፃ ማስሊያ",
+    "description": "የThe Water Check መተግበሪያን ይመልከቱ፤ በExpected End ላይ ነፃና ግላዊ የውሃ ፍላጎት ግምት ይሞክሩ።"
+  },
+  "watercheck-calculator": {
+    "title": "ነፃ የውሃ ፍላጎት ማስሊያ | The Water Check",
+    "description": "በThe Water Check ማስሊያ ነፃና ግላዊ የዕለት የውሃ ፍላጎት ግምት ያግኙ።"
+  },
+  "not-found": {
+    "title": "ገጹ አልተገኘም | Expected End",
+    "description": "የተጠየቀው የExpected End ገጽ ሊገኝ አልቻለም።"
+  }
+}

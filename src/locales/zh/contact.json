@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "联系 Expected End",
+    "title": "先聊一点<em>背景。</em>",
+    "intro": "选几项信息，我们就会为你准备好一封清楚的邮件。发送之前，会先打开你的邮件应用。"
+  },
+  "fields": {
+    "name": "你的名字",
+    "email": "你的邮箱",
+    "reason": "这是关于什么的？",
+    "project": "哪个项目？",
+    "priceRange": "预算范围",
+    "timeline": "理想时间",
+    "discovery": "你是怎么知道 Expected End 的？",
+    "message": "你有什么想法？",
+    "chooseOne": "请选择"
+  },
+  "reasons": {
+    "partnership": "合作或联名",
+    "press": "媒体采访",
+    "general": "一般问题"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check 社区",
+    "newIdea": "一个新想法"
+  },
+  "timelines": {
+    "exploring": "先了解一下",
+    "month": "一个月内",
+    "threeMonths": "三个月内",
+    "laterThisYear": "今年晚些时候",
+    "notSure": "还不确定"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check 社区",
+    "search": "搜索",
+    "referral": "别人推荐",
+    "elsewhere": "其他途径"
+  },
+  "submit": {
+    "note": "在你检查无误并在邮件应用中按下“发送”之前，任何内容都不会发出。",
+    "apps": "选择<app>你的邮件应用</app>、<gmail>Gmail</gmail>、<outlook>Outlook</outlook> 或 <yahoo>Yahoo Mail</yahoo>。",
+    "button": "准备邮件"
+  },
+  "dialog": {
+    "close": "关闭联系表单"
+  }
+}

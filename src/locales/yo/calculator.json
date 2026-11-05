@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Pa ọ̀rọ̀ àwọn gbajúgbajà orí ayélujára tì. Kọ́ bí ara rẹ ṣe ń ṣiṣẹ́ ní tòótọ́.",
+    "lead": "Gbìyànjú ẹ̀rọ ìṣirò ọ̀fẹ́ láìsí àkọọ́lẹ̀, lẹ́yìn náà wo áàpù tí à ń kọ́ fún títọpa omi rẹ lójoojúmọ́.",
+    "appLink": "Wo áàpù náà ↓",
+    "logoLabel": "Lo ẹ̀rọ ìṣirò The Water Check"
+  },
+  "intro": {
+    "kicker": "Ẹ̀rọ ìṣirò omi ara",
+    "title": "Bẹ̀rẹ̀ pẹ̀lú àwọn nọ́ńbà tí o mọ̀."
+  },
+  "units": {
+    "legend": "Ìwọ̀n ìwúwo",
+    "pounds": "Poun (lb)",
+    "kilograms": "Kílógíráàmù (kg)"
+  },
+  "weight": {
+    "labelLb": "Ìwúwo (lbs)",
+    "labelKg": "Ìwúwo (kg)",
+    "valueTextLb": "Poun {{value}}",
+    "valueTextKg": "Kílógíráàmù {{value}}"
+  },
+  "height": {
+    "legend": "Gíga",
+    "feet": "Gíga (ft)",
+    "inches": "Gíga (in)",
+    "centimeters": "Gíga (cm)",
+    "note": "Iye omi tí ara nílò ń tẹ̀lé ìwúwo ara láìsí ọ̀rá, nítorí náà gíga ṣe pàtàkì jù nígbà tí ìwúwo rẹ bá ga jù fún ìrísí ara rẹ."
+  },
+  "activity": {
+    "label": "Ìgbòkègbodò Ojoojúmọ́ (ìṣẹ́jú)",
+    "value": "Ìṣẹ́jú {{minutes}}",
+    "valueText": "Ìṣẹ́jú {{minutes}}"
+  },
+  "factors": {
+    "legend": "Àwọn nǹkan tó lè yí iye omi tí o nílò padà",
+    "intro": "A máa ń fi nọ́ńbà kún un níbi tí àtúnṣe ojoojúmọ́ tí a lè gbèjà bá wà nìkan. Àwọn ìdáhùn yòókù ń jẹ́ kí ìtọ́sọ́nà rẹ bá ọ mu, láìdíbọ́n pé sáyẹ́ǹsì fọwọ́ sí ìwọ̀n pàtó kan.",
+    "age": {
+      "label": "Ọjọ́ orí",
+      "hint": "Ọjọ́ orí ń fúnni ní àyíká ọ̀rọ̀ nìkan; kò ṣe ìdámọ̀ ìdáwọ́dúró nǹkan oṣù."
+    },
+    "lifeStage": {
+      "label": "Ìpele ìgbésí ayé",
+      "hint": "Ó ń lo àtúnṣe tó hàn kedere fún oyún tàbí fún ṣíṣe wàrà ọmú.",
+      "options": {
+        "standard": "Déédéé",
+        "pregnant": "Lóyún",
+        "breastfeeding": "Ń fún ọmọ lọ́mú"
+      }
+    },
+    "sex": {
+      "label": "Akọ tàbí abo",
+      "hint": "Kò pọn dandan. Ó ń mú ìṣirò ìwúwo tó yẹ àti ti ìwọ̀n ìtọ́kasí mímu omi péye sí i.",
+      "options": {
+        "unspecified": "Mi ò fẹ́ sọ",
+        "woman": "Obìnrin",
+        "man": "Ọkùnrin"
+      }
+    },
+    "luteal": {
+      "label": "Ọ̀sẹ̀ tó ṣáájú nǹkan oṣù rẹ",
+      "hint": "Ó ń ṣàkíyèsí omi tí ara ń dá dúró ní ìpele luteal àti wíwú inú látàrí họ́mọ̀nù. Kò sí àfikún pàtó kan tó bá gbogbo ènìyàn mu."
+    },
+    "heat": {
+      "label": "Ooru tàbí ọ̀rinrin afẹ́fẹ́",
+      "hint": "Ìtọ́sọ́nà ooru dá lórí bí o ṣe pẹ́ tó nínú ooru àti òógùn rẹ, kì í ṣe ibi tí o wà nìkan."
+    }
+  },
+  "result": {
+    "goal": "Àfojúsùn Ojoojúmọ́ Rẹ: Ounces {{ounces}}",
+    "breakdown": "Àlàyé ìṣirò",
+    "weightBaseline": "Ìpìlẹ̀ ìwúwo",
+    "heightAndBuild": "Gíga àti ìrísí ara",
+    "sexReference": "Ìtọ́kasí akọ tàbí abo",
+    "notSet": "Kò tíì ṣètò",
+    "activity": "Àtúnṣe ìgbòkègbodò",
+    "lifeStage": {
+      "standard": "Àtúnṣe ìpele ìgbésí ayé",
+      "pregnant": "Àtúnṣe oyún",
+      "breastfeeding": "Àtúnṣe fífún ọmọ lọ́mú"
+    },
+    "luteal": "Ìtọ́sọ́nà ìpele luteal",
+    "noFixedOunces": "Kò sí +oz pàtó",
+    "electrolytes": "Àyẹ̀wò electrolytes",
+    "electrolytesAfterSweat": "Ronú nípa rẹ̀ lẹ́yìn òógùn púpọ̀",
+    "electrolytesFromFood": "Oúnjẹ sábà máa ń bo ó",
+    "guidance": "Èyí jẹ́ ìṣirò àfojúbù fún ẹ̀kọ́ àti ètò fún àwọn àgbàlagbà, kì í ṣe ìdámọ̀ àìsàn, ìtọ́jú, tàbí ìwé oògùn láti ọwọ́ dókítà. Oúnjẹ náà ń pèsè omi, iye tí ẹnìkọ̀ọ̀kan nílò sì yàtọ̀ síra. Má ṣe fi ipá mu omi. Béèrè lọ́wọ́ òṣìṣẹ́ ìlera nípa ohun tí o nílò tí o bá lóyún tàbí tí o ń fún ọmọ lọ́mú, tí o ń lo oògùn tó ń nípa lórí ìwọ̀ntúnwọ̀nsì omi nínú ara, tí o ní àìsàn kíndìnrín tàbí ọkàn, tí wọ́n ti sọ fún ọ pé kí o dín omi tí o ń mu kù, tàbí tí o ní àwọn àmì àìsàn tó ń kó ọ lọ́kàn sókè."
+  },
+  "equivalents": {
+    "title": "Ìyẹn jẹ́ nǹkan bí",
+    "cups": "Ife {{value}}",
+    "cupsNote": "8 oz ọ̀kọ̀ọ̀kan",
+    "liters": "Lítà {{value}}",
+    "litersNote": "ìwọ̀n mẹ́tíríìkì",
+    "bottles": "Ìgò {{value}}",
+    "bottlesNote": "ìgò 16.9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Jẹ omi rẹ",
+    "title": "Kì í ṣe gbogbo rẹ̀ ló gbọ́dọ̀ wá láti inú gíláàsì.",
+    "copy": "Nǹkan bí ìdá kan nínú márùn-ún omi ojoojúmọ́ ọ̀pọ̀lọpọ̀ ènìyàn ń wá láti inú oúnjẹ. Ọ̀pọ̀lọpọ̀ èso àti ewébẹ̀ tútù jẹ́ omi ní ìdá 70 sí 95 nínú ọgọ́rùn-ún, àti pé ní kété tí omi yẹn bá dé inú ẹ̀jẹ̀ rẹ, ó ń fún ara rẹ ní omi gẹ́gẹ́ bí ohun mímu ṣe ń ṣe gan-an.",
+    "drink": "Mu",
+    "drinkNote": "Ife {{cups}} omi, tíì, tàbí wàrà",
+    "eat": "Jẹ",
+    "eatNote": "láti inú oúnjẹ tí omi pọ̀ nínú rẹ̀",
+    "pickLegend": "Fojú inú wo ìpín oúnjẹ bí",
+    "estimate": "{{food}}: ≈ {{amount}}",
+    "detail": "{{serving}} ní nǹkan bí {{ounces}} oz omi nínú ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "Ife bàrà",
+      "serving": "Ife 1, gígé wẹ́wẹ́",
+      "water": "92% omi"
+    },
+    "cucumber": {
+      "label": "Kúkúmbà",
+      "serving": "1 alábọ́dé",
+      "water": "95% omi"
+    },
+    "strawberries": {
+      "label": "Ife sítíróbẹ́rì",
+      "serving": "Ife 1",
+      "water": "91% omi"
+    },
+    "oranges": {
+      "label": "Ọsàn",
+      "serving": "1 alábọ́dé",
+      "water": "87% omi"
+    },
+    "salad": {
+      "label": "Abọ́ sáládì",
+      "serving": "Ife 2, àdàlú",
+      "water": "nǹkan bí 94% omi"
+    },
+    "soup": {
+      "label": "Abọ́ ọbẹ̀ omi",
+      "serving": "Ife 1",
+      "water": "nǹkan bí 92% omi"
+    },
+    "tomatoes": {
+      "label": "Tòmátì",
+      "serving": "1 alábọ́dé",
+      "water": "95% omi"
+    },
+    "grapes": {
+      "label": "Ife èso àjàrà",
+      "serving": "Ife 1",
+      "water": "81% omi"
+    },
+    "peaches": {
+      "label": "Píṣì",
+      "serving": "1 alábọ́dé",
+      "water": "89% omi"
+    },
+    "cantaloupe": {
+      "label": "Ife kántálúùpù",
+      "serving": "Ife 1, gígé wẹ́wẹ́",
+      "water": "90% omi"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Ìdí tí omi inú oúnjẹ fi ka",
+    "title": "Omi inú bàrà jẹ́ omi kan náà.",
+    "sameMolecule": "<strong>Mọ́líkùlù kan náà.</strong> H2O láti inú kúkúmbà àti H2O láti inú omi ẹ̀rọ jẹ́ ọ̀kan náà. Ní kété tí ó bá kọjá láti inú ìfun rẹ wọ inú ẹ̀jẹ̀ rẹ, ara rẹ máa ń gbé e lọ sí àwọn iṣan rẹ ní ọ̀nà kan náà.",
+    "slowRelease": "<strong>Ó ń jáde díẹ̀díẹ̀.</strong> Omi inú èso àti ewébẹ̀ wà nínú okùn (fiber) àti ògiri sẹ́ẹ̀lì, nítorí náà ara máa ń fà á mu díẹ̀díẹ̀ ju gíláàsì omi tí o gbé mì kíákíá lọ, èyí tí kíndìnrín rẹ sábà máa ń yọ jáde kíákíá.",
+    "electrolytes": "<strong>Ó wá pẹ̀lú electrolytes.</strong> Kúkúmbà, ẹ̀fọ́ tẹ̀tẹ̀, bàrà, àti àwọn èso kéékèèké bíi sítíróbẹ́rì ní potassium àti magnesium, àwọn ohun alumọ́nì tí sẹ́ẹ̀lì rẹ ń lò láti di omi mú.",
+    "glycogen": "<strong>Agbára àti ìpamọ́ papọ̀.</strong> Àwọn iṣan máa ń tọ́jú carbohydrate gẹ́gẹ́ bí glycogen, àti pé gíráàmù glycogen kọ̀ọ̀kan ni a ń tọ́jú pẹ̀lú nǹkan bí gíráàmù omi mẹ́ta. Oúnjẹ tí omi àti carbohydrate pọ̀ nínú rẹ̀ ń pèsè méjèèjì.",
+    "caveat": "O ṣì nílò láti mu omi. Oúnjẹ sábà máa ń pèsè nǹkan bí ìdá kan nínú márùn-ún àpapọ̀; ìyókù ń wá láti inú omi àti àwọn ohun mímu mìíràn. Èso gbígbẹ, èso onípákó bíi ẹ̀pà, àti búrẹ́dì ní omi díẹ̀ gan-an."
+  },
+  "grace": {
+    "kicker": "Inú rere sí ara",
+    "title": "Ọ̀rọ̀ Kúkúrú Nípa Fífi Àánú Hàn Sí Ara Rẹ",
+    "body": "Ohun tí o ń rí nínú dígí àti bí aṣọ rẹ ṣe ń bá ọ mu lè yípadà nítorí omi tí ara ń dá dúró, dída oúnjẹ, àwọn họ́mọ̀nù, oorun, àti àwọn ìyípadà mìíràn tó wọ́pọ̀. Ọjọ́ kan tí inú rẹ wú kò túmọ̀ sí ohun tí ara rẹ jẹ́. Mu omi pẹ̀lú ìṣọ́ra, fún ara rẹ ní àkókò, kí o sì jẹ́ kí ìfẹ́ láti mọ̀ gba ipò ìtìjú. Inú wíwú tí kò lọ, wíwú ara, ìyípadà ìwúwo lójijì, tàbí àwọn àmì àìsàn tó ń kó ọ lọ́kàn sókè yẹ kí o bá òṣìṣẹ́ ìlera sọ̀rọ̀ nípa rẹ̀."
+  },
+  "overhydration": {
+    "title": "Ewu Fífi Ipá Mu Omi",
+    "kidneys": "Kíndìnrín rẹ nílò àkókò láti yọ omi jáde. Nígbà eré ìdárayá tó gùn, mímu omi ní kíákíá ju bí o ṣe ń pàdánù omi ara lọ lè mú kí sodium inú ẹ̀jẹ̀ rẹ fẹ́lẹ́ jù, kí ó sì fa hyponatremia tó ní í ṣe pẹ̀lú eré ìdárayá. Àwọn àmì àkọ́kọ́ lè ní orí fífọ́, inú rírú, òòyì, àárẹ̀, tàbí ìdàrúdàpọ̀ ọpọlọ. Àwọn ọ̀ràn tó le lè fa wíwú ọpọlọ, gìrì, àìmọ̀kan (coma), àti ikú.",
+    "pacing": "Má ṣe lépa ìṣirò yìí nípa gbígbé omi púpọ̀ mì lẹ́ẹ̀kan. Pín ohun mímu rẹ káàkiri ọjọ́. Nígbà eré ìdárayá, jẹ́ kí iye tí o ń mu bá òùngbẹ rẹ, ipò àyíká, àti iye òógùn tí ìwọ fúnra rẹ ń pàdánù mu. Wá ìtọ́jú ìṣègùn ní kíákíá fún ìdàrúdàpọ̀ ọpọlọ, gìrì, ṣíṣubú lulẹ̀, tàbí àwọn àmì àìsàn tó le.",
+    "sources": "Àwọn orísun: <nih>Ìtọ́sọ́nà NIH lórí hyponatremia tó ní í ṣe pẹ̀lú eré ìdárayá</nih> àti <academies>àwọn ìmọ̀ràn National Academies lórí mímu omi</academies>."
+  },
+  "notes": {
+    "title": "Àwọn àkọsílẹ̀ ẹ̀rí rẹ",
+    "sexMan": "<strong>Akọ tàbí abo:</strong> Iye ìtọ́kasí National Academies jẹ́ nǹkan bí lítà 3.7 àpapọ̀ omi lójúmọ́ fún ọkùnrin àti lítà 2.7 fún obìnrin. Ìwúwo ara ló ṣàlàyé èyí tó pọ̀ jù nínú ìyàtọ̀ yẹn, nítorí náà ìyókù hàn níbí gẹ́gẹ́ bí àfikún ìdá 4 nínú ọgọ́rùn-ún sí ìpìlẹ̀ ìwúwo, àyẹ̀wò gíga àti ìrísí ara sì ń lo ìlànà ìṣirò ìwúwo tó yẹ fún ọkùnrin.",
+    "sexWoman": "<strong>Akọ tàbí abo:</strong> Iye ìtọ́kasí National Academies jẹ́ nǹkan bí lítà 3.7 àpapọ̀ omi lójúmọ́ fún ọkùnrin àti lítà 2.7 fún obìnrin. Ìwúwo ara ló ṣàlàyé èyí tó pọ̀ jù nínú ìyàtọ̀ yẹn, nítorí náà ìyókù hàn níbí gẹ́gẹ́ bí àdínkù ìdá 4 nínú ọgọ́rùn-ún láti ara ìpìlẹ̀ ìwúwo, àyẹ̀wò gíga àti ìrísí ara sì ń lo ìlànà ìṣirò ìwúwo tó yẹ fún obìnrin.",
+    "height": "<strong>Gíga àti ìrísí ara:</strong> Iye omi tí ara nílò ń tẹ̀lé ìwúwo ara láìsí ọ̀rá ju àpapọ̀ ìwúwo lọ. Nítorí pé ìwúwo rẹ ga ju ìwọ̀n tó wọ́pọ̀ fún gíga rẹ, ìṣirò yìí ń lo ìwúwo ara tí a ti ṣàtúnṣe (ìwúwo tó yẹ pẹ̀lú ìdá 40 nínú ọgọ́rùn-ún ìyàtọ̀ náà), ọ̀nà tí àwọn oníṣègùn sábà máa ń lò. Nọ́ńbà àfojúbù fún ètò ni, kì í ṣe ìdájọ́ nípa ara rẹ.",
+    "cycle": "<strong>Ìpele nǹkan oṣù:</strong> Ìyípadà omi ara tó ní í ṣe pẹ̀lú nǹkan oṣù jẹ́ òótọ́, ṣùgbọ́n àwọn ìwádìí kò fìdí àfikún ounces pàtó kan tó bá gbogbo ènìyàn mu múlẹ̀. A kò fi ounces kankan kún un láìfọwọ́ṣe. Oúnjẹ déédéé sábà máa ń pèsè electrolytes tó; àfikún magnesium tàbí potassium kì í ṣe ìmọ̀ràn fún gbogbo ènìyàn.",
+    "age": "<strong>Ọjọ́ orí àti ìdáwọ́dúró nǹkan oṣù:</strong> Ọjọ́ orí nìkan kò sọ bóyá ẹnìkan ti dé ìdáwọ́dúró nǹkan oṣù. Ìyípadà họ́mọ̀nù lè nípa lórí òùngbẹ àti bí ara ṣe ń ṣàkóso omi, ṣùgbọ́n kò sí àtúnṣe ounces “ọmọ ọdún 45 sókè” tí a ti fìdí rẹ̀ múlẹ̀, nítorí náà ọjọ́ orí rẹ kò yí àpapọ̀ padà.",
+    "heat": "<strong>Ooru:</strong> Àfikún pàtó fún ojú ọjọ́ lè ṣe ìṣirò iye tí o nílò kéré jù tàbí pọ̀ jù. Fún iṣẹ́ alábọ́dé nínú ooru tí kò tó wákàtí méjì, NIOSH gbani nímọ̀ràn nǹkan bí ounces 8 ní ìṣẹ́jú 15 sí 20 kọ̀ọ̀kan; òógùn líle tó pẹ́ ju bẹ́ẹ̀ lọ nílò ètò ìrọ́pò omi tí a ṣe fún ẹnìkọ̀ọ̀kan."
+  },
+  "evidence": {
+    "label": "Ẹ̀rí:",
+    "academies": "Ìtọ́sọ́nà National Academies lórí mímu omi",
+    "harvard": "Harvard Health lórí oúnjẹ àti omi ara",
+    "cycle": "Ìwádìí lórí bí ara ṣe ń ṣàkóso omi nígbà nǹkan oṣù",
+    "menopause": "Àtúnyẹ̀wò lórí ìṣàkóso omi ara nígbà ìdáwọ́dúró nǹkan oṣù",
+    "niosh": "Ìtọ́sọ́nà CDC/NIOSH lórí ooru"
+  },
+  "tips": {
+    "kicker": "Wúlò, láìsí àṣejù",
+    "title": "Àyẹ̀wò mẹ́ta fún ìgbésí ayé gidi.",
+    "schedule": {
+      "title": "Ètò Àkókò",
+      "body": "Fi omi bẹ̀rẹ̀ òwúrọ̀ rẹ, máa mu díẹ̀díẹ̀ pẹ̀lú oúnjẹ, kí o sì jẹ́ kí òùngbẹ, ojú ọjọ́, àti ìgbòkègbodò rẹ darí ìyókù."
+    },
+    "electrolytes": {
+      "title": "Electrolytes",
+      "body": "Ọ̀pọ̀lọpọ̀ ènìyàn máa ń rí electrolytes padà nípasẹ̀ oúnjẹ tí wọ́n ń jẹ déédéé. Lẹ́yìn òógùn tó pẹ́ tàbí tó pọ̀, yan ohun mímu electrolyte tó wà ní ìwọ̀ntúnwọ̀nsì; má ṣe máa fi iyọ̀ kún oúnjẹ déédéé tí wọ́n bá ti gbà ọ́ nímọ̀ràn láti dín sodium kù."
+    },
+    "visualCheck": {
+      "title": "Àyẹ̀wò Ojú",
+      "body": "Ìtọ̀ aláwọ̀ yẹ́lò fẹ́ẹ́rẹ́ lè jẹ́ àmì àfojúbù kan pé ara rẹ ní omi tó. Oúnjẹ, fítámì, oògùn, àti àwọn àìsàn lè yí àwọ̀ rẹ̀ padà, nítorí náà kì í ṣe ìdámọ̀ àìsàn."
+    }
+  },
+  "author": {
+    "kicker": "Láti ọ̀dọ̀ ẹni tó kọ́ ọ",
+    "title": "Ìdí Tí Mo Fi Kọ́ Èyí (Àti Ìdí Tí O Kò Fi Gbọ́dọ̀ Gbọ́ Tèmi Nìkan)",
+    "athlete": "Orúkọ mi ni Denzel Rigaud. Mo lo ohun tó ju ọdún mẹ́sàn-án lọ ní sísá eré 400 mítà àti eré ìfò ìdènà (hurdles), nítorí náà mímu omi di ara bí mo ṣe ń ṣe ìdánrawò, bí mo ṣe ń gbádùn ara padà, àti bí mo ṣe kọ́ láti ka ara mi.",
+    "purpose": "Mo kọ́ The Water Check láti ràn ọ́ lọ́wọ́ láti gbọ́ ohùn ara rẹ ju ariwo orí ayélujára lọ. Mi ò fẹ́ kí o mú ìrírí mi bí ìwé oògùn dókítà. Bí ara rẹ ṣe dá, àyíká rẹ, ìtàn ìlera rẹ, àti ìpele ìgbésí ayé rẹ ló ń pinnu ohun tí o nílò.",
+    "technology": "Ìmọ̀ ẹ̀rọ kò wà fún wa láti máa yí ojú-ìbojú láìnídìí, kí a sì máa gbé ìgbésí ayé àwọn ẹlòmíràn. Ó yẹ kí ó jẹ́ kí ìgbésí ayé wa máa so èso, kí ó sì mú ẹ̀mí, ọkàn, èrò inú, àti ara wa dára sí i, kí a lè di ẹni tó dára jù lọ tí a fẹ́ jẹ́. Nítorí náà, dẹ́kun gbígbọ́ ti gbogbo ènìyàn, nítorí ohun tó bá ọ mu, ó bá ọ mu.",
+    "faith": "Kọ́ àwọn ìlànà ara rẹ, kí o sì gbé àwọn àníyàn ìlera lọ sọ́dọ̀ akọ́ṣẹ́mọṣẹ́ tó kúnjú ìwọ̀n. Títọ́jú ara rẹ, ohun èlò rẹ, lè mú ọ sún mọ́ ara rẹ àti Ọlọ́run, ẹni tó fi ìtàná kan tó yẹ ní títọ́jú sínú ẹnìkọ̀ọ̀kan wa.",
+    "motto": "Má ṣe tẹ̀lé àwọn gbajúgbajà orí ayélujára. Mọ ara rẹ.",
+    "date": "15 Oṣù Ẹrẹ̀nà 2021",
+    "founderPage": "Ojú Ìwé Olùdásílẹ̀"
+  },
+  "community": {
+    "kicker": "Jẹ́ kí ó jẹ́ ti ènìyàn",
+    "title": "Darapọ̀ mọ́ àwùjọ gidi.",
+    "instagram": "Tẹ̀lé @thewatercheck lórí Instagram",
+    "reelSoon": "Reel Instagram ń bọ̀ láìpẹ́",
+    "story": "Ìtàn àwùjọ {{position}}"
+  }
+}

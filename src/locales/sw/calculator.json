@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Achana na washawishi wa mitandaoni. Jifunze biolojia halisi ya mwili wako.",
+    "lead": "Jaribu kikokotoo cha bure bila kufungua akaunti, kisha gundua programu tunayoijenga kwa ajili ya kufuatilia kila siku.",
+    "appLink": "Gundua programu ↓",
+    "logoLabel": "Tumia kikokotoo cha The Water Check"
+  },
+  "intro": {
+    "kicker": "Kikokotoo cha maji",
+    "title": "Anza na namba unazozijua."
+  },
+  "units": {
+    "legend": "Kipimo cha uzito",
+    "pounds": "Pauni (lb)",
+    "kilograms": "Kilo (kg)"
+  },
+  "weight": {
+    "labelLb": "Uzito (lbs)",
+    "labelKg": "Uzito (kg)",
+    "valueTextLb": "Pauni {{value}}",
+    "valueTextKg": "Kilo {{value}}"
+  },
+  "height": {
+    "legend": "Urefu",
+    "feet": "Urefu (ft)",
+    "inches": "Urefu (in)",
+    "centimeters": "Urefu (cm)",
+    "note": "Mahitaji ya maji hufuata uzito wa mwili usio na mafuta, kwa hiyo urefu ni muhimu zaidi pale uzito wako uko juu kwa umbo la mwili wako."
+  },
+  "activity": {
+    "label": "Shughuli za Kila Siku (dakika)",
+    "value": "Dakika {{minutes}}",
+    "valueText": "Dakika {{minutes}}"
+  },
+  "factors": {
+    "legend": "Mambo yanayoweza kubadilisha mahitaji ya maji",
+    "intro": "Tunaongeza namba pale tu ambapo kuna marekebisho ya kila siku yanayoweza kutetewa kisayansi. Majibu mengine yanafanya mwongozo wako uwe wa kibinafsi bila kujifanya kuwa sayansi inaunga mkono kipimo kamili.",
+    "age": {
+      "label": "Umri",
+      "hint": "Umri hutoa muktadha tu; hautambui kukoma kwa hedhi."
+    },
+    "lifeStage": {
+      "label": "Hatua ya maisha",
+      "hint": "Hutumia marekebisho ya wazi ya ujauzito au ya utoaji wa maziwa ya mama.",
+      "options": {
+        "standard": "Kawaida",
+        "pregnant": "Mjamzito",
+        "breastfeeding": "Kunyonyesha"
+      }
+    },
+    "sex": {
+      "label": "Jinsia",
+      "hint": "Si lazima. Huboresha hesabu za uzito unaofaa na za kiwango cha marejeleo cha unywaji.",
+      "options": {
+        "unspecified": "Sipendi kusema",
+        "woman": "Mwanamke",
+        "man": "Mwanaume"
+      }
+    },
+    "luteal": {
+      "label": "Wiki moja kabla ya hedhi yako",
+      "hint": "Hufuatilia mwili kuhifadhi maji katika awamu ya luteal na kuvimba kunakotokana na homoni. Hakuna nyongeza moja isiyobadilika inayomfaa kila mtu."
+    },
+    "heat": {
+      "label": "Joto kali au unyevunyevu",
+      "hint": "Mwongozo wa joto hutegemea muda unaokaa kwenye joto na jasho lako, si mahali ulipo pekee."
+    }
+  },
+  "result": {
+    "goal": "Lengo Lako la Kila Siku: Onzi {{ounces}}",
+    "breakdown": "Mchanganuo wa hesabu",
+    "weightBaseline": "Msingi wa uzito",
+    "heightAndBuild": "Urefu na umbo",
+    "sexReference": "Marejeleo ya jinsia",
+    "notSet": "Haijawekwa",
+    "activity": "Marekebisho ya shughuli",
+    "lifeStage": {
+      "standard": "Marekebisho ya hatua ya maisha",
+      "pregnant": "Marekebisho ya ujauzito",
+      "breastfeeding": "Marekebisho ya kunyonyesha"
+    },
+    "luteal": "Mwongozo wa awamu ya luteal",
+    "noFixedOunces": "Hakuna +oz maalum",
+    "electrolytes": "Ukaguzi wa elektroliti",
+    "electrolytesAfterSweat": "Fikiria baada ya jasho jingi",
+    "electrolytesFromFood": "Kwa kawaida chakula hutosha",
+    "guidance": "Haya ni makadirio ya kielimu ya kupanga kwa watu wazima, si utambuzi wa ugonjwa, matibabu, wala agizo la kitabibu. Chakula pia hutoa maji, na mahitaji ya kila mtu hutofautiana. Usijilazimishe kunywa vinywaji. Muulize mtaalamu wa afya kuhusu mahitaji yako ikiwa una mimba au unanyonyesha, unatumia dawa zinazoathiri usawa wa maji mwilini, una ugonjwa wa figo au wa moyo, umeelekezwa kupunguza kiasi cha vinywaji unavyokunywa, au una dalili zinazokutia wasiwasi."
+  },
+  "equivalents": {
+    "title": "Hiyo ni takriban",
+    "cups": "Vikombe {{value}}",
+    "cupsNote": "oz 8 kila kimoja",
+    "liters": "Lita {{value}}",
+    "litersNote": "kipimo cha metriki",
+    "bottles": "Chupa {{value}}",
+    "bottlesNote": "chupa ya oz 16.9"
+  },
+  "eatYourWater": {
+    "kicker": "Kula maji yako",
+    "title": "Si yote lazima yatoke kwenye glasi.",
+    "copy": "Takriban sehemu moja ya tano ya maji ambayo watu wengi hupata kila siku hutoka kwenye chakula. Matunda na mboga nyingi mbichi huwa na maji kwa asilimia 70 hadi 95, na maji hayo yakishafika kwenye damu yako, hukupa maji mwilini sawasawa kabisa na kinywaji.",
+    "drink": "Kunywa",
+    "drinkNote": "Vikombe {{cups}} vya maji, chai, au maziwa",
+    "eat": "Kula",
+    "eatNote": "kutoka kwenye vyakula vyenye maji mengi",
+    "pickLegend": "Onyesha sehemu ya chakula kama",
+    "estimate": "{{food}}: ≈ {{amount}}",
+    "detail": "{{serving}} ni takriban oz {{ounces}} za maji ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "Vikombe vya tikiti maji",
+      "serving": "Kikombe 1 cha vipande vidogo",
+      "water": "maji 92%"
+    },
+    "cucumber": {
+      "label": "Matango",
+      "serving": "Tango 1 la wastani",
+      "water": "maji 95%"
+    },
+    "strawberries": {
+      "label": "Vikombe vya stroberi",
+      "serving": "Kikombe 1",
+      "water": "maji 91%"
+    },
+    "oranges": {
+      "label": "Machungwa",
+      "serving": "Chungwa 1 la wastani",
+      "water": "maji 87%"
+    },
+    "salad": {
+      "label": "Bakuli za saladi",
+      "serving": "Vikombe 2 vya mchanganyiko",
+      "water": "takriban maji 94%"
+    },
+    "soup": {
+      "label": "Bakuli za supu nyepesi",
+      "serving": "Kikombe 1",
+      "water": "takriban maji 92%"
+    },
+    "tomatoes": {
+      "label": "Nyanya",
+      "serving": "Nyanya 1 ya wastani",
+      "water": "maji 95%"
+    },
+    "grapes": {
+      "label": "Vikombe vya zabibu",
+      "serving": "Kikombe 1",
+      "water": "maji 81%"
+    },
+    "peaches": {
+      "label": "Pichi",
+      "serving": "Pichi 1 ya wastani",
+      "water": "maji 89%"
+    },
+    "cantaloupe": {
+      "label": "Vikombe vya tikiti tamu",
+      "serving": "Kikombe 1 cha vipande vidogo",
+      "water": "maji 90%"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Kwa nini maji ya chakula yanahesabika",
+    "title": "Maji ya tikiti maji ni maji yale yale.",
+    "sameMolecule": "<strong>Molekuli ile ile.</strong> H2O kutoka kwenye tango na H2O kutoka bombani ni sawa kabisa. Ikishapita kwenye utumbo wako na kuingia kwenye damu, mwili wako huipeleka kwenye misuli yako kwa njia ile ile.",
+    "slowRelease": "<strong>Hutolewa polepole.</strong> Maji yaliyo kwenye matunda na mboga hushikiliwa ndani ya nyuzinyuzi na kuta za seli, kwa hiyo hufyonzwa taratibu zaidi kuliko glasi ya maji uliyoinywa haraka, ambayo figo zako huwa zinaitoa haraka.",
+    "electrolytes": "<strong>Huja pamoja na elektroliti.</strong> Matango, mchicha, matikiti na beri yana potasiamu na magnesiamu, madini ambayo seli zako huyatumia kushikilia maji.",
+    "glycogen": "<strong>Nishati na hifadhi kwa pamoja.</strong> Misuli huhifadhi kabohaidreti kama glaikojeni, na kila gramu ya glaikojeni huhifadhiwa pamoja na takriban gramu tatu za maji. Vyakula vyenye maji mengi na kabohaidreti nyingi hutoa vyote viwili.",
+    "caveat": "Bado unahitaji kunywa. Kwa kawaida chakula hutoa takriban sehemu moja ya tano ya jumla; kinachobaki hutoka kwenye maji na vinywaji vingine. Matunda yaliyokaushwa, karanga na mkate vina maji kidogo sana."
+  },
+  "grace": {
+    "kicker": "Upole kwa mwili",
+    "title": "Dokezo Fupi Kuhusu Kujitendea kwa Upole",
+    "body": "Unachokiona kwenye kioo na jinsi nguo zinavyokukaa vinaweza kubadilika kutokana na mwili kuhifadhi maji, mmeng'enyo wa chakula, homoni, usingizi, na mabadiliko mengine ya kawaida. Siku moja ya tumbo kujaa haiamui mwili wako ulivyo. Kunywa kwa uangalifu, jipe muda, na acha udadisi uchukue nafasi ya aibu. Tumbo kujaa kusikoisha, kuvimba, mabadiliko ya haraka ya uzito, au dalili zinazokutia wasiwasi zinastahili mazungumzo na mtaalamu wa afya."
+  },
+  "overhydration": {
+    "title": "Hatari ya Kujilazimisha Kunywa Maji",
+    "kidneys": "Figo zako zinahitaji muda ili kutoa maji. Wakati wa mazoezi ya muda mrefu, kunywa kwa kasi zaidi kuliko unavyopoteza maji mwilini kunaweza kuzimua sodiamu katika damu na kusababisha hyponatremia inayohusiana na mazoezi. Dalili za mwanzo zinaweza kujumuisha maumivu ya kichwa, kichefuchefu, kizunguzungu, uchovu, au kuchanganyikiwa. Hali mbaya zinaweza kusababisha ubongo kuvimba, degedege, kupoteza fahamu (koma), na kifo.",
+    "pacing": "Usijaribu kufikia makadirio haya kwa kunywa maji mengi kwa pupa. Gawanya vinywaji katika siku nzima. Wakati wa mazoezi, kunywa kulingana na kiu yako, hali ya mazingira, na kiasi cha jasho unachopoteza wewe mwenyewe. Tafuta huduma ya matibabu ya dharura kukiwa na kuchanganyikiwa, degedege, kuzimia au kuanguka ghafla, au dalili kali.",
+    "sources": "Vyanzo: <nih>Mwongozo wa NIH kuhusu hyponatremia inayohusiana na mazoezi</nih> na <academies>mapendekezo ya National Academies kuhusu vinywaji</academies>."
+  },
+  "notes": {
+    "title": "Maelezo yako ya ushahidi",
+    "sexMan": "<strong>Jinsia:</strong> Viwango vya marejeleo vya National Academies ni takriban lita 3.7 za jumla ya maji kwa siku kwa wanaume na lita 2.7 kwa wanawake. Uzito wa mwili unaeleza sehemu kubwa ya tofauti hiyo, kwa hiyo kinachobaki kinaonyeshwa hapa kama ongezeko la asilimia 4 kwenye msingi wa uzito, na ukaguzi wa urefu na umbo hutumia fomula ya uzito unaofaa ya wanaume.",
+    "sexWoman": "<strong>Jinsia:</strong> Viwango vya marejeleo vya National Academies ni takriban lita 3.7 za jumla ya maji kwa siku kwa wanaume na lita 2.7 kwa wanawake. Uzito wa mwili unaeleza sehemu kubwa ya tofauti hiyo, kwa hiyo kinachobaki kinaonyeshwa hapa kama upungufu wa asilimia 4 kwenye msingi wa uzito, na ukaguzi wa urefu na umbo hutumia fomula ya uzito unaofaa ya wanawake.",
+    "height": "<strong>Urefu na umbo:</strong> Mahitaji ya maji hufuata uzito wa mwili usio na mafuta kuliko uzito wote. Kwa sababu uzito wako uko juu ya kiwango cha kawaida kwa urefu wako, makadirio haya hutumia uzito wa mwili uliorekebishwa (uzito unaofaa pamoja na asilimia 40 ya tofauti), utaratibu wa kawaida wa kitabibu. Ni namba ya kukadiria tu kwa ajili ya kupanga, si hukumu kuhusu mwili wako.",
+    "cycle": "<strong>Awamu ya mzunguko:</strong> Mabadiliko ya maji mwilini yanayohusiana na mzunguko wa hedhi ni ya kweli, lakini tafiti hazijathibitisha ongezeko moja la onzi linalomfaa kila mtu. Hakuna onzi zilizoongezwa moja kwa moja. Kwa kawaida milo ya kila siku hutosheleza elektroliti; virutubisho vya magnesiamu au potasiamu si pendekezo kwa kila mtu.",
+    "age": "<strong>Umri na kukoma hedhi:</strong> Umri pekee hauamui kama mtu amefikia kukoma hedhi. Mabadiliko ya homoni yanaweza kuathiri kiu na udhibiti wa maji mwilini, lakini hakuna marekebisho ya onzi ya “zaidi ya miaka 45” yaliyothibitishwa, kwa hiyo umri wako haukubadilisha jumla.",
+    "heat": "<strong>Joto:</strong> Nyongeza isiyobadilika kwa ajili ya hali ya hewa inaweza kukadiria mahitaji yako chini sana au juu sana. Kwa kazi ya wastani kwenye joto kwa chini ya saa mbili, NIOSH inashauri takriban onzi 8 kila dakika 15 hadi 20; jasho jingi la muda mrefu zaidi linahitaji mpango wa kurejesha maji uliopangwa kwa ajili yako."
+  },
+  "evidence": {
+    "label": "Ushahidi:",
+    "academies": "Mwongozo wa National Academies kuhusu unywaji wa maji",
+    "harvard": "Harvard Health kuhusu chakula na maji mwilini",
+    "cycle": "Utafiti kuhusu usawa wa maji mwilini katika mzunguko wa hedhi",
+    "menopause": "Mapitio kuhusu udhibiti wa maji mwilini wakati wa kukoma hedhi",
+    "niosh": "Mwongozo wa CDC/NIOSH kuhusu joto"
+  },
+  "tips": {
+    "kicker": "Za manufaa, bila kupindukia",
+    "title": "Mambo matatu ya kuangalia katika maisha halisi.",
+    "schedule": {
+      "title": "Ratiba",
+      "body": "Anza asubuhi yako kwa maji, kunywa kidogo kidogo pamoja na milo, na acha kiu, hali ya hewa na shughuli zako viongoze kilichobaki."
+    },
+    "electrolytes": {
+      "title": "Elektroliti",
+      "body": "Watu wengi hurejesha elektroliti kupitia milo yao ya kawaida. Baada ya kutokwa jasho kwa muda mrefu au kwa wingi, chagua kinywaji chenye elektroliti zilizosawazishwa; usiongeze chumvi kila mara ikiwa umeshauriwa kupunguza sodiamu."
+    },
+    "visualCheck": {
+      "title": "Ukaguzi kwa Macho",
+      "body": "Mkojo wenye rangi ya njano iliyofifia unaweza kuwa ishara moja ya takriban kwamba una maji ya kutosha mwilini. Chakula, vitamini, dawa na hali za kiafya zinaweza kubadilisha rangi yake, kwa hiyo si utambuzi wa ugonjwa."
+    }
+  },
+  "author": {
+    "kicker": "Kutoka kwa aliyekijenga",
+    "title": "Kwa Nini Nilijenga Hiki (Na Kwa Nini Usinisikilize Mimi Pekee)",
+    "athlete": "Jina langu ni Denzel Rigaud. Nilitumia zaidi ya miaka tisa nikikimbia mita 400 na mbio za vikwazo, kwa hiyo kunywa maji kukawa sehemu ya jinsi nilivyofanya mazoezi, nilivyopona, na nilivyojifunza kuusoma mwili wangu.",
+    "purpose": "Nilijenga The Water Check ili kukusaidia kuusikia mwili wako kuliko kelele za mitandaoni. Sitaki uchukulie uzoefu wangu kama agizo la daktari. Biolojia yako, mazingira yako, historia yako ya matibabu, na hatua yako ya maisha ndivyo vinavyoamua unachohitaji.",
+    "technology": "Teknolojia haipo ili tusogeze skrini bila mwisho na kuishi maisha ya watu wengine. Inapaswa kuyafanya maisha yetu yawe na tija na kuboresha roho, nafsi, akili, na mwili wetu, ili tuwe toleo bora la vile tunavyotaka kuwa. Kwa hiyo acha kumsikiliza kila mtu mwingine, kwa sababu kinachokufaa wewe, kinakufaa wewe.",
+    "faith": "Jifunze mienendo yako na upeleke wasiwasi wa kiafya kwa mtaalamu aliyehitimu. Kuutunza mwili wako, chombo chako, kunaweza kukuleta karibu zaidi na nafsi yako na kwa Mungu, aliyeweka ndani ya kila mmoja wetu cheche inayostahili kutunzwa.",
+    "motto": "Usiwafuate washawishi wa mitandaoni. Jifahamu mwenyewe.",
+    "date": "15 Machi 2021",
+    "founderPage": "Ukurasa wa Mwanzilishi"
+  },
+  "community": {
+    "kicker": "Ubinadamu kwanza",
+    "title": "Jiunge na jumuiya halisi.",
+    "instagram": "Fuata @thewatercheck kwenye Instagram",
+    "reelSoon": "Reel ya Instagram inakuja hivi karibuni",
+    "story": "Hadithi ya jumuiya {{position}}"
+  }
+}

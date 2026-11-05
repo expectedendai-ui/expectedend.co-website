@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud waa aasaasaha iyo horumariyaha full-stack ee ka dambeeya Expected End, MyBibleLens, Abka Meesha Quduuska ah ee Masiixiga, iyo The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Abka Masiixiga",
+      "action": "Booqo abka",
+      "tagline": "Abka Meesha Quduuska ah ee Masiixiga.",
+      "secondary": "Taariikh nololeed",
+      "badge": "Ku jira App Store"
+    },
+    "watercheck": {
+      "category": "Bulshada biyo cabbidda",
+      "action": "Booqo abka",
+      "tagline": "Faham waxaad cabto. Tiradaada biyaha, hal taabasho.",
+      "badge": "Waa la eegayaa"
+    },
+    "mybiblelens-store": {
+      "category": "Dukaan · Dhowaan",
+      "action": "Gal dukaanka",
+      "tagline": "Iimaan aad xidhan karto."
+    },
+    "watercheck-store": {
+      "category": "Dukaan · Dhowaan",
+      "action": "Gal dukaanka",
+      "tagline": "Qalabka Waaxda Biyaha."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Abka iimaanka · iOS",
+      "status": "Ku jira App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Abka biyo cabbidda · iOS",
+      "status": "Waa la eegayaa"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens ee Android",
+      "category": "Google Play",
+      "status": "Tijaabo xidhan"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Kanfas aan dhammaad lahayn",
+      "status": "Shaqaynaya"
+    },
+    "journey-plans": {
+      "name": "Qorshayaasha Journey",
+      "category": "Qorshayaasha akhriska + shaabado",
+      "status": "Shaqaynaya"
+    },
+    "water-check-crews": {
+      "name": "Kooxaha Water Check",
+      "category": "Biyo cabbidda kooxda",
+      "status": "La dhisay"
+    },
+    "home-screen-widgets": {
+      "name": "Widget-yada shaashadda hore",
+      "category": "Widget-yada iOS",
+      "status": "La dhisay"
+    },
+    "hydration-calculator": {
+      "name": "Xisaabiyaha biyaha",
+      "category": "Qalab web",
+      "status": "Shaqaynaya"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Abka xarunta ganacsiga",
+      "status": "Horumarin ayuu ku jiraa"
+    },
+    "43-language-rollout": {
+      "name": "Faafinta 43 luuqadood",
+      "category": "Luuqad-u-habayn",
+      "status": "43 luuqadood"
+    },
+    "mybiblelens-store": {
+      "name": "Dukaanka MyBibleLens",
+      "category": "Alaab summad leh",
+      "status": "Dhowaan"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Bogga abka",
+      "status": "Shaqaynaya"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Bogga shirkadda",
+      "status": "Shaqaynaya"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Barashada Kitaabka ee AI",
+      "status": "Bandhig AI"
+    },
+    "hidden-art-world": {
+      "name": "Adduunka farshaxanka qarsoon",
+      "category": "Farshaxan web oo is-dhexgal leh",
+      "status": "Hadiyad qarsoon"
+    },
+    "sanctuary-stickers": {
+      "name": "Stickers-ka Meesha Quduuska ah",
+      "category": "Taxane sawirro",
+      "status": "550+ stickers"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Filimka soo bandhigidda MyBibleLens",
+      "category": "Filimka summadda",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Muuqaallada astaamaha",
+      "category": "Taxane muuqaal",
+      "status": "10 muuqaal"
+    },
+    "look-closer-series": {
+      "name": "Taxanaha Look Closer",
+      "category": "Taxane baraha bulshada",
+      "status": "60 qoraal"
+    },
+    "25-week-campaign": {
+      "name": "Olole 25 toddobaad ah",
+      "category": "Qorshe Instagram",
+      "status": "100 qoraal"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Buug shaqo",
+      "status": "33 qaybood"
+    },
+    "water-check-store": {
+      "name": "Dukaanka Water Check",
+      "category": "Alaab summad leh",
+      "status": "Dhowaan"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Abab",
+      "body": "Badeecado waxtar leh oo si fiican looga fikiray, loona naqshadeeyay dad dhab ah.",
+      "interest": "Dhisidda ab ama fikrad software"
+    },
+    "02": {
+      "title": "Bogag internet",
+      "body": "Guryo dijitaal ah oo gaar ah, kuwaas oo dareensiiya cadaan, nolol, iyo soo dhawayn.",
+      "interest": "Bog internet ama waayo-aragnimo dijitaal ah"
+    },
+    "03": {
+      "title": "Nidaamyada AI",
+      "body": "Garasho wax-ku-ool ah oo ka caawisa fikradaha iyo kooxaha inay hore u socdaan.",
+      "interest": "Nidaam AI ama qalab wax-soo-saar"
+    },
+    "04": {
+      "title": "Hal-abuur",
+      "body": "Aqoonsi, jihayn, iyo waayo-aragnimo uu macnuhu udub dhexaad u yahay.",
+      "interest": "Jihaynta hal-abuurka ama naqshadaynta"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Xaruntaada ganacsi ee gaarka ah. CRM, maaliyad, mashaariic, qalabka kooxda, iyo awood kasta oo aad u baahato marka xigta, dhammaan hal meel.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Otomaatig",
+      "body": "Shaqada soo noqnoqota ku beddel habab shaqo oo isku xidhan oo ganacsigaaga socod ku haya.",
+      "interest": "Otomaatig"
+    },
+    "07": {
+      "title": "Albaabada Macaamiisha",
+      "body": "Sii macaamiisha ama xubnaha hal meel oo qurux badan oo ay ku wada xidhiidhaan, ballan ku qabsadaan, faylal ku wadaagaan, horumarkana kula socdaan.",
+      "interest": "Albaabada Macaamiisha"
+    },
+    "08": {
+      "title": "Badbaadinta Dijitaalka",
+      "body": "Dayactir, casriyee, ama dib u dhis software aan hadda u shaqayn ganacsigaaga.",
+      "interest": "Badbaadinta Dijitaalka"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud è il fondatore e sviluppatore full-stack dietro Expected End, MyBibleLens, l’App Santuario per il cristianesimo, e The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "App cristiana",
+      "action": "Visita l’app",
+      "tagline": "L’App Santuario per il cristianesimo.",
+      "secondary": "Bio",
+      "badge": "Su App Store"
+    },
+    "watercheck": {
+      "category": "Community sull’idratazione",
+      "action": "Visita l’app",
+      "tagline": "Capisci cosa bevi. Il tuo numero dell’acqua, con un tocco.",
+      "badge": "In revisione"
+    },
+    "mybiblelens-store": {
+      "category": "Negozio · In arrivo",
+      "action": "Entra nel negozio",
+      "tagline": "Una fede da indossare."
+    },
+    "watercheck-store": {
+      "category": "Negozio · In arrivo",
+      "action": "Entra nel negozio",
+      "tagline": "L’equipaggiamento ufficiale del Reparto Idratazione."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "App di fede · iOS",
+      "status": "Su App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "App per l’idratazione · iOS",
+      "status": "In revisione"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens per Android",
+      "category": "Google Play",
+      "status": "Test chiuso"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Tela infinita",
+      "status": "Online"
+    },
+    "journey-plans": {
+      "name": "Piani Journey",
+      "category": "Piani di lettura + sigilli",
+      "status": "Online"
+    },
+    "water-check-crews": {
+      "name": "Squadre di Water Check",
+      "category": "Idratazione di squadra",
+      "status": "Realizzato"
+    },
+    "home-screen-widgets": {
+      "name": "Widget della schermata Home",
+      "category": "Widget per iOS",
+      "status": "Realizzato"
+    },
+    "hydration-calculator": {
+      "name": "Calcolatore di idratazione",
+      "category": "Strumento web",
+      "status": "Online"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "App gestionale per aziende",
+      "status": "In sviluppo"
+    },
+    "43-language-rollout": {
+      "name": "Lancio in 43 lingue",
+      "category": "Localizzazione",
+      "status": "43 lingue"
+    },
+    "mybiblelens-store": {
+      "name": "Negozio MyBibleLens",
+      "category": "Merchandising",
+      "status": "In arrivo"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Sito dell’app",
+      "status": "Online"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Sito aziendale",
+      "status": "Online"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Studio biblico con IA",
+      "status": "Demo IA"
+    },
+    "hidden-art-world": {
+      "name": "Mondo d’arte nascosto",
+      "category": "Arte web interattiva",
+      "status": "Easter egg"
+    },
+    "sanctuary-stickers": {
+      "name": "Adesivi del Santuario",
+      "category": "Serie di illustrazioni",
+      "status": "550+ adesivi"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Film di presentazione di MyBibleLens",
+      "category": "Film di brand",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Reel delle funzioni",
+      "category": "Serie video",
+      "status": "10 video"
+    },
+    "look-closer-series": {
+      "name": "Serie Look Closer",
+      "category": "Serie social",
+      "status": "60 post"
+    },
+    "25-week-campaign": {
+      "name": "Campagna di 25 settimane",
+      "category": "Piano Instagram",
+      "status": "100 post"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Quaderno di lavoro",
+      "status": "33 blocchi"
+    },
+    "water-check-store": {
+      "name": "Negozio Water Check",
+      "category": "Merchandising",
+      "status": "In arrivo"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "App",
+      "body": "Prodotti utili e curati, progettati intorno a persone reali.",
+      "interest": "Realizzare un’app o un’idea di software"
+    },
+    "02": {
+      "title": "Siti web",
+      "body": "Case digitali originali, chiare, vive e accoglienti.",
+      "interest": "Sito web o esperienza digitale"
+    },
+    "03": {
+      "title": "Sistemi di IA",
+      "body": "Intelligenza pratica che aiuta idee e team ad andare avanti.",
+      "interest": "Sistema di IA o strumento di produttività"
+    },
+    "04": {
+      "title": "Creatività",
+      "body": "Identità, direzione ed esperienze con il significato al centro.",
+      "interest": "Direzione creativa o design"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "La casa su misura della tua attività. CRM, finanza, progetti, strumenti per il team e qualsiasi funzione ti serva in futuro, tutto in un unico posto.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automazioni",
+      "body": "Sostituisci il lavoro ripetitivo con flussi collegati che fanno andare avanti la tua attività.",
+      "interest": "Automazioni"
+    },
+    "07": {
+      "title": "Portali clienti",
+      "body": "Offri a clienti o membri un unico spazio curato per comunicare, prenotare, condividere file e seguire i progressi.",
+      "interest": "Portali clienti"
+    },
+    "08": {
+      "title": "Salvataggio digitale",
+      "body": "Ripara, modernizza o ricostruisci il software che non funziona più per la tua attività.",
+      "interest": "Salvataggio digitale"
+    }
+  }
+}

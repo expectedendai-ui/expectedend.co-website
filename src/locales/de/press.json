@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Presse & Medien",
+    "title": "Presseunterlagen zu Expected End.",
+    "intro": "Freigegebene Biografien, geprüfte Fakten und Medien zum Herunterladen für die Berichterstattung über Expected End und Gründer Denzel Rigaud.",
+    "downloadPortrait": "Porträt herunterladen"
+  },
+  "inquiry": "Presseanfrage starten",
+  "role": "Gründer und Full-Stack-Entwickler",
+  "portrait": {
+    "alt": "Denzel Rigaud in einem marineblauen Anzug und mit orange getönter Brille"
+  },
+  "contents": {
+    "label": "Abschnitte der Presseseite",
+    "kit": "Pressemappe / 2026",
+    "biographies": "Biografien",
+    "facts": "Geprüfte Fakten",
+    "projects": "Projekte",
+    "licensing": "Mediennutzung"
+  },
+  "bios": {
+    "kicker": "Freigegebene Texte",
+    "title": "Biografien",
+    "text": "Diese Fassungen dürfen für die redaktionelle Berichterstattung zitiert oder angepasst werden.",
+    "shortLabel": "Kurzbiografie / 24 Wörter",
+    "fullLabel": "Ausführliche Biografie",
+    "fullFirst": "Denzel Rigaud hat die EXPECTEDEND LLC gegründet und MyBibleLens und The Water Check unabhängig entwickelt. Er ist der Full-Stack-Entwickler des Unternehmens und begleitet jedes Produkt vom Konzept über Design und Entwicklung bis zur Veröffentlichung.",
+    "fullSecond": "Seine Arbeit konzentriert sich auf glaubensorientierte Software, digitales Wohlbefinden und praktische Werkzeuge, die Menschen helfen, Technologie bewusst zu nutzen. MyBibleLens ist eine Heiligtum-App für den christlichen Glauben. The Water Check verbindet eine private Schätzung des Wasserbedarfs, praktische Trinkgewohnheiten und eine Community, in der es um tägliche Beständigkeit geht."
+  },
+  "facts": {
+    "kicker": "Faktenblatt",
+    "title": "Geprüfte Fakten",
+    "text": "Verbindliche Angaben für Profile, Artikel, Bildunterschriften und Datenbanken.",
+    "company": "Unternehmen",
+    "founder": "Gründer",
+    "role": "Rolle",
+    "products": "Produkte",
+    "productsValue": "MyBibleLens und The Water Check",
+    "website": "Offizielle Website",
+    "profile": "Gründerprofil",
+    "entityLabel": "{{name}} auf Wikidata"
+  },
+  "projects": {
+    "kicker": "Produkte",
+    "title": "Die Arbeit",
+    "text": "Zwei Produkte, unabhängig unter Expected End entwickelt.",
+    "mybiblelens": {
+      "alt": "App-Symbol von MyBibleLens",
+      "kicker": "Glaubensorientierte Software",
+      "text": "Die Heiligtum-App für den christlichen Glauben.",
+      "visit": "MyBibleLens besuchen"
+    },
+    "watercheck": {
+      "alt": "App-Symbol von The Water Check",
+      "kicker": "Trinken und Community",
+      "text": "Eine private Schätzung des Wasserbedarfs, praktische Trinkgewohnheiten und Community.",
+      "visit": "The Water Check besuchen"
+    }
+  },
+  "license": {
+    "kicker": "Mediennutzung",
+    "title": "Porträt des Gründers",
+    "text": "Das Porträt darf unter der Lizenz <license>Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0</license> geteilt und bearbeitet werden. Bildnachweis: Denzel Rigaud / Expected End. Bearbeitungen müssen dieselbe Lizenz verwenden.",
+    "download": "Gründerporträt herunterladen"
+  },
+  "contact": {
+    "kicker": "Pressekontakt",
+    "title": "Interview, Zitat oder weitere Dateien gewünscht?"
+  }
+}

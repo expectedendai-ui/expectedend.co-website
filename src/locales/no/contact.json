@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kontakt Expected End",
+    "title": "Start med litt <em>kontekst.</em>",
+    "intro": "Velg noen detaljer, så blir en tydelig e-post klargjort for deg. E-postappen din åpnes før noe blir sendt."
+  },
+  "fields": {
+    "name": "Navnet ditt",
+    "email": "E-postadressen din",
+    "reason": "Hva gjelder det?",
+    "project": "Hvilket prosjekt?",
+    "priceRange": "Prisramme",
+    "timeline": "Ønsket tidsramme",
+    "discovery": "Hvordan fant du Expected End?",
+    "message": "Hva har du i tankene?",
+    "chooseOne": "Velg ett"
+  },
+  "reasons": {
+    "partnership": "Partnerskap eller samarbeid",
+    "press": "Presse eller media",
+    "general": "Generelt spørsmål"
+  },
+  "projects": {
+    "waterCheckCommunity": "Fellesskapet rundt The Water Check",
+    "newIdea": "En ny idé"
+  },
+  "timelines": {
+    "exploring": "Bare utforsker",
+    "month": "Innen en måned",
+    "threeMonths": "Innen tre måneder",
+    "laterThisYear": "Senere i år",
+    "notSure": "Ikke sikker ennå"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Fellesskapet rundt The Water Check",
+    "search": "Søk",
+    "referral": "En anbefaling",
+    "elsewhere": "Et annet sted"
+  },
+  "submit": {
+    "note": "Ingenting sendes før du har sett gjennom e-posten og trykket Send i e-postappen din.",
+    "apps": "Velg <app>e-postappen din</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> eller <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Klargjør e-post"
+  },
+  "dialog": {
+    "close": "Lukk kontaktskjemaet"
+  }
+}

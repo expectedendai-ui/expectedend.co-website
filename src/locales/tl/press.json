@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Press at media",
+    "title": "Mga press resource para sa Expected End.",
+    "intro": "Mga aprubadong talambuhay, beripikadong impormasyon, at nada-download na media para sa coverage ng Expected End at ng founder nitong si Denzel Rigaud.",
+    "downloadPortrait": "I-download ang portrait"
+  },
+  "inquiry": "Magsimula ng press inquiry",
+  "role": "Founder at full-stack developer",
+  "portrait": {
+    "alt": "Si Denzel Rigaud na nakasuot ng navy na suit at salaming may orange na tint"
+  },
+  "contents": {
+    "label": "Mga seksiyon ng press page",
+    "kit": "Press kit / 2026",
+    "biographies": "Mga talambuhay",
+    "facts": "Beripikadong impormasyon",
+    "projects": "Mga proyekto",
+    "licensing": "Paggamit ng media"
+  },
+  "bios": {
+    "kicker": "Aprubadong teksto",
+    "title": "Mga talambuhay",
+    "text": "Maaaring sipiin o iangkop ang mga bersiyong ito para sa editorial na coverage.",
+    "shortLabel": "Maikling bio / 24 na salita",
+    "fullLabel": "Buong bio",
+    "fullFirst": "Itinatag ni Denzel Rigaud ang EXPECTEDEND LLC at mag-isa niyang binuo ang MyBibleLens at The Water Check. Siya ang full-stack developer ng kumpanya, na humuhubog sa bawat produkto mula konsepto hanggang disenyo, engineering, at release.",
+    "fullSecond": "Nakatuon ang kanyang trabaho sa software na nakasentro sa pananampalataya, digital well-being, at mga praktikal na tool na tumutulong sa mga tao na gamitin ang teknolohiya nang may intensiyon. Ang MyBibleLens ay isang santuwaryong app para sa Kristiyanismo. Pinagsasama ng The Water Check ang pribadong tantiya ng hydration, praktikal na gawi sa pag-inom ng tubig, at komunidad na nakatuon sa araw-araw na pagpapatuloy."
+  },
+  "facts": {
+    "kicker": "Fact sheet",
+    "title": "Beripikadong impormasyon",
+    "text": "Opisyal na detalye para sa mga profile, artikulo, caption, at database.",
+    "company": "Kumpanya",
+    "founder": "Founder",
+    "role": "Tungkulin",
+    "products": "Mga produkto",
+    "productsValue": "MyBibleLens at The Water Check",
+    "website": "Opisyal na website",
+    "profile": "Profile ng founder",
+    "entityLabel": "{{name}} sa Wikidata"
+  },
+  "projects": {
+    "kicker": "Mga produkto",
+    "title": "Ang mga gawa",
+    "text": "Dalawang produkto, binuo nang mag-isa sa ilalim ng Expected End.",
+    "mybiblelens": {
+      "alt": "App icon ng MyBibleLens",
+      "kicker": "Software na nakasentro sa pananampalataya",
+      "text": "Ang Santuwaryong App para sa Kristiyanismo.",
+      "visit": "Bisitahin ang MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "App icon ng The Water Check",
+      "kicker": "Hydration at komunidad",
+      "text": "Pribadong tantiya ng hydration, praktikal na gawi sa pag-inom ng tubig, at komunidad.",
+      "visit": "Bisitahin ang The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Paggamit ng media",
+    "title": "Portrait ng founder",
+    "text": "Maaaring ibahagi at iangkop ang portrait sa ilalim ng lisensiyang <license>Creative Commons Attribution-ShareAlike 4.0</license>. Kredito: Denzel Rigaud / Expected End. Dapat gamitin ng mga adaptasyon ang parehong lisensiya.",
+    "download": "I-download ang portrait ng founder"
+  },
+  "contact": {
+    "kicker": "Contact para sa press",
+    "title": "Kailangan ng interview, quote, o karagdagang file?"
+  }
+}

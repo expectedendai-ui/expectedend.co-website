@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Huvudnavigering",
+    "projects": "Projekt",
+    "services": "Tjänster",
+    "company": "Uppdrag · Om oss · Press",
+    "contact": "Kontakt",
+    "home": "Expected Ends startsida",
+    "openMenu": "Öppna menyn",
+    "closeMenu": "Stäng menyn",
+    "links": {
+      "projects": "Projekt",
+      "services": "Tjänster",
+      "story": "Berättelsen",
+      "about": "Om oss",
+      "press": "Press",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Sidfotsnavigering",
+    "home": "Start",
+    "about": "Om oss",
+    "press": "Press",
+    "terms": "Användarvillkor",
+    "privacy": "Integritetsmeddelande",
+    "accessibility": "Tillgänglighet",
+    "contact": "Kontakt",
+    "mission": "Allt jag bygger inom det här företaget pekar mot samma uppdrag: att föra människor närmare Gud och hjälpa dem att använda tekniken för att leva, skapa, älska och tjäna med avsikt. Det är den framtid och det hopp jag arbetar mot.",
+    "verse": "Jeremia 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Alla rättigheter förbehållna.",
+    "blessing": "Jesus älskar dig."
+  }
+}

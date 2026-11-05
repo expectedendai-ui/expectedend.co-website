@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "여정을 위한 굿즈",
+    "headline": "소중한 것을 가까이에.",
+    "intro": "노트, 리마인더, 그리고 하나님과 함께 걷는 매일을 위해 만든 세심한 굿즈 컬렉션.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "가이드 노트",
+        "kind": "노트"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "작은 리마인더",
+        "kind": "핀"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "부드러운 데일리 레이어",
+        "kind": "의류"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "선선한 아침을 위해",
+        "kind": "의류"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "첫 번째 드롭",
+    "headline": "물을 마시고, 계속 움직여요.",
+    "intro": "꾸준히 나타나고, 다시 채우고, 체크를 이어 가는 사람들을 위한 수분 감성 레이어.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "밝은 데일리 필수템",
+        "kind": "티셔츠"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "긴 산책 후에",
+        "kind": "후디"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "두 번째 컬러웨이",
+        "kind": "티셔츠"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "차분한 헤비웨이트 레이어",
+        "kind": "후디"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}} 스토어 탐색",
+    "collection": "컬렉션"
+  },
+  "hero": {
+    "action": "첫 드롭 둘러보기",
+    "mybiblelensArt": "MyBibleLens 스토어 로고와 스티커 콜라주",
+    "watercheckArt": "The Water Check 리퀴드 로고 버블"
+  },
+  "collection": {
+    "eyebrow": "곧 공개",
+    "title": "하루의 일부가 되도록 만들었어요.",
+    "body": "첫 번째 아이템들이에요. 드롭이 준비되면 제품 사진, 옵션, 결제 링크가 여기에 표시돼요."
+  },
+  "product": {
+    "placeholder": "{{name}} 제품 자리표시 이미지",
+    "buy": "지금 구매",
+    "comingSoon": "곧 출시",
+    "comingSoonLabel": "{{name}} 곧 출시"
+  },
+  "checkout": {
+    "eyebrow": "계정 필요 없음",
+    "title": "오픈하면, 결제는 간단하게.",
+    "body": "아이템을 고르고 지금 구매를 탭한 다음, Stripe로 안전하게 결제하세요. 스토어 계정도, 복잡한 장바구니도 없어요."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. 스토어 정책은 첫 드롭 전에 게시될 예정이에요.",
+    "policies": "스토어 정책",
+    "terms": "이용약관",
+    "privacy": "개인정보",
+    "accessibility": "접근성",
+    "shipping": "배송 및 반품 (드롭 전 공개)"
+  }
+}

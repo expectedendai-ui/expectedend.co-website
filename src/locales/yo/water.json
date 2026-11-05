@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Áàpù náà",
+      "drinkCheck": "Drink Check",
+      "guide": "Ìtọ́sọ́nà",
+      "widgets": "Wíjẹ́ẹ̀tì",
+      "progress": "Ìlọsíwájú",
+      "pricing": "Iye owó",
+      "faq": "Àwọn ìbéèrè tó wọ́pọ̀",
+      "calculator": "Ẹ̀rọ ìṣirò"
+    },
+    "hero": {
+      "title": "Mu omi.<break/>Àwa yóò <em>máa kà á</em>.",
+      "sub": "Iye omi tìrẹ, àwọn ohun mímu tí o lè ṣàyẹ̀wò, ara rẹ tó ń gba agbára, wíjẹ́ẹ̀tì kan tí o máa fẹ́ pa mọ́ ní tòótọ́, àti ẹja puffer kan tí orúkọ rẹ̀ ń jẹ́ Bubbles láti fi ohun gbogbo hàn ọ́. Kò sí òfin gálọ́ọ̀nù, kò sí àwọn gbajúgbajà orí ayélujára, kò sí ẹ̀bi.",
+      "comingSoon": "Ó ń bọ̀ láìpẹ́",
+      "appStoreLead": "Gbà á lórí",
+      "appStore": "App Store",
+      "googlePlayLead": "Gbà á lórí",
+      "googlePlay": "Google Play",
+      "calculator": "Gbìyànjú ẹ̀rọ ìṣirò ọ̀fẹ́",
+      "instagram": "Tẹ̀lé The Water Check lórí Instagram",
+      "note": "Wọ́n ń ṣàyẹ̀wò rẹ̀ ní App Store báyìí. Ẹ̀rọ ìṣirò jẹ́ ọ̀fẹ́, kò sì nílò ìforúkọsílẹ̀.",
+      "todayAlt": "Ojú ìwé Òní ti The Water Check: 40 oz nínú àfojúsùn 81.2 oz, pẹ̀lú bọ́tìnnì àfikún kíákíá àti àkọsílẹ̀ òní",
+      "widgetsAlt": "Ilé iṣẹ́ wíjẹ́ẹ̀tì, tó ń fi wíjẹ́ẹ̀tì Ara hàn ní Hologram àti ọ̀wọ́ àwọn àrà wíjẹ́ẹ̀tì",
+      "bubblesLabel": "Jẹ́ kí Bubbles ṣe àrà kan",
+      "bubblesSay": "Báwo, èmi ni Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "àrà wíjẹ́ẹ̀tì",
+      "pearls": "péálì Ìtọ́sọ́nà láti rí",
+      "foods": "oúnjẹ olómi, tí a yà",
+      "languages": "èdè"
+    },
+    "sixty": {
+      "kicker": "Ìdí tí ó fi ṣe pàtàkì",
+      "title": "Omi ni ìdá 60 nínú ara rẹ.",
+      "lede": "Kì í ṣe àfojúsùn tí o gbọ́dọ̀ dé. Omi yẹn ń ṣiṣẹ́ nísinsìnyí: ó ń gbé afẹ́fẹ́ ọ́síjìn kiri, ó ń rọ àwọn oríkèé rẹ, ó ń tù ọ́ lára, ó sì ń kó ohun tí o kò nílò jáde. Iye tí o nílò ń yípadà pẹ̀lú ìgbòkègbodò, ojú ọjọ́ àti ìlera.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Àwọ̀ mẹ́jọ láti yẹ́lò fẹ́ẹ́rẹ́ bí koríko gbígbẹ dé àwọ̀ amber dúdú, tí a pín sí Omi tó, Fi kún un, àti Mu báyìí",
+      "wellHydrated": "Omi tó",
+      "topUp": "Fi kún un",
+      "drinkNow": "Mu báyìí",
+      "fine": "Àmì àfojúbù ni, kì í ṣe ìdámọ̀ àìsàn. Oúnjẹ, fítámì àti oògùn lè yí àwọ̀ padà. Áàpù náà ṣàlàyé ìpele kọ̀ọ̀kan àti ìgbà tí o yẹ kí o bá òṣìṣẹ́ ìlera sọ̀rọ̀."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Ṣàyẹ̀wò rẹ̀ lẹ́ẹ̀kan. Mọ̀ ọ́. Tẹ̀ ẹ́ títí láé.",
+      "lede": "Ṣàyẹ̀wò bákóòdù, ní ọ̀fẹ́ àti nígbàkúùgbà tí o bá fẹ́. Kò sí bákóòdù? Tí o bá ti pé ọmọ ọdún 18 sókè, ya fọ́tò, áàpù náà yóò sì ka àmì ọjà. Ní ọ̀nà méjèèjì, ìwọ yóò rí ṣúgà ní ṣíbí tíì, káfíìnì, electrolytes, àti gbogbo èròjà tí a sàmì sí Dára, Ó dáa, Ṣọ́ra tàbí Yẹra.",
+      "scoresLabel": "Àwọ̀ àmì Drink Check",
+      "scores": {
+        "great": "Dára gan-an",
+        "good": "Dára",
+        "okay": "Kò burú",
+        "poor": "Kò dára"
+      },
+      "ticks": {
+        "electrolytes": "Electrolytes láti inú àmì ọjà: sodium, potassium, magnesium àti calcium, pẹ̀lú Iye Ojoojúmọ́ wọn (Daily Values).",
+        "save": "Fi pamọ́ (yí orúkọ rẹ̀ padà tí o bá fẹ́), nígbà míì yóò jẹ́ títẹ̀ ẹ̀ẹ̀kan lójú ìwé Fikún. Kò sí àyẹ̀wò tuntun.",
+        "food": "Àwọn àgbàlagbà lè ya fọ́tò oúnjẹ náà: máńgòrò kan yóò lọ sí ìhó máńgòrò rẹ, ohun tuntun yóò sì di ìhó tirẹ̀.",
+        "journal": "Ìwé Ìrántí Ohun Mímu rẹ ń pa bí ohun mímu kọ̀ọ̀kan ṣe rí lára rẹ mọ́, lórí fóònù rẹ."
+      },
+      "fine": "Ìwò kíákíá sí àmì ọjà ni, kì í ṣe àyẹ̀wò láàbù tàbí ìdíwọ̀n àmì-ọjà kankan. Èsì bákóòdù ń wá láti Open Food Facts, AI sì lè ṣàṣìṣe, nítorí náà ṣàyẹ̀wò àmì ọjà gidi, pàápàá fún àléjì. A kì í pa fọ́tò rẹ mọ́.",
+      "alt": "Èsì Drink Check fún ohun mímu eré ìdárayá: àmì 66, Dára, pẹ̀lú ṣúgà, káfíìnì àti electrolytes rẹ̀ láti inú àmì ọjà"
+    },
+    "foods": {
+      "kicker": "Oúnjẹ náà ka",
+      "title": "Nǹkan bí ìdá kan nínú márùn-ún omi rẹ ń dé lórí àwo.",
+      "lede": "Ojú ìwé Fikún jẹ́ ojú ìwé àwọn ìhó èso tí a yà, mẹ́ta ní ìlà kọ̀ọ̀kan: bàrà, kúkúmbà, sítíróbẹ́rì, máńgòrò àti àwọn mìíràn. Tẹ àmì àfikún, yóò sì wọlé, pẹ̀lú Dá a padà lẹ́gbẹ̀ẹ́ rẹ̀. Àwọn oúnjẹ tí o ń fi kún jù ń lọ sí iwájú.",
+      "ticks": {
+        "amounts": "Gíláàsì, ìgò tàbí iye èyíkéyìí, títẹ̀ kan fún ọ̀kọ̀ọ̀kan.",
+        "caffeine": "Àwọn tó ń mu kọfí ń rí káàdì káfíìnì tó ń kún ara rẹ̀.",
+        "ring": "Òrùka kan lókè ń fi oúnjẹ tó ń kà sí ọjọ́ rẹ hàn."
+      },
+      "alt": "Ojú ìwé Fikún: òrùka lókè, bọ́tìnnì ohun mímu, káàdì káfíìnì àti ìhó oúnjẹ olómi"
+    },
+    "guide": {
+      "kicker": "Ìtọ́sọ́nà The Water Check",
+      "title": "Fọ́ ìhó kan. Pa péálì kan mọ́.",
+      "lede": "Gbogbo orí jẹ́ ìhó kan tí ìbéèrè wà lórí rẹ̀, gbogbo wọn sì jẹ́ ọ̀fẹ́. Kí ló dé tí o fi ń rí ara rẹ bí “bátìrì tó ti lọ sílẹ̀”? Kí ni ìtọ̀ rẹ ń sọ fún ọ? Ṣé gálọ́ọ̀nù kan lójúmọ́ jẹ́ òótọ́? Ka ọ̀kan dé òpin, yóò sì fọ́ di péálì. Nǹkan bí ọ̀kan nínú mẹ́fà jẹ́ péálì wúrà àrà ọ̀tọ̀.",
+      "electric": "Ara iná mànàmáná rẹ: orí mẹ́fà nípa àmì náà, sodium àti potassium, magnesium àti calcium, àti agbára oúnjẹ.",
+      "forHerKicker": "Fún obìnrin",
+      "forHer": "Àwọn orí aláwọ̀ rósì nípa ara obìnrin àti omi: ìtọ̀ aláwọ̀ pínkì tàbí aláwọ̀ títàn yòò, rírí ara bí ẹni tó wú ní àyíká nǹkan oṣù, ìdí tí UTI fi ń mú obìnrin jù, ìtọ̀ díẹ̀ tó ń jò nígbà tí o bá ń rẹ́rìn-ín, oyún àti ìdáwọ́dúró nǹkan oṣù. Pẹ̀lú inú rere, ní èdè tó rọrùn, pẹ̀lú orísun.",
+      "fine": "Gbogbo orí ló ń to àwọn orísun rẹ̀ lẹ́sẹẹsẹ, ó sì ń sọ ìgbà tí o yẹ kí o rí dókítà. Òye ló ń san èrè fún, kì í ṣe àkókò lórí ojú-ìbojú: kò sí tẹ̀lẹ̀ntẹ̀lẹ̀, kò sí ìfúnpá.",
+      "alt": "Ìtọ́sọ́nà The Water Check: àwọn orí Ara iná mànàmáná rẹ gẹ́gẹ́ bí ìhó ìbéèrè"
+    },
+    "widgets": {
+      "kicker": "Wíjẹ́ẹ̀tì",
+      "title": "Àrà <count>89</count> fún ojú-ìbojú ilé rẹ.",
+      "lede": "Eré ìdárayá, àwọn ibi, àwọn àsìkò, ẹ̀dá inú òkun àti àwọn àpẹẹrẹ, ní ìwọ̀n kékeré, alábọ́dé àti ńlá, pẹ̀lú ìtò láti òrùka dé ìgbì. Sọ eré ìdárayá rẹ fún wa nígbà ìforúkọsílẹ̀, wíjẹ́ẹ̀tì eré rẹ yóò sì kọ́kọ́ hàn. Kọ ohun mímu sílẹ̀ tààrà láti ojú-ìbojú ilé rẹ.",
+      "ticks": {
+        "body": "Ara: àwòrán ara rẹ ń kún pẹ̀lú omi ọjọ́ náà. Ìtàná: bátìrì kan ń kún pẹ̀lú agbára òní.",
+        "charge": "Fi mítà Agbára sórí wíjẹ́ẹ̀tì èyíkéyìí láti máa wo electrolytes rẹ dípò omi rẹ."
+      },
+      "chips": {
+        "body": "Ara",
+        "spark": "Ìtàná",
+        "running": "Sísá",
+        "crossCountry": "Sísá Orílẹ̀-èdè",
+        "volleyball": "Fọ́líbọ́ọ̀lù",
+        "basketball": "Bọ́ọ̀lù alápẹ̀rẹ̀",
+        "seaTurtle": "Ìjàpá Òkun",
+        "jellyfish": "Ẹja Jẹ́lì",
+        "beach": "Etí òkun",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Àwọn Àsìkò"
+      },
+      "alt": "Ilé iṣẹ́ wíjẹ́ẹ̀tì pẹ̀lú wíjẹ́ẹ̀tì Ara ní Hologram, àwọn àwọ̀ rẹ̀, ìtò àti mítà Agbára"
+    },
+    "progress": {
+      "kicker": "Ìlọsíwájú",
+      "title": "Wo ohun tó wà nínú ohun mímu rẹ, ọ̀pá kan lẹ́yìn òmíràn.",
+      "lede": "Òní gẹ́gẹ́ bí àwọn ọ̀pá tó rọrùn tó ń kún láti òsì sí ọ̀tún: omi ní ìfiwéra pẹ̀lú iye tìrẹ, lẹ́yìn náà sodium, potassium, magnesium àti calcium láti inú àwọn ohun mímu tí o ṣàyẹ̀wò, pẹ̀lú káfíìnì àti ṣúgà. Tẹ ọ̀pá èyíkéyìí láti rí àwọn ohun mímu tó wà lẹ́yìn rẹ̀. Kàlẹ́ndà ń fi gbogbo ọjọ́ hàn lẹ́gbẹ̀ẹ́ ara wọn, pẹ̀lú tẹ̀lẹ̀ntẹ̀lẹ̀ rẹ.",
+      "ticks": {
+        "dailyValues": "A ń wọn electrolytes ní ìfiwéra pẹ̀lú Iye Ojoojúmọ́ (Daily Values) lórí àmì Nutrition Facts.",
+        "caffeine": "Káfíìnì ní ìfiwéra pẹ̀lú 400 mg, iye tí FDA fún ọ̀pọ̀lọpọ̀ àgbàlagbà tí ara wọn le, àti ṣúgà ní ìfiwéra pẹ̀lú 50 g.",
+        "journal": "Ìwé Ìrántí Ohun Mímu rẹ wà nísàlẹ̀ àwọn ọ̀pá náà: gbogbo ohun mímu tí o ṣàyẹ̀wò àti bí ó ṣe rí lára rẹ.",
+        "real": "Gbogbo nọ́ńbà ń wá láti inú ohun tí o kọ sílẹ̀ tàbí tí o ṣàyẹ̀wò. Kò sí ohun tí a hùmọ̀."
+      },
+      "fine": "Ìtọ́kasí ni wọ́n, kì í ṣe àfojúsùn, kì í sì í ṣe ìmọ̀ràn ìṣègùn. Tí o bá ń ṣọ́ sodium tàbí potassium rẹ nítorí ìlera, tẹ̀lé ìmọ̀ràn dókítà rẹ.",
+      "alt": "Ìlọsíwájú: omi ní 83% iye ọjọ́ náà, lẹ́yìn náà sodium, potassium, magnesium, calcium, káfíìnì àti ṣúgà gẹ́gẹ́ bí ọ̀pá"
+    },
+    "crew": {
+      "kicker": "Oṣù rẹ àti àwọn èèyàn rẹ",
+      "title": "Wo bí ó ṣe ń pọ̀ sí i. Mú àwọn ọ̀rẹ́ rẹ wá.",
+      "calendarAlt": "Kàlẹ́ndà: ọjọ́ kọ̀ọ̀kan ń kún bí gíláàsì, pẹ̀lú ọjọ́ tí a kọ sílẹ̀, ọjọ́ tí a dé àfojúsùn àti tẹ̀lẹ̀ntẹ̀lẹ̀",
+      "calendarTitle": "Omi rẹ, ọjọ́ dé ọjọ́",
+      "calendarBody": "Gbogbo ọjọ́ tí o bá kọ sílẹ̀ ń kún bí gíláàsì. Ọjọ́ tí o dé àfojúsùn, tẹ̀lẹ̀ntẹ̀lẹ̀ àti àmì ìgbì omi, ó sì ń tẹ̀lé ọ lọ sí fóònù tuntun.",
+      "crewAlt": "Ẹgbẹ́ kan tí orúkọ rẹ̀ ń jẹ́ Track team pẹ̀lú àwọn ọ̀rọ̀ ìwúrí kíákíá",
+      "crewTitle": "Ẹgbẹ́",
+      "crewBody": "Àwọn ẹgbẹ́ tí a ń wọ̀ nípasẹ̀ ìpè nìkan, tí wọ́n ń wú ara wọn lórí. Àwọn ọ̀rẹ́ ń rí ìpín ọgọ́rùn-ún tí o ti dé nínú àfojúsùn tìrẹ àti tẹ̀lẹ̀ntẹ̀lẹ̀ rẹ, wọn kì í rí ounces rẹ tàbí ara rẹ. Fi ẹjọ́ sùn àti Dènà wà níbẹ̀ nígbà gbogbo."
+    },
+    "bubbles": {
+      "kicker": "Pàdé Bubbles",
+      "title": "Ẹja puffer ni atọ́nà rẹ.",
+      "lede": "Bubbles ni Òṣìṣẹ́ Àlàáfíà ní The Department. Ní ọjọ́ àkọ́kọ́ rẹ, yóò mú ọ rìn yí áàpù náà ká, kò sì lè ṣàì ṣe fọ́rífọ́rí. Ó yá, fún un ní nǹkan láti ṣe.",
+      "tricksLegend": "Àwọn àrà Bubbles",
+      "tricks": {
+        "puff": "Fẹ̀ sókè",
+        "spin": "Yí po",
+        "flip": "Ìfò ẹ̀yìn",
+        "wave": "Juwọ́",
+        "cheer": "Ìparí ńlá"
+      }
+    },
+    "pricing": {
+      "kicker": "Iye owó",
+      "title": "Ọ̀fẹ́ láti bẹ̀rẹ̀. Gbogbo rẹ̀, lẹ́ẹ̀kan.",
+      "free": {
+        "title": "Ọ̀fẹ́",
+        "sub": "Gbogbo ohun tí o nílò láti mu omi tó.",
+        "items": {
+          "number": "Iye omi tìrẹ",
+          "log": "Kọ ohun mímu àti oúnjẹ olómi sílẹ̀",
+          "barcode": "Àyẹ̀wò bákóòdù, ọ̀fẹ́ láìní òpin",
+          "photo": "Àyẹ̀wò fọ́tò ọ̀fẹ́ kan (ọmọ ọdún 18 sókè)",
+          "guide": "Gbogbo orí Ìtọ́sọ́nà",
+          "widgets": "Wíjẹ́ẹ̀tì Àtọwọ́dọ́wọ́, Àwọn Àsìkò, àti Ara àti Ìtàná lásán",
+          "crew": "Kàlẹ́ndà rẹ, tẹ̀lẹ̀ntẹ̀lẹ̀ àti Ẹgbẹ́ ọ̀rẹ́ kan"
+        }
+      },
+      "forever": {
+        "tag": "Ọdún ìṣílẹ̀kùn",
+        "title": "Gbogbo Rẹ̀ Títí Láé",
+        "sub": "Ríra ẹ̀ẹ̀kan, kò sí àsansílẹ̀.",
+        "items": {
+          "widgets": "Gbogbo àrà àti àwọ̀ wíjẹ́ẹ̀tì",
+          "bars": "Àwọn ọ̀pá electrolytes, káfíìnì àti ṣúgà",
+          "journal": "Ìwé Ìrántí Ohun Mímu rẹ",
+          "photos": "Àyẹ̀wò fọ́tò púpọ̀ sí i (ọmọ ọdún 18 sókè)",
+          "summaries": "Àkópọ̀ PDF ọjọ́ 30 àti 90",
+          "crews": "Dá àwọn Ẹgbẹ́ tìrẹ sílẹ̀",
+          "later": "Gbogbo ohun tí a bá fi kún un lẹ́yìn náà"
+        },
+        "note": "A ń fúnni ní èyí ní ọdún ìṣílẹ̀kùn wa. Lẹ́yìn náà, The Water Check lè yípadà sí ètò oṣooṣù, ríra ẹ̀ẹ̀kan tí o bá ti ṣe ṣáájú ìgbà yẹn yóò sì wà ní ṣíṣí. A ń fi iye owó hàn ní App Store tàbí Google Play kí o tó rà á."
+      }
+    },
+    "privacy": {
+      "kicker": "Ìsọfúnni rẹ",
+      "title": "Ohun tó ń wà lórí fóònù rẹ, àti ohun tí kò sí níbẹ̀.",
+      "phoneTitle": "Ó ń wà lórí fóònù rẹ",
+      "phoneBody": "Ìwé Ìrántí Ohun Mímu rẹ, ohun mímu àti oúnjẹ tí o fi pamọ́, péálì Ìtọ́sọ́nà, àkókò ìdánrawò, àkọsílẹ̀ nǹkan oṣù àti àwọn ìránnilétí.",
+      "accountTitle": "A ń pa á mọ́ pẹ̀lú àkọọ́lẹ̀ rẹ",
+      "accountBody": "Ìwọlé rẹ, ìdáhùn ìforúkọsílẹ̀, ohun mímu àti oúnjẹ kọ̀ọ̀kan tí o kọ sílẹ̀ pẹ̀lú àkókò rẹ̀, àpapọ̀ omi ojoojúmọ́ àti Ẹgbẹ́ rẹ, kí wọ́n lè tẹ̀lé ọ lọ sí fóònù tuntun.",
+      "neverTitle": "Kò ní ṣẹlẹ̀ láé",
+      "neverBody": "A kì í ta ìsọfúnni rẹ, a kì í sì í pín in pẹ̀lú àwọn nẹ́tíwọ̀ọ̀kì ìpolówó. A kì í pa fọ́tò Drink Check rẹ mọ́.",
+      "links": {
+        "privacy": "Ìlànà Àṣírí",
+        "healthData": "Ìlànà Ìsọfúnni Ìlera Àwọn Oníbàárà",
+        "deleteAccount": "Pa àkọọ́lẹ̀ rẹ rẹ́"
+      }
+    },
+    "calculator": {
+      "kicker": "Ọ̀fẹ́, kò sí ìforúkọsílẹ̀",
+      "title": "Bẹ̀rẹ̀ pẹ̀lú àwọn nọ́ńbà tí o mọ̀.",
+      "lede": "Ìwúwo rẹ, gíga rẹ, bí o ṣe pẹ́ tó ní ìgbòkègbodò. Ẹ̀rọ ìṣirò yóò fún ọ ní àfojúsùn ojoojúmọ́ láàárín nǹkan bí ogún ìṣẹ́jú-àáyá, yóò sì fi bí ó ṣe ṣe ìṣirò náà hàn kí o lè jiyàn pẹ̀lú rẹ̀. Inú aṣàwákiri rẹ ló ti ń ṣiṣẹ́.",
+      "chips": {
+        "weight": "Ìpìlẹ̀ ìwúwo",
+        "height": "Gíga àti ìrísí ara",
+        "activity": "Àtúnṣe ìgbòkègbodò",
+        "lifeStage": "Ìpele ìgbésí ayé",
+        "heat": "Ooru àti ọ̀rinrin",
+        "electrolytes": "Àyẹ̀wò electrolytes"
+      },
+      "open": "Ṣí ẹ̀rọ ìṣirò",
+      "fine": "Ìṣirò àfojúbù fún ẹ̀kọ́ àti ètò fún àwọn àgbàlagbà, kì í ṣe ìdámọ̀ àìsàn tàbí ìwé oògùn. Má ṣe fi ipá mu omi. Béèrè lọ́wọ́ òṣìṣẹ́ ìlera tí o bá lóyún tàbí tí o ń fún ọmọ lọ́mú, tí o ń lo oògùn tó ń nípa lórí ìwọ̀ntúnwọ̀nsì omi nínú ara, tàbí tí o ní àìsàn kíndìnrín tàbí ọkàn."
+    },
+    "faq": {
+      "kicker": "Àwọn ìbéèrè",
+      "title": "Àwọn ìdáhùn òtítọ́.",
+      "items": {
+        "medical": {
+          "q": "Ṣé ìmọ̀ràn ìṣègùn ni The Water Check?",
+          "a": "Rárá. Áàpù àlàáfíà gbogbogbò ni. Iye omi tìrẹ jẹ́ ìṣirò àfojúbù fún ẹ̀kọ́, kì í ṣe ìwé oògùn, kò sì sí ohunkóhun nínú áàpù náà tó ń ṣe ìdámọ̀ àìsàn tàbí tọ́jú ohunkóhun. Tí o bá lóyún tàbí tí o ń fún ọmọ lọ́mú, tí o ń lo oògùn tó ń nípa lórí omi ara, tàbí tí o ní àìsàn kíndìnrín, ọkàn tàbí àìsàn mìíràn, béèrè lọ́wọ́ dókítà rẹ ohun tó tọ́ fún ọ."
+        },
+        "number": {
+          "q": "Níbo ni iye tèmi ti wá?",
+          "a": "Láti inú ìwúwo rẹ, gíga rẹ, ìgbòkègbodò rẹ, ojú ọjọ́ àti ìpele ìgbésí ayé rẹ, ní bíbẹ̀rẹ̀ láti inú ìtọ́sọ́nà gbangba bíi ìtọ́kasí omi ti US National Academies. Ẹ̀rọ ìṣirò ọ̀fẹ́ ń fi bí ó ṣe ṣe ìṣirò hàn, kí o lè rí gbogbo ìgbésẹ̀. Ibi ìbẹ̀rẹ̀ ni, kì í ṣe òfin."
+        },
+        "scan": {
+          "q": "Kí ló ń ṣẹlẹ̀ nígbà tí mo bá ṣàyẹ̀wò ohun mímu?",
+          "a": "Àyẹ̀wò bákóòdù ń fi nọ́ńbà bákóòdù nìkan ránṣẹ́ sí Open Food Facts, ibi ìpamọ́ ìsọfúnni oúnjẹ tó ṣí sílẹ̀ tó sì jẹ́ ọ̀fẹ́, ó sì ń mú ohun tí àmì ọjà sọ padà wá. Fọ́tò, fún àwọn àgbàlagbà ọmọ ọdún 18 sókè, ń gba inú sáfà wa lọ sí Gemini AI ti Google, èyí tó ń ka àmì ọjà tó sì ń dá ohun tó rí padà. A kì í pa fọ́tò rẹ mọ́; Google lè pa ìsọfúnni mọ́ fún àkókò díẹ̀ lábẹ́ àwọn òfin rẹ̀. Àmì ọjà àti AI lè ṣàṣìṣe, nítorí náà ṣàyẹ̀wò àmì ọjà gidi, má sì ṣe lo Drink Check fún àléjì tàbí oúnjẹ tí dókítà là sílẹ̀ láéláé."
+        },
+        "phone": {
+          "q": "Kí ló ń wà lórí fóònù mi?",
+          "a": "Ìwé Ìrántí Ohun Mímu rẹ, ohun mímu àti oúnjẹ tí o fi pamọ́, péálì Ìtọ́sọ́nà, àkókò ìdánrawò, ìdáhùn nípa nǹkan oṣù àti àkọsílẹ̀ nǹkan oṣù, bí ó tilẹ̀ jẹ́ pé ẹ̀dà ìpamọ́ (backup) fóònù rẹ lè ní wọn nínú. Lórí iPhone, àwọn ìdánrawò tí o gbà kí áàpù náà kà láti Apple Health náà ń wà lórí fóònù rẹ, a kò sì fi wọ́n ránṣẹ́ sí wa láéláé. Àwọn ìdáhùn ìforúkọsílẹ̀ rẹ, ohun mímu àti oúnjẹ kọ̀ọ̀kan tí o kọ sílẹ̀ pẹ̀lú àkókò rẹ̀, àti àpapọ̀ ojoojúmọ́ rẹ ni a ń pa mọ́ pẹ̀lú àkọọ́lẹ̀ rẹ kí wọ́n lè tẹ̀lé ọ lọ sí fóònù tuntun. A kì í ta ìsọfúnni rẹ."
+        },
+        "audience": {
+          "q": "Ta ni ó wà fún?",
+          "a": "Ẹnikẹ́ni tó jẹ́ ọmọ ọdún 13 sókè. Tí o kò bá tíì pé ọmọ ọdún 18, lò ó pẹ̀lú àṣẹ òbí tàbí alágbàtọ́ rẹ. Ààwẹ̀ Èso, kíkọ ọtí sílẹ̀ àti àyẹ̀wò fọ́tò wà fún àwọn àgbàlagbà nìkan. Áàpù náà ń tẹ̀lé ìwọ̀n ọjọ́ orí tí o fúnni, nítorí náà jọ̀wọ́ dáhùn ní òtítọ́. Tí o bá jẹ́ ọmọ ọdún 13 sí 17, ṣàyẹ̀wò iye tìrẹ pẹ̀lú òbí tàbí òṣìṣẹ́ ìlera."
+        },
+        "cost": {
+          "q": "Èló ni ó ń ná?",
+          "a": "Áàpù náà jẹ́ ọ̀fẹ́ láti bẹ̀rẹ̀: gba iye tìrẹ, kọ omi àti oúnjẹ sílẹ̀, ṣàyẹ̀wò bákóòdù èyíkéyìí, ka gbogbo orí Ìtọ́sọ́nà, darapọ̀ mọ́ Ẹgbẹ́ kan, kí o sì lo wíjẹ́ẹ̀tì Àtọwọ́dọ́wọ́, Àwọn Àsìkò, Ara àti Ìtàná. Ní ọdún ìṣílẹ̀kùn wa, ríra kan tí kò pọn dandan ń ṣí ohun gbogbo sílẹ̀, lẹ́ẹ̀kan, láìsí àsansílẹ̀. App Store tàbí Google Play ń fi iye owó hàn ní owó orílẹ̀-èdè rẹ kí o tó rà á."
+        },
+        "deleteAccount": {
+          "q": "Báwo ni mo ṣe lè pa àkọọ́lẹ̀ mi rẹ́?",
+          "a": "Nínú áàpù: Profaili, lẹ́yìn náà Ètò, lẹ́yìn náà Pa àkọọ́lẹ̀ rẹ́. Yóò lọ lẹ́sẹ̀kẹsẹ̀. Kò sí áàpù? Ojú ìwé Pa àkọọ́lẹ̀ rẹ rẹ́ wa ṣàlàyé bí o ṣe lè béèrè nípasẹ̀ ímeèlì."
+        },
+        "download": {
+          "q": "Ìgbà wo ni mo lè gbà á sílẹ̀?",
+          "a": "Wọ́n ń ṣàyẹ̀wò The Water Check ní App Store, à ń dán an wò lórí Google Play, ó sì ń bọ̀ sí méjèèjì láìpẹ́. Tẹ̀lé @thewatercheck lórí Instagram láti kọ́kọ́ gbọ́."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Mọ ohun tí o ń mu. Ilé-iṣẹ́ ẹnìkan ṣoṣo ló kọ́ ọ ní Florida. Fún ọmọ ọdún 13 sókè.",
+      "legal": "Òfin",
+      "privacy": "Ìlànà Àṣírí The Water Check",
+      "terms": "Àwọn Òfin àti Ipò The Water Check",
+      "community": "Ìlànà Àwùjọ",
+      "healthData": "Ìlànà Àṣírí Ìsọfúnni Ìlera Àwọn Oníbàárà",
+      "deleteAccount": "Pa àkọọ́lẹ̀ rẹ rẹ́",
+      "sitePrivacy": "Àṣírí ojú òpó wẹ́ẹ̀bù",
+      "explore": "Ṣàwárí",
+      "calculator": "Ẹ̀rọ ìṣirò omi",
+      "store": "Ilé ìtajà The Water Check",
+      "instagram": "@thewatercheck lórí Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Ìrànlọ́wọ́",
+      "email": "Ìrànlọ́wọ́ nípasẹ̀ ímeèlì",
+      "accessibility": "Ìwọlé fún gbogbo ènìyàn",
+      "contact": "Kàn sí wa",
+      "note": "The Water Check jẹ́ áàpù àlàáfíà gbogbogbò. Kì í ṣe ìdámọ̀, ìtọ́jú tàbí ìdènà àìsàn kankan, kì í sì í ṣe àrọ́pò fún ìmọ̀ràn òṣìṣẹ́ ìlera. Ní ìgbà pàjáwìrì, pe 911 tàbí nọ́ńbà pàjáwìrì ní agbègbè rẹ. Àwòrán áàpù ń fi ẹ̀dà ìdánwò pẹ̀lú ìsọfúnni tí a hùmọ̀ hàn; àwọn ẹ̀yà lè yípadà kí ó tó jáde."
+    }
+  },
+  "app": {
+    "eyebrow": "Áàpù náà",
+    "title": "Omi rẹ, ọjọ́ dé ọjọ́.",
+    "body": "Bẹ̀rẹ̀ pẹ̀lú ìṣirò àfojúbù tìrẹ, lẹ́yìn náà kọ ohun mímu àti oúnjẹ olómi sílẹ̀ bí ọjọ́ rẹ ṣe ń lọ. Wo ìlọsíwájú rẹ nínú áàpù, lórí ojú-ìbojú ilé rẹ, àti jálẹ̀ oṣù.",
+    "comingSoon": "Ó ń bọ̀ sí App Store láìpẹ́",
+    "calculator": "Gbìyànjú ẹ̀rọ ìṣirò ọ̀fẹ́",
+    "caveat": "Ẹ̀rọ ìṣirò ń ṣiṣẹ́ níbí láìsí àkọọ́lẹ̀. Àwòrán áàpù ń fi ẹ̀dà àkọ́wò hàn; àwọn ẹ̀yà àti wíwà rẹ̀ lè yípadà kí ó tó jáde.",
+    "screens": {
+      "number": {
+        "alt": "Ìṣirò omi ojoojúmọ́ tìrẹ ti The Water Check lórí iPhone",
+        "caption": "Iye tìrẹ"
+      },
+      "log": {
+        "alt": "Àkọsílẹ̀ ojoojúmọ́ The Water Check pẹ̀lú ohun mímu àti oúnjẹ lórí iPhone",
+        "caption": "Àkọsílẹ̀ òní"
+      },
+      "widgets": {
+        "alt": "Ètò wíjẹ́ẹ̀tì ojú-ìbojú ilé ti The Water Check lórí iPhone",
+        "caption": "Wíjẹ́ẹ̀tì"
+      },
+      "wellness": {
+        "alt": "Ìtọ́sọ́nà àlàáfíà àti P-Meter ti The Water Check lórí iPhone",
+        "caption": "Àlàáfíà"
+      },
+      "calendar": {
+        "alt": "Kàlẹ́ndà omi oṣooṣù ti The Water Check lórí iPhone",
+        "caption": "Kàlẹ́ndà"
+      }
+    }
+  },
+  "footer": {
+    "note": "Ẹ̀rọ ìṣirò ọ̀fẹ́ kò nílò àkọọ́lẹ̀. Inú aṣàwákiri rẹ ló ti ń ṣiṣẹ́, kò sì fi àwọn nọ́ńbà rẹ ránṣẹ́ sí wa.",
+    "navLabel": "Ìtọ́sọ́nà ìsàlẹ̀ ojú ìwé",
+    "calculator": "Ẹ̀rọ ìṣirò omi",
+    "explore": "Ṣàwárí áàpù náà",
+    "instagram": "@thewatercheck lórí Instagram",
+    "store": "Ilé ìtajà",
+    "builder": "Ta ló kọ́ èyí",
+    "finePrint": "Àwọn àlàyé kékeré",
+    "terms": "Àwọn Òfin àti Ipò",
+    "privacy": "Ìlànà Àṣírí",
+    "community": "Ìlànà Àwùjọ",
+    "healthData": "Ìsọfúnni Ìlera Àwọn Oníbàárà",
+    "deleteAccount": "Pa àkọọ́lẹ̀ rẹ rẹ́",
+    "accessibility": "Ìwọlé fún gbogbo ènìyàn",
+    "contact": "Kàn sí wa",
+    "project": "Iṣẹ́ àkànṣe <company>EXPECTEDEND LLC</company>. Ìṣirò àfojúbù fún ẹ̀kọ́, kì í ṣe ìmọ̀ràn ìṣègùn.",
+    "backToTop": "Padà sókè ↑"
+  }
+}

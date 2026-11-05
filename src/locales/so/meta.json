@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Ujeeddo, si qurux badan loo dhisay",
+    "description": "Expected End waxay abuurtaa software si fiican looga fikiray, qalab wax-soo-saar, waayo-aragnimo dijitaal ah, iyo bulshooyin."
+  },
+  "about": {
+    "title": "Ku saabsan | Expected End",
+    "description": "Sheekada aasaasaha Denzel Rigaud, hadafka ka dambeeya Expected End, iyo mashaariicda laga dhisay iimaan iyo ujeeddo."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Aasaasaha Expected End",
+    "description": "Denzel Rigaud waa aasaasaha iyo horumariyaha full-stack ee ka dambeeya Expected End, MyBibleLens, Abka Meesha Quduuska ah ee Masiixiga, iyo The Water Check."
+  },
+  "press": {
+    "title": "Saxaafadda iyo Warbaahinta | Expected End",
+    "description": "Taariikh nololeedyo la ansixiyay, xaqiiqooyin la hubiyay, linkiyo aqoonsi, iyo warbaahin la soo dejin karo oo loogu talagalay warbixinnada ku saabsan Expected End iyo Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Shuruudaha Isticmaalka Bogga | Expected End",
+    "description": "Shuruudaha xukuma isticmaalka bogga Expected End."
+  },
+  "privacy": {
+    "title": "Bayaanka Qarsoonnimada | Expected End",
+    "description": "Sida Expected End ula macaamisho macluumaadka boggan."
+  },
+  "watercheck-privacy": {
+    "title": "Siyaasadda Qarsoonnimada The Water Check | Expected End",
+    "description": "Waxa The Water Check ururiso, waxa ku hadha telefoonkaaga, cidda ka caawisa wadidda abka, iyo doorashooyinkaaga."
+  },
+  "watercheck-terms": {
+    "title": "Shuruudaha iyo Xaaladaha The Water Check | Expected End",
+    "description": "Shuruudaha isticmaalka abka The Water Check, oo ay ku jiraan caafimaadka iyo badbaadada, AI, xeerarka Kooxda iyo iibsashada."
+  },
+  "watercheck-health-data": {
+    "title": "Siyaasadda Qarsoonnimada Xogta Caafimaadka Macaamiisha ee The Water Check | Expected End",
+    "description": "Sida The Water Check ula macaamisho xogta caafimaadka macaamiisha, iyo sida loo helo, loo tirtiro ama looga racfaanqaato."
+  },
+  "watercheck-delete-account": {
+    "title": "Tirtir akoonkaaga | The Water Check",
+    "description": "Sida loo tirtiro akoonkaaga iyo xogtaada The Water Check, abka dhexdiisa ama iimayl."
+  },
+  "watercheck-community": {
+    "title": "Tilmaamaha Bulshada | The Water Check",
+    "description": "Sida Kooxaha The Water Check ay u ahaadaan kuwo saaxiibtinimo leh: xeerarka, soo sheegidda iyo xannibidda, iyo waxa dhaca marka xeerarka la jebiyo."
+  },
+  "accessibility": {
+    "title": "Helitaanka | Expected End",
+    "description": "Ballanqaadka Expected End ee ah bog internet oo qof walba si fudud u isticmaali karo."
+  },
+  "mybiblelens-store": {
+    "title": "Dukaanka MyBibleLens | Expected End",
+    "description": "Alaab si fiican looga fikiray oo loogu talagalay socod kuugu dhow Erayga. Dukaanka MyBibleLens dhowaan ayuu furmayaa."
+  },
+  "watercheck-store": {
+    "title": "Dukaanka The Water Check | Expected End",
+    "description": "Alaab lagama maarmaan ah oo biyo cabbiddu dhiirrigelisay, kana timid The Water Check. Soo saarka ugu horreeya dhowaan ayuu imanayaa."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Abka Biyo Cabbidda iyo Xisaabiye Bilaash ah",
+    "description": "Baadh abka The Water Check oo isku day qiyaas biyo cabbid oo bilaash ah oo gaar kuu ah, kuna jira Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Xisaabiyaha Biyaha ee Bilaashka ah | The Water Check",
+    "description": "Hel qiyaas maalinle ah oo bilaash ah oo gaar kuu ah oo biyaha aad u baahan tahay, adigoo isticmaalaya xisaabiyaha The Water Check."
+  },
+  "not-found": {
+    "title": "Boggii lama helin | Expected End",
+    "description": "Bogga Expected End ee la codsaday lama helin."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud bụ onye guzobere na onye mmepụta full-stack nọ n'azụ Expected End, MyBibleLens, Ngwa Ebe Nsọ Ndị Kraịst, na The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Ngwa Ndị Kraịst",
+      "action": "Gaa na ngwa",
+      "tagline": "Ngwa Ebe Nsọ Ndị Kraịst.",
+      "secondary": "Akụkọ ndụ",
+      "badge": "Dị na App Store"
+    },
+    "watercheck": {
+      "category": "Obodo ịṅụ mmiri",
+      "action": "Gaa na ngwa",
+      "tagline": "Ghọta ihe ị na-aṅụ. Ọnụọgụ mmiri nke gị, n'otu mpị.",
+      "badge": "A na-enyocha ya"
+    },
+    "mybiblelens-store": {
+      "category": "Ụlọ ahịa · Ọ na-abịa n'oge na-adịghị anya",
+      "action": "Banye n'ụlọ ahịa",
+      "tagline": "Okwukwe ị nwere ike iyi."
+    },
+    "watercheck-store": {
+      "category": "Ụlọ ahịa · Ọ na-abịa n'oge na-adịghị anya",
+      "action": "Banye n'ụlọ ahịa",
+      "tagline": "Uwe na ihe maka Ngalaba Ịṅụ Mmiri."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Ngwa okwukwe · iOS",
+      "status": "Dị na App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Ngwa ịṅụ mmiri · iOS",
+      "status": "A na-enyocha ya"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens maka Android",
+      "category": "Google Play",
+      "status": "Nnwale n'ime ime"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Kanva na-enweghị njedebe",
+      "status": "Ọ na-arụ ọrụ"
+    },
+    "journey-plans": {
+      "name": "Atụmatụ Journey",
+      "category": "Atụmatụ ọgụgụ + akara",
+      "status": "Ọ na-arụ ọrụ"
+    },
+    "water-check-crews": {
+      "name": "Otu Water Check",
+      "category": "Ịṅụ mmiri dị ka otu",
+      "status": "E wuru ya"
+    },
+    "home-screen-widgets": {
+      "name": "Wijetị ihuenyo mbụ",
+      "category": "Wijetị iOS",
+      "status": "E wuru ya"
+    },
+    "hydration-calculator": {
+      "name": "Ihe mgbako mmiri",
+      "category": "Ngwaọrụ webụ",
+      "status": "Ọ na-arụ ọrụ"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Ngwa isi ụlọ ọrụ azụmahịa",
+      "status": "A na-emepụta ya"
+    },
+    "43-language-rollout": {
+      "name": "Mwepụta n'asụsụ 43",
+      "category": "Nsụgharị asụsụ",
+      "status": "Asụsụ 43"
+    },
+    "mybiblelens-store": {
+      "name": "Ụlọ ahịa MyBibleLens",
+      "category": "Ngwaahịa akara",
+      "status": "Ọ na-abịa n'oge na-adịghị anya"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Weebụsaịtị ngwa",
+      "status": "Ọ na-arụ ọrụ"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Weebụsaịtị ụlọ ọrụ",
+      "status": "Ọ na-arụ ọrụ"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Ọmụmụ Baịbụl site na AI",
+      "status": "Ngosipụta AI"
+    },
+    "hidden-art-world": {
+      "name": "Ụwa nka zoro ezo",
+      "category": "Nka webụ ị na-emekọ ihe",
+      "status": "Ihe nzuzo zoro ezo"
+    },
+    "sanctuary-stickers": {
+      "name": "Stickers Ebe Nsọ",
+      "category": "Usoro ihe osise",
+      "status": "Stickers 550+"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Fim nkọwa MyBibleLens",
+      "category": "Fim akara",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Vidiyo njirimara",
+      "category": "Usoro vidiyo",
+      "status": "Vidiyo 10"
+    },
+    "look-closer-series": {
+      "name": "Usoro Look Closer",
+      "category": "Usoro mgbasa ozi ọha",
+      "status": "Ozi 60"
+    },
+    "25-week-campaign": {
+      "name": "Mgbasa ozi izu 25",
+      "category": "Atụmatụ Instagram",
+      "status": "Ozi 100"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Akwụkwọ ọrụ",
+      "status": "Akụkụ 33"
+    },
+    "water-check-store": {
+      "name": "Ụlọ ahịa Water Check",
+      "category": "Ngwaahịa akara",
+      "status": "Ọ na-abịa n'oge na-adịghị anya"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Ngwa",
+      "body": "Ngwaahịa bara uru, e chere echiche nke ọma, e mere maka ezigbo mmadụ.",
+      "interest": "Iwu ngwa ma ọ bụ echiche software"
+    },
+    "02": {
+      "title": "Weebụsaịtị",
+      "body": "Ụlọ dijitalụ pụrụ iche nke doro anya, dị ndụ, ma na-anabata mmadụ.",
+      "interest": "Weebụsaịtị ma ọ bụ ahụmịhe dijitalụ"
+    },
+    "03": {
+      "title": "Sistemụ AI",
+      "body": "Ọgụgụ isi bara uru n'ezie, nke na-enyere echiche na ndị otu aka ịga n'ihu.",
+      "interest": "Sistemụ AI ma ọ bụ ngwaọrụ na-eme ka ọrụ dị ngwa"
+    },
+    "04": {
+      "title": "Nka okike",
+      "body": "Njirimara, nduzi, na ahụmịhe nwere isi ihe pụtara n'etiti ha.",
+      "interest": "Nduzi okike ma ọ bụ imewe"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ụlọ azụmahịa gị a haziri maka gị. CRM, ego, ọrụ, ngwaọrụ ndị otu, na ike ọ bụla ọzọ ị ga-achọ, ha niile n'otu ebe.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Akpaaka",
+      "body": "Jiri usoro ọrụ jikọrọ ọnụ dochie ọrụ ị na-emeghachi, ka azụmahịa gị na-aga n'ihu.",
+      "interest": "Akpaaka"
+    },
+    "07": {
+      "title": "Ọnụ Ụzọ Ndị Ahịa",
+      "body": "Nye ndị ahịa ma ọ bụ ndị otu otu ebe mara mma ebe ha ga-akpakọrịta, dobe oge, kesaa faịlụ, ma soro ọganihu.",
+      "interest": "Ọnụ Ụzọ Ndị Ahịa"
+    },
+    "08": {
+      "title": "Nzọpụta Dijitalụ",
+      "body": "Rụzie, mee ka ọ dị ọhụrụ, ma ọ bụ wughachi software na-adịghị arụrụ azụmahịa gị ọrụ ọzọ.",
+      "interest": "Nzọpụta Dijitalụ"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Si Denzel Rigaud, founder ng Expected End",
+    "stats": {
+      "projects": "PROYEKTONG NABUO",
+      "languages": "WIKA",
+      "appStore": "NASA APP STORE"
+    },
+    "eyebrow": "Pintuan patungo sa <em>inaasahang kinabukasan</em> mo",
+    "title": "Layunin, <break/>binuo <break/>nang maganda.",
+    "intro": "Gumagawa ang Expected End ng maingat na software, productivity tool, digital experience, at komunidad na naglalapit sa mga tao sa Diyos sa masaya at madadaling paraan!",
+    "cta": "Tingnan ang mga gawa",
+    "lensHint": "Igalaw ang cursor para mabasa ang code"
+  },
+  "projects": {
+    "eyebrow": "01 / Mga Proyekto",
+    "title": "Dalawang app sa App Store. <break/><em>Malapit na sa Android.</em>",
+    "visit": "Bisitahin ang {{name}}",
+    "android": "Malapit na sa Android",
+    "bio": "Bio",
+    "actionFor": "{{action}} para sa {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Sa likod ng mga gawa",
+    "title": "Nagsimula ang bawat produkto rito sa isang tanong sa <em>silid-aralan ng ikalimang baitang.</em>",
+    "lead": "Pagdadalamhati, pananampalataya, at maraming puyat ang dumaan sa pagitan ng tanong na iyon at ng mga app na ito. Nasa sarili nitong pahina ang buong kuwento.",
+    "cta": "Basahin ang kuwento"
+  },
+  "proof": {
+    "caption": "Mga proyektong nabuo",
+    "eyebrow": "03 / Patunay ng gawa",
+    "title": "Binuo mula sa wala. <em>Ang gawa na ang nagsasalita.</em>",
+    "lead": "Mga app, website, AI tool, pelikula, at kampanya, na dinisenyo, kinode, at inilunsad nang in-house. Narito ang ilan.",
+    "stats": {
+      "apps": "<strong>2 app</strong> sa App Store",
+      "languages": "<strong>43 wika</strong> sa MyBibleLens",
+      "years": "<strong>10 taon</strong> ng pagko-code",
+      "inHouse": "<strong>Mula ideya hanggang launch</strong>, lahat in-house"
+    },
+    "bigline": "<count>20+</count> PROYEKTO <star>✦</star> BINUO <star>✦</star> INILUNSAD <star>✦</star> LIVE <star>✦</star>",
+    "rows": {
+      "products": "Mga app at produkto",
+      "creative": "Mga website, AI, at creative na gawa"
+    },
+    "next": "Ang proyekto mo na kaya ang <em>susunod?</em>",
+    "cta": "Simulan ang sa iyo"
+  },
+  "services": {
+    "eyebrow": "04 / Piling serbisyo",
+    "title": "Pangarapin mo, <em>bubuuin ko.</em>",
+    "lead": "Inuuna ang sariling mga produkto. Kapag swak, ang parehong malasakit ay inilalaan sa piling proyekto para sa iba.",
+    "note": "Pakisama ang saklaw ng presyo sa lahat ng inquiry at banggitin sa mensahe mo kung kailangan ng NDA.",
+    "count": "Serbisyo {{number}} / {{total}}",
+    "start": "Simulan ang proyektong ito"
+  }
+}

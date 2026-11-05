@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud; Expected End'in, Hristiyanlık için Sığınak Uygulaması MyBibleLens'in ve The Water Check'in arkasındaki kurucu ve full-stack geliştiricidir.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Hristiyanlık uygulaması",
+      "action": "Uygulamayı ziyaret et",
+      "tagline": "Hristiyanlık için Sığınak Uygulaması.",
+      "secondary": "Biyografi",
+      "badge": "App Store'da"
+    },
+    "watercheck": {
+      "category": "Hidrasyon topluluğu",
+      "action": "Uygulamayı ziyaret et",
+      "tagline": "Ne içtiğinizi anlayın. Size özel su miktarı, tek dokunuşla.",
+      "badge": "İncelemede"
+    },
+    "mybiblelens-store": {
+      "category": "Mağaza · Çok yakında",
+      "action": "Mağazaya gir",
+      "tagline": "Üzerinizde taşıyabileceğiniz inanç."
+    },
+    "watercheck-store": {
+      "category": "Mağaza · Çok yakında",
+      "action": "Mağazaya gir",
+      "tagline": "Hidrasyon Departmanı için ekipman."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "İnanç uygulaması · iOS",
+      "status": "App Store'da"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Hidrasyon uygulaması · iOS",
+      "status": "İncelemede"
+    },
+    "mybiblelens-for-android": {
+      "name": "Android için MyBibleLens",
+      "category": "Google Play",
+      "status": "Kapalı test"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Sonsuz tuval",
+      "status": "Yayında"
+    },
+    "journey-plans": {
+      "name": "Journey planları",
+      "category": "Okuma planları + mühürler",
+      "status": "Yayında"
+    },
+    "water-check-crews": {
+      "name": "Water Check Ekipleri",
+      "category": "Takım halinde hidrasyon",
+      "status": "Hazır"
+    },
+    "home-screen-widgets": {
+      "name": "Ana Ekran widget'ları",
+      "category": "iOS widget'ları",
+      "status": "Hazır"
+    },
+    "hydration-calculator": {
+      "name": "Su ihtiyacı hesaplayıcısı",
+      "category": "Web aracı",
+      "status": "Yayında"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "İşletme merkezi uygulaması",
+      "status": "Geliştiriliyor"
+    },
+    "43-language-rollout": {
+      "name": "43 dilde yayılım",
+      "category": "Yerelleştirme",
+      "status": "43 dil"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens Mağazası",
+      "category": "Ürünler",
+      "status": "Çok yakında"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Uygulama web sitesi",
+      "status": "Yayında"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Şirket web sitesi",
+      "status": "Yayında"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Yapay zekâ ile Kutsal Kitap çalışması",
+      "status": "Yapay zekâ demosu"
+    },
+    "hidden-art-world": {
+      "name": "Gizli sanat dünyası",
+      "category": "Etkileşimli web sanatı",
+      "status": "Sürpriz"
+    },
+    "sanctuary-stickers": {
+      "name": "Sığınak çıkartmaları",
+      "category": "İllüstrasyon seti",
+      "status": "550+ çıkartma"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens tanıtım filmi",
+      "category": "Marka filmi",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Özellik videoları",
+      "category": "Video serisi",
+      "status": "10 video"
+    },
+    "look-closer-series": {
+      "name": "Look Closer serisi",
+      "category": "Sosyal medya serisi",
+      "status": "60 gönderi"
+    },
+    "25-week-campaign": {
+      "name": "25 haftalık kampanya",
+      "category": "Instagram planı",
+      "status": "100 gönderi"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Çalışma kitabı",
+      "status": "33 blok"
+    },
+    "water-check-store": {
+      "name": "Water Check Mağazası",
+      "category": "Ürünler",
+      "status": "Çok yakında"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Uygulamalar",
+      "body": "Gerçek insanlar düşünülerek tasarlanmış, faydalı ve özenli ürünler.",
+      "interest": "Bir uygulama veya yazılım fikri geliştirmek"
+    },
+    "02": {
+      "title": "Web siteleri",
+      "body": "Net, canlı ve davetkâr hissettiren özgün dijital evler.",
+      "interest": "Web sitesi veya dijital deneyim"
+    },
+    "03": {
+      "title": "Yapay zekâ sistemleri",
+      "body": "Fikirlerin ve ekiplerin ilerlemesine yardım eden pratik zekâ.",
+      "interest": "Yapay zekâ sistemi veya verimlilik aracı"
+    },
+    "04": {
+      "title": "Yaratıcı",
+      "body": "Merkezinde anlam olan kimlik, yön ve deneyimler.",
+      "interest": "Yaratıcı yönetim veya tasarım"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "İşletmenize özel dijital merkez. CRM, finans, projeler, ekip araçları ve bir sonraki adımda ihtiyaç duyacağınız her özellik, hepsi tek bir yerde.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Otomasyonlar",
+      "body": "Tekrar eden işleri, işletmenizi hareket hâlinde tutan bağlantılı iş akışlarıyla değiştirin.",
+      "interest": "Otomasyonlar"
+    },
+    "07": {
+      "title": "Müşteri Portalları",
+      "body": "Müşterilerinize veya üyelerinize iletişim kurmak, randevu almak, dosya paylaşmak ve ilerlemeyi takip etmek için tek ve şık bir yer sunun.",
+      "interest": "Müşteri Portalları"
+    },
+    "08": {
+      "title": "Dijital Kurtarma",
+      "body": "Artık işletmenize hizmet etmeyen yazılımları onarın, modernleştirin veya yeniden inşa edin.",
+      "interest": "Dijital Kurtarma"
+    }
+  }
+}

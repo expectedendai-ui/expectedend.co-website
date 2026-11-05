@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Ojú ìwé yẹn kò sí níbí.",
+    "home": "Padà sí ojú ìwé àkọ́kọ́"
+  },
+  "legal": {
+    "englishOnly": "Èdè Gẹ̀ẹ́sì ni a fi ń fi ojú ìwé yìí hàn, ẹ̀dà Gẹ̀ẹ́sì ló sì ní àṣẹ.",
+    "effective": "Ó bẹ̀rẹ̀ sí í múlẹ̀ láti {{date}}",
+    "onThisPage": "Lórí ojú ìwé yìí",
+    "related": "Àwọn ojú ìwé tó jọmọ́ ọn"
+  }
+}

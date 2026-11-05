@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Panguna nga navigation",
+    "projects": "Mga Proyekto",
+    "services": "Mga Serbisyo",
+    "company": "Misyon · Bahin · Press",
+    "contact": "Kontak",
+    "home": "Home sa Expected End",
+    "openMenu": "Ablihi ang menu",
+    "closeMenu": "Isira ang menu",
+    "links": {
+      "projects": "Mga Proyekto",
+      "services": "Mga Serbisyo",
+      "story": "Istorya",
+      "about": "Bahin",
+      "press": "Press",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigation sa footer",
+    "home": "Home",
+    "about": "Bahin",
+    "press": "Press",
+    "terms": "Mga Termino sa Paggamit",
+    "privacy": "Pahayag sa Pagkapribado",
+    "accessibility": "Aksesibilidad",
+    "contact": "Kontak",
+    "mission": "Ang tanan nga akong gitukod ubos niini nga kompanya nagtumong sa usa ka misyon: dad-on ang mga tawo nga mas duol sa Dios ug tabangan sila nga gamiton ang teknolohiya aron mabuhi, makamugna, mahigugma, ug moalagad nga may tinuyo. Mao kana ang kaugmaon nga gilauman nga akong gipaningkamotan.",
+    "verse": "Jeremias 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. Tanang katungod gigahin.",
+    "blessing": "Gihigugma ka ni Hesus."
+  }
+}

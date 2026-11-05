@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud oo xidhan muraayado midab oranji leh",
+    "stats": {
+      "gradeValue": "5",
+      "gradeSuffix": "aad",
+      "grade": "FASAL · XIISO",
+      "grief": "MURUGO",
+      "faith": "IIMAAN · SOO NOQOSHADA"
+    },
+    "identity": "Aqoonsiga <b>/ Denzel Rigaud</b>",
+    "founded": "La aasaasay / <time>3 Maarso 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Aasaasaha iyo Horumariyaha Full-Stack ee Keligiis Shaqeeya</em>",
+    "title": "Maskaxda <br/>Ka Dambaysa <br/>Expected End",
+    "text": "Sheeko ku saabsan xiiso, murugo, iimaan, iyo sidii tiknoolajiyadda loogu beddeli lahaa jid hore loogu socdo.",
+    "cta": "Akhri sheekada"
+  },
+  "ticker": {
+    "curiosity": "Xiiso",
+    "grief": "Murugo",
+    "faith": "Iimaan",
+    "code": "Kood",
+    "purpose": "Ujeeddo"
+  },
+  "coordinates": {
+    "eyebrow": "Saddex barood",
+    "title": "Jidka halkan ii keenay ma ahayn <em>khad toosan.</em>",
+    "curiosity": {
+      "label": "01 / Fasalka shanaad",
+      "title": "Xiisuhu wuxuu noqday xirfad badbaado.",
+      "body": "Waxaan ku bilaabay inaan diido in hal guuldarro ay qeexdo inta ka dhiman noloshayda.",
+      "big": "5aad"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Murugadu waxay albaabka ku xidhay tiknoolajiyadda.",
+      "body": "Geerida aabbahay waxay ka dhigtay xirfad kasta oo uu i baray mid aanan suurtagal u ahayn inaan taabto."
+    },
+    "faith": {
+      "label": "03 / 25 Febraayo 2026",
+      "title": "Iimaanku wuxuu shaqada siiyay ujeeddo.",
+      "body": "Waxaan u soo laabtay inaan dhiso qalab dadka uga taga kuwo ka xoog badan sidii uu ku helay."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Sheekada aasaasaha / Qofka koowaad",
+    "title": "Haye, magacaygu waa <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Tiknoolajiyaddu waxay qayb ka ahayd noloshayda tan iyo fasalka shanaad. Dugsigu wuu i niyad jabin jiray tan iyo yaraantaydii. Waan ku dhacay fasalka labaad anigoo la kulmay caqabad luuqadeed, mana rumaysnayn in guuldarradaasi ay i qeexdo. Waxaan go'aansaday inaan ku bilaabo inaan jabsado dhibcahayga. Waxay ku bilaabatay wax yar, laakiin markaan ogaaday inta aan geli karo nidaamyada iyo sida aan u jailbreak-gareyn karo tiknoolajiyadda, waxaan xiiseeyay nidaamyada igu xeeran, waxaanan bilaabay inaan ku raaxaysto.",
+      "second": "Xiisahaasi wuxuu i geeyay beerista bot-yada Instagram, koodaynta, otomaatigga, barashada mashiinka (machine learning), bulshooyinka internetka, korriinka dijitaalka, iyo geesaha ugu madow ee internetka. Waxaan bartay sida ay tiknoolajiyaddu u awood badan tahay. Doorashooyin qaarkood ayaa sidoo kale i baray inaan isticmaalo garaad ka wanaagsan."
+    },
+    "socials": {
+      "label": "Bogagga bulshada ee Denzel Rigaud",
+      "instagram": "Denzel Rigaud ee Instagram",
+      "linkedin": "Denzel Rigaud ee LinkedIn",
+      "youtube": "Denzel Rigaud ee YouTube"
+    },
+    "records": {
+      "label": "Diiwaannada aqoonsiga ee madaxbannaan",
+      "heading": "Diiwaanno dibadda ah",
+      "worldAthletics": "Bogga World Athletics",
+      "lynn": "Bogga ciyaartoyga Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Cutubka 01",
+    "kicker": "Dadkii wax i baray",
+    "title": "Saaxirkaygii ugu horreeyay ee web-ka.",
+    "first": "Aabbahay iyo <brother>walaalkay</brother> waxay ahaayeen dadka ugu caqliga badan ee aan aqaannay, laakiin dhif ayaan arki jiray. Xidhiidhkayagu wuxuu ahaa mid taleefan. Ilbiriqsi kasta oo aan la hadli jiray, waxay i bari jireen wax aan u baahnaa inaan ogaado. Wakhti kadib, waxaan bartay inay weli igu waajib ahayd inaan go'aansado waxa ii habboon. Aabbahay wuxuu ahaa saaxir web-ka ah, anigana waxaan internetka ku dareemi jiray inaan la i joojin karin. Walaalkay wuxuu u shaqeeyaa NSA.",
+    "second": "Sannadkii 2021, waxaan u guuray Florida kadib 17 sano oo aan la noolaa labadayda hooyo iyo labadayda walaalo ah. Waan ka badbaaday, haha. Kadibna waxaan helay fursad aan markii ugu horreysay la noolaado aabbahay. Lix bilood kadib, wuu dhintay, sidaa darteed albaabka ayaan ku xidhay tiknoolajiyadda sababtoo ah xirfad kastaa isaga ayay i xasuusinaysay.",
+    "third": "Aabbahay wuxuu Muslim ahaa inta badan noloshiisa. Waxaan raacay Islaamka qayb ahaan sababtoo ah waxaan rabay inaan isaga oo kale noqdo. Ka hor intuusan dhiman, wuxuu naftiisa u dhiibay Masiixa. Go'aankiisu wuu ila joogay muddo dheer kadib markii aan qalabkaygii iska dhigay."
+  },
+  "return": {
+    "number": "Cutubka 02",
+    "kicker": "Soo noqoshada",
+    "title": "Albaabka mar kale ayaan furay.",
+    "first": "Sannado ayaan ka fogaanayay qaybta naftayda ah ee i xasuusinaysay aabbahay. Weli marmar ayaan taaban jiray tiknoolajiyadda, laakiin murugadu waxay adkaysay inaan ku sii jiro. Meeshaas bannaan waxaan ka buuxiyay dembiga shahwada, waxaanan ka sii fogaaday qofkii aan noqon karay.",
+    "second": "Bishii Janaayo 2026, waxaan ogaaday inaan u baahnaa inaan isbeddelo. Waxaan go'aansaday inaan dib u furo saaxirkii web-ka ee aabbahay i baray inaan noqdo, inaan joojiyo inaan ahaado nin jidhkiisa raaca oo aan Ilaah rumaysnayn, oo aan halkii Isaga raaco. Markaan sidaas sameeyay, noloshaydu waxay bilowday inay barwaaqowdo.",
+    "third": "MyBibleLens waxay ka timid go'aankaas. Ma haysan qorshe dhammaystiran. Waxaan bilaabay inaan dhiso oo aan sii socday. Shaqadu waxay ii oggolaatay inaan furo albaabkii aan xidhay kadib geeridii aabbahay. The Water Check ayaan dib u soo celiyay, waxaanan bilaabay inaan qaato riyooyin aan siday tan iyo yaraantaydii."
+  },
+  "draft": {
+    "label": "Cutubka 03 / Qoraalka hore",
+    "title": "“Runta Ka Dambaysa Koodhka”"
+  },
+  "venom": {
+    "title": "Sunta Dijitaalka",
+    "first": "Waxay dhacdaa isla ilbiriqsiga aan soo toosno. Ka hor intaysan cagahayagu xitaa dhulka taaban, gacantu way fidsantaa. Taleefanka ayaad qaadataa. Dhammaanteen waan samaynaa. Laakiin dhaqdhaqaaqaas keliya ee aan ula kac ahayn wuxuu isla markiiba khalkhal geliyaa jidadka dareemayaasha maskaxdaada, wuxuuna ku tuuraa xaalad culus oo walwal leh ka hor intaysan maalintu xitaa bilaabmin.",
+    "second": "Anigoo ah horumariye software oo keligiis shaqaynayay 10 sano, oo aabbe u lahaa haakar amni-dijitaal (cyber security) oo keligiis shaqeeya kaas oo i baray geesaha madow iyo kuwa qarsoon ee internetka, waxaan arkaa koodhka ka dambeeya shaashadda. Si sax ah ayaan u garanayaa sida algorithm-ku u shaqeeyo, runtuna waxay tahay, waa sun. Sunta xad-dhaafka ah ee aad ka dareemayso internetka dhab ahaan ma aha dabeecadda bini-aadamka: waa dhalanteed la farsameeyay. Waxaa nagu socda weerar joogto ah oo “pseudoism” ah, halkaas oo qaybaha faallooyinka ee buuxa oo cadaawadda lehi ay dhif tahay inay noqdaan qaylo iska timid oo ka timid isticmaalayaal internet oo caadi ah. Taa beddelkeeda, waxay qayb ka yihiin istaraatiijiyad ula kac ah oo nidaamsan oo ah dacaayad xisaabeed (computational propaganda). Akoonno been ah iyo shabakado bot ah ayaa la geeyaa si ay sheekooyin la sameeyay ugu duraan bogaaga, kuwaas oo si gaar ah loogu talagalay in lagu khiyaameeyo aragtida dadweynaha, lagu qoto dheereeyo kala qaybsanaanteenna, laguna saameeyo dhaqankaaga internetka.",
+    "third": "Ma khusayso sida ay u nadiif tahay taariikhda raadintaada ama tan carruurtaada, ama sida bogaagu u muuqdo mid nadiif ah; nidaamka waxaa loo naqshadeeyay inuu dib kuu soo jiido. Wuxuu kuu jiidaa xagga xumaanta, xagga wax-iska-muuqaalka, iyo xagga macallimiinta “si degdeg ah u taajir noqo” ee nagu qasba inaan Lacagta ka hormarinno Ilaah (<strong>1 Timoteyos 6:10</strong>), iyagoo abuuraya dad leh ruuxa maamoonka. Wuxuu ka dhigaa walaalaheenna quruxda badan inaysan ogaan in quruxdooda dhabta ahi aysan ahayn qurxinta wajiga, aysan ahayn sida nin uga fikiro iyada, ama inta like ee Instagram ay hesho… waa qalbigeeda iyo dabeecadaheeda malaa'igta oo kale ah ee ay Ilaah la leedahay. Waa mashiin loo dhisay inuu afduubo maskaxdaada oo uu xakameeyo caadooyinkaaga.",
+    "fourth": "Qulqulkan joogtada ah ee macmalka ahi wuxuu nagu xannibaa nolol degdeg ah, wuxuuna naga indho tiraa xaqiiqda ah in waxyaabaha dhabta ahi wakhti qaataan. Jacaylka dhabta ah, korriinka runta ah, iyo xidhiidhada dhabta ahi waxay u baahan yihiin samir, ma aha raaxada degdega ah ee taleefanku keeno. Wuxuu maskaxda ku khiyaameeyaa inay filato qulqul joogto ah oo dopamine ah oo ka yimaada in lagu raacsan yahay. Sida algorithm-yada la habeeyay ee bogga “For You”, wuxuu dadka ka dhigaa kuwo si indho la' ah u dareema inay xaq u leeyihiin fikradahooda, isagoo ka xidha bini-aadamka dhabta ah iyo xaqiiqda ah in aysan qof walba isku raacsanaan doonin isla shayga. Waa is-dhiibid tartiib ah, oo u oggolaanaysa tiknoolajiyad qabow iyo macmal inay gebi ahaanba la wareegaan maskaxda bini-aadamka.",
+    "fifth": "Waxay rabaan inaan ku mashquulno dagaalladan la soo saaray. Waxay rabaan in maskaxda carruurteennu ay u milanto sidii boorash, oo weligeed ku xayiran heerka ugu hooseeya ee <strong><bloom>Kala-saarka Bloom</bloom></strong>: kaliya “xasuusasho” iyo isticmaalid, weligood su'aalo ma weydiiyaan, weligood wax ma abuuraan, weligood qoto dheer ma galaan. Waxaan daawanaynaa jiil dhan oo dib u dhigaya <strong><erikson>heerarka nolosha ee Erikson</erikson></strong> ee muhiimka ah, oo ay curyaamiyeen xaqiiqooyinka beenta ah ee la habeeyay ee ay shaashadaha ku arkaan, oo ka baqaya inay dhab ahaan koraan sababtoo ah waxba hadda uma muuqdaan kuwo dhab ah. Adduunka oo dhan ayaa ka daalay beenta. Haddii aadan ku arkin khiyaanada koodhka, wax dhib ah ma leh; jiilkaygu wuu arkaa, jiilka mustaqbalkuna wuu arki doonaa."
+  },
+  "crucible": {
+    "title": "Dabkii I Qaabeeyay",
+    "first": "Tan kaliya kuma aanan baran daraasad xog; waan ku noolaa: daroogo ayaan iibinayay si aan u dhiso noloshii aan naftayda u ballanqaaday, mid gaadhi lahayd mustaqbal dhalaalaya. Waa la iga eryay guryaha dadkii aan jeclaa, hoy la'aan ayaan noqday. Waxaa la ii soo bandhigay jid aan ku galo warshadaha filimada qaawan markii aan lacagta ugu baahnaa, 10k ayaa wajigayga hortiisa lagu ruxay, laakiin hooyaday waxay igu korisay anshax. <court>Laba</court> dacwadood intii aan <search>ku jiray</search> dugsiga sare. Waxaan bilaabay inaan jabsado dhibcahayga fasalka 5aad sababtoo ah waan ka daalay inaan dhaco, gaar ahaan markaan ogaaday in fasalka 2aad la igu celiyay lahjaddii aan la imid awgeed. Taasi hadhow waxay isu beddeshay jabsasho wax aad uga badan… markaan maalin dambe dhab ahaan la kulmay <father>aabbahay</father>, waxaan arkay meesha ay iga timid.",
+    "second": "Muddo aad u dheer, waxaan u malaynayay in Ilaah aanu weligiis i soo celin doonin intaas oo dhan kadib. Waxaan moodayay inaan aad u fogaaday. Laakiin kadib waxaan wax ka bartay Rasuul Bawlos. Bawlos dhab ahaan wuxuu dilay Masiixiyiin, haddana Ilaah wuu u soo jeestay oo wuxuu siiyay hadiyad weyn. Waana markaas ay igu dhacday: haddii Ilaah isticmaali karo nin sida Bawlos oo kale ah, taariikhdaydii hore weligeed uma badnayn Isaga inuu mustaqbal ku dhiso.",
+    "third": "Dareenkaas badbaadadu goor hore ayuu bilaabmay. Inaan 16 sano ku koro anigoo ay i hareeraysan yihiin 4 haween ayaa maskaxdayda u qaabeeyay habab aan weli furfurayo. Maskaxdayda waxaa la baray inay si isku mar ah uga shaqayso mowjado nafsi oo kala duwan. Waxaan dhex maray nafsiyad qalloocan, xaalado adag, iyo khiyaano i qaabaysay qofka aan ahay. Taas ayaan ugu jeclahay; waxay iga badbaadisay tamar xagga gabdhaha markii aan si dhab ah u go'aansaday inaan ka fikiro waxa hooyaday ka hadlaysay. Oo kadib qalbi-jab iyo in la i khiyaameeyay, weli waxaan rumaysanahay <chivalry>raganimo</chivalry>.",
+    "fourth": "Waxa aan leeyahay waa, si aad ugu badbaaddo guri ay haween ka buuxaan waa inaad u fikirtaa sidooda oo kale, markii aan ka tagayna waxay ahayd inaan noqdo ninka dhallinyarada ah ee aan maanta ahay, anigoo soo maray halgamo aad u badan. Waxay ahayd deegaan qasan, cadaannimana waxaan helay oo keliya markii aan si firfircoon u doortay inaan meesha ka saaro hal dembigayga “shahwada” iyo buuqa, anigoo ducaysanaya. Markii aan ugu dambayntii Ilaah hormariyay, waxaan ogaaday cidda aan dhab ahaan ahay. Caqabadihii i qaabeeyay uma arkin habaar, balse waxaan u arkay tababarka saxda ah ee aan u baahnaa si aan ugu soo dhowaado Ilaah, oo aan dadka kale jid uga dhiso.",
+    "fifth": "Helitaanka Ilaah wuxuu i geeyay inaan wax badan ka barto naftayda. Raacitaanka Ilaah wuxuu i baray nabarradayda iyo hadiyadahayga, fahamka naftayduna wuxuu iga dhigay inaan Isaga sii ogaado. Markaas ayay noloshaydu bilowday inay barwaaqowdo: waxaan helay jiho, ujeeddo, iyo sabab aan u daryeelo waxa Ilaah i siiyay. The Water Check waxay ka tirsan tahay hadafkaas. Fiiro gaar ah u yeelashada waxa saameeya jidhkaaga waxay kaa caawin kartaa inaad fahamto oo aad daryeesho qofka Ilaah kuu abuuray inaad noqoto. Waxaan doonayaa inaan dhiso tiknoolaji kaa caawisa inaad noqoto nooca ugu awoodda badan ee qofkaas.",
+    "mission": "Wax kasta oo aan ka dhiso shirkaddan hoosteeda waxay u jeedaan isla hadafka: in dadka loo soo dhoweeyo Ilaah oo laga caawiyo inay tiknoolajiyadda u isticmaalaan inay ula kac ugu noolaadaan, wax ugu abuuraan, ugu jeclaadaan, oo ugu adeegaan. Taasi waa dhammaadka la filayo ee aan u shaqaynayo.",
+    "connect": {
+      "label": "Raac Denzel Rigaud",
+      "youtube": "Expected End ee YouTube",
+      "instagram": "Raac Denzel Rigaud ee Instagram",
+      "linkedin": "La xidhiidh Denzel Rigaud ee LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Fayl shakhsi / 04 xusuusood",
+    "title": "Kaydka xusuusta",
+    "text": "Dadka, qolalka, iyo shaqada dhabta ah ee ka dambaysa koodhka. Soo deji sawir kasta oo hayso.",
+    "number": "Xusuus {{number}}",
+    "download": "Soo deji xusuusta {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel oo yar oo la jira aabbihiis",
+        "title": "Aabbahay iyo aniga"
+      },
+      "work": {
+        "alt": "Denzel oo ka shaqaynaya laptop, laba wada-shaqeeyena ay miiska la fadhiyaan",
+        "title": "Shaqada miiska ku wareegsan"
+      },
+      "workspace": {
+        "alt": "Goobta shaqada ee MyBibleLens iyo The Water Check",
+        "title": "Halkii MyBibleLens ay ku qaabaysantay"
+      },
+      "archive": {
+        "alt": "Kaydka muuqaallada Real Work ee Denzel oo ku jira taleefankiisa",
+        "title": "Kaydka Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Dhammaadka gudbinta / Shaqadu way sii socotaa",
+    "title": "Aan dhisno wax dadka dib ugu celiya <em>noloshooda.</em>",
+    "text": "Wixii software si fiican looga fikiray ah, wadahadal saxaafadeed, ama bilowga fikrad wanaagsan, nala soo xidhiidh adigoo maraya Expected End.",
+    "contact": "La xidhiidh Expected End",
+    "back": "Ku noqo shirkadda"
+  },
+  "verse": {
+    "version": "Kitaabka Quduuska ah",
+    "reference": "Yeremyaah 29:11",
+    "text": "Waayo, Rabbigu wuxuu leeyahay, Anigu waan garanayaa fikirrada aan idiinku fikiro, waana fikirro nabadeed, oo ma aha kuwa masiibeed, si aan ugudambaystiinna rajo idiin siiyo.",
+    "close": "Xidh aayadda Kitaabka"
+  },
+  "bio": {
+    "eyebrow": "Ka timid Aasaasaha",
+    "title": "Muxuu ku dhacay @thewatercheck?",
+    "close": "Xidh taariikh nololeedka",
+    "first": "Laga bilaabo da'da 15, waxaan maamulayay oo kobcinayay bogag saameeyayaal iyo bogag waxyaabo (content), anigoo weli korinaya mashruucayga, @thewatercheck.",
+    "second": "Hadhow waxaan u guuray aabbahay markaan ahaa 17 jir, akoonkuna wuu dhimanayay sababtoo ah <em>“Haddii aad laba bakayle eryato, midkoodna ma qabsan doontid.”</em> <proverb>(maahmaah Ruush ah)</proverb> Da'daas, lacagta oo keliya ayaan danaynayay. @thewatercheck ma siin jirin dadaalkayga oo dhan.",
+    "third": "Kadib <father>aabbahay</father> si lama filaan ah ayuu u geeriyooday <strong>10 Luulyo 2021.</strong> Waxaan galay xaalad badbaado, anigoo is weydiinaya halka ay noloshaydu u socoto. Si aan ula tacaalo xanuunka geeridiisa, albaabka ayaan ku xidhay inaan noqdo saaxirkii web-ka ee aabbahay mar i baray inaan noqdo, ilaa <strong>Janaayo 2026.</strong>",
+    "stat": {
+      "from": "200,000 raacayaal",
+      "to": "7,000",
+      "caption": "Halkaas ayuu hadda joogaa."
+    },
+    "what": {
+      "eyebrow": "Haddaba maxay ahayd?",
+      "title": "Xusuusin fudud oo dadku jeclaadeen.",
+      "first": "The Water Check si fudud waxay ahayd tan: maalin kasta waxaan soo dhigi jiray sawir si aan dadka ugu xasuusiyo inay biyo cabbaan, dhab ahaanna way ka caawisay inay biyo cabbaan. Faallooyinka waxaa <em>ku qulqulay</em> dad. Taasi oo keliya ayay samaynaysay, dadkuna way jeclaayeen.",
+      "second": "Kadib bot ayaa wax walba ka tirtiray bogga, noloshuna halkaas ayay ka sii socotay."
+    }
+  },
+  "footer": {
+    "line": "Tiknoolajiyaddu uma jirto inaan shaashadaha ku dul rogrogno dhammaad la'aan oo aan ku noolaano nolosha dadka kale. Waa inay hagaajisaa ruuxeenna, nafteenna, maskaxdeenna, iyo jidhkeenna.",
+    "sign": "Aasaasaha, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Hagidda qaybta hoose",
+    "build": "Waxa aan dhiso",
+    "pressKit": "Xidhmada saxaafadda",
+    "find": "Iga hel",
+    "finePrint": "Faahfaahinta yar",
+    "terms": "Shuruudaha Isticmaalka",
+    "privacy": "Bayaanka Qarsoonnimada",
+    "accessibility": "Helitaanka",
+    "contact": "Xidhiidh",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Xuquuqda oo dhan way dhowran tahay.",
+    "blessing": "Ciise wuu ku jecel yahay."
+  },
+  "egg": {
+    "label": "Gal adduunka farshaxanka qarsoon",
+    "armed": "Mar kale riix si aad u gasho adduunka farshaxanka qarsoon."
+  }
+}

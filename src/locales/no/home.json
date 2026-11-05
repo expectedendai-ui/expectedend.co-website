@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, gründer av Expected End",
+    "stats": {
+      "projects": "PROSJEKTER BYGGET",
+      "languages": "SPRÅK",
+      "appStore": "PÅ APP STORE"
+    },
+    "eyebrow": "Din vei til <em>fremtid og håp</em>",
+    "title": "Mening, <break/>vakkert <break/>bygget.",
+    "intro": "Expected End lager gjennomtenkt programvare, produktivitetsverktøy, digitale opplevelser og fellesskap som bringer mennesker nærmere Gud på spennende og enkle måter!",
+    "cta": "Se arbeidet",
+    "lensHint": "Beveg markøren for å lese koden"
+  },
+  "projects": {
+    "eyebrow": "01 / Prosjekter",
+    "title": "To apper på App Store. <break/><em>Android kommer snart.</em>",
+    "visit": "Besøk {{name}}",
+    "android": "Android kommer snart",
+    "bio": "Bio",
+    "actionFor": "{{action}} for {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Bak arbeidet",
+    "title": "Hvert produkt her startet med et spørsmål i et <em>klasserom i femte klasse.</em>",
+    "lead": "Mellom det spørsmålet og disse appene kom sorg, tro og mange sene kvelder. Resten av historien har sin egen side.",
+    "cta": "Les historien"
+  },
+  "proof": {
+    "caption": "Prosjekter bygget",
+    "eyebrow": "03 / Utført arbeid",
+    "title": "Bygget fra null. <em>Arbeidet taler for seg selv.</em>",
+    "lead": "Apper, nettsider, AI-verktøy, filmer og kampanjer, designet, kodet og lansert helt internt. Her er noe av det.",
+    "stats": {
+      "apps": "<strong>2 apper</strong> på App Store",
+      "languages": "<strong>43 språk</strong> i MyBibleLens",
+      "years": "<strong>10 år</strong> med koding",
+      "inHouse": "<strong>Fra idé til lansering</strong>, alt internt"
+    },
+    "bigline": "<count>20+</count> PROSJEKTER <star>✦</star> BYGGET <star>✦</star> LANSERT <star>✦</star> LIVE <star>✦</star>",
+    "rows": {
+      "products": "Apper og produkter",
+      "creative": "Nettsider, AI og kreativt arbeid"
+    },
+    "next": "Prosjektet ditt kan bli <em>det neste.</em>",
+    "cta": "Start ditt"
+  },
+  "services": {
+    "eyebrow": "04 / Utvalgte tjenester",
+    "title": "Du drømmer, <em>jeg bygger.</em>",
+    "lead": "Produktene kommer først. Når det passer, legges den samme omtanken i utvalgte oppdrag for andre.",
+    "note": "Oppgi en prisramme i alle henvendelser, og nevn i meldingen om det trengs en taushetserklæring (NDA).",
+    "count": "Tjeneste {{number}} / {{total}}",
+    "start": "Start dette prosjektet"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, oprichter van Expected End",
+    "stats": {
+      "projects": "GEBOUWDE PROJECTEN",
+      "languages": "TALEN",
+      "appStore": "IN DE APP STORE"
+    },
+    "eyebrow": "Jouw poort naar <em>toekomst en hoop</em>",
+    "title": "Met een doel, <break/>prachtig <break/>gebouwd.",
+    "intro": "Expected End maakt doordachte software, productiviteitstools, digitale ervaringen en community's die mensen op een spannende en eenvoudige manier dichter bij God brengen!",
+    "cta": "Bekijk het werk",
+    "lensHint": "Beweeg je cursor om de code te lezen"
+  },
+  "projects": {
+    "eyebrow": "01 / Projecten",
+    "title": "Twee apps in de App Store. <break/><em>Android komt binnenkort.</em>",
+    "visit": "Bezoek {{name}}",
+    "android": "Android komt binnenkort",
+    "bio": "Bio",
+    "actionFor": "{{action}} voor {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Achter het werk",
+    "title": "Elk product hier begon met een vraag in een <em>klaslokaal van groep 7.</em>",
+    "lead": "Tussen die vraag en deze apps zaten rouw, geloof en heel wat late nachten. De rest van het verhaal staat op een eigen pagina.",
+    "cta": "Lees het verhaal"
+  },
+  "proof": {
+    "caption": "Gebouwde projecten",
+    "eyebrow": "03 / Bewezen werk",
+    "title": "Vanaf nul gebouwd. <em>Het werk spreekt voor zich.</em>",
+    "lead": "Apps, websites, AI-tools, films en campagnes, volledig in eigen huis ontworpen, gebouwd en gelanceerd. Hier is een deel ervan.",
+    "stats": {
+      "apps": "<strong>2 apps</strong> in de App Store",
+      "languages": "<strong>43 talen</strong> in MyBibleLens",
+      "years": "<strong>10 jaar</strong> programmeren",
+      "inHouse": "<strong>Van idee tot lancering</strong>, alles in eigen huis"
+    },
+    "bigline": "<count>20+</count> PROJECTEN <star>✦</star> GEBOUWD <star>✦</star> GELANCEERD <star>✦</star> LIVE <star>✦</star>",
+    "rows": {
+      "products": "Apps en producten",
+      "creative": "Websites, AI en creatief werk"
+    },
+    "next": "Jouw project kan het <em>volgende zijn.</em>",
+    "cta": "Start jouw project"
+  },
+  "services": {
+    "eyebrow": "04 / Geselecteerde diensten",
+    "title": "Jij droomt het, <em>ik bouw het.</em>",
+    "lead": "De eigen producten komen eerst. Als het klikt, gaat dezelfde zorg naar geselecteerd werk voor anderen.",
+    "note": "Vermeld bij elke aanvraag een prijsklasse en geef in je bericht aan of er een geheimhoudingsovereenkomst (NDA) nodig is.",
+    "count": "Dienst {{number}} / {{total}}",
+    "start": "Start dit project"
+  }
+}

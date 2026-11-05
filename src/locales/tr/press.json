@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Basın ve medya",
+    "title": "Expected End için basın kaynakları.",
+    "intro": "Expected End ve kurucusu Denzel Rigaud ile ilgili haberler için onaylı biyografiler, doğrulanmış bilgiler ve indirilebilir medya.",
+    "downloadPortrait": "Portreyi indir"
+  },
+  "inquiry": "Basın talebi başlatın",
+  "role": "Kurucu ve full-stack geliştirici",
+  "portrait": {
+    "alt": "Lacivert takım elbisesi ve turuncu camlı gözlükleriyle Denzel Rigaud"
+  },
+  "contents": {
+    "label": "Basın sayfası bölümleri",
+    "kit": "Basın kiti / 2026",
+    "biographies": "Biyografiler",
+    "facts": "Doğrulanmış bilgiler",
+    "projects": "Projeler",
+    "licensing": "Medya kullanımı"
+  },
+  "bios": {
+    "kicker": "Onaylı metin",
+    "title": "Biyografiler",
+    "text": "Bu sürümler editoryal haberlerde alıntılanabilir veya uyarlanabilir.",
+    "shortLabel": "Kısa biyografi / 24 kelime",
+    "fullLabel": "Tam biyografi",
+    "fullFirst": "Denzel Rigaud, EXPECTEDEND LLC'yi kurdu ve MyBibleLens ile The Water Check'i bağımsız olarak geliştirdi. Şirketin full-stack geliştiricisi olarak her ürünü konseptten tasarıma, mühendislikten yayına kadar şekillendiriyor.",
+    "fullSecond": "Çalışmaları inanç odaklı yazılımlara, dijital iyi oluşa ve insanların teknolojiyi bilinçli kullanmasına yardımcı olan pratik araçlara odaklanır. MyBibleLens, Hristiyanlık için bir sığınak uygulamasıdır. The Water Check; gizli bir su ihtiyacı tahminini, pratik su içme alışkanlıklarını ve günlük sürekliliğe odaklanan bir topluluğu bir araya getirir."
+  },
+  "facts": {
+    "kicker": "Bilgi notu",
+    "title": "Doğrulanmış bilgiler",
+    "text": "Profiller, makaleler, fotoğraf altyazıları ve veritabanları için resmî ayrıntılar.",
+    "company": "Şirket",
+    "founder": "Kurucu",
+    "role": "Görev",
+    "products": "Ürünler",
+    "productsValue": "MyBibleLens ve The Water Check",
+    "website": "Resmî web sitesi",
+    "profile": "Kurucu profili",
+    "entityLabel": "Wikidata'da {{name}}"
+  },
+  "projects": {
+    "kicker": "Ürünler",
+    "title": "Çalışmalar",
+    "text": "Expected End çatısı altında bağımsız olarak geliştirilen iki ürün.",
+    "mybiblelens": {
+      "alt": "MyBibleLens uygulama simgesi",
+      "kicker": "İnanç odaklı yazılım",
+      "text": "Hristiyanlık için Sığınak Uygulaması.",
+      "visit": "MyBibleLens'i ziyaret edin"
+    },
+    "watercheck": {
+      "alt": "The Water Check uygulama simgesi",
+      "kicker": "Hidrasyon ve topluluk",
+      "text": "Gizli bir su ihtiyacı tahmini, pratik su içme alışkanlıkları ve topluluk.",
+      "visit": "The Water Check'i ziyaret edin"
+    }
+  },
+  "license": {
+    "kicker": "Medya kullanımı",
+    "title": "Kurucu portresi",
+    "text": "Portre, <license>Creative Commons Attribution-ShareAlike 4.0</license> lisansı kapsamında paylaşılabilir ve uyarlanabilir. Kaynak: Denzel Rigaud / Expected End. Uyarlamalar aynı lisansı kullanmalıdır.",
+    "download": "Kurucu portresini indir"
+  },
+  "contact": {
+    "kicker": "Basın iletişimi",
+    "title": "Röportaj, alıntı veya ek dosya mı gerekiyor?"
+  }
+}

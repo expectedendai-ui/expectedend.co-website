@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "旅路のためのグッズ",
+    "headline": "大切なものを、いつもそばに。",
+    "intro": "メモやリマインダー、そして神とともに歩む毎日のためにつくった、心のこもった小さなコレクション。",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "ガイド付きノート",
+        "kind": "ノート"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "小さなリマインダー",
+        "kind": "ピンバッジ"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "やわらかな普段使いの一枚",
+        "kind": "アパレル"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "肌寒い朝のために",
+        "kind": "アパレル"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "最初のドロップ",
+    "headline": "水を飲もう。動き続けよう。",
+    "intro": "毎日顔を出して、おかわりして、チェックを続ける人たちのための、水分補給を意識したウェア。",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "毎日着たくなる明るい定番",
+        "kind": "Tシャツ"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "長い散歩のあとに",
+        "kind": "パーカー"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "もうひとつのカラー",
+        "kind": "Tシャツ"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "落ち着いた厚手の一枚",
+        "kind": "パーカー"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}}ストアのナビゲーション",
+    "collection": "コレクション"
+  },
+  "hero": {
+    "action": "最初のドロップを見る",
+    "mybiblelensArt": "MyBibleLens ストアのロゴとステッカーのコラージュ",
+    "watercheckArt": "The Water Check の液体ロゴのバブル"
+  },
+  "collection": {
+    "eyebrow": "近日公開",
+    "title": "あなたの毎日の一部になるように。",
+    "body": "これが最初のアイテムです。商品写真、オプション、購入リンクは、ドロップの準備ができしだい、ここに表示されます。"
+  },
+  "product": {
+    "placeholder": "{{name}}の商品画像（仮）",
+    "buy": "今すぐ購入",
+    "comingSoon": "近日公開",
+    "comingSoonLabel": "{{name}}は近日公開"
+  },
+  "checkout": {
+    "eyebrow": "アカウント不要",
+    "title": "オープン後も、購入はシンプルです。",
+    "body": "アイテムを選んで「今すぐ購入」をタップし、Stripe で安全にお支払い。ストアのアカウントも、複雑なカートもありません。"
+  },
+  "footer": {
+    "note": "© {{year}} Expected End。ストアのポリシーは最初のドロップの前に公開します。",
+    "policies": "ストアのポリシー",
+    "terms": "規約",
+    "privacy": "プライバシー",
+    "accessibility": "アクセシビリティ",
+    "shipping": "配送と返品（ドロップ前に公開）"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Mục đích, kiến tạo thật đẹp",
+    "description": "Expected End tạo ra phần mềm chu đáo, công cụ năng suất, trải nghiệm số và cộng đồng."
+  },
+  "about": {
+    "title": "Giới thiệu | Expected End",
+    "description": "Câu chuyện nhà sáng lập Denzel Rigaud, sứ mệnh phía sau Expected End và những dự án được xây dựng từ đức tin và mục đích."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Nhà sáng lập Expected End",
+    "description": "Denzel Rigaud là nhà sáng lập kiêm lập trình viên full-stack đứng sau Expected End, MyBibleLens (ứng dụng Thánh Sở Cơ Đốc) và The Water Check."
+  },
+  "press": {
+    "title": "Báo chí & Truyền thông | Expected End",
+    "description": "Tiểu sử đã duyệt, thông tin đã xác minh, liên kết thực thể và tư liệu có thể tải xuống để đưa tin về Expected End và Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Điều khoản sử dụng website | Expected End",
+    "description": "Điều khoản điều chỉnh việc sử dụng website Expected End."
+  },
+  "privacy": {
+    "title": "Tuyên bố quyền riêng tư | Expected End",
+    "description": "Cách Expected End xử lý thông tin trên website này."
+  },
+  "watercheck-privacy": {
+    "title": "Chính sách quyền riêng tư của The Water Check | Expected End",
+    "description": "The Water Check thu thập những gì, điều gì ở lại trên điện thoại của bạn, ai giúp vận hành ứng dụng, và các lựa chọn của bạn."
+  },
+  "watercheck-terms": {
+    "title": "Điều khoản và điều kiện của The Water Check | Expected End",
+    "description": "Điều khoản sử dụng ứng dụng The Water Check, bao gồm sức khỏe và an toàn, AI, quy tắc Nhóm và giao dịch mua."
+  },
+  "watercheck-health-data": {
+    "title": "Chính sách quyền riêng tư dữ liệu sức khỏe người tiêu dùng của The Water Check | Expected End",
+    "description": "Cách The Water Check xử lý dữ liệu sức khỏe người tiêu dùng, và cách truy cập, xóa hoặc khiếu nại."
+  },
+  "watercheck-delete-account": {
+    "title": "Xóa tài khoản | The Water Check",
+    "description": "Cách xóa tài khoản và dữ liệu The Water Check của bạn, trong ứng dụng hoặc qua email."
+  },
+  "watercheck-community": {
+    "title": "Nguyên tắc cộng đồng | The Water Check",
+    "description": "Cách các Nhóm trong The Water Check luôn thân thiện: quy tắc, báo cáo và chặn, và điều gì xảy ra khi quy tắc bị vi phạm."
+  },
+  "accessibility": {
+    "title": "Hỗ trợ tiếp cận | Expected End",
+    "description": "Cam kết của Expected End về một trải nghiệm website dễ tiếp cận."
+  },
+  "mybiblelens-store": {
+    "title": "Cửa hàng MyBibleLens | Expected End",
+    "description": "Những món đồ chu đáo cho bước đồng hành gần hơn với Lời Chúa. Cửa hàng MyBibleLens sắp ra mắt."
+  },
+  "watercheck-store": {
+    "title": "Cửa hàng The Water Check | Expected End",
+    "description": "Những món đồ thiết yếu lấy cảm hứng từ việc uống nước, đến từ The Water Check. Đợt mở bán đầu tiên sắp ra mắt."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Ứng dụng uống nước & Công cụ tính miễn phí",
+    "description": "Khám phá ứng dụng The Water Check và thử ước tính lượng nước miễn phí, riêng tư trên Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Công cụ tính lượng nước miễn phí | The Water Check",
+    "description": "Nhận ước tính lượng nước mỗi ngày miễn phí, riêng tư với công cụ tính của The Water Check."
+  },
+  "not-found": {
+    "title": "Không tìm thấy trang | Expected End",
+    "description": "Không tìm thấy trang Expected End bạn yêu cầu."
+  }
+}

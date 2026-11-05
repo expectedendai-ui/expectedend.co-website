@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "ติดต่อ Expected End",
+    "title": "เริ่มจาก<em>ที่มาที่ไป</em>สักนิด",
+    "intro": "เลือกรายละเอียดไม่กี่ข้อ แล้วเราจะเตรียมอีเมลที่ชัดเจนไว้ให้ แอปอีเมลของคุณจะเปิดขึ้นก่อนที่จะมีอะไรถูกส่งออกไป"
+  },
+  "fields": {
+    "name": "ชื่อของคุณ",
+    "email": "อีเมลของคุณ",
+    "reason": "เรื่องนี้เกี่ยวกับอะไร",
+    "project": "โปรเจกต์ไหน",
+    "priceRange": "ช่วงงบประมาณ",
+    "timeline": "ระยะเวลาที่ต้องการ",
+    "discovery": "คุณรู้จัก Expected End ได้อย่างไร",
+    "message": "คุณมีอะไรอยู่ในใจ",
+    "chooseOne": "เลือกหนึ่งข้อ"
+  },
+  "reasons": {
+    "partnership": "พาร์ตเนอร์หรือความร่วมมือ",
+    "press": "สื่อมวลชน",
+    "general": "คำถามทั่วไป"
+  },
+  "projects": {
+    "waterCheckCommunity": "คอมมูนิตี้ The Water Check",
+    "newIdea": "ไอเดียใหม่"
+  },
+  "timelines": {
+    "exploring": "แค่ลองดูก่อน",
+    "month": "ภายในหนึ่งเดือน",
+    "threeMonths": "ภายในสามเดือน",
+    "laterThisYear": "ช่วงหลังของปีนี้",
+    "notSure": "ยังไม่แน่ใจ"
+  },
+  "discovery": {
+    "waterCheckCommunity": "คอมมูนิตี้ The Water Check",
+    "search": "การค้นหา",
+    "referral": "มีคนแนะนำ",
+    "elsewhere": "ช่องทางอื่น"
+  },
+  "submit": {
+    "note": "จะไม่มีอะไรถูกส่งออกไป จนกว่าคุณจะตรวจทานและกดส่งในแอปอีเมลของคุณ",
+    "apps": "เลือก<app>แอปอีเมลของคุณ</app> <gmail>Gmail</gmail> <outlook>Outlook</outlook> หรือ <yahoo>Yahoo Mail</yahoo>",
+    "button": "เตรียมอีเมล"
+  },
+  "dialog": {
+    "close": "ปิดแบบฟอร์มติดต่อ"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud er gründeren og fullstack-utvikleren bak Expected End, MyBibleLens (helligdomsappen for kristen tro) og The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "App for kristen tro",
+      "action": "Besøk appen",
+      "tagline": "Helligdomsappen for kristen tro.",
+      "secondary": "Bio",
+      "badge": "På App Store"
+    },
+    "watercheck": {
+      "category": "Væskefellesskap",
+      "action": "Besøk appen",
+      "tagline": "Forstå hva du drikker. Ditt eget vanntall, med ett trykk.",
+      "badge": "Under vurdering"
+    },
+    "mybiblelens-store": {
+      "category": "Butikk · Kommer snart",
+      "action": "Gå til butikken",
+      "tagline": "Tro du kan ha på deg."
+    },
+    "watercheck-store": {
+      "category": "Butikk · Kommer snart",
+      "action": "Gå til butikken",
+      "tagline": "Utstyr til Væskeavdelingen."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Trosapp · iOS",
+      "status": "På App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Væskeapp · iOS",
+      "status": "Under vurdering"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens for Android",
+      "category": "Google Play",
+      "status": "Lukket test"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Uendelig lerret",
+      "status": "Live"
+    },
+    "journey-plans": {
+      "name": "Journey-planer",
+      "category": "Leseplaner + segl",
+      "status": "Live"
+    },
+    "water-check-crews": {
+      "name": "Water Check-gjenger",
+      "category": "Væske i lag",
+      "status": "Bygget"
+    },
+    "home-screen-widgets": {
+      "name": "Widgeter for Hjem-skjermen",
+      "category": "iOS-widgeter",
+      "status": "Bygget"
+    },
+    "hydration-calculator": {
+      "name": "Væskekalkulator",
+      "category": "Nettverktøy",
+      "status": "Live"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "HQ-app for bedrifter",
+      "status": "Under utvikling"
+    },
+    "43-language-rollout": {
+      "name": "Utrulling på 43 språk",
+      "category": "Lokalisering",
+      "status": "43 språk"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens Store",
+      "category": "Merch",
+      "status": "Kommer snart"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Nettside for appen",
+      "status": "Live"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Selskapets nettside",
+      "status": "Live"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI-bibelstudier",
+      "status": "AI-demo"
+    },
+    "hidden-art-world": {
+      "name": "Skjult kunstverden",
+      "category": "Interaktiv nettkunst",
+      "status": "Påskeegg"
+    },
+    "sanctuary-stickers": {
+      "name": "Klistremerker fra helligdomsrommet",
+      "category": "Illustrasjonssett",
+      "status": "550+ klistremerker"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Pitchfilm for MyBibleLens",
+      "category": "Merkevarefilm",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Funksjonsreels",
+      "category": "Videoserie",
+      "status": "10 videoer"
+    },
+    "look-closer-series": {
+      "name": "Serien Look Closer",
+      "category": "Serie for sosiale medier",
+      "status": "60 innlegg"
+    },
+    "25-week-campaign": {
+      "name": "25-ukerskampanje",
+      "category": "Instagram-plan",
+      "status": "100 innlegg"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Arbeidsbok",
+      "status": "33 blokker"
+    },
+    "water-check-store": {
+      "name": "Water Check Store",
+      "category": "Merch",
+      "status": "Kommer snart"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Apper",
+      "body": "Nyttige, gjennomtenkte produkter designet rundt ekte mennesker.",
+      "interest": "Bygge en app eller en programvareidé"
+    },
+    "02": {
+      "title": "Nettsider",
+      "body": "Særpregede digitale hjem som føles tydelige, levende og innbydende.",
+      "interest": "Nettside eller digital opplevelse"
+    },
+    "03": {
+      "title": "AI-systemer",
+      "body": "Praktisk intelligens som hjelper ideer og team videre.",
+      "interest": "AI-system eller produktivitetsverktøy"
+    },
+    "04": {
+      "title": "Kreativt",
+      "body": "Identitet, retning og opplevelser med mening i sentrum.",
+      "interest": "Kreativ retning eller design"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ditt skreddersydde hjem for virksomheten. CRM, økonomi, prosjekter, teamverktøy og hvilken funksjon du enn trenger neste gang, alt på ett sted.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automatiseringer",
+      "body": "Erstatt repeterende arbeid med sammenkoblede arbeidsflyter som holder virksomheten i gang.",
+      "interest": "Automatiseringer"
+    },
+    "07": {
+      "title": "Kundeportaler",
+      "body": "Gi kunder eller medlemmer ett gjennomført sted der de kan kommunisere, booke, dele filer og følge fremdriften.",
+      "interest": "Kundeportaler"
+    },
+    "08": {
+      "title": "Digital redning",
+      "body": "Reparer, moderniser eller bygg om programvare som ikke lenger fungerer for virksomheten din.",
+      "interest": "Digital redning"
+    }
+  }
+}

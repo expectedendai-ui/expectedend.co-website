@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Ứng dụng",
+      "drinkCheck": "Drink Check",
+      "guide": "Cẩm nang",
+      "widgets": "Widget",
+      "progress": "Tiến độ",
+      "pricing": "Bảng giá",
+      "faq": "Hỏi đáp",
+      "calculator": "Công cụ tính"
+    },
+    "hero": {
+      "title": "Cứ uống đi.<break/>Chúng tôi sẽ <em>đếm giúp bạn</em>.",
+      "sub": "Con số nước của riêng bạn, đồ uống bạn có thể quét, cơ thể bạn được nạp đầy năng lượng, một widget bạn thật sự muốn giữ, và một chú cá nóc tên Bubbles dẫn bạn đi tham quan. Không quy tắc một gallon, không người nổi tiếng trên mạng, không cảm giác tội lỗi.",
+      "comingSoon": "Sắp ra mắt",
+      "appStoreLead": "Tải về trên",
+      "appStore": "App Store",
+      "googlePlayLead": "Tải nội dung trên",
+      "googlePlay": "Google Play",
+      "calculator": "Dùng thử công cụ tính miễn phí",
+      "instagram": "Theo dõi The Water Check trên Instagram",
+      "note": "Hiện đang được App Store xét duyệt. Công cụ tính miễn phí và không cần đăng ký.",
+      "todayAlt": "Màn hình Hôm nay của The Water Check: 40 oz trên mục tiêu 81,2 oz, với các nút thêm nhanh và nhật ký hôm nay",
+      "widgetsAlt": "Xưởng widget, hiển thị widget Cơ thể kiểu Hologram và các hàng kiểu widget",
+      "bubblesLabel": "Bảo Bubbles làm một trò",
+      "bubblesSay": "Chào, mình là Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "kiểu widget",
+      "pearls": "viên ngọc trai Cẩm nang chờ bạn tìm",
+      "foods": "thực phẩm giàu nước, được vẽ tay",
+      "languages": "ngôn ngữ"
+    },
+    "sixty": {
+      "kicker": "Vì sao điều này quan trọng",
+      "title": "Bạn được tạo nên từ 60% nước.",
+      "lede": "Không phải một chỉ tiêu phải đạt. Lượng nước đó đang làm việc ngay lúc này: mang oxy đi khắp cơ thể, đệm cho khớp, làm mát bạn và đưa ra ngoài những gì bạn không cần. Nhu cầu của bạn thay đổi theo mức vận động, thời tiết và sức khỏe.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Tám sắc độ từ vàng rơm nhạt đến hổ phách đậm, chia thành đủ nước, bổ sung và uống ngay",
+      "wellHydrated": "Đủ nước",
+      "topUp": "Bổ sung",
+      "drinkNow": "Uống ngay",
+      "fine": "Một dấu hiệu sơ bộ, không phải chẩn đoán. Thực phẩm, vitamin và thuốc đều có thể làm thay đổi màu sắc. Ứng dụng giải thích từng mức và khi nào nên trao đổi với chuyên gia y tế."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Quét một lần. Hiểu rõ. Chạm mãi mãi.",
+      "lede": "Quét mã vạch, miễn phí và bao nhiêu lần tùy thích. Không có mã vạch? Nếu bạn từ 18 tuổi trở lên, hãy chụp ảnh và ứng dụng sẽ đọc nhãn. Dù cách nào, bạn cũng thấy lượng đường tính bằng thìa cà phê, caffeine, chất điện giải và mọi thành phần được đánh dấu Tốt, Ổn, Lưu ý hoặc Tránh.",
+      "scoresLabel": "Màu điểm Drink Check",
+      "scores": {
+        "great": "Tuyệt vời",
+        "good": "Tốt",
+        "okay": "Tạm ổn",
+        "poor": "Kém"
+      },
+      "ticks": {
+        "electrolytes": "Chất điện giải từ nhãn: natri, kali, magie và canxi, kèm mức nhu cầu hằng ngày của từng chất.",
+        "save": "Lưu lại (đổi tên nếu muốn), và lần sau chỉ cần một chạm trên trang Thêm. Không cần quét lại.",
+        "food": "Người lớn cũng có thể chụp món ăn: một quả xoài sẽ được cộng vào bong bóng xoài của bạn, món mới sẽ trở thành một bong bóng riêng.",
+        "journal": "Nhật ký đồ uống lưu lại cảm giác của bạn sau mỗi đồ uống, ngay trên điện thoại."
+      },
+      "fine": "Đây là cách đọc nhanh nhãn sản phẩm, không phải xét nghiệm hay đánh giá bất kỳ thương hiệu nào. Kết quả mã vạch đến từ Open Food Facts, và AI có thể sai, nên hãy kiểm tra nhãn thật, đặc biệt nếu bạn bị dị ứng. Chúng tôi không giữ ảnh của bạn.",
+      "alt": "Kết quả Drink Check cho một loại nước uống thể thao: 66 điểm, Tốt, với đường, caffeine và chất điện giải từ nhãn"
+    },
+    "foods": {
+      "kicker": "Thức ăn cũng được tính",
+      "title": "Khoảng một phần năm lượng nước của bạn đến từ đĩa ăn.",
+      "lede": "Trang Thêm là một trang bong bóng trái cây vẽ tay, ba quả mỗi hàng: dưa hấu, dưa chuột, dâu tây, xoài và nhiều hơn nữa. Chạm dấu cộng là đã thêm, có nút Hoàn tác ngay bên cạnh. Những món bạn thêm nhiều nhất sẽ được đưa lên đầu.",
+      "ticks": {
+        "amounts": "Một ly, một chai hay bất kỳ lượng nào, mỗi thứ chỉ một chạm.",
+        "caffeine": "Người uống cà phê có thẻ caffeine tự điền sẵn.",
+        "ring": "Một vòng tròn ở trên cùng cho thấy thức ăn được tính vào ngày của bạn."
+      },
+      "alt": "Trang Thêm: một vòng tròn ở trên cùng, các nút đồ uống, thẻ caffeine và bong bóng thực phẩm giàu nước"
+    },
+    "guide": {
+      "kicker": "Cẩm nang The Water Check",
+      "title": "Chạm vỡ bong bóng. Giữ lại viên ngọc trai.",
+      "lede": "Mỗi chương là một bong bóng mang một câu hỏi, và tất cả đều miễn phí. Vì sao bạn thấy “sắp hết pin”? Nước tiểu đang nói gì với bạn? Một gallon mỗi ngày, thật không? Đọc hết một chương, bong bóng sẽ vỡ thành một viên ngọc trai. Cứ khoảng sáu viên thì có một viên ngọc vàng hiếm.",
+      "electric": "Cơ thể bạn chạy bằng điện: sáu chương về tín hiệu, natri và kali, magie và canxi, và nhiên liệu.",
+      "forHerKicker": "Dành cho nàng",
+      "forHer": "Những chương màu hồng về cơ thể nàng và nước: nước tiểu màu hồng hay vàng neon, cảm giác phù nề quanh kỳ kinh, vì sao phụ nữ dễ bị nhiễm trùng tiểu hơn, rò rỉ một chút khi cười, thai kỳ và mãn kinh. Nhẹ nhàng, dễ hiểu và có nguồn dẫn.",
+      "fine": "Mỗi chương đều ghi nguồn và cho biết khi nào nên đi khám bác sĩ. Cẩm nang thưởng cho sự hiểu biết, không phải thời gian nhìn màn hình: không chuỗi ngày, không áp lực.",
+      "alt": "Cẩm nang The Water Check: các chương Cơ thể bạn chạy bằng điện dưới dạng bong bóng câu hỏi"
+    },
+    "widgets": {
+      "kicker": "Widget",
+      "title": "<count>89</count> kiểu widget cho Màn hình chính của bạn.",
+      "lede": "Thể thao, địa điểm, bốn mùa, sinh vật biển và các thiết kế, với cỡ nhỏ, vừa và lớn, cùng bố cục từ vòng tròn đến sóng nước. Cho chúng tôi biết môn thể thao của bạn khi đăng ký, widget của môn đó sẽ xuất hiện đầu tiên. Ghi lại đồ uống ngay từ Màn hình chính.",
+      "ticks": {
+        "body": "Cơ thể: hình dáng của bạn được lấp đầy theo lượng nước trong ngày. Tia lửa: một cục pin được sạc đầy theo năng lượng hôm nay.",
+        "charge": "Đặt thước đo Năng lượng lên bất kỳ widget nào để theo dõi chất điện giải thay vì lượng nước."
+      },
+      "chips": {
+        "body": "Cơ thể",
+        "spark": "Tia lửa",
+        "running": "Chạy bộ",
+        "crossCountry": "Chạy việt dã",
+        "volleyball": "Bóng chuyền",
+        "basketball": "Bóng rổ",
+        "seaTurtle": "Rùa biển",
+        "jellyfish": "Sứa",
+        "beach": "Bãi biển",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Bốn mùa"
+      },
+      "alt": "Xưởng widget với widget Cơ thể kiểu Hologram, các phối màu, bố cục và thước đo Năng lượng"
+    },
+    "progress": {
+      "kicker": "Tiến độ",
+      "title": "Xem đồ uống của bạn có gì, từng thanh một.",
+      "lede": "Ngày hôm nay hiện ra dưới dạng những thanh đơn giản, lấp đầy từ trái sang phải: nước so với con số của bạn, rồi natri, kali, magie và canxi từ những đồ uống bạn quét, cùng caffeine và đường. Chạm vào bất kỳ thanh nào để xem các đồ uống phía sau. Lịch hiển thị mọi ngày cạnh nhau, kèm chuỗi ngày của bạn.",
+      "ticks": {
+        "dailyValues": "Chất điện giải được đo so với mức nhu cầu hằng ngày trên bảng thành phần dinh dưỡng.",
+        "caffeine": "Caffeine so với 400 mg, mức FDA đưa ra cho hầu hết người lớn khỏe mạnh, và đường so với 50 g.",
+        "journal": "Nhật ký đồ uống nằm ngay dưới các thanh: mọi đồ uống bạn đã quét và cảm giác của bạn sau khi uống.",
+        "real": "Mọi con số đều đến từ thứ bạn đã ghi lại hoặc quét. Không có gì là bịa ra."
+      },
+      "fine": "Đây là mốc tham khảo, không phải mục tiêu, và không phải lời khuyên y tế. Nếu bạn theo dõi natri hoặc kali vì lý do sức khỏe, hãy làm theo lời khuyên của bác sĩ.",
+      "alt": "Tiến độ: nước đạt 83% con số trong ngày, tiếp theo là natri, kali, magie, canxi, caffeine và đường dưới dạng thanh"
+    },
+    "crew": {
+      "kicker": "Tháng của bạn và những người của bạn",
+      "title": "Nhìn mọi thứ cộng dồn. Rủ bạn bè cùng tham gia.",
+      "calendarAlt": "Lịch: mỗi ngày được lấp đầy như một chiếc ly, với số ngày đã ghi, số ngày đạt mục tiêu và chuỗi ngày",
+      "calendarTitle": "Nước của bạn, từng ngày một",
+      "calendarBody": "Mỗi ngày bạn ghi lại sẽ được lấp đầy như một chiếc ly. Số ngày đạt mục tiêu, chuỗi ngày và dấu thủy triều, tất cả đều theo bạn sang điện thoại mới.",
+      "crewAlt": "Một Nhóm tên Track team với các tin nhắn cổ vũ nhanh",
+      "crewTitle": "Nhóm",
+      "crewBody": "Những nhóm chỉ dành cho người được mời, nơi mọi người cổ vũ lẫn nhau. Bạn bè thấy phần trăm mục tiêu của riêng bạn và chuỗi ngày của bạn, không bao giờ thấy số ounce hay cơ thể bạn. Nút Báo cáo và Chặn luôn ở đó."
+    },
+    "bubbles": {
+      "kicker": "Làm quen với Bubbles",
+      "title": "Người dẫn đường của bạn là một chú cá nóc.",
+      "lede": "Bubbles là Cán bộ Sức khỏe của Ban Uống Nước. Vào ngày đầu tiên, cậu ấy dẫn bạn đi tham quan ứng dụng, và cậu ấy không nhịn được việc khoe tài. Nào, hãy giao cho cậu ấy việc gì đó.",
+      "tricksLegend": "Các trò của Bubbles",
+      "tricks": {
+        "puff": "Phồng lên",
+        "spin": "Xoay vòng",
+        "flip": "Lộn ngược",
+        "wave": "Vẫy tay",
+        "cheer": "Màn kết hoành tráng"
+      }
+    },
+    "pricing": {
+      "kicker": "Bảng giá",
+      "title": "Bắt đầu miễn phí. Mở khóa tất cả, một lần.",
+      "free": {
+        "title": "Miễn phí",
+        "sub": "Mọi thứ bạn cần để uống đủ nước.",
+        "items": {
+          "number": "Con số nước của riêng bạn",
+          "log": "Ghi lại đồ uống và thực phẩm giàu nước",
+          "barcode": "Quét mã vạch miễn phí, không giới hạn",
+          "photo": "Một lượt quét ảnh miễn phí (từ 18 tuổi)",
+          "guide": "Mọi chương Cẩm nang",
+          "widgets": "Widget Cổ điển, Bốn mùa, cùng Cơ thể và Tia lửa bản cơ bản",
+          "crew": "Lịch, chuỗi ngày và Nhóm của bạn bè"
+        }
+      },
+      "forever": {
+        "tag": "Năm ra mắt",
+        "title": "Tất cả mãi mãi",
+        "sub": "Mua một lần, không thu phí định kỳ.",
+        "items": {
+          "widgets": "Mọi kiểu widget và phối màu",
+          "bars": "Các thanh chất điện giải, caffeine và đường",
+          "journal": "Nhật ký đồ uống",
+          "photos": "Thêm lượt quét ảnh (từ 18 tuổi)",
+          "summaries": "Bản tóm tắt PDF 30 và 90 ngày",
+          "crews": "Tự tạo Nhóm của riêng bạn",
+          "later": "Mọi thứ chúng tôi thêm sau này"
+        },
+        "note": "Chỉ có trong năm ra mắt. Sau đó, The Water Check có thể chuyển sang gói theo tháng, và giao dịch mua một lần trước thời điểm đó vẫn được giữ mở khóa. Giá được hiển thị trên App Store hoặc Google Play trước khi bạn mua."
+      }
+    },
+    "privacy": {
+      "kicker": "Dữ liệu của bạn",
+      "title": "Điều gì ở lại trên điện thoại của bạn, và điều gì không.",
+      "phoneTitle": "Ở lại trên điện thoại của bạn",
+      "phoneBody": "Nhật ký đồ uống, đồ uống và thực phẩm đã lưu, ngọc trai Cẩm nang, buổi tập luyện, ghi chú chu kỳ và lời nhắc.",
+      "accountTitle": "Lưu cùng tài khoản của bạn",
+      "accountBody": "Thông tin đăng nhập, câu trả lời khi đăng ký, mỗi đồ uống và thực phẩm bạn ghi lại kèm thời gian, tổng lượng nước mỗi ngày và Nhóm của bạn, để tất cả theo bạn sang điện thoại mới.",
+      "neverTitle": "Không bao giờ",
+      "neverBody": "Chúng tôi không bán thông tin của bạn hay chia sẻ nó với các mạng quảng cáo. Chúng tôi không giữ ảnh Drink Check của bạn.",
+      "links": {
+        "privacy": "Chính sách quyền riêng tư",
+        "healthData": "Chính sách dữ liệu sức khỏe người tiêu dùng",
+        "deleteAccount": "Xóa tài khoản"
+      }
+    },
+    "calculator": {
+      "kicker": "Miễn phí, không cần đăng ký",
+      "title": "Bắt đầu với những con số bạn biết.",
+      "lede": "Cân nặng, chiều cao, thời gian bạn vận động. Công cụ tính cho bạn mục tiêu mỗi ngày trong khoảng hai mươi giây, và hiển thị cách tính để bạn có thể phản biện. Công cụ chạy ngay trong trình duyệt của bạn.",
+      "chips": {
+        "weight": "Mức nền theo cân nặng",
+        "height": "Chiều cao và vóc người",
+        "activity": "Điều chỉnh theo vận động",
+        "lifeStage": "Giai đoạn cuộc sống",
+        "heat": "Nắng nóng và độ ẩm",
+        "electrolytes": "Kiểm tra chất điện giải"
+      },
+      "open": "Mở công cụ tính",
+      "fine": "Ước tính mang tính giáo dục giúp lên kế hoạch, dành cho người lớn, không phải chẩn đoán hay đơn thuốc. Đừng ép mình uống. Hãy hỏi chuyên gia y tế nếu bạn đang mang thai hoặc cho con bú, dùng thuốc ảnh hưởng đến cân bằng dịch, hoặc có bệnh thận hay bệnh tim."
+    },
+    "faq": {
+      "kicker": "Câu hỏi",
+      "title": "Những câu trả lời thẳng thắn.",
+      "items": {
+        "medical": {
+          "q": "The Water Check có phải là lời khuyên y tế không?",
+          "a": "Không. Đây là một ứng dụng chăm sóc sức khỏe tổng quát. Con số nước của bạn là một ước tính mang tính giáo dục, không phải đơn thuốc, và không có gì trong ứng dụng chẩn đoán hay điều trị bất cứ điều gì. Nếu bạn đang mang thai hoặc cho con bú, dùng thuốc ảnh hưởng đến lượng dịch, hoặc có bệnh thận, bệnh tim hay bệnh lý khác, hãy hỏi bác sĩ điều gì phù hợp với bạn."
+        },
+        "number": {
+          "q": "Con số của tôi đến từ đâu?",
+          "a": "Từ cân nặng, chiều cao, mức vận động, khí hậu và giai đoạn cuộc sống của bạn, bắt đầu từ các hướng dẫn công khai như mức tham chiếu về nước của Viện Hàn lâm Quốc gia Hoa Kỳ (National Academies). Công cụ tính miễn phí hiển thị cách tính, nên bạn có thể xem từng bước. Đó là điểm xuất phát, không phải quy tắc."
+        },
+        "scan": {
+          "q": "Điều gì xảy ra khi tôi quét một đồ uống?",
+          "a": "Khi quét mã vạch, chỉ dãy số mã vạch được gửi đến Open Food Facts, một cơ sở dữ liệu thực phẩm mở và miễn phí, để nhận về những gì nhãn ghi. Với ảnh chụp, dành cho người lớn từ 18 tuổi, ảnh đi qua máy chủ của chúng tôi đến Gemini AI của Google, nơi đọc nhãn và gửi lại những gì tìm thấy. Chúng tôi không giữ ảnh của bạn; Google có thể lưu dữ liệu trong một thời gian giới hạn theo điều khoản của họ. Nhãn và AI có thể sai, nên hãy kiểm tra nhãn thật, và đừng bao giờ dùng Drink Check cho dị ứng hay chế độ ăn y tế."
+        },
+        "phone": {
+          "q": "Điều gì ở lại trên điện thoại của tôi?",
+          "a": "Nhật ký đồ uống, đồ uống và thực phẩm đã lưu, ngọc trai Cẩm nang, buổi tập luyện, câu trả lời và ghi chú về chu kỳ, dù bản sao lưu điện thoại của chính bạn có thể bao gồm chúng. Trên iPhone, các bài tập bạn cho phép ứng dụng đọc từ Apple Health cũng ở lại trên điện thoại và không bao giờ được gửi cho chúng tôi. Câu trả lời khi đăng ký, mỗi đồ uống và thực phẩm bạn ghi lại kèm thời gian, và tổng lượng mỗi ngày được lưu cùng tài khoản để theo bạn sang điện thoại mới. Chúng tôi không bán thông tin của bạn."
+        },
+        "audience": {
+          "q": "Ứng dụng dành cho ai?",
+          "a": "Bất kỳ ai từ 13 tuổi trở lên. Nếu bạn dưới 18 tuổi, hãy dùng ứng dụng với sự cho phép của cha mẹ hoặc người giám hộ. Nhịn ăn bằng trái cây, ghi lại đồ uống có cồn và quét ảnh chỉ dành cho người lớn. Ứng dụng dựa vào nhóm tuổi bạn cung cấp, nên hãy trả lời trung thực. Nếu bạn từ 13 đến 17 tuổi, hãy kiểm tra con số của mình với cha mẹ hoặc bác sĩ."
+        },
+        "cost": {
+          "q": "Ứng dụng có giá bao nhiêu?",
+          "a": "Ứng dụng miễn phí để bắt đầu: nhận con số của bạn, ghi lại nước và thực phẩm, quét bất kỳ mã vạch nào, đọc mọi chương Cẩm nang, tham gia một Nhóm, và dùng các widget Cổ điển, Bốn mùa, Cơ thể và Tia lửa. Trong năm ra mắt, một giao dịch mua tùy chọn sẽ mở khóa mọi thứ, một lần, không thu phí định kỳ. App Store hoặc Google Play hiển thị giá bằng đơn vị tiền tệ của bạn trước khi bạn mua."
+        },
+        "deleteAccount": {
+          "q": "Làm sao để xóa tài khoản?",
+          "a": "Trong ứng dụng: Hồ sơ, rồi Cài đặt, rồi Xóa tài khoản. Tài khoản sẽ bị xóa ngay lập tức. Không có ứng dụng? Trang Xóa tài khoản của chúng tôi hướng dẫn cách yêu cầu qua email."
+        },
+        "download": {
+          "q": "Khi nào tôi có thể tải về?",
+          "a": "The Water Check đang được App Store xét duyệt và đang thử nghiệm trên Google Play, sắp có mặt trên cả hai. Theo dõi @thewatercheck trên Instagram để biết tin sớm nhất."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Hiểu rõ bạn uống gì. Được xây dựng tại Florida bởi một công ty một người. Dành cho người từ 13 tuổi trở lên.",
+      "legal": "Pháp lý",
+      "privacy": "Chính sách quyền riêng tư của The Water Check",
+      "terms": "Điều khoản và điều kiện của The Water Check",
+      "community": "Nguyên tắc cộng đồng",
+      "healthData": "Chính sách quyền riêng tư dữ liệu sức khỏe người tiêu dùng",
+      "deleteAccount": "Xóa tài khoản",
+      "sitePrivacy": "Quyền riêng tư của website",
+      "explore": "Khám phá",
+      "calculator": "Công cụ tính lượng nước",
+      "store": "Cửa hàng The Water Check",
+      "instagram": "@thewatercheck trên Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Trợ giúp",
+      "email": "Hỗ trợ qua email",
+      "accessibility": "Hỗ trợ tiếp cận",
+      "contact": "Liên hệ",
+      "note": "The Water Check là một ứng dụng chăm sóc sức khỏe tổng quát. Ứng dụng không chẩn đoán, điều trị hay phòng ngừa bất kỳ bệnh lý nào, và không thay thế lời khuyên của chuyên gia y tế. Trong trường hợp khẩn cấp, hãy gọi 911 hoặc số cấp cứu tại địa phương. Ảnh màn hình ứng dụng là bản thử nghiệm với dữ liệu mẫu; tính năng có thể thay đổi trước khi phát hành."
+    }
+  },
+  "app": {
+    "eyebrow": "Ứng dụng",
+    "title": "Nước của bạn, từng ngày một.",
+    "body": "Bắt đầu với một ước tính cá nhân, rồi ghi lại đồ uống và thực phẩm giàu nước khi ngày của bạn diễn ra. Xem tiến độ trong ứng dụng, trên Màn hình chính và suốt cả tháng.",
+    "comingSoon": "Sắp có mặt trên App Store",
+    "calculator": "Dùng thử công cụ tính miễn phí",
+    "caveat": "Công cụ tính hoạt động ngay tại đây mà không cần tài khoản. Ảnh chụp màn hình ứng dụng là bản xem trước; tính năng và thời điểm ra mắt có thể thay đổi trước khi phát hành.",
+    "screens": {
+      "number": {
+        "alt": "Ước tính lượng nước cá nhân mỗi ngày của The Water Check trên iPhone",
+        "caption": "Con số của bạn"
+      },
+      "log": {
+        "alt": "Nhật ký hằng ngày của The Water Check với đồ uống và thức ăn trên iPhone",
+        "caption": "Nhật ký hôm nay"
+      },
+      "widgets": {
+        "alt": "Cài đặt widget Màn hình chính của The Water Check trên iPhone",
+        "caption": "Widget"
+      },
+      "wellness": {
+        "alt": "Cẩm nang sức khỏe và P-Meter của The Water Check trên iPhone",
+        "caption": "Sức khỏe"
+      },
+      "calendar": {
+        "alt": "Lịch nước hằng tháng của The Water Check trên iPhone",
+        "caption": "Lịch"
+      }
+    }
+  },
+  "footer": {
+    "note": "Công cụ tính miễn phí không cần tài khoản. Công cụ chạy trong trình duyệt của bạn và không gửi con số của bạn cho chúng tôi.",
+    "navLabel": "Điều hướng chân trang",
+    "calculator": "Công cụ tính lượng nước",
+    "explore": "Khám phá ứng dụng",
+    "instagram": "@thewatercheck trên Instagram",
+    "store": "Cửa hàng",
+    "builder": "Ai đã tạo ra nó",
+    "finePrint": "Thông tin pháp lý",
+    "terms": "Điều khoản và điều kiện",
+    "privacy": "Chính sách quyền riêng tư",
+    "community": "Nguyên tắc cộng đồng",
+    "healthData": "Dữ liệu sức khỏe người tiêu dùng",
+    "deleteAccount": "Xóa tài khoản",
+    "accessibility": "Hỗ trợ tiếp cận",
+    "contact": "Liên hệ",
+    "project": "Một dự án của <company>EXPECTEDEND LLC</company>. Ước tính mang tính giáo dục, không phải lời khuyên y tế.",
+    "backToTop": "Lên đầu trang ↑"
+  }
+}

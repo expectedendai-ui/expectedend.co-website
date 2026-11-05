@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Pour le chemin",
+    "headline": "Gardez près de vous ce qui compte.",
+    "intro": "Une petite collection d’objets réfléchis pour vos notes, vos rappels et la marche quotidienne avec Dieu.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Carnet guidé",
+        "kind": "Carnet"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Un petit rappel",
+        "kind": "Pin’s"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Une pièce douce pour tous les jours",
+        "kind": "Vêtement"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Pour les matins frais",
+        "kind": "Vêtement"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "La première collection",
+    "headline": "Buvez de l’eau. Continuez d’avancer.",
+    "intro": "Des pièces pensées pour l’hydratation, pour celles et ceux qui répondent présent, remplissent leur gourde et gardent le check.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Un essentiel lumineux du quotidien",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Pour après la longue marche",
+        "kind": "Sweat à capuche"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Un deuxième coloris",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Une pièce épaisse et apaisante",
+        "kind": "Sweat à capuche"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigation de la boutique {{store}}",
+    "collection": "La collection"
+  },
+  "hero": {
+    "action": "Découvrir la première collection",
+    "mybiblelensArt": "Logo de la boutique MyBibleLens et collage d’autocollants",
+    "watercheckArt": "Bulle du logo liquide The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Bientôt",
+    "title": "Fait pour s’inviter dans votre quotidien.",
+    "body": "Voici les premières pièces. Les photos, les options et les liens d’achat apparaîtront ici quand la collection sera prête."
+  },
+  "product": {
+    "placeholder": "Visuel provisoire : {{name}}",
+    "buy": "Acheter maintenant",
+    "comingSoon": "Bientôt",
+    "comingSoonLabel": "{{name}} : bientôt disponible"
+  },
+  "checkout": {
+    "eyebrow": "Sans compte",
+    "title": "À l’ouverture, le paiement restera simple.",
+    "body": "Choisissez une pièce, touchez Acheter maintenant et payez en toute sécurité via Stripe. Pas de compte boutique, pas de labyrinthe de panier."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Les politiques de la boutique seront publiées avant la première collection.",
+    "policies": "Politiques de la boutique",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "accessibility": "Accessibilité",
+    "shipping": "Livraison et retours : avant la sortie"
+  }
+}

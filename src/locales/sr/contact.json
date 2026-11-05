@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Контакт са Expected End",
+    "title": "Почните уз мало <em>контекста.</em>",
+    "intro": "Изаберите неколико детаља и за вас ће бити припремљен јасан имејл. Ваша апликација за пошту се отвара пре него што се било шта пошаље."
+  },
+  "fields": {
+    "name": "Ваше име",
+    "email": "Ваш имејл",
+    "reason": "О чему се ради?",
+    "project": "Који пројекат?",
+    "priceRange": "Распон цене",
+    "timeline": "Жељени рок",
+    "discovery": "Како сте сазнали за Expected End?",
+    "message": "Шта имате на уму?",
+    "chooseOne": "Изаберите"
+  },
+  "reasons": {
+    "partnership": "Партнерство или сарадња",
+    "press": "Медији",
+    "general": "Опште питање"
+  },
+  "projects": {
+    "waterCheckCommunity": "Заједница The Water Check",
+    "newIdea": "Нова идеја"
+  },
+  "timelines": {
+    "exploring": "Само се распитујем",
+    "month": "У року од месец дана",
+    "threeMonths": "У року од три месеца",
+    "laterThisYear": "Касније ове године",
+    "notSure": "Још не знам"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Заједница The Water Check",
+    "search": "Претрага",
+    "referral": "Препорука",
+    "elsewhere": "Негде другде"
+  },
+  "submit": {
+    "note": "Ништа се не шаље док не прегледате поруку и не притиснете Пошаљи у својој апликацији за пошту.",
+    "apps": "Изаберите <app>своју апликацију за пошту</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> или <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Припреми имејл"
+  },
+  "dialog": {
+    "close": "Затвори формулар за контакт"
+  }
+}

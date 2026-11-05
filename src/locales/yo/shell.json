@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Ìlọkiri pàtàkì",
+    "projects": "Àwọn iṣẹ́ àkànṣe",
+    "services": "Àwọn iṣẹ́",
+    "company": "Iṣẹ́ àpinfúnni · Nípa wa · Àwọn oníròyìn",
+    "contact": "Kàn sí wa",
+    "home": "Ojú ìwé àkọ́kọ́ Expected End",
+    "openMenu": "Ṣí àkójọ àṣàyàn",
+    "closeMenu": "Pa àkójọ àṣàyàn dé",
+    "links": {
+      "projects": "Àwọn iṣẹ́ àkànṣe",
+      "services": "Àwọn iṣẹ́",
+      "story": "Ìtàn",
+      "about": "Nípa wa",
+      "press": "Àwọn oníròyìn",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Ìtọ́sọ́nà ìsàlẹ̀ ojú ìwé",
+    "home": "Ojú ìwé àkọ́kọ́",
+    "about": "Nípa wa",
+    "press": "Àwọn oníròyìn",
+    "terms": "Àwọn Òfin Lílò",
+    "privacy": "Ọ̀rọ̀ Ìpamọ́ Àṣírí",
+    "accessibility": "Ìwọlé fún gbogbo ènìyàn",
+    "contact": "Kàn sí wa",
+    "mission": "Gbogbo ohun tí mo ń kọ́ lábẹ́ ilé-iṣẹ́ yìí ń tọ́ka sí iṣẹ́ àpinfúnni kan náà: láti mú àwọn ènìyàn sún mọ́ Ọlọ́run, kí n sì ràn wọ́n lọ́wọ́ láti lo ìmọ̀ ẹ̀rọ láti gbé ayé, láti ṣẹ̀dá, láti nífẹ̀ẹ́, àti láti sìn pẹ̀lú èrò. Ìyẹn ni ìgbà ìkẹyìn àti ìrètí tí mo ń ṣiṣẹ́ sí.",
+    "verse": "Jeremiah 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Gbogbo ẹ̀tọ́ wà ní ìpamọ́.",
+    "blessing": "Jésù fẹ́ràn rẹ."
+  }
+}

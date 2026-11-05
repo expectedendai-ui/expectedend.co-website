@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected End-এর সঙ্গে যোগাযোগ",
+    "title": "শুরু হোক একটু <em>প্রসঙ্গ দিয়ে।</em>",
+    "intro": "কয়েকটি তথ্য বেছে নিন, আপনার জন্য একটি গোছানো ইমেল তৈরি হয়ে যাবে। কিছু পাঠানোর আগে আপনার ইমেল অ্যাপ খুলবে।"
+  },
+  "fields": {
+    "name": "আপনার নাম",
+    "email": "আপনার ইমেল",
+    "reason": "বিষয়টি কী নিয়ে?",
+    "project": "কোন প্রজেক্ট?",
+    "priceRange": "বাজেটের পরিসর",
+    "timeline": "পছন্দের সময়সীমা",
+    "discovery": "Expected End-এর খোঁজ কীভাবে পেলেন?",
+    "message": "আপনার মাথায় কী আছে?",
+    "chooseOne": "একটি বেছে নিন"
+  },
+  "reasons": {
+    "partnership": "পার্টনারশিপ বা সহযোগিতা",
+    "press": "প্রেস বা মিডিয়া",
+    "general": "সাধারণ প্রশ্ন"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check কমিউনিটি",
+    "newIdea": "নতুন কোনো আইডিয়া"
+  },
+  "timelines": {
+    "exploring": "শুধু খোঁজখবর নিচ্ছি",
+    "month": "এক মাসের মধ্যে",
+    "threeMonths": "তিন মাসের মধ্যে",
+    "laterThisYear": "এই বছরের শেষ দিকে",
+    "notSure": "এখনো নিশ্চিত নই"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check কমিউনিটি",
+    "search": "সার্চ",
+    "referral": "কারও সুপারিশে",
+    "elsewhere": "অন্য কোথাও"
+  },
+  "submit": {
+    "note": "আপনি দেখে নিয়ে নিজের ইমেল অ্যাপে পাঠান চাপার আগে কিছুই পাঠানো হয় না।",
+    "apps": "<app>আপনার ইমেল অ্যাপ</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> বা <yahoo>Yahoo Mail</yahoo> বেছে নিন।",
+    "button": "ইমেল তৈরি করুন"
+  },
+  "dialog": {
+    "close": "যোগাযোগ ফর্ম বন্ধ করুন"
+  }
+}

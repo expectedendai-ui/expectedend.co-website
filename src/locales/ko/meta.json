@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | 목적을 담아, 아름답게 만듭니다",
+    "description": "Expected End는 세심한 소프트웨어, 생산성 도구, 디지털 경험, 그리고 커뮤니티를 만듭니다."
+  },
+  "about": {
+    "title": "소개 | Expected End",
+    "description": "Denzel Rigaud의 창업 이야기, Expected End의 미션, 그리고 믿음과 목적에서 시작된 프로젝트."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Expected End 창업자",
+    "description": "Denzel Rigaud는 Expected End, 기독교 성소 앱 MyBibleLens, 그리고 The Water Check를 만든 창업자이자 풀스택 개발자입니다."
+  },
+  "press": {
+    "title": "보도 및 미디어 | Expected End",
+    "description": "Expected End와 Denzel Rigaud 보도를 위한 공식 약력, 검증된 사실, 엔티티 링크, 다운로드 가능한 미디어."
+  },
+  "terms": {
+    "title": "웹사이트 이용약관 | Expected End",
+    "description": "Expected End 웹사이트 이용에 적용되는 약관."
+  },
+  "privacy": {
+    "title": "개인정보 보호 안내 | Expected End",
+    "description": "Expected End가 이 웹사이트에서 정보를 처리하는 방법."
+  },
+  "watercheck-privacy": {
+    "title": "The Water Check 개인정보 처리방침 | Expected End",
+    "description": "The Water Check가 수집하는 정보, 휴대폰에만 남는 정보, 앱 운영을 돕는 곳, 그리고 나의 선택권."
+  },
+  "watercheck-terms": {
+    "title": "The Water Check 이용약관 | Expected End",
+    "description": "건강과 안전, AI, 크루 규칙, 구매를 포함한 The Water Check 앱 이용 약관."
+  },
+  "watercheck-health-data": {
+    "title": "The Water Check 소비자 건강 데이터 개인정보 처리방침 | Expected End",
+    "description": "The Water Check가 소비자 건강 데이터를 처리하는 방법과 열람, 삭제, 이의 제기 방법."
+  },
+  "watercheck-delete-account": {
+    "title": "계정 삭제 | The Water Check",
+    "description": "앱에서 또는 이메일로 The Water Check 계정과 데이터를 삭제하는 방법."
+  },
+  "watercheck-community": {
+    "title": "커뮤니티 가이드라인 | The Water Check",
+    "description": "The Water Check 크루가 친근하게 유지되는 방법: 규칙, 신고와 차단, 그리고 규칙을 어겼을 때 일어나는 일."
+  },
+  "accessibility": {
+    "title": "접근성 | Expected End",
+    "description": "누구나 이용하기 쉬운 웹사이트 경험을 위한 Expected End의 약속."
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens 스토어 | Expected End",
+    "description": "말씀과 더 가까이 동행하기 위한 세심한 굿즈. MyBibleLens 스토어가 곧 문을 열어요."
+  },
+  "watercheck-store": {
+    "title": "The Water Check 스토어 | Expected End",
+    "description": "수분 보충에서 영감을 받은 The Water Check의 필수 아이템. 첫 드롭이 곧 공개돼요."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | 수분 앱과 무료 계산기",
+    "description": "The Water Check 앱을 살펴보고, Expected End에서 무료로 비공개 수분 추정치를 받아 보세요."
+  },
+  "watercheck-calculator": {
+    "title": "무료 수분 계산기 | The Water Check",
+    "description": "The Water Check 계산기로 하루 수분 추정치를 무료로, 비공개로 받아 보세요."
+  },
+  "not-found": {
+    "title": "페이지를 찾을 수 없음 | Expected End",
+    "description": "요청한 Expected End 페이지를 찾을 수 없어요."
+  }
+}

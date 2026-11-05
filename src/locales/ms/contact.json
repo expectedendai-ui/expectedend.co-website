@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Hubungi Expected End",
+    "title": "Mulakan dengan sedikit <em>konteks.</em>",
+    "intro": "Pilih beberapa butiran dan e-mel yang jelas akan disediakan untuk anda. Aplikasi e-mel anda dibuka dahulu sebelum apa-apa dihantar."
+  },
+  "fields": {
+    "name": "Nama anda",
+    "email": "E-mel anda",
+    "reason": "Tentang apakah ini?",
+    "project": "Projek yang mana?",
+    "priceRange": "Julat harga",
+    "timeline": "Jangka masa ideal",
+    "discovery": "Bagaimana anda menemui Expected End?",
+    "message": "Apa yang anda fikirkan?",
+    "chooseOne": "Pilih satu"
+  },
+  "reasons": {
+    "partnership": "Perkongsian atau kolaborasi",
+    "press": "Akhbar atau media",
+    "general": "Soalan umum"
+  },
+  "projects": {
+    "waterCheckCommunity": "Komuniti The Water Check",
+    "newIdea": "Idea baharu"
+  },
+  "timelines": {
+    "exploring": "Sekadar meninjau",
+    "month": "Dalam masa sebulan",
+    "threeMonths": "Dalam masa tiga bulan",
+    "laterThisYear": "Lewat tahun ini",
+    "notSure": "Belum pasti"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Komuniti The Water Check",
+    "search": "Carian",
+    "referral": "Cadangan seseorang",
+    "elsewhere": "Tempat lain"
+  },
+  "submit": {
+    "note": "Tiada apa-apa dihantar sehingga anda menyemaknya dan menekan Hantar dalam aplikasi e-mel anda.",
+    "apps": "Pilih <app>aplikasi e-mel anda</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> atau <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Sediakan e-mel"
+  },
+  "dialog": {
+    "close": "Tutup borang hubungan"
+  }
+}

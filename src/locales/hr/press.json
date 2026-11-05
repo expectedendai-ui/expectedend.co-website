@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Za medije",
+    "title": "Materijali za medije o tvrtki Expected End.",
+    "intro": "Odobrene biografije, provjerene činjenice i medijski materijali za preuzimanje za izvještavanje o tvrtki Expected End i njezinu osnivaču Denzelu Rigaudu.",
+    "downloadPortrait": "Preuzmite portret"
+  },
+  "inquiry": "Pošaljite upit za medije",
+  "role": "Osnivač i full-stack programer",
+  "portrait": {
+    "alt": "Denzel Rigaud u tamnoplavom odijelu i naočalama s narančastim staklima"
+  },
+  "contents": {
+    "label": "Odjeljci stranice za medije",
+    "kit": "Medijski paket / 2026.",
+    "biographies": "Biografije",
+    "facts": "Provjerene činjenice",
+    "projects": "Projekti",
+    "licensing": "Korištenje materijala"
+  },
+  "bios": {
+    "kicker": "Odobreni tekst",
+    "title": "Biografije",
+    "text": "Ove se verzije smiju citirati ili prilagođavati za uredničke priloge.",
+    "shortLabel": "Kratka biografija / 24 riječi",
+    "fullLabel": "Puna biografija",
+    "fullFirst": "Denzel Rigaud osnovao je EXPECTEDEND LLC i samostalno izgradio MyBibleLens i The Water Check. Radi kao full-stack programer tvrtke i oblikuje svaki proizvod od ideje preko dizajna i razvoja do objave.",
+    "fullSecond": "Njegov se rad usredotočuje na softver s vjerom u središtu, digitalnu dobrobit i praktične alate koji ljudima pomažu da tehnologiju koriste s namjerom. MyBibleLens je aplikacija-svetište za kršćane. The Water Check spaja privatnu procjenu hidratacije, praktične navike pijenja vode i zajednicu usmjerenu na svakodnevnu dosljednost."
+  },
+  "facts": {
+    "kicker": "Informativni list",
+    "title": "Provjerene činjenice",
+    "text": "Mjerodavni podaci za profile, članke, opise slika i baze podataka.",
+    "company": "Tvrtka",
+    "founder": "Osnivač",
+    "role": "Uloga",
+    "products": "Proizvodi",
+    "productsValue": "MyBibleLens i The Water Check",
+    "website": "Službena web-stranica",
+    "profile": "Profil osnivača",
+    "entityLabel": "{{name}} u bazi Wikidata"
+  },
+  "projects": {
+    "kicker": "Proizvodi",
+    "title": "Rad",
+    "text": "Dva proizvoda, samostalno izgrađena pod imenom Expected End.",
+    "mybiblelens": {
+      "alt": "Ikona aplikacije MyBibleLens",
+      "kicker": "Softver s vjerom u središtu",
+      "text": "Aplikacija-svetište za kršćane.",
+      "visit": "Posjetite MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Ikona aplikacije The Water Check",
+      "kicker": "Hidratacija i zajednica",
+      "text": "Privatna procjena hidratacije, praktične navike pijenja vode i zajednica.",
+      "visit": "Posjetite The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Korištenje materijala",
+    "title": "Portret osnivača",
+    "text": "Portret se smije dijeliti i prilagođavati pod licencijom <license>Creative Commons Attribution-ShareAlike 4.0</license>. Autor: Denzel Rigaud / Expected End. Prilagodbe moraju koristiti istu licenciju.",
+    "download": "Preuzmite portret osnivača"
+  },
+  "contact": {
+    "kicker": "Kontakt za medije",
+    "title": "Trebate intervju, izjavu ili dodatnu datoteku?"
+  }
+}

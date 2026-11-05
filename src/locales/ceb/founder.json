@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Si Denzel Rigaud nga nagsul-ob og antipara nga orange ang tint",
+    "stats": {
+      "gradeValue": "Ika-5",
+      "gradeSuffix": "",
+      "grade": "GRADO · PAGKAMAUSISAON",
+      "grief": "KASUBO",
+      "faith": "PAGTUO · ANG PAGBALIK"
+    },
+    "identity": "Identidad <b>/ Denzel Rigaud</b>",
+    "founded": "Gitukod / <time>Marso 3, 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Founder ug Solo Full-Stack Developer</em>",
+    "title": "Ang Hunahuna <br/>sa Luyo sa <br/>Expected End",
+    "text": "Usa ka istorya bahin sa pagkamausisaon, kasubo, pagtuo, ug paghimo sa teknolohiya nga dalan paingon sa unahan.",
+    "cta": "Basaha ang istorya"
+  },
+  "ticker": {
+    "curiosity": "Pagkamausisaon",
+    "grief": "Kasubo",
+    "faith": "Pagtuo",
+    "code": "Code",
+    "purpose": "Katuyoan"
+  },
+  "coordinates": {
+    "eyebrow": "Tulo ka coordinate",
+    "title": "Ang dalan paingon dinhi dili <em>tul-id nga linya.</em>",
+    "curiosity": {
+      "label": "01 / Ikalimang grado",
+      "title": "Ang pagkamausisaon nahimong paagi sa pagpakabuhi.",
+      "body": "Nagsugod ko pinaagi sa pagdumili nga tugotan ang usa ka kapakyasan nga motino sa nahibilin sa akong kinabuhi.",
+      "big": "Ika-5"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Ang kasubo nagsira sa pultahan sa teknolohiya.",
+      "body": "Ang pagkawala sa akong amahan nakapabati nga imposible nang hikapon ang matag kahanas nga iyang gitudlo kanako."
+    },
+    "faith": {
+      "label": "03 / Pebrero 25, 2026",
+      "title": "Ang pagtuo naghatag og katuyoan sa trabaho.",
+      "body": "Mibalik ko aron maghimo og mga tool nga mobilin sa mga tawo nga mas lig-on kaysa sa una."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Istorya sa founder / Unang persona",
+    "title": "Kumusta, ako si <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Bahin na sa akong kinabuhi ang teknolohiya sukad sa ikalimang grado. Gamay pa ko, nasuko na ko sa eskwelahan. Napakyas ko sa ikaduhang grado samtang nag-atubang og language barrier, ug wala ko motuo nga kana nga kapakyasan ang motino kanako. Nakahukom ko nga magsugod pinaagi sa pag-hack sa akong mga grado. Gamay ra ang sinugdanan, apan sa dihang akong naamgohan kung unsa kalawom ang akong masulod sa mga sistema ug ma-jailbreak ang teknolohiya, nahimo kong mausisaon sa mga sistema sa akong palibot ug nagsugod ko og lingaw.",
+      "second": "Kana nga pagkamausisaon nagdala kanako sa Instagram bot farming, coding, automation, machine learning, mga online community, digital growth, ug sa labing ngitngit nga mga suok sa internet. Nakat-onan nako kung unsa kagamhanan ang teknolohiya. Ang pipila ka mga desisyon nagtudlo usab kanako nga mogamit og mas maayong paghukom."
+    },
+    "socials": {
+      "label": "Mga social profile ni Denzel Rigaud",
+      "instagram": "Si Denzel Rigaud sa Instagram",
+      "linkedin": "Si Denzel Rigaud sa LinkedIn",
+      "youtube": "Si Denzel Rigaud sa YouTube"
+    },
+    "records": {
+      "label": "Mga independente nga rekord sa identidad",
+      "heading": "Mga gawas nga rekord",
+      "worldAthletics": "Profile sa World Athletics",
+      "lynn": "Athlete profile sa Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Kapitulo 01",
+    "kicker": "Ang mga tawo nga nagtudlo kanako",
+    "title": "Ang una nakong web wizard.",
+    "first": "Ang akong amahan ug <brother>igsoong lalaki</brother> mao ang labing maalamon nga mga tawo nga akong nailhan, apan panagsa ra nako sila makita. Sa telepono ra among relasyon. Ang matag segundo nga makastorya nako sila, aduna silay itudlo nga kinahanglan nakong mahibaloan. Sa paglabay sa panahon, nakat-onan nako nga ako gihapon ang mohukom kung unsa ang husto para kanako. Web wizard ang akong amahan, ug gibati nako nga walay makapugong kanako sa internet. Nagtrabaho ang akong igsoon sa NSA.",
+    "second": "Niadtong 2021, mibalhin ko sa Florida human sa 17 ka tuig nga pagpuyo uban sa akong duha ka inahan ug duha ka igsoong babaye. Naluwas ko, haha. Dayon unang higayon nga nakapuyo ko uban sa akong amahan. Unom ka bulan ang milabay, namatay siya, busa gisirhan nako ang pultahan sa teknolohiya kay ang matag kahanas nagpahinumdom kanako kaniya.",
+    "third": "Muslim ang akong amahan sa dakong bahin sa iyang kinabuhi. Misunod ko sa Islam kay gusto nakong mahisama kaniya. Sa wala pa siya mamatay, gihatag niya ang iyang kinabuhi kang Kristo. Ang iyang desisyon nagpabilin kanako dugay na human nakong gitipigan ang akong kaugalingong mga tool."
+  },
+  "return": {
+    "number": "Kapitulo 02",
+    "kicker": "Ang pagbalik",
+    "title": "Giablihan nako pag-usab ang pultahan.",
+    "first": "Daghang tuig nakong gilikayan ang bahin sa akong kaugalingon nga nagpahinumdom kanako sa akong amahan. Panagsa nakahikap gihapon ko sa teknolohiya, apan ang kasubo nakapalisod kanako nga magpabilin. Gipuno nako kanang haw-ang nga lugar sa sala sa kaibog ug mas nahilayo ko sa tawo nga unta akong nahimo.",
+    "second": "Niadtong Enero 2026, nahibalo ko nga kinahanglan kong mausab. Nakahukom ko nga ablihan pag-usab ang web wizard nga gitudlo kanako sa akong amahan, mohunong na isip unodnon nga tawo nga wala motuo sa Dios, ug mosunod Kaniya. Sa dihang gibuhat nako kana, nagsugod og uswag ang akong kinabuhi.",
+    "third": "Ang MyBibleLens naggikan niadtong desisyona. Wala koy kompleto nga plano. Nagsugod ko og tukod ug nagpadayon. Pinaagi sa trabaho, naablihan nako ang pultahan nga akong gisirhan human namatay ang akong amahan. Gibalik nako ang The Water Check ug gisugdan nako pagbalik ang mga damgo nga akong gidala sukad pa sa pagkabata."
+  },
+  "draft": {
+    "label": "Kapitulo 03 / Ang Draft",
+    "title": "“Ang Kamatuoran sa Luyo sa Code”"
+  },
+  "venom": {
+    "title": "Ang Digital nga Hilo",
+    "first": "Mahitabo kini dayon sa atong pagmata. Sa dili pa gani motunob ang atong tiil sa salog, motuy-od na ang kamot. Kuhaon nimo ang phone. Kitang tanan nagbuhat niini. Apan kana nga usa ka kusog nga lihok dayon nga mogubot sa neural pathways sa imong utok, ug itulod ka sa kritikal ug balaka nga kahimtang sa dili pa gani magsugod ang adlaw.",
+    "second": "Isip solo software developer sulod sa 10 ka tuig, ug adunay amahan nga solo cyber security hacker nga nagtudlo kanako sa ngitngit ug misteryoso nga bahin sa internet, makita nako ang code sa luyo sa screen. Nahibal-an gyud nako kung giunsa paglihok sa algorithm, ug ang tinuod, hilo kini. Ang grabe nga toxicity nga imong gibati online dili gyud kinaiya sa tawo; usa kini ka hinimo nga ilusyon. Kanunay kitang giatake sa “pseudoism”, diin ang mga comment section nga gibahaan og kasuko panagsa ra nga kusog nga reaksyon sa ordinaryo nga mga user sa internet. Hinuon, bahin kini sa tinuyo ug sistematiko nga estratehiya sa computational propaganda. Ang mga peke nga account ug bot network gipakatap aron mosal-ot og artipisyal nga mga istorya sa imong feed, gidisenyo gyud aron manipulahon ang panglantaw sa publiko, palalomon ang atong panagbahin, ug impluwensyahan ang imong lihok online.",
+    "third": "Dili igsapayan kung unsa kalimpyo ang search history nimo o sa imong mga anak, o kung unsa kalimpyo ang imong feed tan-awon; ang sistema gidisenyo aron guyuron ka pabalik. Giguyod ka niini paingon sa negatibo, sa mabaw, ug sa mga get-rich-quick guru nga mopugos kanato nga unahon ang Kuwarta kaysa sa Dios (<strong>1 Timoteo 6:10</strong>), nga nagmugna og mga tawo nga adunay espiritu sa mammon. Kini ang hinungdan nga ang atong matahom nga mga igsoong babaye wala mahibalo nga ang ilang tinuod nga katahum dili makeup, dili kung unsa ang hunahuna sa usa ka lalaki bahin kaniya, o pila ka Instagram like ang iyang makuha… kondili ang iyang kasingkasing ug ang iyang daw anghel nga pamatasan uban sa Dios. Usa kini ka makina nga gihimo aron ilogon ang imong hunahuna ug kontrolon ang imong mga batasan.",
+    "fourth": "Kining walay hunong nga sapa sa pagpakaaron-ingnon nagbitik kanato sa nagdali-dali nga kinabuhi, ug nagbuta kanato sa kamatuoran nga ang tinuod nga mga butang nagkinahanglan og panahon. Ang tinuod nga gugma, tinuod nga pagtubo, ug tinuod nga koneksyon nagkinahanglan og pailob, dili ang dayon nga katagbawan nga gihatag sa phone. Gilimbongan niini ang utok nga magpaabot og kanunay nga dopamine rush sa pag-uyon. Sama sa gipili nga mga algorithm sa usa ka “For You” page, gipabati niini ang mga tawo nga sila adunay buta nga katungod sa ilang kaugalingong opinyon, ug gisirhan sila gikan sa tinuod nga mga tawo ug sa kamatuoran nga dili tanan mouyon sa parehas nga butang. Usa kini ka hinay nga pagsurender, nga nagtugot sa bugnaw nga teknolohiya ug pagpakaaron-ingnon nga hingpit nga mopuli sa hunahuna sa tawo.",
+    "fifth": "Gusto nila nga malingaw kita niining hinimo-himo nga mga gubat. Gusto nila nga ang utok sa atong mga anak mahimong lugaw, hangtod sa hangtod nabitik sa labing ubos nga ang-ang sa <strong><bloom>Bloom’s Taxonomy</bloom></strong>: “paghinumdom” ug pagkonsumo lang, wala gyud mangutana, wala gyud mohimo, wala gyud molawom. Gitan-aw nato ang usa ka tibuok henerasyon nga naglangan sa importante nga <strong><erikson>mga yugto sa kinabuhi ni Erikson</erikson></strong>, naparalisa sa peke ug gipili nga mga realidad nga ilang makita sa screen, nahadlok nga motubo gyud kay wala nay gibati nga tinuod. Kapoy na kaayo ang kalibutan sa mga bakak. Kung dili nimo makita ang manipulasyon sa code, ayaw kabalaka; makita kini sa akong henerasyon, ug makita usab kini sa umaabot nga henerasyon."
+  },
+  "crucible": {
+    "title": "Ang Hudno nga Naghulma Kanako",
+    "first": "Wala lang nako kini nakat-onan pinaagi sa pagtuon og datos; giagian nako kini: nagbaligya og droga aron lang matukod ang kinabuhi nga akong gisaad sa akong kaugalingon, usa ka kinabuhi nga moabot sa hayag nga kaugmaon. Gipalayas gikan sa balay sa mga minahal, walay puy-anan. Gitanyagan og agianan paingon sa adult industry sa panahon nga labing kinahanglan nako og kuwarta, 10k nga giwarawara mismo sa atubangan sa akong nawong, apan gipadako ko ni mama nga may moralidad. <court>Duha</court> ka kaso <search>sa</search> high school. Nagsugod ko og hack sa akong mga grado sa Grade 5 kay kapoy na kaayo ko nga kanunay mapakyas, labi na sa dihang akong naamgohan nga gipabilin ko sa Grade 2 tungod sa accent nga akong gidala. Sa ulahi nahimo kini nga pag-hack og mas daghan pa… sa dihang tinuod nakong nailhan ang akong <father>amahan</father> usa ka adlaw, nakita nako kung kang kinsa ko kini napanunod.",
+    "second": "Sulod sa dugay kaayong panahon, naghunahuna ko nga dili na gyud ko dawaton pag-usab sa Dios human sa tanan niana. Naghunahuna ko nga layo na kaayo ko. Apan dayon nakat-onan nako ang bahin kang Apostol Pablo. Si Pablo tinuod gyud nga mipatay og mga Kristiyano, ug gihatagan gihapon siya sa Dios og dakong gasa. Didto nako naamgohan: kung magamit sa Dios ang usa ka tawo sama kang Pablo, ang akong kagahapon dili gyud sobra para Kaniya aron motukod og kaugmaon uban kanako.",
+    "third": "Kana nga survival instinct nagsugod sayo. Ang pagdako nga gilibutan sa 4 ka babaye sulod sa 16 ka tuig naghulma sa akong hunahuna sa mga paagi nga hangtod karon akong gisabot pa. Gibansay ang akong hunahuna nga molihok nga dungan sa lain-laing psychological wavelength. Giagian nako ang baliko nga sikolohiya, komplikado nga dinamika, ug manipulasyon nga naghulma kanako sa kung kinsa ko karon. Ug gihigugma nako sila tungod niana; nakadaginot ko og kusog bahin sa mga babaye sa dihang tinuod nakong gihunahuna kung unsa ang gisulti sa akong mama. Ug human sa mga kasakit sa kasingkasing ug pagluib, mituo gihapon ko sa <chivalry>pagkamaginoo</chivalry>.",
+    "fourth": "Ang akong gipasabot, aron mabuhi sa balay nga puno sa mga babaye, kinahanglan kang mohunahuna sama kanila, ug sa dihang gibiyaan nako sila, kinahanglan kong mahimong batan-ong lalaki nga ako karon, uban sa daghang pakigbisog nga akong giagian. Gubot ang palibot, ug nakakita ra ko og kalinaw sa dihang aktibo nakong gipili nga wagtangon ang akong usa ka sala, ang “kaibog”, ug ang kasaba pinaagi sa pag-ampo. Sa dihang sa katapusan giuna nako ang Dios, naamgohan nako kung kinsa gyud ko. Nakita nako ang mga hagit nga naghulma kanako dili isip tunglo, kondili isip eksakto nga pagbansay nga akong kinahanglan aron mas makaduol sa Dios, ug aron maghimo og dalan pagawas para sa uban.",
+    "fifth": "Ang pagpangita sa Dios nagdala kanako aron mas mailhan ang akong kaugalingon. Ang pagsunod sa Dios nagtudlo kanako bahin sa akong mga samad ug gasa, ug ang pagsabot sa akong kaugalingon nakapahimo kanako nga gusto pa Siyang mailhan. Didto nagsugod og uswag ang akong kinabuhi: aduna koy direksyon, katuyoan, ug rason sa pag-atiman sa gihatag kanako sa Dios. Ang The Water Check bahin niana nga misyon. Ang pagtagad sa mga butang nga makaapekto sa imong lawas makatabang kanimo nga masabtan ug maatiman ang tawo nga gibuhat sa Dios kanimo. Gusto nakong mohimo og teknolohiya nga motabang kanimo nga mahimong labing may katakos nga bersyon sa maong tawo.",
+    "mission": "Ang tanan nga akong gitukod ubos niini nga kompanya nagtumong sa usa ka misyon: dad-on ang mga tawo nga mas duol sa Dios ug tabangan sila nga gamiton ang teknolohiya aron mabuhi, makamugna, mahigugma, ug moalagad nga may tinuyo. Mao kana ang kaugmaon nga gilauman nga akong gipaningkamotan.",
+    "connect": {
+      "label": "I-follow si Denzel Rigaud",
+      "youtube": "Expected End sa YouTube",
+      "instagram": "I-follow si Denzel Rigaud sa Instagram",
+      "linkedin": "Pakigkonektar kang Denzel Rigaud sa LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Personal nga file / 04 ka handumanan",
+    "title": "Archive sa handumanan",
+    "text": "Ang mga tawo, mga kwarto, ug tinuod nga trabaho sa luyo sa code. I-download ang bisan unsang frame ug tipigi kini.",
+    "number": "Handumanan {{number}}",
+    "download": "I-download ang handumanan {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Si Denzel sa bata pa uban sa iyang amahan",
+        "title": "Ako ug ang akong amahan"
+      },
+      "work": {
+        "alt": "Si Denzel nga nagtrabaho sa laptop uban sa duha ka kauban sa palibot sa lamesa",
+        "title": "Ang trabaho sa palibot sa lamesa"
+      },
+      "workspace": {
+        "alt": "Ang workspace sa MyBibleLens ug The Water Check",
+        "title": "Diin naporma ang MyBibleLens"
+      },
+      "archive": {
+        "alt": "Ang Real Work nga video archive ni Denzel sa iyang phone",
+        "title": "Ang Real Work archive"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Katapusan sa transmisyon / Nagpadayon ang trabaho",
+    "title": "Magtukod kita og usa ka butang nga <em>mobalik sa kinabuhi</em> sa mga tawo.",
+    "text": "Para sa maampingong software, mga panaghisgot sa press, o sinugdanan sa usa ka maayong ideya, ablihi ang usa ka channel pinaagi sa Expected End.",
+    "contact": "Kontaka ang Expected End",
+    "back": "Balik sa kompanya"
+  },
+  "verse": {
+    "version": "Ang Biblia, Cebuano (1917)",
+    "reference": "Jeremias 29:11",
+    "text": "Kay ako mahibalo sa mga hunahuna nga gihunahuna ko alang kaninyo, nagaingon si Jehova, mga hunahuna sa pakigdait, ug dili sa kadautan, sa paghatag kaninyo ug paglaum sa inyong kaugmaon.",
+    "close": "Isira ang bersikulo sa Biblia"
+  },
+  "bio": {
+    "eyebrow": "Gikan sa Founder",
+    "title": "Unsa ang nahitabo sa @thewatercheck?",
+    "close": "Isira ang bio",
+    "first": "Sugod sa edad nga 15, nagdumala ug nagpadako ko og mga influencer ug content page samtang nagpatubo gihapon sa akong kaugalingong proyekto, ang @thewatercheck.",
+    "second": "Sa ulahi mibalhin ko sa akong amahan sa edad nga 17, ug nagkamatay na ang account tungod kay <em>“Kung gukdon nimo ang duha ka koneho, walay usa nga imong madakpan.”</em> <proverb>(panultihon sa Russia)</proverb> Niadtong edara, kuwarta ra ang akong gihunahuna. Wala nako ihatag ang tanan nakong kusog sa @thewatercheck.",
+    "third": "Dayon wala damha nga namatay ang akong <father>amahan</father> niadtong <strong>Hulyo 10, 2021.</strong> Misulod ko sa survival mode, naghunahuna kung asa padulong ang akong kinabuhi. Aron maatubang ang kasakit sa iyang kamatayon, gisirhan nako ang pultahan sa pagkahimong web wizard nga kaniadto gitudlo kanako sa akong amahan, hangtod sa <strong>Enero 2026.</strong>",
+    "stat": {
+      "from": "200,000 ka follower",
+      "to": "7,000",
+      "caption": "Mao na kana karon."
+    },
+    "what": {
+      "eyebrow": "Busa unsa man kini?",
+      "title": "Usa ka yano nga pahinumdom nga gihigugma sa mga tawo.",
+      "first": "Ang The Water Check yano ra kaayo: nag-post ko og litrato matag adlaw aron pahinumdoman ang mga tawo nga moinom og tubig, ug tinuod gyud nga nakatabang kini kanila nga moinom og tubig. <em>Gibahaan</em> sa mga tawo ang comments. Mao ra kana ang gibuhat niini, ug gihigugma kini sa mga tawo.",
+      "second": "Dayon gipapas sa usa ka bot ang tanan sa page, ug gikan didto, nagpadayon ang kinabuhi."
+    }
+  },
+  "footer": {
+    "line": "Ang teknolohiya dili para kita mag-scroll nga walay hunong ug mabuhi sa kinabuhi sa ubang tawo. Kinahanglan kini mopaayo sa atong espiritu, kalag, hunahuna, ug unod.",
+    "sign": "Founder sa EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigation sa footer",
+    "build": "Ang akong gitukod",
+    "pressKit": "Press kit",
+    "find": "Pangitaa ko",
+    "finePrint": "Ang fine print",
+    "terms": "Mga Termino sa Paggamit",
+    "privacy": "Pahayag sa Pagkapribado",
+    "accessibility": "Aksesibilidad",
+    "contact": "Kontak",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Tanang katungod gigahin.",
+    "blessing": "Gihigugma ka ni Hesus."
+  },
+  "egg": {
+    "label": "Sulod sa tinagong kalibutan sa arte",
+    "armed": "Usa pa ka pindot aron makasulod sa tinagong kalibutan sa arte."
+  }
+}

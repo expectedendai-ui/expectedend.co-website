@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kontakte Expected End",
+    "title": "Kòmanse ak yon ti <em>kontèks.</em>",
+    "intro": "Chwazi kèk detay epi n ap prepare yon imèl klè pou ou. Aplikasyon imèl ou louvri anvan anyen pati."
+  },
+  "fields": {
+    "name": "Non ou",
+    "email": "Imèl ou",
+    "reason": "Sou kisa sa ye?",
+    "project": "Ki pwojè?",
+    "priceRange": "Fouchèt pri",
+    "timeline": "Delè ideyal",
+    "discovery": "Kijan ou te jwenn Expected End?",
+    "message": "Kisa ou gen nan tèt ou?",
+    "chooseOne": "Chwazi youn"
+  },
+  "reasons": {
+    "partnership": "Patenarya oswa kolaborasyon",
+    "press": "Laprès oswa medya",
+    "general": "Kesyon jeneral"
+  },
+  "projects": {
+    "waterCheckCommunity": "Kominote The Water Check la",
+    "newIdea": "Yon nouvo lide"
+  },
+  "timelines": {
+    "exploring": "M ap gade sèlman",
+    "month": "Nan yon mwa",
+    "threeMonths": "Nan twa mwa",
+    "laterThisYear": "Pita ane sa a",
+    "notSure": "M poko konnen"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Kominote The Water Check la",
+    "search": "Rechèch sou entènèt",
+    "referral": "Yon moun te rekòmande l",
+    "elsewhere": "Yon lòt kote"
+  },
+  "submit": {
+    "note": "Anyen p ap pati toutotan ou pa revize l epi peze Voye nan aplikasyon imèl ou.",
+    "apps": "Chwazi <app>aplikasyon imèl ou</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, oswa <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Prepare imèl la"
+  },
+  "dialog": {
+    "close": "Fèmen fòmilè kontak la"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "kicker": "Kuhusu Expected End",
+    "title": "Teknolojia yenye kusudi, iliyojengwa kwa ajili ya maisha halisi."
+  },
+  "founder": {
+    "kicker": "Nyuma ya kampuni",
+    "title": "Hadithi iliyo nyuma ya Expected End.",
+    "body": "Safari ya kibinafsi kuanzia majaribio ya teknolojia darasa la tano hadi huzuni, imani, MyBibleLens, na mwanzo mpya. <more>Soma zaidi</more>",
+    "link": "Hadithi ya Mwanzilishi, Denzel Rigaud"
+  },
+  "mission": {
+    "kicker": "Dhamira",
+    "title": "Teknolojia inapaswa kukusaidia kurudi kwenye maisha yako.",
+    "attention": "Teknolojia inaweza kuathiri jinsi tunavyotafuta kuonekana na kutuzwa. Kujilinganisha na wengine kila mara, programu za uchumba, na picha zilizopambwa za maisha ya watu wengine zinaweza kufanya mahusiano ya kweli na nyakati za utulivu zionekane kuwa na thamani ndogo. Watoto huingia kwenye mifumo hiyo kabla hawajaelewa shinikizo lililo nyuma yake.",
+    "screen": "Expected End huwapa watu njia bora ya kutumia skrini. Inatengeneza zana zinazowasaidia watoto na watu wazima kujifunza, kubuni, kufanya kazi, kupata mahali salama, au kumkaribia Mungu zaidi. Kila bidhaa inapaswa kuwarudisha kwenye maisha yaliyo mbele yao.",
+    "line": "Dhamira ni kuwaleta watu karibu na Mungu kupitia teknolojia yenye tija, yenye manufaa, na yenye furaha, inayoacha nafasi kwa maisha halisi."
+  },
+  "press": {
+    "kicker": "Vyombo vya habari",
+    "title": "Saidia kusimulia hadithi.",
+    "body": "Expected End inakaribisha mazungumzo kuhusu teknolojia inayojikita kwenye imani, ustawi wa kidijitali, huzuni ya mwanzilishi, MyBibleLens, The Water Check, na bidhaa zinazorudisha muda kwenye maisha halisi.",
+    "link": "Fungua kifurushi cha vyombo vya habari"
+  }
+}

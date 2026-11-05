@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud se fondatè ak devlopè full-stack ki dèyè Expected End, MyBibleLens, Aplikasyon Sanktyè pou Krisyanis la, ak The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Aplikasyon kretyen",
+      "action": "Vizite aplikasyon an",
+      "tagline": "Aplikasyon Sanktyè pou Krisyanis la.",
+      "secondary": "Bio",
+      "badge": "Sou App Store"
+    },
+    "watercheck": {
+      "category": "Kominote idratasyon",
+      "action": "Vizite aplikasyon an",
+      "tagline": "Konprann sa w ap bwè. Pwòp chif dlo pa w, nan yon sèl tap.",
+      "badge": "An revizyon"
+    },
+    "mybiblelens-store": {
+      "category": "Boutik · Ap vini byento",
+      "action": "Antre nan boutik la",
+      "tagline": "Lafwa ou ka mete sou ou."
+    },
+    "watercheck-store": {
+      "category": "Boutik · Ap vini byento",
+      "action": "Antre nan boutik la",
+      "tagline": "Ekipman ofisyèl Depatman Idratasyon an."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Aplikasyon lafwa · iOS",
+      "status": "Sou App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Aplikasyon idratasyon · iOS",
+      "status": "An revizyon"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens pou Android",
+      "category": "Google Play",
+      "status": "Tès fèmen"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Twal san limit",
+      "status": "Disponib"
+    },
+    "journey-plans": {
+      "name": "Plan Journey",
+      "category": "Plan lekti + sele",
+      "status": "Disponib"
+    },
+    "water-check-crews": {
+      "name": "Ekip Water Check",
+      "category": "Idratasyon an ekip",
+      "status": "Fin bati"
+    },
+    "home-screen-widgets": {
+      "name": "Widjèt ekran dakèy",
+      "category": "Widjèt iOS",
+      "status": "Fin bati"
+    },
+    "hydration-calculator": {
+      "name": "Kalkilatè idratasyon",
+      "category": "Zouti sou entènèt",
+      "status": "Disponib"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Aplikasyon pou jere biznis",
+      "status": "Ap devlope"
+    },
+    "43-language-rollout": {
+      "name": "Lansman nan 43 lang",
+      "category": "Lokalizasyon",
+      "status": "43 lang"
+    },
+    "mybiblelens-store": {
+      "name": "Boutik MyBibleLens",
+      "category": "Machandiz",
+      "status": "Ap vini byento"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Sit entènèt aplikasyon an",
+      "status": "Disponib"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Sit entènèt konpayi an",
+      "status": "Disponib"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Etid Bib ak IA",
+      "status": "Demo IA"
+    },
+    "hidden-art-world": {
+      "name": "Mond atistik kache",
+      "category": "Atizay entèaktif sou entènèt",
+      "status": "Sipriz kache"
+    },
+    "sanctuary-stickers": {
+      "name": "Etikèt Sanktyè",
+      "category": "Seri ilistrasyon",
+      "status": "550+ etikèt"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Fim prezantasyon MyBibleLens",
+      "category": "Fim mak",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Reels sou fonksyon yo",
+      "category": "Seri videyo",
+      "status": "10 videyo"
+    },
+    "look-closer-series": {
+      "name": "Seri Look Closer",
+      "category": "Seri pou rezo sosyal",
+      "status": "60 piblikasyon"
+    },
+    "25-week-campaign": {
+      "name": "Kanpay 25 semèn",
+      "category": "Plan Instagram",
+      "status": "100 piblikasyon"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Kaye travay",
+      "status": "33 blòk"
+    },
+    "water-check-store": {
+      "name": "Boutik Water Check",
+      "category": "Machandiz",
+      "status": "Ap vini byento"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Aplikasyon",
+      "body": "Pwodwi itil, byen panse, ki fèt pou moun reyèl.",
+      "interest": "Bati yon aplikasyon oswa yon lide lojisyèl"
+    },
+    "02": {
+      "title": "Sit entènèt",
+      "body": "Kay dijital ki diferan, klè, vivan e akeyan.",
+      "interest": "Sit entènèt oswa eksperyans dijital"
+    },
+    "03": {
+      "title": "Sistèm IA",
+      "body": "Entèlijans pratik ki ede lide ak ekip avanse.",
+      "interest": "Sistèm IA oswa zouti pwodiktivite"
+    },
+    "04": {
+      "title": "Kreyasyon",
+      "body": "Idantite, direksyon ak eksperyans ki mete sans nan mitan.",
+      "interest": "Direksyon kreyatif oswa design"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Kay biznis ou, fèt sou mezi. CRM, finans, pwojè, zouti pou ekip, ak nenpòt lòt kapasite ou bezwen apre, tout nan yon sèl kote.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Otomatizasyon",
+      "body": "Ranplase travay repetitif ak flis travay ki konekte pou biznis ou kontinye mache.",
+      "interest": "Otomatizasyon"
+    },
+    "07": {
+      "title": "Pòtay pou kliyan",
+      "body": "Bay kliyan oswa manm ou yo yon sèl kote ki byen fini pou kominike, fè rezèvasyon, pataje fichye, epi swiv pwogrè.",
+      "interest": "Pòtay pou kliyan"
+    },
+    "08": {
+      "title": "Sovtaj dijital",
+      "body": "Repare, modènize, oswa rebati lojisyèl ki pa mache ankò pou biznis ou.",
+      "interest": "Sovtaj dijital"
+    }
+  }
+}

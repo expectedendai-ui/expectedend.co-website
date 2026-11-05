@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Điều hướng chính",
+    "projects": "Dự án",
+    "services": "Dịch vụ",
+    "company": "Sứ mệnh · Giới thiệu · Báo chí",
+    "contact": "Liên hệ",
+    "home": "Trang chủ Expected End",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "links": {
+      "projects": "Dự án",
+      "services": "Dịch vụ",
+      "story": "Câu chuyện",
+      "about": "Giới thiệu",
+      "press": "Báo chí",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Điều hướng chân trang",
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "press": "Báo chí",
+    "terms": "Điều khoản sử dụng",
+    "privacy": "Tuyên bố quyền riêng tư",
+    "accessibility": "Hỗ trợ tiếp cận",
+    "contact": "Liên hệ",
+    "mission": "Mọi điều tôi xây dựng dưới công ty này đều hướng đến cùng một sứ mệnh: đưa mọi người đến gần Đức Chúa Trời hơn và giúp họ dùng công nghệ để sống, sáng tạo, yêu thương và phục vụ một cách có chủ đích. Đó chính là sự trông cậy trong lúc cuối cùng mà tôi đang hướng tới.",
+    "verse": "Giê-rê-mi 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. Bảo lưu mọi quyền.",
+    "blessing": "Chúa Giê-xu yêu thương bạn."
+  }
+}

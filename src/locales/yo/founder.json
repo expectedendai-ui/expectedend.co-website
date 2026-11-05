@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud pẹ̀lú awò ojú aláwọ̀ ọsàn",
+    "stats": {
+      "gradeValue": "Kíláàsì 5",
+      "gradeSuffix": "",
+      "grade": "ÌFẸ́ LÁTI MỌ̀",
+      "grief": "Ọ̀FỌ̀",
+      "faith": "ÌGBÀGBỌ́ · ÌPADÀBỌ̀"
+    },
+    "identity": "Ìdánimọ̀ <b>/ Denzel Rigaud</b>",
+    "founded": "Ìdásílẹ̀ / <time>3 Oṣù Ẹrẹ̀nà 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Olùdásílẹ̀ àti Olùgbéejáde Full-Stack Ẹnìkan Ṣoṣo</em>",
+    "title": "Ọpọlọ <br/>Tó Wà Lẹ́yìn <br/>Expected End",
+    "text": "Ìtàn kan nípa ìfẹ́ láti mọ̀, ọ̀fọ̀, ìgbàgbọ́, àti yíyí ìmọ̀ ẹ̀rọ padà sí ọ̀nà láti tẹ̀síwájú.",
+    "cta": "Ka ìtàn náà"
+  },
+  "ticker": {
+    "curiosity": "Ìfẹ́ láti mọ̀",
+    "grief": "Ọ̀fọ̀",
+    "faith": "Ìgbàgbọ́",
+    "code": "Kóòdù",
+    "purpose": "Ète"
+  },
+  "coordinates": {
+    "eyebrow": "Àmì ibi mẹ́ta",
+    "title": "Ọ̀nà tó mú mi dé ibí kì í ṣe <em>ọ̀nà tààrà.</em>",
+    "curiosity": {
+      "label": "01 / Kíláàsì karùn-ún",
+      "title": "Ìfẹ́ láti mọ̀ di ọgbọ́n ìwàláàyè.",
+      "body": "Mo bẹ̀rẹ̀ nípa kíkọ̀ láti jẹ́ kí ìkùnà kan ṣoṣo pinnu ìyókù ìgbésí ayé mi.",
+      "big": "Karùn-ún"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Ọ̀fọ̀ ti ilẹ̀kùn mọ́ ìmọ̀ ẹ̀rọ.",
+      "body": "Pípàdánù bàbá mi mú kí gbogbo ọgbọ́n tí ó kọ́ mi dà bí ohun tí n kò lè fọwọ́ kàn."
+    },
+    "faith": {
+      "label": "03 / 25 Oṣù Èrèlè 2026",
+      "title": "Ìgbàgbọ́ fún iṣẹ́ náà ní ète.",
+      "body": "Mo padà wá láti kọ́ àwọn irinṣẹ́ tó ń fi àwọn ènìyàn sílẹ̀ ní agbára ju bí wọ́n ṣe rí wọn lọ."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Ìtàn olùdásílẹ̀ / Ẹni kìíní",
+    "title": "Báwo, orúkọ mi ni <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Ìmọ̀ ẹ̀rọ ti jẹ́ ara ìgbésí ayé mi láti kíláàsì karùn-ún. Ilé-ẹ̀kọ́ ti ń bí mi nínú láti kékeré. Mo kùnà ní kíláàsì kejì nígbà tí mo ń kojú ìdènà èdè, mi ò sì gbàgbọ́ pé ìkùnà yẹn yẹ kí ó pinnu ẹni tí mo jẹ́. Mo pinnu láti bẹ̀rẹ̀ nípa wíwọlé sínú ètò láti yí máàkì mi padà. Ó bẹ̀rẹ̀ kékeré, ṣùgbọ́n nígbà tí mo rí bí mo ṣe lè wọ inú àwọn ètò jìnnà tó, tí mo sì lè jailbreak ìmọ̀ ẹ̀rọ, mo bẹ̀rẹ̀ sí í fẹ́ mọ̀ nípa àwọn ètò tó yí mi ká, mo sì bẹ̀rẹ̀ sí í gbádùn ara mi.",
+      "second": "Ìfẹ́ láti mọ̀ yẹn gbé mi wọ inú bot farming lórí Instagram, kíkọ kóòdù, iṣẹ́ aládàáṣe, machine learning, àwùjọ orí ayélujára, ìdàgbàsókè oní-nọ́ńbà, àti àwọn igun tó ṣókùnkùn jù lọ lórí ayélujára. Mo kọ́ bí ìmọ̀ ẹ̀rọ ṣe lágbára tó. Àwọn yíyàn kan tún kọ́ mi láti lo ìfòyemọ̀ tó dára jù."
+    },
+    "socials": {
+      "label": "Àwọn àkọọ́lẹ̀ ìkànnì àjọlò Denzel Rigaud",
+      "instagram": "Denzel Rigaud lórí Instagram",
+      "linkedin": "Denzel Rigaud lórí LinkedIn",
+      "youtube": "Denzel Rigaud lórí YouTube"
+    },
+    "records": {
+      "label": "Àkọsílẹ̀ ìdánimọ̀ olómìnira",
+      "heading": "Àkọsílẹ̀ láti ìta",
+      "worldAthletics": "Profaili World Athletics",
+      "lynn": "Profaili eléré ìdárayá Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Orí 01",
+    "kicker": "Àwọn tó kọ́ mi",
+    "title": "Ògbóǹkangí wẹ́ẹ̀bù àkọ́kọ́ mi.",
+    "first": "Bàbá mi àti <brother>arákùnrin mi</brother> ni àwọn èèyàn tó gbọ́n jù lọ tí mo mọ̀, ṣùgbọ́n n kì í sábà rí wọn. Àjọṣe orí fóònù ni tiwa. Gbogbo ìṣẹ́jú-àáyá tí mo bá ní láti bá wọn sọ̀rọ̀, wọ́n máa ń kọ́ mi ní nǹkan tí mo nílò láti mọ̀. Bí àkókò ti ń lọ, mo kọ́ pé èmi fúnra mi ṣì ní láti pinnu ohun tó tọ́ fún mi. Ògbóǹkangí wẹ́ẹ̀bù ni bàbá mi, mo sì ń rí ara mi bí ẹni tí kò sí ohun tó lè dá dúró lórí ayélujára. Arákùnrin mi ń ṣiṣẹ́ fún NSA.",
+    "second": "Ní 2021, mo kó lọ sí Florida lẹ́yìn ọdún 17 tí mo ti ń gbé pẹ̀lú àwọn ìyá mi méjì àti àwọn arábìnrin mi méjì. Mo yè é, haha. Lẹ́yìn náà, mo ní àǹfààní láti gbé pẹ̀lú bàbá mi fún ìgbà àkọ́kọ́. Oṣù mẹ́fà lẹ́yìn náà, ó kú, nítorí náà mo ti ilẹ̀kùn mọ́ ìmọ̀ ẹ̀rọ nítorí pé gbogbo ọgbọ́n ló ń rán mi létí rẹ̀.",
+    "third": "Ọ̀pọ̀ ọdún nínú ìgbésí ayé bàbá mi ló fi jẹ́ Mùsùlùmí. Mo tẹ̀lé Ìsìláàmù ní apá kan nítorí pé mo fẹ́ dà bí rẹ̀. Kí ó tó kú, ó fi ayé rẹ̀ fún Kristi. Ìpinnu rẹ̀ yẹn wà pẹ̀lú mi fún ìgbà pípẹ́ lẹ́yìn tí mo ti kó àwọn irinṣẹ́ mi sí apá kan."
+  },
+  "return": {
+    "number": "Orí 02",
+    "kicker": "Ìpadàbọ̀",
+    "title": "Mo tún ṣí ilẹ̀kùn náà.",
+    "first": "Mo lo ọ̀pọ̀ ọdún ní yíyẹra fún apá ara mi tó ń rán mi létí bàbá mi. Mo ṣì máa ń fọwọ́ kan ìmọ̀ ẹ̀rọ láti ìgbà dé ìgbà, ṣùgbọ́n ọ̀fọ̀ mú kí ó ṣòro láti dúró. Mo fi ẹ̀ṣẹ̀ ìfẹ́kúfẹ̀ẹ́ kún àyè òfo yẹn, mo sì túbọ̀ jìnnà sí ẹni tí mo lè ti jẹ́.",
+    "second": "Ní Oṣù Ṣẹ́rẹ́ 2026, mo mọ̀ pé mo nílò láti yípadà. Mo pinnu láti tún ṣí ògbóǹkangí wẹ́ẹ̀bù tí bàbá mi kọ́ mi láti jẹ́ sílẹ̀, láti dẹ́kun jíjẹ́ ènìyàn ti ara tí kò gba Ọlọ́run gbọ́, kí n sì tẹ̀lé E dípò bẹ́ẹ̀. Nígbà tí mo ṣe bẹ́ẹ̀, ìgbésí ayé mi bẹ̀rẹ̀ sí í ṣe rere.",
+    "third": "MyBibleLens wá láti inú ìpinnu yẹn. N kò ní ètò tó pé. Mo bẹ̀rẹ̀ sí í kọ́, mo sì ń bá a lọ. Iṣẹ́ náà jẹ́ kí n ṣí ilẹ̀kùn tí mo ti tì lẹ́yìn ikú bàbá mi. Mo mú The Water Check padà, mo sì bẹ̀rẹ̀ sí í gbé àwọn àlá tí mo ti gbé láti ìgbà ọmọdé dìde."
+  },
+  "draft": {
+    "label": "Orí 03 / Àkọ́kọ Náà",
+    "title": "“Òtítọ́ Tó Wà Lẹ́yìn Kóòdù”"
+  },
+  "venom": {
+    "title": "Oró Oní-nọ́ńbà",
+    "first": "Ó ń ṣẹlẹ̀ ní ìṣẹ́jú tí a bá jí. Kí ẹsẹ̀ wa tó fọwọ́ kan ilẹ̀, ọwọ́ ti nà jáde. O gbá fóònù mú. Gbogbo wa ló ń ṣe é. Ṣùgbọ́n ìṣísẹ̀ kan ṣoṣo yẹn tí a ń ṣe láìronú ń da àwọn ipa ọ̀nà iṣan ọpọlọ rẹ rú lẹ́sẹ̀kẹsẹ̀, ó sì ń jù ọ́ sínú ipò ìdààmú àti àníyàn kí ọjọ́ tó bẹ̀rẹ̀ pàápàá.",
+    "second": "Gẹ́gẹ́ bí olùgbéejáde sọ́fútúwọ̀ ẹnìkan ṣoṣo fún ọdún 10, àti ẹni tí bàbá rẹ̀ jẹ́ hacker ààbò orí ayélujára ẹnìkan ṣoṣo tó kọ́ mi ní àwọn igun òkùnkùn àti àdììtú ayélujára, mo ń rí kóòdù tó wà lẹ́yìn ojú-ìbojú. Mo mọ bí algorithm ṣe ń ṣiṣẹ́ gan-an, òtítọ́ ibẹ̀ sì ni pé oró ni. Ìwà májèlé tó pọ̀ lápọ̀jù tí o ń rí lórí ayélujára kì í ṣe ìwà ẹ̀dá ènìyàn ní tòótọ́: ìtànjẹ tí a mọ̀ọ́mọ̀ ṣe ni. “Pseudoism” ń kọlù wá láìdáwọ́dúró, níbi tí àwọn ibi ìsọ̀rọ̀ tó kún fún ìkórìíra kì í sábà jẹ́ ìbínú òjijì láti ọ̀dọ̀ àwọn olùmúlò ayélujára lásán. Dípò bẹ́ẹ̀, wọ́n jẹ́ ara ètò ìpolongo oníṣirò (computational propaganda) tí a mọ̀ọ́mọ̀ ṣe lọ́nà ètò. A ń lo àwọn àkọọ́lẹ̀ ayédèrú àti nẹ́tíwọ̀ọ̀kì bọ́ọ̀tì láti fi àwọn ìtàn àtọwọ́dá sínú ojú ìwé ìròyìn rẹ, tí a ṣe ní pàtó láti yí èrò àwọn ènìyàn padà, láti mú ìyapa wa jinlẹ̀ sí i, àti láti darí ìwà rẹ lórí ayélujára.",
+    "third": "Kò ṣe pàtàkì bí ìtàn ìwákiri rẹ tàbí ti àwọn ọmọ rẹ ṣe mọ́ tó, tàbí bí ojú ìwé ìròyìn rẹ ṣe dà bí ẹni pé ó mọ́; a ṣe ètò náà láti fà ọ́ padà. Ó ń fà ọ́ sí ọ̀nà ìwà òdì, sí ìwà àṣehàn, àti sí àwọn olùkọ́ ọlà-òjijì tí ń mú wa fi Owó ṣáájú Ọlọ́run (<strong>1 Timoti 6:10</strong>), tí ó sì ń dá àwọn ènìyàn tí ẹ̀mí mammoni ń darí. Ó ń jẹ́ kí àwọn arábìnrin wa ẹlẹ́wà má mọ̀ pé ẹwà wọn tòótọ́ kì í ṣe ìpara ojú, kì í ṣe ohun tí ọkùnrin kan rò nípa rẹ̀, tàbí iye like tí ó ń rí lórí Instagram… ọkàn rẹ̀ àti ìwà áńgẹ́lì rẹ̀ pẹ̀lú Ọlọ́run ni. Ẹ̀rọ tí a kọ́ láti jí ọkàn rẹ gbé àti láti darí àṣà rẹ ni.",
+    "fourth": "Ìṣàn àtọwọ́dá tí kò dáwọ́ dúró yìí ń há wa mọ́ inú ìgbésí ayé ìkánjú, ó sì ń fọ́ wa lójú sí òtítọ́ pé àwọn nǹkan tòótọ́ ń gba àkókò. Ìfẹ́ tòótọ́, ìdàgbàsókè gidi, àti àjọṣe tó jẹ́ òótọ́ nílò sùúrù, kì í ṣe ìtẹ́lọ́rùn òjijì tí fóònù ń mú wá. Ó ń tan ọpọlọ jẹ láti máa retí ìrọ́ dopamine ti ìfohùnṣọ̀kan láìdáwọ́dúró. Gẹ́gẹ́ bí àwọn algorithm tí a ti ṣà fún ọ lórí ojú ìwé “For You”, ó ń mú kí àwọn ènìyàn rò láìronú pé wọ́n ní ẹ̀tọ́ sí èrò tiwọn, ó sì ń tì wọ́n mọ́ kúrò lọ́dọ̀ ẹ̀dá ènìyàn gidi àti òtítọ́ pé kì í ṣe gbogbo ènìyàn ló máa fohùn ṣọ̀kan lórí ohun kan náà. Ìjọwọ́-ara-ẹni díẹ̀díẹ̀ ni, tó ń jẹ́ kí ìmọ̀ ẹ̀rọ tútù àti ohun àtọwọ́dá gba ọpọlọ ẹ̀dá ènìyàn pátápátá.",
+    "fifth": "Wọ́n fẹ́ kí àwọn ogun àtọwọ́dá wọ̀nyí máa pín ọkàn wa níyà. Wọ́n fẹ́ kí ọpọlọ àwọn ọmọ wa máa rọ bí ògì, kí ó sì há títí láé sí ìpele tó kéré jù lọ nínú <strong><bloom>Bloom’s Taxonomy</bloom></strong>: “rírántí” àti jíjẹ nǹkan run nìkan, láìbéèrè ìbéèrè láé, láìṣẹ̀dá láé, láìlọ jìnnà sí i láé. À ń wo bí gbogbo ìran kan ṣe ń fa àwọn <strong><erikson>ìpele ìgbésí ayé Erikson</erikson></strong> pàtàkì sẹ́yìn, tí àwọn ayé ayédèrú tí wọ́n ń rí lórí ojú-ìbojú ti sọ wọ́n di aláìlèṣe, tí ẹ̀rù sì ń bà wọ́n láti dàgbà ní tòótọ́ nítorí pé kò sí ohun tó dà bí òtítọ́ mọ́. Irọ́ ti sú gbogbo ayé pátápátá. Tí o kò bá rí ìtànjẹ inú kóòdù náà, kò burú; ìran mi ń rí i, ìran ọjọ́ iwájú náà yóò sì rí i."
+  },
+  "crucible": {
+    "title": "Iná Ìdánwò Tó Mọ Mí",
+    "first": "Kì í ṣe pé mo kàn kọ́ èyí nípa kíkẹ́kọ̀ọ́ ìsọfúnni; mo gbé e láyé: mo ta oògùn olóró kí n lè kọ́ ìgbésí ayé tí mo ti ṣèlérí fún ara mi, èyí tí yóò dé ọjọ́ iwájú tó mọ́lẹ̀. Wọ́n lé mi jáde kúrò nínú ilé àwọn tí mo fẹ́ràn, mo di aláìnílé. Wọ́n fún mi ní ọ̀nà láti wọ ilé iṣẹ́ fíìmù ìhòòhò nígbà tí mo nílò owó jù lọ, wọ́n ju 10k sí mi lójú, ṣùgbọ́n màmá mi tọ́ mi dàgbà pẹ̀lú ìwà rere. Ẹjọ́ <court>méjì</court> <search>ní</search> ilé-ẹ̀kọ́ girama. Mo bẹ̀rẹ̀ sí í wọlé sínú ètò láti yí máàkì mi padà ní kíláàsì karùn-ún nítorí pé ìkùnà ti sú mi pátápátá, pàápàá nígbà tí mo mọ̀ pé wọ́n ti dá mi dúró ní kíláàsì kejì nítorí àsẹ́nu tí mo ní nígbà tí mo dé. Ìyẹn ló wá di wíwọlé sínú ọ̀pọ̀ ètò mìíràn lẹ́yìn náà… nígbà tí mo pàdé <father>bàbá mi</father> ní tòótọ́ lọ́jọ́ kan, mo rí ibi tí mo ti jogún rẹ̀.",
+    "second": "Fún ìgbà pípẹ́ gan-an, mo rò pé Ọlọ́run kò ní gbà mí padà láé lẹ́yìn gbogbo ìyẹn. Mo rò pé mo ti ṣìnà jìnnà jù. Ṣùgbọ́n nígbà náà ni mo kẹ́kọ̀ọ́ nípa Àpọ́sítélì Pọ́ọ̀lù. Pọ́ọ̀lù pa àwọn Kristẹni ní tòótọ́, síbẹ̀ Ọlọ́run yí padà, ó sì fún un ní ẹ̀bùn ńlá. Ìgbà yẹn ló yé mi: tí Ọlọ́run bá lè lo irú ènìyàn bíi Pọ́ọ̀lù, àtẹ̀yìnwá mi kò pọ̀ jù fún Un láti fi kọ́ ọjọ́ iwájú láé.",
+    "third": "Ìwà láti wà láàyè yẹn bẹ̀rẹ̀ ní kùtùkùtù. Dídàgbà láàárín obìnrin mẹ́rin fún ọdún 16 mọ ọkàn mi ní àwọn ọ̀nà tí mo ṣì ń túpalẹ̀ títí di òní. A kọ́ ọpọlọ mi láti máa ṣiṣẹ́ lẹ́ẹ̀kan náà lórí oríṣiríṣi ìgbì èrò ọkàn. Mo la ìrònú onílọ̀ọ́po, àjọṣe tó díjú, àti ìtànjẹ kọjá, èyí tó mọ mí di ẹni tí mo jẹ́. Mo sì nífẹ̀ẹ́ wọn fún ìyẹn; ó dín agbára tí mo ń ná lórí àwọn ọmọbìnrin kù nígbà tí mo pinnu ní tòótọ́ láti ronú nípa ohun tí màmá mi ń sọ. Lẹ́yìn ìbànújẹ́ ọkàn àti dídalẹ̀ tí wọ́n dà mí nínú ìfẹ́, mo ṣì gbàgbọ́ nínú <chivalry>ìwà ọmọlúàbí sí obìnrin</chivalry>.",
+    "fourth": "Ohun tí mo ń sọ ni pé, láti yè nínú ilé tí obìnrin kún, o ní láti ronú bíi tiwọn, nígbà tí mo sì fi wọ́n sílẹ̀, mo ní láti di ọ̀dọ́mọkùnrin tí mo jẹ́ lónìí, pẹ̀lú ọ̀pọ̀lọpọ̀ ìjàkadì tí mo là kọjá. Àyíká onírúkèrúdò ni, mo sì rí ìmọ́lẹ̀ nìkan nígbà tí mo yàn ní tààrà láti mú ẹ̀ṣẹ̀ mi kan ṣoṣo, “ìfẹ́kúfẹ̀ẹ́”, àti ariwo náà kúrò nípasẹ̀ àdúrà. Nígbà tí mo fi Ọlọ́run ṣáájú níkẹyìn, mo mọ ẹni tí mo jẹ́ gan-an. Mo rí àwọn ìpèníjà tó mọ mí, kì í ṣe bí ègún, ṣùgbọ́n bí ìdánilẹ́kọ̀ọ́ gan-an tí mo nílò láti sún mọ́ Ọlọ́run, àti láti la ọ̀nà àbájáde fún àwọn ẹlòmíràn.",
+    "fifth": "Wíwá Ọlọ́run mú mi kẹ́kọ̀ọ́ sí i nípa ara mi. Títẹ̀lé Ọlọ́run kọ́ mi nípa ọgbẹ́ mi àti ẹ̀bùn mi, òye ara mi sì mú kí n fẹ́ mọ̀ Ọ́ sí i. Ìgbà yẹn ni ìgbésí ayé mi bẹ̀rẹ̀ sí í ṣe rere: mo ní ìtọ́sọ́nà, ète, àti ìdí láti tọ́jú ohun tí Ọlọ́run fún mi. The Water Check jẹ́ ara iṣẹ́ àpinfúnni yẹn. Fífiyèsí ohun tó ń nípa lórí ara rẹ lè ràn ọ́ lọ́wọ́ láti lóye àti láti tọ́jú ẹni tí Ọlọ́run dá ọ láti jẹ́. Mo fẹ́ kọ́ ìmọ̀ ẹ̀rọ tó ń ràn ọ́ lọ́wọ́ láti di ẹ̀yà ẹni yẹn tó lágbára jù lọ.",
+    "mission": "Gbogbo ohun tí mo ń kọ́ lábẹ́ ilé-iṣẹ́ yìí ń tọ́ka sí iṣẹ́ àpinfúnni kan náà: láti mú àwọn ènìyàn sún mọ́ Ọlọ́run, kí n sì ràn wọ́n lọ́wọ́ láti lo ìmọ̀ ẹ̀rọ láti gbé ayé, láti ṣẹ̀dá, láti nífẹ̀ẹ́, àti láti sìn pẹ̀lú èrò. Ìyẹn ni ìgbà ìkẹyìn àti ìrètí tí mo ń ṣiṣẹ́ sí.",
+    "connect": {
+      "label": "Tẹ̀lé Denzel Rigaud",
+      "youtube": "Expected End lórí YouTube",
+      "instagram": "Tẹ̀lé Denzel Rigaud lórí Instagram",
+      "linkedin": "Sopọ̀ mọ́ Denzel Rigaud lórí LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Fáìlì ti ara ẹni / ìrántí 04",
+    "title": "Àkójọ ìrántí",
+    "text": "Àwọn èèyàn, àwọn yàrá, àti iṣẹ́ gidi tó wà lẹ́yìn kóòdù. Gba àwòrán èyíkéyìí sílẹ̀ kí o sì pa á mọ́.",
+    "number": "Ìrántí {{number}}",
+    "download": "Gba ìrántí {{number}} sílẹ̀: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel ní ọmọdé pẹ̀lú bàbá rẹ̀",
+        "title": "Bàbá mi àti èmi"
+      },
+      "work": {
+        "alt": "Denzel ń ṣiṣẹ́ lórí kọ̀ǹpútà alágbèérìn pẹ̀lú àwọn alábàáṣiṣẹ́ méjì yí tábìlì ká",
+        "title": "Iṣẹ́ tó yí tábìlì ká"
+      },
+      "workspace": {
+        "alt": "Ibi iṣẹ́ MyBibleLens àti The Water Check",
+        "title": "Ibi tí MyBibleLens ti gba ìrísí"
+      },
+      "archive": {
+        "alt": "Àkójọ fídíò Real Work ti Denzel lórí fóònù rẹ̀",
+        "title": "Àkójọ Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Ìparí àtagbà / Iṣẹ́ náà ń bá a lọ",
+    "title": "Jẹ́ ká kọ́ ohun kan tó ń dá <em>ìgbésí ayé àwọn ènìyàn padà fún wọn.</em>",
+    "text": "Fún sọ́fútúwọ̀ tí a ronú jinlẹ̀ lé lórí, ìjíròrò pẹ̀lú àwọn oníròyìn, tàbí ìbẹ̀rẹ̀ èrò rere kan, ṣí ọ̀nà ìbánisọ̀rọ̀ nípasẹ̀ Expected End.",
+    "contact": "Kàn sí Expected End",
+    "back": "Padà sí ilé-iṣẹ́ náà"
+  },
+  "verse": {
+    "version": "Bíbélì Mímọ́",
+    "reference": "Jeremiah 29:11",
+    "text": "Nitori emi mọ̀ ìro ti mo rò si nyin, li Oluwa wi, ani ìro alafia, kì si iṣe fun ibi, lati fun nyin ni ìgba ikẹhin ati ireti.",
+    "close": "Pa ẹsẹ Bíbélì dé"
+  },
+  "bio": {
+    "eyebrow": "Láti ọ̀dọ̀ Olùdásílẹ̀",
+    "title": "Kí ló ṣẹlẹ̀ sí @thewatercheck?",
+    "close": "Pa ìtàn ṣókí dé",
+    "first": "Láti ìgbà tí mo pé ọmọ ọdún 15, mo ti ń ṣàkóso àti mú àwọn ojú ìwé gbajúgbajà àti àkóónú dàgbà, nígbà tí mo ṣì ń mú iṣẹ́ àkànṣe tèmi, @thewatercheck, dàgbà.",
+    "second": "Lẹ́yìn náà, mo kó lọ gbé pẹ̀lú bàbá mi nígbà tí mo pé ọmọ ọdún 17, àkọọ́lẹ̀ náà sì ń kú lọ nítorí pé <em>“Tí o bá ń lé ehoro méjì, o kò ní mú ọ̀kankan.”</em> <proverb>(òwe Rọ́ṣíà)</proverb> Ní ọjọ́ orí yẹn, owó nìkan ni mo bìkítà fún. N kò fi gbogbo agbára mi fún @thewatercheck.",
+    "third": "Lẹ́yìn náà, <father>bàbá mi</father> kú lójijì ní <strong>10 Oṣù Agẹmọ 2021.</strong> Mo wọ ipò ìwàláàyè, mo ń ṣe kàyéfì ibi tí ìgbésí ayé mi ń lọ. Láti kojú ìrora ikú rẹ̀, mo ti ilẹ̀kùn mọ́ jíjẹ́ ògbóǹkangí wẹ́ẹ̀bù tí bàbá mi kọ́ mi láti jẹ́ nígbà kan, títí di <strong>Oṣù Ṣẹ́rẹ́ 2026.</strong>",
+    "stat": {
+      "from": "Ọmọlẹ́yìn 200,000",
+      "to": "7,000",
+      "caption": "Ibẹ̀ ló wà báyìí."
+    },
+    "what": {
+      "eyebrow": "Nítorí náà, kí ni ó jẹ́?",
+      "title": "Ìránnilétí tó rọrùn tí àwọn ènìyàn fẹ́ràn.",
+      "first": "The Water Check rọrùn báyìí: mo ń fi àwòrán kan sórí ẹ̀rọ lójoojúmọ́ láti rán àwọn ènìyàn létí láti mu omi, ó sì ràn wọ́n lọ́wọ́ láti mu omi ní tòótọ́. Àwọn ìsọ̀rọ̀ <em>kún fọ́fọ́</em> fún àwọn ènìyàn. Ohun tí ó ń ṣe nìyẹn, àwọn ènìyàn sì fẹ́ràn rẹ̀.",
+      "second": "Lẹ́yìn náà, bọ́ọ̀tì kan pa gbogbo nǹkan rẹ́ kúrò lójú ìwé náà, ìgbésí ayé sì ń bá a lọ láti ibẹ̀."
+    }
+  },
+  "footer": {
+    "line": "Ìmọ̀ ẹ̀rọ kò wà fún wa láti máa yí ojú-ìbojú láìnídìí, kí a sì máa gbé ìgbésí ayé àwọn ẹlòmíràn. Ó yẹ kí ó mú ẹ̀mí, ọkàn, èrò inú, àti ara wa dára sí i.",
+    "sign": "Olùdásílẹ̀, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Ìtọ́sọ́nà ìsàlẹ̀ ojú ìwé",
+    "build": "Ohun tí mo ń kọ́",
+    "pressKit": "Àpò ohun èlò oníròyìn",
+    "find": "Wá mi",
+    "finePrint": "Àwọn àlàyé kékeré",
+    "terms": "Àwọn Òfin Lílò",
+    "privacy": "Ọ̀rọ̀ Ìpamọ́ Àṣírí",
+    "accessibility": "Ìwọlé fún gbogbo ènìyàn",
+    "contact": "Kàn sí wa",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Gbogbo ẹ̀tọ́ wà ní ìpamọ́.",
+    "blessing": "Jésù fẹ́ràn rẹ."
+  },
+  "egg": {
+    "label": "Wọ inú ayé iṣẹ́ ọnà tó farapamọ́",
+    "armed": "Tẹ̀ ẹ́ lẹ́ẹ̀kan sí i láti wọ inú ayé iṣẹ́ ọnà tó farapamọ́."
+  }
+}

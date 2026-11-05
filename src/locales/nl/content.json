@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud is de oprichter en full-stack developer achter Expected End, MyBibleLens (de heiligdomsapp voor het christelijk geloof) en The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Christelijke app",
+      "action": "Bekijk de app",
+      "tagline": "De heiligdomsapp voor het christelijk geloof.",
+      "secondary": "Bio",
+      "badge": "In de App Store"
+    },
+    "watercheck": {
+      "category": "Hydratatiecommunity",
+      "action": "Bekijk de app",
+      "tagline": "Begrijp wat je drinkt. Je eigen watergetal, met één tik.",
+      "badge": "In beoordeling"
+    },
+    "mybiblelens-store": {
+      "category": "Store · Binnenkort",
+      "action": "Naar de store",
+      "tagline": "Geloof dat je kunt dragen."
+    },
+    "watercheck-store": {
+      "category": "Store · Binnenkort",
+      "action": "Naar de store",
+      "tagline": "Uitrusting voor de afdeling Hydratatie."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Geloofsapp · iOS",
+      "status": "In de App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Hydratatie-app · iOS",
+      "status": "In beoordeling"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens voor Android",
+      "category": "Google Play",
+      "status": "Gesloten test"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Oneindig canvas",
+      "status": "Live"
+    },
+    "journey-plans": {
+      "name": "Journey-plannen",
+      "category": "Leesplannen + zegels",
+      "status": "Live"
+    },
+    "water-check-crews": {
+      "name": "Water Check Ploegen",
+      "category": "Samen hydrateren",
+      "status": "Gebouwd"
+    },
+    "home-screen-widgets": {
+      "name": "Widgets voor het beginscherm",
+      "category": "iOS-widgets",
+      "status": "Gebouwd"
+    },
+    "hydration-calculator": {
+      "name": "Hydratatiecalculator",
+      "category": "Webtool",
+      "status": "Live"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "HQ-app voor bedrijven",
+      "status": "In ontwikkeling"
+    },
+    "43-language-rollout": {
+      "name": "Uitrol in 43 talen",
+      "category": "Lokalisatie",
+      "status": "43 talen"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens Store",
+      "category": "Merch",
+      "status": "Binnenkort"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Website van de app",
+      "status": "Live"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Bedrijfswebsite",
+      "status": "Live"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI-bijbelstudie",
+      "status": "AI-demo"
+    },
+    "hidden-art-world": {
+      "name": "Verborgen kunstwereld",
+      "category": "Interactieve webkunst",
+      "status": "Easter egg"
+    },
+    "sanctuary-stickers": {
+      "name": "Heiligdomsstickers",
+      "category": "Illustratieset",
+      "status": "550+ stickers"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Pitchfilm van MyBibleLens",
+      "category": "Merkfilm",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Feature-reels",
+      "category": "Videoserie",
+      "status": "10 video's"
+    },
+    "look-closer-series": {
+      "name": "Look Closer-serie",
+      "category": "Socialmediaserie",
+      "status": "60 posts"
+    },
+    "25-week-campaign": {
+      "name": "Campagne van 25 weken",
+      "category": "Instagramplan",
+      "status": "100 posts"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Werkboek",
+      "status": "33 blokken"
+    },
+    "water-check-store": {
+      "name": "Water Check Store",
+      "category": "Merch",
+      "status": "Binnenkort"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Apps",
+      "body": "Nuttige, doordachte producten, ontworpen rond echte mensen.",
+      "interest": "Een app of software-idee bouwen"
+    },
+    "02": {
+      "title": "Websites",
+      "body": "Unieke digitale thuisbases die helder, levendig en gastvrij aanvoelen.",
+      "interest": "Website of digitale ervaring"
+    },
+    "03": {
+      "title": "AI-systemen",
+      "body": "Praktische intelligentie die ideeën en teams vooruithelpt.",
+      "interest": "AI-systeem of productiviteitstool"
+    },
+    "04": {
+      "title": "Creatief",
+      "body": "Identiteit, richting en ervaringen met betekenis als middelpunt.",
+      "interest": "Creatieve richting of design"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Je eigen zakelijke thuisbasis op maat. CRM, financiën, projecten, teamtools en elke functie die je hierna nodig hebt, alles op één plek.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automatiseringen",
+      "body": "Vervang repetitief werk door gekoppelde workflows die je bedrijf in beweging houden.",
+      "interest": "Automatiseringen"
+    },
+    "07": {
+      "title": "Klantportalen",
+      "body": "Geef klanten of leden één verzorgde plek om te communiceren, te boeken, bestanden te delen en de voortgang te volgen.",
+      "interest": "Klantportalen"
+    },
+    "08": {
+      "title": "Digitale redding",
+      "body": "Herstel, moderniseer of herbouw software die niet meer werkt voor je bedrijf.",
+      "interest": "Digitale redding"
+    }
+  }
+}

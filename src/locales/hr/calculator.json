@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Zaboravite influencere. Upoznajte svoju stvarnu biologiju.",
+    "lead": "Isprobajte besplatni kalkulator bez računa, a zatim istražite aplikaciju koju gradimo za svakodnevno praćenje.",
+    "appLink": "Istražite aplikaciju ↓",
+    "logoLabel": "Upotrijebite kalkulator The Water Check"
+  },
+  "intro": {
+    "kicker": "Kalkulator hidratacije",
+    "title": "Počnite s brojevima koje znate."
+  },
+  "units": {
+    "legend": "Jedinica za težinu",
+    "pounds": "Funte (lb)",
+    "kilograms": "Kilogrami (kg)"
+  },
+  "weight": {
+    "labelLb": "Težina (lbs)",
+    "labelKg": "Težina (kg)",
+    "valueTextLb": "Funti: {{value}}",
+    "valueTextKg": "Kilograma: {{value}}"
+  },
+  "height": {
+    "legend": "Visina",
+    "feet": "Visina (ft)",
+    "inches": "Visina (in)",
+    "centimeters": "Visina (cm)",
+    "note": "Potreba za tekućinom prati nemasnu masu, pa je visina najvažnija kad je težina visoka za vašu građu."
+  },
+  "activity": {
+    "label": "Dnevna aktivnost (minute)",
+    "value": "{{minutes}} min",
+    "valueText": "Minuta: {{minutes}}"
+  },
+  "factors": {
+    "legend": "Čimbenici koji mogu promijeniti potrebu za tekućinom",
+    "intro": "Broj primjenjujemo samo ondje gdje postoji utemeljena dnevna prilagodba. Ostali odgovori personaliziraju vaše smjernice bez pretvaranja da znanost podržava točnu dozu.",
+    "age": {
+      "label": "Dob",
+      "hint": "Dob daje kontekst; ne dijagnosticira menopauzu."
+    },
+    "lifeStage": {
+      "label": "Životna faza",
+      "hint": "Koristi transparentnu prilagodbu za trudnoću ili dojenje.",
+      "options": {
+        "standard": "Standardno",
+        "pregnant": "Trudnoća",
+        "breastfeeding": "Dojenje"
+      }
+    },
+    "sex": {
+      "label": "Spol",
+      "hint": "Neobavezno. Precizira izračun idealne težine i referentnog unosa.",
+      "options": {
+        "unspecified": "Ne želim navesti",
+        "woman": "Žena",
+        "man": "Muškarac"
+      }
+    },
+    "luteal": {
+      "label": "Tjedan prije mjesečnice",
+      "hint": "Prati zadržavanje vode u lutealnoj fazi i hormonsku nadutost. Nijedan fiksni dodatak ne vrijedi za sve."
+    },
+    "heat": {
+      "label": "Vruće ili vlažno vrijeme",
+      "hint": "Smjernice za vrućinu ovise o izloženosti i znojenju, a ne samo o lokaciji."
+    }
+  },
+  "result": {
+    "goal": "Vaš dnevni cilj: {{ounces}} oz",
+    "breakdown": "Raščlamba izračuna",
+    "weightBaseline": "Osnovica prema težini",
+    "heightAndBuild": "Visina i građa",
+    "sexReference": "Referenca prema spolu",
+    "notSet": "Nije postavljeno",
+    "activity": "Prilagodba za aktivnost",
+    "lifeStage": {
+      "standard": "Prilagodba za životnu fazu",
+      "pregnant": "Prilagodba za trudnoću",
+      "breastfeeding": "Prilagodba za dojenje"
+    },
+    "luteal": "Smjernice za lutealnu fazu",
+    "noFixedOunces": "Bez fiksnih +oz",
+    "electrolytes": "Provjera elektrolita",
+    "electrolytesAfterSweat": "Razmislite o njima nakon obilnog znojenja",
+    "electrolytesFromFood": "Hrana ih obično pokriva",
+    "guidance": "Ovo je edukativna procjena za planiranje namijenjena odraslima, a ne dijagnoza, liječenje ni kliničko propisivanje. Hrana također daje vodu, a individualne potrebe razlikuju se. Ne pijte na silu. Pitajte zdravstvenog djelatnika o svojim potrebama ako ste trudni ili dojite, uzimate lijekove koji utječu na ravnotežu tekućine, imate bolest bubrega ili srca, pridržavate se ograničenja unosa tekućine ili imate zabrinjavajuće simptome."
+  },
+  "equivalents": {
+    "title": "To je otprilike",
+    "cups": "{{value}} čaša",
+    "cupsNote": "od 8 oz",
+    "liters": "{{value}} L",
+    "litersNote": "metrički",
+    "bottles": "{{value}} boca",
+    "bottlesNote": "od 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Jedite svoju vodu",
+    "title": "Ne mora sve doći iz čaše.",
+    "copy": "Većina ljudi otprilike petinu dnevne vode unosi hranom. Većina svježeg voća i povrća sadrži 70 do 95 posto vode, a kad ta voda dospije u krvotok, hidratizira vas jednako kao piće.",
+    "drink": "Piće",
+    "drinkNote": "{{cups}} čaša vode, čaja ili mlijeka",
+    "eat": "Hrana",
+    "eatNote": "iz hrane bogate vodom",
+    "pickLegend": "Zamislite udio iz hrane kao",
+    "estimate": "{{food}}: ≈ {{amount}}",
+    "detail": "{{serving}} sadrži oko {{ounces}} oz vode ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "Šalice lubenice",
+      "serving": "1 šalica lubenice na kockice",
+      "water": "92% vode"
+    },
+    "cucumber": {
+      "label": "Krastavci",
+      "serving": "1 srednji krastavac",
+      "water": "95% vode"
+    },
+    "strawberries": {
+      "label": "Šalice jagoda",
+      "serving": "1 šalica jagoda",
+      "water": "91% vode"
+    },
+    "oranges": {
+      "label": "Naranče",
+      "serving": "1 srednja naranča",
+      "water": "87% vode"
+    },
+    "salad": {
+      "label": "Zdjele salate",
+      "serving": "2 šalice miješane salate",
+      "water": "oko 94% vode"
+    },
+    "soup": {
+      "label": "Zdjele bistre juhe",
+      "serving": "1 šalica bistre juhe",
+      "water": "oko 92% vode"
+    },
+    "tomatoes": {
+      "label": "Rajčice",
+      "serving": "1 srednja rajčica",
+      "water": "95% vode"
+    },
+    "grapes": {
+      "label": "Šalice grožđa",
+      "serving": "1 šalica grožđa",
+      "water": "81% vode"
+    },
+    "peaches": {
+      "label": "Breskve",
+      "serving": "1 srednja breskva",
+      "water": "89% vode"
+    },
+    "cantaloupe": {
+      "label": "Šalice dinje",
+      "serving": "1 šalica dinje na kockice",
+      "water": "90% vode"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Zašto se voda iz hrane računa",
+    "title": "Voda iz lubenice ista je voda.",
+    "sameMolecule": "<strong>Ista molekula.</strong> H2O iz krastavca i H2O iz slavine potpuno su isti. Kad voda iz crijeva prijeđe u krvotok, tijelo je šalje u mišiće na isti način.",
+    "slowRelease": "<strong>Sporo otpuštanje.</strong> Voda u voću i povrću zarobljena je u vlaknima i staničnim stijenkama, pa se apsorbira postupnije od čaše ispijene naiskap, koju bubrezi obično brzo izluče.",
+    "electrolytes": "<strong>Stiže s elektrolitima.</strong> Krastavci, špinat, dinja i bobičasto voće sadrže kalij i magnezij, minerale pomoću kojih stanice zadržavaju vodu.",
+    "glycogen": "<strong>Gorivo i zaliha odjednom.</strong> Mišići pohranjuju ugljikohidrate kao glikogen, a svaki gram glikogena pohranjuje se s otprilike tri grama vode. Hrana bogata i vodom i ugljikohidratima daje oboje.",
+    "caveat": "I dalje trebate piti. Hrana obično pokriva oko petine ukupne količine; ostatak dolazi iz vode i drugih pića. Suho voće, orašasti plodovi i kruh sadrže vrlo malo vode."
+  },
+  "grace": {
+    "kicker": "Nježnost prema tijelu",
+    "title": "Kratko o blagosti prema sebi",
+    "body": "Odraz u ogledalu i način na koji vam odjeća pristaje mogu se mijenjati zbog zadržavanja vode, probave, hormona, sna i drugih uobičajenih promjena. Jedan dan nadutosti ne određuje vaše tijelo. Pijte s pažnjom, dajte si vremena i neka znatiželja zamijeni sram. Dugotrajna nadutost, oticanje, nagle promjene težine ili simptomi koji vas brinu zaslužuju razgovor sa zdravstvenim djelatnikom."
+  },
+  "overhydration": {
+    "title": "Opasnost od prisilne hidratacije",
+    "kidneys": "Bubrezima treba vremena da izluče vodu. Ako tijekom dugotrajne tjelovježbe pijete brže nego što gubite tekućinu, natrij u krvi može se razrijediti, što može izazvati hiponatrijemiju povezanu s tjelovježbom. Rani simptomi mogu uključivati glavobolju, mučninu, vrtoglavicu, umor ili smetenost. Teški slučajevi mogu izazvati oticanje mozga, konvulzije, komu i smrt.",
+    "pacing": "Ne pokušavajte dostići ovu procjenu ispijanjem naiskap. Rasporedite pića tijekom cijelog dana. Tijekom tjelovježbe prilagodite unos žeđi, uvjetima i vlastitom gubitku znoja. Kod smetenosti, konvulzija, kolapsa ili teških simptoma potražite hitnu medicinsku pomoć.",
+    "sources": "Izvori: <nih>NIH, smjernice o hiponatrijemiji povezanoj s tjelovježbom</nih> i <academies>National Academies, preporuke za unos tekućine</academies>."
+  },
+  "notes": {
+    "title": "Vaše bilješke s dokazima",
+    "sexMan": "<strong>Spol:</strong> Referentni unosi prema National Academies iznose oko 3,7 litre ukupne vode dnevno za muškarce i 2,7 za žene. Tjelesna težina objašnjava većinu te razlike, pa se ostatak ovdje prikazuje kao povećanje osnovice prema težini od 4 posto, a provjera visine i građe koristi formulu idealne težine za muškarce.",
+    "sexWoman": "<strong>Spol:</strong> Referentni unosi prema National Academies iznose oko 3,7 litre ukupne vode dnevno za muškarce i 2,7 za žene. Tjelesna težina objašnjava većinu te razlike, pa se ostatak ovdje prikazuje kao smanjenje osnovice prema težini od 4 posto, a provjera visine i građe koristi formulu idealne težine za žene.",
+    "height": "<strong>Visina i građa:</strong> Potreba za tekućinom više prati nemasnu masu nego ukupnu težinu. Budući da je vaša težina iznad uobičajenog raspona za vašu visinu, procjena koristi prilagođenu tjelesnu težinu (idealna težina plus 40 posto razlike), uobičajenu kliničku praksu. To je okvirni broj za planiranje, a ne sud o vašem tijelu.",
+    "cycle": "<strong>Faza ciklusa:</strong> Promjene tekućine povezane s ciklusom stvarne su, ali istraživanja ne potvrđuju univerzalno fiksno povećanje u uncama. Nisu dodane automatske unce. Redoviti obroci obično pokrivaju elektrolite; dodaci magnezija ili kalija nisu univerzalna preporuka.",
+    "age": "<strong>Dob i menopauza:</strong> Sama dob ne određuje jeste li u menopauzi. Hormonske promjene mogu utjecati na žeđ i regulaciju tekućine, ali ne postoji potvrđena prilagodba u uncama „nakon 45.”, pa vaša dob nije promijenila ukupnu količinu.",
+    "heat": "<strong>Vrućina:</strong> Fiksni dodatak za klimu može podcijeniti ili precijeniti vaše potrebe. Za umjeren rad na vrućini kraći od dva sata NIOSH savjetuje oko 8 unci svakih 15–20 minuta; dulje obilno znojenje zahtijeva individualni plan nadoknade."
+  },
+  "evidence": {
+    "label": "Dokazi:",
+    "academies": "National Academies: smjernice za unos vode",
+    "harvard": "Harvard Health: hrana i hidratacija",
+    "cycle": "Istraživanje osmoregulacije tijekom menstrualnog ciklusa",
+    "menopause": "Pregled regulacije tekućine u menopauzi",
+    "niosh": "CDC/NIOSH: smjernice za vrućinu"
+  },
+  "tips": {
+    "kicker": "Korisno, a ne opsesivno",
+    "title": "Tri provjere za stvarni život.",
+    "schedule": {
+      "title": "Raspored",
+      "body": "Započnite jutro vodom, pijuckajte uz obroke, a ostatak prepustite žeđi, vremenskim uvjetima i aktivnosti."
+    },
+    "electrolytes": {
+      "title": "Elektroliti",
+      "body": "Većina ljudi nadoknađuje elektrolite redovitim obrocima. Nakon dugog ili obilnog znojenja odaberite uravnoteženo elektrolitsko piće; nemojte rutinski dodavati sol ako vam je savjetovano da ograničite natrij."
+    },
+    "visualCheck": {
+      "title": "Vizualna provjera",
+      "body": "Svijetložuta mokraća može biti jedan od grubih znakova hidratacije. Hrana, vitamini, lijekovi i zdravstvena stanja mogu promijeniti njezinu boju, pa to nije dijagnoza."
+    }
+  },
+  "author": {
+    "kicker": "Od osobe koja je ovo izgradila",
+    "title": "Zašto sam ovo izgradio (i zašto ne biste trebali slušati samo mene)",
+    "athlete": "Zovem se Denzel Rigaud. Više od devet godina trčao sam 400 metara i utrke s preponama, pa je hidratacija postala dio načina na koji sam trenirao, oporavljao se i učio čitati svoje tijelo.",
+    "purpose": "The Water Check izgradio sam kako bih vam pomogao da čujete svoje tijelo iznad buke s interneta. Ne želim da moje iskustvo shvatite kao propisanu terapiju. Vaša biologija, okolina, povijest bolesti i životna faza oblikuju ono što vam treba.",
+    "technology": "Tehnologija nije tu da bismo besciljno skrolali i živjeli tuđe živote. Trebala bi naše živote održavati produktivnima i jačati naš duh, dušu, um i tijelo, kako bismo postali najbolja verzija onoga što želimo biti. Zato prestanite slušati sve ostale, jer ono što djeluje za vas, djeluje za vas.",
+    "faith": "Upoznajte svoje obrasce, a zdravstvene brige iznesite kvalificiranom stručnjaku. Briga o tijelu, posudi koju ste dobili, može vas približiti sebi i Bogu, koji je u svakoga od nas stavio iskru vrijednu brige.",
+    "motto": "Ne slijedite influencere. Upoznajte sebe.",
+    "date": "15. ožujka 2021.",
+    "founderPage": "Stranica osnivača"
+  },
+  "community": {
+    "kicker": "Neka ostane ljudski",
+    "title": "Pridružite se pravoj zajednici.",
+    "instagram": "Pratite @thewatercheck na Instagramu",
+    "reelSoon": "Instagram Reel uskoro",
+    "story": "Priča iz zajednice {{position}}"
+  }
+}

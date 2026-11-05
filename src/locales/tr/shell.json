@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Ana gezinme",
+    "projects": "Projeler",
+    "services": "Hizmetler",
+    "company": "Misyon · Hakkında · Basın",
+    "contact": "İletişim",
+    "home": "Expected End ana sayfası",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "links": {
+      "projects": "Projeler",
+      "services": "Hizmetler",
+      "story": "Hikâye",
+      "about": "Hakkında",
+      "press": "Basın",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Alt bilgi gezinmesi",
+    "home": "Ana sayfa",
+    "about": "Hakkında",
+    "press": "Basın",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Bildirimi",
+    "accessibility": "Erişilebilirlik",
+    "contact": "İletişim",
+    "mission": "Bu şirket çatısı altında geliştirdiğim her şey aynı misyona yönelir: İnsanları Tanrı'ya yaklaştırmak ve teknolojiyi bilinçli bir şekilde yaşamak, üretmek, sevmek ve hizmet etmek için kullanmalarına yardım etmek. Uğrunda çalıştığım umutlu gelecek işte bu.",
+    "verse": "Yeremya 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. Tüm hakları saklıdır.",
+    "blessing": "İsa seni seviyor."
+  }
+}

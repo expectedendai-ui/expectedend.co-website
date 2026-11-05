@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Вещи для пути",
+    "headline": "Держите важное рядом.",
+    "intro": "Небольшая коллекция продуманных вещей для заметок, напоминаний и ежедневного хождения с Богом.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Блокнот с подсказками",
+        "kind": "Блокнот"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Маленькое напоминание",
+        "kind": "Значок"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Мягкий слой на каждый день",
+        "kind": "Одежда"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Для прохладного утра",
+        "kind": "Одежда"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Первая коллекция",
+    "headline": "Пейте воду. Двигайтесь дальше.",
+    "intro": "Одежда с мыслью о воде для тех, кто приходит, доливает бутылку и не бросает привычку.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Яркая базовая вещь на каждый день",
+        "kind": "Футболка"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Для отдыха после долгой прогулки",
+        "kind": "Худи"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Вторая расцветка",
+        "kind": "Футболка"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Спокойная плотная вещь",
+        "kind": "Худи"
+      }
+    }
+  },
+  "nav": {
+    "label": "Навигация магазина {{store}}",
+    "collection": "Коллекция"
+  },
+  "hero": {
+    "action": "Смотреть первую коллекцию",
+    "mybiblelensArt": "Логотип магазина MyBibleLens и коллаж из стикеров",
+    "watercheckArt": "Жидкий логотип The Water Check в форме пузыря"
+  },
+  "collection": {
+    "eyebrow": "Скоро",
+    "title": "Сделано, чтобы стать частью вашего дня.",
+    "body": "Это первые вещи. Фото, варианты и ссылки на оплату появятся здесь, когда коллекция будет готова."
+  },
+  "product": {
+    "placeholder": "Заглушка товара {{name}}",
+    "buy": "Купить",
+    "comingSoon": "Скоро",
+    "comingSoonLabel": "{{name}}: скоро"
+  },
+  "checkout": {
+    "eyebrow": "Без аккаунта",
+    "title": "Когда магазин откроется, оплата останется простой.",
+    "body": "Выберите вещь, нажмите «Купить» и безопасно оплатите через Stripe. Без аккаунта в магазине и без лабиринта корзины."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Правила магазина будут опубликованы до выхода первой коллекции.",
+    "policies": "Правила магазина",
+    "terms": "Условия",
+    "privacy": "Конфиденциальность",
+    "accessibility": "Доступность",
+    "shipping": "Доставка и возврат: до выхода коллекции"
+  }
+}

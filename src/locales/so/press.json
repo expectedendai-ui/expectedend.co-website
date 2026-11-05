@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Saxaafadda iyo warbaahinta",
+    "title": "Agabka saxaafadda ee Expected End.",
+    "intro": "Taariikh nololeedyo la ansixiyay, xaqiiqooyin la hubiyay, iyo warbaahin la soo dejin karo oo loogu talagalay warbixinnada ku saabsan Expected End iyo aasaasaha Denzel Rigaud.",
+    "downloadPortrait": "Soo deji sawirka"
+  },
+  "inquiry": "Bilow codsi saxaafadeed",
+  "role": "Aasaasaha iyo horumariyaha full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud oo xidhan suud buluug mugdi ah iyo muraayado midab oranji leh"
+  },
+  "contents": {
+    "label": "Qaybaha bogga saxaafadda",
+    "kit": "Xidhmada saxaafadda / 2026",
+    "biographies": "Taariikh nololeedyo",
+    "facts": "Xaqiiqooyin la hubiyay",
+    "projects": "Mashaariic",
+    "licensing": "Isticmaalka warbaahinta"
+  },
+  "bios": {
+    "kicker": "Qoraal la ansixiyay",
+    "title": "Taariikh nololeedyo",
+    "text": "Noocyadan waa la soo xigan karaa ama waa la habayn karaa si loogu isticmaalo warbixinnada tifaftirka.",
+    "shortLabel": "Taariikh nololeed gaaban / 24 eray",
+    "fullLabel": "Taariikh nololeed buuxda",
+    "fullFirst": "Denzel Rigaud wuxuu aasaasay EXPECTEDEND LLC, wuxuuna si madaxbannaan u dhisay MyBibleLens iyo The Water Check. Wuxuu u shaqeeyaa horumariyaha full-stack ee shirkadda, isagoo qaabeeya badeecad kasta laga bilaabo fikradda ilaa naqshadaynta, injineernimada, iyo soo saarka.",
+    "fullSecond": "Shaqadiisu waxay diiradda saartaa software iimaanka ku salaysan, ladnaanta dijitaalka ah, iyo qalab wax-ku-ool ah oo dadka ka caawiya inay tiknoolajiyadda ula kac u isticmaalaan. MyBibleLens waa ab meel quduus ah oo loogu talagalay Masiixiyadda. The Water Check waxay isku darsataa qiyaas biyo cabbid oo gaar ah, caadooyin biyo oo wax-ku-ool ah, iyo bulsho diiradda saarta joogtaynta maalinlaha ah."
+  },
+  "facts": {
+    "kicker": "Xaashida xaqiiqooyinka",
+    "title": "Xaqiiqooyin la hubiyay",
+    "text": "Faahfaahin rasmi ah oo loogu talagalay bogag, maqaallo, qoraallada sawirrada, iyo kaydad xogeed.",
+    "company": "Shirkadda",
+    "founder": "Aasaasaha",
+    "role": "Doorka",
+    "products": "Badeecadaha",
+    "productsValue": "MyBibleLens iyo The Water Check",
+    "website": "Bogga rasmiga ah",
+    "profile": "Bogga aasaasaha",
+    "entityLabel": "{{name}} ee Wikidata"
+  },
+  "projects": {
+    "kicker": "Badeecadaha",
+    "title": "Shaqada",
+    "text": "Laba badeecadood, oo si madaxbannaan loogu dhisay Expected End hoosteeda.",
+    "mybiblelens": {
+      "alt": "Astaanta abka MyBibleLens",
+      "kicker": "Software iimaanka ku salaysan",
+      "text": "Abka Meesha Quduuska ah ee Masiixiga.",
+      "visit": "Booqo MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Astaanta abka The Water Check",
+      "kicker": "Biyo cabbid iyo bulsho",
+      "text": "Qiyaas biyo cabbid oo gaar ah, caadooyin biyo oo wax-ku-ool ah, iyo bulsho.",
+      "visit": "Booqo The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Isticmaalka warbaahinta",
+    "title": "Sawirka aasaasaha",
+    "text": "Sawirka waa la wadaagi karaa oo waa la habayn karaa iyadoo la raacayo shatiga <license>Creative Commons Attribution-ShareAlike 4.0</license>. Magac-sheeg: Denzel Rigaud / Expected End. Habaynnadu waa inay isticmaalaan isla shatigaas.",
+    "download": "Soo deji sawirka aasaasaha"
+  },
+  "contact": {
+    "kicker": "Xidhiidhka saxaafadda",
+    "title": "Ma u baahan tahay waraysi, odhaah, ama fayl dheeraad ah?"
+  }
+}

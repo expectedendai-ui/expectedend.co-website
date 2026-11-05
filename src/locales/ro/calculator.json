@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Uitați de influenceri. Cunoașteți-vă biologia reală.",
+    "lead": "Încercați calculatorul gratuit fără cont, apoi descoperiți aplicația pe care o construim pentru urmărirea zilnică.",
+    "appLink": "Descoperiți aplicația ↓",
+    "logoLabel": "Folosiți calculatorul The Water Check"
+  },
+  "intro": {
+    "kicker": "Calculator de hidratare",
+    "title": "Începeți cu cifrele pe care le știți."
+  },
+  "units": {
+    "legend": "Unitate de greutate",
+    "pounds": "Livre (lb)",
+    "kilograms": "Kilograme (kg)"
+  },
+  "weight": {
+    "labelLb": "Greutate (lbs)",
+    "labelKg": "Greutate (kg)",
+    "valueTextLb": "{{value}} livre",
+    "valueTextKg": "{{value}} kilograme"
+  },
+  "height": {
+    "legend": "Înălțime",
+    "feet": "Înălțime (ft)",
+    "inches": "Înălțime (in)",
+    "centimeters": "Înălțime (cm)",
+    "note": "Nevoia de lichide urmează masa slabă, așa că înălțimea contează cel mai mult când greutatea este mare pentru constituția dvs."
+  },
+  "activity": {
+    "label": "Activitate zilnică (minute)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minute"
+  },
+  "factors": {
+    "legend": "Factori care pot schimba nevoia de lichide",
+    "intro": "Aplicăm o cifră doar acolo unde există o ajustare zilnică justificabilă. Celelalte răspunsuri vă personalizează recomandările fără să pretindă că știința susține o doză exactă.",
+    "age": {
+      "label": "Vârstă",
+      "hint": "Vârsta oferă context; nu diagnostichează menopauza."
+    },
+    "lifeStage": {
+      "label": "Etapa de viață",
+      "hint": "Folosește o ajustare transparentă pentru sarcină sau producția de lapte.",
+      "options": {
+        "standard": "Standard",
+        "pregnant": "Însărcinată",
+        "breastfeeding": "Alăptare"
+      }
+    },
+    "sex": {
+      "label": "Sex",
+      "hint": "Opțional. Rafinează calculele pentru greutatea ideală și aportul de referință.",
+      "options": {
+        "unspecified": "Prefer să nu spun",
+        "woman": "Femeie",
+        "man": "Bărbat"
+      }
+    },
+    "luteal": {
+      "label": "Săptămâna dinaintea menstruației",
+      "hint": "Ține cont de retenția de apă din faza luteală și de balonarea hormonală. Nicio creștere fixă nu se aplică tuturor."
+    },
+    "heat": {
+      "label": "Căldură sau umiditate",
+      "hint": "Recomandările pentru căldură depind de expunere și de transpirație, nu doar de locul în care vă aflați."
+    }
+  },
+  "result": {
+    "goal": "Obiectivul zilnic: {{ounces}} uncii",
+    "breakdown": "Detalierea calculului",
+    "weightBaseline": "Baza după greutate",
+    "heightAndBuild": "Înălțime și constituție",
+    "sexReference": "Referință după sex",
+    "notSet": "Necompletat",
+    "activity": "Ajustare pentru activitate",
+    "lifeStage": {
+      "standard": "Ajustare pentru etapa de viață",
+      "pregnant": "Ajustare pentru sarcină",
+      "breastfeeding": "Ajustare pentru alăptare"
+    },
+    "luteal": "Recomandări pentru faza luteală",
+    "noFixedOunces": "Fără +oz fixe",
+    "electrolytes": "Verificarea electroliților",
+    "electrolytesAfterSweat": "De luat în calcul după transpirație abundentă",
+    "electrolytesFromFood": "De obicei, alimentele acoperă necesarul",
+    "guidance": "Aceasta este o estimare educativă de planificare pentru adulți, nu un diagnostic, un tratament sau o prescripție clinică. Și alimentele furnizează apă, iar nevoile diferă de la o persoană la alta. Nu vă forțați să beți lichide. Discutați cu un cadru medical despre nevoile dvs. dacă sunteți însărcinată sau alăptați, luați medicamente care influențează echilibrul lichidelor, aveți o afecțiune renală sau cardiacă, urmați o restricție de lichide sau aveți simptome îngrijorătoare."
+  },
+  "equivalents": {
+    "title": "Asta înseamnă aproximativ",
+    "cups": "{{value}} căni",
+    "cupsNote": "a câte 8 oz",
+    "liters": "{{value}} litri",
+    "litersNote": "sistem metric",
+    "bottles": "{{value}} sticle",
+    "bottlesNote": "de 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Mâncați-vă apa",
+    "title": "Nu toată apa trebuie să vină dintr-un pahar.",
+    "copy": "Aproximativ o cincime din apa zilnică a majorității oamenilor vine din alimente. Majoritatea fructelor și legumelor proaspete conțin între 70 și 95 la sută apă, iar odată ajunsă în fluxul sanguin, această apă vă hidratează exact ca o băutură.",
+    "drink": "Beți",
+    "drinkNote": "{{cups}} căni de apă, ceai sau lapte",
+    "eat": "Mâncați",
+    "eatNote": "din alimente bogate în apă",
+    "pickLegend": "Imaginați-vă partea din alimente ca",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: aproximativ {{ounces}} oz de apă ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "căni de pepene verde",
+      "serving": "1 cană, tăiat cubulețe",
+      "water": "92% apă"
+    },
+    "cucumber": {
+      "label": "castraveți",
+      "serving": "1 mediu",
+      "water": "95% apă"
+    },
+    "strawberries": {
+      "label": "căni de căpșuni",
+      "serving": "1 cană",
+      "water": "91% apă"
+    },
+    "oranges": {
+      "label": "portocale",
+      "serving": "1 medie",
+      "water": "87% apă"
+    },
+    "salad": {
+      "label": "boluri de salată",
+      "serving": "2 căni de salată asortată",
+      "water": "aproximativ 94% apă"
+    },
+    "soup": {
+      "label": "boluri de supă limpede",
+      "serving": "1 cană",
+      "water": "aproximativ 92% apă"
+    },
+    "tomatoes": {
+      "label": "roșii",
+      "serving": "1 medie",
+      "water": "95% apă"
+    },
+    "grapes": {
+      "label": "căni de struguri",
+      "serving": "1 cană",
+      "water": "81% apă"
+    },
+    "peaches": {
+      "label": "piersici",
+      "serving": "1 medie",
+      "water": "89% apă"
+    },
+    "cantaloupe": {
+      "label": "căni de pepene galben",
+      "serving": "1 cană, tăiat cubulețe",
+      "water": "90% apă"
+    }
+  },
+  "foodNotes": {
+    "kicker": "De ce contează apa din alimente",
+    "title": "Apa dintr-un pepene verde este aceeași apă.",
+    "sameMolecule": "<strong>Aceeași moleculă.</strong> H2O dintr-un castravete și H2O de la robinet sunt identice. Odată ce trece din intestin în sânge, corpul dvs. o trimite către mușchi în același mod.",
+    "slowRelease": "<strong>Eliberare lentă.</strong> Apa din fructe și legume este reținută în fibre și în pereții celulari, așa că se absoarbe mai treptat decât un pahar dat pe gât rapid, pe care rinichii tind să-l elimine repede.",
+    "electrolytes": "<strong>Vine cu electroliți.</strong> Castraveții, spanacul, pepenele și fructele de pădure conțin potasiu și magneziu, minerale pe care celulele dvs. le folosesc pentru a reține apa.",
+    "glycogen": "<strong>Energie și rezervă în același timp.</strong> Mușchii stochează carbohidrații sub formă de glicogen, iar fiecare gram de glicogen este stocat cu aproximativ trei grame de apă. Alimentele bogate în apă și în carbohidrați le oferă pe amândouă.",
+    "caveat": "Totuși, trebuie să beți. Alimentele acoperă de obicei aproximativ o cincime din total; restul vine din apă și din alte băuturi. Fructele uscate, nucile și pâinea conțin foarte puțină apă."
+  },
+  "grace": {
+    "kicker": "Blândețe față de corp",
+    "title": "Pe scurt, despre blândețea față de sine",
+    "body": "Oglinda și felul în care vă vin hainele se pot schimba din cauza retenției de apă, a digestiei, a hormonilor, a somnului și a altor variații normale. O zi de balonare nu vă definește corpul. Beți cu grijă, acordați-vă timp și lăsați curiozitatea să ia locul rușinii. Balonarea persistentă, umflăturile, schimbările rapide de greutate sau simptomele care vă îngrijorează merită discutate cu un cadru medical."
+  },
+  "overhydration": {
+    "title": "Pericolul hidratării forțate",
+    "kidneys": "Rinichii dvs. au nevoie de timp pentru a elimina apa. În timpul efortului prelungit, dacă beți mai repede decât pierdeți lichide, sodiul din sânge se poate dilua și poate apărea hiponatremia asociată efortului. Primele simptome pot include durere de cap, greață, amețeală, oboseală sau confuzie. Cazurile grave pot provoca umflarea creierului, convulsii, comă și deces.",
+    "pacing": "Nu încercați să atingeți această estimare bând pe nerăsuflate. Împărțiți băuturile pe parcursul zilei. În timpul efortului, adaptați cât beți în funcție de sete, de condiții și de propriile pierderi prin transpirație. Solicitați urgent asistență medicală în caz de confuzie, convulsii, colaps sau simptome grave.",
+    "sources": "Surse: <nih>recomandările NIH privind hiponatremia asociată efortului</nih> și <academies>recomandările National Academies privind lichidele</academies>."
+  },
+  "notes": {
+    "title": "Notele dvs. despre dovezi",
+    "sexMan": "<strong>Sex:</strong> Aporturile de referință ale National Academies sunt de aproximativ 3,7 litri de apă totală pe zi pentru bărbați și 2,7 pentru femei. Greutatea corporală explică cea mai mare parte a acestei diferențe, așa că restul apare aici ca o creștere de 4 la sută a bazei după greutate, iar verificarea înălțimii și constituției folosește formula greutății ideale pentru bărbați.",
+    "sexWoman": "<strong>Sex:</strong> Aporturile de referință ale National Academies sunt de aproximativ 3,7 litri de apă totală pe zi pentru bărbați și 2,7 pentru femei. Greutatea corporală explică cea mai mare parte a acestei diferențe, așa că restul apare aici ca o scădere de 4 la sută a bazei după greutate, iar verificarea înălțimii și constituției folosește formula greutății ideale pentru femei.",
+    "height": "<strong>Înălțime și constituție:</strong> Nevoia de lichide urmează mai degrabă masa slabă decât greutatea totală. Deoarece greutatea dvs. este peste intervalul obișnuit pentru înălțimea dvs., estimarea folosește greutatea corporală ajustată (greutatea ideală plus 40 la sută din diferență), o convenție clinică obișnuită. Este o cifră aproximativă pentru planificare, nu o judecată despre corpul dvs.",
+    "cycle": "<strong>Faza ciclului:</strong> Variațiile de lichide legate de ciclu sunt reale, dar studiile nu stabilesc o creștere universală și fixă, exprimată în uncii. Nu s-au adăugat automat uncii. Mesele regulate acoperă de obicei electroliții; suplimentele de magneziu sau potasiu nu sunt o recomandare universală.",
+    "age": "<strong>Vârstă și menopauză:</strong> Vârsta singură nu determină dacă sunteți la menopauză. Schimbările hormonale pot influența setea și reglarea lichidelor, dar nu există o ajustare validată în uncii „peste 45 de ani”, așa că vârsta dvs. nu a schimbat totalul.",
+    "heat": "<strong>Căldură:</strong> Un bonus fix pentru climă vă poate subestima sau supraestima nevoile. Pentru muncă moderată la căldură, sub două ore, NIOSH recomandă aproximativ 8 uncii la fiecare 15–20 de minute; transpirația abundentă de durată mai lungă necesită un plan individualizat de înlocuire a lichidelor."
+  },
+  "evidence": {
+    "label": "Dovezi:",
+    "academies": "Recomandările National Academies privind aportul de apă",
+    "harvard": "Harvard Health despre alimentație și hidratare",
+    "cycle": "Studiu despre osmoreglarea în timpul ciclului menstrual",
+    "menopause": "Analiză despre reglarea lichidelor la menopauză",
+    "niosh": "Recomandările CDC/NIOSH privind căldura"
+  },
+  "tips": {
+    "kicker": "Util, nu obsesiv",
+    "title": "Trei verificări pentru viața reală.",
+    "schedule": {
+      "title": "Programul",
+      "body": "Începeți dimineața cu apă, beți câteva înghițituri la mese și lăsați setea, vremea și activitatea să vă ghideze în rest."
+    },
+    "electrolytes": {
+      "title": "Electroliți",
+      "body": "Majoritatea oamenilor își refac electroliții prin mesele obișnuite. După o transpirație îndelungată sau abundentă, alegeți o băutură cu electroliți echilibrată; nu adăugați sare de rutină dacă vi s-a recomandat să limitați sodiul."
+    },
+    "visualCheck": {
+      "title": "Verificarea vizuală",
+      "body": "Urina galben-pal poate fi un semn aproximativ al hidratării. Alimentele, vitaminele, medicamentele și afecțiunile medicale pot schimba culoarea, așa că nu este un diagnostic."
+    }
+  },
+  "author": {
+    "kicker": "De la cel care l-a construit",
+    "title": "De ce am construit asta (și de ce nu ar trebui să mă ascultați doar pe mine)",
+    "athlete": "Mă numesc Denzel Rigaud. Am alergat peste nouă ani în probele de 400 de metri și garduri, așa că hidratarea a devenit parte din felul în care mă antrenam, mă refăceam și învățam să-mi citesc corpul.",
+    "purpose": "Am construit The Water Check ca să vă ajut să vă auziți corpul peste zgomotul de pe internet. Nu vreau să tratați experiența mea ca pe o rețetă. Biologia, mediul, istoricul medical și etapa de viață în care vă aflați determină de ce aveți nevoie.",
+    "technology": "Tehnologia nu există ca să derulăm la nesfârșit și să trăim viețile altora. Ar trebui să ne păstreze viețile productive și să ne facă mai buni în duh, suflet, minte și trup, ca să devenim cea mai bună versiune a celor care vrem să fim. Așa că nu-i mai ascultați pe toți ceilalți, pentru că ce funcționează pentru dvs., funcționează pentru dvs.",
+    "faith": "Învățați-vă tiparele și duceți întrebările medicale la un specialist calificat. Grija față de vasul dvs. fizic vă poate apropia de dvs. înșivă și de Dumnezeu, care a pus în fiecare dintre noi o scânteie ce merită îngrijită.",
+    "motto": "Nu urmați influencerii. Învățați să vă cunoașteți.",
+    "date": "15 martie 2021",
+    "founderPage": "Pagina fondatorului"
+  },
+  "community": {
+    "kicker": "Să rămânem oameni",
+    "title": "Alăturați-vă comunității adevărate.",
+    "instagram": "Urmăriți @thewatercheck pe Instagram",
+    "reelSoon": "Reel pe Instagram în curând",
+    "story": "Povestea comunității {{position}}"
+  }
+}

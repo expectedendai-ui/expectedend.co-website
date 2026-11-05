@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Bekalan untuk perjalanan",
+    "headline": "Simpan yang penting dekat di hati.",
+    "intro": "Koleksi kecil barangan bermakna untuk nota, peringatan dan perjalanan harian bersama Tuhan.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Buku nota berpandu",
+        "kind": "Buku nota"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Peringatan kecil",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Pakaian harian yang lembut",
+        "kind": "Pakaian"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Untuk pagi yang lebih dingin",
+        "kind": "Pakaian"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Koleksi pertama",
+    "headline": "Minum air. Terus bergerak.",
+    "intro": "Pakaian bertemakan penghidratan untuk mereka yang sentiasa hadir, mengisi semula dan terus menjaga semakan air harian.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Keperluan harian yang ceria",
+        "kind": "Baju-T"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Untuk selepas berjalan jauh",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Pilihan warna kedua",
+        "kind": "Baju-T"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Lapisan tebal yang tenang",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigasi kedai {{store}}",
+    "collection": "Koleksi"
+  },
+  "hero": {
+    "action": "Terokai koleksi pertama",
+    "mybiblelensArt": "Logo kedai MyBibleLens dan kolaj pelekat",
+    "watercheckArt": "Buih logo cecair The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Akan datang",
+    "title": "Dibuat untuk menjadi sebahagian daripada hari anda.",
+    "body": "Inilah koleksi pertama. Foto produk, pilihan dan pautan pembayaran akan dipaparkan di sini apabila koleksi sudah sedia."
+  },
+  "product": {
+    "placeholder": "Imej sementara produk {{name}}",
+    "buy": "Beli sekarang",
+    "comingSoon": "Akan datang",
+    "comingSoonLabel": "{{name}} akan datang"
+  },
+  "checkout": {
+    "eyebrow": "Tiada akaun diperlukan",
+    "title": "Apabila dibuka, pembayaran kekal mudah.",
+    "body": "Pilih barangan, ketik Beli sekarang dan bayar dengan selamat melalui Stripe. Tiada akaun kedai dan tiada troli belanja yang memeningkan."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Dasar kedai akan diterbitkan sebelum koleksi pertama.",
+    "policies": "Dasar kedai",
+    "terms": "Terma",
+    "privacy": "Privasi",
+    "accessibility": "Kebolehcapaian",
+    "shipping": "Penghantaran & pemulangan (sebelum pelancaran)"
+  }
+}

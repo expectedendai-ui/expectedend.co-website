@@ -173,3 +173,8 @@ body.thump {
     transform: translate3d(0, 0, 0) scale(1);
   }
 }
+
+/* Japanese headlines break between phrases, not inside a word (Chrome; other browsers keep their default). */
+:lang(ja) :is(h1, h2, h3) {
+  word-break: auto-phrase;
+}

@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud là nhà sáng lập kiêm lập trình viên full-stack đứng sau Expected End, MyBibleLens (ứng dụng Thánh Sở Cơ Đốc) và The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Ứng dụng Cơ Đốc",
+      "action": "Xem ứng dụng",
+      "tagline": "Ứng dụng Thánh Sở Cơ Đốc.",
+      "secondary": "Tiểu sử",
+      "badge": "Đã có trên App Store"
+    },
+    "watercheck": {
+      "category": "Cộng đồng uống nước",
+      "action": "Xem ứng dụng",
+      "tagline": "Hiểu rõ bạn uống gì. Con số nước của riêng bạn, chỉ với một chạm.",
+      "badge": "Đang xét duyệt"
+    },
+    "mybiblelens-store": {
+      "category": "Cửa hàng · Sắp ra mắt",
+      "action": "Vào cửa hàng",
+      "tagline": "Đức tin bạn có thể mặc."
+    },
+    "watercheck-store": {
+      "category": "Cửa hàng · Sắp ra mắt",
+      "action": "Vào cửa hàng",
+      "tagline": "Đồ nghề cho Ban Uống Nước."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Ứng dụng đức tin · iOS",
+      "status": "Đã có trên App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Ứng dụng uống nước · iOS",
+      "status": "Đang xét duyệt"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens cho Android",
+      "category": "Google Play",
+      "status": "Thử nghiệm kín"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Khung vẽ vô tận",
+      "status": "Đã ra mắt"
+    },
+    "journey-plans": {
+      "name": "Kế hoạch Journey",
+      "category": "Kế hoạch đọc + ấn",
+      "status": "Đã ra mắt"
+    },
+    "water-check-crews": {
+      "name": "Nhóm Water Check",
+      "category": "Uống nước cùng nhóm",
+      "status": "Đã hoàn thiện"
+    },
+    "home-screen-widgets": {
+      "name": "Widget Màn hình chính",
+      "category": "Widget iOS",
+      "status": "Đã hoàn thiện"
+    },
+    "hydration-calculator": {
+      "name": "Công cụ tính lượng nước",
+      "category": "Công cụ web",
+      "status": "Đã ra mắt"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Ứng dụng quản trị doanh nghiệp",
+      "status": "Đang phát triển"
+    },
+    "43-language-rollout": {
+      "name": "Triển khai 43 ngôn ngữ",
+      "category": "Bản địa hóa",
+      "status": "43 ngôn ngữ"
+    },
+    "mybiblelens-store": {
+      "name": "Cửa hàng MyBibleLens",
+      "category": "Đồ lưu niệm",
+      "status": "Sắp ra mắt"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Website ứng dụng",
+      "status": "Đã ra mắt"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Website công ty",
+      "status": "Đã ra mắt"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Học Kinh Thánh cùng AI",
+      "status": "Bản demo AI"
+    },
+    "hidden-art-world": {
+      "name": "Thế giới nghệ thuật ẩn",
+      "category": "Nghệ thuật web tương tác",
+      "status": "Bí mật ẩn giấu"
+    },
+    "sanctuary-stickers": {
+      "name": "Nhãn dán Thánh Sở",
+      "category": "Bộ minh họa",
+      "status": "550+ nhãn dán"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Phim giới thiệu MyBibleLens",
+      "category": "Phim thương hiệu",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Video tính năng",
+      "category": "Loạt video",
+      "status": "10 video"
+    },
+    "look-closer-series": {
+      "name": "Loạt Look Closer",
+      "category": "Loạt bài mạng xã hội",
+      "status": "60 bài đăng"
+    },
+    "25-week-campaign": {
+      "name": "Chiến dịch 25 tuần",
+      "category": "Kế hoạch Instagram",
+      "status": "100 bài đăng"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Sách bài tập",
+      "status": "33 phần"
+    },
+    "water-check-store": {
+      "name": "Cửa hàng Water Check",
+      "category": "Đồ lưu niệm",
+      "status": "Sắp ra mắt"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Ứng dụng",
+      "body": "Những sản phẩm hữu ích, chu đáo, được thiết kế xoay quanh con người thật.",
+      "interest": "Xây dựng ứng dụng hoặc ý tưởng phần mềm"
+    },
+    "02": {
+      "title": "Website",
+      "body": "Những ngôi nhà số riêng biệt, rõ ràng, sống động và thân thiện.",
+      "interest": "Website hoặc trải nghiệm số"
+    },
+    "03": {
+      "title": "Hệ thống AI",
+      "body": "Trí tuệ thực tiễn giúp ý tưởng và đội ngũ tiến lên phía trước.",
+      "interest": "Hệ thống AI hoặc công cụ năng suất"
+    },
+    "04": {
+      "title": "Sáng tạo",
+      "body": "Bản sắc, định hướng và trải nghiệm lấy ý nghĩa làm trung tâm.",
+      "interest": "Định hướng sáng tạo hoặc thiết kế"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ngôi nhà doanh nghiệp được may đo riêng cho bạn. CRM, tài chính, dự án, công cụ cho đội ngũ và bất kỳ tính năng nào bạn cần tiếp theo, tất cả ở cùng một nơi.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Tự động hóa",
+      "body": "Thay công việc lặp đi lặp lại bằng các quy trình được kết nối, giúp doanh nghiệp của bạn luôn vận hành.",
+      "interest": "Tự động hóa"
+    },
+    "07": {
+      "title": "Cổng khách hàng",
+      "body": "Mang đến cho khách hàng hoặc thành viên một nơi chỉn chu duy nhất để trao đổi, đặt lịch, chia sẻ tệp và theo dõi tiến độ.",
+      "interest": "Cổng khách hàng"
+    },
+    "08": {
+      "title": "Cứu hộ số",
+      "body": "Sửa chữa, hiện đại hóa hoặc xây dựng lại phần mềm không còn phù hợp với doanh nghiệp của bạn.",
+      "interest": "Cứu hộ số"
+    }
+  }
+}

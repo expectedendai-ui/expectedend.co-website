@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Aplikasyon an",
+      "drinkCheck": "Drink Check",
+      "guide": "Gid",
+      "widgets": "Widjèt",
+      "progress": "Pwogrè",
+      "pricing": "Pri",
+      "faq": "Kesyon",
+      "calculator": "Kalkilatè"
+    },
+    "hero": {
+      "title": "Bwè dlo.<break/>Nou <em>kenbe kont lan</em>.",
+      "sub": "Pwòp chif dlo pa w, bwason ou ka eskane, kò w k ap chaje, yon widjèt ou ap vrèman vle kenbe, ak yon pwason balon ki rele Bubbles pou fè w vizite. Pa gen règ galon, pa gen enfliyansè, pa gen kilpabilite.",
+      "comingSoon": "Ap vini byento",
+      "appStoreLead": "Telechaje sou",
+      "appStore": "App Store",
+      "googlePlayLead": "Disponib sou",
+      "googlePlay": "Google Play",
+      "calculator": "Eseye kalkilatè gratis la",
+      "instagram": "Swiv The Water Check sou Instagram",
+      "note": "An revizyon sou App Store kounye a. Kalkilatè a gratis epi ou pa bezwen enskri.",
+      "todayAlt": "Ekran Jodi a nan The Water Check: 40 oz sou yon objektif 81.2 oz, ak bouton pou ajoute rapid ak jounal jodi a",
+      "widgetsAlt": "Estidyo widjèt la, ak yon widjèt Kò an Ologram ak plizyè ranje stil widjèt",
+      "bubblesLabel": "Fè Bubbles fè yon trik",
+      "bubblesSay": "Alo, mwen se Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "stil widjèt",
+      "pearls": "pèl pou w jwenn nan Gid la",
+      "foods": "manje ki gen anpil dlo, ki desine",
+      "languages": "lang"
+    },
+    "sixty": {
+      "kicker": "Poukisa sa enpòtan",
+      "title": "Ou fèt ak 60% dlo.",
+      "lede": "Se pa yon objektif pou w atenn. Dlo sa a ap travay kounye a menm: li pote oksijèn, li pwoteje jwenti w yo, li rafrechi w, epi li retire sa ou pa bezwen. Bezwen ou chanje selon aktivite, tan an fè, ak sante w.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Uit nyans, soti nan jòn pay pal rive nan koulè anbre fonse, gwoupe an dlo a bon, ranpli yon ti kras, ak bwè kounye a",
+      "wellHydrated": "Dlo a bon",
+      "topUp": "Ranpli yon ti kras",
+      "drinkNow": "Bwè kounye a",
+      "fine": "Se yon siy apwoksimatif, se pa yon dyagnostik. Manje, vitamin ak medikaman tout ka chanje koulè a. Aplikasyon an eksplike chak nivo ak ki lè pou w pale ak yon pwofesyonèl lasante."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Eskane l yon fwa. Konnen l. Tape l pou tout tan.",
+      "lede": "Eskane kòd ba a, gratis epi otan fwa ou vle. Pa gen kòd ba? Si ou gen 18 an oswa plis, pran yon foto epi aplikasyon an li etikèt la. Kèlkeswa jan an, ou wè sik la an ti kiyè, kafeyin, elektwolit, ak chak engredyan make Bon, Oke, Atansyon oswa Evite.",
+      "scoresLabel": "Koulè nòt Drink Check yo",
+      "scores": {
+        "great": "Ekselan",
+        "good": "Bon",
+        "okay": "Pasab",
+        "poor": "Fèb"
+      },
+      "ticks": {
+        "electrolytes": "Elektwolit ki sou etikèt la: sodyòm, potasyòm, mayezyòm ak kalsyòm, ak Valè Chak Jou yo.",
+        "save": "Sove l (chanje non l si ou vle), epi pwochen fwa a li la nan yon sèl tap sou paj Ajoute a. Ou pa bezwen eskane ankò.",
+        "food": "Granmoun ka pran foto yon manje tou: yon mango ajoute sou mango ou, epi yon bagay ki nouvo vin tounen pwòp bul pa l.",
+        "journal": "Jounal Bwason ou kenbe jan chak bwason te fè w santi w, sou telefòn ou."
+      },
+      "fine": "Se yon lekti rapid etikèt la, se pa yon tès laboratwa ni yon nòt pou okenn mak. Rezilta kòd ba yo soti nan Open Food Facts, epi IA ka fè erè, kidonk tcheke vrè etikèt la, sitou si ou gen alèji. Nou pa kenbe foto ou.",
+      "alt": "Yon rezilta Drink Check pou yon bwason espò: nòt 66, Bon, ak sik, kafeyin ak elektwolit li yo ki sou etikèt la"
+    },
+    "foods": {
+      "kicker": "Manje konte tou",
+      "title": "Apeprè yon senkyèm nan dlo ou rive nan asyèt.",
+      "lede": "Paj Ajoute a se yon paj bul fwi ki desine, twa pa ranje: melon dlo, konkonm, frèz, mango ak plis ankò. Tape plis la epi li ajoute, ak Defèt la menm. Manje ou ajoute pi souvan yo pase devan.",
+      "ticks": {
+        "amounts": "Vè, boutèy oswa nenpòt kantite, yon sèl tap chak.",
+        "caffeine": "Moun ki bwè kafe jwenn yon kat kafeyin ki ranpli tèt li.",
+        "ring": "Yon wonn anlè a montre jan manje konte nan jounen ou."
+      },
+      "alt": "Paj Ajoute a: yon wonn anlè, bouton bwason, yon kat kafeyin ak bul manje ki gen anpil dlo"
+    },
+    "guide": {
+      "kicker": "Gid The Water Check",
+      "title": "Pete yon bul. Kenbe yon pèl.",
+      "lede": "Chak chapit se yon bul ak yon kesyon sou li, epi yo tout gratis. Poukisa ou santi w “batri ba”? Kisa pipi w ap di w? Èske yon galon pa jou se vre? Li youn jiska lafen epi li pete tounen yon pèl. Apeprè youn sou sis se yon pèl an lò ki ra.",
+      "electric": "Kò elektrik ou: sis chapit sou siyal la, sodyòm ak potasyòm, mayezyòm ak kalsyòm, ak enèji.",
+      "forHerKicker": "Pou fanm",
+      "forHer": "Chapit koulè woz sou kò fanm ak dlo: pipi woz oswa neyon, santi w gonfle lè règ ou ap vini, poukisa enfeksyon pipi frape fanm plis, yon ti pipi ki chape lè w ap ri, gwosès ak menopoz. Dous, klè, epi ak sous.",
+      "fine": "Chak chapit bay sous li yo epi li di ki lè pou w wè yon doktè. Li rekonpanse konpreyansyon, pa tan devan ekran: pa gen seri, pa gen presyon.",
+      "alt": "Gid The Water Check: chapit Kò elektrik ou yo kòm bul ak kesyon"
+    },
+    "widgets": {
+      "kicker": "Widjèt",
+      "title": "<count>89</count> stil pou ekran dakèy ou.",
+      "lede": "Espò, kote, sezon, lavi nan lanmè ak design, an ti, mwayen ak gwo gwosè, ak aranjman ki soti nan wonn rive nan vag. Di nou ki espò ou fè lè w enskri epi widjèt espò ou a ap parèt an premye. Anrejistre yon bwason dirèkteman sou ekran dakèy ou.",
+      "ticks": {
+        "body": "Kò: fòm kò w ranpli ak dlo jounen an. Etensèl: yon batri ranpli ak chaj jodi a.",
+        "charge": "Mete mezi Chaj la sou nenpòt widjèt pou w swiv elektwolit ou olye dlo ou."
+      },
+      "chips": {
+        "body": "Kò",
+        "spark": "Etensèl",
+        "running": "Kous",
+        "crossCountry": "Kous kwa peyi",
+        "volleyball": "Volebòl",
+        "basketball": "Baskètbòl",
+        "seaTurtle": "Tòti lanmè",
+        "jellyfish": "Meduz",
+        "beach": "Plaj",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Sezon"
+      },
+      "alt": "Estidyo widjèt la ak widjèt Kò a an Ologram, koulè li yo, aranjman yo ak mezi Chaj la"
+    },
+    "progress": {
+      "kicker": "Pwogrè",
+      "title": "Gade sa ki nan bwason ou, ba pa ba.",
+      "lede": "Jodi a an ba senp ki ranpli soti agoch pou ale adwat: dlo konpare ak chif ou, apre sa sodyòm, potasyòm, mayezyòm ak kalsyòm ki soti nan bwason ou eskane, plis kafeyin ak sik. Tape nenpòt ba pou w wè bwason ki dèyè l. Kalandriye a montre chak jou youn bò lòt, ak seri ou.",
+      "ticks": {
+        "dailyValues": "Yo mezire elektwolit yo konpare ak Valè Chak Jou ki sou yon etikèt nitrisyon.",
+        "caffeine": "Kafeyin konpare ak 400 mg, kantite FDA bay pou pifò granmoun ki an sante, epi sik konpare ak 50 g.",
+        "journal": "Jounal Bwason ou chita jis anba ba yo: chak bwason ou te eskane ak jan li te fè w santi w.",
+        "real": "Chak chif soti nan yon bagay ou te anrejistre oswa eskane. Pa gen anyen ki envante."
+      },
+      "fine": "Se referans, se pa objektif, epi se pa konsèy medikal. Si w ap veye sodyòm oswa potasyòm ou pou yon rezon sante, swiv konsèy doktè w.",
+      "alt": "Pwogrè: dlo a 83% chif jounen an, apre sa sodyòm, potasyòm, mayezyòm, kalsyòm, kafeyin ak sik an ba"
+    },
+    "crew": {
+      "kicker": "Mwa ou ak moun ou yo",
+      "title": "Gade l ap monte. Mennen zanmi ou.",
+      "calendarAlt": "Kalandriye a: chak jou ranpli tankou yon vè, ak jou ki anrejistre, jou ki rive nan objektif ak yon seri",
+      "calendarTitle": "Dlo ou, jou apre jou",
+      "calendarBody": "Chak jou ou anrejistre ranpli tankou yon vè. Jou nan objektif, seri ak mak lamare, epi tout sa swiv ou sou yon nouvo telefòn.",
+      "crewAlt": "Yon Ekip ki rele Track team ak mesaj ankourajman rapid",
+      "crewTitle": "Ekip",
+      "crewBody": "Gwoup sou envitasyon sèlman kote moun ankouraje youn lòt. Zanmi ou wè pousantaj ou sou pwòp objektif ou ak seri ou, yo pa janm wè ons ou ni kò w. Siyale ak Bloke toujou la."
+    },
+    "bubbles": {
+      "kicker": "Fè konesans ak Bubbles",
+      "title": "Gid ou se yon pwason balon.",
+      "lede": "Bubbles se Ofisye Byennèt nan Depatman an. Premye jou a, li fè w vizite aplikasyon an, epi li pa ka anpeche tèt li fè lwijanboje. Ann, ba l yon bagay pou l fè.",
+      "tricksLegend": "Trik Bubbles yo",
+      "tricks": {
+        "puff": "Gonfle",
+        "spin": "Vire",
+        "flip": "Kilbit dèyè",
+        "wave": "Salye",
+        "cheer": "Gwo final"
+      }
+    },
+    "pricing": {
+      "kicker": "Pri",
+      "title": "Gratis pou kòmanse. Tout bagay, yon sèl fwa.",
+      "free": {
+        "title": "Gratis",
+        "sub": "Tout sa ou bezwen pou bwè ase.",
+        "items": {
+          "number": "Pwòp chif dlo pa w",
+          "log": "Anrejistre bwason ak manje ki gen anpil dlo",
+          "barcode": "Eskanaj kòd ba, gratis e san limit",
+          "photo": "Yon eskanaj foto gratis (18 an ak plis)",
+          "guide": "Tout chapit Gid la",
+          "widgets": "Widjèt Klasik, Sezon, ak Kò ak Etensèl senp",
+          "crew": "Kalandriye ou, seri ou ak Ekip yon zanmi"
+        }
+      },
+      "forever": {
+        "tag": "Ane lansman",
+        "title": "Tout Bagay Pou Tout Tan",
+        "sub": "Yon sèl acha, pa gen abònman.",
+        "items": {
+          "widgets": "Tout stil ak koulè widjèt",
+          "bars": "Ba elektwolit, kafeyin ak sik yo",
+          "journal": "Jounal Bwason ou",
+          "photos": "Plis eskanaj foto (18 an ak plis)",
+          "summaries": "Rezime PDF 30 ak 90 jou",
+          "crews": "Kreye pwòp Ekip ou",
+          "later": "Tout sa nou ajoute pita"
+        },
+        "note": "Disponib pandan ane lansman nou an. Apre sa, The Water Check ka pase sou yon plan chak mwa, epi yon acha yon sèl fwa ou fè anvan sa ap rete debloke. Pri a parèt sou App Store oswa Google Play anvan ou achte."
+      }
+    },
+    "privacy": {
+      "kicker": "Done ou",
+      "title": "Sa ki rete sou telefòn ou, ak sa ki pa rete.",
+      "phoneTitle": "Rete sou telefòn ou",
+      "phoneBody": "Jounal Bwason ou, bwason ak manje ou sove, pèl Gid ou, sesyon antrènman, nòt sou sik ak rapèl.",
+      "accountTitle": "Kenbe ak kont ou",
+      "accountBody": "Koneksyon ou, repons enskripsyon ou, chak bwason ak manje ou anrejistre ak lè a, total dlo chak jou ak Ekip ou, pou yo swiv ou sou yon nouvo telefòn.",
+      "neverTitle": "Janmen",
+      "neverBody": "Nou pa vann enfòmasyon ou ni pataje yo ak rezo piblisite. Nou pa kenbe foto Drink Check ou yo.",
+      "links": {
+        "privacy": "Politik Konfidansyalite",
+        "healthData": "Politik Done Sante Konsomatè",
+        "deleteAccount": "Efase kont ou"
+      }
+    },
+    "calculator": {
+      "kicker": "Gratis, san enskripsyon",
+      "title": "Kòmanse ak chif ou konnen yo.",
+      "lede": "Pwa ou, wotè ou, konbyen tan ou bouje. Kalkilatè a ba ou yon objektif chak jou nan apeprè ven segonn, epi li montre kalkil li pou w ka diskite l. Li mache nan navigatè ou.",
+      "chips": {
+        "weight": "Baz selon pwa",
+        "height": "Wotè ak fòm kò",
+        "activity": "Ajisteman pou aktivite",
+        "lifeStage": "Etap lavi",
+        "heat": "Chalè ak imidite",
+        "electrolytes": "Tchèk elektwolit"
+      },
+      "open": "Louvri kalkilatè a",
+      "fine": "Yon estimasyon edikatif pou planifye, pou granmoun, se pa yon dyagnostik ni yon preskripsyon. Pa fòse tèt ou bwè likid. Mande yon pwofesyonèl lasante si ou ansent oswa w ap bay tete, si w ap pran medikaman ki afekte balans likid, oswa si ou gen yon pwoblèm ren oswa kè."
+    },
+    "faq": {
+      "kicker": "Kesyon",
+      "title": "Repons onèt yo.",
+      "items": {
+        "medical": {
+          "q": "Èske The Water Check se konsèy medikal?",
+          "a": "Non. Se yon aplikasyon byennèt jeneral. Chif dlo ou se yon estimasyon edikatif, se pa yon preskripsyon, epi pa gen anyen nan aplikasyon an ki fè dyagnostik oswa trete anyen. Si ou ansent oswa w ap bay tete, si w ap pran medikaman ki afekte likid, oswa si ou gen yon pwoblèm ren, kè oswa lòt maladi, mande doktè w sa ki bon pou ou."
+        },
+        "number": {
+          "q": "Kote chif mwen soti?",
+          "a": "Li soti nan pwa ou, wotè ou, aktivite ou, klima a ak etap lavi w, apati gid piblik tankou referans dlo National Academies Etazini yo. Kalkilatè gratis la montre kalkil li, konsa ou ka wè chak etap. Se yon pwen depa, se pa yon règ."
+        },
+        "scan": {
+          "q": "Kisa k pase lè m eskane yon bwason?",
+          "a": "Yon eskanaj kòd ba voye sèlman nimewo kòd ba a bay Open Food Facts, yon baz done manje gratis e ouvè, epi li resevwa sa etikèt la di. Yon foto, pou granmoun 18 an ak plis, pase nan sèvè nou an pou rive nan IA Gemini Google la, ki li etikèt la epi voye sa li jwenn tounen. Nou pa kenbe foto ou; Google ka kenbe done pou yon tan limite dapre kondisyon li yo. Etikèt ak IA ka fè erè, kidonk tcheke vrè etikèt la, epi pa janm sèvi ak Drink Check pou alèji oswa rejim medikal."
+        },
+        "phone": {
+          "q": "Kisa ki rete sou telefòn mwen?",
+          "a": "Jounal Bwason ou, bwason ak manje ou sove, pèl Gid ou, sesyon antrènman, repons ou sou sik ak nòt sou sik, menmsi backup pwòp telefòn ou ka genyen yo ladan l. Sou iPhone, antrènman ou kite aplikasyon an li nan Apple Health rete sou telefòn ou tou, epi yo pa janm voye ban nou. Repons enskripsyon ou, chak bwason ak manje ou anrejistre ak lè a, ak total chak jou ou yo kenbe ak kont ou pou yo swiv ou sou yon nouvo telefòn. Nou pa vann enfòmasyon ou."
+        },
+        "audience": {
+          "q": "Pou ki moun li ye?",
+          "a": "Pou nenpòt moun ki gen 13 an oswa plis. Si ou poko gen 18 an, sèvi avè l ak pèmisyon yon paran oswa yon gadyen. Jèn Fwi, anrejistreman alkòl ak eskanaj foto se pou granmoun sèlman. Aplikasyon an swiv ranje laj ou bay la, kidonk tanpri reponn ak verite. Si ou gen ant 13 ak 17 an, tcheke chif ou ak yon paran oswa yon pwofesyonèl lasante."
+        },
+        "cost": {
+          "q": "Konbyen li koute?",
+          "a": "Aplikasyon an gratis pou kòmanse: jwenn chif ou, anrejistre dlo ak manje, eskane nenpòt kòd ba, li tout chapit Gid la, antre nan yon Ekip, epi sèvi ak widjèt Klasik, Sezon, Kò ak Etensèl yo. Pandan ane lansman nou an, yon sèl acha opsyonèl debloke tout bagay, yon sèl fwa, san abònman. App Store oswa Google Play montre pri a nan lajan peyi w anvan ou achte."
+        },
+        "deleteAccount": {
+          "q": "Kijan pou m efase kont mwen?",
+          "a": "Nan aplikasyon an: Pwofil, apre sa Paramèt, apre sa Efase kont lan. Li disparèt touswit. Ou pa gen aplikasyon an? Paj Efase kont ou nou an eksplike kijan pou w mande sa pa imèl."
+        },
+        "download": {
+          "q": "Ki lè m ka telechaje l?",
+          "a": "The Water Check an revizyon sou App Store epi an tès sou Google Play, epi li ap vini byento sou tou de. Swiv @thewatercheck sou Instagram pou w konnen an premye."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Konprann sa w ap bwè. Bati nan Florid pa yon konpayi yon sèl moun. Pou moun 13 an ak plis.",
+      "legal": "Legal",
+      "privacy": "Politik Konfidansyalite The Water Check",
+      "terms": "Tèm ak Kondisyon The Water Check",
+      "community": "Règ Kominote a",
+      "healthData": "Politik Konfidansyalite Done Sante Konsomatè",
+      "deleteAccount": "Efase kont ou",
+      "sitePrivacy": "Konfidansyalite sit la",
+      "explore": "Eksplore",
+      "calculator": "Kalkilatè idratasyon",
+      "store": "Boutik The Water Check",
+      "instagram": "@thewatercheck sou Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Èd",
+      "email": "Sipò pa imèl",
+      "accessibility": "Aksesiblite",
+      "contact": "Kontak",
+      "note": "The Water Check se yon aplikasyon byennèt jeneral. Li pa fè dyagnostik, li pa trete, ni li pa anpeche okenn maladi, epi li pa ranplase konsèy yon pwofesyonèl lasante. Si gen yon ijans, rele 911 oswa nimewo ijans lokal ou. Ekran aplikasyon an montre yon vèsyon tès ak done envante; fonksyon yo ka chanje anvan lansman an."
+    }
+  },
+  "app": {
+    "eyebrow": "Aplikasyon an",
+    "title": "Dlo ou, jou apre jou.",
+    "body": "Kòmanse ak yon estimasyon pèsonèl, apre sa anrejistre bwason ak manje ki gen anpil dlo pandan jounen an ap pase. Gade pwogrè ou nan aplikasyon an, sou ekran dakèy ou, ak sou tout mwa a.",
+    "comingSoon": "Ap vini byento sou App Store",
+    "calculator": "Eseye kalkilatè gratis la",
+    "caveat": "Kalkilatè a mache isit la san kont. Foto ekran aplikasyon an montre yon vèsyon apèsi; fonksyon ak disponiblite ka chanje anvan lansman an.",
+    "screens": {
+      "number": {
+        "alt": "Estimasyon dlo pèsonèl chak jou The Water Check sou yon iPhone",
+        "caption": "Chif pa w"
+      },
+      "log": {
+        "alt": "Jounal chak jou The Water Check ak bwason ak manje sou yon iPhone",
+        "caption": "Jounal jodi a"
+      },
+      "widgets": {
+        "alt": "Paramèt widjèt ekran dakèy The Water Check sou yon iPhone",
+        "caption": "Widjèt"
+      },
+      "wellness": {
+        "alt": "Gid byennèt ak P-Meter The Water Check sou yon iPhone",
+        "caption": "Byennèt"
+      },
+      "calendar": {
+        "alt": "Kalandriye dlo chak mwa The Water Check sou yon iPhone",
+        "caption": "Kalandriye"
+      }
+    }
+  },
+  "footer": {
+    "note": "Kalkilatè gratis la pa bezwen kont. Li mache nan navigatè ou epi li pa voye chif ou yo ban nou.",
+    "navLabel": "Navigasyon anba paj la",
+    "calculator": "Kalkilatè idratasyon",
+    "explore": "Dekouvri aplikasyon an",
+    "instagram": "@thewatercheck sou Instagram",
+    "store": "Boutik la",
+    "builder": "Ki moun ki bati sa a",
+    "finePrint": "Ti lèt fen yo",
+    "terms": "Tèm ak Kondisyon",
+    "privacy": "Politik Konfidansyalite",
+    "community": "Règ Kominote a",
+    "healthData": "Done sante konsomatè",
+    "deleteAccount": "Efase kont ou",
+    "accessibility": "Aksesiblite",
+    "contact": "Kontak",
+    "project": "Yon pwojè <company>EXPECTEDEND LLC</company>. Estimasyon edikatif, se pa konsèy medikal.",
+    "backToTop": "Tounen anlè ↑"
+  }
+}

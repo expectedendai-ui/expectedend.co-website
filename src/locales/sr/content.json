@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud је оснивач и full-stack програмер који стоји иза компаније Expected End, апликације MyBibleLens, апликације-светилишта за хришћане, и апликације The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Хришћанска апликација",
+      "action": "Посети апликацију",
+      "tagline": "Апликација-светилиште за хришћане.",
+      "secondary": "Биографија",
+      "badge": "Доступно на App Store"
+    },
+    "watercheck": {
+      "category": "Заједница за хидратацију",
+      "action": "Посети апликацију",
+      "tagline": "Схватите шта пијете. Ваш број за воду, једним додиром.",
+      "badge": "На прегледу"
+    },
+    "mybiblelens-store": {
+      "category": "Продавница · Ускоро",
+      "action": "Уђи у продавницу",
+      "tagline": "Вера коју можете да носите."
+    },
+    "watercheck-store": {
+      "category": "Продавница · Ускоро",
+      "action": "Уђи у продавницу",
+      "tagline": "Опрема за Одељење хидратације."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Апликација за веру · iOS",
+      "status": "Доступно на App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Апликација за хидратацију · iOS",
+      "status": "На прегледу"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens за Android",
+      "category": "Google Play",
+      "status": "Затворено тестирање"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Бесконачно платно",
+      "status": "Активно"
+    },
+    "journey-plans": {
+      "name": "Journey планови",
+      "category": "Планови читања + печати",
+      "status": "Активно"
+    },
+    "water-check-crews": {
+      "name": "Water Check Екипе",
+      "category": "Тимска хидратација",
+      "status": "Направљено"
+    },
+    "home-screen-widgets": {
+      "name": "Виџети за почетни екран",
+      "category": "iOS виџети",
+      "status": "Направљено"
+    },
+    "hydration-calculator": {
+      "name": "Калкулатор хидратације",
+      "category": "Веб алат",
+      "status": "Активно"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Апликација за пословно седиште",
+      "status": "У развоју"
+    },
+    "43-language-rollout": {
+      "name": "Увођење 43 језика",
+      "category": "Локализација",
+      "status": "43 језика"
+    },
+    "mybiblelens-store": {
+      "name": "Продавница MyBibleLens",
+      "category": "Мерч",
+      "status": "Ускоро"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Сајт апликације",
+      "status": "Активно"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Сајт компаније",
+      "status": "Активно"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI проучавање Библије",
+      "status": "AI демо"
+    },
+    "hidden-art-world": {
+      "name": "Скривени свет уметности",
+      "category": "Интерактивна веб уметност",
+      "status": "Скривено изненађење"
+    },
+    "sanctuary-stickers": {
+      "name": "Налепнице светиње",
+      "category": "Сет илустрација",
+      "status": "550+ налепница"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Промотивни филм за MyBibleLens",
+      "category": "Филм о бренду",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Видео-прикази функција",
+      "category": "Видео серијал",
+      "status": "10 видео-снимака"
+    },
+    "look-closer-series": {
+      "name": "Серијал Look Closer",
+      "category": "Серијал за друштвене мреже",
+      "status": "60 објава"
+    },
+    "25-week-campaign": {
+      "name": "Кампања од 25 недеља",
+      "category": "План за Instagram",
+      "status": "100 објава"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Радна свеска",
+      "status": "33 блока"
+    },
+    "water-check-store": {
+      "name": "Продавница Water Check",
+      "category": "Мерч",
+      "status": "Ускоро"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Апликације",
+      "body": "Корисни, промишљени производи осмишљени око стварних људи.",
+      "interest": "Израда апликације или софтверске идеје"
+    },
+    "02": {
+      "title": "Сајтови",
+      "body": "Препознатљиви дигитални домови који делују јасно, живо и гостољубиво.",
+      "interest": "Сајт или дигитално искуство"
+    },
+    "03": {
+      "title": "AI системи",
+      "body": "Практична интелигенција која помаже идејама и тимовима да иду напред.",
+      "interest": "AI систем или алат за продуктивност"
+    },
+    "04": {
+      "title": "Креатива",
+      "body": "Идентитет, правац и искуства са смислом у средишту.",
+      "interest": "Креативни правац или дизајн"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Ваш пословни дом по мери. CRM, финансије, пројекти, алати за тим и шта год вам следеће затреба, све на једном месту.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Аутоматизације",
+      "body": "Замените посао који се понавља повезаним токовима рада који одржавају ваше пословање у покрету.",
+      "interest": "Аутоматизације"
+    },
+    "07": {
+      "title": "Клијентски портали",
+      "body": "Дајте клијентима или члановима једно углађено место за комуникацију, заказивање, дељење фајлова и праћење напретка.",
+      "interest": "Клијентски портали"
+    },
+    "08": {
+      "title": "Дигитални спас",
+      "body": "Поправите, модернизујте или изнова изградите софтвер који више не ради за ваше пословање.",
+      "interest": "Дигитални спас"
+    }
+  }
+}

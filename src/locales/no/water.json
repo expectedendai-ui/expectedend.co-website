@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Appen",
+      "drinkCheck": "Drink Check",
+      "guide": "Guide",
+      "widgets": "Widgeter",
+      "progress": "Fremgang",
+      "pricing": "Priser",
+      "faq": "Spørsmål og svar",
+      "calculator": "Kalkulator"
+    },
+    "hero": {
+      "title": "Drikk opp.<break/>Vi <em>holder tellingen</em>.",
+      "sub": "Ditt eget vanntall, drikke du kan skanne, kroppen din som lades opp, en widget du faktisk beholder, og en kulefisk som heter Bubbles og viser deg rundt. Ingen gallonregler, ingen influencere, ingen dårlig samvittighet.",
+      "comingSoon": "Kommer snart",
+      "appStoreLead": "Last ned fra",
+      "appStore": "App Store",
+      "googlePlayLead": "Tilgjengelig på",
+      "googlePlay": "Google Play",
+      "calculator": "Prøv den gratis kalkulatoren",
+      "instagram": "Følg The Water Check på Instagram",
+      "note": "Til vurdering hos App Store nå. Kalkulatoren er gratis og krever ingen registrering.",
+      "todayAlt": "I dag-skjermen i The Water Check: 40 oz av et mål på 81,2 oz, med hurtigknapper og dagens logg",
+      "widgetsAlt": "Widgetstudioet med en Kropp-widget i Hologram og rader med widgetstiler",
+      "bubblesLabel": "Få Bubbles til å gjøre et triks",
+      "bubblesSay": "Hei, jeg er Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "widgetstiler",
+      "pearls": "perler å finne i guiden",
+      "foods": "vannrike matvarer, tegnet",
+      "languages": "språk"
+    },
+    "sixty": {
+      "kicker": "Derfor betyr det noe",
+      "title": "Du består av 60 % vann.",
+      "lede": "Ikke et mål du må nå. Vannet jobber akkurat nå: Det frakter oksygen, demper leddene dine, kjøler deg ned og skyller ut det du ikke trenger. Behovet ditt endrer seg med aktivitet, vær og helse.",
+      "pmeterKicker": "P-Meteret",
+      "pmeterLabel": "Åtte nyanser fra blekt strå til mørk rav, gruppert i God væskebalanse, Fyll på og Drikk nå",
+      "wellHydrated": "God væskebalanse",
+      "topUp": "Fyll på",
+      "drinkNow": "Drikk nå",
+      "fine": "Et grovt tegn, ikke en diagnose. Mat, vitaminer og legemidler endrer alle fargen. Appen forklarer hvert nivå og når du bør snakke med helsepersonell."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Skann én gang. Vit det. Ett trykk for alltid.",
+      "lede": "Skann strekkoden, gratis og så ofte du vil. Ingen strekkode? Hvis du er 18 år eller eldre, tar du et bilde, og appen leser etiketten. Uansett ser du sukker i teskjeer, koffein, elektrolytter og hver ingrediens merket som Bra, Ok, Obs eller Unngå.",
+      "scoresLabel": "Fargene på Drink Check-poengene",
+      "scores": {
+        "great": "Supert",
+        "good": "Bra",
+        "okay": "Ok",
+        "poor": "Svak"
+      },
+      "ticks": {
+        "electrolytes": "Elektrolytter fra etiketten: natrium, kalium, magnesium og kalsium, med referanseinntaket sitt.",
+        "save": "Lagre den (gi den nytt navn hvis du vil), så er den neste gang ett trykk på Legg til-siden. Ingen ny skanning.",
+        "food": "Voksne kan også ta bilde av mat: En mango legges til mangoen din, noe nytt blir sin egen boble.",
+        "journal": "Drikkedagboken din tar vare på hvordan hver drikk fikk deg til å føle deg, på telefonen din."
+      },
+      "fine": "En rask lesing av etiketten, ikke en labtest eller en vurdering av noe merke. Strekkoderesultater kommer fra Open Food Facts, og AI kan ta feil, så sjekk den ekte etiketten, særlig ved allergier. Vi lagrer ikke bildet ditt.",
+      "alt": "Et Drink Check-resultat for en sportsdrikk: poengsum 66, Bra, med sukker, koffein og elektrolytter fra etiketten"
+    },
+    "foods": {
+      "kicker": "Mat teller også",
+      "title": "Omtrent en femtedel av vannet ditt kommer på tallerkenen.",
+      "lede": "Legg til-siden er en side med tegnede fruktbobler, tre per rad: vannmelon, agurk, jordbær, mango og mer. Trykk på pluss, så er den lagt til, med Angre rett ved siden av. Matvarene du legger til oftest, flytter seg fram.",
+      "ticks": {
+        "amounts": "Glass, flaske eller hvilken som helst mengde, ett trykk hver.",
+        "caffeine": "Kaffedrikkere får et koffeinkort som fyller seg ut selv.",
+        "ring": "En ring øverst viser hvordan maten teller med i dagen din."
+      },
+      "alt": "Legg til-siden: en ring øverst, drikkeknapper, et koffeinkort og bobler med vannrik mat"
+    },
+    "guide": {
+      "kicker": "The Water Check-guiden",
+      "title": "Knus en boble. Behold en perle.",
+      "lede": "Hvert kapittel er en boble med et spørsmål på, og alle er gratis. Hvorfor kjennes det som «lavt batteri»? Hva forteller tisset ditt? Stemmer en gallon om dagen? Les et kapittel til slutten, så sprekker det til en perle. Omtrent én av seks er en sjelden gyllen en.",
+      "electric": "Den elektriske kroppen din: seks kapitler om signalet, natrium og kalium, magnesium og kalsium, og drivstoff.",
+      "forHerKicker": "For henne",
+      "forHer": "Rosa kapitler om kroppen hennes og vann: rosa tiss eller neontiss, å føle seg hoven rundt mensen, hvorfor UVI rammer kvinner oftere, en liten lekkasje når du ler, graviditet og overgangsalder. Vennlig, enkelt og med kilder.",
+      "fine": "Hvert kapittel oppgir kildene sine og sier når du bør gå til lege. Det belønner forståelse, ikke skjermtid: ingen rekker, ikke noe press.",
+      "alt": "The Water Check-guiden: kapitlene i Den elektriske kroppen din som spørsmålsbobler"
+    },
+    "widgets": {
+      "kicker": "Widgeter",
+      "title": "<count>89</count> stiler for Hjem-skjermen din.",
+      "lede": "Idretter, steder, årstider, havliv og design, i liten, middels og stor, med oppsett fra ringer til bølger. Fortell oss idretten din når du registrerer deg, så vises widgeten for idretten din først. Logg en drikk rett fra Hjem-skjermen.",
+      "ticks": {
+        "body": "Kropp: Silhuetten din fylles med dagens vann. Gnist: Et batteri fylles med dagens lading.",
+        "charge": "Sett Lading-måleren på hvilken som helst widget for å følge elektrolyttene dine i stedet for vannet."
+      },
+      "chips": {
+        "body": "Kropp",
+        "spark": "Gnist",
+        "running": "Løping",
+        "crossCountry": "Terrengløp",
+        "volleyball": "Volleyball",
+        "basketball": "Basketball",
+        "seaTurtle": "Havskilpadde",
+        "jellyfish": "Manet",
+        "beach": "Strand",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Årstider"
+      },
+      "alt": "Widgetstudioet med Kropp-widgeten i Hologram, fargevariantene, oppsettene og Lading-måleren"
+    },
+    "progress": {
+      "kicker": "Fremgang",
+      "title": "Se hva som er i drikken din, søyle for søyle.",
+      "lede": "I dag som enkle søyler som fylles fra venstre mot høyre: vann mot tallet ditt, deretter natrium, kalium, magnesium og kalsium fra drikken du skanner, pluss koffein og sukker. Trykk på en søyle for å se drikken bak den. Kalenderen viser alle dagene side om side, med rekken din.",
+      "ticks": {
+        "dailyValues": "Elektrolyttene måles mot referanseinntaket i næringsdeklarasjonen på etiketten.",
+        "caffeine": "Koffein mot 400 mg, mengden FDA oppgir for de fleste friske voksne, og sukker mot 50 g.",
+        "journal": "Drikkedagboken din ligger rett under søylene: hver drikk du har skannet, og hvordan den fikk deg til å føle deg.",
+        "real": "Hvert tall kommer fra noe du har logget eller skannet. Ingenting er oppdiktet."
+      },
+      "fine": "Referanser, ikke mål, og ikke medisinske råd. Hvis du følger med på natrium eller kalium av helsegrunner, følg legens råd.",
+      "alt": "Fremgang: vann på 83 % av dagens tall, deretter natrium, kalium, magnesium, kalsium, koffein og sukker som søyler"
+    },
+    "crew": {
+      "kicker": "Måneden din og folka dine",
+      "title": "Se det vokse. Ta med vennene dine.",
+      "calendarAlt": "Kalenderen: hver dag fylles som et glass, med loggede dager, dager på målet og en rekke",
+      "calendarTitle": "Vannet ditt, dag for dag",
+      "calendarBody": "Hver dag du logger, fylles som et glass. Dager på målet, rekker og tidevannsmerker, og alt følger med deg til en ny telefon.",
+      "crewAlt": "En Gjeng som heter Track team med raske heiemeldinger",
+      "crewTitle": "Gjeng",
+      "crewBody": "Grupper bare for inviterte som heier hverandre fram. Venner ser hvor mange prosent av ditt eget mål du har nådd, og rekken din, aldri unsene eller kroppen din. Rapporter og Blokker er alltid der."
+    },
+    "bubbles": {
+      "kicker": "Møt Bubbles",
+      "title": "Guiden din er en kulefisk.",
+      "lede": "Bubbles er velværeansvarlig i Avdelingen. Første dagen tar han deg med på en omvisning i appen, og han klarer ikke å la være å vise seg fram. Kom igjen, gi ham noe å gjøre.",
+      "tricksLegend": "Triksene til Bubbles",
+      "tricks": {
+        "puff": "Blås deg opp",
+        "spin": "Snurr",
+        "flip": "Baklengs salto",
+        "wave": "Vink",
+        "cheer": "Stor finale"
+      }
+    },
+    "pricing": {
+      "kicker": "Priser",
+      "title": "Gratis å starte. Alt, én gang.",
+      "free": {
+        "title": "Gratis",
+        "sub": "Alt du trenger for å drikke nok.",
+        "items": {
+          "number": "Ditt eget vanntall",
+          "log": "Logg drikke og vannrik mat",
+          "barcode": "Strekkodeskanning, gratis og ubegrenset",
+          "photo": "Én gratis bildeskanning (18 år og eldre)",
+          "guide": "Alle kapitlene i guiden",
+          "widgets": "Widgetene Klassisk og Årstider, og Kropp og Gnist i enkel utgave",
+          "crew": "Kalenderen din, rekker og en venns Gjeng"
+        }
+      },
+      "forever": {
+        "tag": "Åpningsåret",
+        "title": "Alt for alltid",
+        "sub": "Ett kjøp, ikke noe abonnement.",
+        "items": {
+          "widgets": "Alle widgetstiler og fargevarianter",
+          "bars": "Søylene for elektrolytter, koffein og sukker",
+          "journal": "Drikkedagboken din",
+          "photos": "Flere bildeskanninger (18 år og eldre)",
+          "summaries": "PDF-sammendrag for 30 og 90 dager",
+          "crews": "Lag dine egne Gjenger",
+          "later": "Alt vi legger til senere"
+        },
+        "note": "Tilbys i åpningsåret vårt. Etter det kan The Water Check gå over til en månedsplan, og et engangskjøp gjort før det forblir låst opp. Prisen vises i App Store eller Google Play før du kjøper."
+      }
+    },
+    "privacy": {
+      "kicker": "Dataene dine",
+      "title": "Hva som blir på telefonen din, og hva som ikke gjør det.",
+      "phoneTitle": "Blir på telefonen din",
+      "phoneBody": "Drikkedagboken din, lagret drikke og mat, perler fra guiden, treningsøkter, syklusnotater og påminnelser.",
+      "accountTitle": "Lagres med kontoen din",
+      "accountBody": "Innloggingen din, svarene dine ved registrering, hver drikk og matvare du logger med tidspunkt, daglige vanntotaler og Gjengen din, så de følger med deg til en ny telefon.",
+      "neverTitle": "Aldri",
+      "neverBody": "Vi selger ikke informasjonen din og deler den ikke med annonsenettverk. Vi lagrer ikke Drink Check-bildene dine.",
+      "links": {
+        "privacy": "Personvernerklæring",
+        "healthData": "Retningslinjer for forbrukeres helsedata",
+        "deleteAccount": "Slett kontoen din"
+      }
+    },
+    "calculator": {
+      "kicker": "Gratis, uten registrering",
+      "title": "Start med tallene du kjenner.",
+      "lede": "Vekten din, høyden din, hvor lenge du beveger deg. Kalkulatoren gir deg et daglig mål på omtrent tjue sekunder og viser utregningen, så du kan krangle med den. Den kjører i nettleseren din.",
+      "chips": {
+        "weight": "Utgangspunkt fra vekt",
+        "height": "Høyde og kroppsbygning",
+        "activity": "Justering for aktivitet",
+        "lifeStage": "Livsfase",
+        "heat": "Varme og luftfuktighet",
+        "electrolytes": "Elektrolyttsjekk"
+      },
+      "open": "Åpne kalkulatoren",
+      "fine": "Et anslag for voksne, ment for planlegging og informasjon, ikke en diagnose eller en resept. Ikke tving i deg væske. Spør helsepersonell hvis du er gravid eller ammer, bruker legemidler som påvirker væskebalansen, eller har en nyre- eller hjertesykdom."
+    },
+    "faq": {
+      "kicker": "Spørsmål",
+      "title": "De ærlige svarene.",
+      "items": {
+        "medical": {
+          "q": "Er The Water Check medisinske råd?",
+          "a": "Nei. Det er en app for generell velvære. Vanntallet ditt er et anslag til informasjon, ikke en resept, og ingenting i appen diagnostiserer eller behandler noe. Hvis du er gravid eller ammer, bruker legemidler som påvirker væskebalansen, eller har en nyre-, hjerte- eller annen sykdom, spør legen din om hva som er riktig for deg."
+        },
+        "number": {
+          "q": "Hvor kommer tallet mitt fra?",
+          "a": "Fra vekt, høyde, aktivitet, klima og livsfase, med utgangspunkt i offentlige retningslinjer som referanseverdiene for vann fra amerikanske National Academies. Den gratis kalkulatoren viser utregningen, så du kan se hvert steg. Det er et utgangspunkt, ikke en regel."
+        },
+        "scan": {
+          "q": "Hva skjer når jeg skanner en drikk?",
+          "a": "En strekkodeskanning sender bare strekkodenummeret til Open Food Facts, en gratis, åpen matvaredatabase, og får tilbake det som står på etiketten. Et bilde, for voksne fra 18 år, går via serveren vår til Googles Gemini-AI, som leser etiketten og sender tilbake det den fant. Vi lagrer ikke bildet ditt; Google kan beholde data i en begrenset tid etter sine vilkår. Etiketter og AI kan ta feil, så sjekk den ekte etiketten, og bruk aldri Drink Check ved allergier eller medisinske dietter."
+        },
+        "phone": {
+          "q": "Hva blir på telefonen min?",
+          "a": "Drikkedagboken din, lagret drikke og mat, perler fra guiden, treningsøkter, syklussvaret og syklusnotatene dine, selv om sikkerhetskopien av telefonen din kan inneholde dem. På iPhone blir også treningsøkter du lar appen lese fra Apple Helse, værende på telefonen din, og de sendes aldri til oss. Svarene dine ved registrering, hver drikk og matvare du logger med tidspunkt, og de daglige totalene dine lagres med kontoen din, så de følger med deg til en ny telefon. Vi selger ikke informasjonen din."
+        },
+        "audience": {
+          "q": "Hvem er den for?",
+          "a": "Alle som er 13 år eller eldre. Hvis du er under 18, bruk den med tillatelse fra en forelder eller verge. Fruktfaste, logging av alkohol og bildeskanninger er bare for voksne. Appen går ut fra aldersgruppen du oppgir, så svar ærlig. Hvis du er 13 til 17 år, sjekk tallet ditt med en forelder eller helsepersonell."
+        },
+        "cost": {
+          "q": "Hva koster den?",
+          "a": "Det er gratis å starte: få tallet ditt, logg vann og mat, skann hvilken som helst strekkode, les alle kapitlene i guiden, bli med i en Gjeng og bruk widgetene Klassisk, Årstider, Kropp og Gnist. I åpningsåret vårt låser ett valgfritt kjøp opp alt, én gang, uten abonnement. App Store eller Google Play viser prisen i din valuta før du kjøper."
+        },
+        "deleteAccount": {
+          "q": "Hvordan sletter jeg kontoen min?",
+          "a": "I appen: Profil, deretter Innstillinger, deretter Slett konto. Den er borte med en gang. Har du ikke appen? Siden vår Slett kontoen din forklarer hvordan du ber om det via e-post."
+        },
+        "download": {
+          "q": "Når kan jeg laste den ned?",
+          "a": "The Water Check er til vurdering hos App Store og i testing på Google Play, og kommer snart til begge. Følg @thewatercheck på Instagram for å få vite det først."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Forstå hva du drikker. Bygget i Florida av et enpersonsselskap. For deg som er 13 år og eldre.",
+      "legal": "Juridisk",
+      "privacy": "Personvernerklæring for The Water Check",
+      "terms": "Vilkår og betingelser for The Water Check",
+      "community": "Retningslinjer for fellesskapet",
+      "healthData": "Personvernerklæring for forbrukeres helsedata",
+      "deleteAccount": "Slett kontoen din",
+      "sitePrivacy": "Personvern på nettstedet",
+      "explore": "Utforsk",
+      "calculator": "Væskekalkulator",
+      "store": "Butikken til The Water Check",
+      "instagram": "@thewatercheck på Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Hjelp",
+      "email": "Støtte via e-post",
+      "accessibility": "Tilgjengelighet",
+      "contact": "Kontakt",
+      "note": "The Water Check er en app for generell velvære. Den diagnostiserer, behandler eller forebygger ingen tilstand og erstatter ikke råd fra helsepersonell. I en nødsituasjon, ring 911 eller ditt lokale nødnummer. Appskjermene viser en testversjon med oppdiktede data; funksjoner kan endres før lansering."
+    }
+  },
+  "app": {
+    "eyebrow": "Appen",
+    "title": "Vannet ditt, dag for dag.",
+    "body": "Start med et personlig anslag, og logg så drikke og vannrik mat etter hvert som dagen går. Se fremgangen din i appen, på Hjem-skjermen og gjennom hele måneden.",
+    "comingSoon": "Kommer snart til App Store",
+    "calculator": "Prøv den gratis kalkulatoren",
+    "caveat": "Kalkulatoren fungerer her uten konto. Skjermbildene fra appen viser en forhåndsversjon; funksjoner og tilgjengelighet kan endres før lansering.",
+    "screens": {
+      "number": {
+        "alt": "Det personlige daglige vannanslaget i The Water Check på en iPhone",
+        "caption": "Tallet ditt"
+      },
+      "log": {
+        "alt": "Den daglige loggen i The Water Check med drikke og mat på en iPhone",
+        "caption": "Dagens logg"
+      },
+      "widgets": {
+        "alt": "Innstillingene for widgeter på Hjem-skjermen i The Water Check på en iPhone",
+        "caption": "Widgeter"
+      },
+      "wellness": {
+        "alt": "Velværeguiden og P-Meteret i The Water Check på en iPhone",
+        "caption": "Velvære"
+      },
+      "calendar": {
+        "alt": "Den månedlige vannkalenderen i The Water Check på en iPhone",
+        "caption": "Kalender"
+      }
+    }
+  },
+  "footer": {
+    "note": "Den gratis kalkulatoren krever ingen konto. Den kjører i nettleseren din og sender ikke tallene dine til oss.",
+    "navLabel": "Navigasjon i bunnteksten",
+    "calculator": "Væskekalkulator",
+    "explore": "Utforsk appen",
+    "instagram": "@thewatercheck på Instagram",
+    "store": "Butikken",
+    "builder": "Hvem som laget dette",
+    "finePrint": "Det med liten skrift",
+    "terms": "Vilkår og betingelser",
+    "privacy": "Personvernerklæring",
+    "community": "Retningslinjer for fellesskapet",
+    "healthData": "Forbrukeres helsedata",
+    "deleteAccount": "Slett kontoen din",
+    "accessibility": "Tilgjengelighet",
+    "contact": "Kontakt",
+    "project": "Et prosjekt fra <company>EXPECTEDEND LLC</company>. Anslag til informasjon, ikke medisinske råd.",
+    "backToTop": "Tilbake til toppen ↑"
+  }
+}

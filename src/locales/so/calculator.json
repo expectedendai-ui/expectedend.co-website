@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Iska daa saameeyayaasha baraha bulshada. Baro sida jidhkaagu dhab ahaan u shaqeeyo.",
+    "lead": "Isku day xisaabiyaha bilaashka ah adigoon akoon samaysan, kadibna eeg abka aan u dhisayno raadraaca maalinlaha ah.",
+    "appLink": "Eeg abka ↓",
+    "logoLabel": "Isticmaal xisaabiyaha The Water Check"
+  },
+  "intro": {
+    "kicker": "Xisaabiyaha biyaha jidhka",
+    "title": "Ka bilow tirooyinka aad taqaanno."
+  },
+  "units": {
+    "legend": "Cutubka miisaanka",
+    "pounds": "Rodol (lb)",
+    "kilograms": "Kiiloogaraam (kg)"
+  },
+  "weight": {
+    "labelLb": "Miisaanka (lbs)",
+    "labelKg": "Miisaanka (kg)",
+    "valueTextLb": "{{value}} rodol",
+    "valueTextKg": "{{value}} kiiloogaraam"
+  },
+  "height": {
+    "legend": "Dhererka",
+    "feet": "Dhererka (ft)",
+    "inches": "Dhererka (in)",
+    "centimeters": "Dhererka (cm)",
+    "note": "Baahida dareeraha waxay raacdaa culayska jidhka ee aan baruurta ahayn, sidaa darteed dhererku wuxuu ugu muhiimsan yahay marka miisaankaagu sarreeyo marka loo eego qaab-dhismeedkaaga."
+  },
+  "activity": {
+    "label": "Dhaqdhaqaaqa Maalinlaha ah (daqiiqado)",
+    "value": "{{minutes}} daqiiqo",
+    "valueText": "{{minutes}} daqiiqo"
+  },
+  "factors": {
+    "legend": "Arrimaha beddeli kara baahida dareeraha",
+    "intro": "Tiro waxaan ku darnaa oo keliya meesha uu ka jiro hagaajin maalinle ah oo la difaaci karo. Jawaabaha kale waxay hagitaankaada kuu gaar yeelaan iyagoon iska dhigin in cilmigu taageerayo qaddar sax ah.",
+    "age": {
+      "label": "Da'",
+      "hint": "Da'du waxay bixisaa macne guud oo keliya; ma ogaanayso caado-joogsiga."
+    },
+    "lifeStage": {
+      "label": "Marxaladda nolosha",
+      "hint": "Waxay isticmaashaa hagaajin cad oo loogu talagalay uurka ama soo saarista caanaha naaska.",
+      "options": {
+        "standard": "Caadi",
+        "pregnant": "Uur leh",
+        "breastfeeding": "Naas nuujin"
+      }
+    },
+    "sex": {
+      "label": "Jinsiga",
+      "hint": "Ikhtiyaari. Waxay hagaajisaa xisaabta miisaanka ku habboon iyo qaddarka tixraaca ah ee la qaato.",
+      "options": {
+        "unspecified": "Waan doorbidayaa inaanan sheegin",
+        "woman": "Haweeney",
+        "man": "Nin"
+      }
+    },
+    "luteal": {
+      "label": "Toddobaadka ka horreeya caadadaada",
+      "hint": "Waxay la socotaa biyo-haynta wejiga luteal iyo bararka hormoonnada. Ma jirto kordhin go'an oo qof walba khusaysa."
+    },
+    "heat": {
+      "label": "Xaalado kulul ama qoyaan badan",
+      "hint": "Hagitaanka kulaylku wuxuu ku xidhan yahay inta aad kulaylka ku jirto iyo dhididka, ma aha goobta oo keliya."
+    }
+  },
+  "result": {
+    "goal": "Hadafkaaga Maalinlaha ah: {{ounces}} Ows",
+    "breakdown": "Faahfaahinta xisaabta",
+    "weightBaseline": "Saldhigga miisaanka",
+    "heightAndBuild": "Dhererka iyo qaab-dhismeedka",
+    "sexReference": "Tixraaca jinsiga",
+    "notSet": "Lama dejin",
+    "activity": "Hagaajinta dhaqdhaqaaqa",
+    "lifeStage": {
+      "standard": "Hagaajinta marxaladda nolosha",
+      "pregnant": "Hagaajinta uurka",
+      "breastfeeding": "Hagaajinta naas-nuujinta"
+    },
+    "luteal": "Hagitaanka wejiga luteal",
+    "noFixedOunces": "+oz go'an ma jiro",
+    "electrolytes": "Hubinta electrolytes-ka",
+    "electrolytesAfterSweat": "Ka fikir kadib dhidid badan",
+    "electrolytesFromFood": "Cuntadu badanaa way daboolaysaa",
+    "guidance": "Tani waa qiyaas waxbarasho oo qorshayn ah oo loogu talagalay dadka waaweyn, ma aha ogaansho cudur, daaweyn, ama qoraal daawo oo takhtar. Cuntaduna biyo ayay bixisaa, baahida qof kastana way kala duwan tahay. Ha isku qasbin cabbitaanka dareeraha. Weydii xirfadle caafimaad baahiyahaaga haddii aad uur leedahay ama naas nuujinayso, aad qaadato daawooyin saameeya isu-dheelitirka dareeraha jidhka, aad qabto xanuun kelyaha ama wadnaha ah, lagu amray inaad xaddiddo dareeraha aad cabto, ama aad leedahay calaamado ku walwal gelinaya."
+  },
+  "equivalents": {
+    "title": "Taasi waa qiyaastii",
+    "cups": "{{value}} koob",
+    "cupsNote": "8 oz midkiiba",
+    "liters": "{{value}} litir",
+    "litersNote": "nidaamka mitirka",
+    "bottles": "{{value}} dhalo",
+    "bottlesNote": "cabbirka 16.9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Biyahaaga cun",
+    "title": "Dhammaan biyuhu kuma qasbana inay galaas ka yimaadaan.",
+    "copy": "Qiyaastii shan meelood meel biyaha maalinlaha ah ee dadka intooda badan waxay ka yimaadaan cuntada. Inta badan miraha iyo khudaarta cusub waa 70 ilaa 95 boqolkiiba biyo, marka ay gaadhaan dhiiggaagana, waxay jidhkaaga u siiyaan biyo si la mid ah sida cabbitaanku u sameeyo.",
+    "drink": "Cab",
+    "drinkNote": "{{cups}} koob oo biyo, shaah, ama caano ah",
+    "eat": "Cun",
+    "eatNote": "cuntooyinka biyaha badan leh",
+    "pickLegend": "U muuji qaybta cuntada sida",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} waa qiyaastii {{ounces}} oz oo biyo ah ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "koob oo xabxab ah",
+      "serving": "1 koob oo la jarjaray",
+      "water": "92% biyo"
+    },
+    "cucumber": {
+      "label": "qajaar",
+      "serving": "1 dhexdhexaad ah",
+      "water": "95% biyo"
+    },
+    "strawberries": {
+      "label": "koob oo istarooberi ah",
+      "serving": "1 koob",
+      "water": "91% biyo"
+    },
+    "oranges": {
+      "label": "liin macaan",
+      "serving": "1 dhexdhexaad ah",
+      "water": "87% biyo"
+    },
+    "salad": {
+      "label": "baaquli saladh ah",
+      "serving": "2 koob oo isku qasan",
+      "water": "qiyaastii 94% biyo"
+    },
+    "soup": {
+      "label": "baaquli maraq ah",
+      "serving": "1 koob",
+      "water": "qiyaastii 92% biyo"
+    },
+    "tomatoes": {
+      "label": "yaanyo",
+      "serving": "1 dhexdhexaad ah",
+      "water": "95% biyo"
+    },
+    "grapes": {
+      "label": "koob oo canab ah",
+      "serving": "1 koob",
+      "water": "81% biyo"
+    },
+    "peaches": {
+      "label": "khukh",
+      "serving": "1 dhexdhexaad ah",
+      "water": "89% biyo"
+    },
+    "cantaloupe": {
+      "label": "koob oo shamaam ah",
+      "serving": "1 koob oo la jarjaray",
+      "water": "90% biyo"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Sababta biyaha cuntada loogu xisaabiyo",
+    "title": "Biyaha xabxabku waa isla biyahaas.",
+    "sameMolecule": "<strong>Isla molikuyuul.</strong> H2O ka timid qajaar iyo H2O ka timid qasabadda waa isku mid. Marka ay ka gudubto mindhicirkaaga oo ay gasho dhiiggaaga, jidhkaagu wuxuu u diraa murqahaaga si isku mid ah.",
+    "slowRelease": "<strong>Sii-deyn tartiib ah.</strong> Biyaha ku jira miraha iyo khudaarta waxay ku xidhan yihiin gudaha fiilooyinka (fiber) iyo derbiyada unugyada, sidaa darteed si tartiib ah ayaa loo nuugaa marka loo eego galaas si degdeg ah loo cabbay, kaas oo kelyahaagu inta badan si dhakhso ah u saaraan.",
+    "electrolytes": "<strong>Waxaa la socda electrolytes.</strong> Qajaarka, isbinaajka, shamaamka, iyo miraha yaryar sida istarooberiga waxay leeyihiin potassium iyo magnesium, macdano ay unugyadaadu u isticmaalaan inay biyaha hayaan.",
+    "glycogen": "<strong>Tamar iyo kayd wada jira.</strong> Murqaha waxay kaydiyaan karbohaydraytka iyagoo ah glycogen, garaam kasta oo glycogen ahna waxaa lagu kaydiyaa qiyaastii saddex garaam oo biyo ah. Cuntooyinka ay ku badan yihiin biyaha iyo karbohaydraytku waxay bixiyaan labadaba.",
+    "caveat": "Weli waa inaad cabtaa. Cuntadu badanaa waxay daboolaa qiyaastii shan meelood meel wadarta; inta kale waxay ka timaadaa biyaha iyo cabbitaannada kale. Miraha la qalajiyay, lawska, iyo rootiga waxay leeyihiin biyo aad u yar."
+  },
+  "grace": {
+    "kicker": "Naxariista jidhka",
+    "title": "Qoraal Kooban oo ku saabsan Inaad Naftaada u Naxariisato",
+    "body": "Waxa aad ku aragto muraayadda iyo sida dharkaagu kuugu le'eg yahay way isbeddeli karaan sababo la xidhiidha biyaha jidhku haysto, dheefshiidka, hormoonnada, hurdada, iyo isbeddello kale oo caadi ah. Hal maalin oo calooshu bararsan tahay ma qeexdo jidhkaaga. U cab si taxaddar leh, naftaada sii waqti, oo u oggolow xiisaha inuu beddelo ceebta. Calool-bararka joogtada ah, bararka jidhka, isbeddellada degdegga ah ee miisaanka, ama calaamadaha ku walwal gelinaya waxay mudan yihiin inaad kala hadasho xirfadle caafimaad."
+  },
+  "overhydration": {
+    "title": "Khatarta Isku Qasbidda Cabbitaanka Biyaha",
+    "kidneys": "Kelyahaagu waxay u baahan yihiin waqti ay biyaha ku saaraan. Inta lagu jiro jimicsi dheer, cabbitaanka si ka dhakhso badan inta aad dareere lumiso wuxuu khafiifin karaa sodium-ka dhiigga wuxuuna keeni karaa hyponatremia la xidhiidha jimicsiga. Calaamadaha hore waxaa ka mid noqon kara madax-xanuun, lallabo, dawakh, daal, ama jahwareer. Xaaladaha daran waxay keeni karaan bararka maskaxda, qallal, miyir-beel (koomo), iyo dhimasho.",
+    "pacing": "Ha ku daba-galin qiyaastan adigoo biyo badan hal mar si degdeg ah u cabbaya. Cabbitaannada u kala qaybi maalinta oo dhan. Inta lagu jiro jimicsiga, cabbitaanka la jaanqaadi harraadka, xaaladaha, iyo dhididka adiga kaa baxa. Si degdeg ah u raadso daryeel caafimaad haddii uu jiro jahwareer, qallal, dhicid ama suuxdin, ama calaamado daran.",
+    "sources": "Ilaha: <nih>Hagaha NIH ee hyponatremia la xidhiidha jimicsiga</nih> iyo <academies>talooyinka dareeraha ee National Academies</academies>."
+  },
+  "notes": {
+    "title": "Qoraalladaada caddaynta",
+    "sexMan": "<strong>Jinsiga:</strong> Qaddarada tixraaca ee National Academies waa qiyaastii 3.7 litir oo biyo guud ah maalintii ragga iyo 2.7 haweenka. Miisaanka jidhka ayaa sharxa inta badan farqigaas, sidaa darteed inta harsan halkan waxay u muuqataa kordhin 4 boqolkiiba ah oo lagu sameeyay saldhigga miisaanka, hubinta dhererka iyo qaab-dhismeeduna waxay isticmaashaa qaacidada miisaanka ku habboon ee ragga.",
+    "sexWoman": "<strong>Jinsiga:</strong> Qaddarada tixraaca ee National Academies waa qiyaastii 3.7 litir oo biyo guud ah maalintii ragga iyo 2.7 haweenka. Miisaanka jidhka ayaa sharxa inta badan farqigaas, sidaa darteed inta harsan halkan waxay u muuqataa dhimis 4 boqolkiiba ah oo lagu sameeyay saldhigga miisaanka, hubinta dhererka iyo qaab-dhismeeduna waxay isticmaashaa qaacidada miisaanka ku habboon ee haweenka.",
+    "height": "<strong>Dhererka iyo qaab-dhismeedka:</strong> Baahida dareeraha waxay raacdaa culayska jidhka ee aan baruurta ahayn in ka badan miisaanka guud. Maadaama miisaankaagu ka sarreeyo heerka caadiga ah ee dhererkaaga, qiyaastu waxay isticmaashaa miisaan jidh oo la hagaajiyay (miisaanka ku habboon oo lagu daray 40 boqolkiiba farqiga), oo ah hab caafimaad oo caadi ah. Waa tiro qorshayn oo qiyaas ah, ma aha xukun lagu xukumayo jidhkaaga.",
+    "cycle": "<strong>Wejiga wareegga:</strong> Isbeddellada dareeraha ee la xidhiidha wareegga caadadu waa run, laakiin daraasaduhu ma caddayn kordhin ows go'an oo qof walba khusaysa. Wax ows ah si toos ah looma darin. Cuntooyinka joogtada ahi badanaa waxay daboolaan electrolytes-ka; kaabisyada magnesium ama potassium ma aha talo qof walba loo jeedo.",
+    "age": "<strong>Da'da iyo caado-joogsiga:</strong> Da'da oo keliya ma go'aamiso xaaladda caado-joogsiga. Isbeddellada hormoonnada waxay saamayn karaan harraadka iyo nidaaminta dareeraha, laakiin ma jirto hagaajin ows ah oo la xaqiijiyay oo loogu talagalay “ka weyn 45”, sidaa darteed da'daadu ma beddelin wadarta.",
+    "heat": "<strong>Kulaylka:</strong> Kordhin cimilo oo go'an ayaa laga yaabaa inay baahiyahaaga ka yaraysiiso ama ka badiso. Shaqo dhexdhexaad ah oo kulayl ah oo ka yar laba saacadood, NIOSH waxay ku talisaa qiyaastii 8 ows 15 ilaa 20 daqiiqo kasta; dhidid culus oo ka dheer wuxuu u baahan yahay qorshe beddelid oo qofka u gaar ah."
+  },
+  "evidence": {
+    "label": "Caddayn:",
+    "academies": "Hagaha National Academies ee cabbitaanka biyaha",
+    "harvard": "Harvard Health oo ku saabsan cuntada iyo biyaha jidhka",
+    "cycle": "Daraasad ku saabsan isu-dheelitirka dareeraha inta lagu jiro wareegga caadada",
+    "menopause": "Dib-u-eegis ku saabsan nidaaminta dareeraha xilliga caado-joogsiga",
+    "niosh": "Hagaha CDC/NIOSH ee kulaylka"
+  },
+  "tips": {
+    "kicker": "Waxtar leh, aan xad-dhaaf ahayn",
+    "title": "Saddex hubin oo loogu talagalay nolosha dhabta ah.",
+    "schedule": {
+      "title": "Jadwalka",
+      "body": "Subaxdaada ku bilow biyo, cab qurub qurub markaad wax cunayso, oo u oggolow harraadka, cimilada, iyo dhaqdhaqaaqa inay hagaan inta kale."
+    },
+    "electrolytes": {
+      "title": "Electrolyte-yada",
+      "body": "Dadka intooda badan waxay electrolytes-ka ku soo celiyaan cuntooyinka caadiga ah. Kadib dhidid dheer ama badan, dooro cabbitaan electrolyte oo dheellitiran; ha ku darin cusbo si joogto ah haddii lagugula taliyay inaad yareyso sodium-ka."
+    },
+    "visualCheck": {
+      "title": "Hubinta Indhaha",
+      "body": "Kaadi jaalle khafiif ah waxay noqon kartaa hal calaamad qiyaas ah oo muujinaysa in jidhkaagu biyo ku filan haysto. Cuntada, fiitamiinnada, daawooyinka, iyo xaaladaha caafimaad waxay beddeli karaan midabka, sidaa darteed ma aha ogaansho cudur."
+    }
+  },
+  "author": {
+    "kicker": "Ka timid qofkii dhisay",
+    "title": "Sababta Aan U Dhisay (Iyo Sababta Aadan Aniga Oo Keliya I Dhegaysan)",
+    "athlete": "Magacaygu waa Denzel Rigaud. Waxaan ku qaatay in ka badan sagaal sano orodka 400 mitir iyo orodka caqabadaha, sidaa darteed biyo cabbiddu waxay noqotay qayb ka mid ah sida aan u tababaray, u soo kabsaday, una bartay inaan akhriyo jidhkayga.",
+    "purpose": "Waxaan dhisay The Water Check si aan kaaga caawiyo inaad jidhkaaga ka maqasho buuqa internetka. Ma doonayo inaad waayo-aragnimadayda u qaadato sidii qoraal daawo. Bayoolajigaaga, deegaankaaga, taariikhdaada caafimaad, iyo marxaladda noloshaadu ayaa go'aamiya waxaad u baahan tahay.",
+    "technology": "Tiknoolajiyaddu uma jirto inaan shaashadaha ku dul rogrogno dhammaad la'aan oo aan ku noolaano nolosha dadka kale. Waa inay noloshayada ka dhigtaa mid wax-soo-saar leh oo ay hagaajisaa ruuxeenna, nafteenna, maskaxdeenna, iyo jidhkeenna, si aan u noqonno nooca ugu fiican ee qofka aan doonayno inaan noqonno. Ee jooji inaad qof walba oo kale dhegaysato, sababtoo ah waxa adiga kuu shaqeeya, adiga ayay kuu shaqeeyaan.",
+    "faith": "Baro qaababkaaga, walaacyada caafimaadna u gee xirfadle aqoon leh. Daryeelka weelkaaga jidhka ah wuxuu kugu soo dhowayn karaa naftaada iyo Ilaah, kaas oo qof kasta oo naga mid ah dhex dhigay dhimbiil mudan in la daryeelo.",
+    "motto": "Ha raacin saameeyayaasha. Naftaada baro.",
+    "date": "15 Maarso 2021",
+    "founderPage": "Bogga Aasaasaha"
+  },
+  "community": {
+    "kicker": "Ha ahaato mid bini-aadmi",
+    "title": "Ku biir bulshada dhabta ah.",
+    "instagram": "Raac @thewatercheck ee Instagram",
+    "reelSoon": "Reel-ka Instagram dhowaan ayuu imanayaa",
+    "story": "Sheekada bulshada {{position}}"
+  }
+}

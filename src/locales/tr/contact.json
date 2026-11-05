@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected End ile iletişime geçin",
+    "title": "Biraz <em>bağlamla</em> başlayın.",
+    "intro": "Birkaç ayrıntı seçin, sizin için net bir e-posta hazırlansın. Herhangi bir şey gönderilmeden önce e-posta uygulamanız açılır."
+  },
+  "fields": {
+    "name": "Adınız",
+    "email": "E-postanız",
+    "reason": "Konu nedir?",
+    "project": "Hangi proje?",
+    "priceRange": "Fiyat aralığı",
+    "timeline": "İdeal zaman çizelgesi",
+    "discovery": "Expected End'i nasıl buldunuz?",
+    "message": "Aklınızda ne var?",
+    "chooseOne": "Birini seçin"
+  },
+  "reasons": {
+    "partnership": "Ortaklık veya iş birliği",
+    "press": "Basın veya medya",
+    "general": "Genel soru"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check topluluğu",
+    "newIdea": "Yeni bir fikir"
+  },
+  "timelines": {
+    "exploring": "Sadece göz atıyorum",
+    "month": "Bir ay içinde",
+    "threeMonths": "Üç ay içinde",
+    "laterThisYear": "Bu yılın ilerleyen aylarında",
+    "notSure": "Henüz emin değilim"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check topluluğu",
+    "search": "Arama",
+    "referral": "Bir tavsiye",
+    "elsewhere": "Başka bir yer"
+  },
+  "submit": {
+    "note": "Siz gözden geçirip e-posta uygulamanızda Gönder'e basana kadar hiçbir şey gönderilmez.",
+    "apps": "<app>E-posta uygulamanızı</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> veya <yahoo>Yahoo Mail</yahoo> seçin.",
+    "button": "E-postayı hazırla"
+  },
+  "dialog": {
+    "close": "İletişim formunu kapat"
+  }
+}

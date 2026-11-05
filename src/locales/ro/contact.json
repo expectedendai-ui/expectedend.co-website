@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Contactați Expected End",
+    "title": "Începeți cu puțin <em>context.</em>",
+    "intro": "Alegeți câteva detalii și vi se pregătește un e-mail clar. Aplicația de e-mail se deschide înainte să se trimită ceva."
+  },
+  "fields": {
+    "name": "Numele dvs.",
+    "email": "E-mailul dvs.",
+    "reason": "Despre ce este vorba?",
+    "project": "Ce proiect?",
+    "priceRange": "Interval de preț",
+    "timeline": "Termen ideal",
+    "discovery": "Cum ați aflat de Expected End?",
+    "message": "La ce vă gândiți?",
+    "chooseOne": "Alegeți o opțiune"
+  },
+  "reasons": {
+    "partnership": "Parteneriat sau colaborare",
+    "press": "Presă sau media",
+    "general": "Întrebare generală"
+  },
+  "projects": {
+    "waterCheckCommunity": "Comunitatea The Water Check",
+    "newIdea": "O idee nouă"
+  },
+  "timelines": {
+    "exploring": "Doar mă informez",
+    "month": "În cel mult o lună",
+    "threeMonths": "În cel mult trei luni",
+    "laterThisYear": "Mai târziu în acest an",
+    "notSure": "Încă nu știu"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Comunitatea The Water Check",
+    "search": "Căutare online",
+    "referral": "O recomandare",
+    "elsewhere": "Altundeva"
+  },
+  "submit": {
+    "note": "Nu se trimite nimic până nu verificați mesajul și apăsați Trimite în aplicația de e-mail.",
+    "apps": "Alegeți <app>aplicația dvs. de e-mail</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> sau <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Pregătiți e-mailul"
+  },
+  "dialog": {
+    "close": "Închideți formularul de contact"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Liên hệ Expected End",
+    "title": "Hãy bắt đầu với một chút <em>bối cảnh.</em>",
+    "intro": "Chọn vài thông tin, một email rõ ràng sẽ được soạn sẵn cho bạn. Ứng dụng email của bạn sẽ mở ra trước khi có bất cứ thứ gì được gửi đi."
+  },
+  "fields": {
+    "name": "Tên của bạn",
+    "email": "Email của bạn",
+    "reason": "Bạn liên hệ về việc gì?",
+    "project": "Dự án nào?",
+    "priceRange": "Khoảng ngân sách",
+    "timeline": "Thời gian mong muốn",
+    "discovery": "Bạn biết đến Expected End qua đâu?",
+    "message": "Bạn đang nghĩ đến điều gì?",
+    "chooseOne": "Chọn một"
+  },
+  "reasons": {
+    "partnership": "Đối tác hoặc hợp tác",
+    "press": "Báo chí hoặc truyền thông",
+    "general": "Câu hỏi chung"
+  },
+  "projects": {
+    "waterCheckCommunity": "Cộng đồng The Water Check",
+    "newIdea": "Một ý tưởng mới"
+  },
+  "timelines": {
+    "exploring": "Chỉ đang tìm hiểu",
+    "month": "Trong vòng một tháng",
+    "threeMonths": "Trong vòng ba tháng",
+    "laterThisYear": "Cuối năm nay",
+    "notSure": "Chưa chắc chắn"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Cộng đồng The Water Check",
+    "search": "Tìm kiếm",
+    "referral": "Được giới thiệu",
+    "elsewhere": "Nơi khác"
+  },
+  "submit": {
+    "note": "Không có gì được gửi đi cho đến khi bạn xem lại và nhấn Gửi trong ứng dụng email của mình.",
+    "apps": "Chọn <app>ứng dụng email của bạn</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> hoặc <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Soạn email"
+  },
+  "dialog": {
+    "close": "Đóng biểu mẫu liên hệ"
+  }
+}

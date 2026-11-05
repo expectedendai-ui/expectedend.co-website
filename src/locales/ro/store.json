@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Pentru drum",
+    "headline": "Țineți aproape ce contează.",
+    "intro": "O mică colecție de obiecte bine gândite pentru notițe, mementouri și umblarea de zi cu zi cu Dumnezeu.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Caiet ghidat",
+        "kind": "Caiet"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Un mic memento",
+        "kind": "Insignă"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Un strat moale pentru fiecare zi",
+        "kind": "Îmbrăcăminte"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Pentru diminețile mai răcoroase",
+        "kind": "Îmbrăcăminte"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Prima colecție",
+    "headline": "Beți apă. Mergeți mai departe.",
+    "intro": "Piese gândite pentru hidratare, pentru cei care sunt mereu prezenți, își reumplu sticla și țin check-ul în mișcare.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Un esențial luminos de zi cu zi",
+        "kind": "Tricou"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Pentru după plimbarea lungă",
+        "kind": "Hanorac"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "O a doua variantă de culoare",
+        "kind": "Tricou"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Un strat gros, cu un aer calm",
+        "kind": "Hanorac"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigarea magazinului {{store}}",
+    "collection": "Colecția"
+  },
+  "hero": {
+    "action": "Descoperiți prima colecție",
+    "mybiblelensArt": "Logoul magazinului MyBibleLens și colaj de stickere",
+    "watercheckArt": "Bula cu logoul lichid The Water Check"
+  },
+  "collection": {
+    "eyebrow": "În curând",
+    "title": "Făcut să devină parte din ziua dvs.",
+    "body": "Acestea sunt primele piese. Fotografiile produselor, opțiunile și linkurile de plată vor apărea aici când colecția va fi gata."
+  },
+  "product": {
+    "placeholder": "Imagine provizorie pentru {{name}}",
+    "buy": "Cumpărați acum",
+    "comingSoon": "În curând",
+    "comingSoonLabel": "{{name}}, în curând"
+  },
+  "checkout": {
+    "eyebrow": "Fără cont",
+    "title": "Când se deschide, plata rămâne simplă.",
+    "body": "Alegeți o piesă, atingeți Cumpărați acum și plătiți în siguranță prin Stripe. Fără cont în magazin și fără labirintul coșului de cumpărături."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Politicile magazinului vor fi publicate înainte de prima colecție.",
+    "policies": "Politicile magazinului",
+    "terms": "Termeni",
+    "privacy": "Confidențialitate",
+    "accessibility": "Accesibilitate",
+    "shipping": "Livrare și retururi: înainte de lansare"
+  }
+}

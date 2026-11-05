@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Syfte, vackert byggt",
+    "description": "Expected End skapar genomtänkt mjukvara, produktivitetsverktyg, digitala upplevelser och gemenskaper."
+  },
+  "about": {
+    "title": "Om oss | Expected End",
+    "description": "Denzel Rigauds grundarberättelse, uppdraget bakom Expected End och projekten som vuxit fram ur tro och syfte."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Grundare av Expected End",
+    "description": "Denzel Rigaud är grundaren och fullstackutvecklaren bakom Expected End, MyBibleLens (fristadsappen för kristen tro) och The Water Check."
+  },
+  "press": {
+    "title": "Press & media | Expected End",
+    "description": "Godkända biografier, verifierade fakta, entitetslänkar och nedladdningsbart material för bevakning av Expected End och Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Användarvillkor för webbplatsen | Expected End",
+    "description": "Villkoren för att använda Expected Ends webbplats."
+  },
+  "privacy": {
+    "title": "Integritetsmeddelande | Expected End",
+    "description": "Hur Expected End hanterar information på den här webbplatsen."
+  },
+  "watercheck-privacy": {
+    "title": "Integritetspolicy för The Water Check | Expected End",
+    "description": "Vad The Water Check samlar in, vad som stannar på din telefon, vem som hjälper till att driva appen och vilka val du har."
+  },
+  "watercheck-terms": {
+    "title": "Allmänna villkor för The Water Check | Expected End",
+    "description": "Villkor för att använda appen The Water Check, bland annat om hälsa och säkerhet, AI, regler för Gäng och köp."
+  },
+  "watercheck-health-data": {
+    "title": "Integritetspolicy för konsumenters hälsodata i The Water Check | Expected End",
+    "description": "Hur The Water Check hanterar konsumenters hälsodata, och hur du begär åtkomst eller radering eller överklagar."
+  },
+  "watercheck-delete-account": {
+    "title": "Radera ditt konto | The Water Check",
+    "description": "Så raderar du ditt konto och dina data i The Water Check, i appen eller via mejl."
+  },
+  "watercheck-community": {
+    "title": "Communityriktlinjer | The Water Check",
+    "description": "Så håller sig Gäng i The Water Check vänliga: reglerna, rapportering och blockering, och vad som händer när regler bryts."
+  },
+  "accessibility": {
+    "title": "Tillgänglighet | Expected End",
+    "description": "Expected Ends åtagande för en tillgänglig webbplats."
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens Store | Expected End",
+    "description": "Genomtänkta saker för en närmare vandring med Ordet. MyBibleLens Store öppnar snart."
+  },
+  "watercheck-store": {
+    "title": "The Water Check Store | Expected End",
+    "description": "Vardagsfavoriter med vätska i fokus, från The Water Check. Första droppen kommer snart."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Vätskeapp och gratis kalkylator",
+    "description": "Utforska appen The Water Check och testa en gratis, privat uppskattning av ditt vätskebehov på Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Gratis vätskekalkylator | The Water Check",
+    "description": "Få en gratis, privat uppskattning av ditt dagliga vätskebehov med The Water Checks kalkylator."
+  },
+  "not-found": {
+    "title": "Sidan hittades inte | Expected End",
+    "description": "Den efterfrågade sidan på Expected End kunde inte hittas."
+  }
+}

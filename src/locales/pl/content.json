@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud jest założycielem i full-stack developerem Expected End, MyBibleLens (sanktuarium w aplikacji dla chrześcijan) oraz The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Aplikacja chrześcijańska",
+      "action": "Zobacz aplikację",
+      "tagline": "Sanktuarium w aplikacji dla chrześcijan.",
+      "secondary": "Bio",
+      "badge": "W App Store"
+    },
+    "watercheck": {
+      "category": "Społeczność nawodnienia",
+      "action": "Zobacz aplikację",
+      "tagline": "Zrozum, co pijesz. Twoja własna liczba wody, jednym stuknięciem.",
+      "badge": "W trakcie weryfikacji"
+    },
+    "mybiblelens-store": {
+      "category": "Sklep · Już wkrótce",
+      "action": "Wejdź do sklepu",
+      "tagline": "Wiara, którą możesz nosić."
+    },
+    "watercheck-store": {
+      "category": "Sklep · Już wkrótce",
+      "action": "Wejdź do sklepu",
+      "tagline": "Sprzęt dla Działu Nawodnienia."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Aplikacja o wierze · iOS",
+      "status": "W App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Aplikacja do nawodnienia · iOS",
+      "status": "W trakcie weryfikacji"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens na Androida",
+      "category": "Google Play",
+      "status": "Testy zamknięte"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Nieskończone płótno",
+      "status": "Działa"
+    },
+    "journey-plans": {
+      "name": "Plany Journey",
+      "category": "Plany czytania + pieczęcie",
+      "status": "Działa"
+    },
+    "water-check-crews": {
+      "name": "Ekipy w Water Check",
+      "category": "Nawodnienie w grupie",
+      "status": "Gotowe"
+    },
+    "home-screen-widgets": {
+      "name": "Widżety na ekran główny",
+      "category": "Widżety iOS",
+      "status": "Gotowe"
+    },
+    "hydration-calculator": {
+      "name": "Kalkulator nawodnienia",
+      "category": "Narzędzie webowe",
+      "status": "Działa"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Aplikacja centrum firmy",
+      "status": "W budowie"
+    },
+    "43-language-rollout": {
+      "name": "Wdrożenie w 43 językach",
+      "category": "Lokalizacja",
+      "status": "43 języki"
+    },
+    "mybiblelens-store": {
+      "name": "Sklep MyBibleLens",
+      "category": "Merch",
+      "status": "Już wkrótce"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Strona aplikacji",
+      "status": "Działa"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Strona firmy",
+      "status": "Działa"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Studium Biblii z AI",
+      "status": "Demo AI"
+    },
+    "hidden-art-world": {
+      "name": "Ukryty świat sztuki",
+      "category": "Interaktywna sztuka w sieci",
+      "status": "Easter egg"
+    },
+    "sanctuary-stickers": {
+      "name": "Naklejki sanktuarium",
+      "category": "Zestaw ilustracji",
+      "status": "550+ naklejek"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Film prezentacyjny MyBibleLens",
+      "category": "Film marki",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Rolki o funkcjach",
+      "category": "Seria wideo",
+      "status": "10 filmów"
+    },
+    "look-closer-series": {
+      "name": "Seria Look Closer",
+      "category": "Seria w mediach społecznościowych",
+      "status": "60 postów"
+    },
+    "25-week-campaign": {
+      "name": "Kampania na 25 tygodni",
+      "category": "Plan na Instagram",
+      "status": "100 postów"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Zeszyt ćwiczeń",
+      "status": "33 bloki"
+    },
+    "water-check-store": {
+      "name": "Sklep Water Check",
+      "category": "Merch",
+      "status": "Już wkrótce"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Aplikacje",
+      "body": "Użyteczne, przemyślane produkty projektowane wokół prawdziwych ludzi.",
+      "interest": "Budowa aplikacji lub pomysłu na oprogramowanie"
+    },
+    "02": {
+      "title": "Strony internetowe",
+      "body": "Wyraziste cyfrowe domy, które są przejrzyste, żywe i gościnne.",
+      "interest": "Strona internetowa lub cyfrowe doświadczenie"
+    },
+    "03": {
+      "title": "Systemy AI",
+      "body": "Praktyczna inteligencja, która pomaga pomysłom i zespołom iść naprzód.",
+      "interest": "System AI lub narzędzie do produktywności"
+    },
+    "04": {
+      "title": "Kreacja",
+      "body": "Tożsamość, kierunek i doświadczenia, w których centrum jest sens.",
+      "interest": "Kierunek kreatywny lub projekt graficzny"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Twoje firmowe centrum na miarę. CRM, finanse, projekty, narzędzia dla zespołu i każda funkcja, której będziesz potrzebować w przyszłości, wszystko w jednym miejscu.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automatyzacje",
+      "body": "Zastąp powtarzalną pracę połączonymi procesami, które utrzymują Twoją firmę w ruchu.",
+      "interest": "Automatyzacje"
+    },
+    "07": {
+      "title": "Portale klienta",
+      "body": "Daj klientom lub członkom jedno dopracowane miejsce do kontaktu, rezerwacji, udostępniania plików i śledzenia postępów.",
+      "interest": "Portale klienta"
+    },
+    "08": {
+      "title": "Cyfrowy ratunek",
+      "body": "Napraw, zmodernizuj lub przebuduj oprogramowanie, które przestało służyć Twojej firmie.",
+      "interest": "Cyfrowy ratunek"
+    }
+  }
+}

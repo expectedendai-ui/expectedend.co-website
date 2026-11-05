@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Mga gamit para sa paglalakbay",
+    "headline": "Panatilihing malapit ang mahalaga.",
+    "intro": "Isang maliit na koleksiyon ng makabuluhang gamit para sa mga tala, paalala, at araw-araw na paglakad kasama ang Diyos.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Notebook na may gabay",
+        "kind": "Notebook"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Isang munting paalala",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Malambot na pang-araw-araw na suot",
+        "kind": "Damit"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Para sa malalamig na umaga",
+        "kind": "Damit"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Ang unang drop",
+    "headline": "Uminom ng tubig. Tuloy ang galaw.",
+    "intro": "Mga damit na may diwa ng hydration para sa mga taong laging dumarating, nagre-refill, at nagpapatuloy sa check.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Makulay na pang-araw-araw na essential",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Para pagkatapos ng mahabang lakad",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Ikalawang kulay",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Kalmado at makapal na suot",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigation ng tindahan ng {{store}}",
+    "collection": "Ang koleksiyon"
+  },
+  "hero": {
+    "action": "Tingnan ang unang drop",
+    "mybiblelensArt": "Logo ng tindahan ng MyBibleLens at collage ng sticker",
+    "watercheckArt": "Ang likidong logo bubble ng The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Malapit na",
+    "title": "Ginawa para maging bahagi ng araw mo.",
+    "body": "Ito ang mga unang piraso. Lalabas dito ang mga larawan ng produkto, mga opsiyon, at checkout link kapag handa na ang drop."
+  },
+  "product": {
+    "placeholder": "Placeholder ng produktong {{name}}",
+    "buy": "Bilhin ngayon",
+    "comingSoon": "Malapit na",
+    "comingSoonLabel": "Malapit na ang {{name}}"
+  },
+  "checkout": {
+    "eyebrow": "Hindi kailangan ng account",
+    "title": "Pagbukas nito, simple lang ang checkout.",
+    "body": "Pumili ng piraso, i-tap ang Bilhin ngayon, at mag-check out nang ligtas sa Stripe. Walang store account at walang nakalilitong shopping cart."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Ilalabas ang mga patakaran ng tindahan bago ang unang drop.",
+    "policies": "Mga patakaran ng tindahan",
+    "terms": "Mga Tuntunin",
+    "privacy": "Privacy",
+    "accessibility": "Aksesibilidad",
+    "shipping": "Pagpapadala at pagbabalik (bago ang drop)"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Glem influencerne. Lær hvordan kroppen din faktisk fungerer.",
+    "lead": "Prøv den gratis kalkulatoren uten konto, og utforsk så appen vi bygger for daglig oppfølging.",
+    "appLink": "Utforsk appen ↓",
+    "logoLabel": "Bruk kalkulatoren fra The Water Check"
+  },
+  "intro": {
+    "kicker": "Væskekalkulator",
+    "title": "Start med tallene du kjenner."
+  },
+  "units": {
+    "legend": "Vektenhet",
+    "pounds": "Pund (lb)",
+    "kilograms": "Kilogram (kg)"
+  },
+  "weight": {
+    "labelLb": "Vekt (lbs)",
+    "labelKg": "Vekt (kg)",
+    "valueTextLb": "{{value}} pund",
+    "valueTextKg": "{{value}} kilogram"
+  },
+  "height": {
+    "legend": "Høyde",
+    "feet": "Høyde (ft)",
+    "inches": "Høyde (in)",
+    "centimeters": "Høyde (cm)",
+    "note": "Væskebehovet følger den fettfrie massen, så høyden betyr mest når vekten er høy for kroppsbygningen din."
+  },
+  "activity": {
+    "label": "Daglig aktivitet (minutter)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minutter"
+  },
+  "factors": {
+    "legend": "Faktorer som kan endre væskebehovet",
+    "intro": "Vi bruker bare et tall der det finnes en forsvarlig daglig justering. De andre svarene gjør rådene mer personlige, uten å late som om forskningen støtter en nøyaktig mengde.",
+    "age": {
+      "label": "Alder",
+      "hint": "Alder gir kontekst; den stiller ingen diagnose om overgangsalder."
+    },
+    "lifeStage": {
+      "label": "Livsfase",
+      "hint": "Bruker en åpen justering for graviditet eller melkeproduksjon.",
+      "options": {
+        "standard": "Standard",
+        "pregnant": "Gravid",
+        "breastfeeding": "Ammer"
+      }
+    },
+    "sex": {
+      "label": "Kjønn",
+      "hint": "Valgfritt. Finjusterer beregningen av idealvekt og referanseinntak.",
+      "options": {
+        "unspecified": "Vil ikke oppgi",
+        "woman": "Kvinne",
+        "man": "Mann"
+      }
+    },
+    "luteal": {
+      "label": "Uken før mensen",
+      "hint": "Tar hensyn til væskeansamling og hormonell oppblåsthet i lutealfasen. Det finnes ikke et fast tillegg som gjelder alle."
+    },
+    "heat": {
+      "label": "Varme eller fuktige forhold",
+      "hint": "Råd om varme avhenger av eksponering og svette, ikke bare av hvor du er."
+    }
+  },
+  "result": {
+    "goal": "Ditt daglige mål: {{ounces}} unser",
+    "breakdown": "Slik er det regnet ut",
+    "weightBaseline": "Utgangspunkt fra vekt",
+    "heightAndBuild": "Høyde og kroppsbygning",
+    "sexReference": "Referanse for kjønn",
+    "notSet": "Ikke angitt",
+    "activity": "Justering for aktivitet",
+    "lifeStage": {
+      "standard": "Justering for livsfase",
+      "pregnant": "Justering for graviditet",
+      "breastfeeding": "Justering for amming"
+    },
+    "luteal": "Råd for lutealfasen",
+    "noFixedOunces": "Ingen faste +oz",
+    "electrolytes": "Elektrolyttsjekk",
+    "electrolytesAfterSweat": "Vurder etter kraftig svetting",
+    "electrolytesFromFood": "Maten dekker det vanligvis",
+    "guidance": "Dette er et anslag for voksne, ment for planlegging og informasjon, ikke en diagnose, behandling eller klinisk forskrivning. Mat gir også vann, og behovene varierer fra person til person. Ikke tving i deg væske. Spør helsepersonell om behovene dine hvis du er gravid eller ammer, bruker legemidler som påvirker væskebalansen, har en nyre- eller hjertesykdom, følger en væskerestriksjon eller har bekymringsfulle symptomer."
+  },
+  "equivalents": {
+    "title": "Det tilsvarer omtrent",
+    "cups": "{{value}} kopper",
+    "cupsNote": "8 oz hver",
+    "liters": "{{value}} liter",
+    "litersNote": "metrisk",
+    "bottles": "{{value}} flasker",
+    "bottlesNote": "flasker på 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Spis vannet ditt",
+    "title": "Ikke alt trenger å komme fra et glass.",
+    "copy": "Omtrent en femtedel av vannet de fleste får i seg daglig, kommer fra mat. De fleste typer fersk frukt og grønnsaker består av 70 til 95 prosent vann, og når vannet når blodbanen, gir det deg væske akkurat som en drikke gjør.",
+    "drink": "Drikk",
+    "drinkNote": "{{cups}} kopper vann, te eller melk",
+    "eat": "Spis",
+    "eatNote": "fra vannrik mat",
+    "pickLegend": "Se matandelen som",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: omtrent {{ounces}} oz vann ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "kopper vannmelon",
+      "serving": "1 kopp i terninger",
+      "water": "92 % vann"
+    },
+    "cucumber": {
+      "label": "agurker",
+      "serving": "1 middels stor agurk",
+      "water": "95 % vann"
+    },
+    "strawberries": {
+      "label": "kopper jordbær",
+      "serving": "1 kopp",
+      "water": "91 % vann"
+    },
+    "oranges": {
+      "label": "appelsiner",
+      "serving": "1 middels stor appelsin",
+      "water": "87 % vann"
+    },
+    "salad": {
+      "label": "boller salat",
+      "serving": "2 kopper, blandet",
+      "water": "omtrent 94 % vann"
+    },
+    "soup": {
+      "label": "boller buljongsuppe",
+      "serving": "1 kopp",
+      "water": "omtrent 92 % vann"
+    },
+    "tomatoes": {
+      "label": "tomater",
+      "serving": "1 middels stor tomat",
+      "water": "95 % vann"
+    },
+    "grapes": {
+      "label": "kopper druer",
+      "serving": "1 kopp",
+      "water": "81 % vann"
+    },
+    "peaches": {
+      "label": "ferskener",
+      "serving": "1 middels stor fersken",
+      "water": "89 % vann"
+    },
+    "cantaloupe": {
+      "label": "kopper cantaloupmelon",
+      "serving": "1 kopp i terninger",
+      "water": "90 % vann"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Derfor teller vann fra mat",
+    "title": "Vann fra en vannmelon er det samme vannet.",
+    "sameMolecule": "<strong>Samme molekyl.</strong> H2O fra en agurk og H2O fra springen er identiske. Når vannet har gått fra tarmen over i blodet, sender kroppen det til musklene på samme måte.",
+    "slowRelease": "<strong>Langsom frigjøring.</strong> Vannet i frukt og grønt holdes inne i fibre og cellevegger, så det tas opp mer gradvis enn et glass du drikker i ett jafs, som nyrene gjerne skiller ut raskt.",
+    "electrolytes": "<strong>Kommer med elektrolytter.</strong> Agurk, spinat, melon og bær inneholder kalium og magnesium, mineraler cellene dine bruker for å holde på vann.",
+    "glycogen": "<strong>Drivstoff og lagring på én gang.</strong> Musklene lagrer karbohydrater som glykogen, og hvert gram glykogen lagres sammen med omtrent tre gram vann. Mat som er rik på både vann og karbohydrater, gir deg begge deler.",
+    "caveat": "Du må fortsatt drikke. Mat dekker vanligvis omtrent en femtedel av totalen; resten kommer fra vann og annen drikke. Tørket frukt, nøtter og brød inneholder svært lite vann."
+  },
+  "grace": {
+    "kicker": "Vennlighet mot kroppen",
+    "title": "Et kort ord om å være raus med deg selv",
+    "body": "Speilet og hvordan klærne sitter, kan endre seg på grunn av væskeansamling, fordøyelse, hormoner, søvn og andre normale svingninger. Én oppblåst dag definerer ikke kroppen din. Drikk med omtanke, gi deg selv tid, og la nysgjerrighet erstatte skam. Vedvarende oppblåsthet, hevelser, raske vektendringer eller symptomer som bekymrer deg, fortjener en samtale med helsepersonell."
+  },
+  "overhydration": {
+    "title": "Faren ved å tvinge i seg væske",
+    "kidneys": "Nyrene trenger tid på å skille ut vann. Hvis du under langvarig trening drikker raskere enn du mister væske, kan natriumet i blodet fortynnes, og det kan gi treningsrelatert hyponatremi. Tidlige symptomer kan være hodepine, kvalme, svimmelhet, tretthet eller forvirring. Alvorlige tilfeller kan føre til hevelse i hjernen, krampeanfall, koma og død.",
+    "pacing": "Ikke jag etter dette anslaget ved å helle i deg store mengder på en gang. Fordel drikkingen utover dagen. Tilpass inntaket under trening etter tørst, forholdene og ditt eget svettetap. Søk akutt medisinsk hjelp ved forvirring, krampeanfall, kollaps eller alvorlige symptomer.",
+    "sources": "Kilder: <nih>NIHs retningslinjer for treningsrelatert hyponatremi</nih> og <academies>National Academies' anbefalinger om væske</academies>."
+  },
+  "notes": {
+    "title": "Grunnlaget for tallet ditt",
+    "sexMan": "<strong>Kjønn:</strong> National Academies' referanseinntak er omtrent 3,7 liter vann totalt per dag for menn og 2,7 for kvinner. Kroppsvekt forklarer det meste av forskjellen, så resten vises her som en økning på 4 prosent av utgangspunktet fra vekt, og sjekken av høyde og kroppsbygning bruker idealvektformelen for menn.",
+    "sexWoman": "<strong>Kjønn:</strong> National Academies' referanseinntak er omtrent 3,7 liter vann totalt per dag for menn og 2,7 for kvinner. Kroppsvekt forklarer det meste av forskjellen, så resten vises her som en reduksjon på 4 prosent av utgangspunktet fra vekt, og sjekken av høyde og kroppsbygning bruker idealvektformelen for kvinner.",
+    "height": "<strong>Høyde og kroppsbygning:</strong> Væskebehovet følger den fettfrie massen mer enn totalvekten. Fordi vekten din ligger over det vanlige området for høyden din, bruker anslaget en justert kroppsvekt (idealvekt pluss 40 prosent av differansen), en vanlig klinisk konvensjon. Det er et grovt planleggingstall, ikke en vurdering av kroppen din.",
+    "cycle": "<strong>Syklusfase:</strong> Væskeforskyvninger knyttet til menstruasjonssyklusen er reelle, men studier har ikke påvist en universell, fast økning i unser. Ingen unser ble lagt til automatisk. Vanlige måltider dekker vanligvis elektrolyttene; tilskudd av magnesium eller kalium er ingen generell anbefaling.",
+    "age": "<strong>Alder og overgangsalder:</strong> Alder alene avgjør ikke om du er i overgangsalderen. Hormonelle endringer kan påvirke tørst og væskeregulering, men det finnes ingen validert justering i unser for «over 45», så alderen din endret ikke totalen.",
+    "heat": "<strong>Varme:</strong> Et fast klimatillegg kan under- eller overvurdere behovet ditt. For moderat arbeid i varme i under to timer anbefaler NIOSH omtrent 8 unser hvert 15.–20. minutt; lengre perioder med kraftig svetting krever en individuell plan for væskeerstatning."
+  },
+  "evidence": {
+    "label": "Grunnlag:",
+    "academies": "National Academies: retningslinjer for vanninntak",
+    "harvard": "Harvard Health: mat og væske",
+    "cycle": "Studie av osmoregulering gjennom menstruasjonssyklusen",
+    "menopause": "Oversikt over væskeregulering i overgangsalderen",
+    "niosh": "CDC/NIOSH: retningslinjer for varme"
+  },
+  "tips": {
+    "kicker": "Nyttig, ikke tvangsmessig",
+    "title": "Tre sjekker for hverdagen.",
+    "schedule": {
+      "title": "Rutinen",
+      "body": "Start morgenen med vann, drikk litt til måltidene, og la tørst, vær og aktivitet styre resten."
+    },
+    "electrolytes": {
+      "title": "Elektrolytter",
+      "body": "De fleste får erstattet elektrolytter gjennom vanlige måltider. Velg en balansert elektrolyttdrikk etter langvarig eller kraftig svetting; ikke tilsett salt rutinemessig hvis du har fått beskjed om å begrense natrium."
+    },
+    "visualCheck": {
+      "title": "Fargesjekken",
+      "body": "Lysegul urin kan være ett grovt tegn på god væskebalanse. Mat, vitaminer, legemidler og helsetilstander kan endre fargen, så det er ingen diagnose."
+    }
+  },
+  "author": {
+    "kicker": "Fra han som laget den",
+    "title": "Hvorfor jeg laget dette (og hvorfor du ikke bare bør høre på meg)",
+    "athlete": "Jeg heter Denzel Rigaud. I mer enn ni år løp jeg 400 meter og hekk, så væske ble en del av hvordan jeg trente, restituerte meg og lærte å lese kroppen min.",
+    "purpose": "Jeg laget The Water Check for å hjelpe deg å høre kroppen din gjennom støyen på nettet. Jeg vil ikke at du skal behandle erfaringen min som en resept. Biologien din, omgivelsene dine, sykehistorien din og livsfasen din avgjør hva du trenger.",
+    "technology": "Teknologi er ikke til for at vi skal doomscrolle og leve andres liv. Den skal holde livene våre produktive og styrke ånd, sjel, sinn og kropp, så vi blir den beste versjonen av den vi vil være. Så slutt å høre på alle andre, for det som fungerer for deg, fungerer for deg.",
+    "faith": "Lær mønstrene dine, og ta medisinske bekymringer med kvalifisert helsepersonell. Å ta vare på kroppen din kan bringe deg nærmere deg selv og nærmere Gud, som har lagt en gnist i hver av oss som er verdt å ta vare på.",
+    "motto": "Ikke følg influencere. Bli kjent med deg selv.",
+    "date": "15. mars 2021",
+    "founderPage": "Gründersiden"
+  },
+  "community": {
+    "kicker": "Hold det menneskelig",
+    "title": "Bli med i det ekte fellesskapet.",
+    "instagram": "Følg @thewatercheck på Instagram",
+    "reelSoon": "Instagram-reel kommer snart",
+    "story": "Historie fra fellesskapet {{position}}"
+  }
+}

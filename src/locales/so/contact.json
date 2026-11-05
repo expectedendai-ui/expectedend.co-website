@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "La xidhiidh Expected End",
+    "title": "Ku bilow <em>xog yar.</em>",
+    "intro": "Dooro dhawr faahfaahin, waxaana laguu diyaarinayaa iimayl cad. Abka iimaylkaagu wuu furmayaa ka hor inta aan waxba la dirin."
+  },
+  "fields": {
+    "name": "Magacaaga",
+    "email": "Iimaylkaaga",
+    "reason": "Maxay tani ku saabsan tahay?",
+    "project": "Mashruucee?",
+    "priceRange": "Xadka qiimaha",
+    "timeline": "Wakhtiga ku habboon",
+    "discovery": "Sidee ku heshay Expected End?",
+    "message": "Maxaad maskaxda ku haysaa?",
+    "chooseOne": "Mid dooro"
+  },
+  "reasons": {
+    "partnership": "Iskaashi ama wada shaqayn",
+    "press": "Saxaafad ama warbaahin",
+    "general": "Su'aal guud"
+  },
+  "projects": {
+    "waterCheckCommunity": "Bulshada The Water Check",
+    "newIdea": "Fikrad cusub"
+  },
+  "timelines": {
+    "exploring": "Kaliya waan eegayaa",
+    "month": "Hal bil gudihiis",
+    "threeMonths": "Saddex bilood gudahood",
+    "laterThisYear": "Goor dambe sannadkan",
+    "notSure": "Weli ma hubo"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Bulshada The Water Check",
+    "search": "Raadin",
+    "referral": "Qof ayaa ii soo jeediyay",
+    "elsewhere": "Meel kale"
+  },
+  "submit": {
+    "note": "Waxba lama dirayo ilaa aad dib u eegto oo aad riixdo Dir abka iimaylkaaga.",
+    "apps": "Dooro <app>abka iimaylkaaga</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, ama <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Diyaari iimaylka"
+  },
+  "dialog": {
+    "close": "Xidh foomka xidhiidhka"
+  }
+}

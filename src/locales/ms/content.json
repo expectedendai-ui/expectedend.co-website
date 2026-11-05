@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud ialah pengasas dan pembangun full-stack di sebalik Expected End, MyBibleLens (Aplikasi Sanctuary untuk Kristian) dan The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Aplikasi Kristian",
+      "action": "Lawati aplikasi",
+      "tagline": "Aplikasi Sanctuary untuk Kristian.",
+      "secondary": "Bio",
+      "badge": "Di App Store"
+    },
+    "watercheck": {
+      "category": "Komuniti penghidratan",
+      "action": "Lawati aplikasi",
+      "tagline": "Fahami apa yang anda minum. Jumlah air anda sendiri, dengan satu ketikan.",
+      "badge": "Dalam semakan"
+    },
+    "mybiblelens-store": {
+      "category": "Kedai · Akan datang",
+      "action": "Masuk kedai",
+      "tagline": "Iman yang boleh anda pakai."
+    },
+    "watercheck-store": {
+      "category": "Kedai · Akan datang",
+      "action": "Masuk kedai",
+      "tagline": "Kelengkapan untuk Jabatan Penghidratan."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Aplikasi iman · iOS",
+      "status": "Di App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Aplikasi penghidratan · iOS",
+      "status": "Dalam semakan"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens untuk Android",
+      "category": "Google Play",
+      "status": "Ujian tertutup"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Kanvas tanpa had",
+      "status": "Sudah dilancarkan"
+    },
+    "journey-plans": {
+      "name": "Pelan Journey",
+      "category": "Pelan bacaan + meterai",
+      "status": "Sudah dilancarkan"
+    },
+    "water-check-crews": {
+      "name": "Geng Water Check",
+      "category": "Penghidratan berpasukan",
+      "status": "Siap dibina"
+    },
+    "home-screen-widgets": {
+      "name": "Widget Skrin Utama",
+      "category": "Widget iOS",
+      "status": "Siap dibina"
+    },
+    "hydration-calculator": {
+      "name": "Kalkulator penghidratan",
+      "category": "Alat web",
+      "status": "Sudah dilancarkan"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Aplikasi ibu pejabat perniagaan",
+      "status": "Dalam pembangunan"
+    },
+    "43-language-rollout": {
+      "name": "Pelancaran 43 bahasa",
+      "category": "Penyetempatan",
+      "status": "43 bahasa"
+    },
+    "mybiblelens-store": {
+      "name": "Kedai MyBibleLens",
+      "category": "Barangan",
+      "status": "Akan datang"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Laman web aplikasi",
+      "status": "Sudah dilancarkan"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Laman web syarikat",
+      "status": "Sudah dilancarkan"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Pembelajaran Alkitab dengan AI",
+      "status": "Demo AI"
+    },
+    "hidden-art-world": {
+      "name": "Dunia seni tersembunyi",
+      "category": "Seni web interaktif",
+      "status": "Kejutan tersembunyi"
+    },
+    "sanctuary-stickers": {
+      "name": "Pelekat Sanctuary",
+      "category": "Set ilustrasi",
+      "status": "550+ pelekat"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Filem pitch MyBibleLens",
+      "category": "Filem jenama",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Reel ciri",
+      "category": "Siri video",
+      "status": "10 video"
+    },
+    "look-closer-series": {
+      "name": "Siri Look Closer",
+      "category": "Siri media sosial",
+      "status": "60 hantaran"
+    },
+    "25-week-campaign": {
+      "name": "Kempen 25 minggu",
+      "category": "Pelan Instagram",
+      "status": "100 hantaran"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Buku kerja",
+      "status": "33 blok"
+    },
+    "water-check-store": {
+      "name": "Kedai Water Check",
+      "category": "Barangan",
+      "status": "Akan datang"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Aplikasi",
+      "body": "Produk yang berguna dan teliti, direka untuk manusia sebenar.",
+      "interest": "Membina idea aplikasi atau perisian"
+    },
+    "02": {
+      "title": "Laman web",
+      "body": "Rumah digital yang tersendiri, terasa jelas, hidup dan mesra.",
+      "interest": "Laman web atau pengalaman digital"
+    },
+    "03": {
+      "title": "Sistem AI",
+      "body": "Kecerdasan praktikal yang membantu idea dan pasukan bergerak ke hadapan.",
+      "interest": "Sistem AI atau alat produktiviti"
+    },
+    "04": {
+      "title": "Kreatif",
+      "body": "Identiti, hala tuju dan pengalaman yang berteraskan makna.",
+      "interest": "Hala tuju kreatif atau reka bentuk"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Rumah perniagaan tersuai anda. CRM, kewangan, projek, alat pasukan dan apa sahaja keupayaan yang anda perlukan seterusnya, semuanya di satu tempat.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automasi",
+      "body": "Gantikan kerja berulang dengan aliran kerja bersambung yang memastikan perniagaan anda terus bergerak.",
+      "interest": "Automasi"
+    },
+    "07": {
+      "title": "Portal Pelanggan",
+      "body": "Beri pelanggan atau ahli satu tempat yang kemas untuk berkomunikasi, membuat tempahan, berkongsi fail dan menjejak kemajuan.",
+      "interest": "Portal Pelanggan"
+    },
+    "08": {
+      "title": "Penyelamat Digital",
+      "body": "Baiki, modenkan atau bina semula perisian yang tidak lagi sesuai untuk perniagaan anda.",
+      "interest": "Penyelamat Digital"
+    }
+  }
+}

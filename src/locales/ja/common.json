@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "このページは見つかりません。",
+    "home": "ホームに戻る"
+  },
+  "legal": {
+    "englishOnly": "このページは英語で表示されており、英語版が優先されます。",
+    "effective": "施行日：{{date}}",
+    "onThisPage": "このページの内容",
+    "related": "関連ページ"
+  }
+}

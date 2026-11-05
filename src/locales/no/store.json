@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Ting for reisen",
+    "headline": "Hold det viktige nær.",
+    "intro": "En liten kolleksjon gjennomtenkte ting for notater, påminnelser og den daglige vandringen med Gud.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Veiledet notatbok",
+        "kind": "Notatbok"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "En liten påminnelse",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Mykt lag til hverdags",
+        "kind": "Klær"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "For kjøligere morgener",
+        "kind": "Klær"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Den første dråpen",
+    "headline": "Drikk vann. Hold deg i bevegelse.",
+    "intro": "Klær med væske i tankene, for dem som møter opp, fyller på og holder sjekken i gang.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "En lys hverdagsfavoritt",
+        "kind": "T-skjorte"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Til etter den lange turen",
+        "kind": "Hettegenser"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "En ekstra fargevariant",
+        "kind": "T-skjorte"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Et rolig, tykt lag",
+        "kind": "Hettegenser"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigasjon for {{store}} Store",
+    "collection": "Kolleksjonen"
+  },
+  "hero": {
+    "action": "Utforsk det første slippet",
+    "mybiblelensArt": "Logo for MyBibleLens Store og klistremerkekollasj",
+    "watercheckArt": "Den flytende logoboblen til The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Kommer snart",
+    "title": "Laget for å bli en del av dagen din.",
+    "body": "Dette er de første plaggene og tingene. Produktbilder, valg og lenker til kassen dukker opp her når slippet er klart."
+  },
+  "product": {
+    "placeholder": "Plassholder for {{name}}",
+    "buy": "Kjøp nå",
+    "comingSoon": "Kommer snart",
+    "comingSoonLabel": "{{name}} kommer snart"
+  },
+  "checkout": {
+    "eyebrow": "Ingen konto nødvendig",
+    "title": "Når butikken åpner, er kassen enkel.",
+    "body": "Velg en ting, trykk på Kjøp nå og betal trygt via Stripe. Ingen butikkonto og ingen handlekurvlabyrint."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Butikkens vilkår publiseres før det første slippet.",
+    "policies": "Butikkvilkår",
+    "terms": "Vilkår",
+    "privacy": "Personvern",
+    "accessibility": "Tilgjengelighet",
+    "shipping": "Frakt og retur (før slippet)"
+  }
+}

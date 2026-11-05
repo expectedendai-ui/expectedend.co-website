@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Contact met Expected End",
+    "title": "Begin met een beetje <em>context.</em>",
+    "intro": "Kies een paar details en er staat een duidelijke e-mail voor je klaar. Je e-mailapp opent voordat er iets wordt verzonden."
+  },
+  "fields": {
+    "name": "Je naam",
+    "email": "Je e-mailadres",
+    "reason": "Waar gaat het over?",
+    "project": "Welk project?",
+    "priceRange": "Prijsklasse",
+    "timeline": "Gewenste planning",
+    "discovery": "Hoe heb je Expected End gevonden?",
+    "message": "Wat heb je in gedachten?",
+    "chooseOne": "Kies er een"
+  },
+  "reasons": {
+    "partnership": "Partnerschap of samenwerking",
+    "press": "Pers of media",
+    "general": "Algemene vraag"
+  },
+  "projects": {
+    "waterCheckCommunity": "De community van The Water Check",
+    "newIdea": "Een nieuw idee"
+  },
+  "timelines": {
+    "exploring": "Ik oriënteer me nog",
+    "month": "Binnen een maand",
+    "threeMonths": "Binnen drie maanden",
+    "laterThisYear": "Later dit jaar",
+    "notSure": "Weet ik nog niet"
+  },
+  "discovery": {
+    "waterCheckCommunity": "De community van The Water Check",
+    "search": "Zoekmachine",
+    "referral": "Via een aanbeveling",
+    "elsewhere": "Ergens anders"
+  },
+  "submit": {
+    "note": "Er wordt niets verzonden tot je het hebt nagekeken en in je e-mailapp op Verzenden drukt.",
+    "apps": "Kies <app>je e-mailapp</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> of <yahoo>Yahoo Mail</yahoo>.",
+    "button": "E-mail klaarzetten"
+  },
+  "dialog": {
+    "close": "Contactformulier sluiten"
+  }
+}

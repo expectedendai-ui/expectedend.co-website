@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "主导航",
+    "projects": "项目",
+    "services": "服务",
+    "company": "使命 · 关于 · 媒体",
+    "contact": "联系",
+    "home": "Expected End 首页",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "links": {
+      "projects": "项目",
+      "services": "服务",
+      "story": "故事",
+      "about": "关于",
+      "press": "媒体",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "页脚导航",
+    "home": "首页",
+    "about": "关于",
+    "press": "媒体",
+    "terms": "使用条款",
+    "privacy": "隐私声明",
+    "accessibility": "无障碍",
+    "contact": "联系",
+    "mission": "我在这家公司打造的一切，都指向同一个使命：让人们更亲近上帝，并帮助他们借助科技，用心地生活、创造、去爱和服事。这就是我正在努力奔向的“末后的指望”。",
+    "verse": "耶利米书 29:11",
+    "copyright": "© 2026 EXPECTED END LLC。保留所有权利。",
+    "blessing": "耶稣爱你。"
+  }
+}

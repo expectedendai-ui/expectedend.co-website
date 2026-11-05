@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "ਸਫ਼ਰ ਦੇ ਸਾਥੀ",
+    "headline": "ਜੋ ਜ਼ਰੂਰੀ ਹੈ, ਉਸ ਨੂੰ ਕੋਲ ਰੱਖੋ।",
+    "intro": "ਨੋਟਸ, ਯਾਦ-ਦਹਾਨੀਆਂ ਅਤੇ ਪਰਮੇਸ਼ੁਰ ਨਾਲ ਰੋਜ਼ ਦੀ ਚਾਲ ਲਈ ਬਣੀਆਂ, ਸੋਚ-ਸਮਝ ਕੇ ਚੁਣੀਆਂ ਚੀਜ਼ਾਂ ਦਾ ਇੱਕ ਛੋਟਾ ਜਿਹਾ ਕਲੈਕਸ਼ਨ।",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "ਗਾਈਡਡ ਨੋਟਬੁੱਕ",
+        "kind": "ਨੋਟਬੁੱਕ"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "ਇੱਕ ਛੋਟੀ ਜਿਹੀ ਯਾਦ",
+        "kind": "ਪਿੰਨ"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "ਰੋਜ਼ ਪਹਿਨਣ ਵਾਲੀ ਨਰਮ ਟੀ",
+        "kind": "ਕੱਪੜੇ"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "ਠੰਢੀਆਂ ਸਵੇਰਾਂ ਲਈ",
+        "kind": "ਕੱਪੜੇ"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "ਪਹਿਲਾ ਡ੍ਰੌਪ",
+    "headline": "ਪਾਣੀ ਪੀਓ। ਚੱਲਦੇ ਰਹੋ।",
+    "intro": "ਉਨ੍ਹਾਂ ਲੋਕਾਂ ਲਈ ਹਾਈਡ੍ਰੇਸ਼ਨ ਤੋਂ ਪ੍ਰੇਰਿਤ ਕੱਪੜੇ, ਜੋ ਹਰ ਰੋਜ਼ ਆਉਂਦੇ ਹਨ, ਬੋਤਲ ਮੁੜ ਭਰਦੇ ਹਨ ਅਤੇ ਚੈੱਕ ਜਾਰੀ ਰੱਖਦੇ ਹਨ।",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "ਰੋਜ਼ ਲਈ ਇੱਕ ਚਮਕਦਾਰ ਜ਼ਰੂਰੀ ਚੀਜ਼",
+        "kind": "ਟੀ-ਸ਼ਰਟ"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "ਲੰਬੀ ਸੈਰ ਤੋਂ ਬਾਅਦ ਲਈ",
+        "kind": "ਹੂਡੀ"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "ਇੱਕ ਹੋਰ ਰੰਗ ਵਿੱਚ",
+        "kind": "ਟੀ-ਸ਼ਰਟ"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "ਸਕੂਨ ਭਰੀ, ਮੋਟੇ ਕੱਪੜੇ ਦੀ ਪਰਤ",
+        "kind": "ਹੂਡੀ"
+      }
+    }
+  },
+  "nav": {
+    "label": "{{store}} ਸਟੋਰ ਨੈਵੀਗੇਸ਼ਨ",
+    "collection": "ਕਲੈਕਸ਼ਨ"
+  },
+  "hero": {
+    "action": "ਪਹਿਲਾ ਡ੍ਰੌਪ ਦੇਖੋ",
+    "mybiblelensArt": "MyBibleLens ਸਟੋਰ ਦਾ ਲੋਗੋ ਅਤੇ ਸਟਿਕਰ ਕੋਲਾਜ",
+    "watercheckArt": "The Water Check ਦਾ ਪਾਣੀ ਵਰਗਾ ਲੋਗੋ ਬੁਲਬੁਲਾ"
+  },
+  "collection": {
+    "eyebrow": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ",
+    "title": "ਤੁਹਾਡੇ ਦਿਨ ਦਾ ਹਿੱਸਾ ਬਣਨ ਲਈ ਬਣਿਆ।",
+    "body": "ਇਹ ਪਹਿਲੇ ਪੀਸ ਹਨ। ਡ੍ਰੌਪ ਤਿਆਰ ਹੋਣ 'ਤੇ ਪ੍ਰੋਡਕਟ ਦੀਆਂ ਤਸਵੀਰਾਂ, ਵਿਕਲਪ ਅਤੇ ਚੈੱਕਆਊਟ ਲਿੰਕ ਇੱਥੇ ਦਿਸਣਗੇ।"
+  },
+  "product": {
+    "placeholder": "{{name}} ਦੀ ਪਲੇਸਹੋਲਡਰ ਤਸਵੀਰ",
+    "buy": "ਹੁਣੇ ਖ਼ਰੀਦੋ",
+    "comingSoon": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ",
+    "comingSoonLabel": "{{name}} ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ"
+  },
+  "checkout": {
+    "eyebrow": "ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ",
+    "title": "ਸਟੋਰ ਖੁੱਲ੍ਹਣ 'ਤੇ ਚੈੱਕਆਊਟ ਸੌਖਾ ਰਹੇਗਾ।",
+    "body": "ਕੋਈ ਪੀਸ ਚੁਣੋ, ਹੁਣੇ ਖ਼ਰੀਦੋ 'ਤੇ ਟੈਪ ਕਰੋ, ਅਤੇ Stripe ਰਾਹੀਂ ਸੁਰੱਖਿਅਤ ਚੈੱਕਆਊਟ ਕਰੋ। ਨਾ ਸਟੋਰ ਖਾਤਾ, ਨਾ ਸ਼ਾਪਿੰਗ ਕਾਰਟ ਦੀ ਭੁੱਲ-ਭੁਲੱਈਆ।"
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. ਪਹਿਲੇ ਡ੍ਰੌਪ ਤੋਂ ਪਹਿਲਾਂ ਸਟੋਰ ਨੀਤੀਆਂ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤੀਆਂ ਜਾਣਗੀਆਂ।",
+    "policies": "ਸਟੋਰ ਨੀਤੀਆਂ",
+    "terms": "ਸ਼ਰਤਾਂ",
+    "privacy": "ਗੋਪਨੀਯਤਾ",
+    "accessibility": "ਪਹੁੰਚਯੋਗਤਾ",
+    "shipping": "ਸ਼ਿਪਿੰਗ ਅਤੇ ਰਿਟਰਨ (ਡ੍ਰੌਪ ਤੋਂ ਪਹਿਲਾਂ)"
+  }
+}

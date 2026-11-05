@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected End에 문의하기",
+    "title": "간단한 <em>배경</em>부터 알려 주세요.",
+    "intro": "몇 가지만 고르면 깔끔한 이메일이 준비돼요. 무엇이든 보내기 전에 이메일 앱이 먼저 열려요."
+  },
+  "fields": {
+    "name": "이름",
+    "email": "이메일",
+    "reason": "어떤 내용인가요?",
+    "project": "어떤 프로젝트인가요?",
+    "priceRange": "예산 범위",
+    "timeline": "희망 일정",
+    "discovery": "Expected End를 어떻게 알게 되셨나요?",
+    "message": "어떤 생각을 하고 계신가요?",
+    "chooseOne": "하나를 선택하세요"
+  },
+  "reasons": {
+    "partnership": "파트너십 또는 협업",
+    "press": "보도 또는 미디어",
+    "general": "일반 문의"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check 커뮤니티",
+    "newIdea": "새로운 아이디어"
+  },
+  "timelines": {
+    "exploring": "그냥 알아보는 중",
+    "month": "한 달 이내",
+    "threeMonths": "세 달 이내",
+    "laterThisYear": "올해 안에 언젠가",
+    "notSure": "아직 모르겠어요"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check 커뮤니티",
+    "search": "검색",
+    "referral": "지인 추천",
+    "elsewhere": "기타"
+  },
+  "submit": {
+    "note": "직접 확인하고 이메일 앱에서 보내기를 누르기 전까지는 아무것도 전송되지 않아요.",
+    "apps": "<app>이메일 앱</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, <yahoo>Yahoo Mail</yahoo> 중에서 고르세요.",
+    "button": "이메일 준비하기"
+  },
+  "dialog": {
+    "close": "문의 양식 닫기"
+  }
+}

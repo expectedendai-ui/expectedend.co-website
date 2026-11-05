@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Wala dinhi ang maong panid.",
+    "home": "Balik sa home"
+  },
+  "legal": {
+    "englishOnly": "Kini nga panid gipakita sa Iningles, ug ang bersyon sa Iningles ang masunod.",
+    "effective": "Epektibo sukad {{date}}",
+    "onThisPage": "Niini nga panid",
+    "related": "Mga may kalabotan nga panid"
+  }
+}

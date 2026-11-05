@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kapcsolat az Expected Enddel",
+    "title": "Kezdje egy kis <em>háttérrel.</em>",
+    "intro": "Válasszon ki néhány részletet, és elkészítünk Önnek egy világos e-mailt. A levelezőalkalmazása megnyílik, mielőtt bármi elmenne."
+  },
+  "fields": {
+    "name": "Az Ön neve",
+    "email": "Az Ön e-mail-címe",
+    "reason": "Miről van szó?",
+    "project": "Melyik projekt?",
+    "priceRange": "Árkategória",
+    "timeline": "Ideális időkeret",
+    "discovery": "Hogyan talált rá az Expected Endre?",
+    "message": "Mire gondolt?",
+    "chooseOne": "Válasszon egyet"
+  },
+  "reasons": {
+    "partnership": "Partnerség vagy együttműködés",
+    "press": "Sajtó vagy média",
+    "general": "Általános kérdés"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check közösség",
+    "newIdea": "Egy új ötlet"
+  },
+  "timelines": {
+    "exploring": "Csak nézelődöm",
+    "month": "Egy hónapon belül",
+    "threeMonths": "Három hónapon belül",
+    "laterThisYear": "Az év későbbi részében",
+    "notSure": "Még nem tudom"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check közösség",
+    "search": "Keresés",
+    "referral": "Ajánlás",
+    "elsewhere": "Máshol"
+  },
+  "submit": {
+    "note": "Semmi sem megy el, amíg át nem nézi, és meg nem nyomja a Küldés gombot a levelezőalkalmazásában.",
+    "apps": "Válasszon: <app>saját levelezőalkalmazás</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> vagy <yahoo>Yahoo Mail</yahoo>.",
+    "button": "E-mail előkészítése"
+  },
+  "dialog": {
+    "close": "Kapcsolatfelvételi űrlap bezárása"
+  }
+}

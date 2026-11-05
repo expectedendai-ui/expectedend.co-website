@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Contatta Expected End",
+    "title": "Parti da un po’ di <em>contesto.</em>",
+    "intro": "Scegli qualche dettaglio e ti prepariamo un’email chiara. La tua app di posta si apre prima che venga inviato qualcosa."
+  },
+  "fields": {
+    "name": "Il tuo nome",
+    "email": "La tua email",
+    "reason": "Di cosa si tratta?",
+    "project": "Quale progetto?",
+    "priceRange": "Fascia di prezzo",
+    "timeline": "Tempistica ideale",
+    "discovery": "Come hai conosciuto Expected End?",
+    "message": "Che cosa hai in mente?",
+    "chooseOne": "Scegli un’opzione"
+  },
+  "reasons": {
+    "partnership": "Partnership o collaborazione",
+    "press": "Stampa o media",
+    "general": "Domanda generale"
+  },
+  "projects": {
+    "waterCheckCommunity": "La community di The Water Check",
+    "newIdea": "Una nuova idea"
+  },
+  "timelines": {
+    "exploring": "Sto solo esplorando",
+    "month": "Entro un mese",
+    "threeMonths": "Entro tre mesi",
+    "laterThisYear": "Più avanti quest’anno",
+    "notSure": "Non lo so ancora"
+  },
+  "discovery": {
+    "waterCheckCommunity": "La community di The Water Check",
+    "search": "Ricerca online",
+    "referral": "Passaparola",
+    "elsewhere": "Altrove"
+  },
+  "submit": {
+    "note": "Non viene inviato nulla finché non controlli il messaggio e premi Invia nella tua app di posta.",
+    "apps": "Scegli <app>la tua app di posta</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> o <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Prepara l’email"
+  },
+  "dialog": {
+    "close": "Chiudi il modulo di contatto"
+  }
+}

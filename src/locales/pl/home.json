@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, założyciel Expected End",
+    "stats": {
+      "projects": "ZREALIZOWANYCH PROJEKTÓW",
+      "languages": "JĘZYKI",
+      "appStore": "W APP STORE"
+    },
+    "eyebrow": "Twoja droga ku <em>przyszłości i nadziei</em>",
+    "title": "Cel, <break/>pięknie <break/>zbudowany.",
+    "intro": "Expected End tworzy przemyślane oprogramowanie, narzędzia do produktywności, cyfrowe doświadczenia i społeczności, które w ciekawy i prosty sposób przybliżają ludzi do Boga!",
+    "cta": "Zobacz realizacje",
+    "lensHint": "Porusz kursorem, aby przeczytać kod"
+  },
+  "projects": {
+    "eyebrow": "01 / Projekty",
+    "title": "Dwie aplikacje w App Store. <break/><em>Android już wkrótce.</em>",
+    "visit": "Odwiedź {{name}}",
+    "android": "Android już wkrótce",
+    "bio": "Bio",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Za kulisami",
+    "title": "Każdy produkt tutaj zaczął się od pytania w <em>piątej klasie podstawówki.</em>",
+    "lead": "Między tamtym pytaniem a tymi aplikacjami była żałoba, wiara i wiele nieprzespanych nocy. Reszta historii ma swoją osobną stronę.",
+    "cta": "Przeczytaj historię"
+  },
+  "proof": {
+    "caption": "Zrealizowane projekty",
+    "eyebrow": "03 / Dowody pracy",
+    "title": "Zbudowane od zera. <em>Praca mówi sama za siebie.</em>",
+    "lead": "Aplikacje, strony internetowe, narzędzia AI, filmy i kampanie, zaprojektowane, zakodowane i wdrożone we własnym zakresie. Oto część z nich.",
+    "stats": {
+      "apps": "<strong>2 aplikacje</strong> w App Store",
+      "languages": "<strong>43 języki</strong> w MyBibleLens",
+      "years": "<strong>10 lat</strong> pisania kodu",
+      "inHouse": "<strong>Od pomysłu do premiery</strong>, wszystko we własnym zakresie"
+    },
+    "bigline": "<count>20+</count> PROJEKTÓW <star>✦</star> ZBUDOWANYCH <star>✦</star> WDROŻONYCH <star>✦</star> DZIAŁAJĄCYCH <star>✦</star>",
+    "rows": {
+      "products": "Aplikacje i produkty",
+      "creative": "Strony, AI i praca kreatywna"
+    },
+    "next": "Twój projekt może być <em>następny.</em>",
+    "cta": "Zacznij swój"
+  },
+  "services": {
+    "eyebrow": "04 / Wybrane usługi",
+    "title": "Ty marzysz, <em>ja buduję.</em>",
+    "lead": "Najpierw własne produkty. Gdy wszystko do siebie pasuje, ta sama staranność trafia do wybranych projektów dla innych.",
+    "note": "Przy każdym zapytaniu podaj przedział cenowy i napisz w wiadomości, czy potrzebna jest umowa o zachowaniu poufności (NDA).",
+    "count": "Usługa {{number}} / {{total}}",
+    "start": "Zacznij ten projekt"
+  }
+}

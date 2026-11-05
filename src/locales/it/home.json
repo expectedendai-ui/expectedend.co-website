@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, fondatore di Expected End",
+    "stats": {
+      "projects": "PROGETTI REALIZZATI",
+      "languages": "LINGUE",
+      "appStore": "SU APP STORE"
+    },
+    "eyebrow": "La porta verso <em>l’avvenire che speri</em>",
+    "title": "Uno scopo, <break/>costruito <break/>con eleganza.",
+    "intro": "Expected End crea software curati, strumenti di produttività, esperienze digitali e community che avvicinano le persone a Dio in modi entusiasmanti e semplici!",
+    "cta": "Guarda i progetti",
+    "lensHint": "Muovi il cursore per leggere il codice"
+  },
+  "projects": {
+    "eyebrow": "01 / Progetti",
+    "title": "Due app su App Store. <break/><em>Android in arrivo.</em>",
+    "visit": "Visita {{name}}",
+    "android": "Android in arrivo",
+    "bio": "Bio",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Dietro il lavoro",
+    "title": "Ogni prodotto qui è nato da una domanda in una <em>classe di quinta elementare.</em>",
+    "lead": "Tra quella domanda e queste app ci sono stati il lutto, la fede e tante notti in bianco. Il resto della storia ha una pagina tutta sua.",
+    "cta": "Leggi la storia"
+  },
+  "proof": {
+    "caption": "Progetti realizzati",
+    "eyebrow": "03 / Prove concrete",
+    "title": "Costruito da zero. <em>Il lavoro parla da sé.</em>",
+    "lead": "App, siti web, strumenti di IA, film e campagne, progettati, programmati e lanciati internamente. Eccone una parte.",
+    "stats": {
+      "apps": "<strong>2 app</strong> su App Store",
+      "languages": "<strong>43 lingue</strong> in MyBibleLens",
+      "years": "<strong>10 anni</strong> di codice",
+      "inHouse": "<strong>Dall’idea al lancio</strong>, tutto internamente"
+    },
+    "bigline": "<count>20+</count> PROGETTI <star>✦</star> REALIZZATI <star>✦</star> LANCIATI <star>✦</star> ONLINE <star>✦</star>",
+    "rows": {
+      "products": "App e prodotti",
+      "creative": "Siti web, IA e lavoro creativo"
+    },
+    "next": "Il tuo progetto potrebbe essere il <em>prossimo.</em>",
+    "cta": "Inizia il tuo"
+  },
+  "services": {
+    "eyebrow": "04 / Servizi selezionati",
+    "title": "Tu lo sogni, <em>io lo costruisco.</em>",
+    "lead": "Prima vengono i prodotti. Quando c’è la giusta intesa, la stessa cura va in lavori selezionati per altri.",
+    "note": "Indica una fascia di prezzo in tutte le richieste e specifica nel messaggio se serve un NDA (accordo di riservatezza).",
+    "count": "Servizio {{number}} / {{total}}",
+    "start": "Inizia questo progetto"
+  }
+}

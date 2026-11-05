@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "보도 및 미디어",
+    "title": "Expected End 보도 자료.",
+    "intro": "Expected End와 창업자 Denzel Rigaud 보도를 위한 공식 약력, 검증된 사실, 다운로드 가능한 미디어.",
+    "downloadPortrait": "인물 사진 다운로드"
+  },
+  "inquiry": "취재 문의하기",
+  "role": "창업자 겸 풀스택 개발자",
+  "portrait": {
+    "alt": "네이비 정장에 오렌지 틴트 안경을 쓴 Denzel Rigaud"
+  },
+  "contents": {
+    "label": "보도 페이지 섹션",
+    "kit": "프레스 키트 / 2026",
+    "biographies": "약력",
+    "facts": "검증된 사실",
+    "projects": "프로젝트",
+    "licensing": "미디어 이용"
+  },
+  "bios": {
+    "kicker": "공식 문구",
+    "title": "약력",
+    "text": "아래 버전은 편집 보도용으로 인용하거나 수정해 사용할 수 있습니다.",
+    "shortLabel": "짧은 약력 / 24단어",
+    "fullLabel": "전체 약력",
+    "fullFirst": "Denzel Rigaud는 EXPECTEDEND LLC를 설립하고 MyBibleLens와 The Water Check를 독립적으로 만들었습니다. 회사의 풀스택 개발자로서 콘셉트부터 디자인, 엔지니어링, 출시까지 각 제품을 직접 만들어 갑니다.",
+    "fullSecond": "그의 작업은 신앙 중심 소프트웨어, 디지털 웰빙, 그리고 사람들이 목적을 가지고 기술을 사용하도록 돕는 실용적인 도구에 초점을 맞춥니다. MyBibleLens는 기독교를 위한 성소 앱입니다. The Water Check는 비공개 수분 추정치, 실용적인 물 마시기 습관, 그리고 매일의 꾸준함에 집중하는 커뮤니티를 하나로 묶었습니다."
+  },
+  "facts": {
+    "kicker": "팩트 시트",
+    "title": "검증된 사실",
+    "text": "프로필, 기사, 캡션, 데이터베이스에 쓰는 공식 정보.",
+    "company": "회사",
+    "founder": "창업자",
+    "role": "역할",
+    "products": "제품",
+    "productsValue": "MyBibleLens와 The Water Check",
+    "website": "공식 웹사이트",
+    "profile": "창업자 프로필",
+    "entityLabel": "Wikidata의 {{name}}"
+  },
+  "projects": {
+    "kicker": "제품",
+    "title": "작업",
+    "text": "Expected End에서 독립적으로 만든 두 가지 제품.",
+    "mybiblelens": {
+      "alt": "MyBibleLens 앱 아이콘",
+      "kicker": "신앙 중심 소프트웨어",
+      "text": "기독교 성소 앱.",
+      "visit": "MyBibleLens 방문하기"
+    },
+    "watercheck": {
+      "alt": "The Water Check 앱 아이콘",
+      "kicker": "수분과 커뮤니티",
+      "text": "비공개 수분 추정치, 실용적인 물 마시기 습관, 그리고 커뮤니티.",
+      "visit": "The Water Check 방문하기"
+    }
+  },
+  "license": {
+    "kicker": "미디어 이용",
+    "title": "창업자 인물 사진",
+    "text": "이 인물 사진은 <license>크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0</license> 라이선스에 따라 공유하고 수정할 수 있습니다. 출처 표기: Denzel Rigaud / Expected End. 수정본에도 같은 라이선스를 적용해야 합니다.",
+    "download": "창업자 인물 사진 다운로드"
+  },
+  "contact": {
+    "kicker": "보도 문의",
+    "title": "인터뷰, 인용, 추가 자료가 필요하신가요?"
+  }
+}

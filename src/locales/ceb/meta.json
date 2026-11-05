@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Katuyoan, gitukod nga matahom",
+    "description": "Ang Expected End naghimo og maampingong software, productivity tool, digital experience, ug mga komunidad."
+  },
+  "about": {
+    "title": "Bahin | Expected End",
+    "description": "Ang istorya sa founder nga si Denzel Rigaud, ang misyon sa luyo sa Expected End, ug ang mga proyekto nga gitukod gikan sa pagtuo ug katuyoan."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Founder sa Expected End",
+    "description": "Si Denzel Rigaud ang founder ug full-stack developer sa luyo sa Expected End, MyBibleLens (ang Santuwaryo nga App alang sa Kristiyanismo), ug The Water Check."
+  },
+  "press": {
+    "title": "Press ug Media | Expected End",
+    "description": "Aprobado nga mga biograpiya, napamatud-ang mga kamatuoran, entity link, ug media nga ma-download para sa coverage sa Expected End ug ni Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Mga Termino sa Paggamit sa Website | Expected End",
+    "description": "Mga termino nga nagdumala sa paggamit sa website sa Expected End."
+  },
+  "privacy": {
+    "title": "Pahayag sa Pagkapribado | Expected End",
+    "description": "Giunsa pagdumala sa Expected End ang impormasyon niini nga website."
+  },
+  "watercheck-privacy": {
+    "title": "Palisiya sa Pagkapribado sa The Water Check | Expected End",
+    "description": "Unsa ang gikolekta sa The Water Check, unsa ang magpabilin sa imong phone, kinsa ang motabang sa pagpadagan sa app, ug ang imong mga kapilian."
+  },
+  "watercheck-terms": {
+    "title": "Mga Termino ug Kondisyon sa The Water Check | Expected End",
+    "description": "Mga termino sa paggamit sa The Water Check app, lakip ang panglawas ug kaluwasan, AI, mga lagda sa Barkada, ug mga palit."
+  },
+  "watercheck-health-data": {
+    "title": "Palisiya sa Pagkapribado sa Datos sa Kahimsog sa Konsumidor sa The Water Check | Expected End",
+    "description": "Giunsa pagdumala sa The Water Check ang datos sa kahimsog sa konsumidor, ug unsaon pag-access, pagpapas, o pag-apelar."
+  },
+  "watercheck-delete-account": {
+    "title": "Papasa ang imong account | The Water Check",
+    "description": "Unsaon pagpapas sa imong account ug datos sa The Water Check, sa app o pinaagi sa email."
+  },
+  "watercheck-community": {
+    "title": "Mga Giya sa Komunidad | The Water Check",
+    "description": "Giunsa pagpabilin nga mahigalaon ang mga Barkada sa The Water Check: ang mga lagda, pag-report ug pag-block, ug unsa ang mahitabo kung malapas ang mga lagda."
+  },
+  "accessibility": {
+    "title": "Aksesibilidad | Expected End",
+    "description": "Ang pasalig sa Expected End sa usa ka website nga sayon ma-access sa tanan."
+  },
+  "mybiblelens-store": {
+    "title": "Tindahan sa MyBibleLens | Expected End",
+    "description": "Makahuluganong mga butang alang sa mas duol nga paglakaw uban sa Pulong. Hapit na ang tindahan sa MyBibleLens."
+  },
+  "watercheck-store": {
+    "title": "Tindahan sa The Water Check | Expected End",
+    "description": "Mga essential nga dinasig sa hydration gikan sa The Water Check. Hapit na ang unang drop."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Hydration App ug Libre nga Calculator",
+    "description": "Tan-awa ang The Water Check app ug sulayi ang libre ug pribado nga banabana sa hydration sa Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Libre nga Hydration Calculator | The Water Check",
+    "description": "Pagkuha og libre ug pribado nga banabana sa adlaw-adlaw nga hydration gamit ang calculator sa The Water Check."
+  },
+  "not-found": {
+    "title": "Wala makit-i ang panid | Expected End",
+    "description": "Ang gipangita nga panid sa Expected End dili makit-an."
+  }
+}

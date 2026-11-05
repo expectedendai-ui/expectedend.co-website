@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kontakta Expected End",
+    "title": "Börja med lite <em>sammanhang.</em>",
+    "intro": "Välj några detaljer så förbereds ett tydligt mejl åt dig. Din mejlapp öppnas innan något skickas."
+  },
+  "fields": {
+    "name": "Ditt namn",
+    "email": "Din e-postadress",
+    "reason": "Vad gäller det?",
+    "project": "Vilket projekt?",
+    "priceRange": "Prisintervall",
+    "timeline": "Önskad tidsplan",
+    "discovery": "Hur hittade du Expected End?",
+    "message": "Vad har du i tankarna?",
+    "chooseOne": "Välj ett alternativ"
+  },
+  "reasons": {
+    "partnership": "Partnerskap eller samarbete",
+    "press": "Press eller media",
+    "general": "Allmän fråga"
+  },
+  "projects": {
+    "waterCheckCommunity": "Communityn kring The Water Check",
+    "newIdea": "En ny idé"
+  },
+  "timelines": {
+    "exploring": "Utforskar bara",
+    "month": "Inom en månad",
+    "threeMonths": "Inom tre månader",
+    "laterThisYear": "Senare i år",
+    "notSure": "Vet inte än"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Communityn kring The Water Check",
+    "search": "Sökning",
+    "referral": "En rekommendation",
+    "elsewhere": "Någon annanstans"
+  },
+  "submit": {
+    "note": "Inget skickas förrän du har granskat mejlet och tryckt på Skicka i din mejlapp.",
+    "apps": "Välj <app>din mejlapp</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> eller <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Förbered mejl"
+  },
+  "dialog": {
+    "close": "Stäng kontaktformuläret"
+  }
+}

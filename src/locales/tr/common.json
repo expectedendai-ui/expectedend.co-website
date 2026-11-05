@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Bu sayfa burada değil.",
+    "home": "Ana sayfaya dön"
+  },
+  "legal": {
+    "englishOnly": "Bu sayfa İngilizce gösterilmektedir ve İngilizce sürüm esastır.",
+    "effective": "Yürürlük tarihi: {{date}}",
+    "onThisPage": "Bu sayfada",
+    "related": "İlgili sayfalar"
+  }
+}

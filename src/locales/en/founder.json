@@ -2,6 +2,7 @@
   "hero": {
     "photoAlt": "Denzel Rigaud in orange-tinted glasses",
     "stats": {
+      "gradeValue": "5",
       "gradeSuffix": "th",
       "grade": "GRADE · CURIOSITY",
       "grief": "GRIEF",

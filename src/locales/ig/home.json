@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, onye guzobere Expected End",
+    "stats": {
+      "projects": "ỌRỤ E WURU",
+      "languages": "ASỤSỤ",
+      "appStore": "NA APP STORE"
+    },
+    "eyebrow": "Ọnụ ụzọ gaa na <em>ọdịnihu gị na olileanya</em>",
+    "title": "Ebumnuche, <break/>e wuru <break/>n'ịma mma.",
+    "intro": "Expected End na-emepụta software e chere echiche nke ọma, ngwaọrụ na-eme ka ọrụ dị ngwa, ahụmịhe dijitalụ, na obodo ndị na-eme ka ndị mmadụ bịaruo Chineke nso n'ụzọ na-atọ ụtọ ma dị mfe!",
+    "cta": "Lee ọrụ ahụ",
+    "lensHint": "Megharịa cursor gị ka ị gụọ koodu ahụ"
+  },
+  "projects": {
+    "eyebrow": "01 / Ọrụ",
+    "title": "Ngwa abụọ dị na App Store. <break/><em>Android na-abịa n'oge na-adịghị anya.</em>",
+    "visit": "Gaa na {{name}}",
+    "android": "Android na-abịa n'oge na-adịghị anya",
+    "bio": "Akụkọ ndụ",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / N'azụ ọrụ ahụ",
+    "title": "Ngwaahịa ọ bụla ebe a malitere n'otu ajụjụ n'<em>ime klas nke ise.</em>",
+    "lead": "Iru uju, okwukwe na ọtụtụ abalị a nọrọ n'anya dị n'etiti ajụjụ ahụ na ngwa ndị a. Akụkọ ndị ọzọ dị n'ibe nke ya.",
+    "cta": "Gụọ akụkọ ahụ"
+  },
+  "proof": {
+    "caption": "Ọrụ e wuru",
+    "eyebrow": "03 / Ihe akaebe ọrụ",
+    "title": "E wuru ya site na efu. <em>Ọrụ ahụ na-ekwuru onwe ya.</em>",
+    "lead": "Ngwa, weebụsaịtị, ngwaọrụ AI, fim na mgbasa ozi, e mere, dee koodu ha ma wepụta ha n'ime ụlọ ọrụ anyị. Nke a bụ ụfọdụ n'ime ha.",
+    "stats": {
+      "apps": "<strong>Ngwa 2</strong> na App Store",
+      "languages": "<strong>Asụsụ 43</strong> na MyBibleLens",
+      "years": "<strong>Afọ 10</strong> nke ide koodu",
+      "inHouse": "<strong>Site n'echiche ruo mwepụta</strong>, ha niile n'ime ụlọ"
+    },
+    "bigline": "<count>20+</count> ỌRỤ <star>✦</star> E WURU <star>✦</star> E WEPỤTARA <star>✦</star> NA-ARỤ ỌRỤ <star>✦</star>",
+    "rows": {
+      "products": "Ngwa na ngwaahịa",
+      "creative": "Weebụsaịtị, AI na ọrụ okike"
+    },
+    "next": "Ọrụ gị nwere ike ịbụ <em>nke na-esote.</em>",
+    "cta": "Bido nke gị"
+  },
+  "services": {
+    "eyebrow": "04 / Ọrụ ndị ahọpụtara",
+    "title": "Ị rọọ ya, <em>m ewuo ya.</em>",
+    "lead": "Ngwaahịa na-ebu ụzọ. Mgbe ọ dabara, otu nlezianya ahụ na-abanye n'ọrụ ahọpụtara maka ndị ọzọ.",
+    "note": "Biko tinye oke ego n'arịrịọ ọ bụla, kwuokwa n'ozi gị ma ọ bụrụ na ọ dị mkpa NDA.",
+    "count": "Ọrụ {{number}} / {{total}}",
+    "start": "Bido ọrụ a"
+  }
+}

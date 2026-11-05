@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Rzeczy na drogę",
+    "headline": "Miej blisko to, co ważne.",
+    "intro": "Niewielka kolekcja przemyślanych rzeczy na notatki, przypomnienia i codzienną drogę z Bogiem.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Notatnik z przewodnikiem",
+        "kind": "Notatnik"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Małe przypomnienie",
+        "kind": "Przypinka"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Miękka warstwa na co dzień",
+        "kind": "Odzież"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Na chłodniejsze poranki",
+        "kind": "Odzież"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Pierwszy drop",
+    "headline": "Pij wodę. Bądź w ruchu.",
+    "intro": "Ubrania z myślą o nawodnieniu, dla tych, którzy przychodzą, dolewają i nie odpuszczają.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Jasna podstawa na co dzień",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Na po długim spacerze",
+        "kind": "Bluza"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Druga wersja kolorystyczna",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Spokojna, gruba warstwa",
+        "kind": "Bluza"
+      }
+    }
+  },
+  "nav": {
+    "label": "Nawigacja sklepu {{store}}",
+    "collection": "Kolekcja"
+  },
+  "hero": {
+    "action": "Poznaj pierwszy drop",
+    "mybiblelensArt": "Logo sklepu MyBibleLens i kolaż naklejek",
+    "watercheckArt": "Płynne logo The Water Check w bańce"
+  },
+  "collection": {
+    "eyebrow": "Już wkrótce",
+    "title": "Stworzone, by stać się częścią Twojego dnia.",
+    "body": "To pierwsze rzeczy. Zdjęcia produktów, warianty i linki do zakupu pojawią się tutaj, gdy drop będzie gotowy."
+  },
+  "product": {
+    "placeholder": "Zdjęcie zastępcze produktu {{name}}",
+    "buy": "Kup teraz",
+    "comingSoon": "Już wkrótce",
+    "comingSoonLabel": "{{name}} już wkrótce"
+  },
+  "checkout": {
+    "eyebrow": "Bez zakładania konta",
+    "title": "Gdy sklep ruszy, zakupy będą proste.",
+    "body": "Wybierz rzecz, stuknij Kup teraz i zapłać bezpiecznie przez Stripe. Bez konta w sklepie i bez labiryntu koszyka."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Zasady sklepu zostaną opublikowane przed pierwszym dropem.",
+    "policies": "Zasady sklepu",
+    "terms": "Regulamin",
+    "privacy": "Prywatność",
+    "accessibility": "Dostępność",
+    "shipping": "Wysyłka i zwroty (przed dropem)"
+  }
+}

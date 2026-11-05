@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Ọjà fún ìrìn àjò",
+    "headline": "Pa ohun tó ṣe pàtàkì mọ́ sí tòsí.",
+    "intro": "Àkójọ kékeré ti àwọn ọjà tí a ronú jinlẹ̀ lé lórí, tí a ṣe fún àkọsílẹ̀, ìránnilétí, àti ìrìn ojoojúmọ́ pẹ̀lú Ọlọ́run.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Ìwé àkọsílẹ̀ pẹ̀lú ìtọ́sọ́nà",
+        "kind": "Ìwé àkọsílẹ̀"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Ìránnilétí kékeré",
+        "kind": "Pínì"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Aṣọ rírọ̀ fún ojoojúmọ́",
+        "kind": "Aṣọ"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Fún òwúrọ̀ tí òtútù mú",
+        "kind": "Aṣọ"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Àkọ́jáde àkọ́kọ́",
+    "headline": "Mu omi. Máa tẹ̀síwájú.",
+    "intro": "Aṣọ fún àwọn tí omi mímu jẹ lọ́kàn: àwọn tó ń yọjú, tó ń pọn omi kún ìgò, tí wọ́n sì ń mú Check náà lọ.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Aṣọ ojoojúmọ́ aláwọ̀ títàn",
+        "kind": "Ṣẹ́ẹ̀tì"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Fún lẹ́yìn ìrìn gígùn",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Àwọ̀ kejì",
+        "kind": "Ṣẹ́ẹ̀tì"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Aṣọ wíwúwo tó parọ́rọ́",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Ìtọ́sọ́nà ilé ìtajà {{store}}",
+    "collection": "Àkójọ náà"
+  },
+  "hero": {
+    "action": "Wo àkọ́jáde àkọ́kọ́",
+    "mybiblelensArt": "Àmì ilé ìtajà MyBibleLens àti àkójọ àwòrán sticker",
+    "watercheckArt": "Ìhó àmì omi The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Ó ń bọ̀ láìpẹ́",
+    "title": "A ṣe é láti di ara ọjọ́ rẹ.",
+    "body": "Àwọn wọ̀nyí ni àwọn ọjà àkọ́kọ́. Fọ́tò ọjà, àwọn yíyàn, àti ìjápọ̀ ìsanwó yóò hàn níbí nígbà tí àkọ́jáde bá ti ṣetán."
+  },
+  "product": {
+    "placeholder": "Àwòrán ìdúró fún {{name}}",
+    "buy": "Rà á báyìí",
+    "comingSoon": "Ó ń bọ̀ láìpẹ́",
+    "comingSoonLabel": "{{name}} ń bọ̀ láìpẹ́"
+  },
+  "checkout": {
+    "eyebrow": "Kò nílò àkọọ́lẹ̀",
+    "title": "Nígbà tí ó bá ṣí, ìsanwó yóò rọrùn.",
+    "body": "Yan ọjà kan, tẹ Rà á báyìí, kí o sì sanwó láìléwu nípasẹ̀ Stripe. Kò sí àkọọ́lẹ̀ ilé ìtajà, kò sì sí ìrújú agbọ̀n ọjà."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. A ó gbé àwọn ìlànà ilé ìtajà jáde ṣáájú àkọ́jáde àkọ́kọ́.",
+    "policies": "Àwọn ìlànà ilé ìtajà",
+    "terms": "Àwọn òfin",
+    "privacy": "Àṣírí",
+    "accessibility": "Ìwọlé fún gbogbo ènìyàn",
+    "shipping": "Ìfiránṣẹ́ àti ìdápadà (ṣáájú àkọ́jáde)"
+  }
+}

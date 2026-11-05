@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kontakt z Expected End",
+    "title": "Zacznij od odrobiny <em>kontekstu.</em>",
+    "intro": "Wybierz kilka szczegółów, a przygotujemy dla Ciebie przejrzysty e-mail. Twoja aplikacja pocztowa otworzy się, zanim cokolwiek zostanie wysłane."
+  },
+  "fields": {
+    "name": "Twoje imię",
+    "email": "Twój e-mail",
+    "reason": "Czego dotyczy wiadomość?",
+    "project": "Który projekt?",
+    "priceRange": "Przedział cenowy",
+    "timeline": "Preferowany termin",
+    "discovery": "Skąd wiesz o Expected End?",
+    "message": "Jaki masz pomysł?",
+    "chooseOne": "Wybierz"
+  },
+  "reasons": {
+    "partnership": "Partnerstwo lub współpraca",
+    "press": "Prasa lub media",
+    "general": "Pytanie ogólne"
+  },
+  "projects": {
+    "waterCheckCommunity": "Społeczność The Water Check",
+    "newIdea": "Nowy pomysł"
+  },
+  "timelines": {
+    "exploring": "Na razie się rozglądam",
+    "month": "W ciągu miesiąca",
+    "threeMonths": "W ciągu trzech miesięcy",
+    "laterThisYear": "Później w tym roku",
+    "notSure": "Jeszcze nie wiem"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Społeczność The Water Check",
+    "search": "Wyszukiwarka",
+    "referral": "Polecenie",
+    "elsewhere": "Gdzie indziej"
+  },
+  "submit": {
+    "note": "Nic nie zostanie wysłane, dopóki tego nie sprawdzisz i nie naciśniesz Wyślij w swojej aplikacji pocztowej.",
+    "apps": "Wybierz <app>swoją aplikację pocztową</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> lub <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Przygotuj e-mail"
+  },
+  "dialog": {
+    "close": "Zamknij formularz kontaktowy"
+  }
+}

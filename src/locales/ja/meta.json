@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | 目的を持って、美しくつくる",
+    "description": "Expected End は、心のこもったソフトウェア、生産性ツール、デジタル体験、そしてコミュニティをつくっています。"
+  },
+  "about": {
+    "title": "会社について | Expected End",
+    "description": "Denzel Rigaud の創業ストーリー、Expected End のミッション、そして信仰と目的から生まれたプロジェクト。"
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Expected End 創業者",
+    "description": "Denzel Rigaud は、Expected End、キリスト教の聖域アプリ MyBibleLens、そして The Water Check を手がける創業者であり、フルスタック開発者です。"
+  },
+  "press": {
+    "title": "プレス・メディア | Expected End",
+    "description": "Expected End と Denzel Rigaud を報道するための、公式プロフィール、確認済みの事実、エンティティへのリンク、ダウンロードできる素材。"
+  },
+  "terms": {
+    "title": "Web サイト利用規約 | Expected End",
+    "description": "Expected End の Web サイトの利用に関する規約。"
+  },
+  "privacy": {
+    "title": "プライバシーに関する声明 | Expected End",
+    "description": "この Web サイトで Expected End が情報をどのように扱うか。"
+  },
+  "watercheck-privacy": {
+    "title": "The Water Check プライバシーポリシー | Expected End",
+    "description": "The Water Check が収集する情報、スマートフォンの中だけに残る情報、アプリの運営を手伝う事業者、そしてあなたの選択肢。"
+  },
+  "watercheck-terms": {
+    "title": "The Water Check 利用規約 | Expected End",
+    "description": "健康と安全、AI、仲間のルール、購入を含む、The Water Check アプリの利用規約。"
+  },
+  "watercheck-health-data": {
+    "title": "The Water Check 消費者健康データ プライバシーポリシー | Expected End",
+    "description": "The Water Check が消費者健康データをどのように扱うか、そしてアクセス、削除、異議申し立ての方法。"
+  },
+  "watercheck-delete-account": {
+    "title": "アカウントの削除 | The Water Check",
+    "description": "The Water Check のアカウントとデータを、アプリ内またはメールで削除する方法。"
+  },
+  "watercheck-community": {
+    "title": "コミュニティガイドライン | The Water Check",
+    "description": "The Water Check の仲間を楽しい場所に保つために：ルール、報告とブロック、ルール違反があったときの対応。"
+  },
+  "accessibility": {
+    "title": "アクセシビリティ | Expected End",
+    "description": "誰もが使いやすい Web サイトを目指す、Expected End の取り組み。"
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens ストア | Expected End",
+    "description": "みことばとともに歩む毎日のための、心のこもったグッズ。MyBibleLens ストアは近日オープンです。"
+  },
+  "watercheck-store": {
+    "title": "The Water Check ストア | Expected End",
+    "description": "The Water Check から、水分補給をテーマにした定番アイテム。最初のドロップは近日公開です。"
+  },
+  "watercheck-page": {
+    "title": "The Water Check | 水分補給アプリと無料計算ツール",
+    "description": "The Water Check アプリをチェックして、Expected End で無料かつプライベートな水分量の推定を試してみましょう。"
+  },
+  "watercheck-calculator": {
+    "title": "無料の水分量計算ツール | The Water Check",
+    "description": "The Water Check の計算ツールで、1日に必要な水分量を無料かつプライベートに推定できます。"
+  },
+  "not-found": {
+    "title": "ページが見つかりません | Expected End",
+    "description": "お探しの Expected End のページは見つかりませんでした。"
+  }
+}

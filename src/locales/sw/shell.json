@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Urambazaji mkuu",
+    "projects": "Miradi",
+    "services": "Huduma",
+    "company": "Dhamira · Kuhusu · Vyombo vya Habari",
+    "contact": "Mawasiliano",
+    "home": "Ukurasa wa mwanzo wa Expected End",
+    "openMenu": "Fungua menyu",
+    "closeMenu": "Funga menyu",
+    "links": {
+      "projects": "Miradi",
+      "services": "Huduma",
+      "story": "Hadithi",
+      "about": "Kuhusu",
+      "press": "Vyombo vya habari",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Urambazaji wa chini ya ukurasa",
+    "home": "Mwanzo",
+    "about": "Kuhusu",
+    "press": "Vyombo vya habari",
+    "terms": "Masharti ya Matumizi",
+    "privacy": "Taarifa ya Faragha",
+    "accessibility": "Ufikivu",
+    "contact": "Mawasiliano",
+    "mission": "Kila kitu ninachojenga chini ya kampuni hii kinaelekea dhamira ile ile: kuwaleta watu karibu na Mungu na kuwasaidia kutumia teknolojia kuishi, kuunda, kupenda, na kutumikia kwa makusudi. Huo ndio mwisho unaotarajiwa ninaoufanyia kazi.",
+    "verse": "Yeremia 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Haki zote zimehifadhiwa.",
+    "blessing": "Yesu anakupenda."
+  }
+}

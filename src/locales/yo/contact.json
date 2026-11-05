@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kàn sí Expected End",
+    "title": "Bẹ̀rẹ̀ pẹ̀lú <em>àlàyé díẹ̀.</em>",
+    "intro": "Yan àwọn àlàyé díẹ̀, a ó sì pèsè ímeèlì tó ṣe kedere fún ọ. Áàpù ímeèlì rẹ yóò ṣí kí ohunkóhun tó lọ."
+  },
+  "fields": {
+    "name": "Orúkọ rẹ",
+    "email": "Ímeèlì rẹ",
+    "reason": "Kí ni èyí jẹ mọ́?",
+    "project": "Iṣẹ́ àkànṣe wo?",
+    "priceRange": "Ìwọ̀n iye owó",
+    "timeline": "Àkókò tó wù ọ́",
+    "discovery": "Báwo ni o ṣe rí Expected End?",
+    "message": "Kí ló wà lọ́kàn rẹ?",
+    "chooseOne": "Yan ọ̀kan"
+  },
+  "reasons": {
+    "partnership": "Àjọṣepọ̀ tàbí ìfọwọ́sowọ́pọ̀",
+    "press": "Àwọn oníròyìn tàbí mídíà",
+    "general": "Ìbéèrè gbogbogbò"
+  },
+  "projects": {
+    "waterCheckCommunity": "Àwùjọ The Water Check",
+    "newIdea": "Èrò tuntun"
+  },
+  "timelines": {
+    "exploring": "Mo kàn ń wò ó ni",
+    "month": "Láàárín oṣù kan",
+    "threeMonths": "Láàárín oṣù mẹ́ta",
+    "laterThisYear": "Ní ìparí ọdún yìí",
+    "notSure": "Kò tíì dá mi lójú"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Àwùjọ The Water Check",
+    "search": "Ìwákiri lórí ayélujára",
+    "referral": "Ẹnìkan ló júwe rẹ̀ fún mi",
+    "elsewhere": "Ibòmíràn"
+  },
+  "submit": {
+    "note": "Kò sí ohun tí yóò lọ títí tí o bá yẹ̀ ẹ́ wò, tí o sì tẹ Send nínú áàpù ímeèlì rẹ.",
+    "apps": "Yan <app>áàpù ímeèlì rẹ</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, tàbí <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Pèsè ímeèlì"
+  },
+  "dialog": {
+    "close": "Pa fọ́ọ̀mù ìkànsí dé"
+  }
+}

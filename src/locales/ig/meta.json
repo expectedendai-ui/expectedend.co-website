@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Ebumnuche, e wuru n'ịma mma",
+    "description": "Expected End na-emepụta software e chere echiche nke ọma, ngwaọrụ na-eme ka ọrụ dị ngwa, ahụmịhe dijitalụ, na obodo."
+  },
+  "about": {
+    "title": "Maka Anyị | Expected End",
+    "description": "Akụkọ Denzel Rigaud dị ka onye guzobere, ebumnuche dị n'azụ Expected End, na ọrụ ndị e wuru site n'okwukwe na ebumnuche."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Onye Guzobere Expected End",
+    "description": "Denzel Rigaud bụ onye guzobere na onye mmepụta full-stack nọ n'azụ Expected End, MyBibleLens, Ngwa Ebe Nsọ Ndị Kraịst, na The Water Check."
+  },
+  "press": {
+    "title": "Ndị Nta Akụkọ na Mgbasa Ozi | Expected End",
+    "description": "Akụkọ ndụ a kwadoro, eziokwu e nyochara, njikọ njirimara, na mgbasa ozi ị nwere ike ibudata maka akụkọ gbasara Expected End na Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Usoro Iji Weebụsaịtị | Expected End",
+    "description": "Usoro na-achị iji weebụsaịtị Expected End."
+  },
+  "privacy": {
+    "title": "Nkwupụta Nzuzo | Expected End",
+    "description": "Otú Expected End si edozi ozi na weebụsaịtị a."
+  },
+  "watercheck-privacy": {
+    "title": "Iwu Nzuzo The Water Check | Expected End",
+    "description": "Ihe The Water Check na-anakọta, ihe na-anọ na ekwentị gị, ndị na-enyere aka ịrụ ngwa ahụ, na nhọrọ gị."
+  },
+  "watercheck-terms": {
+    "title": "Usoro na Ọnọdụ The Water Check | Expected End",
+    "description": "Usoro maka iji ngwa The Water Check, gụnyere ahụike na nchekwa, AI, iwu Otu na ịzụ ihe."
+  },
+  "watercheck-health-data": {
+    "title": "Iwu Nzuzo Data Ahụike Ndị Ahịa The Water Check | Expected End",
+    "description": "Otú The Water Check si edozi data ahụike ndị ahịa, na otú e si enweta ya, hichapụ ya ma ọ bụ mee mkpesa."
+  },
+  "watercheck-delete-account": {
+    "title": "Hichapụ akaụntụ gị | The Water Check",
+    "description": "Otú e si ehichapụ akaụntụ The Water Check gị na data gị, na ngwa ahụ ma ọ bụ site na email."
+  },
+  "watercheck-community": {
+    "title": "Ụkpụrụ Obodo | The Water Check",
+    "description": "Otú Otu dị na The Water Check si anọgide na-adị mma: iwu, ịkpesa na igbochi, na ihe na-eme mgbe a dara iwu."
+  },
+  "accessibility": {
+    "title": "Ịdị Mfe Iji | Expected End",
+    "description": "Nkwa Expected End maka weebụsaịtị onye ọ bụla nwere ike iji."
+  },
+  "mybiblelens-store": {
+    "title": "Ụlọ Ahịa MyBibleLens | Expected End",
+    "description": "Ngwaahịa e chere echiche maka ije nso na Okwu ahụ. Ụlọ ahịa MyBibleLens na-abịa n'oge na-adịghị anya."
+  },
+  "watercheck-store": {
+    "title": "Ụlọ Ahịa The Water Check | Expected End",
+    "description": "Ihe ndị dị mkpa sitere n'ịṅụ mmiri, site na The Water Check. Mwepụta mbụ na-abịa n'oge na-adịghị anya."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Ngwa Ịṅụ Mmiri na Ihe Mgbako n'Efu",
+    "description": "Lelee ngwa The Water Check ma nwalee ntụle mmiri n'efu, na nzuzo, na Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Ihe Mgbako Mmiri n'Efu | The Water Check",
+    "description": "Nweta ntụle mmiri kwa ụbọchị n'efu, na nzuzo, site n'ihe mgbako The Water Check."
+  },
+  "not-found": {
+    "title": "Achọtaghị ibe ahụ | Expected End",
+    "description": "Achọtaghị ibe Expected End a chọrọ."
+  }
+}

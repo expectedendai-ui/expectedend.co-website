@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Layunin, binuo nang maganda",
+    "description": "Gumagawa ang Expected End ng maingat na software, productivity tool, digital experience, at komunidad."
+  },
+  "about": {
+    "title": "Tungkol | Expected End",
+    "description": "Ang kuwento ng founder na si Denzel Rigaud, ang misyon sa likod ng Expected End, at ang mga proyektong binuo mula sa pananampalataya at layunin."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Founder ng Expected End",
+    "description": "Si Denzel Rigaud ang founder at full-stack developer sa likod ng Expected End, MyBibleLens (ang Santuwaryong App para sa Kristiyanismo), at The Water Check."
+  },
+  "press": {
+    "title": "Press at Media | Expected End",
+    "description": "Mga aprubadong talambuhay, beripikadong impormasyon, entity link, at nada-download na media para sa coverage ng Expected End at ni Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Mga Tuntunin sa Paggamit ng Website | Expected End",
+    "description": "Mga tuntuning namamahala sa paggamit ng website ng Expected End."
+  },
+  "privacy": {
+    "title": "Pahayag sa Privacy | Expected End",
+    "description": "Kung paano pinangangasiwaan ng Expected End ang impormasyon sa website na ito."
+  },
+  "watercheck-privacy": {
+    "title": "Patakaran sa Privacy ng The Water Check | Expected End",
+    "description": "Kung ano ang kinokolekta ng The Water Check, kung ano ang nananatili sa phone mo, kung sino ang tumutulong magpatakbo ng app, at ang mga pagpipilian mo."
+  },
+  "watercheck-terms": {
+    "title": "Mga Tuntunin at Kundisyon ng The Water Check | Expected End",
+    "description": "Mga tuntunin sa paggamit ng The Water Check app, kasama ang kalusugan at kaligtasan, AI, mga patakaran sa Barkada, at mga pagbili."
+  },
+  "watercheck-health-data": {
+    "title": "Patakaran sa Privacy ng Datos sa Kalusugan ng Consumer ng The Water Check | Expected End",
+    "description": "Kung paano pinangangasiwaan ng The Water Check ang datos sa kalusugan ng consumer, at kung paano ito i-access, burahin, o iapela."
+  },
+  "watercheck-delete-account": {
+    "title": "Burahin ang account mo | The Water Check",
+    "description": "Kung paano burahin ang account at datos mo sa The Water Check, sa app o sa email."
+  },
+  "watercheck-community": {
+    "title": "Mga Alituntunin ng Komunidad | The Water Check",
+    "description": "Kung paano nananatiling magiliw ang mga Barkada sa The Water Check: ang mga patakaran, pag-report at pag-block, at ang nangyayari kapag may lumabag."
+  },
+  "accessibility": {
+    "title": "Aksesibilidad | Expected End",
+    "description": "Ang pangako ng Expected End sa isang website na madaling ma-access ng lahat."
+  },
+  "mybiblelens-store": {
+    "title": "Tindahan ng MyBibleLens | Expected End",
+    "description": "Mga makabuluhang gamit para sa mas malapit na paglakad kasama ang Salita. Malapit na ang tindahan ng MyBibleLens."
+  },
+  "watercheck-store": {
+    "title": "Tindahan ng The Water Check | Expected End",
+    "description": "Mga essential na hango sa hydration mula sa The Water Check. Malapit na ang unang drop."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Hydration App at Libreng Calculator",
+    "description": "Tuklasin ang The Water Check app at subukan ang libre at pribadong tantiya ng hydration sa Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Libreng Hydration Calculator | The Water Check",
+    "description": "Kumuha ng libre at pribadong tantiya ng araw-araw na hydration gamit ang calculator ng The Water Check."
+  },
+  "not-found": {
+    "title": "Hindi nakita ang pahina | Expected End",
+    "description": "Hindi makita ang hinahanap na pahina ng Expected End."
+  }
+}

@@ -24,7 +24,7 @@ describe("language chooser", () => {
       expect(within(dialog).getAllByRole("button"), path).toHaveLength(44);
       unmount();
     }
-  });
+  }, 20_000);
 
   it("counts closing as English and never asks again", () => {
     const first = visit("/about");

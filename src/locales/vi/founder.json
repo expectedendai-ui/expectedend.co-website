@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud đeo kính tròng màu cam",
+    "stats": {
+      "gradeValue": "Lớp 5",
+      "gradeSuffix": "",
+      "grade": "LỚP · SỰ TÒ MÒ",
+      "grief": "NỖI ĐAU MẤT MÁT",
+      "faith": "ĐỨC TIN · SỰ TRỞ LẠI"
+    },
+    "identity": "Danh tính <b>/ Denzel Rigaud</b>",
+    "founded": "Thành lập / <time>Ngày 3 tháng 3 năm 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Nhà sáng lập & lập trình viên full-stack độc lập</em>",
+    "title": "Bộ óc <br/>đứng sau <br/>Expected End",
+    "text": "Câu chuyện về sự tò mò, nỗi đau mất mát, đức tin, và việc biến công nghệ thành con đường tiến về phía trước.",
+    "cta": "Đọc câu chuyện"
+  },
+  "ticker": {
+    "curiosity": "Sự tò mò",
+    "grief": "Nỗi đau",
+    "faith": "Đức tin",
+    "code": "Mã nguồn",
+    "purpose": "Mục đích"
+  },
+  "coordinates": {
+    "eyebrow": "Ba tọa độ",
+    "title": "Con đường đến đây không phải là <em>một đường thẳng.</em>",
+    "curiosity": {
+      "label": "01 / Lớp năm",
+      "title": "Sự tò mò trở thành kỹ năng sinh tồn.",
+      "body": "Tôi bắt đầu bằng việc không cho phép một lần thất bại định nghĩa phần đời còn lại của mình.",
+      "big": "Lớp 5"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Nỗi đau khép lại cánh cửa công nghệ.",
+      "body": "Mất cha khiến mọi kỹ năng ông dạy tôi đều như không thể chạm vào."
+    },
+    "faith": {
+      "label": "03 / Ngày 25 tháng 2 năm 2026",
+      "title": "Đức tin cho công việc một mục đích.",
+      "body": "Tôi trở lại để xây dựng những công cụ giúp mỗi người dùng mạnh mẽ hơn so với lúc ban đầu."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Câu chuyện nhà sáng lập / Ngôi thứ nhất",
+    "title": "Xin chào, tôi là <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Công nghệ đã là một phần cuộc sống của tôi từ năm lớp năm. Trường học khiến tôi bực bội từ khi còn rất nhỏ. Tôi bị lưu ban lớp hai khi đối mặt với rào cản ngôn ngữ, và tôi không tin rằng thất bại đó nên định nghĩa con người mình. Tôi quyết định bắt đầu bằng việc hack điểm số của mình. Mọi thứ bắt đầu từ những việc nhỏ, nhưng khi nhận ra mình có thể xâm nhập các hệ thống và jailbreak công nghệ sâu đến mức nào, tôi bắt đầu tò mò về những hệ thống xung quanh và thấy thật thú vị.",
+      "second": "Sự tò mò ấy đưa tôi đến với việc nuôi bot Instagram, lập trình, tự động hóa, học máy, các cộng đồng trực tuyến, tăng trưởng số và những góc tối nhất của internet. Tôi học được công nghệ có thể mạnh mẽ đến mức nào. Một số lựa chọn cũng dạy tôi biết phán đoán sáng suốt hơn."
+    },
+    "socials": {
+      "label": "Hồ sơ mạng xã hội của Denzel Rigaud",
+      "instagram": "Denzel Rigaud trên Instagram",
+      "linkedin": "Denzel Rigaud trên LinkedIn",
+      "youtube": "Denzel Rigaud trên YouTube"
+    },
+    "records": {
+      "label": "Hồ sơ danh tính độc lập",
+      "heading": "Hồ sơ bên ngoài",
+      "worldAthletics": "Hồ sơ World Athletics",
+      "lynn": "Hồ sơ vận động viên Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Chương 01",
+    "kicker": "Những người đã dạy tôi",
+    "title": "Phù thủy web đầu tiên của tôi.",
+    "first": "Cha và <brother>anh trai</brother> tôi là những người thông minh nhất tôi từng biết, nhưng tôi hiếm khi được gặp họ. Mối quan hệ của chúng tôi chủ yếu qua những cuộc điện thoại. Mỗi giây được nói chuyện với họ, họ đều dạy tôi một điều tôi cần biết. Dần dần, tôi hiểu rằng mình vẫn phải tự quyết định điều gì là đúng cho bản thân. Cha tôi là một phù thủy web, và tôi cảm thấy mình không gì cản nổi trên internet. Anh trai tôi làm việc cho NSA.",
+    "second": "Năm 2021, tôi chuyển đến Florida sau 17 năm sống cùng hai người mẹ và hai chị em gái. Tôi đã sống sót, haha. Rồi lần đầu tiên tôi được sống cùng cha. Sáu tháng sau, ông qua đời, nên tôi khép lại cánh cửa công nghệ vì mọi kỹ năng đều khiến tôi nhớ đến ông.",
+    "third": "Cha tôi theo đạo Hồi trong phần lớn cuộc đời. Tôi theo đạo Hồi một phần vì muốn được giống ông. Trước khi qua đời, ông đã dâng đời mình cho Đấng Christ. Quyết định của ông ở lại trong tôi rất lâu sau khi tôi cất đi những công cụ của mình."
+  },
+  "return": {
+    "number": "Chương 02",
+    "kicker": "Sự trở lại",
+    "title": "Tôi mở lại cánh cửa.",
+    "first": "Tôi đã dành nhiều năm né tránh phần con người mình gợi nhớ đến cha. Thỉnh thoảng tôi vẫn chạm vào công nghệ, nhưng nỗi đau khiến tôi khó ở lại. Tôi lấp khoảng trống ấy bằng tội dục vọng và ngày càng xa rời con người mà lẽ ra tôi đã có thể trở thành.",
+    "second": "Tháng 1 năm 2026, tôi biết mình cần thay đổi. Tôi quyết định mở lại con người phù thủy web mà cha đã dạy tôi trở thành, thôi làm một người xác thịt không tin Đức Chúa Trời, và thay vào đó đi theo Ngài. Khi tôi làm vậy, cuộc đời tôi bắt đầu thịnh vượng.",
+    "third": "MyBibleLens ra đời từ quyết định đó. Tôi không có một kế hoạch hoàn chỉnh. Tôi bắt đầu xây dựng và cứ thế tiến bước. Công việc giúp tôi mở lại cánh cửa mình đã đóng sau khi cha mất. Tôi mang The Water Check trở lại và bắt đầu nhặt lại những ước mơ mình đã ấp ủ từ thuở nhỏ."
+  },
+  "draft": {
+    "label": "Chương 03 / Bản nháp",
+    "title": "“Sự thật phía sau dòng mã”"
+  },
+  "venom": {
+    "title": "Nọc độc số",
+    "first": "Nó xảy ra ngay giây phút chúng ta thức dậy. Trước cả khi chân chạm sàn, bàn tay đã với ra. Bạn cầm lấy điện thoại. Ai trong chúng ta cũng làm vậy. Nhưng chính cử động phản xạ đơn lẻ ấy lập tức phá vỡ các đường dẫn thần kinh trong não bạn, đẩy bạn vào trạng thái căng thẳng, lo âu trước khi ngày mới kịp bắt đầu.",
+    "second": "Là một lập trình viên phần mềm độc lập suốt 10 năm, và có một người cha là hacker an ninh mạng độc lập đã dạy tôi về những ngõ ngách tối tăm và bí ẩn của internet, tôi nhìn thấy dòng mã phía sau màn hình. Tôi biết chính xác thuật toán hoạt động ra sao, và sự thật là, nó là nọc độc. Sự độc hại tràn ngập mà bạn cảm thấy trên mạng thật ra không phải bản chất con người; đó là một ảo ảnh được thiết kế. Chúng ta đang bị tấn công liên tục bởi “pseudoism”, nơi những phần bình luận tràn ngập sự thù địch hiếm khi là cơn bột phát tự nhiên của những người dùng internet bình thường, ngẫu nhiên. Thay vào đó, chúng là một phần của chiến lược tuyên truyền điện toán có chủ đích và có hệ thống. Các tài khoản giả và mạng lưới bot được tung ra để đưa những câu chuyện nhân tạo vào bảng tin của bạn, được thiết kế riêng để thao túng nhận thức của công chúng, khoét sâu sự chia rẽ giữa chúng ta và tác động đến hành vi trực tuyến của bạn.",
+    "third": "Dù lịch sử tìm kiếm của bạn hay của con bạn trong sạch đến đâu, hay bảng tin của bạn trông lành mạnh thế nào, hệ thống vẫn được thiết kế để kéo bạn trở lại. Nó kéo bạn về phía tiêu cực, về phía hời hợt, và về phía những “chuyên gia” làm giàu nhanh buộc chúng ta đặt Tiền bạc lên trên Đức Chúa Trời (<strong>I Ti-mô-thê 6:10</strong>), tạo ra những con người mang tinh thần Ma-môn. Nó khiến những người chị em xinh đẹp của chúng ta không biết rằng vẻ đẹp thật sự của họ không phải là lớp trang điểm, không phải cách một chàng trai nghĩ về họ, hay bao nhiêu lượt thích Instagram họ nhận được… mà là tấm lòng và nét thiên thần của họ khi bước đi cùng Đức Chúa Trời. Đó là một cỗ máy được tạo ra để chiếm đoạt tâm trí và điều khiển thói quen của bạn.",
+    "fourth": "Dòng chảy giả tạo không ngừng này nhốt chúng ta trong một lối sống vội vã, khiến ta không thấy rằng những điều thật cần có thời gian. Tình yêu thật, sự trưởng thành chân chính và những kết nối thật lòng đòi hỏi sự kiên nhẫn, chứ không phải sự thỏa mãn tức thì mà chiếc điện thoại mang lại. Nó đánh lừa bộ não, khiến ta luôn chờ đợi một cơn dopamine dâng trào từ sự đồng tình. Giống như những thuật toán được tuyển chọn của trang “Dành cho bạn”, nó khiến con người mù quáng cho rằng ý kiến của mình là đương nhiên, khép họ lại trước những con người thật và trước thực tế rằng không phải ai cũng sẽ đồng ý về cùng một điều. Đó là một sự đầu hàng chậm rãi, để công nghệ lạnh lùng và sự giả tạo hoàn toàn chiếm lấy tâm trí con người.",
+    "fifth": "Họ muốn chúng ta bị phân tâm bởi những cuộc chiến được dựng lên này. Họ muốn bộ não con cái chúng ta trở nên mụ mị, mãi mắc kẹt ở bậc thấp nhất của <strong><bloom>Thang tư duy Bloom</bloom></strong>: chỉ “ghi nhớ” và tiêu thụ, không bao giờ đặt câu hỏi, không bao giờ sáng tạo, không bao giờ đi sâu hơn. Chúng ta đang chứng kiến cả một thế hệ trì hoãn những <strong><erikson>giai đoạn phát triển của Erikson</erikson></strong> quan trọng, tê liệt trước những thực tại giả tạo, được dàn dựng mà họ thấy trên màn hình, sợ hãi việc thật sự trưởng thành vì chẳng còn điều gì mang cảm giác chân thật nữa. Thế giới đã hoàn toàn chán ngấy những lời dối trá. Nếu bạn không nhìn thấy sự thao túng trong dòng mã, cũng không sao; thế hệ của tôi nhìn thấy, và thế hệ tương lai cũng sẽ thấy."
+  },
+  "crucible": {
+    "title": "Lò luyện đã tôi rèn tôi",
+    "first": "Tôi không chỉ học điều này qua việc nghiên cứu dữ liệu; tôi đã sống qua nó: bán ma túy chỉ để xây dựng cuộc sống mà tôi đã hứa với bản thân, một cuộc sống sẽ đi đến một tương lai tươi sáng. Bị đuổi khỏi nhà những người thân yêu, không nơi nương tựa. Được mời bước vào ngành công nghiệp người lớn khi tôi cần tiền nhất, 10.000 đô vẫy ngay trước mặt, nhưng mẹ đã nuôi dạy tôi có đạo đức. <court>Hai</court> vụ kiện <search>hồi</search> trung học. Tôi bắt đầu hack điểm số từ lớp 5 vì đã quá chán ngán việc thi trượt, nhất là khi nhận ra mình từng bị lưu ban lớp 2 chỉ vì giọng nói mang theo khi mới đến. Về sau, việc đó biến thành hack nhiều thứ hơn thế rất nhiều… đến một ngày thật sự gặp được <father>cha</father>, tôi mới hiểu mình thừa hưởng điều đó từ đâu.",
+    "second": "Trong thời gian rất dài, tôi nghĩ Đức Chúa Trời sẽ không bao giờ nhận tôi trở lại sau tất cả những điều đó. Tôi nghĩ mình đã đi quá xa. Nhưng rồi tôi biết về Sứ đồ Phao-lô. Phao-lô đã thật sự sát hại các Cơ Đốc nhân, vậy mà Đức Chúa Trời vẫn xoay chuyển và ban cho ông một ân tứ lớn lao. Và đó là lúc tôi chợt hiểu: nếu Đức Chúa Trời có thể dùng một người như Phao-lô, thì quá khứ của tôi chưa bao giờ là quá nặng để Ngài xây dựng một tương lai.",
+    "third": "Bản năng sinh tồn ấy bắt đầu từ rất sớm. Lớn lên giữa 4 người phụ nữ suốt 16 năm đã định hình tâm lý tôi theo những cách mà đến giờ tôi vẫn đang tìm hiểu. Tâm trí tôi được rèn luyện để vận hành đồng thời trên nhiều bước sóng tâm lý khác nhau. Tôi đã đi qua những tâm lý rối rắm, những mối quan hệ phức tạp và sự thao túng đã tạc nên con người tôi. Và tôi yêu họ vì điều đó; nó giúp tôi đỡ tốn sức với các cô gái khi tôi thật sự chịu nghĩ về những gì mẹ tôi từng nói. Và sau những lần tan vỡ và bị phản bội, tôi vẫn tin vào <chivalry>tinh thần hào hiệp</chivalry>.",
+    "fourth": "Điều tôi muốn nói là, để sống sót trong một ngôi nhà toàn phụ nữ, bạn phải suy nghĩ như họ, và khi rời xa họ, tôi phải trở thành chàng trai trẻ như hôm nay, sau vô số khó khăn tôi đã trải qua. Đó là một môi trường hỗn loạn, và tôi chỉ tìm thấy sự sáng tỏ khi chủ động chọn loại bỏ tội lỗi duy nhất của mình, “dục vọng”, cùng mọi ồn ào xung quanh qua sự cầu nguyện. Khi cuối cùng đặt Đức Chúa Trời lên hàng đầu, tôi nhận ra mình thật sự là ai. Tôi nhìn những thử thách đã định hình mình không phải như những lời nguyền rủa, mà chính là sự rèn luyện tôi cần để đến gần Đức Chúa Trời hơn, và để mở ra một lối thoát cho người khác.",
+    "fifth": "Tìm thấy Đức Chúa Trời giúp tôi hiểu thêm về chính mình. Đi theo Đức Chúa Trời dạy tôi về những vết thương và những ân tứ của mình, và việc hiểu bản thân khiến tôi muốn biết Ngài nhiều hơn. Đó là lúc cuộc đời tôi bắt đầu thịnh vượng: tôi có định hướng, có mục đích và có lý do để chăm sóc những gì Đức Chúa Trời ban cho. The Water Check thuộc về sứ mệnh đó. Chú ý đến những gì ảnh hưởng đến cơ thể có thể giúp bạn hiểu và chăm sóc con người mà Đức Chúa Trời đã tạo nên bạn. Tôi muốn xây dựng công nghệ giúp bạn trở thành phiên bản có năng lực nhất của con người ấy.",
+    "mission": "Mọi điều tôi xây dựng dưới công ty này đều hướng đến cùng một sứ mệnh: đưa mọi người đến gần Đức Chúa Trời hơn và giúp họ dùng công nghệ để sống, sáng tạo, yêu thương và phục vụ một cách có chủ đích. Đó chính là sự trông cậy trong lúc cuối cùng mà tôi đang hướng tới.",
+    "connect": {
+      "label": "Theo dõi Denzel Rigaud",
+      "youtube": "Expected End trên YouTube",
+      "instagram": "Theo dõi Denzel Rigaud trên Instagram",
+      "linkedin": "Kết nối với Denzel Rigaud trên LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Hồ sơ cá nhân / 04 kỷ niệm",
+    "title": "Kho lưu trữ kỷ niệm",
+    "text": "Những con người, căn phòng và công việc thật phía sau dòng mã. Hãy tải về bất kỳ khung hình nào và giữ lại.",
+    "number": "Kỷ niệm {{number}}",
+    "download": "Tải kỷ niệm {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel lúc nhỏ bên cha",
+        "title": "Cha và tôi"
+      },
+      "work": {
+        "alt": "Denzel làm việc bên máy tính xách tay cùng hai cộng sự quanh một chiếc bàn",
+        "title": "Công việc quanh chiếc bàn"
+      },
+      "workspace": {
+        "alt": "Không gian làm việc của MyBibleLens và The Water Check",
+        "title": "Nơi MyBibleLens thành hình"
+      },
+      "archive": {
+        "alt": "Kho video Real Work của Denzel trên điện thoại",
+        "title": "Kho lưu trữ Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Kết thúc truyền tin / Công việc vẫn tiếp tục",
+    "title": "Hãy cùng xây dựng điều gì đó trả lại cho con người <em>cuộc sống của họ.</em>",
+    "text": "Dù là phần mềm chu đáo, trao đổi với báo chí hay khởi đầu của một ý tưởng hay, hãy mở một kênh liên lạc qua Expected End.",
+    "contact": "Liên hệ Expected End",
+    "back": "Quay lại trang công ty"
+  },
+  "verse": {
+    "version": "Kinh Thánh Bản Truyền Thống 1926",
+    "reference": "Giê-rê-mi 29:11",
+    "text": "Đức Giê-hô-va phán: Vì ta biết ý tưởng ta nghĩ đối cùng các ngươi, là ý tưởng bình an, không phải tai họa, để cho các ngươi được sự trông cậy trong lúc cuối cùng của mình.",
+    "close": "Đóng câu Kinh Thánh"
+  },
+  "bio": {
+    "eyebrow": "Từ nhà sáng lập",
+    "title": "Chuyện gì đã xảy ra với @thewatercheck?",
+    "close": "Đóng tiểu sử",
+    "first": "Từ năm 15 tuổi, tôi đã quản lý và phát triển các trang của người có ảnh hưởng và trang nội dung, trong khi vẫn phát triển dự án riêng của mình, @thewatercheck.",
+    "second": "Sau đó, năm 17 tuổi, tôi chuyển đến sống cùng cha, và tài khoản dần lụi tàn vì <em>“Đuổi hai con thỏ thì chẳng bắt được con nào.”</em> <proverb>(Tục ngữ Nga)</proverb> Ở tuổi đó, tôi chỉ quan tâm đến tiền. Tôi đã không dồn hết sức cho @thewatercheck.",
+    "third": "Rồi <father>cha</father> tôi đột ngột qua đời vào <strong>ngày 10 tháng 7 năm 2021.</strong> Tôi chuyển sang chế độ sinh tồn, tự hỏi cuộc đời mình sẽ đi về đâu. Để đối diện với nỗi đau mất cha, tôi khép lại cánh cửa trở thành phù thủy web mà ông từng dạy tôi, cho đến tận <strong>tháng 1 năm 2026.</strong>",
+    "stat": {
+      "from": "200.000 người theo dõi",
+      "to": "7.000",
+      "caption": "Đó là con số hiện tại."
+    },
+    "what": {
+      "eyebrow": "Vậy nó là gì?",
+      "title": "Một lời nhắc đơn giản mà mọi người yêu thích.",
+      "first": "The Water Check đơn giản là thế này: mỗi ngày tôi đăng một bức ảnh để nhắc mọi người uống nước, và nó thật sự giúp họ uống nước. Phần bình luận <em>ngập tràn</em> người. Nó chỉ làm có vậy, và mọi người yêu thích nó.",
+      "second": "Rồi một con bot xóa sạch mọi thứ trên trang, và cuộc sống cứ thế tiếp diễn từ đó."
+    }
+  },
+  "footer": {
+    "line": "Công nghệ không phải để chúng ta lướt mạng vô tận và sống cuộc đời của người khác. Nó nên làm tốt hơn tâm linh, linh hồn, tâm trí và thể xác của chúng ta.",
+    "sign": "Nhà sáng lập, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Điều hướng chân trang",
+    "build": "Những gì tôi xây dựng",
+    "pressKit": "Bộ tài liệu báo chí",
+    "find": "Tìm tôi ở đâu",
+    "finePrint": "Thông tin pháp lý",
+    "terms": "Điều khoản sử dụng",
+    "privacy": "Tuyên bố quyền riêng tư",
+    "accessibility": "Hỗ trợ tiếp cận",
+    "contact": "Liên hệ",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Bảo lưu mọi quyền.",
+    "blessing": "Chúa Giê-xu yêu thương bạn."
+  },
+  "egg": {
+    "label": "Bước vào thế giới nghệ thuật ẩn",
+    "armed": "Nhấn thêm một lần nữa để bước vào thế giới nghệ thuật ẩn."
+  }
+}

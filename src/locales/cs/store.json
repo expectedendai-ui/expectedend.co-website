@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Věci na cestu",
+    "headline": "Měj blízko to, na čem záleží.",
+    "intro": "Malá kolekce promyšlených věcí na poznámky, připomínky a každodenní cestu s Bohem.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Zápisník s průvodcem",
+        "kind": "Zápisník"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Malá připomínka",
+        "kind": "Odznak"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Měkká vrstva na každý den",
+        "kind": "Oblečení"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Na chladnější rána",
+        "kind": "Oblečení"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "První drop",
+    "headline": "Pij vodu. Zůstaň v pohybu.",
+    "intro": "Oblečení s myšlenkou na pitný režim, pro ty, kdo se ukážou, doplní láhev a nepolevují.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Světlý kousek na každý den",
+        "kind": "Tričko"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Na po dlouhé procházce",
+        "kind": "Mikina"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Druhá barevná varianta",
+        "kind": "Tričko"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Klidná, těžší vrstva",
+        "kind": "Mikina"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigace obchodu {{store}}",
+    "collection": "Kolekce"
+  },
+  "hero": {
+    "action": "Prozkoumat první drop",
+    "mybiblelensArt": "Logo obchodu MyBibleLens a koláž samolepek",
+    "watercheckArt": "Tekuté logo The Water Check v bublině"
+  },
+  "collection": {
+    "eyebrow": "Už brzy",
+    "title": "Vyrobeno, aby se stalo součástí tvého dne.",
+    "body": "Tohle jsou první kousky. Fotky produktů, varianty a odkazy k nákupu se tu objeví, až bude drop připravený."
+  },
+  "product": {
+    "placeholder": "Zástupný obrázek pro {{name}}",
+    "buy": "Koupit",
+    "comingSoon": "Už brzy",
+    "comingSoonLabel": "{{name}} už brzy"
+  },
+  "checkout": {
+    "eyebrow": "Bez účtu",
+    "title": "Až se obchod otevře, nákup zůstane jednoduchý.",
+    "body": "Vyber si kousek, klepni na Koupit a bezpečně zaplať přes Stripe. Žádný účet v obchodě a žádné bludiště košíku."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Zásady obchodu zveřejníme před prvním dropem.",
+    "policies": "Zásady obchodu",
+    "terms": "Podmínky",
+    "privacy": "Soukromí",
+    "accessibility": "Přístupnost",
+    "shipping": "Doprava a vrácení (před dropem)"
+  }
+}

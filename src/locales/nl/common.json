@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Deze pagina is er niet.",
+    "home": "Terug naar de startpagina"
+  },
+  "legal": {
+    "englishOnly": "Deze pagina wordt in het Engels getoond, en de Engelse versie is leidend.",
+    "effective": "Geldig vanaf {{date}}",
+    "onThisPage": "Op deze pagina",
+    "related": "Gerelateerde pagina's"
+  }
+}

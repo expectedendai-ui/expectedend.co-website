@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Produtos para a caminhada",
+    "headline": "Mantenha perto o que importa.",
+    "intro": "Uma pequena coleção de produtos bem pensados para anotações, lembretes e a caminhada diária com Deus.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Caderno guiado",
+        "kind": "Caderno"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Um pequeno lembrete",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Uma peça macia para o dia a dia",
+        "kind": "Vestuário"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Para manhãs mais frias",
+        "kind": "Vestuário"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "O primeiro lançamento",
+    "headline": "Beba água. Siga em frente.",
+    "intro": "Peças com espírito de hidratação para quem aparece, enche a garrafa de novo e mantém o check em dia.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Um básico vibrante para o dia a dia",
+        "kind": "Camiseta"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Para depois da caminhada longa",
+        "kind": "Moletom"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Uma segunda cor",
+        "kind": "Camiseta"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Uma peça encorpada e tranquila",
+        "kind": "Moletom"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navegação da loja {{store}}",
+    "collection": "A coleção"
+  },
+  "hero": {
+    "action": "Conheça o primeiro lançamento",
+    "mybiblelensArt": "Logo da loja MyBibleLens e colagem de adesivos",
+    "watercheckArt": "Bolha com o logo líquido do The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Em breve",
+    "title": "Feito para fazer parte do seu dia.",
+    "body": "Estas são as primeiras peças. Fotos dos produtos, opções e links de compra vão aparecer aqui quando o lançamento estiver pronto."
+  },
+  "product": {
+    "placeholder": "Imagem provisória de {{name}}",
+    "buy": "Comprar agora",
+    "comingSoon": "Em breve",
+    "comingSoonLabel": "{{name}} em breve"
+  },
+  "checkout": {
+    "eyebrow": "Sem precisar de conta",
+    "title": "Quando abrir, a compra vai ser simples.",
+    "body": "Escolha uma peça, toque em Comprar agora e finalize com segurança pelo Stripe. Sem conta na loja e sem labirinto de carrinho."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. As políticas da loja serão publicadas antes do primeiro lançamento.",
+    "policies": "Políticas da loja",
+    "terms": "Termos",
+    "privacy": "Privacidade",
+    "accessibility": "Acessibilidade",
+    "shipping": "Envios e devoluções: antes do lançamento"
+  }
+}

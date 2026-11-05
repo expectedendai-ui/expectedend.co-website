@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, fondatorul Expected End",
+    "stats": {
+      "projects": "PROIECTE CONSTRUITE",
+      "languages": "LIMBI",
+      "appStore": "PE APP STORE"
+    },
+    "eyebrow": "Poarta spre <em>viitorul pe care îl nădăjduiți</em>",
+    "title": "Un scop, <break/>construit <break/>cu eleganță.",
+    "intro": "Expected End creează software bine gândit, instrumente de productivitate, experiențe digitale și comunități care îi apropie pe oameni de Dumnezeu în moduri captivante și simple!",
+    "cta": "Vedeți proiectele",
+    "lensHint": "Mișcați cursorul ca să citiți codul"
+  },
+  "projects": {
+    "eyebrow": "01 / Proiecte",
+    "title": "Două aplicații pe App Store. <break/><em>Android, în curând.</em>",
+    "visit": "Vizitați {{name}}",
+    "android": "Android, în curând",
+    "bio": "Bio",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / În spatele muncii",
+    "title": "Fiecare produs de aici a pornit de la o întrebare pusă <em>în clasa a cincea.</em>",
+    "lead": "Între acea întrebare și aceste aplicații au fost doliu, credință și multe nopți nedormite. Restul poveștii are propria pagină.",
+    "cta": "Citiți povestea"
+  },
+  "proof": {
+    "caption": "Proiecte construite",
+    "eyebrow": "03 / Dovezi concrete",
+    "title": "Construit de la zero. <em>Munca vorbește de la sine.</em>",
+    "lead": "Aplicații, site-uri, instrumente AI, filme și campanii, concepute, programate și lansate intern. Iată o parte din ele.",
+    "stats": {
+      "apps": "<strong>2 aplicații</strong> pe App Store",
+      "languages": "<strong>43 de limbi</strong> în MyBibleLens",
+      "years": "<strong>10 ani</strong> de scris cod",
+      "inHouse": "<strong>De la idee la lansare</strong>, totul intern"
+    },
+    "bigline": "<count>20+</count> PROIECTE <star>✦</star> CONSTRUITE <star>✦</star> LANSATE <star>✦</star> ONLINE <star>✦</star>",
+    "rows": {
+      "products": "Aplicații și produse",
+      "creative": "Site-uri, AI și proiecte creative"
+    },
+    "next": "Proiectul dvs. ar putea fi <em>următorul.</em>",
+    "cta": "Începeți-l pe al dvs."
+  },
+  "services": {
+    "eyebrow": "04 / Servicii selectate",
+    "title": "Dumneavoastră visați, <em>eu construiesc.</em>",
+    "lead": "Produsele au prioritate. Când proiectul se potrivește, aceeași grijă intră în lucrări selectate pentru alții.",
+    "note": "Vă rugăm să includeți un interval de preț în toate solicitările și să menționați în mesaj dacă este nevoie de un NDA (acord de confidențialitate).",
+    "count": "Serviciul {{number}} / {{total}}",
+    "start": "Începeți acest proiect"
+  }
+}

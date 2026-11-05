@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Vergiss die Influencer. Lerne deine echte Biologie kennen.",
+    "lead": "Probier den kostenlosen Rechner ohne Konto aus und entdecke dann die App, die wir für das tägliche Tracking bauen.",
+    "appLink": "App entdecken ↓",
+    "logoLabel": "Den Rechner von The Water Check nutzen"
+  },
+  "intro": {
+    "kicker": "Wasserbedarfsrechner",
+    "title": "Fang mit den Zahlen an, die du kennst."
+  },
+  "units": {
+    "legend": "Gewichtseinheit",
+    "pounds": "Pfund (lb)",
+    "kilograms": "Kilogramm (kg)"
+  },
+  "weight": {
+    "labelLb": "Gewicht (lbs)",
+    "labelKg": "Gewicht (kg)",
+    "valueTextLb": "{{value}} Pfund",
+    "valueTextKg": "{{value}} Kilogramm"
+  },
+  "height": {
+    "legend": "Größe",
+    "feet": "Größe (ft)",
+    "inches": "Größe (in)",
+    "centimeters": "Größe (cm)",
+    "note": "Der Flüssigkeitsbedarf richtet sich nach der fettfreien Masse. Deshalb zählt die Größe vor allem dann, wenn dein Gewicht für deinen Körperbau hoch ist."
+  },
+  "activity": {
+    "label": "Tägliche Aktivität (Minuten)",
+    "value": "{{minutes}} Min.",
+    "valueText": "{{minutes}} Minuten"
+  },
+  "factors": {
+    "legend": "Faktoren, die den Flüssigkeitsbedarf verändern können",
+    "intro": "Wir rechnen nur dort mit einer Zahl, wo es eine belastbare tägliche Anpassung gibt. Die anderen Antworten machen deine Hinweise persönlicher, ohne so zu tun, als würde die Wissenschaft eine exakte Menge stützen.",
+    "age": {
+      "label": "Alter",
+      "hint": "Das Alter liefert Kontext; es stellt keine Diagnose zu den Wechseljahren."
+    },
+    "lifeStage": {
+      "label": "Lebensphase",
+      "hint": "Nutzt eine transparente Anpassung für Schwangerschaft oder Milchbildung.",
+      "options": {
+        "standard": "Standard",
+        "pregnant": "Schwanger",
+        "breastfeeding": "Stillend"
+      }
+    },
+    "sex": {
+      "label": "Geschlecht",
+      "hint": "Optional. Verfeinert die Berechnung von Idealgewicht und Referenzzufuhr.",
+      "options": {
+        "unspecified": "Keine Angabe",
+        "woman": "Frau",
+        "man": "Mann"
+      }
+    },
+    "luteal": {
+      "label": "Die Woche vor deiner Periode",
+      "hint": "Berücksichtigt Wassereinlagerungen und hormonelle Blähungen in der Lutealphase. Einen festen Zuschlag, der für alle gilt, gibt es nicht."
+    },
+    "heat": {
+      "label": "Heiße oder feuchte Bedingungen",
+      "hint": "Hinweise zur Hitze hängen davon ab, wie stark du ihr ausgesetzt bist und wie viel du schwitzt, nicht allein vom Ort."
+    }
+  },
+  "result": {
+    "goal": "Dein Tagesziel: {{ounces}} Unzen",
+    "breakdown": "Aufschlüsselung der Berechnung",
+    "weightBaseline": "Basiswert nach Gewicht",
+    "heightAndBuild": "Größe und Körperbau",
+    "sexReference": "Referenz nach Geschlecht",
+    "notSet": "Nicht angegeben",
+    "activity": "Anpassung für Aktivität",
+    "lifeStage": {
+      "standard": "Anpassung für Lebensphase",
+      "pregnant": "Anpassung für Schwangerschaft",
+      "breastfeeding": "Anpassung für Stillzeit"
+    },
+    "luteal": "Hinweise zur Lutealphase",
+    "noFixedOunces": "Keine festen +oz",
+    "electrolytes": "Elektrolyt-Check",
+    "electrolytesAfterSweat": "Nach starkem Schwitzen in Betracht ziehen",
+    "electrolytesFromFood": "Meist über die Ernährung gedeckt",
+    "guidance": "Dies ist eine Schätzung für Erwachsene zu Informations- und Planungszwecken, keine Diagnose, Behandlung oder klinische Verordnung. Auch Lebensmittel liefern Wasser, und der Bedarf ist individuell verschieden. Zwing dich nicht zum Trinken. Frag medizinisches Fachpersonal nach deinem Bedarf, wenn du schwanger bist oder stillst, Medikamente nimmst, die den Flüssigkeitshaushalt beeinflussen, eine Nieren- oder Herzerkrankung hast, eine Trinkmengenbeschränkung einhältst oder besorgniserregende Symptome hast."
+  },
+  "equivalents": {
+    "title": "Das sind etwa",
+    "cups": "{{value}} Tassen",
+    "cupsNote": "je 8 oz",
+    "liters": "{{value}} Liter",
+    "litersNote": "metrisch",
+    "bottles": "{{value}} Flaschen",
+    "bottlesNote": "je 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Iss dein Wasser",
+    "title": "Nicht alles muss aus einem Glas kommen.",
+    "copy": "Etwa ein Fünftel des täglichen Wassers der meisten Menschen stammt aus der Nahrung. Die meisten frischen Obst- und Gemüsesorten bestehen zu 70 bis 95 Prozent aus Wasser, und sobald dieses Wasser in deinen Blutkreislauf gelangt, versorgt es dich genauso mit Flüssigkeit wie ein Getränk.",
+    "drink": "Trinken",
+    "drinkNote": "{{cups}} Tassen Wasser, Tee oder Milch",
+    "eat": "Essen",
+    "eatNote": "aus wasserreichen Lebensmitteln",
+    "pickLegend": "Stell dir den Anteil aus der Nahrung vor als",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: etwa {{ounces}} oz Wasser ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "Tassen Wassermelone",
+      "serving": "1 Tasse, gewürfelt",
+      "water": "92 % Wasser"
+    },
+    "cucumber": {
+      "label": "Gurken",
+      "serving": "1 mittelgroße Gurke",
+      "water": "95 % Wasser"
+    },
+    "strawberries": {
+      "label": "Tassen Erdbeeren",
+      "serving": "1 Tasse",
+      "water": "91 % Wasser"
+    },
+    "oranges": {
+      "label": "Orangen",
+      "serving": "1 mittelgroße Orange",
+      "water": "87 % Wasser"
+    },
+    "salad": {
+      "label": "Schüsseln Salat",
+      "serving": "2 Tassen, gemischt",
+      "water": "etwa 94 % Wasser"
+    },
+    "soup": {
+      "label": "Schüsseln klare Suppe",
+      "serving": "1 Tasse",
+      "water": "etwa 92 % Wasser"
+    },
+    "tomatoes": {
+      "label": "Tomaten",
+      "serving": "1 mittelgroße Tomate",
+      "water": "95 % Wasser"
+    },
+    "grapes": {
+      "label": "Tassen Weintrauben",
+      "serving": "1 Tasse",
+      "water": "81 % Wasser"
+    },
+    "peaches": {
+      "label": "Pfirsiche",
+      "serving": "1 mittelgroßer Pfirsich",
+      "water": "89 % Wasser"
+    },
+    "cantaloupe": {
+      "label": "Tassen Zuckermelone",
+      "serving": "1 Tasse, gewürfelt",
+      "water": "90 % Wasser"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Warum Wasser aus Lebensmitteln zählt",
+    "title": "Wasser aus einer Wassermelone ist dasselbe Wasser.",
+    "sameMolecule": "<strong>Dasselbe Molekül.</strong> H2O aus einer Gurke und H2O aus dem Wasserhahn sind identisch. Sobald es vom Darm in deinen Blutkreislauf gelangt, leitet dein Körper es auf dieselbe Weise zu deinen Muskeln.",
+    "slowRelease": "<strong>Langsame Abgabe.</strong> Das Wasser in Obst und Gemüse ist in Fasern und Zellwänden gebunden. Deshalb wird es langsamer aufgenommen als ein schnell hinuntergestürztes Glas, das deine Nieren meist rasch wieder ausscheiden.",
+    "electrolytes": "<strong>Elektrolyte inklusive.</strong> Gurken, Spinat, Melone und Beeren liefern Kalium und Magnesium, Mineralstoffe, mit denen deine Zellen Wasser halten.",
+    "glycogen": "<strong>Energie und Speicher zugleich.</strong> Muskeln speichern Kohlenhydrate als Glykogen, und jedes Gramm Glykogen wird mit etwa drei Gramm Wasser gespeichert. Wasserreiche, kohlenhydratreiche Lebensmittel liefern beides.",
+    "caveat": "Trinken musst du trotzdem. Lebensmittel decken meist etwa ein Fünftel der Gesamtmenge ab; der Rest kommt aus Wasser und anderen Getränken. Trockenobst, Nüsse und Brot enthalten sehr wenig Wasser."
+  },
+  "grace": {
+    "kicker": "Freundlich zum eigenen Körper",
+    "title": "Ein kurzes Wort zur Nachsicht mit dir selbst",
+    "body": "Der Blick in den Spiegel und der Sitz deiner Kleidung können sich durch Wassereinlagerungen, Verdauung, Hormone, Schlaf und andere normale Schwankungen verändern. Ein Tag mit Blähbauch definiert nicht deinen Körper. Trink achtsam, gib dir Zeit und lass Neugier an die Stelle von Scham treten. Anhaltende Blähungen, Schwellungen, schnelle Gewichtsveränderungen oder Symptome, die dich beunruhigen, sind ein guter Grund für ein Gespräch mit medizinischem Fachpersonal."
+  },
+  "overhydration": {
+    "title": "Die Gefahr des erzwungenen Trinkens",
+    "kidneys": "Deine Nieren brauchen Zeit, um Wasser auszuscheiden. Wenn du bei längerer körperlicher Belastung schneller trinkst, als du Flüssigkeit verlierst, kann das Natrium im Blut verdünnt werden und eine belastungsassoziierte Hyponatriämie entstehen. Frühe Symptome können Kopfschmerzen, Übelkeit, Schwindel, Müdigkeit oder Verwirrtheit sein. Schwere Fälle können zu Hirnschwellung, Krampfanfällen, Koma und zum Tod führen.",
+    "pacing": "Versuch nicht, diese Schätzung durch hastiges Trinken zu erreichen. Verteile deine Getränke über den Tag. Pass beim Sport die Trinkmenge an Durst, Bedingungen und deinen eigenen Schweißverlust an. Hol dir bei Verwirrtheit, Krampfanfällen, Kollaps oder schweren Symptomen sofort ärztliche Hilfe.",
+    "sources": "Quellen: <nih>NIH-Hinweise zur belastungsassoziierten Hyponatriämie</nih> und <academies>Empfehlungen der National Academies zur Flüssigkeitszufuhr</academies>."
+  },
+  "notes": {
+    "title": "Deine Hinweise zur Studienlage",
+    "sexMan": "<strong>Geschlecht:</strong> Die Referenzwerte der National Academies liegen bei etwa 3,7 Litern Gesamtwasser pro Tag für Männer und 2,7 für Frauen. Das Körpergewicht erklärt den Großteil dieses Unterschieds, daher erscheint der Rest hier als Erhöhung des Basiswerts nach Gewicht um 4 Prozent, und die Prüfung von Größe und Körperbau nutzt die Idealgewichtsformel für Männer.",
+    "sexWoman": "<strong>Geschlecht:</strong> Die Referenzwerte der National Academies liegen bei etwa 3,7 Litern Gesamtwasser pro Tag für Männer und 2,7 für Frauen. Das Körpergewicht erklärt den Großteil dieses Unterschieds, daher erscheint der Rest hier als Senkung des Basiswerts nach Gewicht um 4 Prozent, und die Prüfung von Größe und Körperbau nutzt die Idealgewichtsformel für Frauen.",
+    "height": "<strong>Größe und Körperbau:</strong> Der Flüssigkeitsbedarf hängt stärker von der fettfreien Masse ab als vom Gesamtgewicht. Da dein Gewicht über dem üblichen Bereich für deine Größe liegt, nutzt die Schätzung ein angepasstes Körpergewicht (Idealgewicht plus 40 Prozent der Differenz), eine gängige klinische Konvention. Das ist ein grober Planungswert, kein Urteil über deinen Körper.",
+    "cycle": "<strong>Zyklusphase:</strong> Zyklusbedingte Flüssigkeitsverschiebungen sind real, aber Studien belegen keine allgemeingültige, feste Erhöhung in Unzen. Es wurden keine Unzen automatisch hinzugefügt. Normale Mahlzeiten decken den Elektrolytbedarf meist ab; Magnesium- oder Kaliumpräparate sind keine allgemeine Empfehlung.",
+    "age": "<strong>Alter und Wechseljahre:</strong> Das Alter allein bestimmt nicht, ob du in den Wechseljahren bist. Hormonelle Veränderungen können Durst und Flüssigkeitsregulation beeinflussen, aber es gibt keine validierte Anpassung in Unzen „ab 45“, deshalb hat dein Alter die Gesamtmenge nicht verändert.",
+    "heat": "<strong>Hitze:</strong> Ein fester Klimazuschlag kann deinen Bedarf unter- oder überschätzen. Für mäßige Arbeit in der Hitze unter zwei Stunden empfiehlt NIOSH etwa 8 Unzen alle 15–20 Minuten; längeres starkes Schwitzen erfordert einen individuellen Plan zum Flüssigkeitsersatz."
+  },
+  "evidence": {
+    "label": "Belege:",
+    "academies": "Empfehlungen der National Academies zur Wasseraufnahme",
+    "harvard": "Harvard Health zu Ernährung und Flüssigkeitszufuhr",
+    "cycle": "Studie zur Osmoregulation im Menstruationszyklus",
+    "menopause": "Übersichtsarbeit zur Flüssigkeitsregulation in den Wechseljahren",
+    "niosh": "CDC/NIOSH-Hinweise zu Hitze"
+  },
+  "tips": {
+    "kicker": "Hilfreich, nicht zwanghaft",
+    "title": "Drei Checks für den Alltag.",
+    "schedule": {
+      "title": "Der Tagesablauf",
+      "body": "Beginne den Morgen mit Wasser, trink zu den Mahlzeiten ein paar Schlucke und lass dich ansonsten von Durst, Wetter und Aktivität leiten."
+    },
+    "electrolytes": {
+      "title": "Elektrolyte",
+      "body": "Die meisten Menschen ersetzen Elektrolyte über ihre normalen Mahlzeiten. Wähle nach langem oder starkem Schwitzen ein ausgewogenes Elektrolytgetränk; salze nicht routinemäßig nach, wenn dir geraten wurde, Natrium zu begrenzen."
+    },
+    "visualCheck": {
+      "title": "Der Farb-Check",
+      "body": "Hellgelber Urin kann ein grober Anhaltspunkt für deinen Flüssigkeitshaushalt sein. Lebensmittel, Vitamine, Medikamente und Erkrankungen können die Farbe verändern, deshalb ist das keine Diagnose."
+    }
+  },
+  "author": {
+    "kicker": "Von dem, der es gebaut hat",
+    "title": "Warum ich das gebaut habe (und warum du nicht einfach auf mich hören solltest)",
+    "athlete": "Ich heiße Denzel Rigaud. Ich bin mehr als neun Jahre lang 400 Meter und Hürden gelaufen, deshalb wurde Trinken ein Teil davon, wie ich trainiert, mich erholt und gelernt habe, meinen Körper zu lesen.",
+    "purpose": "Ich habe The Water Check gebaut, damit du deinen Körper trotz des Lärms im Netz hörst. Ich möchte nicht, dass du meine Erfahrung als Verordnung behandelst. Deine Biologie, deine Umgebung, deine Krankengeschichte und deine Lebensphase bestimmen, was du brauchst.",
+    "technology": "Technologie ist nicht dafür da, dass wir endlos scrollen und das Leben anderer Leute leben. Sie soll unser Leben produktiv halten und unseren Geist, unsere Seele, unseren Verstand und unseren Leib stärken, damit wir die beste Version dessen werden, der wir sein wollen. Also hör auf, auf alle anderen zu hören, denn was für dich funktioniert, funktioniert für dich.",
+    "faith": "Lerne deine Muster kennen und bring medizinische Fragen zu qualifiziertem Fachpersonal. Für deinen Körper zu sorgen kann dich dir selbst näherbringen und Gott, der in jeden von uns einen Funken gelegt hat, den es zu pflegen lohnt.",
+    "motto": "Folge keinen Influencern. Lerne dich selbst kennen.",
+    "date": "15. März 2021",
+    "founderPage": "Gründerseite"
+  },
+  "community": {
+    "kicker": "Bleib menschlich",
+    "title": "Werde Teil der echten Community.",
+    "instagram": "Folge @thewatercheck auf Instagram",
+    "reelSoon": "Instagram-Reel folgt bald",
+    "story": "Community-Story {{position}}"
+  }
+}

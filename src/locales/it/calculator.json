@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Lascia perdere gli influencer. Scopri la tua vera biologia.",
+    "lead": "Prova il calcolatore gratuito senza account, poi scopri l’app che stiamo costruendo per il monitoraggio quotidiano.",
+    "appLink": "Scopri l’app ↓",
+    "logoLabel": "Usa il calcolatore di The Water Check"
+  },
+  "intro": {
+    "kicker": "Calcolatore di idratazione",
+    "title": "Parti dai numeri che conosci."
+  },
+  "units": {
+    "legend": "Unità di peso",
+    "pounds": "Libbre (lb)",
+    "kilograms": "Chilogrammi (kg)"
+  },
+  "weight": {
+    "labelLb": "Peso (lbs)",
+    "labelKg": "Peso (kg)",
+    "valueTextLb": "{{value}} libbre",
+    "valueTextKg": "{{value}} chilogrammi"
+  },
+  "height": {
+    "legend": "Altezza",
+    "feet": "Altezza (ft)",
+    "inches": "Altezza (in)",
+    "centimeters": "Altezza (cm)",
+    "note": "Il fabbisogno di liquidi segue la massa magra, quindi l’altezza conta di più quando il peso è alto per la tua corporatura."
+  },
+  "activity": {
+    "label": "Attività quotidiana (minuti)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minuti"
+  },
+  "factors": {
+    "legend": "Fattori che possono cambiare il tuo fabbisogno di liquidi",
+    "intro": "Applichiamo un numero solo dove esiste un aggiustamento quotidiano difendibile. Le altre risposte personalizzano i consigli senza fingere che la scienza sostenga una dose esatta.",
+    "age": {
+      "label": "Età",
+      "hint": "L’età fornisce un contesto; non diagnostica la menopausa."
+    },
+    "lifeStage": {
+      "label": "Fase della vita",
+      "hint": "Usa un aggiustamento trasparente per gravidanza o produzione di latte.",
+      "options": {
+        "standard": "Standard",
+        "pregnant": "In gravidanza",
+        "breastfeeding": "Allattamento"
+      }
+    },
+    "sex": {
+      "label": "Sesso",
+      "hint": "Facoltativo. Affina i calcoli del peso ideale e dell’assunzione di riferimento.",
+      "options": {
+        "unspecified": "Preferisco non dirlo",
+        "woman": "Donna",
+        "man": "Uomo"
+      }
+    },
+    "luteal": {
+      "label": "La settimana prima del ciclo",
+      "hint": "Tiene conto della ritenzione idrica della fase luteale e del gonfiore ormonale. Nessun aumento fisso vale per tutti."
+    },
+    "heat": {
+      "label": "Caldo o umidità",
+      "hint": "I consigli per il caldo dipendono dall’esposizione e dalla sudorazione, non solo dal luogo."
+    }
+  },
+  "result": {
+    "goal": "Il tuo obiettivo giornaliero: {{ounces}} once",
+    "breakdown": "Dettaglio del calcolo",
+    "weightBaseline": "Base sul peso",
+    "heightAndBuild": "Altezza e corporatura",
+    "sexReference": "Riferimento per sesso",
+    "notSet": "Non impostato",
+    "activity": "Aggiustamento per l’attività",
+    "lifeStage": {
+      "standard": "Aggiustamento per la fase della vita",
+      "pregnant": "Aggiustamento per la gravidanza",
+      "breastfeeding": "Aggiustamento per l’allattamento"
+    },
+    "luteal": "Indicazioni per la fase luteale",
+    "noFixedOunces": "Nessun +oz fisso",
+    "electrolytes": "Controllo elettroliti",
+    "electrolytesAfterSweat": "Valutali dopo una forte sudorazione",
+    "electrolytesFromFood": "Di solito basta il cibo",
+    "guidance": "Questa è una stima educativa di pianificazione per adulti, non una diagnosi, un trattamento o una prescrizione clinica. Anche il cibo fornisce acqua, e il fabbisogno varia da persona a persona. Non forzarti a bere. Chiedi a un professionista sanitario quale sia il tuo fabbisogno se sei in gravidanza o allatti, prendi farmaci che influiscono sull’equilibrio dei liquidi, hai una patologia renale o cardiaca, segui una restrizione dei liquidi o hai sintomi preoccupanti."
+  },
+  "equivalents": {
+    "title": "Corrisponde a circa",
+    "cups": "{{value}} tazze",
+    "cupsNote": "da 8 oz l’una",
+    "liters": "{{value}} litri",
+    "litersNote": "sistema metrico",
+    "bottles": "{{value}} bottiglie",
+    "bottlesNote": "da 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Mangia la tua acqua",
+    "title": "Non tutta l’acqua deve arrivare da un bicchiere.",
+    "copy": "Circa un quinto dell’acqua quotidiana della maggior parte delle persone arriva dal cibo. La maggior parte della frutta e della verdura fresca contiene dal 70 al 95 per cento di acqua e, una volta raggiunto il flusso sanguigno, quest’acqua ti idrata esattamente come una bevanda.",
+    "drink": "Bevi",
+    "drinkNote": "{{cups}} tazze di acqua, tè o latte",
+    "eat": "Mangia",
+    "eatNote": "da cibi ricchi d’acqua",
+    "pickLegend": "Immagina la quota del cibo come",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}}: circa {{ounces}} oz d’acqua ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "tazze di anguria",
+      "serving": "1 tazza a cubetti",
+      "water": "92% d’acqua"
+    },
+    "cucumber": {
+      "label": "cetrioli",
+      "serving": "1 medio",
+      "water": "95% d’acqua"
+    },
+    "strawberries": {
+      "label": "tazze di fragole",
+      "serving": "1 tazza",
+      "water": "91% d’acqua"
+    },
+    "oranges": {
+      "label": "arance",
+      "serving": "1 media",
+      "water": "87% d’acqua"
+    },
+    "salad": {
+      "label": "ciotole di insalata",
+      "serving": "2 tazze di insalata mista",
+      "water": "circa 94% d’acqua"
+    },
+    "soup": {
+      "label": "ciotole di brodo",
+      "serving": "1 tazza",
+      "water": "circa 92% d’acqua"
+    },
+    "tomatoes": {
+      "label": "pomodori",
+      "serving": "1 medio",
+      "water": "95% d’acqua"
+    },
+    "grapes": {
+      "label": "tazze di uva",
+      "serving": "1 tazza",
+      "water": "81% d’acqua"
+    },
+    "peaches": {
+      "label": "pesche",
+      "serving": "1 media",
+      "water": "89% d’acqua"
+    },
+    "cantaloupe": {
+      "label": "tazze di melone",
+      "serving": "1 tazza a cubetti",
+      "water": "90% d’acqua"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Perché l’acqua del cibo conta",
+    "title": "L’acqua di un’anguria è la stessa acqua.",
+    "sameMolecule": "<strong>Stessa molecola.</strong> L’H2O di un cetriolo e l’H2O del rubinetto sono identiche. Una volta che passa dall’intestino al flusso sanguigno, il tuo corpo la invia ai muscoli allo stesso modo.",
+    "slowRelease": "<strong>Rilascio lento.</strong> L’acqua di frutta e verdura è trattenuta all’interno di fibre e pareti cellulari, quindi viene assorbita più gradualmente di un bicchiere bevuto tutto d’un fiato, che i tuoi reni tendono a eliminare rapidamente.",
+    "electrolytes": "<strong>Con elettroliti inclusi.</strong> Cetrioli, spinaci, melone e frutti di bosco apportano potassio e magnesio, minerali che le tue cellule usano per trattenere l’acqua.",
+    "glycogen": "<strong>Energia e riserve insieme.</strong> I muscoli immagazzinano i carboidrati sotto forma di glicogeno, e ogni grammo di glicogeno viene immagazzinato con circa tre grammi d’acqua. Gli alimenti ricchi di acqua e di carboidrati forniscono entrambi.",
+    "caveat": "Devi comunque bere. Il cibo di solito copre circa un quinto del totale; il resto arriva dall’acqua e dalle altre bevande. Frutta essiccata, frutta secca e pane contengono pochissima acqua."
+  },
+  "grace": {
+    "kicker": "Gentilezza verso il corpo",
+    "title": "Una breve nota sul trattarsi con gentilezza",
+    "body": "Lo specchio e il modo in cui ti stanno i vestiti possono cambiare per la ritenzione idrica, la digestione, gli ormoni, il sonno e altre normali variazioni. Una giornata di gonfiore non definisce il tuo corpo. Bevi con cura, concediti tempo e lascia che la curiosità prenda il posto della vergogna. Gonfiore addominale persistente, gonfiori, rapidi cambiamenti di peso o sintomi che ti preoccupano meritano una conversazione con un professionista sanitario."
+  },
+  "overhydration": {
+    "title": "Il pericolo dell’idratazione forzata",
+    "kidneys": "I tuoi reni hanno bisogno di tempo per smaltire l’acqua. Durante un esercizio prolungato, bere più velocemente di quanto perdi liquidi può diluire il sodio nel sangue e causare iponatriemia associata all’esercizio. I primi sintomi possono includere mal di testa, nausea, vertigini, stanchezza o confusione. I casi gravi possono causare gonfiore cerebrale, convulsioni, coma e morte.",
+    "pacing": "Non inseguire questa stima bevendo tutto d’un fiato. Distribuisci le bevande nell’arco della giornata. Durante l’esercizio, regola quanto bevi in base alla sete, alle condizioni e alle tue perdite di sudore. Chiedi assistenza medica urgente in caso di confusione, convulsioni, collasso o sintomi gravi.",
+    "sources": "Fonti: <nih>indicazioni NIH sull’iponatriemia associata all’esercizio</nih> e <academies>raccomandazioni delle National Academies sui liquidi</academies>."
+  },
+  "notes": {
+    "title": "Le tue note sulle evidenze",
+    "sexMan": "<strong>Sesso:</strong> Le assunzioni di riferimento delle National Academies sono di circa 3,7 litri di acqua totale al giorno per gli uomini e 2,7 per le donne. Il peso corporeo spiega gran parte di questa differenza, quindi il resto compare qui come un aumento del 4 per cento sulla base del peso, e il controllo di altezza e corporatura usa la formula del peso ideale maschile.",
+    "sexWoman": "<strong>Sesso:</strong> Le assunzioni di riferimento delle National Academies sono di circa 3,7 litri di acqua totale al giorno per gli uomini e 2,7 per le donne. Il peso corporeo spiega gran parte di questa differenza, quindi il resto compare qui come una riduzione del 4 per cento sulla base del peso, e il controllo di altezza e corporatura usa la formula del peso ideale femminile.",
+    "height": "<strong>Altezza e corporatura:</strong> Il fabbisogno di liquidi segue più la massa magra che il peso totale. Poiché il tuo peso è sopra l’intervallo abituale per la tua altezza, la stima usa il peso corporeo corretto (peso ideale più il 40 per cento della differenza), una convenzione clinica comune. È un numero approssimativo per pianificare, non un giudizio sul tuo corpo.",
+    "cycle": "<strong>Fase del ciclo:</strong> Le variazioni di liquidi legate al ciclo sono reali, ma gli studi non stabiliscono un aumento fisso e universale in once. Non sono state aggiunte once in automatico. I pasti regolari di solito coprono gli elettroliti; gli integratori di magnesio o potassio non sono una raccomandazione universale.",
+    "age": "<strong>Età e menopausa:</strong> L’età da sola non determina se sei in menopausa. I cambiamenti ormonali possono influire sulla sete e sulla regolazione dei liquidi, ma non esiste un aggiustamento in once convalidato “dopo i 45”, quindi la tua età non ha cambiato il totale.",
+    "heat": "<strong>Caldo:</strong> Un bonus fisso legato al clima può sottostimare o sovrastimare il tuo fabbisogno. Per un lavoro moderato al caldo di meno di due ore, il NIOSH consiglia circa 8 once ogni 15–20 minuti; una sudorazione intensa più lunga richiede un piano di reintegro personalizzato."
+  },
+  "evidence": {
+    "label": "Evidenze:",
+    "academies": "Indicazioni delle National Academies sull’assunzione di acqua",
+    "harvard": "Harvard Health su alimentazione e idratazione",
+    "cycle": "Studio sull’osmoregolazione nel ciclo mestruale",
+    "menopause": "Revisione sulla regolazione dei liquidi in menopausa",
+    "niosh": "Indicazioni CDC/NIOSH sul caldo"
+  },
+  "tips": {
+    "kicker": "Utile, non ossessivo",
+    "title": "Tre controlli per la vita reale.",
+    "schedule": {
+      "title": "La routine",
+      "body": "Inizia la mattina con l’acqua, bevi a piccoli sorsi durante i pasti e lascia che sete, clima e attività guidino il resto."
+    },
+    "electrolytes": {
+      "title": "Elettroliti",
+      "body": "La maggior parte delle persone reintegra gli elettroliti con i pasti abituali. Dopo una sudorazione lunga o intensa, scegli una bevanda elettrolitica bilanciata; non aggiungere sale di routine se ti è stato consigliato di limitare il sodio."
+    },
+    "visualCheck": {
+      "title": "Il controllo visivo",
+      "body": "Un’urina giallo chiaro può essere un indizio approssimativo di idratazione. Cibo, vitamine, farmaci e condizioni di salute possono cambiarne il colore, quindi non è una diagnosi."
+    }
+  },
+  "author": {
+    "kicker": "Da chi l’ha creato",
+    "title": "Perché l’ho creato (e perché non dovresti ascoltare solo me)",
+    "athlete": "Mi chiamo Denzel Rigaud. Per più di nove anni ho corso i 400 metri e gli ostacoli, quindi l’idratazione è diventata parte del modo in cui mi allenavo, recuperavo e imparavo a leggere il mio corpo.",
+    "purpose": "Ho creato The Water Check per aiutarti a sentire il tuo corpo al di sopra del rumore online. Non voglio che tu prenda la mia esperienza come una prescrizione. La tua biologia, il tuo ambiente, la tua storia clinica e la tua fase della vita determinano ciò di cui hai bisogno.",
+    "technology": "La tecnologia non è fatta per farci scorrere all’infinito e vivere la vita degli altri. Dovrebbe mantenere produttive le nostre vite e migliorare il nostro spirito, la nostra anima, la nostra mente e la nostra carne, così da diventare la versione migliore di chi vogliamo essere. Quindi smetti di ascoltare tutti gli altri, perché quello che funziona per te, funziona per te.",
+    "faith": "Impara a conoscere i tuoi schemi e porta i dubbi medici a un professionista qualificato. Prenderti cura del tuo vaso fisico può avvicinarti a te stesso e a Dio, che ha posto in ognuno di noi una scintilla che vale la pena custodire.",
+    "motto": "Non seguire gli influencer. Impara a conoscerti.",
+    "date": "15 marzo 2021",
+    "founderPage": "Pagina del fondatore"
+  },
+  "community": {
+    "kicker": "Restiamo umani",
+    "title": "Unisciti alla vera community.",
+    "instagram": "Segui @thewatercheck su Instagram",
+    "reelSoon": "Reel di Instagram in arrivo",
+    "story": "Storia della community {{position}}"
+  }
+}

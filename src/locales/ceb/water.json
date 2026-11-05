@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Ang app",
+      "drinkCheck": "Drink Check",
+      "guide": "Giya",
+      "widgets": "Mga widget",
+      "progress": "Pag-uswag",
+      "pricing": "Presyo",
+      "faq": "FAQ",
+      "calculator": "Calculator"
+    },
+    "hero": {
+      "title": "Inom lang.<break/>Kami na ang <em>moihap</em>.",
+      "sub": "Imong kaugalingong numero sa tubig, mga ilimnon nga ma-scan, imong lawas nga nag-charge, usa ka widget nga tinuod nimong ipabilin, ug usa ka butiti nga ginganlan og Bubbles nga molibot kanimo. Walay lagda nga usa ka galon, walay influencer, walay pagbasol.",
+      "comingSoon": "Hapit na",
+      "appStoreLead": "I-download sa",
+      "appStore": "App Store",
+      "googlePlayLead": "Kuhaa sa",
+      "googlePlay": "Google Play",
+      "calculator": "Sulayi ang libre nga calculator",
+      "instagram": "I-follow ang The Water Check sa Instagram",
+      "note": "Gi-review karon sa App Store. Libre ang calculator ug dili kinahanglan mag-sign up.",
+      "todayAlt": "Ang screen nga Karon sa The Water Check: 40 oz sa 81.2 oz nga goal, uban ang mga quick-add button ug ang log karong adlawa",
+      "widgetsAlt": "Ang widget studio, nagpakita og Lawas nga widget sa Hologram ug mga laray sa widget style",
+      "bubblesLabel": "Pahimoa og trick si Bubbles",
+      "bubblesSay": "Kumusta, ako si Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "ka widget style",
+      "pearls": "ka perlas sa Giya nga pangitaon",
+      "foods": "ka gidrowing nga pagkaon nga daghag tubig",
+      "languages": "ka pinulongan"
+    },
+    "sixty": {
+      "kicker": "Nganong importante kini",
+      "title": "Ang imong lawas 60% tubig.",
+      "lede": "Dili kini target nga abuton. Nagtrabaho na kanang tubiga karon dayon: nagdala og oksiheno, nagprotekta sa imong mga lutahan, nagpabugnaw kanimo, ug naghawa sa dili nimo kinahanglan. Mausab ang imong panginahanglan sumala sa kalihokan, panahon, ug panglawas.",
+      "pmeterKicker": "Ang P-Meter",
+      "pmeterLabel": "Walo ka kolor gikan sa luspad nga dagami hangtod sa itom nga amber, gigrupo sa maayo ang hydration, dugangi, ug inom karon",
+      "wellHydrated": "Maayo ang hydration",
+      "topUp": "Dugangi",
+      "drinkNow": "Inom karon",
+      "fine": "Usa ka dili eksakto nga timailhan, dili diagnosis. Ang pagkaon, bitamina, ug tambal makausab sa kolor. Gipatin-aw sa app ang matag kolor ug kanus-a angay makigsulti sa usa ka propesyonal sa panglawas."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "I-scan kausa. Ilha kini. I-tap hangtod sa hangtod.",
+      "lede": "I-scan ang barcode, libre ug kutob sa imong gusto. Walay barcode? Kung 18 anyos ka pataas, kuhai og litrato ug basahon sa app ang label. Bisan asa niini, makita nimo ang asukar sa kutsarita, caffeine, electrolytes, ug ang matag sangkap nga gimarkahan og Maayo, Okay, Bantayi, o Likayi.",
+      "scoresLabel": "Mga kolor sa score sa Drink Check",
+      "scores": {
+        "great": "Nindot kaayo",
+        "good": "Maayo",
+        "okay": "Okay ra",
+        "poor": "Huyang"
+      },
+      "ticks": {
+        "electrolytes": "Electrolytes gikan sa label: sodium, potassium, magnesium, ug calcium, uban ang ilang Daily Value.",
+        "save": "I-save kini (ilisan ang ngalan kung gusto nimo), ug sa sunod usa na lang ka tap sa Add page. Walay bag-ong scan.",
+        "food": "Ang mga hamtong makakuha usab og litrato sa pagkaon: ang mangga madugang sa imong mangga, ug ang bag-o mahimong kaugalingon niining bula.",
+        "journal": "Gitipigan sa imong Drink Journal kung unsa ang imong gibati sa matag ilimnon, sa imong phone."
+      },
+      "fine": "Dali nga pagbasa sa label, dili lab test o rating sa bisan unsang brand. Ang resulta sa barcode gikan sa Open Food Facts, ug ang AI mahimong masayop, busa susiha ang tinuod nga label, labi na kung naa kay allergy. Dili namo gitipigan ang imong litrato.",
+      "alt": "Resulta sa Drink Check para sa usa ka sports drink: score 66, Maayo, uban ang asukar, caffeine, ug ang mga electrolyte niini gikan sa label"
+    },
+    "foods": {
+      "kicker": "Maihap usab ang pagkaon",
+      "title": "Mga ikalima sa imong tubig moabot sa plato.",
+      "lede": "Ang Add page usa ka panid sa gidrowing nga mga bula sa prutas, tulo matag laray: pakwan, pipino, strawberry, mangga, ug uban pa. I-tap ang plus ug madugang dayon kini, naa ra sa duol ang I-undo. Ang mga pagkaon nga kanunay nimong idugang mobalhin sa atubangan.",
+      "ticks": {
+        "amounts": "Baso, botelya, o bisan pila, tag-usa ka tap.",
+        "caffeine": "Ang mga mahiligon sa kape adunay caffeine card nga kusog mapuno.",
+        "ring": "Ang ring sa ibabaw nagpakita sa pagkaon nga naihap sa imong adlaw."
+      },
+      "alt": "Ang Add page: ring sa ibabaw, mga button sa ilimnon, caffeine card, ug mga bula sa pagkaon nga daghag tubig"
+    },
+    "guide": {
+      "kicker": "Giya sa The Water Check",
+      "title": "Butoha ang bula. Tipigi ang perlas.",
+      "lede": "Ang matag kapitulo usa ka bula nga may pangutana, ug libre ang tanan. Nganong mobati ka nga “ubos ang baterya”? Unsay gisulti sa imong ihi? Tinuod ba ang usa ka galon kada adlaw? Basaha ang usa hangtod sa katapusan ug mobuto kini ngadto sa perlas. Mga usa sa matag unom ang talagsaon nga bulawang perlas.",
+      "electric": "Ang imong lawas nga may kuryente: unom ka kapitulo bahin sa signal, sodium ug potassium, magnesium ug calcium, ug enerhiya.",
+      "forHerKicker": "Alang sa kababayen-an",
+      "forHer": "Mga kapitulo nga kolor rosas bahin sa lawas sa babaye ug tubig: pink o neon nga ihi, pagbati nga hubag panahon sa regla, nganong mas kanunay ang UTI sa kababayen-an, gamay nga tulo kung mokatawa, pagmabdos, ug menopause. Mabination, klaro, ug may tinubdan.",
+      "fine": "Ang matag kapitulo naglista sa mga tinubdan niini ug nagsulti kanus-a angay magpatan-aw sa doktor. Ang pagsabot ang gigantihan, dili ang oras sa screen: walay streak, walay presyur.",
+      "alt": "Giya sa The Water Check: mga kapitulo sa Ang imong lawas nga may kuryente isip mga bula sa pangutana"
+    },
+    "widgets": {
+      "kicker": "Mga widget",
+      "title": "<count>89</count> ka style para sa imong Home Screen.",
+      "lede": "Sports, mga lugar, mga panahon, kinabuhi sa dagat, ug mga disenyo, sa gamay, tunga-tunga, ug dako nga gidak-on, uban ang layout gikan sa ring hangtod sa balud. Isulti ang imong sport inig sign-up ug ang widget sa imong sport ang unang mogawas. Mag-log og ilimnon direkta gikan sa imong Home Screen.",
+      "ticks": {
+        "body": "Lawas: mapuno ang imong outline sa tubig niadtong adlawa. Kidlap: mapuno ang baterya sa karga karong adlawa.",
+        "charge": "Ibutang ang Karga meter sa bisan unsang widget aron bantayan ang imong electrolytes imbes nga tubig."
+      },
+      "chips": {
+        "body": "Lawas",
+        "spark": "Kidlap",
+        "running": "Pagdagan",
+        "crossCountry": "Cross Country nga Dagan",
+        "volleyball": "Balibol",
+        "basketball": "Basketbol",
+        "seaTurtle": "Pawikan",
+        "jellyfish": "Bulanon",
+        "beach": "Baybayon",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Mga Panahon"
+      },
+      "alt": "Ang widget studio uban ang Lawas nga widget sa Hologram, ang mga kolor niini, mga layout, ug ang Karga meter"
+    },
+    "progress": {
+      "kicker": "Pag-uswag",
+      "title": "Tan-awa ang sulod sa imong mga ilimnon, bar por bar.",
+      "lede": "Karong adlawa isip yano nga mga bar nga mapuno gikan sa wala paingon sa tuo: tubig batok sa imong numero, dayon sodium, potassium, magnesium, ug calcium gikan sa mga ilimnon nga imong gi-scan, lakip ang caffeine ug asukar. I-tap ang bisan unsang bar aron makita ang mga ilimnon sa luyo niini. Ang Kalendaryo nagpakita sa matag adlaw nga magkatupad, uban ang imong streak.",
+      "ticks": {
+        "dailyValues": "Ang electrolytes gisukod batok sa Daily Values sa Nutrition Facts label.",
+        "caffeine": "Caffeine batok sa 400 mg, ang kantidad nga gihatag sa FDA para sa kadaghanan sa himsog nga hamtong, ug asukar batok sa 50 g.",
+        "journal": "Ang imong Drink Journal anaa dayon sa ilawom sa mga bar: ang matag ilimnon nga imong gi-scan ug kung unsa ang imong gibati.",
+        "real": "Ang matag numero gikan sa usa ka butang nga imong gi-log o gi-scan. Walay gihimo-himo."
+      },
+      "fine": "Mga reference, dili target, ug dili medikal nga tambag. Kung imong gibantayan ang sodium o potassium tungod sa panglawas, sunda ang tambag sa imong doktor.",
+      "alt": "Pag-uswag: tubig sa 83% sa numero niadtong adlawa, dayon sodium, potassium, magnesium, calcium, caffeine, ug asukar isip mga bar"
+    },
+    "crew": {
+      "kicker": "Imong bulan ug imong mga tawo",
+      "title": "Tan-awa kini nga modaghan. Dad-a ang imong mga higala.",
+      "calendarAlt": "Ang kalendaryo: ang matag adlaw mapuno sama sa baso, uban ang mga adlaw nga gi-log, mga adlaw nga naabot ang goal, ug usa ka streak",
+      "calendarTitle": "Imong tubig, adlaw-adlaw",
+      "calendarBody": "Ang matag adlaw nga imong gi-log mapuno sama sa baso. Mga adlaw nga naabot ang goal, mga streak, ug mga marka sa taob, ug mosunod kini kanimo sa bag-ong phone.",
+      "crewAlt": "Usa ka Barkada nga ginganlan og Track team uban ang dali nga mga mensahe sa pagdasig",
+      "crewTitle": "Barkada",
+      "crewBody": "Mga grupo nga para lang sa giimbitar nga nagdasig sa usag usa. Makita sa mga higala ang porsyento sa imong kaugalingong goal ug ang imong streak, dili gyud ang imong onsa o lawas. Kanunay anaa ang I-report ug I-block."
+    },
+    "bubbles": {
+      "kicker": "Ilha si Bubbles",
+      "title": "Butiti ang imong giya.",
+      "lede": "Si Bubbles ang Wellness Officer sa The Department. Sa imong unang adlaw, ilibot ka niya sa app, ug dili gyud niya mapugngan ang pagpasikat. Sige, hatagi siya og buhaton.",
+      "tricksLegend": "Mga trick ni Bubbles",
+      "tricks": {
+        "puff": "Mobutod",
+        "spin": "Motuyok",
+        "flip": "Backflip",
+        "wave": "Mokaway",
+        "cheer": "Dakong finale"
+      }
+    },
+    "pricing": {
+      "kicker": "Presyo",
+      "title": "Libre sugdan. Tanan, usa lang ka bayad.",
+      "free": {
+        "title": "Libre",
+        "sub": "Tanan nga imong kinahanglan aron makainom og igo.",
+        "items": {
+          "number": "Imong kaugalingong numero sa tubig",
+          "log": "Mag-log og ilimnon ug pagkaon nga daghag tubig",
+          "barcode": "Pag-scan sa barcode, libre ug walay limitasyon",
+          "photo": "Usa ka libre nga photo scan (18 pataas)",
+          "guide": "Ang matag kapitulo sa Giya",
+          "widgets": "Klasiko, Mga Panahon, ug yano nga Lawas ug Kidlap nga widget",
+          "crew": "Imong kalendaryo, mga streak, ug Barkada sa usa ka higala"
+        }
+      },
+      "forever": {
+        "tag": "Unang tuig",
+        "title": "Tanan Hangtod sa Hangtod",
+        "sub": "Usa ka palit, walay subscription.",
+        "items": {
+          "widgets": "Ang matag widget style ug kolor",
+          "bars": "Ang mga bar sa electrolytes, caffeine, ug asukar",
+          "journal": "Imong Drink Journal",
+          "photos": "Dugang photo scan (18 pataas)",
+          "summaries": "PDF nga sumaryo sa 30 ug 90 ka adlaw",
+          "crews": "Paghimo sa imong kaugalingong Barkada",
+          "later": "Tanan nga among idugang unya"
+        },
+        "note": "Gitanyag sulod sa among unang tuig. Human niana, ang The Water Check mahimong mobalhin sa binulan nga plano, ug ang usa ka higayon nga palit nga nahimo sa wala pa kana magpabilin nga naka-unlock. Ang presyo ipakita sa App Store o Google Play sa dili pa ka mopalit."
+      }
+    },
+    "privacy": {
+      "kicker": "Imong datos",
+      "title": "Unsa ang magpabilin sa imong phone, ug unsa ang dili.",
+      "phoneTitle": "Magpabilin sa imong phone",
+      "phoneBody": "Imong Drink Journal, mga na-save nga ilimnon ug pagkaon, mga perlas sa Giya, mga training session, mga nota sa siklo, ug mga pahinumdom.",
+      "accountTitle": "Gitipigan uban sa imong account",
+      "accountBody": "Imong sign-in, mga tubag sa sign-up, ang matag ilimnon ug pagkaon nga imong gi-log uban ang oras, adlaw-adlaw nga total sa tubig, ug imong Barkada, aron mosunod kini kanimo sa bag-ong phone.",
+      "neverTitle": "Dili gyud",
+      "neverBody": "Dili namo ibaligya ang imong impormasyon o i-share sa mga advertising network. Dili namo gitipigan ang imong mga litrato sa Drink Check.",
+      "links": {
+        "privacy": "Palisiya sa Pagkapribado",
+        "healthData": "Palisiya sa Datos sa Kahimsog sa Konsumidor",
+        "deleteAccount": "Papasa ang imong account"
+      }
+    },
+    "calculator": {
+      "kicker": "Libre, walay sign-up",
+      "title": "Sugdi sa mga numero nga imong nahibaloan.",
+      "lede": "Imong gibug-aton, imong gitas-on, unsa kadugay ka maglihok. Ang calculator mohatag kanimo og adlaw-adlaw nga target sulod sa mga baynte segundos, ug ipakita niini ang kuwenta aron makiglantugi ka niini. Modagan kini sa imong browser.",
+      "chips": {
+        "weight": "Baseline sa gibug-aton",
+        "height": "Gitas-on ug porma sa lawas",
+        "activity": "Adjustment sa kalihokan",
+        "lifeStage": "Yugto sa kinabuhi",
+        "heat": "Kainit ug alimuot",
+        "electrolytes": "Pagsusi sa electrolyte"
+      },
+      "open": "Ablihi ang calculator",
+      "fine": "Usa ka edukasyonal nga banabana sa pagplano alang sa mga hamtong, dili diagnosis o reseta. Ayaw pugsa ang imong kaugalingon sa pag-inom. Pangutan-a ang usa ka propesyonal sa panglawas kung mabdos ka o nagpasuso, nag-inom og tambal nga makaapekto sa balanse sa likido, o adunay sakit sa kidney o kasingkasing."
+    },
+    "faq": {
+      "kicker": "Mga pangutana",
+      "title": "Ang matinud-anon nga mga tubag.",
+      "items": {
+        "medical": {
+          "q": "Medikal nga tambag ba ang The Water Check?",
+          "a": "Dili. Usa kini ka kinatibuk-ang wellness app. Ang imong numero sa tubig usa ka edukasyonal nga banabana, dili reseta, ug walay bisan unsa sa app nga mo-diagnose o motambal og bisan unsa. Kung mabdos ka o nagpasuso, nag-inom og tambal nga makaapekto sa likido sa lawas, o adunay sakit sa kidney, kasingkasing, o laing kahimtang, pangutan-a ang imong doktor kung unsa ang husto para nimo."
+        },
+        "number": {
+          "q": "Asa gikan ang akong numero?",
+          "a": "Gikan sa imong gibug-aton, gitas-on, kalihokan, klima, ug yugto sa kinabuhi, sugod sa publiko nga giya sama sa mga reference sa tubig sa US National Academies. Ang libre nga calculator nagpakita sa kuwenta, busa makita nimo ang matag lakang. Usa kini ka sinugdanan, dili lagda."
+        },
+        "scan": {
+          "q": "Unsa ang mahitabo kung mag-scan ko og ilimnon?",
+          "a": "Ang barcode scan nagpadala lang sa numero sa barcode ngadto sa Open Food Facts, usa ka libre ug bukas nga database sa pagkaon, ug ibalik niini kung unsa ang nakasulat sa label. Ang litrato, para sa mga hamtong nga 18 pataas, moagi sa among server ngadto sa Gemini AI sa Google, nga mobasa sa label ug mobalik sa nakit-an niini. Dili namo gitipigan ang imong litrato; ang Google mahimong motipig og datos sulod sa limitado nga panahon ubos sa mga termino niini. Ang mga label ug AI mahimong masayop, busa susiha ang tinuod nga label, ug ayaw gyud gamita ang Drink Check para sa allergy o medikal nga diyeta."
+        },
+        "phone": {
+          "q": "Unsa ang magpabilin sa akong phone?",
+          "a": "Imong Drink Journal, mga na-save nga ilimnon ug pagkaon, mga perlas sa Giya, mga training session, tubag bahin sa siklo ug mga nota sa siklo, bisan tuod mahimong apil kini sa kaugalingon nimong phone backup. Sa iPhone, ang mga workout nga imong gitugotan nga basahon sa app gikan sa Apple Health magpabilin usab sa imong phone, ug dili gyud ipadala kanamo. Ang imong mga tubag sa sign-up, ang matag ilimnon ug pagkaon nga imong gi-log uban ang oras, ug ang imong adlaw-adlaw nga total gitipigan uban sa imong account aron mosunod kini kanimo sa bag-ong phone. Dili namo ibaligya ang imong impormasyon."
+        },
+        "audience": {
+          "q": "Para kang kinsa kini?",
+          "a": "Para sa bisan kinsa nga 13 anyos pataas. Kung ubos ka sa 18, gamita kini uban ang pagtugot sa ginikanan o guardian. Ang Puasa sa Prutas, pag-log og alak, ug photo scan para lang sa mga hamtong. Mosunod ang app sa age range nga imong gihatag, busa palihug tubaga nga matinud-anon. Kung 13 hangtod 17 ka, ipasusi ang imong numero sa ginikanan o doktor."
+        },
+        "cost": {
+          "q": "Pila kini?",
+          "a": "Libre sugdan ang app: kuhaa ang imong numero, mag-log og tubig ug pagkaon, mag-scan og bisan unsang barcode, basaha ang matag kapitulo sa Giya, apil sa Barkada, ug gamita ang Klasiko, Mga Panahon, Lawas, ug Kidlap nga widget. Sulod sa among unang tuig, usa ka opsyonal nga palit ang moabli sa tanan, kausa lang, walay subscription. Ipakita sa App Store o Google Play ang presyo sa imong currency sa dili pa ka mopalit."
+        },
+        "deleteAccount": {
+          "q": "Unsaon nako pagpapas sa akong account?",
+          "a": "Sa app: Profile, dayon Settings, dayon Papasa ang account. Mapapas dayon kini. Walay app? Ang among panid nga Papasa ang imong account nagpatin-aw kung unsaon kini paghangyo pinaagi sa email."
+        },
+        "download": {
+          "q": "Kanus-a nako kini ma-download?",
+          "a": "Ang The Water Check gi-review sa App Store ug gi-test sa Google Play, ug hapit na sa duha. I-follow ang @thewatercheck sa Instagram aron ikaw ang unang makahibalo."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Sabta ang imong giinom. Gihimo sa Florida sa usa ka one-person company. Para sa edad 13 pataas.",
+      "legal": "Legal",
+      "privacy": "Palisiya sa Pagkapribado sa The Water Check",
+      "terms": "Mga Termino ug Kondisyon sa The Water Check",
+      "community": "Mga Giya sa Komunidad",
+      "healthData": "Palisiya sa Pagkapribado sa Datos sa Kahimsog sa Konsumidor",
+      "deleteAccount": "Papasa ang imong account",
+      "sitePrivacy": "Pagkapribado sa website",
+      "explore": "Susiha",
+      "calculator": "Calculator sa hydration",
+      "store": "Tindahan sa The Water Check",
+      "instagram": "@thewatercheck sa Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Tabang",
+      "email": "Suporta pinaagi sa email",
+      "accessibility": "Aksesibilidad",
+      "contact": "Kontak",
+      "note": "Ang The Water Check usa ka kinatibuk-ang wellness app. Dili kini mo-diagnose, motambal, o mopugong sa bisan unsang kahimtang, ug dili kini puli sa tambag gikan sa usa ka propesyonal sa panglawas. Sa emergency, tawag sa 911 o sa imong lokal nga emergency number. Ang mga screen sa app nagpakita og test build nga may hinimo-himo nga datos; ang mga feature mahimong mausab sa dili pa ang release."
+    }
+  },
+  "app": {
+    "eyebrow": "Ang app",
+    "title": "Imong tubig, adlaw-adlaw.",
+    "body": "Sugdi sa personal nga banabana, dayon mag-log og ilimnon ug pagkaon nga daghag tubig samtang nagpadayon ang imong adlaw. Tan-awa ang imong pag-uswag sa app, sa imong Home Screen, ug sa tibuok bulan.",
+    "comingSoon": "Hapit na sa App Store",
+    "calculator": "Sulayi ang libre nga calculator",
+    "caveat": "Mogana dinhi ang calculator bisan walay account. Ang mga screenshot sa app nagpakita og preview build; ang mga feature ug availability mahimong mausab sa dili pa ang release.",
+    "screens": {
+      "number": {
+        "alt": "Ang personal nga banabana sa adlaw-adlaw nga tubig sa The Water Check sa usa ka iPhone",
+        "caption": "Imong numero"
+      },
+      "log": {
+        "alt": "Ang adlaw-adlaw nga log sa The Water Check uban ang mga ilimnon ug pagkaon sa usa ka iPhone",
+        "caption": "Log karong adlawa"
+      },
+      "widgets": {
+        "alt": "Ang settings sa Home Screen widget sa The Water Check sa usa ka iPhone",
+        "caption": "Mga widget"
+      },
+      "wellness": {
+        "alt": "Ang wellness guide ug P-Meter sa The Water Check sa usa ka iPhone",
+        "caption": "Wellness"
+      },
+      "calendar": {
+        "alt": "Ang binulan nga kalendaryo sa tubig sa The Water Check sa usa ka iPhone",
+        "caption": "Kalendaryo"
+      }
+    }
+  },
+  "footer": {
+    "note": "Ang libre nga calculator dili kinahanglan og account. Modagan kini sa imong browser ug dili ipadala kanamo ang imong mga numero.",
+    "navLabel": "Navigation sa footer",
+    "calculator": "Calculator sa hydration",
+    "explore": "Tan-awa ang app",
+    "instagram": "@thewatercheck sa Instagram",
+    "store": "Ang tindahan",
+    "builder": "Kinsa ang naghimo niini",
+    "finePrint": "Ang fine print",
+    "terms": "Mga Termino ug Kondisyon",
+    "privacy": "Palisiya sa Pagkapribado",
+    "community": "Mga Giya sa Komunidad",
+    "healthData": "Datos sa Kahimsog sa Konsumidor",
+    "deleteAccount": "Papasa ang imong account",
+    "accessibility": "Aksesibilidad",
+    "contact": "Kontak",
+    "project": "Usa ka proyekto sa <company>EXPECTEDEND LLC</company>. Edukasyonal nga banabana, dili medikal nga tambag.",
+    "backToTop": "Balik sa ibabaw ↑"
+  }
+}

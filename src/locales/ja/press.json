@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "プレス・メディア",
+    "title": "Expected End のプレス向け資料。",
+    "intro": "Expected End と創業者 Denzel Rigaud を報道するための、公式プロフィール、確認済みの事実、ダウンロードできる素材。",
+    "downloadPortrait": "ポートレートをダウンロード"
+  },
+  "inquiry": "取材を申し込む",
+  "role": "創業者・フルスタック開発者",
+  "portrait": {
+    "alt": "ネイビーのスーツにオレンジ色のレンズのメガネをかけた Denzel Rigaud"
+  },
+  "contents": {
+    "label": "プレスページのセクション",
+    "kit": "プレスキット / 2026",
+    "biographies": "プロフィール",
+    "facts": "確認済みの事実",
+    "projects": "プロジェクト",
+    "licensing": "素材の利用"
+  },
+  "bios": {
+    "kicker": "公式の文章",
+    "title": "プロフィール",
+    "text": "これらの文章は、編集記事のために引用または編集して使用できます。",
+    "shortLabel": "短いプロフィール / 24語",
+    "fullLabel": "詳しいプロフィール",
+    "fullFirst": "Denzel Rigaud は EXPECTEDEND LLC を創業し、MyBibleLens と The Water Check を独力でつくり上げました。同社のフルスタック開発者として、構想からデザイン、エンジニアリング、リリースまで、すべてのプロダクトを手がけています。",
+    "fullSecond": "信仰を中心にしたソフトウェア、デジタル・ウェルビーイング、そして人々が目的を持ってテクノロジーを使えるようにする実用的なツールに力を注いでいます。MyBibleLens は、キリスト教の聖域アプリです。The Water Check は、プライベートな水分量の推定、実践的な水の習慣、そして毎日の継続を大切にするコミュニティを組み合わせたアプリです。"
+  },
+  "facts": {
+    "kicker": "ファクトシート",
+    "title": "確認済みの事実",
+    "text": "プロフィール、記事、キャプション、データベースのための正式な情報。",
+    "company": "会社",
+    "founder": "創業者",
+    "role": "役職",
+    "products": "プロダクト",
+    "productsValue": "MyBibleLens と The Water Check",
+    "website": "公式 Web サイト",
+    "profile": "創業者プロフィール",
+    "entityLabel": "Wikidata の {{name}}"
+  },
+  "projects": {
+    "kicker": "プロダクト",
+    "title": "作品",
+    "text": "Expected End のもとで独力でつくった、2つのプロダクト。",
+    "mybiblelens": {
+      "alt": "MyBibleLens のアプリアイコン",
+      "kicker": "信仰を中心にしたソフトウェア",
+      "text": "キリスト教の聖域アプリ。",
+      "visit": "MyBibleLens を見る"
+    },
+    "watercheck": {
+      "alt": "The Water Check のアプリアイコン",
+      "kicker": "水分補給とコミュニティ",
+      "text": "プライベートな水分量の推定、実践的な水の習慣、そしてコミュニティ。",
+      "visit": "The Water Check を見る"
+    }
+  },
+  "license": {
+    "kicker": "素材の利用",
+    "title": "創業者のポートレート",
+    "text": "このポートレートは、<license>クリエイティブ・コモンズ 表示 - 継承 4.0</license> ライセンスのもとで共有・改変できます。クレジット：Denzel Rigaud / Expected End。改変したものにも同じライセンスを適用してください。",
+    "download": "創業者のポートレートをダウンロード"
+  },
+  "contact": {
+    "kicker": "プレス窓口",
+    "title": "インタビュー、コメント、追加の素材が必要ですか？"
+  }
+}

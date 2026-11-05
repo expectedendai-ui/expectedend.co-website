@@ -125,7 +125,7 @@ export function DenzelPage({ onNavigate }: DenzelPageProps) {
   const [showVerse, setShowVerse] = React.useState(false);
   useHomeMotion(mainRef);
   const turningPoints: readonly ArcStat[] = [
-    { value: "5", suffix: t("hero.stats.gradeSuffix"), label: t("hero.stats.grade") },
+    { value: t("hero.stats.gradeValue"), suffix: t("hero.stats.gradeSuffix"), label: t("hero.stats.grade") },
     { value: "2021", label: t("hero.stats.grief") },
     { value: "2026", label: t("hero.stats.faith") },
   ];

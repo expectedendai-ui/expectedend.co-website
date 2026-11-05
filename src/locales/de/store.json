@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Begleiter für den Weg",
+    "headline": "Halte nah, was zählt.",
+    "intro": "Eine kleine Kollektion durchdachter Dinge für Notizen, Erinnerungen und den alltäglichen Weg mit Gott.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Geführtes Notizbuch",
+        "kind": "Notizbuch"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Eine kleine Erinnerung",
+        "kind": "Anstecker"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Weich, für jeden Tag",
+        "kind": "Bekleidung"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Für kühlere Morgen",
+        "kind": "Bekleidung"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Der erste Drop",
+    "headline": "Trink Wasser. Bleib in Bewegung.",
+    "intro": "Kleidung im Zeichen des Trinkens, für alle, die dabei sind, nachfüllen und den Check am Laufen halten.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Ein heller Begleiter für jeden Tag",
+        "kind": "T-Shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Für nach dem langen Spaziergang",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Eine zweite Farbvariante",
+        "kind": "T-Shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Schwerer Stoff, ruhiger Look",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigation im {{store}} Store",
+    "collection": "Die Kollektion"
+  },
+  "hero": {
+    "action": "Den ersten Drop entdecken",
+    "mybiblelensArt": "Logo des MyBibleLens Store und Sticker-Collage",
+    "watercheckArt": "Flüssige Logo-Blase von The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Bald erhältlich",
+    "title": "Gemacht, um Teil deines Tages zu werden.",
+    "body": "Das sind die ersten Stücke. Produktfotos, Optionen und Links zum Checkout erscheinen hier, sobald der Drop bereit ist."
+  },
+  "product": {
+    "placeholder": "Platzhalter für {{name}}",
+    "buy": "Jetzt kaufen",
+    "comingSoon": "Bald erhältlich",
+    "comingSoonLabel": "{{name}}, bald erhältlich"
+  },
+  "checkout": {
+    "eyebrow": "Kein Konto nötig",
+    "title": "Wenn der Store öffnet, bleibt der Checkout einfach.",
+    "body": "Wähle ein Stück, tippe auf Jetzt kaufen und bezahle sicher über Stripe. Kein Store-Konto und kein Warenkorb-Labyrinth."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Die Store-Richtlinien werden vor dem ersten Drop veröffentlicht.",
+    "policies": "Store-Richtlinien",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutz",
+    "accessibility": "Barrierefreiheit",
+    "shipping": "Versand & Rückgabe (vor dem Drop)"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Мета, втілена красиво",
+    "description": "Expected End створює продумані програми, інструменти продуктивності, цифровий досвід і спільноти."
+  },
+  "about": {
+    "title": "Про нас | Expected End",
+    "description": "Історія засновника Denzel Rigaud, місія Expected End і проєкти, народжені з віри й мети."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Засновник Expected End",
+    "description": "Denzel Rigaud: засновник і full-stack розробник Expected End, MyBibleLens (застосунку-святилища для християн) і The Water Check."
+  },
+  "press": {
+    "title": "Преса й медіа | Expected End",
+    "description": "Затверджені біографії, перевірені факти, посилання на профілі та медіафайли для висвітлення Expected End і Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Умови користування сайтом | Expected End",
+    "description": "Умови, що регулюють користування сайтом Expected End."
+  },
+  "privacy": {
+    "title": "Заява про конфіденційність | Expected End",
+    "description": "Як Expected End поводиться з інформацією на цьому сайті."
+  },
+  "watercheck-privacy": {
+    "title": "Політика конфіденційності The Water Check | Expected End",
+    "description": "Що збирає The Water Check, що залишається на вашому телефоні, хто допомагає підтримувати застосунок і який у вас вибір."
+  },
+  "watercheck-terms": {
+    "title": "Умови використання The Water Check | Expected End",
+    "description": "Умови використання застосунку The Water Check, зокрема здоров’я й безпека, AI, правила Команд і покупки."
+  },
+  "watercheck-health-data": {
+    "title": "Політика конфіденційності даних про здоров’я споживачів The Water Check | Expected End",
+    "description": "Як The Water Check поводиться з даними про здоров’я споживачів і як отримати до них доступ, видалити їх або подати оскарження."
+  },
+  "watercheck-delete-account": {
+    "title": "Видалення акаунта | The Water Check",
+    "description": "Як видалити свій акаунт The Water Check і дані: у застосунку або електронною поштою."
+  },
+  "watercheck-community": {
+    "title": "Правила спільноти | The Water Check",
+    "description": "Як Команди в The Water Check залишаються доброзичливими: правила, скарги й блокування, а також що відбувається, коли правила порушують."
+  },
+  "accessibility": {
+    "title": "Доступність | Expected End",
+    "description": "Зобов’язання Expected End зробити сайт доступним для всіх."
+  },
+  "mybiblelens-store": {
+    "title": "Магазин MyBibleLens | Expected End",
+    "description": "Продумані речі, що допомагають бути ближче до Слова. Магазин MyBibleLens скоро відкриється."
+  },
+  "watercheck-store": {
+    "title": "Магазин The Water Check | Expected End",
+    "description": "Речі, натхненні гідратацією, від The Water Check. Перша колекція вже скоро."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Застосунок для гідратації та безкоштовний калькулятор",
+    "description": "Познайомтеся із застосунком The Water Check і спробуйте безкоштовну приватну оцінку гідратації на Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Безкоштовний калькулятор гідратації | The Water Check",
+    "description": "Отримайте безкоштовну приватну оцінку щоденної потреби у воді за допомогою калькулятора The Water Check."
+  },
+  "not-found": {
+    "title": "Сторінку не знайдено | Expected End",
+    "description": "Запитану сторінку Expected End не вдалося знайти."
+  }
+}

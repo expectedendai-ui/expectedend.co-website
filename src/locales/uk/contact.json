@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Зв’язатися з Expected End",
+    "title": "Почніть із невеликого <em>контексту.</em>",
+    "intro": "Виберіть кілька деталей, і ми підготуємо для вас зрозумілий лист. Спершу відкриється ваш поштовий застосунок, і лише потім щось буде надіслано."
+  },
+  "fields": {
+    "name": "Ваше ім’я",
+    "email": "Ваш email",
+    "reason": "Про що йдеться?",
+    "project": "Який проєкт?",
+    "priceRange": "Бюджет",
+    "timeline": "Бажані терміни",
+    "discovery": "Як ви дізналися про Expected End?",
+    "message": "Що ви задумали?",
+    "chooseOne": "Виберіть варіант"
+  },
+  "reasons": {
+    "partnership": "Партнерство або співпраця",
+    "press": "Преса або медіа",
+    "general": "Загальне запитання"
+  },
+  "projects": {
+    "waterCheckCommunity": "Спільнота The Water Check",
+    "newIdea": "Нова ідея"
+  },
+  "timelines": {
+    "exploring": "Поки що просто цікавлюся",
+    "month": "Протягом місяця",
+    "threeMonths": "Протягом трьох місяців",
+    "laterThisYear": "Пізніше цього року",
+    "notSure": "Ще не знаю"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Спільнота The Water Check",
+    "search": "Пошук",
+    "referral": "За рекомендацією",
+    "elsewhere": "В іншому місці"
+  },
+  "submit": {
+    "note": "Нічого не буде надіслано, доки ви не перевірите лист і не натиснете «Надіслати» у своєму поштовому застосунку.",
+    "apps": "Виберіть <app>свій поштовий застосунок</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> або <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Підготувати лист"
+  },
+  "dialog": {
+    "close": "Закрити контактну форму"
+  }
+}

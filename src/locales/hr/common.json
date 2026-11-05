@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Ova stranica ne postoji.",
+    "home": "Povratak na početnu"
+  },
+  "legal": {
+    "englishOnly": "Ova je stranica prikazana na engleskom jeziku i mjerodavna je engleska verzija.",
+    "effective": "Na snazi od {{date}}",
+    "onThisPage": "Na ovoj stranici",
+    "related": "Povezane stranice"
+  }
+}

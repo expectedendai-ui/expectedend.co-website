@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Navigasyon prensipal",
+    "projects": "Pwojè",
+    "services": "Sèvis",
+    "company": "Misyon · Sou nou · Laprès",
+    "contact": "Kontak",
+    "home": "Paj dakèy Expected End",
+    "openMenu": "Louvri meni an",
+    "closeMenu": "Fèmen meni an",
+    "links": {
+      "projects": "Pwojè",
+      "services": "Sèvis",
+      "story": "Istwa",
+      "about": "Sou nou",
+      "press": "Laprès",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigasyon anba paj la",
+    "home": "Lakay",
+    "about": "Sou nou",
+    "press": "Laprès",
+    "terms": "Kondisyon itilizasyon",
+    "privacy": "Deklarasyon sou konfidansyalite",
+    "accessibility": "Aksesiblite",
+    "contact": "Kontak",
+    "mission": "Tout sa m bati nan konpayi sa a vize menm misyon an: pwoche moun bò kote Bondye epi ede yo sèvi ak teknoloji pou yo viv, kreye, renmen, ak sèvi ak entansyon. Se avni sa a m ap espere, se pou li m ap travay.",
+    "verse": "Jeremi 29:11",
+    "copyright": "© 2026 EXPECTEDEND LLC. Tout dwa rezève.",
+    "blessing": "Jezi renmen ou."
+  }
+}

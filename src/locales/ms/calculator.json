@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Lupakan pempengaruh. Kenali biologi sebenar anda.",
+    "lead": "Cuba kalkulator percuma tanpa akaun, kemudian terokai aplikasi yang sedang kami bina untuk penjejakan harian.",
+    "appLink": "Terokai aplikasinya ↓",
+    "logoLabel": "Gunakan kalkulator The Water Check"
+  },
+  "intro": {
+    "kicker": "Kalkulator penghidratan",
+    "title": "Mulakan dengan angka yang anda tahu."
+  },
+  "units": {
+    "legend": "Unit berat",
+    "pounds": "Paun (lb)",
+    "kilograms": "Kilogram (kg)"
+  },
+  "weight": {
+    "labelLb": "Berat (lbs)",
+    "labelKg": "Berat (kg)",
+    "valueTextLb": "{{value}} paun",
+    "valueTextKg": "{{value}} kilogram"
+  },
+  "height": {
+    "legend": "Ketinggian",
+    "feet": "Ketinggian (ft)",
+    "inches": "Ketinggian (in)",
+    "centimeters": "Ketinggian (cm)",
+    "note": "Keperluan cecair mengikut jisim tanpa lemak, jadi ketinggian paling penting apabila berat badan tinggi bagi saiz tubuh anda."
+  },
+  "activity": {
+    "label": "Aktiviti Harian (minit)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minit"
+  },
+  "factors": {
+    "legend": "Faktor yang boleh mengubah keperluan cecair",
+    "intro": "Kami hanya menambah angka apabila ada pelarasan harian yang boleh dipertahankan. Jawapan lain memperibadikan panduan anda tanpa berpura-pura bahawa sains menyokong satu sukatan yang tepat.",
+    "age": {
+      "label": "Umur",
+      "hint": "Umur memberi konteks; ia tidak mendiagnosis menopaus."
+    },
+    "lifeStage": {
+      "label": "Peringkat hidup",
+      "hint": "Menggunakan pelarasan yang telus untuk kehamilan atau penghasilan susu ibu.",
+      "options": {
+        "standard": "Standard",
+        "pregnant": "Hamil",
+        "breastfeeding": "Menyusukan bayi"
+      }
+    },
+    "sex": {
+      "label": "Jantina",
+      "hint": "Pilihan. Memperhalusi pengiraan berat ideal dan pengambilan rujukan.",
+      "options": {
+        "unspecified": "Lebih suka tidak menyatakan",
+        "woman": "Perempuan",
+        "man": "Lelaki"
+      }
+    },
+    "luteal": {
+      "label": "Minggu sebelum haid anda",
+      "hint": "Mengambil kira penahanan air fasa luteal dan kembung akibat hormon. Tiada tambahan tetap yang terpakai untuk semua orang."
+    },
+    "heat": {
+      "label": "Keadaan panas atau lembap",
+      "hint": "Panduan cuaca panas bergantung pada pendedahan dan peluh, bukan lokasi semata-mata."
+    }
+  },
+  "result": {
+    "goal": "Sasaran Harian Anda: {{ounces}} Auns",
+    "breakdown": "Pecahan pengiraan",
+    "weightBaseline": "Garis dasar berat",
+    "heightAndBuild": "Ketinggian dan bentuk badan",
+    "sexReference": "Rujukan jantina",
+    "notSet": "Belum ditetapkan",
+    "activity": "Pelarasan aktiviti",
+    "lifeStage": {
+      "standard": "Pelarasan peringkat hidup",
+      "pregnant": "Pelarasan kehamilan",
+      "breastfeeding": "Pelarasan penyusuan"
+    },
+    "luteal": "Panduan fasa luteal",
+    "noFixedOunces": "Tiada +oz tetap",
+    "electrolytes": "Semakan elektrolit",
+    "electrolytesAfterSweat": "Pertimbangkan selepas banyak berpeluh",
+    "electrolytesFromFood": "Biasanya sudah dipenuhi oleh makanan",
+    "guidance": "Ini ialah anggaran perancangan untuk tujuan pendidikan bagi orang dewasa, bukan diagnosis, rawatan atau preskripsi klinikal. Makanan juga membekalkan air, dan keperluan setiap orang berbeza. Jangan paksa diri untuk minum. Tanya profesional penjagaan kesihatan tentang keperluan anda jika anda hamil atau menyusukan bayi, mengambil ubat yang menjejaskan keseimbangan cecair, mempunyai penyakit buah pinggang atau jantung, perlu mengehadkan cecair, atau mengalami gejala yang membimbangkan."
+  },
+  "equivalents": {
+    "title": "Itu lebih kurang",
+    "cups": "{{value}} cawan",
+    "cupsNote": "8 oz setiap satu",
+    "liters": "{{value}} liter",
+    "litersNote": "metrik",
+    "bottles": "{{value}} botol",
+    "bottlesNote": "saiz 16.9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Air yang anda makan",
+    "title": "Bukan semuanya perlu datang daripada gelas.",
+    "copy": "Kira-kira satu perlima daripada air harian kebanyakan orang datang daripada makanan. Kebanyakan buah-buahan dan sayur-sayuran segar mengandungi 70 hingga 95 peratus air, dan sebaik sahaja air itu sampai ke aliran darah, ia menghidratkan anda sama seperti minuman.",
+    "drink": "Minum",
+    "drinkNote": "{{cups}} cawan air, teh atau susu",
+    "eat": "Makan",
+    "eatNote": "daripada makanan kaya air",
+    "pickLegend": "Bayangkan bahagian daripada makanan sebagai",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} mengandungi kira-kira {{ounces}} oz air ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "cawan tembikai",
+      "serving": "1 cawan potong dadu",
+      "water": "92% air"
+    },
+    "cucumber": {
+      "label": "biji timun",
+      "serving": "1 biji sederhana",
+      "water": "95% air"
+    },
+    "strawberries": {
+      "label": "cawan strawberi",
+      "serving": "1 cawan",
+      "water": "91% air"
+    },
+    "oranges": {
+      "label": "biji oren",
+      "serving": "1 biji sederhana",
+      "water": "87% air"
+    },
+    "salad": {
+      "label": "mangkuk salad",
+      "serving": "2 cawan campuran",
+      "water": "kira-kira 94% air"
+    },
+    "soup": {
+      "label": "mangkuk sup jernih",
+      "serving": "1 cawan",
+      "water": "kira-kira 92% air"
+    },
+    "tomatoes": {
+      "label": "biji tomato",
+      "serving": "1 biji sederhana",
+      "water": "95% air"
+    },
+    "grapes": {
+      "label": "cawan anggur",
+      "serving": "1 cawan",
+      "water": "81% air"
+    },
+    "peaches": {
+      "label": "biji pic",
+      "serving": "1 biji sederhana",
+      "water": "89% air"
+    },
+    "cantaloupe": {
+      "label": "cawan tembikai susu",
+      "serving": "1 cawan potong dadu",
+      "water": "90% air"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Mengapa air daripada makanan dikira",
+    "title": "Air daripada tembikai ialah air yang sama.",
+    "sameMolecule": "<strong>Molekul yang sama.</strong> H2O daripada timun dan H2O daripada paip adalah serupa. Sebaik sahaja ia melalui usus ke dalam aliran darah, badan anda menghantarnya ke otot dengan cara yang sama.",
+    "slowRelease": "<strong>Dilepaskan perlahan-lahan.</strong> Air dalam buah-buahan dan sayur-sayuran tersimpan di dalam serat dan dinding sel, jadi ia diserap secara lebih beransur-ansur berbanding segelas air yang diteguk dengan cepat, yang cenderung cepat dikeluarkan oleh buah pinggang anda.",
+    "electrolytes": "<strong>Datang bersama elektrolit.</strong> Timun, bayam, melon dan beri mengandungi kalium dan magnesium, mineral yang digunakan oleh sel anda untuk menahan air.",
+    "glycogen": "<strong>Bahan api dan simpanan serentak.</strong> Otot menyimpan karbohidrat sebagai glikogen, dan setiap gram glikogen disimpan bersama kira-kira tiga gram air. Makanan yang kaya air dan karbohidrat memberikan kedua-duanya.",
+    "caveat": "Anda tetap perlu minum. Makanan biasanya menampung kira-kira satu perlima daripada jumlah keseluruhan; bakinya datang daripada air dan minuman lain. Buah kering, kacang dan roti mengandungi sangat sedikit air."
+  },
+  "grace": {
+    "kicker": "Baik kepada tubuh",
+    "title": "Nota Ringkas tentang Bersikap Lembut terhadap Diri Sendiri",
+    "body": "Pantulan di cermin dan cara pakaian anda muat boleh berubah disebabkan oleh penahanan air, penghadaman, hormon, tidur dan perubahan normal yang lain. Satu hari kembung tidak menentukan tubuh anda. Minumlah dengan penuh perhatian, beri diri anda masa, dan biarkan rasa ingin tahu menggantikan rasa malu. Kembung yang berterusan, bengkak, perubahan berat badan yang cepat atau gejala yang membimbangkan anda wajar dibincangkan dengan profesional penjagaan kesihatan."
+  },
+  "overhydration": {
+    "title": "Bahaya Memaksa Diri Minum",
+    "kidneys": "Buah pinggang anda memerlukan masa untuk menyingkirkan air. Semasa senaman yang berpanjangan, minum lebih cepat daripada kadar anda kehilangan cecair boleh mencairkan natrium dalam darah dan menyebabkan hiponatremia berkaitan senaman. Gejala awal boleh termasuk sakit kepala, loya, pening, keletihan atau kekeliruan. Kes yang teruk boleh menyebabkan bengkak otak, sawan, koma dan kematian.",
+    "pacing": "Jangan kejar anggaran ini dengan meneguk air dengan cepat. Minum secara berperingkat sepanjang hari. Semasa bersenam, sesuaikan pengambilan dengan rasa dahaga, keadaan dan kehilangan peluh anda sendiri. Dapatkan rawatan perubatan segera jika berlaku kekeliruan, sawan, rebah atau gejala yang teruk.",
+    "sources": "Sumber: <nih>panduan NIH tentang hiponatremia berkaitan senaman</nih> dan <academies>cadangan cecair National Academies</academies>."
+  },
+  "notes": {
+    "title": "Nota bukti anda",
+    "sexMan": "<strong>Jantina:</strong> Pengambilan rujukan National Academies ialah kira-kira 3.7 liter jumlah air sehari untuk lelaki dan 2.7 liter untuk wanita. Berat badan menjelaskan sebahagian besar jurang itu, jadi bakinya ditunjukkan di sini sebagai peningkatan 4 peratus pada garis dasar berat, dan semakan ketinggian dan bentuk badan menggunakan formula berat ideal lelaki.",
+    "sexWoman": "<strong>Jantina:</strong> Pengambilan rujukan National Academies ialah kira-kira 3.7 liter jumlah air sehari untuk lelaki dan 2.7 liter untuk wanita. Berat badan menjelaskan sebahagian besar jurang itu, jadi bakinya ditunjukkan di sini sebagai pengurangan 4 peratus pada garis dasar berat, dan semakan ketinggian dan bentuk badan menggunakan formula berat ideal wanita.",
+    "height": "<strong>Ketinggian dan bentuk badan:</strong> Keperluan cecair lebih mengikut jisim tanpa lemak berbanding jumlah berat. Oleh sebab berat anda berada di atas julat biasa bagi ketinggian anda, anggaran ini menggunakan berat badan terlaras (berat ideal ditambah 40 peratus daripada perbezaannya), satu konvensyen klinikal yang biasa. Ia hanya angka perancangan kasar, bukan penilaian terhadap tubuh anda.",
+    "cycle": "<strong>Fasa kitaran:</strong> Perubahan cecair yang berkaitan dengan kitaran haid memang wujud, tetapi kajian tidak menetapkan peningkatan auns tetap yang sejagat. Tiada auns ditambah secara automatik. Makanan biasa lazimnya sudah membekalkan elektrolit; suplemen magnesium atau kalium bukan cadangan untuk semua orang.",
+    "age": "<strong>Umur dan menopaus:</strong> Umur sahaja tidak menentukan status menopaus. Perubahan hormon boleh menjejaskan rasa dahaga dan pengawalan cecair, tetapi tiada pelarasan auns “melebihi 45” yang telah disahkan, jadi umur anda tidak mengubah jumlahnya.",
+    "heat": "<strong>Cuaca panas:</strong> Bonus iklim yang tetap boleh terkurang atau terlebih anggar keperluan anda. Untuk kerja sederhana dalam cuaca panas kurang daripada dua jam, NIOSH menasihatkan kira-kira 8 auns setiap 15–20 minit; peluh yang banyak dan lebih lama memerlukan pelan penggantian cecair yang khusus untuk individu."
+  },
+  "evidence": {
+    "label": "Bukti:",
+    "academies": "Panduan pengambilan air National Academies",
+    "harvard": "Harvard Health tentang makanan dan penghidratan",
+    "cycle": "Kajian osmoregulasi kitaran haid",
+    "menopause": "Ulasan pengawalan cecair semasa menopaus",
+    "niosh": "Panduan CDC/NIOSH tentang cuaca panas"
+  },
+  "tips": {
+    "kicker": "Berguna, bukan obsesif",
+    "title": "Tiga semakan untuk kehidupan sebenar.",
+    "schedule": {
+      "title": "Jadual",
+      "body": "Mulakan pagi anda dengan air, hirup sedikit semasa makan, dan biarkan rasa dahaga, cuaca dan aktiviti membimbing selebihnya."
+    },
+    "electrolytes": {
+      "title": "Elektrolit",
+      "body": "Kebanyakan orang menggantikan elektrolit melalui makanan biasa. Selepas berpeluh lama atau banyak, pilih minuman elektrolit yang seimbang; jangan tambah garam secara rutin jika anda telah dinasihatkan untuk mengehadkan natrium."
+    },
+    "visualCheck": {
+      "title": "Semakan Visual",
+      "body": "Air kencing berwarna kuning pucat boleh menjadi satu petunjuk kasar tentang penghidratan. Makanan, vitamin, ubat-ubatan dan keadaan kesihatan boleh mengubah warnanya, jadi ia bukan diagnosis."
+    }
+  },
+  "author": {
+    "kicker": "Daripada orang yang membinanya",
+    "title": "Mengapa Saya Membina Ini (dan Mengapa Anda Tidak Patut Hanya Mendengar Cakap Saya)",
+    "athlete": "Nama saya Denzel Rigaud. Saya menghabiskan lebih sembilan tahun berlari dalam acara 400 meter dan lari berpagar, jadi penghidratan menjadi sebahagian daripada cara saya berlatih, pulih dan belajar membaca tubuh saya.",
+    "purpose": "Saya membina The Water Check untuk membantu anda mendengar tubuh anda di tengah-tengah kebisingan dalam talian. Saya tidak mahu anda menganggap pengalaman saya sebagai preskripsi. Biologi, persekitaran, sejarah perubatan dan peringkat hidup anda yang menentukan apa yang anda perlukan.",
+    "technology": "Teknologi bukan untuk kita menatal tanpa henti dan menjalani hidup orang lain. Ia sepatutnya memastikan hidup kita produktif dan memperbaik roh, jiwa, minda dan jasad kita, supaya kita menjadi versi terbaik diri yang kita mahukan. Jadi berhentilah mendengar cakap semua orang, kerana apa yang sesuai untuk anda, sesuailah untuk anda.",
+    "faith": "Kenali corak tubuh anda dan bawa kebimbangan perubatan kepada profesional yang bertauliah. Menjaga tubuh jasmani anda boleh mendekatkan anda kepada diri sendiri dan kepada Tuhan, yang meletakkan satu percikan dalam diri setiap kita yang wajar dijaga.",
+    "motto": "Jangan ikut pempengaruh. Kenali diri sendiri.",
+    "date": "15 Mac 2021",
+    "founderPage": "Halaman Pengasas"
+  },
+  "community": {
+    "kicker": "Kekalkan sentuhan manusia",
+    "title": "Sertai komuniti yang sebenar.",
+    "instagram": "Ikuti @thewatercheck di Instagram",
+    "reelSoon": "Reel Instagram akan datang",
+    "story": "Kisah komuniti {{position}}"
+  }
+}

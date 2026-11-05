@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Spullen voor onderweg",
+    "headline": "Houd dichtbij wat ertoe doet.",
+    "intro": "Een kleine collectie doordachte spullen voor aantekeningen, herinneringen en de dagelijkse wandel met God.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Notitieboek met begeleiding",
+        "kind": "Notitieboek"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Een kleine herinnering",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Zachte laag voor elke dag",
+        "kind": "Kleding"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Voor koelere ochtenden",
+        "kind": "Kleding"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "De eerste drop",
+    "headline": "Drink water. Blijf bewegen.",
+    "intro": "Kleding met hydratatie in gedachten, voor wie komt opdagen, bijvult en de check volhoudt.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Een vrolijke basic voor elke dag",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Voor na de lange wandeling",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Een tweede kleurvariant",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Een rustige, stevige laag",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigatie van de {{store}} Store",
+    "collection": "De collectie"
+  },
+  "hero": {
+    "action": "Ontdek de eerste drop",
+    "mybiblelensArt": "Logo van de MyBibleLens Store en stickercollage",
+    "watercheckArt": "Vloeibare logobel van The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Binnenkort",
+    "title": "Gemaakt om deel te worden van je dag.",
+    "body": "Dit zijn de eerste items. Productfoto's, opties en links om af te rekenen verschijnen hier zodra de drop klaar is."
+  },
+  "product": {
+    "placeholder": "Voorbeeldafbeelding van {{name}}",
+    "buy": "Nu kopen",
+    "comingSoon": "Binnenkort",
+    "comingSoonLabel": "{{name}} komt binnenkort"
+  },
+  "checkout": {
+    "eyebrow": "Geen account nodig",
+    "title": "Als de store opengaat, blijft afrekenen simpel.",
+    "body": "Kies een item, tik op Nu kopen en reken veilig af via Stripe. Geen winkelaccount en geen doolhof van winkelwagens."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Het winkelbeleid wordt gepubliceerd vóór de eerste drop.",
+    "policies": "Winkelbeleid",
+    "terms": "Voorwaarden",
+    "privacy": "Privacy",
+    "accessibility": "Toegankelijkheid",
+    "shipping": "Verzending & retour (vóór de drop)"
+  }
+}

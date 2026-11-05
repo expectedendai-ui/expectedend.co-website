@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Saker för resan",
+    "headline": "Håll det viktiga nära.",
+    "intro": "En liten kollektion genomtänkta saker för anteckningar, påminnelser och den dagliga vandringen med Gud.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Guidad anteckningsbok",
+        "kind": "Anteckningsbok"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "En liten påminnelse",
+        "kind": "Pin"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Mjukt lager för vardagen",
+        "kind": "Kläder"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "För svalare morgnar",
+        "kind": "Kläder"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Första droppen",
+    "headline": "Drick vatten. Fortsätt röra på dig.",
+    "intro": "Kläder med vätska i tankarna, för dig som dyker upp, fyller på och håller checken igång.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "En ljus vardagsfavorit",
+        "kind": "T-shirt"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "För efter den långa promenaden",
+        "kind": "Hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "En andra färgställning",
+        "kind": "T-shirt"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Ett lugnt, tjockt lager",
+        "kind": "Hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Navigering för {{store}} Store",
+    "collection": "Kollektionen"
+  },
+  "hero": {
+    "action": "Utforska första släppet",
+    "mybiblelensArt": "Logga för MyBibleLens Store och klistermärkskollage",
+    "watercheckArt": "The Water Checks flytande logobubbla"
+  },
+  "collection": {
+    "eyebrow": "Kommer snart",
+    "title": "Gjort för att bli en del av din dag.",
+    "body": "Det här är de första plaggen och sakerna. Produktbilder, alternativ och länkar till kassan dyker upp här när släppet är klart."
+  },
+  "product": {
+    "placeholder": "Platshållare för {{name}}",
+    "buy": "Köp nu",
+    "comingSoon": "Kommer snart",
+    "comingSoonLabel": "{{name}} kommer snart"
+  },
+  "checkout": {
+    "eyebrow": "Inget konto behövs",
+    "title": "När butiken öppnar är kassan enkel.",
+    "body": "Välj en sak, tryck på Köp nu och betala säkert via Stripe. Inget butikskonto och ingen varukorgslabyrint."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Butikens villkor publiceras före första släppet.",
+    "policies": "Butiksvillkor",
+    "terms": "Villkor",
+    "privacy": "Integritet",
+    "accessibility": "Tillgänglighet",
+    "shipping": "Frakt och returer (före släppet)"
+  }
+}

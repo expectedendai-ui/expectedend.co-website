@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "kicker": "À propos d’Expected End",
+    "title": "Une technologie qui a du sens, pensée pour la vraie vie."
+  },
+  "founder": {
+    "kicker": "Derrière l’entreprise",
+    "title": "L’histoire derrière Expected End.",
+    "body": "Un parcours personnel qui mène des premières expériences technologiques en CM2 au deuil, à la foi, à MyBibleLens et à un nouveau départ. <more>Lire la suite</more>",
+    "link": "L’histoire du fondateur, Denzel Rigaud"
+  },
+  "mission": {
+    "kicker": "La mission",
+    "title": "La technologie devrait vous aider à revenir à votre vie.",
+    "attention": "La technologie peut façonner notre manière de rechercher l’attention et la récompense. La comparaison permanente, les applis de rencontre et les versions retouchées de la vie des autres peuvent donner l’impression que les vraies relations et les moments de calme valent moins. Les enfants entrent dans ces systèmes avant de comprendre la pression qui les anime.",
+    "screen": "Expected End offre un meilleur usage de l’écran. L’entreprise crée des outils pour que les enfants et les adultes apprennent, créent, travaillent, trouvent un lieu sûr ou se rapprochent de Dieu. Chaque produit doit les ramener à la vie qui se trouve devant eux.",
+    "line": "La mission : rapprocher les gens de Dieu grâce à une technologie productive, utile et joyeuse, qui laisse de la place à la vraie vie."
+  },
+  "press": {
+    "kicker": "Presse",
+    "title": "Aidez-nous à raconter l’histoire.",
+    "body": "Expected End accueille volontiers les échanges sur la technologie centrée sur la foi, le bien-être numérique, le deuil d’un fondateur, MyBibleLens, The Water Check et les produits qui rendent du temps à la vraie vie.",
+    "link": "Ouvrir le kit presse et médias"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Makipag-ugnayan sa Expected End",
+    "title": "Magsimula sa kaunting <em>konteksto.</em>",
+    "intro": "Pumili ng ilang detalye at ihahanda para sa iyo ang isang malinaw na email. Bubukas muna ang email app mo bago may maipadala."
+  },
+  "fields": {
+    "name": "Pangalan mo",
+    "email": "Email mo",
+    "reason": "Tungkol saan ito?",
+    "project": "Aling proyekto?",
+    "priceRange": "Saklaw ng presyo",
+    "timeline": "Ideal na timeline",
+    "discovery": "Paano mo nalaman ang Expected End?",
+    "message": "Ano ang nasa isip mo?",
+    "chooseOne": "Pumili ng isa"
+  },
+  "reasons": {
+    "partnership": "Partnership o kolaborasyon",
+    "press": "Press o media",
+    "general": "Pangkalahatang tanong"
+  },
+  "projects": {
+    "waterCheckCommunity": "Ang komunidad ng The Water Check",
+    "newIdea": "Isang bagong ideya"
+  },
+  "timelines": {
+    "exploring": "Tumitingin-tingin lang",
+    "month": "Sa loob ng isang buwan",
+    "threeMonths": "Sa loob ng tatlong buwan",
+    "laterThisYear": "Mamaya ngayong taon",
+    "notSure": "Hindi pa sigurado"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Ang komunidad ng The Water Check",
+    "search": "Search",
+    "referral": "Rekomendasyon ng iba",
+    "elsewhere": "Sa ibang lugar"
+  },
+  "submit": {
+    "note": "Walang maipapadala hangga't hindi mo ito nire-review at pinipindot ang Send sa email app mo.",
+    "apps": "Piliin ang <app>email app mo</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook>, o <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Ihanda ang email"
+  },
+  "dialog": {
+    "close": "Isara ang contact form"
+  }
+}

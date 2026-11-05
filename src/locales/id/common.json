@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Halaman itu tidak ada di sini.",
+    "home": "Kembali ke beranda"
+  },
+  "legal": {
+    "englishOnly": "Halaman ini ditampilkan dalam bahasa Inggris, dan versi bahasa Inggris yang berlaku.",
+    "effective": "Berlaku sejak {{date}}",
+    "onThisPage": "Di halaman ini",
+    "related": "Halaman terkait"
+  }
+}

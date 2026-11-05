@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "De app",
+      "drinkCheck": "Drink Check",
+      "guide": "Gids",
+      "widgets": "Widgets",
+      "progress": "Voortgang",
+      "pricing": "Prijzen",
+      "faq": "FAQ",
+      "calculator": "Calculator"
+    },
+    "hero": {
+      "title": "Drink maar.<break/>Wij <em>houden het bij</em>.",
+      "sub": "Je eigen watergetal, drankjes die je kunt scannen, je lichaam dat oplaadt, een widget die je echt houdt en een kogelvis genaamd Bubbles die je rondleidt. Geen gallonregels, geen influencers, geen schuldgevoel.",
+      "comingSoon": "Binnenkort",
+      "appStoreLead": "Download in de",
+      "appStore": "App Store",
+      "googlePlayLead": "Ontdek het op",
+      "googlePlay": "Google Play",
+      "calculator": "Probeer de gratis calculator",
+      "instagram": "Volg The Water Check op Instagram",
+      "note": "Nu in beoordeling bij de App Store. De calculator is gratis en je hoeft je niet aan te melden.",
+      "todayAlt": "Het scherm Vandaag van The Water Check: 40 oz van een doel van 81,2 oz, met snelknoppen en het logboek van vandaag",
+      "widgetsAlt": "De widgetstudio met een Lichaam-widget in Hologram en rijen widgetstijlen",
+      "bubblesLabel": "Laat Bubbles een trucje doen",
+      "bubblesSay": "Hoi, ik ben Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "widgetstijlen",
+      "pearls": "parels in de Gids om te vinden",
+      "foods": "waterrijke voedingsmiddelen, getekend",
+      "languages": "talen"
+    },
+    "sixty": {
+      "kicker": "Waarom het ertoe doet",
+      "title": "Je bestaat voor 60% uit water.",
+      "lede": "Geen doel om te halen. Dat water is nu al aan het werk: het vervoert zuurstof, beschermt je gewrichten, koelt je af en voert af wat je niet nodig hebt. Wat je nodig hebt, verandert met activiteit, weer en gezondheid.",
+      "pmeterKicker": "De P-Meter",
+      "pmeterLabel": "Acht tinten van lichtgeel stro tot donker amber, ingedeeld in Goed gehydrateerd, Aanvullen en Nu drinken",
+      "wellHydrated": "Goed gehydrateerd",
+      "topUp": "Aanvullen",
+      "drinkNow": "Nu drinken",
+      "fine": "Een ruwe aanwijzing, geen diagnose. Eten, vitamines en medicijnen veranderen allemaal de kleur. De app legt elke kleurzone uit en vertelt wanneer je met een zorgverlener moet praten."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Eén keer scannen. Weten. Voortaan één tik.",
+      "lede": "Scan de barcode, gratis en zo vaak je wilt. Geen barcode? Als je 18 of ouder bent, maak je een foto en leest de app het etiket. Hoe dan ook zie je suiker in theelepels, cafeïne, elektrolyten en elk ingrediënt gemarkeerd als Goed, Prima, Opletten of Vermijden.",
+      "scoresLabel": "Scorekleuren van Drink Check",
+      "scores": {
+        "great": "Top",
+        "good": "Goed",
+        "okay": "Oké",
+        "poor": "Matig"
+      },
+      "ticks": {
+        "electrolytes": "Elektrolyten van het etiket: natrium, kalium, magnesium en calcium, met hun referentie-inname.",
+        "save": "Sla het op (geef het een andere naam als je wilt), en de volgende keer is het één tik op de toevoegpagina. Geen nieuwe scan.",
+        "food": "Volwassenen kunnen ook eten fotograferen: een mango telt mee bij je mango, iets nieuws wordt een eigen bubbel.",
+        "journal": "Je Drinkdagboek bewaart hoe elk drankje je liet voelen, op je telefoon."
+      },
+      "fine": "Een snelle blik op het etiket, geen labtest en geen beoordeling van een merk. Barcoderesultaten komen van Open Food Facts, en AI kan zich vergissen, dus controleer het echte etiket, vooral bij allergieën. We bewaren je foto niet.",
+      "alt": "Een Drink Check-resultaat voor een sportdrank: score 66, Goed, met suiker, cafeïne en de elektrolyten van het etiket"
+    },
+    "foods": {
+      "kicker": "Eten telt ook",
+      "title": "Ongeveer een vijfde van je water komt van je bord.",
+      "lede": "De toevoegpagina is een pagina vol getekende fruitbubbels, drie per rij: watermeloen, komkommer, aardbeien, mango en meer. Tik op het plusje en het is toegevoegd, met Ongedaan maken er meteen naast. Wat je het vaakst toevoegt, schuift naar voren.",
+      "ticks": {
+        "amounts": "Glas, fles of elke hoeveelheid, met één tik.",
+        "caffeine": "Koffiedrinkers krijgen een cafeïnekaart die zichzelf invult.",
+        "ring": "Een ring bovenaan laat zien hoe eten meetelt voor je dag."
+      },
+      "alt": "De toevoegpagina: een ring bovenaan, drinkknoppen, een cafeïnekaart en bubbels met waterrijk eten"
+    },
+    "guide": {
+      "kicker": "Gids van The Water Check",
+      "title": "Laat een bubbel knappen. Houd een parel.",
+      "lede": "Elk hoofdstuk is een bubbel met een vraag erop, en elk hoofdstuk is gratis. Waarom voel je je “bijna leeg”? Wat vertelt je plas je? Een gallon per dag, echt? Lees er een tot het einde en hij knapt tot een parel. Ongeveer een op de zes is een zeldzame gouden.",
+      "electric": "Je elektrische lichaam: zes hoofdstukken over het signaal, natrium en kalium, magnesium en calcium, en brandstof.",
+      "forHerKicker": "Voor haar",
+      "forHer": "Roze hoofdstukken over haar lichaam en water: roze of neon plas, een opgeblazen gevoel rond je menstruatie, waarom blaasontstekingen vaker vrouwen treffen, een klein lekje als je lacht, zwangerschap en de overgang. Vriendelijk, helder en met bronnen.",
+      "fine": "Elk hoofdstuk noemt zijn bronnen en zegt wanneer je naar een arts moet. Het beloont begrip, geen schermtijd: geen reeksen, geen druk.",
+      "alt": "Gids van The Water Check: hoofdstukken van Je elektrische lichaam als vraagbubbels"
+    },
+    "widgets": {
+      "kicker": "Widgets",
+      "title": "<count>89</count> stijlen voor je beginscherm.",
+      "lede": "Sporten, plekken, seizoenen, zeeleven en designs, in klein, middelgroot en groot, met indelingen van ringen tot golven. Vertel ons bij het aanmelden welke sport je doet en de widget van jouw sport verschijnt als eerste. Log een drankje rechtstreeks vanaf je beginscherm.",
+      "ticks": {
+        "body": "Lichaam: je silhouet vult zich met het water van de dag. Vonk: een batterij vult zich met de lading van vandaag.",
+        "charge": "Zet de Lading-meter op een widget om je elektrolyten te volgen in plaats van je water."
+      },
+      "chips": {
+        "body": "Lichaam",
+        "spark": "Vonk",
+        "running": "Hardlopen",
+        "crossCountry": "Veldlopen",
+        "volleyball": "Volleybal",
+        "basketball": "Basketbal",
+        "seaTurtle": "Zeeschildpad",
+        "jellyfish": "Kwal",
+        "beach": "Strand",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Seizoenen"
+      },
+      "alt": "De widgetstudio met de Lichaam-widget in Hologram, de kleurvarianten, indelingen en de Lading-meter"
+    },
+    "progress": {
+      "kicker": "Voortgang",
+      "title": "Zie wat er in je drankjes zit, balk voor balk.",
+      "lede": "Vandaag als eenvoudige balken die zich van links naar rechts vullen: water tegenover je getal, dan natrium, kalium, magnesium en calcium uit de drankjes die je scant, plus cafeïne en suiker. Tik op een balk om de drankjes erachter te zien. De Kalender toont alle dagen naast elkaar, met je reeks.",
+      "ticks": {
+        "dailyValues": "Elektrolyten worden afgezet tegen de referentie-inname uit de voedingswaardetabel op het etiket.",
+        "caffeine": "Cafeïne tegenover 400 mg, de hoeveelheid die de FDA noemt voor de meeste gezonde volwassenen, en suiker tegenover 50 g.",
+        "journal": "Je Drinkdagboek staat direct onder de balken: elk drankje dat je scande en hoe je je erbij voelde.",
+        "real": "Elk getal komt van iets wat je hebt gelogd of gescand. Niets is verzonnen."
+      },
+      "fine": "Referenties, geen doelen, en geen medisch advies. Let je om gezondheidsredenen op natrium of kalium, volg dan het advies van je arts.",
+      "alt": "Voortgang: water op 83% van het getal van de dag, daarna natrium, kalium, magnesium, calcium, cafeïne en suiker als balken"
+    },
+    "crew": {
+      "kicker": "Je maand en je mensen",
+      "title": "Zie het optellen. Neem je vrienden mee.",
+      "calendarAlt": "De kalender: elke dag vult zich als een glas, met gelogde dagen, dagen op je doel en een reeks",
+      "calendarTitle": "Je water, dag voor dag",
+      "calendarBody": "Elke dag die je logt, vult zich als een glas. Dagen op je doel, reeksen en getijdetekens, en alles gaat mee naar een nieuwe telefoon.",
+      "crewAlt": "Een Ploeg genaamd Track team met snelle aanmoedigingen",
+      "crewTitle": "Ploeg",
+      "crewBody": "Groepen alleen op uitnodiging die elkaar aanmoedigen. Vrienden zien welk percentage van je eigen doel je haalt en je reeks, nooit je ounces of je lichaam. Melden en Blokkeren zijn er altijd."
+    },
+    "bubbles": {
+      "kicker": "Maak kennis met Bubbles",
+      "title": "Je gids is een kogelvis.",
+      "lede": "Bubbles is de welzijnsfunctionaris van De Afdeling. Op je eerste dag geeft hij je een rondleiding door de app, en hij kan het niet laten om op te scheppen. Kom op, geef hem iets te doen.",
+      "tricksLegend": "Trucjes van Bubbles",
+      "tricks": {
+        "puff": "Opblazen",
+        "spin": "Draaien",
+        "flip": "Achterwaartse salto",
+        "wave": "Zwaaien",
+        "cheer": "Grote finale"
+      }
+    },
+    "pricing": {
+      "kicker": "Prijzen",
+      "title": "Gratis beginnen. Alles, één keer.",
+      "free": {
+        "title": "Gratis",
+        "sub": "Alles wat je nodig hebt om genoeg te drinken.",
+        "items": {
+          "number": "Je eigen watergetal",
+          "log": "Drankjes en waterrijk eten loggen",
+          "barcode": "Barcodescans, gratis en onbeperkt",
+          "photo": "Eén gratis fotoscan (18+)",
+          "guide": "Elk hoofdstuk van de Gids",
+          "widgets": "Klassiek, Seizoenen en de basiswidgets Lichaam en Vonk",
+          "crew": "Je kalender, reeksen en de Ploeg van een vriend"
+        }
+      },
+      "forever": {
+        "tag": "Openingsjaar",
+        "title": "Alles voor altijd",
+        "sub": "Eén aankoop, geen abonnement.",
+        "items": {
+          "widgets": "Elke widgetstijl en kleurvariant",
+          "bars": "De balken voor elektrolyten, cafeïne en suiker",
+          "journal": "Je Drinkdagboek",
+          "photos": "Meer fotoscans (18+)",
+          "summaries": "Pdf-overzichten van 30 en 90 dagen",
+          "crews": "Je eigen Ploegen maken",
+          "later": "Alles wat we later toevoegen"
+        },
+        "note": "Aangeboden tijdens ons openingsjaar. Daarna kan The Water Check overstappen op een maandplan, en een eenmalige aankoop van daarvoor blijft ontgrendeld. De prijs zie je in de App Store of Google Play voordat je koopt."
+      }
+    },
+    "privacy": {
+      "kicker": "Je gegevens",
+      "title": "Wat op je telefoon blijft, en wat niet.",
+      "phoneTitle": "Blijft op je telefoon",
+      "phoneBody": "Je Drinkdagboek, opgeslagen drankjes en eten, parels uit de Gids, trainingen, cyclusnotities en herinneringen.",
+      "accountTitle": "Bewaard bij je account",
+      "accountBody": "Je inloggegevens, je antwoorden bij het aanmelden, elk drankje en eten dat je logt met het tijdstip, je dagelijkse watertotalen en je Ploeg, zodat ze meegaan naar een nieuwe telefoon.",
+      "neverTitle": "Nooit",
+      "neverBody": "We verkopen je gegevens niet en delen ze niet met advertentienetwerken. We bewaren je Drink Check-foto's niet.",
+      "links": {
+        "privacy": "Privacybeleid",
+        "healthData": "Beleid voor gezondheidsgegevens van consumenten",
+        "deleteAccount": "Je account verwijderen"
+      }
+    },
+    "calculator": {
+      "kicker": "Gratis, zonder aanmelden",
+      "title": "Begin met de getallen die je kent.",
+      "lede": "Je gewicht, je lengte, hoe lang je beweegt. De calculator geeft je in ongeveer twintig seconden een dagdoel en laat zijn berekening zien, zodat je ertegenin kunt gaan. Hij draait in je browser.",
+      "chips": {
+        "weight": "Basis op gewicht",
+        "height": "Lengte en lichaamsbouw",
+        "activity": "Aanpassing voor activiteit",
+        "lifeStage": "Levensfase",
+        "heat": "Hitte en luchtvochtigheid",
+        "electrolytes": "Elektrolytencheck"
+      },
+      "open": "Open de calculator",
+      "fine": "Een educatieve schatting voor volwassenen om mee te plannen, geen diagnose of voorschrift. Dwing jezelf niet om te drinken. Vraag een zorgverlener om advies als je zwanger bent of borstvoeding geeft, medicijnen gebruikt die de vochtbalans beïnvloeden, of een nier- of hartaandoening hebt."
+    },
+    "faq": {
+      "kicker": "Vragen",
+      "title": "De eerlijke antwoorden.",
+      "items": {
+        "medical": {
+          "q": "Is The Water Check medisch advies?",
+          "a": "Nee. Het is een algemene welzijnsapp. Je watergetal is een educatieve schatting, geen voorschrift, en niets in de app stelt een diagnose of behandelt iets. Als je zwanger bent of borstvoeding geeft, medicijnen gebruikt die je vochtbalans beïnvloeden, of een nier-, hart- of andere aandoening hebt, vraag dan je arts wat goed is voor jou."
+        },
+        "number": {
+          "q": "Waar komt mijn getal vandaan?",
+          "a": "Van je gewicht, lengte, activiteit, klimaat en levensfase, uitgaande van openbare richtlijnen zoals de waterreferenties van de Amerikaanse National Academies. De gratis calculator laat zijn berekening zien, zodat je elke stap kunt zien. Het is een startpunt, geen regel."
+        },
+        "scan": {
+          "q": "Wat gebeurt er als ik een drankje scan?",
+          "a": "Een barcodescan stuurt alleen het barcodenummer naar Open Food Facts, een gratis, open voedingsdatabase, en krijgt terug wat er op het etiket staat. Een foto, voor volwassenen van 18 en ouder, gaat via onze server naar Gemini, de AI van Google, die het etiket leest en terugstuurt wat het vond. We bewaren je foto niet; Google kan gegevens volgens zijn voorwaarden een beperkte tijd bewaren. Etiketten en AI kunnen zich vergissen, dus controleer het echte etiket en gebruik Drink Check nooit voor allergieën of medische diëten."
+        },
+        "phone": {
+          "q": "Wat blijft er op mijn telefoon?",
+          "a": "Je Drinkdagboek, opgeslagen drankjes en eten, parels uit de Gids, trainingen, je antwoord over je cyclus en cyclusnotities, al kan de back-up van je eigen telefoon ze bevatten. Op de iPhone blijven workouts die je de app uit Apple Gezondheid laat lezen ook op je telefoon, en die worden nooit naar ons gestuurd. Je antwoorden bij het aanmelden, elk drankje en eten dat je logt met het tijdstip, en je dagtotalen worden bij je account bewaard, zodat ze meegaan naar een nieuwe telefoon. We verkopen je gegevens niet."
+        },
+        "audience": {
+          "q": "Voor wie is het?",
+          "a": "Voor iedereen van 13 jaar en ouder. Ben je jonger dan 18, gebruik de app dan met toestemming van een ouder of voogd. Fruitvasten, alcohol loggen en fotoscans zijn alleen voor volwassenen. De app gaat uit van de leeftijdsgroep die je opgeeft, dus antwoord alsjeblieft eerlijk. Ben je 13 tot 17, bespreek je getal dan met een ouder of zorgverlener."
+        },
+        "cost": {
+          "q": "Wat kost het?",
+          "a": "Beginnen met de app is gratis: krijg je getal, log water en eten, scan elke barcode, lees elk hoofdstuk van de Gids, doe mee met een Ploeg en gebruik de widgets Klassiek, Seizoenen, Lichaam en Vonk. Tijdens ons openingsjaar ontgrendelt één optionele aankoop alles, één keer, zonder abonnement. De App Store of Google Play toont de prijs in je eigen valuta voordat je koopt."
+        },
+        "deleteAccount": {
+          "q": "Hoe verwijder ik mijn account?",
+          "a": "In de app: Profiel, dan Instellingen, dan Account verwijderen. Het is meteen weg. Geen app? Onze pagina Je account verwijderen legt uit hoe je het per e-mail aanvraagt."
+        },
+        "download": {
+          "q": "Wanneer kan ik de app downloaden?",
+          "a": "The Water Check wordt beoordeeld door de App Store, wordt getest op Google Play en komt binnenkort naar allebei. Volg @thewatercheck op Instagram om het als eerste te horen."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Begrijp wat je drinkt. Gebouwd in Florida door een eenmansbedrijf. Voor 13 jaar en ouder.",
+      "legal": "Juridisch",
+      "privacy": "Privacybeleid van The Water Check",
+      "terms": "Algemene voorwaarden van The Water Check",
+      "community": "Communityrichtlijnen",
+      "healthData": "Privacybeleid voor gezondheidsgegevens van consumenten",
+      "deleteAccount": "Je account verwijderen",
+      "sitePrivacy": "Privacy van de website",
+      "explore": "Ontdekken",
+      "calculator": "Hydratatiecalculator",
+      "store": "De Store van The Water Check",
+      "instagram": "@thewatercheck op Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Hulp",
+      "email": "Support per e-mail",
+      "accessibility": "Toegankelijkheid",
+      "contact": "Contact",
+      "note": "The Water Check is een algemene welzijnsapp. De app stelt geen diagnose, behandelt of voorkomt geen enkele aandoening en is geen vervanging voor advies van een zorgverlener. Bel bij een noodgeval 911 of je lokale alarmnummer. App-schermen tonen een testversie met verzonnen gegevens; functies kunnen vóór de release nog veranderen."
+    }
+  },
+  "app": {
+    "eyebrow": "De app",
+    "title": "Je water, dag voor dag.",
+    "body": "Begin met een persoonlijke schatting en log daarna in de loop van de dag drankjes en waterrijk eten. Zie je voortgang in de app, op je beginscherm en over de hele maand.",
+    "comingSoon": "Binnenkort in de App Store",
+    "calculator": "Probeer de gratis calculator",
+    "caveat": "De calculator werkt hier zonder account. Schermafbeeldingen van de app tonen een previewversie; functies en beschikbaarheid kunnen vóór de release nog veranderen.",
+    "screens": {
+      "number": {
+        "alt": "De persoonlijke dagelijkse waterschatting van The Water Check op een iPhone",
+        "caption": "Je getal"
+      },
+      "log": {
+        "alt": "Het dagelijkse logboek van The Water Check met drankjes en eten op een iPhone",
+        "caption": "Logboek van vandaag"
+      },
+      "widgets": {
+        "alt": "De instellingen voor beginschermwidgets van The Water Check op een iPhone",
+        "caption": "Widgets"
+      },
+      "wellness": {
+        "alt": "De welzijnsgids en P-Meter van The Water Check op een iPhone",
+        "caption": "Welzijn"
+      },
+      "calendar": {
+        "alt": "De maandelijkse waterkalender van The Water Check op een iPhone",
+        "caption": "Kalender"
+      }
+    }
+  },
+  "footer": {
+    "note": "De gratis calculator heeft geen account nodig. Hij draait in je browser en stuurt je getallen niet naar ons.",
+    "navLabel": "Navigatie in de footer",
+    "calculator": "Hydratatiecalculator",
+    "explore": "Ontdek de app",
+    "instagram": "@thewatercheck op Instagram",
+    "store": "De store",
+    "builder": "Wie dit bouwde",
+    "finePrint": "De kleine lettertjes",
+    "terms": "Algemene voorwaarden",
+    "privacy": "Privacybeleid",
+    "community": "Communityrichtlijnen",
+    "healthData": "Gezondheidsgegevens van consumenten",
+    "deleteAccount": "Je account verwijderen",
+    "accessibility": "Toegankelijkheid",
+    "contact": "Contact",
+    "project": "Een project van <company>EXPECTEDEND LLC</company>. Educatieve schatting, geen medisch advies.",
+    "backToTop": "Terug naar boven ↑"
+  }
+}

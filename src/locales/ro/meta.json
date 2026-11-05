@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Un scop, construit cu eleganță",
+    "description": "Expected End creează software bine gândit, instrumente de productivitate, experiențe digitale și comunități."
+  },
+  "about": {
+    "title": "Despre | Expected End",
+    "description": "Povestea fondatorului Denzel Rigaud, misiunea din spatele Expected End și proiectele născute din credință și scop."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Fondatorul Expected End",
+    "description": "Denzel Rigaud este fondatorul și dezvoltatorul full-stack din spatele Expected End, MyBibleLens, Aplicația Sanctuar pentru creștinism, și The Water Check."
+  },
+  "press": {
+    "title": "Presă și media | Expected End",
+    "description": "Biografii aprobate, fapte verificate, linkuri de entitate și materiale media descărcabile pentru articole despre Expected End și Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Termenii de utilizare a site-ului | Expected End",
+    "description": "Termenii care reglementează utilizarea site-ului Expected End."
+  },
+  "privacy": {
+    "title": "Declarația de confidențialitate | Expected End",
+    "description": "Cum gestionează Expected End informațiile de pe acest site."
+  },
+  "watercheck-privacy": {
+    "title": "Politica de confidențialitate The Water Check | Expected End",
+    "description": "Ce colectează The Water Check, ce rămâne pe telefonul dvs., cine ajută la funcționarea aplicației și ce opțiuni aveți."
+  },
+  "watercheck-terms": {
+    "title": "Termeni și condiții The Water Check | Expected End",
+    "description": "Termenii de utilizare a aplicației The Water Check, inclusiv sănătate și siguranță, AI, regulile Găștilor și achiziții."
+  },
+  "watercheck-health-data": {
+    "title": "Politica de confidențialitate a datelor de sănătate ale consumatorilor The Water Check | Expected End",
+    "description": "Cum gestionează The Water Check datele de sănătate ale consumatorilor și cum le puteți accesa, șterge sau contesta o decizie."
+  },
+  "watercheck-delete-account": {
+    "title": "Ștergeți-vă contul | The Water Check",
+    "description": "Cum vă ștergeți contul și datele The Water Check, din aplicație sau prin e-mail."
+  },
+  "watercheck-community": {
+    "title": "Regulile comunității | The Water Check",
+    "description": "Cum rămân Găștile din The Water Check prietenoase: regulile, raportarea și blocarea, și ce se întâmplă când regulile sunt încălcate."
+  },
+  "accessibility": {
+    "title": "Accesibilitate | Expected End",
+    "description": "Angajamentul Expected End pentru o experiență web accesibilă."
+  },
+  "mybiblelens-store": {
+    "title": "Magazinul MyBibleLens | Expected End",
+    "description": "Obiecte bine gândite pentru o umblare mai aproape de Cuvânt. Magazinul MyBibleLens vine în curând."
+  },
+  "watercheck-store": {
+    "title": "Magazinul The Water Check | Expected End",
+    "description": "Esențiale inspirate de hidratare, de la The Water Check. Prima colecție vine în curând."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Aplicație de hidratare și calculator gratuit",
+    "description": "Descoperiți aplicația The Water Check și încercați o estimare gratuită și privată a hidratării pe Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Calculator de hidratare gratuit | The Water Check",
+    "description": "Obțineți o estimare gratuită și privată a hidratării zilnice cu calculatorul The Water Check."
+  },
+  "not-found": {
+    "title": "Pagina nu a fost găsită | Expected End",
+    "description": "Pagina Expected End solicitată nu a putut fi găsită."
+  }
+}

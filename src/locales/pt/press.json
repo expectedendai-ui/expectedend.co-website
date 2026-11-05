@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Imprensa e mídia",
+    "title": "Recursos de imprensa da Expected End.",
+    "intro": "Biografias aprovadas, fatos verificados e mídia para download para a cobertura da Expected End e do fundador Denzel Rigaud.",
+    "downloadPortrait": "Baixar retrato"
+  },
+  "inquiry": "Fazer um pedido de imprensa",
+  "role": "Fundador e desenvolvedor full-stack",
+  "portrait": {
+    "alt": "Denzel Rigaud de terno azul-marinho e óculos com lentes alaranjadas"
+  },
+  "contents": {
+    "label": "Seções da página de imprensa",
+    "kit": "Kit de imprensa / 2026",
+    "biographies": "Biografias",
+    "facts": "Fatos verificados",
+    "projects": "Projetos",
+    "licensing": "Uso de mídia"
+  },
+  "bios": {
+    "kicker": "Textos aprovados",
+    "title": "Biografias",
+    "text": "Estas versões podem ser citadas ou adaptadas para cobertura editorial.",
+    "shortLabel": "Bio curta / 24 palavras",
+    "fullLabel": "Bio completa",
+    "fullFirst": "Denzel Rigaud fundou a EXPECTEDEND LLC e criou o MyBibleLens e o The Water Check de forma independente. Ele atua como desenvolvedor full-stack da empresa e dá forma a cada produto, do conceito ao design, à engenharia e ao lançamento.",
+    "fullSecond": "Seu trabalho é voltado a softwares centrados na fé, bem-estar digital e ferramentas práticas que ajudam as pessoas a usar a tecnologia com intenção. O MyBibleLens é um app santuário para o cristianismo. O The Water Check combina uma estimativa de hidratação privada, hábitos práticos com a água e uma comunidade focada na constância diária."
+  },
+  "facts": {
+    "kicker": "Ficha técnica",
+    "title": "Fatos verificados",
+    "text": "Dados oficiais para perfis, artigos, legendas e bancos de dados.",
+    "company": "Empresa",
+    "founder": "Fundador",
+    "role": "Cargo",
+    "products": "Produtos",
+    "productsValue": "MyBibleLens e The Water Check",
+    "website": "Site oficial",
+    "profile": "Perfil do fundador",
+    "entityLabel": "{{name}} no Wikidata"
+  },
+  "projects": {
+    "kicker": "Produtos",
+    "title": "O trabalho",
+    "text": "Dois produtos, criados de forma independente pela Expected End.",
+    "mybiblelens": {
+      "alt": "Ícone do app MyBibleLens",
+      "kicker": "Software centrado na fé",
+      "text": "O App Santuário para o cristianismo.",
+      "visit": "Visitar o MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Ícone do app The Water Check",
+      "kicker": "Hidratação e comunidade",
+      "text": "Uma estimativa de hidratação privada, hábitos práticos com a água e comunidade.",
+      "visit": "Visitar o The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Uso de mídia",
+    "title": "Retrato do fundador",
+    "text": "O retrato pode ser compartilhado e adaptado sob a licença <license>Creative Commons Atribuição-CompartilhaIgual 4.0</license>. Crédito: Denzel Rigaud / Expected End. As adaptações devem usar a mesma licença.",
+    "download": "Baixar o retrato do fundador"
+  },
+  "contact": {
+    "kicker": "Contato para imprensa",
+    "title": "Precisa de uma entrevista, uma declaração ou um arquivo extra?"
+  }
+}

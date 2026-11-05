@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, az Expected End alapítója",
+    "stats": {
+      "projects": "MEGÉPÍTETT PROJEKT",
+      "languages": "NYELV",
+      "appStore": "AZ APP STORE-BAN"
+    },
+    "eyebrow": "Kapu a <em>remélt jövőjéhez</em>",
+    "title": "Cél, <break/>gyönyörűen <break/>megépítve.",
+    "intro": "Az Expected End átgondolt szoftvereket, produktivitási eszközöket, digitális élményeket és közösségeket hoz létre, amelyek izgalmas és könnyű módon viszik közelebb az embereket Istenhez!",
+    "cta": "A munkák megtekintése",
+    "lensHint": "Mozgassa a kurzort, és olvassa a kódot"
+  },
+  "projects": {
+    "eyebrow": "01 / Projektek",
+    "title": "Két alkalmazás az App Store-ban. <break/><em>Hamarosan Androidon is.</em>",
+    "visit": "{{name}} megtekintése",
+    "android": "Hamarosan Androidon",
+    "bio": "Életrajz",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / A munka mögött",
+    "title": "Minden itteni termék egy kérdéssel kezdődött egy <em>ötödikes osztályteremben.</em>",
+    "lead": "A kérdés és ezek az alkalmazások között gyász, hit és rengeteg késő éjszaka állt. A történet többi része a saját oldalán olvasható.",
+    "cta": "A történet elolvasása"
+  },
+  "proof": {
+    "caption": "Megépített projektek",
+    "eyebrow": "03 / A munka bizonyítéka",
+    "title": "A nulláról építve. <em>A munka önmagáért beszél.</em>",
+    "lead": "Alkalmazások, weboldalak, AI-eszközök, filmek és kampányok, házon belül tervezve, kódolva és elindítva. Íme egy részük.",
+    "stats": {
+      "apps": "<strong>2 alkalmazás</strong> az App Store-ban",
+      "languages": "<strong>43 nyelv</strong> a MyBibleLensben",
+      "years": "<strong>10 év</strong> kódolás",
+      "inHouse": "<strong>Az ötlettől az indulásig</strong>, mind házon belül"
+    },
+    "bigline": "<count>20+</count> PROJEKT <star>✦</star> MEGÉPÍTVE <star>✦</star> KIADVA <star>✦</star> ÉLESBEN <star>✦</star>",
+    "rows": {
+      "products": "Alkalmazások és termékek",
+      "creative": "Weboldalak, AI és kreatív munkák"
+    },
+    "next": "Az Ön projektje lehet a <em>következő.</em>",
+    "cta": "Kezdje el a sajátját"
+  },
+  "services": {
+    "eyebrow": "04 / Válogatott szolgáltatások",
+    "title": "Ön megálmodja, <em>én megépítem.</em>",
+    "lead": "A termékek az elsők. Ha minden stimmel, ugyanez a gondosság kerül a másoknak végzett, válogatott munkákba is.",
+    "note": "Kérjük, minden megkeresésben adjon meg egy árkategóriát, és jelezze az üzenetében, ha titoktartási megállapodásra (NDA) van szükség.",
+    "count": "Szolgáltatás: {{number}} / {{total}}",
+    "start": "Indítsuk el ezt a projektet"
+  }
+}

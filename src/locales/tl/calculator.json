@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Kalimutan ang mga influencer. Alamin ang tunay mong biyolohiya.",
+    "lead": "Subukan ang libreng calculator kahit walang account, saka tuklasin ang app na binubuo namin para sa araw-araw na pag-track.",
+    "appLink": "Tingnan ang app ↓",
+    "logoLabel": "Gamitin ang calculator ng The Water Check"
+  },
+  "intro": {
+    "kicker": "Calculator ng hydration",
+    "title": "Magsimula sa mga numerong alam mo."
+  },
+  "units": {
+    "legend": "Yunit ng timbang",
+    "pounds": "Libra (lb)",
+    "kilograms": "Kilo (kg)"
+  },
+  "weight": {
+    "labelLb": "Timbang (lbs)",
+    "labelKg": "Timbang (kg)",
+    "valueTextLb": "{{value}} libra",
+    "valueTextKg": "{{value}} kilo"
+  },
+  "height": {
+    "legend": "Taas",
+    "feet": "Taas (ft)",
+    "inches": "Taas (in)",
+    "centimeters": "Taas (cm)",
+    "note": "Sumusunod ang pangangailangan sa likido sa lean mass, kaya pinakamahalaga ang taas kapag mataas ang timbang para sa pangangatawan mo."
+  },
+  "activity": {
+    "label": "Araw-araw na Aktibidad (minuto)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minuto"
+  },
+  "factors": {
+    "legend": "Mga salik na puwedeng magpabago sa pangangailangan sa likido",
+    "intro": "Nagdadagdag lang kami ng numero kapag may makatwirang pang-araw-araw na adjustment. Ginagawang personal ng ibang sagot ang gabay mo nang hindi nagkukunwaring may eksaktong sukat na sinusuportahan ng agham.",
+    "age": {
+      "label": "Edad",
+      "hint": "Nagbibigay ng konteksto ang edad; hindi nito nadi-diagnose ang menopause."
+    },
+    "lifeStage": {
+      "label": "Yugto ng buhay",
+      "hint": "Gumagamit ng malinaw na adjustment para sa pagbubuntis o paggawa ng gatas ng ina.",
+      "options": {
+        "standard": "Karaniwan",
+        "pregnant": "Buntis",
+        "breastfeeding": "Nagpapasuso"
+      }
+    },
+    "sex": {
+      "label": "Kasarian",
+      "hint": "Opsiyonal. Pinapino ang kalkulasyon ng ideal na timbang at reference intake.",
+      "options": {
+        "unspecified": "Mas gusto kong hindi sabihin",
+        "woman": "Babae",
+        "man": "Lalaki"
+      }
+    },
+    "luteal": {
+      "label": "Linggo bago ang regla mo",
+      "hint": "Isinasaalang-alang ang water retention sa luteal phase at kabag dahil sa hormones. Walang iisang dagdag na para sa lahat."
+    },
+    "heat": {
+      "label": "Mainit o maalinsangang kondisyon",
+      "hint": "Nakadepende ang gabay sa init sa tagal ng pagkakalantad at pawis, hindi lang sa lokasyon."
+    }
+  },
+  "result": {
+    "goal": "Ang Araw-araw Mong Goal: {{ounces}} Onsa",
+    "breakdown": "Detalye ng kalkulasyon",
+    "weightBaseline": "Baseline ng timbang",
+    "heightAndBuild": "Taas at pangangatawan",
+    "sexReference": "Reference ayon sa kasarian",
+    "notSet": "Hindi nakatakda",
+    "activity": "Adjustment sa aktibidad",
+    "lifeStage": {
+      "standard": "Adjustment sa yugto ng buhay",
+      "pregnant": "Adjustment sa pagbubuntis",
+      "breastfeeding": "Adjustment sa pagpapasuso"
+    },
+    "luteal": "Gabay sa luteal phase",
+    "noFixedOunces": "Walang nakapirming +oz",
+    "electrolytes": "Check ng electrolytes",
+    "electrolytesAfterSweat": "Isaalang-alang pagkatapos ng matinding pagpapawis",
+    "electrolytesFromFood": "Karaniwang sapat na ang pagkain",
+    "guidance": "Isa itong pang-edukasyong tantiya para sa pagpaplano ng mga nasa hustong gulang, hindi diagnosis, paggamot, o klinikal na reseta. Nagbibigay rin ng tubig ang pagkain, at magkakaiba ang pangangailangan ng bawat tao. Huwag pilitin ang pag-inom ng likido. Magtanong sa isang healthcare professional tungkol sa pangangailangan mo kung ikaw ay buntis o nagpapasuso, umiinom ng gamot na nakakaapekto sa balanse ng likido sa katawan, may sakit sa bato o puso, sumusunod sa limitasyon sa pag-inom ng likido, o may nakakabahalang sintomas."
+  },
+  "equivalents": {
+    "title": "Katumbas iyan ng mga",
+    "cups": "{{value}} tasa",
+    "cupsNote": "8 oz bawat isa",
+    "liters": "{{value}} litro",
+    "litersNote": "metric",
+    "bottles": "{{value}} bote",
+    "bottlesNote": "sukat na 16.9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Kainin ang tubig mo",
+    "title": "Hindi lahat kailangang manggaling sa baso.",
+    "copy": "Mga ikalimang bahagi ng araw-araw na tubig ng karamihan ay dumarating sa pamamagitan ng pagkain. Karamihan sa sariwang prutas at gulay ay 70 hanggang 95 porsiyentong tubig, at kapag nakarating na ito sa daluyan ng dugo mo, nagha-hydrate ito sa iyo nang eksakto gaya ng isang inumin.",
+    "drink": "Inumin",
+    "drinkNote": "{{cups}} tasa ng tubig, tsaa, o gatas",
+    "eat": "Kainin",
+    "eatNote": "mula sa pagkaing mayaman sa tubig",
+    "pickLegend": "Isipin ang bahagi mula sa pagkain bilang",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "Ang {{serving}} ay may mga {{ounces}} oz na tubig ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "tasa ng pakwan",
+      "serving": "1 tasang hiniwa nang pa-cube",
+      "water": "92% tubig"
+    },
+    "cucumber": {
+      "label": "pipino",
+      "serving": "1 katamtamang laki",
+      "water": "95% tubig"
+    },
+    "strawberries": {
+      "label": "tasa ng strawberry",
+      "serving": "1 tasa",
+      "water": "91% tubig"
+    },
+    "oranges": {
+      "label": "dalandan",
+      "serving": "1 katamtamang laki",
+      "water": "87% tubig"
+    },
+    "salad": {
+      "label": "mangkok ng salad",
+      "serving": "2 tasang halo-halo",
+      "water": "mga 94% tubig"
+    },
+    "soup": {
+      "label": "mangkok ng sabaw",
+      "serving": "1 tasa",
+      "water": "mga 92% tubig"
+    },
+    "tomatoes": {
+      "label": "kamatis",
+      "serving": "1 katamtamang laki",
+      "water": "95% tubig"
+    },
+    "grapes": {
+      "label": "tasa ng ubas",
+      "serving": "1 tasa",
+      "water": "81% tubig"
+    },
+    "peaches": {
+      "label": "peach",
+      "serving": "1 katamtamang laki",
+      "water": "89% tubig"
+    },
+    "cantaloupe": {
+      "label": "tasa ng melon",
+      "serving": "1 tasang hiniwa nang pa-cube",
+      "water": "90% tubig"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Bakit binibilang ang tubig sa pagkain",
+    "title": "Ang tubig mula sa pakwan ay parehong tubig.",
+    "sameMolecule": "<strong>Parehong molekula.</strong> Magkapareho ang H2O mula sa pipino at ang H2O mula sa gripo. Kapag tumawid na ito mula sa bituka papunta sa daluyan ng dugo, ipinapadala ito ng katawan mo sa mga kalamnan sa parehong paraan.",
+    "slowRelease": "<strong>Unti-unting pagsipsip.</strong> Ang tubig sa prutas at gulay ay nakakulong sa mga hibla at cell wall, kaya mas unti-unti itong nasisipsip kaysa sa basong nilagok nang mabilis, na kadalasang agad inilalabas ng mga bato mo.",
+    "electrolytes": "<strong>May kasamang electrolytes.</strong> May potassium at magnesium ang pipino, spinach, melon, at berries, mga mineral na ginagamit ng mga cell mo para manatili ang tubig sa loob.",
+    "glycogen": "<strong>Panggatong at imbakan nang sabay.</strong> Iniimbak ng mga kalamnan ang carbohydrate bilang glycogen, at bawat gramo ng glycogen ay iniimbak kasama ang humigit-kumulang tatlong gramo ng tubig. Parehong naibibigay ng mga pagkaing mayaman sa tubig at carbohydrate.",
+    "caveat": "Kailangan mo pa ring uminom. Karaniwang mga ikalimang bahagi lang ng kabuuan ang natutugunan ng pagkain; ang natitira ay galing sa tubig at iba pang inumin. Napakakaunti ng tubig sa pinatuyong prutas, mani, at tinapay."
+  },
+  "grace": {
+    "kicker": "Kabaitan sa katawan",
+    "title": "Isang Maikling Paalala Tungkol sa Pagiging Mabait sa Sarili",
+    "body": "Maaaring magbago ang itsura mo sa salamin at ang pagkakasya ng damit mo dahil sa water retention, panunaw, hormones, tulog, at iba pang normal na pagbabago. Hindi nasusukat ang katawan mo sa isang araw na kinakabag ka. Uminom nang may pag-iingat, bigyan ng oras ang sarili, at hayaang palitan ng pagkamausisa ang hiya. Ang tuloy-tuloy na kabag, pamamaga, mabilis na pagbabago ng timbang, o mga sintomas na ikinababahala mo ay dapat pag-usapan kasama ang isang healthcare professional."
+  },
+  "overhydration": {
+    "title": "Ang Panganib ng Sapilitang Pag-inom",
+    "kidneys": "Kailangan ng oras ng mga bato mo para mailabas ang tubig. Sa mahabang ehersisyo, ang pag-inom nang mas mabilis kaysa sa nawawala mong likido ay maaaring magpalabnaw ng sodium sa dugo at magdulot ng hyponatremia na kaugnay ng ehersisyo. Maaaring kabilang sa mga maagang sintomas ang sakit ng ulo, pagduduwal, pagkahilo, pagkapagod, o pagkalito. Sa malalalang kaso, maaari itong magdulot ng pamamaga ng utak, seizure, coma, at kamatayan.",
+    "pacing": "Huwag habulin ang tantiyang ito sa paglagok. Hatiin ang pag-inom sa buong araw. Habang nag-eehersisyo, iayon ang iniinom mo sa uhaw, sa kondisyon, at sa sarili mong nawawalang pawis. Humingi agad ng medikal na tulong kapag may pagkalito, seizure, biglang pagbagsak, o malalang sintomas.",
+    "sources": "Mga sanggunian: <nih>gabay ng NIH sa hyponatremia na kaugnay ng ehersisyo</nih> at <academies>mga rekomendasyon ng National Academies sa likido</academies>."
+  },
+  "notes": {
+    "title": "Ang iyong mga tala ng ebidensiya",
+    "sexMan": "<strong>Kasarian:</strong> Ang reference intake ng National Academies ay mga 3.7 litro ng kabuuang tubig bawat araw para sa mga lalaki at 2.7 para sa mga babae. Karamihan sa agwat na iyan ay ipinapaliwanag ng timbang ng katawan, kaya ang natitira ay lumalabas dito bilang 4 na porsiyentong dagdag sa baseline ng timbang, at ginagamit ng check sa taas at pangangatawan ang formula ng ideal na timbang para sa lalaki.",
+    "sexWoman": "<strong>Kasarian:</strong> Ang reference intake ng National Academies ay mga 3.7 litro ng kabuuang tubig bawat araw para sa mga lalaki at 2.7 para sa mga babae. Karamihan sa agwat na iyan ay ipinapaliwanag ng timbang ng katawan, kaya ang natitira ay lumalabas dito bilang 4 na porsiyentong bawas sa baseline ng timbang, at ginagamit ng check sa taas at pangangatawan ang formula ng ideal na timbang para sa babae.",
+    "height": "<strong>Taas at pangangatawan:</strong> Mas sinusundan ng pangangailangan sa likido ang lean mass kaysa sa kabuuang timbang. Dahil lampas ang timbang mo sa karaniwang saklaw para sa taas mo, gumagamit ang tantiya ng adjusted body weight (ideal na timbang dagdag ang 40 porsiyento ng diperensiya), isang karaniwang klinikal na kombensiyon. Magaspang na numero ito para sa pagpaplano, hindi paghusga sa katawan mo.",
+    "cycle": "<strong>Yugto ng siklo:</strong> Totoo ang mga pagbabago sa likido na kaugnay ng siklo, pero hindi pa napatutunayan ng mga pag-aaral ang isang nakapirming dagdag na onsa para sa lahat. Walang awtomatikong idinagdag na onsa. Kadalasang sapat na ang regular na pagkain para sa electrolytes; hindi pangkalahatang rekomendasyon ang magnesium o potassium supplement.",
+    "age": "<strong>Edad at menopause:</strong> Hindi edad lang ang nagtatakda kung nasa menopause ka. Puwedeng makaapekto ang pagbabago ng hormones sa uhaw at sa regulasyon ng likido, pero walang napatunayang adjustment sa onsa para sa “lampas 45”, kaya hindi binago ng edad mo ang kabuuan.",
+    "heat": "<strong>Init:</strong> Ang nakapirming dagdag para sa klima ay puwedeng kumulang o sumobra sa tantiya ng pangangailangan mo. Para sa katamtamang trabaho sa init nang wala pang dalawang oras, ipinapayo ng NIOSH ang mga 8 onsa bawat 15–20 minuto; ang mas matagal at matinding pagpapawis ay nangangailangan ng planong pamalit na angkop sa bawat tao."
+  },
+  "evidence": {
+    "label": "Ebidensiya:",
+    "academies": "Gabay ng National Academies sa pag-inom ng tubig",
+    "harvard": "Harvard Health tungkol sa pagkain at hydration",
+    "cycle": "Pag-aaral sa osmoregulation sa siklo ng regla",
+    "menopause": "Review sa regulasyon ng likido sa menopause",
+    "niosh": "Gabay ng CDC/NIOSH sa init"
+  },
+  "tips": {
+    "kicker": "Kapaki-pakinabang, hindi obsesyon",
+    "title": "Tatlong check para sa totoong buhay.",
+    "schedule": {
+      "title": "Ang Iskedyul",
+      "body": "Simulan ang umaga sa tubig, humigop habang kumakain, at hayaang ang uhaw, panahon, at aktibidad ang gumabay sa iba pa."
+    },
+    "electrolytes": {
+      "title": "Mga Electrolyte",
+      "body": "Karamihan sa mga tao ay napapalitan ang electrolytes sa pamamagitan ng regular na pagkain. Pagkatapos ng matagal o matinding pagpapawis, pumili ng balanseng electrolyte drink; huwag palaging magdagdag ng asin kung pinayuhan kang limitahan ang sodium."
+    },
+    "visualCheck": {
+      "title": "Ang Visual Check",
+      "body": "Ang maputlang dilaw na ihi ay maaaring isang magaspang na palatandaan ng hydration. Maaaring mabago ng pagkain, bitamina, gamot, at kondisyon sa kalusugan ang kulay nito, kaya hindi ito diagnosis."
+    }
+  },
+  "author": {
+    "kicker": "Mula sa taong gumawa nito",
+    "title": "Bakit Ko Ito Ginawa (At Bakit Hindi Ka Dapat Basta Makinig sa Akin)",
+    "athlete": "Ako si Denzel Rigaud. Mahigit siyam na taon akong tumakbo sa 400 metro at hurdles, kaya naging bahagi ng pagsasanay, pagpapagaling, at pag-aaral kong basahin ang katawan ko ang hydration.",
+    "purpose": "Ginawa ko ang The Water Check para matulungan kang marinig ang katawan mo sa gitna ng ingay online. Ayokong ituring mong reseta ang karanasan ko. Ang biyolohiya, kapaligiran, medical history, at yugto ng buhay mo ang humuhubog sa kailangan mo.",
+    "technology": "Hindi para sa walang katapusang pag-scroll at pamumuhay sa buhay ng iba ang teknolohiya. Dapat nitong panatilihing produktibo ang buhay natin at pagbutihin ang ating espiritu, kaluluwa, isip, at laman, para maging pinakamahusay na bersiyon tayo ng gusto nating maging. Kaya tumigil ka nang makinig sa lahat, dahil kung ano ang epektibo para sa iyo, iyon ang epektibo para sa iyo.",
+    "faith": "Kilalanin ang mga pattern mo at dalhin ang mga alalahaning medikal sa isang kuwalipikadong propesyonal. Ang pag-aalaga sa pisikal mong katawan ay puwedeng maglapit sa iyo sa sarili mo at sa Diyos, na naglagay ng isang kislap sa bawat isa sa atin na sulit alagaan.",
+    "motto": "Huwag sundan ang mga influencer. Kilalanin ang sarili mo.",
+    "date": "Marso 15, 2021",
+    "founderPage": "Pahina ng Founder"
+  },
+  "community": {
+    "kicker": "Panatilihing makatao",
+    "title": "Sumali sa totoong komunidad.",
+    "instagram": "I-follow ang @thewatercheck sa Instagram",
+    "reelSoon": "Malapit na ang Instagram Reel",
+    "story": "Kuwento ng komunidad {{position}}"
+  }
+}

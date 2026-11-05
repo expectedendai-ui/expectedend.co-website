@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "ዋና ማሰሻ",
+    "projects": "ፕሮጀክቶች",
+    "services": "አገልግሎቶች",
+    "company": "ተልዕኮ · ስለ እኛ · ሚዲያ",
+    "contact": "ያግኙን",
+    "home": "የExpected End መነሻ",
+    "openMenu": "ምናሌውን ይክፈቱ",
+    "closeMenu": "ምናሌውን ይዝጉ",
+    "links": {
+      "projects": "ፕሮጀክቶች",
+      "services": "አገልግሎቶች",
+      "story": "ታሪክ",
+      "about": "ስለ እኛ",
+      "press": "ሚዲያ",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "የግርጌ ማሰሻ",
+    "home": "መነሻ",
+    "about": "ስለ እኛ",
+    "press": "ሚዲያ",
+    "terms": "የአጠቃቀም ውሎች",
+    "privacy": "የግላዊነት መግለጫ",
+    "accessibility": "ተደራሽነት",
+    "contact": "ያግኙን",
+    "mission": "በዚህ ኩባንያ ስር የምገነባው ሁሉ ወደ አንድ ተልዕኮ ያመለክታል፦ ሰዎችን ወደ እግዚአብሔር ማቅረብና ቴክኖሎጂን ተጠቅመው በዓላማ እንዲኖሩ፣ እንዲፈጥሩ፣ እንዲወዱና እንዲያገለግሉ መርዳት። ልደርስበት እየሠራሁ ያለሁት ፍጻሜና ተስፋ ይህ ነው።",
+    "verse": "ኤርምያስ 29፥11",
+    "copyright": "© 2026 EXPECTED END LLC። መብቱ በሕግ የተጠበቀ ነው።",
+    "blessing": "ኢየሱስ ይወድዎታል።"
+  }
+}

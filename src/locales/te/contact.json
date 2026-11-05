@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Expected Endను సంప్రదించండి",
+    "title": "కొంచెం <em>నేపథ్యంతో మొదలుపెట్టండి.</em>",
+    "intro": "కొన్ని వివరాలు ఎంచుకోండి, మీ కోసం స్పష్టమైన ఈమెయిల్ సిద్ధమవుతుంది. ఏదైనా పంపే ముందే మీ ఈమెయిల్ యాప్ తెరుచుకుంటుంది."
+  },
+  "fields": {
+    "name": "మీ పేరు",
+    "email": "మీ ఈమెయిల్",
+    "reason": "ఇది దేని గురించి?",
+    "project": "ఏ ప్రాజెక్ట్?",
+    "priceRange": "బడ్జెట్ పరిధి",
+    "timeline": "అనుకూలమైన కాలవ్యవధి",
+    "discovery": "Expected End గురించి మీకు ఎలా తెలిసింది?",
+    "message": "మీ మనసులో ఏముంది?",
+    "chooseOne": "ఒకటి ఎంచుకోండి"
+  },
+  "reasons": {
+    "partnership": "భాగస్వామ్యం లేదా కలిసి పనిచేయడం",
+    "press": "ప్రెస్ లేదా మీడియా",
+    "general": "సాధారణ ప్రశ్న"
+  },
+  "projects": {
+    "waterCheckCommunity": "The Water Check కమ్యూనిటీ",
+    "newIdea": "ఒక కొత్త ఆలోచన"
+  },
+  "timelines": {
+    "exploring": "ప్రస్తుతానికి చూస్తున్నాను",
+    "month": "ఒక నెలలోపు",
+    "threeMonths": "మూడు నెలలలోపు",
+    "laterThisYear": "ఈ ఏడాది చివర్లో",
+    "notSure": "ఇంకా ఖచ్చితంగా తెలియదు"
+  },
+  "discovery": {
+    "waterCheckCommunity": "The Water Check కమ్యూనిటీ",
+    "search": "సెర్చ్",
+    "referral": "ఎవరో సూచించారు",
+    "elsewhere": "మరెక్కడో"
+  },
+  "submit": {
+    "note": "మీరు సమీక్షించి మీ ఈమెయిల్ యాప్‌లో పంపు నొక్కే వరకు ఏదీ పంపబడదు.",
+    "apps": "<app>మీ ఈమెయిల్ యాప్</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> లేదా <yahoo>Yahoo Mail</yahoo> ఎంచుకోండి.",
+    "button": "ఈమెయిల్ సిద్ధం చేయండి"
+  },
+  "dialog": {
+    "close": "సంప్రదింపు ఫారమ్ మూసివేయండి"
+  }
+}

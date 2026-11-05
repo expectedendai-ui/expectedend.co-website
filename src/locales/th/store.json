@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "ของใช้สำหรับการเดินทาง",
+    "headline": "เก็บสิ่งสำคัญไว้ใกล้ตัว",
+    "intro": "คอลเลกชันเล็กๆ ของของใช้ที่ใส่ใจ สำหรับจดบันทึก เตือนใจ และการเดินกับพระเจ้าในทุกวัน",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "สมุดบันทึกแบบมีแนวทาง",
+        "kind": "สมุดบันทึก"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "เครื่องเตือนใจเล็กๆ",
+        "kind": "เข็มกลัด"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "เสื้อนุ่มสบายสำหรับใส่ทุกวัน",
+        "kind": "เสื้อผ้า"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "สำหรับเช้าที่อากาศเย็น",
+        "kind": "เสื้อผ้า"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "คอลเลกชันแรก",
+    "headline": "ดื่มน้ำ แล้วไปต่อ",
+    "intro": "เสื้อผ้าสายดื่มน้ำ สำหรับคนที่มาตามนัด เติมน้ำ และเช็กกันต่อไปทุกวัน",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "ของจำเป็นสีสดใสสำหรับทุกวัน",
+        "kind": "เสื้อยืด"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "สำหรับหลังเดินไกล",
+        "kind": "ฮู้ดดี้"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "โทนสีที่สอง",
+        "kind": "เสื้อยืด"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "ตัวหนา โทนสีสงบ",
+        "kind": "ฮู้ดดี้"
+      }
+    }
+  },
+  "nav": {
+    "label": "การนำทางร้านค้า {{store}}",
+    "collection": "คอลเลกชัน"
+  },
+  "hero": {
+    "action": "สำรวจคอลเลกชันแรก",
+    "mybiblelensArt": "โลโก้ร้านค้า MyBibleLens และภาพคอลลาจสติกเกอร์",
+    "watercheckArt": "ฟองโลโก้แบบของเหลวของ The Water Check"
+  },
+  "collection": {
+    "eyebrow": "เร็วๆ นี้",
+    "title": "สร้างมาเพื่อเป็นส่วนหนึ่งในวันของคุณ",
+    "body": "นี่คือชิ้นแรกๆ รูปสินค้า ตัวเลือก และลิงก์ชำระเงินจะปรากฏที่นี่เมื่อคอลเลกชันพร้อม"
+  },
+  "product": {
+    "placeholder": "ภาพตัวอย่างสินค้า {{name}}",
+    "buy": "ซื้อเลย",
+    "comingSoon": "เร็วๆ นี้",
+    "comingSoonLabel": "{{name}} เร็วๆ นี้"
+  },
+  "checkout": {
+    "eyebrow": "ไม่ต้องมีบัญชี",
+    "title": "เมื่อเปิดขาย การชำระเงินจะยังคงเรียบง่าย",
+    "body": "เลือกสินค้า แตะซื้อเลย แล้วชำระเงินอย่างปลอดภัยผ่าน Stripe ไม่ต้องมีบัญชีร้านค้า และไม่ต้องวนอยู่ในตะกร้าสินค้า"
+  },
+  "footer": {
+    "note": "© {{year}} Expected End นโยบายร้านค้าจะเผยแพร่ก่อนเปิดคอลเลกชันแรก",
+    "policies": "นโยบายร้านค้า",
+    "terms": "ข้อกำหนด",
+    "privacy": "ความเป็นส่วนตัว",
+    "accessibility": "การเข้าถึง",
+    "shipping": "การจัดส่งและการคืนสินค้า (ก่อนเปิดคอลเลกชัน)"
+  }
+}

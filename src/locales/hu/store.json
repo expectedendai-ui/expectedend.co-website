@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Tárgyak az útra",
+    "headline": "Tartsa közel, ami fontos.",
+    "intro": "Átgondolt tárgyak kis válogatása jegyzetekhez, emlékeztetőkhöz és az Istennel való mindennapi járáshoz.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Vezetett jegyzetfüzet",
+        "kind": "Jegyzetfüzet"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Egy kis emlékeztető",
+        "kind": "Kitűző"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Puha, mindennapi réteg",
+        "kind": "Ruházat"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Hűvösebb reggelekre",
+        "kind": "Ruházat"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Az első kollekció",
+    "headline": "Igyon vizet. Maradjon mozgásban.",
+    "intro": "Hidratációra hangolt darabok azoknak, akik ott vannak, újratöltenek, és nem hagyják abba a napi ellenőrzést.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Élénk mindennapi alapdarab",
+        "kind": "Póló"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "A hosszú séta utánra",
+        "kind": "Kapucnis pulóver"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Egy második színváltozat",
+        "kind": "Póló"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Nyugodt, vastag réteg",
+        "kind": "Kapucnis pulóver"
+      }
+    }
+  },
+  "nav": {
+    "label": "Bolti navigáció: {{store}}",
+    "collection": "A kollekció"
+  },
+  "hero": {
+    "action": "Fedezze fel az első kollekciót",
+    "mybiblelensArt": "A MyBibleLens bolt logója és matricakollázs",
+    "watercheckArt": "A The Water Check folyékony logóbuboréka"
+  },
+  "collection": {
+    "eyebrow": "Hamarosan",
+    "title": "Arra készült, hogy a mindennapjai része legyen.",
+    "body": "Ezek az első darabok. A termékfotók, a változatok és a fizetési linkek akkor jelennek meg itt, amikor a kollekció elkészül."
+  },
+  "product": {
+    "placeholder": "{{name}}: helyőrző termékkép",
+    "buy": "Vásárlás most",
+    "comingSoon": "Hamarosan",
+    "comingSoonLabel": "{{name}}: hamarosan"
+  },
+  "checkout": {
+    "eyebrow": "Nem kell fiók",
+    "title": "Ha megnyitunk, a fizetés egyszerű marad.",
+    "body": "Válasszon egy darabot, koppintson a Vásárlás most gombra, és fizessen biztonságosan a Stripe-on keresztül. Nincs bolti fiók és nincs kosárlabirintus."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. A bolti szabályzatokat az első kollekció előtt tesszük közzé.",
+    "policies": "Bolti szabályzatok",
+    "terms": "Feltételek",
+    "privacy": "Adatvédelem",
+    "accessibility": "Akadálymentesség",
+    "shipping": "Szállítás és visszaküldés (az első kollekció előtt)"
+  }
+}

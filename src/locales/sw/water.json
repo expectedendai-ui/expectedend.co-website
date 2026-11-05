@@ -1,0 +1,317 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "nav": {
+      "theApp": "Programu",
+      "drinkCheck": "Drink Check",
+      "guide": "Mwongozo",
+      "widgets": "Wijeti",
+      "progress": "Maendeleo",
+      "pricing": "Bei",
+      "faq": "Maswali",
+      "calculator": "Kikokotoo"
+    },
+    "hero": {
+      "title": "Kunywa maji.<break/>Sisi <em>tutahesabu</em>.",
+      "sub": "Kiasi chako cha maji, vinywaji unavyoweza kuchanganua, mwili wako ukijichaji, wijeti utakayoipenda kweli, na samaki bunju aitwaye Bubbles atakayekutembeza. Hakuna sheria za galoni, hakuna washawishi wa mitandaoni, hakuna hatia.",
+      "comingSoon": "Inakuja hivi karibuni",
+      "appStoreLead": "Pakua kwenye",
+      "appStore": "App Store",
+      "googlePlayLead": "Ipate kwenye",
+      "googlePlay": "Google Play",
+      "calculator": "Jaribu kikokotoo cha bure",
+      "instagram": "Fuata The Water Check kwenye Instagram",
+      "note": "Inakaguliwa na App Store sasa hivi. Kikokotoo ni bure na hakihitaji kujisajili.",
+      "todayAlt": "Skrini ya Leo ya The Water Check: oz 40 kati ya lengo la oz 81.2, ikiwa na vitufe vya kuongeza haraka na rekodi ya leo",
+      "widgetsAlt": "Studio ya wijeti, ikionyesha wijeti ya Mwili katika Hologramu na safu za mitindo ya wijeti",
+      "bubblesLabel": "Mwambie Bubbles afanye mbwembwe",
+      "bubblesSay": "Habari, mimi ni Bubbles!"
+    },
+    "stats": {
+      "widgetStyles": "mitindo ya wijeti",
+      "pearls": "lulu za Mwongozo za kutafuta",
+      "foods": "vyakula vyenye maji mengi, vilivyochorwa",
+      "languages": "lugha"
+    },
+    "sixty": {
+      "kicker": "Kwa nini ni muhimu",
+      "title": "Umeundwa kwa asilimia 60 ya maji.",
+      "lede": "Si lengo la kufikia. Maji hayo yanafanya kazi sasa hivi: yanabeba oksijeni, yanalainisha viungo vyako, yanakupoza, na yanaondoa usichohitaji. Mahitaji yako hubadilika kulingana na shughuli, hali ya hewa na afya.",
+      "pmeterKicker": "P-Meter",
+      "pmeterLabel": "Rangi nane kuanzia njano hafifu kama nyasi kavu hadi kahawia iliyokolea, zilizopangwa katika Maji yanatosha, Ongeza kidogo, na Kunywa sasa",
+      "wellHydrated": "Maji yanatosha",
+      "topUp": "Ongeza kidogo",
+      "drinkNow": "Kunywa sasa",
+      "fine": "Ni ishara ya takriban, si utambuzi wa ugonjwa. Chakula, vitamini na dawa vyote hubadilisha rangi. Programu inaeleza kila kundi la rangi na wakati wa kuzungumza na mtaalamu wa afya."
+    },
+    "drinkCheck": {
+      "kicker": "Drink Check",
+      "title": "Changanua mara moja. Jua kilichomo. Gusa tu kila mara.",
+      "lede": "Changanua msimbopau, bure na mara nyingi upendavyo. Hakuna msimbopau? Ikiwa una umri wa miaka 18 au zaidi, piga picha na programu itasoma lebo. Kwa njia yoyote, unaona sukari kwa vijiko vidogo, kafeini, elektroliti, na kila kiungo kimewekewa alama Nzuri, Sawa, Tahadhari au Epuka.",
+      "scoresLabel": "Rangi za alama za Drink Check",
+      "scores": {
+        "great": "Bora sana",
+        "good": "Nzuri",
+        "okay": "Wastani",
+        "poor": "Duni"
+      },
+      "ticks": {
+        "electrolytes": "Elektroliti kutoka kwenye lebo: sodiamu, potasiamu, magnesiamu na kalsiamu, pamoja na Viwango vyao vya Kila Siku.",
+        "save": "Kihifadhi (kipe jina jipya ukipenda), na wakati ujao ni mguso mmoja kwenye ukurasa wa Ongeza. Hakuna kuchanganua upya.",
+        "food": "Watu wazima wanaweza kupiga picha ya chakula pia: embe linaongezwa kwenye embe lako, na kitu kipya kinakuwa kiputo chake chenyewe.",
+        "journal": "Shajara yako ya Vinywaji inahifadhi jinsi kila kinywaji kilivyokufanya ujisikie, kwenye simu yako."
+      },
+      "fine": "Ni usomaji wa haraka wa lebo, si kipimo cha maabara wala tathmini ya chapa yoyote. Matokeo ya msimbopau yanatoka Open Food Facts, na AI inaweza kukosea, kwa hiyo angalia lebo halisi, hasa kwa mizio. Hatuhifadhi picha yako.",
+      "alt": "Matokeo ya Drink Check kwa kinywaji cha michezo: alama 66, Nzuri, pamoja na sukari, kafeini na elektroliti zake kutoka kwenye lebo"
+    },
+    "foods": {
+      "kicker": "Chakula kinahesabika pia",
+      "title": "Takriban sehemu moja ya tano ya maji yako huja kwenye sahani.",
+      "lede": "Ukurasa wa Ongeza ni ukurasa wa viputo vya matunda vilivyochorwa, vitatu kwa kila safu: tikiti maji, tango, stroberi, embe na zaidi. Gusa alama ya kuongeza na kimeongezwa, na Tendua iko papo hapo. Vyakula unavyoongeza mara nyingi zaidi husogea mbele.",
+      "ticks": {
+        "amounts": "Glasi, chupa au kiasi chochote, mguso mmoja kwa kila kimoja.",
+        "caffeine": "Wanywaji wa kahawa wanapata kadi ya kafeini inayojijaza yenyewe.",
+        "ring": "Pete iliyo juu inaonyesha chakula kikihesabiwa katika siku yako."
+      },
+      "alt": "Ukurasa wa Ongeza: pete juu, vitufe vya vinywaji, kadi ya kafeini na viputo vya vyakula vyenye maji mengi"
+    },
+    "guide": {
+      "kicker": "Mwongozo wa The Water Check",
+      "title": "Pasua kiputo. Baki na lulu.",
+      "lede": "Kila sura ni kiputo chenye swali juu yake, na zote ni bure. Kwa nini unajisikia kama \"betri imepungua\"? Mkojo wako unakuambia nini? Galoni kwa siku ni kweli? Soma moja hadi mwisho na inapasuka kuwa lulu. Takriban moja kati ya sita ni lulu adimu ya dhahabu.",
+      "electric": "Mwili wako wa umeme: sura sita kuhusu ishara, sodiamu na potasiamu, magnesiamu na kalsiamu, na nishati.",
+      "forHerKicker": "Kwa wanawake",
+      "forHer": "Sura za rangi ya waridi kuhusu mwili wa mwanamke na maji: mkojo wa waridi au wa njano kali, kujisikia umevimba wakati wa hedhi, kwa nini UTI huwapata wanawake zaidi, kuvuja kidogo unapocheka, ujauzito na kukoma hedhi. Kwa upole, kwa lugha rahisi na kwa vyanzo.",
+      "fine": "Kila sura inaorodhesha vyanzo vyake na inaeleza wakati wa kumwona daktari. Inatuza uelewa, si muda wa skrini: hakuna mfululizo, hakuna shinikizo.",
+      "alt": "Mwongozo wa The Water Check: sura za Mwili wako wa umeme kama viputo vya maswali"
+    },
+    "widgets": {
+      "kicker": "Wijeti",
+      "title": "Mitindo <count>89</count> kwa Skrini yako ya Mwanzo.",
+      "lede": "Michezo, maeneo, misimu, viumbe vya baharini na miundo, kwa ukubwa mdogo, wa wastani na mkubwa, na mipangilio kuanzia pete hadi mawimbi. Tuambie mchezo wako unapojisajili na wijeti ya mchezo wako itaonekana kwanza. Rekodi kinywaji moja kwa moja kutoka kwenye Skrini yako ya Mwanzo.",
+      "ticks": {
+        "body": "Mwili: umbo lako hujaa kwa maji ya siku. Cheche: betri hujaa kwa chaji ya leo.",
+        "charge": "Weka kipimo cha Chaji kwenye wijeti yoyote ili kufuatilia elektroliti zako badala ya maji yako."
+      },
+      "chips": {
+        "body": "Mwili",
+        "spark": "Cheche",
+        "running": "Kukimbia",
+        "crossCountry": "Mbio za Nyikani",
+        "volleyball": "Voliboli",
+        "basketball": "Mpira wa Kikapu",
+        "seaTurtle": "Kasa wa Bahari",
+        "jellyfish": "Kiwavi wa Bahari",
+        "beach": "Ufukwe",
+        "girlypopslay": "girlypopslay",
+        "seasons": "Misimu"
+      },
+      "alt": "Studio ya wijeti ikiwa na wijeti ya Mwili katika Hologramu, rangi zake, mipangilio na kipimo cha Chaji"
+    },
+    "progress": {
+      "kicker": "Maendeleo",
+      "title": "Ona kilichomo kwenye vinywaji vyako, pau kwa pau.",
+      "lede": "Leo kama pau rahisi zinazojaa kutoka kushoto kwenda kulia: maji dhidi ya kiasi chako, kisha sodiamu, potasiamu, magnesiamu na kalsiamu kutoka kwenye vinywaji unavyochanganua, pamoja na kafeini na sukari. Gusa pau yoyote uone vinywaji vilivyo nyuma yake. Kalenda inaonyesha kila siku kando kwa kando, pamoja na mfululizo wako.",
+      "ticks": {
+        "dailyValues": "Elektroliti hupimwa dhidi ya Viwango vya Kila Siku vilivyo kwenye lebo ya Taarifa za Lishe.",
+        "caffeine": "Kafeini dhidi ya mg 400, kiasi ambacho FDA inakitaja kwa watu wazima wengi wenye afya, na sukari dhidi ya g 50.",
+        "journal": "Shajara yako ya Vinywaji iko chini ya pau hizo: kila kinywaji ulichochanganua na jinsi kilivyokufanya ujisikie.",
+        "real": "Kila namba inatoka kwenye kitu ulichorekodi au kuchanganua. Hakuna kilichobuniwa."
+      },
+      "fine": "Ni marejeleo, si malengo, na si ushauri wa kitabibu. Ikiwa unafuatilia sodiamu au potasiamu yako kwa sababu ya kiafya, fuata ushauri wa daktari wako.",
+      "alt": "Maendeleo: maji kwa asilimia 83 ya kiasi cha siku, kisha sodiamu, potasiamu, magnesiamu, kalsiamu, kafeini na sukari kama pau"
+    },
+    "crew": {
+      "kicker": "Mwezi wako na watu wako",
+      "title": "Ona yakijumlika. Leta marafiki zako.",
+      "calendarAlt": "Kalenda: kila siku hujaa kama glasi, pamoja na siku zilizorekodiwa, siku za kufikia lengo na mfululizo",
+      "calendarTitle": "Maji yako, siku kwa siku",
+      "calendarBody": "Kila siku unayorekodi hujaa kama glasi. Siku za kufikia lengo, mifululizo na alama za maji kujaa, na yote yanakufuata kwenye simu mpya.",
+      "crewAlt": "Kikundi kinachoitwa Track team chenye jumbe fupi za shangwe",
+      "crewTitle": "Kikundi",
+      "crewBody": "Vikundi vya kwa mwaliko pekee vinavyotiana moyo. Marafiki wanaona asilimia yako ya lengo lako na mfululizo wako, kamwe si onzi zako wala mwili wako. Ripoti na Zuia vipo kila wakati."
+    },
+    "bubbles": {
+      "kicker": "Mfahamu Bubbles",
+      "title": "Kiongozi wako ni samaki bunju.",
+      "lede": "Bubbles ni Afisa wa Ustawi katika Idara. Siku yako ya kwanza anakutembeza kwenye programu, na hawezi kujizuia kujionyesha. Haya, mpe kitu cha kufanya.",
+      "tricksLegend": "Mbwembwe za Bubbles",
+      "tricks": {
+        "puff": "Jivimbe",
+        "spin": "Zunguka",
+        "flip": "Pinduka nyuma",
+        "wave": "Punga mkono",
+        "cheer": "Shangwe ya mwisho"
+      }
+    },
+    "pricing": {
+      "kicker": "Bei",
+      "title": "Bure kuanza. Kila kitu, mara moja.",
+      "free": {
+        "title": "Bure",
+        "sub": "Kila unachohitaji ili kunywa vya kutosha.",
+        "items": {
+          "number": "Kiasi chako cha maji",
+          "log": "Rekodi vinywaji na vyakula vyenye maji mengi",
+          "barcode": "Kuchanganua msimbopau, bure bila kikomo",
+          "photo": "Kuchanganua picha mara moja bure (miaka 18 na zaidi)",
+          "guide": "Kila sura ya Mwongozo",
+          "widgets": "Wijeti za Kawaida na Misimu, pamoja na Mwili na Cheche za msingi",
+          "crew": "Kalenda yako, mifululizo na Kikundi cha rafiki"
+        }
+      },
+      "forever": {
+        "tag": "Mwaka wa uzinduzi",
+        "title": "Kila Kitu Milele",
+        "sub": "Malipo ya mara moja, bila usajili.",
+        "items": {
+          "widgets": "Kila mtindo na rangi ya wijeti",
+          "bars": "Pau za elektroliti, kafeini na sukari",
+          "journal": "Shajara yako ya Vinywaji",
+          "photos": "Uchanganuzi zaidi wa picha (miaka 18 na zaidi)",
+          "summaries": "Muhtasari wa PDF wa siku 30 na 90",
+          "crews": "Unda Vikundi vyako mwenyewe",
+          "later": "Kila kitu tutakachoongeza baadaye"
+        },
+        "note": "Inatolewa katika mwaka wetu wa uzinduzi. Baada ya hapo, The Water Check inaweza kuhamia mpango wa kila mwezi, na ununuzi wa mara moja uliofanywa kabla ya hapo unabaki wazi. Bei inaonyeshwa kwenye App Store au Google Play kabla ya kununua."
+      }
+    },
+    "privacy": {
+      "kicker": "Data yako",
+      "title": "Kinachobaki kwenye simu yako, na kisichobaki.",
+      "phoneTitle": "Hubaki kwenye simu yako",
+      "phoneBody": "Shajara yako ya Vinywaji, vinywaji na vyakula ulivyohifadhi, lulu za Mwongozo, vipindi vya mazoezi, maelezo ya mzunguko na vikumbusho.",
+      "accountTitle": "Huhifadhiwa pamoja na akaunti yako",
+      "accountBody": "Kuingia kwako, majibu ya usajili, kila kinywaji na chakula unachorekodi pamoja na muda wake, jumla ya maji ya kila siku na Kikundi chako, ili vikufuate kwenye simu mpya.",
+      "neverTitle": "Kamwe",
+      "neverBody": "Hatuuzi taarifa zako wala kuzishiriki na mitandao ya matangazo. Hatuhifadhi picha zako za Drink Check.",
+      "links": {
+        "privacy": "Sera ya Faragha",
+        "healthData": "Sera ya Data ya Afya ya Watumiaji",
+        "deleteAccount": "Futa akaunti yako"
+      }
+    },
+    "calculator": {
+      "kicker": "Bure, bila kujisajili",
+      "title": "Anza na namba unazozijua.",
+      "lede": "Uzito wako, urefu wako, muda unaotumia ukisogea. Kikokotoo kinakupa lengo la kila siku kwa takriban sekunde ishirini, na kinaonyesha hesabu zake ili uweze kubishana nacho. Kinafanya kazi kwenye kivinjari chako.",
+      "chips": {
+        "weight": "Msingi wa uzito",
+        "height": "Urefu na umbo",
+        "activity": "Marekebisho ya shughuli",
+        "lifeStage": "Hatua ya maisha",
+        "heat": "Joto na unyevunyevu",
+        "electrolytes": "Ukaguzi wa elektroliti"
+      },
+      "open": "Fungua kikokotoo",
+      "fine": "Makadirio ya kielimu ya kupanga kwa watu wazima, si utambuzi wa ugonjwa wala agizo la daktari. Usijilazimishe kunywa vinywaji. Muulize mtaalamu wa afya ikiwa una mimba au unanyonyesha, unatumia dawa zinazoathiri usawa wa maji mwilini, au una ugonjwa wa figo au wa moyo."
+    },
+    "faq": {
+      "kicker": "Maswali",
+      "title": "Majibu ya kweli.",
+      "items": {
+        "medical": {
+          "q": "Je, The Water Check ni ushauri wa kitabibu?",
+          "a": "Hapana. Ni programu ya ustawi wa jumla. Kiasi chako cha maji ni makadirio ya kielimu, si agizo la daktari, na hakuna kitu kwenye programu kinachotambua au kutibu ugonjwa wowote. Ikiwa una mimba au unanyonyesha, unatumia dawa zinazoathiri maji mwilini, au una ugonjwa wa figo, wa moyo au mwingine, muulize daktari wako kinachokufaa."
+        },
+        "number": {
+          "q": "Kiasi changu kinatoka wapi?",
+          "a": "Kutoka kwenye uzito wako, urefu, shughuli, hali ya hewa na hatua ya maisha, kuanzia miongozo ya umma kama viwango vya marejeleo vya maji vya National Academies ya Marekani. Kikokotoo cha bure kinaonyesha hesabu zake, ili uweze kuona kila hatua. Ni mahali pa kuanzia, si sheria."
+        },
+        "scan": {
+          "q": "Nini hutokea ninapochanganua kinywaji?",
+          "a": "Kuchanganua msimbopau hutuma namba ya msimbopau pekee kwa Open Food Facts, hifadhidata ya vyakula iliyo wazi na ya bure, na kurudisha kile lebo inachosema. Picha, kwa watu wazima wenye umri wa miaka 18 na zaidi, hupitia seva yetu kwenda kwa Gemini AI ya Google, inayosoma lebo na kurudisha ilichokipata. Hatuhifadhi picha yako; Google inaweza kuhifadhi data kwa muda mfupi chini ya masharti yake. Lebo na AI zinaweza kukosea, kwa hiyo angalia lebo halisi, na kamwe usitumie Drink Check kwa mizio au lishe za kitabibu."
+        },
+        "phone": {
+          "q": "Nini hubaki kwenye simu yangu?",
+          "a": "Shajara yako ya Vinywaji, vinywaji na vyakula ulivyohifadhi, lulu za Mwongozo, vipindi vya mazoezi, jibu la mzunguko na maelezo ya mzunguko, ingawa nakala rudufu ya simu yako mwenyewe inaweza kuvijumuisha. Kwenye iPhone, mazoezi unayoruhusu programu isome kutoka Apple Health pia hubaki kwenye simu yako, na hayatumwi kwetu kamwe. Majibu yako ya usajili, kila kinywaji na chakula unachorekodi pamoja na muda wake, na jumla zako za kila siku huhifadhiwa pamoja na akaunti yako ili vikufuate kwenye simu mpya. Hatuuzi taarifa zako."
+        },
+        "audience": {
+          "q": "Ni kwa ajili ya nani?",
+          "a": "Mtu yeyote mwenye umri wa miaka 13 au zaidi. Ikiwa una umri chini ya miaka 18, itumie kwa ruhusa ya mzazi au mlezi. Mfungo wa Matunda, kurekodi pombe na kuchanganua picha ni kwa watu wazima pekee. Programu inafuata kiwango cha umri unachotoa, kwa hiyo tafadhali jibu kwa ukweli. Ikiwa una umri wa miaka 13 hadi 17, hakiki kiasi chako pamoja na mzazi au mtaalamu wa afya."
+        },
+        "cost": {
+          "q": "Inagharimu kiasi gani?",
+          "a": "Programu ni bure kuanza: pata kiasi chako, rekodi maji na chakula, changanua msimbopau wowote, soma kila sura ya Mwongozo, jiunge na Kikundi, na tumia wijeti za Kawaida, Misimu, Mwili na Cheche. Katika mwaka wetu wa uzinduzi, ununuzi mmoja wa hiari unafungua kila kitu, mara moja, bila usajili. App Store au Google Play huonyesha bei kwa sarafu yako kabla ya kununua."
+        },
+        "deleteAccount": {
+          "q": "Ninafutaje akaunti yangu?",
+          "a": "Kwenye programu: Wasifu, kisha Mipangilio, kisha Futa akaunti. Inafutika papo hapo. Huna programu? Ukurasa wetu wa Futa akaunti yako unaeleza jinsi ya kuomba kwa barua pepe."
+        },
+        "download": {
+          "q": "Ninaweza kuipakua lini?",
+          "a": "The Water Check inakaguliwa na App Store na iko kwenye majaribio katika Google Play, na inakuja hivi karibuni kwenye zote mbili. Fuata @thewatercheck kwenye Instagram ili uwe wa kwanza kusikia."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Elewa unachokunywa. Imejengwa Florida na kampuni ya mtu mmoja. Kwa umri wa miaka 13 na kuendelea.",
+      "legal": "Kisheria",
+      "privacy": "Sera ya Faragha ya The Water Check",
+      "terms": "Sheria na Masharti ya The Water Check",
+      "community": "Miongozo ya Jumuiya",
+      "healthData": "Sera ya Faragha ya Data ya Afya ya Watumiaji",
+      "deleteAccount": "Futa akaunti yako",
+      "sitePrivacy": "Faragha ya tovuti",
+      "explore": "Gundua",
+      "calculator": "Kikokotoo cha maji",
+      "store": "Duka la The Water Check",
+      "instagram": "@thewatercheck kwenye Instagram",
+      "expectedEnd": "Expected End",
+      "help": "Msaada",
+      "email": "Msaada kwa barua pepe",
+      "accessibility": "Ufikivu",
+      "contact": "Mawasiliano",
+      "note": "The Water Check ni programu ya ustawi wa jumla. Haitambui, haitibu wala haizuii ugonjwa wowote, na si mbadala wa ushauri wa mtaalamu wa afya. Katika dharura, piga 911 au namba ya dharura ya eneo lako. Skrini za programu zinaonyesha toleo la majaribio lenye data ya kubuni; vipengele vinaweza kubadilika kabla ya kuzinduliwa."
+    }
+  },
+  "app": {
+    "eyebrow": "Programu",
+    "title": "Maji yako, siku kwa siku.",
+    "body": "Anza na makadirio yako binafsi, kisha rekodi vinywaji na vyakula vyenye maji mengi kadiri siku yako inavyoendelea. Ona maendeleo yako kwenye programu, kwenye Skrini ya Mwanzo, na katika mwezi mzima.",
+    "comingSoon": "Inakuja hivi karibuni kwenye App Store",
+    "calculator": "Jaribu kikokotoo cha bure",
+    "caveat": "Kikokotoo kinafanya kazi hapa bila akaunti. Picha za skrini za programu zinaonyesha toleo la awali; vipengele na upatikanaji vinaweza kubadilika kabla ya kuzinduliwa.",
+    "screens": {
+      "number": {
+        "alt": "Makadirio binafsi ya maji ya kila siku ya The Water Check kwenye iPhone",
+        "caption": "Kiasi chako"
+      },
+      "log": {
+        "alt": "Rekodi ya kila siku ya The Water Check yenye vinywaji na chakula kwenye iPhone",
+        "caption": "Rekodi ya leo"
+      },
+      "widgets": {
+        "alt": "Mipangilio ya wijeti ya Skrini ya Mwanzo ya The Water Check kwenye iPhone",
+        "caption": "Wijeti"
+      },
+      "wellness": {
+        "alt": "Mwongozo wa ustawi na P-Meter ya The Water Check kwenye iPhone",
+        "caption": "Ustawi"
+      },
+      "calendar": {
+        "alt": "Kalenda ya maji ya kila mwezi ya The Water Check kwenye iPhone",
+        "caption": "Kalenda"
+      }
+    }
+  },
+  "footer": {
+    "note": "Kikokotoo cha bure hakihitaji akaunti. Kinafanya kazi kwenye kivinjari chako na hakitutumii namba zako.",
+    "navLabel": "Urambazaji wa chini ya ukurasa",
+    "calculator": "Kikokotoo cha maji",
+    "explore": "Gundua programu",
+    "instagram": "@thewatercheck kwenye Instagram",
+    "store": "Duka",
+    "builder": "Aliyejenga hiki",
+    "finePrint": "Maandishi madogo",
+    "terms": "Sheria na Masharti",
+    "privacy": "Sera ya Faragha",
+    "community": "Miongozo ya Jumuiya",
+    "healthData": "Data ya Afya ya Watumiaji",
+    "deleteAccount": "Futa akaunti yako",
+    "accessibility": "Ufikivu",
+    "contact": "Mawasiliano",
+    "project": "Mradi wa <company>EXPECTEDEND LLC</company>. Makadirio ya kielimu, si ushauri wa kitabibu.",
+    "backToTop": "Rudi juu ↑"
+  }
+}

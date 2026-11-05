@@ -1,0 +1,89 @@
+{
+  "mybiblelens": {
+    "eyebrow": "Hành trang cho hành trình",
+    "headline": "Giữ những điều quan trọng ở gần bên.",
+    "intro": "Một bộ sưu tập nhỏ những món đồ chu đáo dành cho ghi chú, lời nhắc và bước đồng hành mỗi ngày cùng Đức Chúa Trời.",
+    "products": {
+      "dailyBreadJournal": {
+        "name": "The Daily Bread Journal",
+        "detail": "Sổ ghi chép có hướng dẫn",
+        "kind": "Sổ tay"
+      },
+      "lensPin": {
+        "name": "The Lens Pin",
+        "detail": "Một lời nhắc nhỏ",
+        "kind": "Huy hiệu cài áo"
+      },
+      "wordTee": {
+        "name": "The Word Tee",
+        "detail": "Lớp áo mềm mại cho mỗi ngày",
+        "kind": "Quần áo"
+      },
+      "firstLightHoodie": {
+        "name": "First Light Hoodie",
+        "detail": "Cho những buổi sáng se lạnh",
+        "kind": "Quần áo"
+      }
+    }
+  },
+  "watercheck": {
+    "eyebrow": "Đợt mở bán đầu tiên",
+    "headline": "Uống nước. Tiếp tục tiến bước.",
+    "intro": "Những lớp áo lấy cảm hứng từ việc uống nước, dành cho những ai luôn có mặt, rót đầy lại và giữ nhịp kiểm tra mỗi ngày.",
+    "products": {
+      "dailyCheckTee": {
+        "name": "The Daily Check Tee",
+        "detail": "Món thiết yếu tươi sáng cho mỗi ngày",
+        "kind": "Áo thun"
+      },
+      "refillHoodie": {
+        "name": "Refill Hoodie",
+        "detail": "Cho sau những chặng đi bộ dài",
+        "kind": "Áo hoodie"
+      },
+      "flowTee": {
+        "name": "The Flow Tee",
+        "detail": "Phối màu thứ hai",
+        "kind": "Áo thun"
+      },
+      "hydrationHoodie": {
+        "name": "Hydration Hoodie",
+        "detail": "Lớp áo dày dặn, điềm tĩnh",
+        "kind": "Áo hoodie"
+      }
+    }
+  },
+  "nav": {
+    "label": "Điều hướng cửa hàng {{store}}",
+    "collection": "Bộ sưu tập"
+  },
+  "hero": {
+    "action": "Khám phá đợt mở bán đầu tiên",
+    "mybiblelensArt": "Logo cửa hàng MyBibleLens và ảnh ghép nhãn dán",
+    "watercheckArt": "Bong bóng logo dạng nước của The Water Check"
+  },
+  "collection": {
+    "eyebrow": "Sắp ra mắt",
+    "title": "Được tạo ra để trở thành một phần trong ngày của bạn.",
+    "body": "Đây là những món đầu tiên. Ảnh sản phẩm, tùy chọn và liên kết thanh toán sẽ xuất hiện ở đây khi đợt mở bán sẵn sàng."
+  },
+  "product": {
+    "placeholder": "Ảnh tạm cho sản phẩm {{name}}",
+    "buy": "Mua ngay",
+    "comingSoon": "Sắp ra mắt",
+    "comingSoonLabel": "{{name}} sắp ra mắt"
+  },
+  "checkout": {
+    "eyebrow": "Không cần tài khoản",
+    "title": "Khi mở bán, thanh toán vẫn thật đơn giản.",
+    "body": "Chọn một món, chạm Mua ngay và thanh toán an toàn qua Stripe. Không cần tài khoản cửa hàng, không có mê cung giỏ hàng."
+  },
+  "footer": {
+    "note": "© {{year}} Expected End. Chính sách cửa hàng sẽ được công bố trước đợt mở bán đầu tiên.",
+    "policies": "Chính sách cửa hàng",
+    "terms": "Điều khoản",
+    "privacy": "Quyền riêng tư",
+    "accessibility": "Hỗ trợ tiếp cận",
+    "shipping": "Giao hàng & đổi trả (công bố trước đợt mở bán)"
+  }
+}

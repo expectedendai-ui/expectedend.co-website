@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Si Denzel Rigaud, founder sa Expected End",
+    "stats": {
+      "projects": "PROYEKTO NGA NAHIMO",
+      "languages": "PINULONGAN",
+      "appStore": "ANAA SA APP STORE"
+    },
+    "eyebrow": "Pultahan paingon sa <em>kaugmaon nga imong gilauman</em>",
+    "title": "Katuyoan, <break/>gitukod <break/>nga matahom.",
+    "intro": "Ang Expected End naghimo og maampingong software, productivity tool, digital experience, ug mga komunidad nga nagdala sa mga tawo nga mas duol sa Dios sa makapahinam ug sayon nga mga paagi!",
+    "cta": "Tan-awa ang mga buhat",
+    "lensHint": "Ilihok ang cursor aron mabasa ang code"
+  },
+  "projects": {
+    "eyebrow": "01 / Mga Proyekto",
+    "title": "Duha ka app sa App Store. <break/><em>Hapit na sa Android.</em>",
+    "visit": "Bisitaha ang {{name}}",
+    "android": "Hapit na sa Android",
+    "bio": "Bio",
+    "actionFor": "{{action}} para sa {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Sa luyo sa mga buhat",
+    "title": "Ang matag produkto dinhi nagsugod sa usa ka pangutana sa <em>klasrom sa ikalimang grado.</em>",
+    "lead": "Kasubo, pagtuo, ug daghang dugay nga mga gabii ang milabay tali sa maong pangutana ug niini nga mga app. Ang nahibilin sa istorya anaa sa kaugalingon niining panid.",
+    "cta": "Basaha ang istorya"
+  },
+  "proof": {
+    "caption": "Mga proyekto nga nahimo",
+    "eyebrow": "03 / Pamatuod sa buhat",
+    "title": "Gitukod gikan sa wala. <em>Ang buhat na ang nagsulti.</em>",
+    "lead": "Mga app, website, AI tool, pelikula, ug kampanya, gidisenyo, gi-code, ug gilansad in-house. Ania ang pipila.",
+    "stats": {
+      "apps": "<strong>2 ka app</strong> sa App Store",
+      "languages": "<strong>43 ka pinulongan</strong> sa MyBibleLens",
+      "years": "<strong>10 ka tuig</strong> sa pag-code",
+      "inHouse": "<strong>Gikan sa ideya hangtod sa launch</strong>, tanan in-house"
+    },
+    "bigline": "<count>20+</count> KA PROYEKTO <star>✦</star> GITUKOD <star>✦</star> GILANSAD <star>✦</star> LIVE <star>✦</star>",
+    "rows": {
+      "products": "Mga app ug produkto",
+      "creative": "Mga website, AI, ug creative nga buhat"
+    },
+    "next": "Ang imong proyekto mahimong <em>sunod.</em>",
+    "cta": "Sugdi ang imo"
+  },
+  "services": {
+    "eyebrow": "04 / Piniling mga serbisyo",
+    "title": "Damgoha nimo, <em>tukoron nako.</em>",
+    "lead": "Ang mga produkto ang una. Kung haom, ang parehas nga pag-amping igahin sa piniling mga buhat para sa uban.",
+    "note": "Palihug ilakip ang range sa presyo sa tanang pangutana ug isulti sa imong mensahe kung kinahanglan og NDA.",
+    "count": "Serbisyo {{number}} / {{total}}",
+    "start": "Sugdi kini nga proyekto"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud, Expected End, मसीही विश्वास के पवित्रस्थान ऐप MyBibleLens और The Water Check के संस्थापक और फ़ुल-स्टैक डेवलपर हैं।",
+  "projects": {
+    "mybiblelens": {
+      "category": "मसीही ऐप",
+      "action": "ऐप देखें",
+      "tagline": "मसीही विश्वास के लिए पवित्रस्थान ऐप।",
+      "secondary": "बायो",
+      "badge": "App Store पर"
+    },
+    "watercheck": {
+      "category": "हाइड्रेशन कम्युनिटी",
+      "action": "ऐप देखें",
+      "tagline": "जानिए आप क्या पीते हैं। आपकी अपनी पानी की मात्रा, बस एक टैप में।",
+      "badge": "रिव्यू में"
+    },
+    "mybiblelens-store": {
+      "category": "स्टोर · जल्द आ रहा है",
+      "action": "स्टोर में जाएँ",
+      "tagline": "विश्वास, जिसे आप पहन सकें।"
+    },
+    "watercheck-store": {
+      "category": "स्टोर · जल्द आ रहा है",
+      "action": "स्टोर में जाएँ",
+      "tagline": "हाइड्रेशन विभाग का गियर।"
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "मसीही ऐप · iOS",
+      "status": "App Store पर"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "हाइड्रेशन ऐप · iOS",
+      "status": "रिव्यू में"
+    },
+    "mybiblelens-for-android": {
+      "name": "Android के लिए MyBibleLens",
+      "category": "Google Play",
+      "status": "क्लोज़्ड टेस्टिंग"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "अनंत कैनवास",
+      "status": "लाइव"
+    },
+    "journey-plans": {
+      "name": "Journey योजनाएँ",
+      "category": "पठन योजनाएँ + मुहरें",
+      "status": "लाइव"
+    },
+    "water-check-crews": {
+      "name": "Water Check टोलियाँ",
+      "category": "टीम हाइड्रेशन",
+      "status": "तैयार"
+    },
+    "home-screen-widgets": {
+      "name": "होम स्क्रीन विजेट",
+      "category": "iOS विजेट",
+      "status": "तैयार"
+    },
+    "hydration-calculator": {
+      "name": "हाइड्रेशन कैलकुलेटर",
+      "category": "वेब टूल",
+      "status": "लाइव"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "बिज़नेस HQ ऐप",
+      "status": "डेवलपमेंट में"
+    },
+    "43-language-rollout": {
+      "name": "43 भाषाओं में रोलआउट",
+      "category": "लोकलाइज़ेशन",
+      "status": "43 भाषाएँ"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens स्टोर",
+      "category": "मर्चेंडाइज़",
+      "status": "जल्द आ रहा है"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "ऐप की वेबसाइट",
+      "status": "लाइव"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "कंपनी की वेबसाइट",
+      "status": "लाइव"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI बाइबल अध्ययन",
+      "status": "AI डेमो"
+    },
+    "hidden-art-world": {
+      "name": "छिपी हुई कला की दुनिया",
+      "category": "इंटरैक्टिव वेब आर्ट",
+      "status": "ईस्टर एग"
+    },
+    "sanctuary-stickers": {
+      "name": "Sanctuary स्टिकर",
+      "category": "इलस्ट्रेशन सेट",
+      "status": "550+ स्टिकर"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens पिच फ़िल्म",
+      "category": "ब्रांड फ़िल्म",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "फ़ीचर रील्स",
+      "category": "वीडियो सीरीज़",
+      "status": "10 वीडियो"
+    },
+    "look-closer-series": {
+      "name": "Look Closer सीरीज़",
+      "category": "सोशल सीरीज़",
+      "status": "60 पोस्ट"
+    },
+    "25-week-campaign": {
+      "name": "25 हफ़्तों का कैंपेन",
+      "category": "Instagram प्लान",
+      "status": "100 पोस्ट"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "वर्कबुक",
+      "status": "33 ब्लॉक"
+    },
+    "water-check-store": {
+      "name": "Water Check स्टोर",
+      "category": "मर्चेंडाइज़",
+      "status": "जल्द आ रहा है"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "ऐप्स",
+      "body": "उपयोगी, सोच-समझकर बने प्रोडक्ट, असली लोगों को ध्यान में रखकर डिज़ाइन किए गए।",
+      "interest": "ऐप या सॉफ़्टवेयर आइडिया बनवाना"
+    },
+    "02": {
+      "title": "वेबसाइट",
+      "body": "अलग पहचान वाले डिजिटल घर, जो साफ़, जीवंत और अपनापन भरे लगें।",
+      "interest": "वेबसाइट या डिजिटल अनुभव"
+    },
+    "03": {
+      "title": "AI सिस्टम",
+      "body": "व्यावहारिक AI, जो आइडिया और टीमों को आगे बढ़ने में मदद करे।",
+      "interest": "AI सिस्टम या प्रोडक्टिविटी टूल"
+    },
+    "04": {
+      "title": "क्रिएटिव",
+      "body": "पहचान, दिशा और अनुभव, जिनके केंद्र में अर्थ हो।",
+      "interest": "क्रिएटिव डायरेक्शन या डिज़ाइन"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "आपके बिज़नेस का अपना कस्टम ठिकाना। CRM, फ़ाइनेंस, प्रोजेक्ट, टीम टूल और आगे आपको जो भी क्षमता चाहिए, सब एक ही जगह।",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "ऑटोमेशन",
+      "body": "बार-बार दोहराए जाने वाले काम की जगह जुड़े हुए वर्कफ़्लो लाएँ, जो आपके बिज़नेस को चलाते रहें।",
+      "interest": "ऑटोमेशन"
+    },
+    "07": {
+      "title": "क्लाइंट पोर्टल",
+      "body": "ग्राहकों या सदस्यों को एक शानदार जगह दें, जहाँ वे बात कर सकें, बुकिंग कर सकें, फ़ाइलें शेयर कर सकें और प्रगति देख सकें।",
+      "interest": "क्लाइंट पोर्टल"
+    },
+    "08": {
+      "title": "डिजिटल रेस्क्यू",
+      "body": "जो सॉफ़्टवेयर अब आपके बिज़नेस के काम नहीं आता, उसे ठीक करें, आधुनिक बनाएँ या फिर से बनाएँ।",
+      "interest": "डिजिटल रेस्क्यू"
+    }
+  }
+}

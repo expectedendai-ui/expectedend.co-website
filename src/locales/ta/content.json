@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud, Expected End, கிறிஸ்தவ விசுவாசத்திற்கான பரிசுத்த இட ஆப் MyBibleLens, The Water Check ஆகியவற்றின் நிறுவனரும் ஃபுல்-ஸ்டாக் டெவலப்பரும் ஆவார்.",
+  "projects": {
+    "mybiblelens": {
+      "category": "கிறிஸ்தவ ஆப்",
+      "action": "ஆப்பைப் பாருங்கள்",
+      "tagline": "கிறிஸ்தவ விசுவாசத்திற்கான பரிசுத்த இட ஆப்.",
+      "secondary": "அறிமுகம்",
+      "badge": "App Store-இல்"
+    },
+    "watercheck": {
+      "category": "நீரேற்ற சமூகம்",
+      "action": "ஆப்பைப் பாருங்கள்",
+      "tagline": "நீங்கள் குடிப்பதைப் புரிந்துகொள்ளுங்கள். உங்களுக்கான தண்ணீர் அளவு, ஒரே தட்டில்.",
+      "badge": "மதிப்பாய்வில்"
+    },
+    "mybiblelens-store": {
+      "category": "ஸ்டோர் · விரைவில்",
+      "action": "ஸ்டோருக்குள் செல்லுங்கள்",
+      "tagline": "அணியக்கூடிய விசுவாசம்."
+    },
+    "watercheck-store": {
+      "category": "ஸ்டோர் · விரைவில்",
+      "action": "ஸ்டோருக்குள் செல்லுங்கள்",
+      "tagline": "நீரேற்றத் துறைக்கான கியர்."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "விசுவாச ஆப் · iOS",
+      "status": "App Store-இல்"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "நீரேற்ற ஆப் · iOS",
+      "status": "மதிப்பாய்வில்"
+    },
+    "mybiblelens-for-android": {
+      "name": "Android-க்கான MyBibleLens",
+      "category": "Google Play",
+      "status": "மூடிய சோதனை"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "முடிவற்ற கேன்வாஸ்",
+      "status": "லைவ்"
+    },
+    "journey-plans": {
+      "name": "Journey திட்டங்கள்",
+      "category": "வாசிப்புத் திட்டங்கள் + முத்திரைகள்",
+      "status": "லைவ்"
+    },
+    "water-check-crews": {
+      "name": "Water Check குழுக்கள்",
+      "category": "அணியாக நீரேற்றம்",
+      "status": "தயார்"
+    },
+    "home-screen-widgets": {
+      "name": "முகப்புத் திரை விட்ஜெட்கள்",
+      "category": "iOS விட்ஜெட்கள்",
+      "status": "தயார்"
+    },
+    "hydration-calculator": {
+      "name": "நீரேற்ற கால்குலேட்டர்",
+      "category": "இணையக் கருவி",
+      "status": "லைவ்"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "வணிக HQ ஆப்",
+      "status": "உருவாக்கத்தில்"
+    },
+    "43-language-rollout": {
+      "name": "43 மொழி வெளியீடு",
+      "category": "உள்ளூர்மயமாக்கல்",
+      "status": "43 மொழிகள்"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens ஸ்டோர்",
+      "category": "வணிகப் பொருட்கள்",
+      "status": "விரைவில்"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "ஆப் இணையதளம்",
+      "status": "லைவ்"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "நிறுவன இணையதளம்",
+      "status": "லைவ்"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "AI வேதாகமப் படிப்பு",
+      "status": "AI டெமோ"
+    },
+    "hidden-art-world": {
+      "name": "மறைந்திருக்கும் கலை உலகம்",
+      "category": "ஊடாடும் இணையக் கலை",
+      "status": "ஈஸ்டர் எக்"
+    },
+    "sanctuary-stickers": {
+      "name": "Sanctuary ஸ்டிக்கர்கள்",
+      "category": "ஓவியத் தொகுப்பு",
+      "status": "550+ ஸ்டிக்கர்கள்"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "MyBibleLens பிட்ச் படம்",
+      "category": "பிராண்ட் படம்",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "அம்ச ரீல்கள்",
+      "category": "வீடியோ தொடர்",
+      "status": "10 வீடியோக்கள்"
+    },
+    "look-closer-series": {
+      "name": "Look Closer தொடர்",
+      "category": "சமூக ஊடகத் தொடர்",
+      "status": "60 பதிவுகள்"
+    },
+    "25-week-campaign": {
+      "name": "25 வார பிரசாரம்",
+      "category": "Instagram திட்டம்",
+      "status": "100 பதிவுகள்"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "பயிற்சிப் புத்தகம்",
+      "status": "33 பகுதிகள்"
+    },
+    "water-check-store": {
+      "name": "Water Check ஸ்டோர்",
+      "category": "வணிகப் பொருட்கள்",
+      "status": "விரைவில்"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "ஆப்கள்",
+      "body": "உண்மையான மனிதர்களை மனதில் கொண்டு வடிவமைத்த, பயனுள்ள, சிந்தனைமிக்க தயாரிப்புகள்.",
+      "interest": "ஆப் அல்லது மென்பொருள் யோசனையை உருவாக்குதல்"
+    },
+    "02": {
+      "title": "இணையதளங்கள்",
+      "body": "தெளிவும் உயிர்ப்பும் வரவேற்பும் நிறைந்த, தனித்துவமான டிஜிட்டல் இல்லங்கள்.",
+      "interest": "இணையதளம் அல்லது டிஜிட்டல் அனுபவம்"
+    },
+    "03": {
+      "title": "AI அமைப்புகள்",
+      "body": "யோசனைகளையும் அணிகளையும் முன்னோக்கி நகர்த்த உதவும் நடைமுறை நுண்ணறிவு.",
+      "interest": "AI அமைப்பு அல்லது செயல்திறன் கருவி"
+    },
+    "04": {
+      "title": "படைப்பாக்கம்",
+      "body": "அர்த்தத்தை மையமாகக் கொண்ட அடையாளம், திசை, அனுபவங்கள்.",
+      "interest": "படைப்பாக்க வழிகாட்டல் அல்லது வடிவமைப்பு"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "உங்கள் வணிகத்துக்கான பிரத்யேக இல்லம். CRM, நிதி, திட்டங்கள், அணிக் கருவிகள், அடுத்து உங்களுக்குத் தேவைப்படும் எந்தத் திறனும், எல்லாம் ஒரே இடத்தில்.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "ஆட்டோமேஷன்",
+      "body": "திரும்பத் திரும்பச் செய்யும் வேலைகளுக்குப் பதிலாக, உங்கள் வணிகத்தை இயங்க வைக்கும் இணைக்கப்பட்ட பணிப்பாய்வுகள்.",
+      "interest": "ஆட்டோமேஷன்"
+    },
+    "07": {
+      "title": "வாடிக்கையாளர் போர்ட்டல்கள்",
+      "body": "வாடிக்கையாளர்களுக்கோ உறுப்பினர்களுக்கோ தொடர்புகொள்ள, முன்பதிவு செய்ய, கோப்புகளைப் பகிர, முன்னேற்றத்தைக் கண்காணிக்க ஒரே நேர்த்தியான இடம்.",
+      "interest": "வாடிக்கையாளர் போர்ட்டல்கள்"
+    },
+    "08": {
+      "title": "டிஜிட்டல் மீட்பு",
+      "body": "உங்கள் வணிகத்துக்கு இனி பயன்படாத மென்பொருளைச் சரிசெய்யுங்கள், நவீனமாக்குங்கள் அல்லது மீண்டும் உருவாக்குங்கள்.",
+      "interest": "டிஜிட்டல் மீட்பு"
+    }
+  }
+}

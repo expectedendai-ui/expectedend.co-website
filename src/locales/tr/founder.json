@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Turuncu camlı gözlükleriyle Denzel Rigaud",
+    "stats": {
+      "gradeValue": "5.",
+      "gradeSuffix": "",
+      "grade": "SINIF · MERAK",
+      "grief": "YAS",
+      "faith": "İMAN · DÖNÜŞ"
+    },
+    "identity": "Kimlik <b>/ Denzel Rigaud</b>",
+    "founded": "Kuruluş / <time>3 Mart 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Kurucu ve Tek Başına Full-Stack Geliştirici</em>",
+    "title": "Expected End'in <br/>Arkasındaki <br/>Zihin",
+    "text": "Merak, yas, iman ve teknolojiyi ileriye giden bir yola dönüştürmek üzerine bir hikâye.",
+    "cta": "Hikâyeyi okuyun"
+  },
+  "ticker": {
+    "curiosity": "Merak",
+    "grief": "Yas",
+    "faith": "İman",
+    "code": "Kod",
+    "purpose": "Amaç"
+  },
+  "coordinates": {
+    "eyebrow": "Üç koordinat",
+    "title": "Buraya giden yol <em>düz bir çizgi</em> değildi.",
+    "curiosity": {
+      "label": "01 / Beşinci sınıf",
+      "title": "Merak bir hayatta kalma becerisine dönüştü.",
+      "body": "Tek bir başarısızlığın hayatımın geri kalanını belirlemesine izin vermeyi reddederek başladım.",
+      "big": "5."
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Yas teknolojinin kapısını kapattı.",
+      "body": "Babamı kaybetmek, bana öğrettiği her beceriye dokunmayı imkânsız hissettirdi."
+    },
+    "faith": {
+      "label": "03 / 25 Şubat 2026",
+      "title": "İman işe bir amaç kazandırdı.",
+      "body": "İnsanları bulduklarından daha güçlü bırakan araçlar yapmak için geri döndüm."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Kurucunun hikâyesi / Birinci ağızdan",
+    "title": "Merhaba, benim adım <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Teknoloji beşinci sınıftan beri hayatımın bir parçası. Okul beni küçük yaşlardan beri hayal kırıklığına uğratıyordu. Bir dil engeliyle boğuşurken ikinci sınıfta kaldım ve o başarısızlığın beni tanımlaması gerektiğine inanmadım. İşe notlarımı hackleyerek başlamaya karar verdim. Küçük başladı, ama sistemlere ne kadar derinden sızabildiğimi ve teknolojiyi nasıl jailbreak edebildiğimi fark edince etrafımdaki sistemlere merak saldım ve eğlenmeye başladım.",
+      "second": "O merak beni Instagram bot çiftliklerine, kodlamaya, otomasyona, makine öğrenimine, çevrimiçi topluluklara, dijital büyümeye ve internetin en karanlık köşelerine götürdü. Teknolojinin ne kadar güçlü olabileceğini öğrendim. Bazı seçimler bana daha sağduyulu davranmayı da öğretti."
+    },
+    "socials": {
+      "label": "Denzel Rigaud'nun sosyal medya profilleri",
+      "instagram": "Instagram'da Denzel Rigaud",
+      "linkedin": "LinkedIn'de Denzel Rigaud",
+      "youtube": "YouTube'da Denzel Rigaud"
+    },
+    "records": {
+      "label": "Bağımsız kimlik kayıtları",
+      "heading": "Harici kayıtlar",
+      "worldAthletics": "World Athletics profili",
+      "lynn": "Lynn University sporcu profili",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Bölüm 01",
+    "kicker": "Bana öğretenler",
+    "title": "İlk web büyücüm.",
+    "first": "Babam ve <brother>ağabeyim</brother> tanıdığım en zeki insanlardı, ama onları nadiren görürdüm. İlişkimiz telefon üzerinden yürüyordu. Onlarla konuşabildiğim her saniye bana bilmem gereken bir şey öğretirlerdi. Zamanla, benim için neyin doğru olduğuna yine de kendimin karar vermesi gerektiğini öğrendim. Babam bir web büyücüsüydü ve ben internette kendimi durdurulamaz hissediyordum. Ağabeyim NSA'de çalışıyor.",
+    "second": "2021'de, iki annem ve iki kız kardeşimle geçen 17 yılın ardından Florida'ya taşındım. Hayatta kaldım, haha. Sonra ilk kez babamla birlikte yaşadım. Altı ay sonra o öldü; ben de teknolojinin kapısını kapattım, çünkü her beceri bana onu hatırlatıyordu.",
+    "third": "Babam hayatının büyük bölümünde Müslümandı. Biraz da onun gibi olmak istediğim için İslam'ı izledim. Ölmeden önce hayatını Mesih'e verdi. Bu kararı, kendi araçlarımı bir kenara koyduktan çok sonra bile içimde kaldı."
+  },
+  "return": {
+    "number": "Bölüm 02",
+    "kicker": "Dönüş",
+    "title": "Kapıyı yeniden açtım.",
+    "first": "Yıllarca bana babamı hatırlatan yanımdan kaçtım. Arada bir teknolojiye yine dokunuyordum, ama yas orada kalmamı zorlaştırıyordu. O boşluğu şehvet günahıyla doldurdum ve olabileceğim kişiden giderek uzaklaştım.",
+    "second": "Ocak 2026'da değişmem gerektiğini biliyordum. Babamın bana olmayı öğrettiği web büyücüsünü yeniden açığa çıkarmaya, Tanrı'ya inanmayan bedensel bir adam olmayı bırakmaya ve bunun yerine O'nu izlemeye karar verdim. Bunu yaptığımda hayatım bereketlenmeye başladı.",
+    "third": "MyBibleLens bu karardan doğdu. Eksiksiz bir planım yoktu. İnşa etmeye başladım ve ilerlemeye devam ettim. Bu iş, babam öldükten sonra kapattığım kapıyı açmamı sağladı. The Water Check'i geri getirdim ve çocukluğumdan beri taşıdığım hayallere yeniden sarılmaya başladım."
+  },
+  "draft": {
+    "label": "Bölüm 03 / Taslak",
+    "title": "“Kodun Ardındaki Gerçek”"
+  },
+  "venom": {
+    "title": "Dijital Zehir",
+    "first": "Bu, uyandığımız anda olur. Ayaklarımız daha yere değmeden el uzanır. Telefonu kaparsınız. Hepimiz bunu yaparız. Ama o tek refleks hareket beyninizin sinir yollarını anında bozar ve gün daha başlamadan sizi kritik, kaygılı bir duruma sokar.",
+    "second": "10 yıldır tek başına çalışan bir yazılım geliştiricisi olarak ve bana internetin karanlık, gizemli uçlarını öğreten, tek başına çalışan bir siber güvenlik hacker'ı olan bir babanın oğlu olarak, ekranın ardındaki kodu görüyorum. Algoritmanın nasıl çalıştığını tam olarak biliyorum ve gerçek şu ki, bu bir zehir. İnternette hissettiğiniz bunaltıcı toksiklik aslında insan doğası değil; tasarlanmış bir yanılsama. Sürekli olarak “psödoizm” saldırısı altındayız: Taşan, düşmanca yorum bölümleri nadiren sıradan internet kullanıcılarından gelen kendiliğinden patlamalardır. Aksine, kasıtlı ve sistematik bir hesaplamalı propaganda stratejisinin parçasıdırlar. Sahte hesaplar ve bot ağları, akışınıza yapay anlatılar enjekte etmek için devreye sokulur; bunlar özellikle kamuoyu algısını manipüle etmek, ayrılıklarımızı derinleştirmek ve çevrimiçi davranışınızı etkilemek için tasarlanmıştır.",
+    "third": "Sizin ya da çocuklarınızın arama geçmişinin ne kadar temiz olduğu, akışınızın ne kadar temiz göründüğü fark etmez; sistem sizi geri çekmek için tasarlanmıştır. Sizi olumsuzluğa, yüzeyselliğe ve bizi Parayı Tanrı'nın önüne koymaya zorlayan çabuk zengin olma gurularına doğru çeker (<strong>1. Timoteos 6:10</strong>) ve mamon ruhuna sahip insanlar yaratır. Güzel kız kardeşlerimizin gerçek güzelliklerinin makyaj olmadığını, bir erkeğin onlar hakkında ne düşündüğü ya da kaç Instagram beğenisi aldıkları olmadığını bilmemelerine yol açar… asıl güzellik, kalpleri ve Tanrı'yla olan melek gibi halleridir. Bu, zihninizi ele geçirmek ve alışkanlıklarınızı kontrol etmek için yapılmış bir makinedir.",
+    "fourth": "Bu bitmeyen yapaylık akışı bizi aceleci bir varoluşa hapseder ve gerçek şeylerin zaman aldığı gerçeğine karşı kör eder. Gerçek sevgi, sahici gelişim ve içten bağlar sabır ister; telefonun sunduğu anlık tatmini değil. Beyni sürekli bir onay dopamini beklemeye kandırır. Tıpkı bir “Sana Özel” sayfasının özenle seçilmiş algoritmaları gibi, insanları kendi fikirlerine körü körüne hakları varmış gibi hissettirir; onları gerçek insanlara ve herkesin aynı şeyde hemfikir olmayacağı gerçeğine kapatır. Bu yavaş bir teslimiyettir; soğuk teknolojinin ve yapaylığın insan zihnini tamamen ele geçirmesine izin verir.",
+    "fifth": "Bizim bu üretilmiş savaşlarla oyalanmamızı istiyorlar. Çocuklarımızın beyinlerinin pelteye dönmesini, sonsuza dek <strong><bloom>Bloom Taksonomisi</bloom></strong>'nin en alt basamağında kalmasını istiyorlar: Sadece “hatırlamak” ve tüketmek; asla soru sormamak, asla üretmemek, asla derine inmemek. Koca bir neslin kritik <strong><erikson>Erikson yaşam evrelerini</erikson></strong> ertelediğine tanık oluyoruz; ekranlarda gördükleri sahte, kurgulanmış gerçekliklerle felç olmuş, artık hiçbir şey sahici gelmediği için gerçekten büyümekten korkuyorlar. Dünya yalanlardan tamamen bıkıp usandı. Koddaki manipülasyonu görmüyorsanız dert etmeyin; benim neslim görüyor, gelecek nesil de görecek."
+  },
+  "crucible": {
+    "title": "Beni Biçimlendiren Pota",
+    "first": "Bunu sadece verileri inceleyerek öğrenmedim; bizzat yaşadım: Kendime söz verdiğim, parlak bir geleceğe uzanacak hayatı kurabilmek için uyuşturucu sattım. Sevdiklerimin evlerinden kovuldum, evsiz kaldım. Paraya en çok ihtiyacım olduğu anda bana yetişkin sektörüne girmem için bir kapı açıldı, 10 bin tam gözümün önünde sallandı, ama annem beni ahlaklı yetiştirmişti. Lisede <court>iki</court> dava <search>vardı</search>. Başarısız olmaktan bıktığım için 5. sınıfta notlarımı hacklemeye başladım; özellikle de geldiğim aksan yüzünden 2. sınıfta kaldığımı fark ettiğimde. Bu daha sonra çok daha fazlasını hacklemeye dönüştü… bir gün <father>babamı</father> gerçekten tanıyınca bunun kimden geldiğini gördüm.",
+    "second": "Uzun süre, tüm bunlardan sonra Tanrı'nın beni asla geri kabul etmeyeceğini düşündüm. Çok uzaklara gittiğimi sanıyordum. Ama sonra Elçi Pavlus'u öğrendim. Pavlus kelimenin tam anlamıyla Hristiyanları öldürmüştü ve Tanrı yine de dönüp ona muazzam bir armağan verdi. İşte o an kafama dank etti: Tanrı Pavlus gibi bir adamı kullanabildiyse, geçmişim O'nun benimle bir gelecek kurması için asla fazla ağır değildi.",
+    "third": "O hayatta kalma içgüdüsü erken başladı. 16 yıl boyunca 4 kadının arasında büyümek, ruhumu hâlâ çözümlemeye çalıştığım şekillerde biçimlendirdi. Zihnim farklı psikolojik dalga boylarında aynı anda çalışmak üzere eğitildi. Beni bugünkü ben yapan çarpık psikolojiyi, karmaşık dinamikleri ve manipülasyonu aştım. Ve bunun için onları seviyorum; annemin ne anlattığını gerçekten düşünmeye karar verdiğimde kızlar konusunda bana enerji kazandırdı. Kalp kırıklıklarından ve aldatılmaktan sonra bile hâlâ <chivalry>centilmenliğe</chivalry> inanıyorum.",
+    "fourth": "Demek istediğim şu: Kadınlarla dolu bir evde hayatta kalmak için onlar gibi düşünmeniz gerekir ve onlardan ayrıldığımda, yaşadığım sayısız mücadeleyle birlikte bugünkü genç adam olmak zorundaydım. Kaotik bir ortamdı ve ancak tek günahım olan “şehveti” ve gürültüyü dua yoluyla bilinçli olarak hayatımdan çıkarmayı seçtiğimde berraklığa kavuştum. Sonunda Tanrı'yı ilk sıraya koyduğumda gerçekte kim olduğumu fark ettim. Beni şekillendiren zorlukları birer lanet olarak değil, Tanrı'ya yaklaşmak ve başkaları için bir çıkış yolu inşa etmek için ihtiyaç duyduğum tam da o eğitim olarak gördüm.",
+    "fifth": "Tanrı'yı bulmak kendimi daha çok tanımamı sağladı. Tanrı'yı izlemek bana yaralarımı ve armağanlarımı öğretti; kendimi anlamak da O'nu daha çok tanımak istememe yol açtı. İşte o zaman hayatım bereketlenmeye başladı: Bir yönüm, amacım ve Tanrı'nın bana verdiklerine özen göstermek için bir nedenim vardı. The Water Check de bu misyonun bir parçası. Bedeninizi neyin etkilediğine dikkat etmek, Tanrı'nın sizi yarattığı kişiyi anlamanıza ve ona özen göstermenize yardımcı olabilir. O kişinin en yetkin hâline dönüşmenize yardım eden teknolojiler geliştirmek istiyorum.",
+    "mission": "Bu şirket çatısı altında geliştirdiğim her şey aynı misyona yönelir: İnsanları Tanrı'ya yaklaştırmak ve teknolojiyi bilinçli bir şekilde yaşamak, üretmek, sevmek ve hizmet etmek için kullanmalarına yardım etmek. Uğrunda çalıştığım umutlu gelecek işte bu.",
+    "connect": {
+      "label": "Denzel Rigaud'yu takip edin",
+      "youtube": "YouTube'da Expected End",
+      "instagram": "Denzel Rigaud'yu Instagram'da takip edin",
+      "linkedin": "LinkedIn'de Denzel Rigaud ile bağlantı kurun"
+    }
+  },
+  "memory": {
+    "label": "Kişisel dosya / 04 anı",
+    "title": "Anı arşivi",
+    "text": "Kodun ardındaki insanlar, odalar ve gerçek emek. İstediğiniz kareyi indirip saklayın.",
+    "number": "Anı {{number}}",
+    "download": "{{number}}. anıyı indir: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Çocukken babasıyla Denzel",
+        "title": "Babam ve ben"
+      },
+      "work": {
+        "alt": "Bir masanın etrafında iki iş arkadaşıyla dizüstü bilgisayarda çalışan Denzel",
+        "title": "Masa başındaki emek"
+      },
+      "workspace": {
+        "alt": "MyBibleLens ve The Water Check çalışma alanı",
+        "title": "MyBibleLens'in şekillendiği yer"
+      },
+      "archive": {
+        "alt": "Denzel'in telefonundaki Real Work video arşivi",
+        "title": "Real Work arşivi"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Yayının sonu / İş devam ediyor",
+    "title": "İnsanlara <em>hayatlarını geri veren</em> bir şey inşa edelim.",
+    "text": "Özenli yazılımlar, basın görüşmeleri ya da iyi bir fikrin başlangıcı için Expected End üzerinden bir kanal açın.",
+    "contact": "Expected End ile iletişime geçin",
+    "back": "Şirkete dön"
+  },
+  "verse": {
+    "version": "Kutsal Kitap (Yeni Çeviri)",
+    "reference": "Yeremya 29:11",
+    "text": "“Çünkü sizin için düşündüğüm tasarıları biliyorum” diyor RAB, “Kötü tasarılar değil, size umutlu bir gelecek sağlayan esenlik tasarıları bunlar.”",
+    "close": "Kutsal Kitap ayetini kapat"
+  },
+  "bio": {
+    "eyebrow": "Kurucudan",
+    "title": "@thewatercheck'e ne oldu?",
+    "close": "Biyografiyi kapat",
+    "first": "15 yaşından itibaren bir yandan kendi projem @thewatercheck'i büyütürken bir yandan da fenomen ve içerik sayfalarını yönetip büyütüyordum.",
+    "second": "Daha sonra 17 yaşında babamın yanına taşındım ve hesap can çekişiyordu, çünkü <em>“İki tavşanı birden kovalayan, hiçbirini yakalayamaz.”</em> <proverb>(Rus atasözü)</proverb> O yaşta sadece parayı önemsiyordum. @thewatercheck'e kendimi tamamen vermiyordum.",
+    "third": "Sonra <father>babam</father> <strong>10 Temmuz 2021'de</strong> beklenmedik bir şekilde hayatını kaybetti. Hayatımın nereye gittiğini merak ederek hayatta kalma moduna geçtim. Ölümünün acısıyla baş edebilmek için, babamın bir zamanlar olmamı öğrettiği web büyücüsü olmanın kapısını kapattım; ta ki <strong>Ocak 2026'ya</strong> kadar.",
+    "stat": {
+      "from": "200.000 takipçi",
+      "to": "7.000",
+      "caption": "Şu an geldiği nokta bu."
+    },
+    "what": {
+      "eyebrow": "Peki neydi bu?",
+      "title": "İnsanların sevdiği basit bir hatırlatma.",
+      "first": "The Water Check aslında sadece şuydu: İnsanlara su içmeyi hatırlatmak için her gün bir fotoğraf paylaşıyordum ve bu gerçekten su içmelerine yardımcı oldu. Yorumlar insanlarla <em>dolup taşıyordu</em>. Yaptığı tek şey buydu ve insanlar onu çok sevdi.",
+      "second": "Sonra bir bot sayfadaki her şeyi sildi ve hayat oradan sonra kendi akışında devam etti."
+    }
+  },
+  "footer": {
+    "line": "Teknoloji, ekranı durmadan kaydırıp başkalarının hayatını yaşayalım diye var değil. Ruhumuzu, canımızı, zihnimizi ve bedenimizi iyileştirmeli.",
+    "sign": "Kurucu, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Alt bilgi gezinmesi",
+    "build": "Geliştirdiklerim",
+    "pressKit": "Basın kiti",
+    "find": "Beni bulun",
+    "finePrint": "Yasal ayrıntılar",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Bildirimi",
+    "accessibility": "Erişilebilirlik",
+    "contact": "İletişim",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Tüm hakları saklıdır.",
+    "blessing": "İsa seni seviyor."
+  },
+  "egg": {
+    "label": "Gizli sanat dünyasına girin",
+    "armed": "Gizli sanat dünyasına girmek için bir kez daha basın."
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud met een oranje getinte bril",
+    "stats": {
+      "gradeValue": "5",
+      "gradeSuffix": "e",
+      "grade": "LEERJAAR · NIEUWSGIERIGHEID",
+      "grief": "ROUW",
+      "faith": "GELOOF · DE TERUGKEER"
+    },
+    "identity": "Identiteit <b>/ Denzel Rigaud</b>",
+    "founded": "Opgericht / <time>3 maart 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Oprichter & solo full-stack developer</em>",
+    "title": "Het brein <br/>achter <br/>Expected End",
+    "text": "Een verhaal over nieuwsgierigheid, rouw, geloof en hoe technologie een weg vooruit werd.",
+    "cta": "Lees het verhaal"
+  },
+  "ticker": {
+    "curiosity": "Nieuwsgierigheid",
+    "grief": "Rouw",
+    "faith": "Geloof",
+    "code": "Code",
+    "purpose": "Doel"
+  },
+  "coordinates": {
+    "eyebrow": "Drie coördinaten",
+    "title": "De weg hierheen was geen <em>rechte lijn.</em>",
+    "curiosity": {
+      "label": "01 / Groep 7",
+      "title": "Nieuwsgierigheid werd een overlevingsvaardigheid.",
+      "body": "Het begon ermee dat ik weigerde één mislukking de rest van mijn leven te laten bepalen.",
+      "big": "5e"
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Rouw sloot de deur naar technologie.",
+      "body": "Door het verlies van mijn vader voelde elke vaardigheid die hij me had geleerd onaanraakbaar."
+    },
+    "faith": {
+      "label": "03 / 25 februari 2026",
+      "title": "Geloof gaf het werk een doel.",
+      "body": "Ik kwam terug om tools te bouwen die mensen sterker achterlaten dan ze waren."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Oprichtersverhaal / In de ik-vorm",
+    "title": "Hoi, mijn naam is <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Technologie hoort al bij mijn leven sinds groep 7. School frustreerde me al op jonge leeftijd. Ik bleef zitten in groep 4 terwijl ik met een taalbarrière worstelde, en ik vond niet dat die mislukking mij mocht bepalen. Ik besloot te beginnen met het hacken van mijn cijfers. Het begon klein, maar toen ik besefte hoe diep ik systemen kon binnendringen en technologie kon jailbreaken, werd ik nieuwsgierig naar de systemen om me heen en begon ik plezier te krijgen.",
+      "second": "Die nieuwsgierigheid bracht me bij Instagram-botfarms, programmeren, automatisering, machine learning, online community's, digitale groei en de donkerste hoeken van het internet. Ik leerde hoe krachtig technologie kan zijn. Sommige keuzes leerden me ook om beter na te denken."
+    },
+    "socials": {
+      "label": "Socialemediaprofielen van Denzel Rigaud",
+      "instagram": "Denzel Rigaud op Instagram",
+      "linkedin": "Denzel Rigaud op LinkedIn",
+      "youtube": "Denzel Rigaud op YouTube"
+    },
+    "records": {
+      "label": "Onafhankelijke identiteitsgegevens",
+      "heading": "Externe vermeldingen",
+      "worldAthletics": "Profiel bij World Athletics",
+      "lynn": "Atletenprofiel bij Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Hoofdstuk 01",
+    "kicker": "De mensen die me iets leerden",
+    "title": "Mijn eerste webtovenaar.",
+    "first": "Mijn vader en <brother>broer</brother> waren de slimste mensen die ik kende, maar ik zag ze zelden. We hadden een telefoonrelatie. Elke seconde dat ik met ze kon praten, leerden ze me iets wat ik moest weten. Na verloop van tijd leerde ik dat ik nog steeds zelf moest beslissen wat goed voor mij was. Mijn vader was een webtovenaar, en op het internet voelde ik me onstuitbaar. Mijn broer werkt voor de NSA.",
+    "second": "In 2021 verhuisde ik naar Florida, na 17 jaar met mijn twee moeders en twee zussen te hebben gewoond. Ik heb het overleefd, haha. Daarna mocht ik voor het eerst bij mijn vader wonen. Zes maanden later overleed hij, dus sloot ik de deur naar technologie, omdat elke vaardigheid me aan hem herinnerde.",
+    "third": "Mijn vader was een groot deel van zijn leven moslim. Ik volgde de islam deels omdat ik op hem wilde lijken. Voordat hij stierf, gaf hij zijn leven aan Christus. Zijn beslissing bleef me bij, lang nadat ik mijn eigen tools had weggelegd."
+  },
+  "return": {
+    "number": "Hoofdstuk 02",
+    "kicker": "De terugkeer",
+    "title": "Ik deed de deur weer open.",
+    "first": "Jarenlang vermeed ik het deel van mezelf dat me aan mijn vader herinnerde. Af en toe raakte ik nog technologie aan, maar door de rouw was het moeilijk om te blijven. Ik vulde die lege plek met de zonde van lust en raakte steeds verder weg van de persoon die ik had kunnen worden.",
+    "second": "In januari 2026 wist ik dat ik moest veranderen. Ik besloot de webtovenaar die mijn vader me had leren zijn weer toe te laten, op te houden een vleselijke man te zijn die niet in God geloofde, en in plaats daarvan Hem te volgen. Toen ik dat deed, begon mijn leven te bloeien.",
+    "third": "MyBibleLens kwam voort uit die beslissing. Ik had geen compleet plan. Ik begon te bouwen en bleef doorgaan. Door het werk kon ik de deur openen die ik na de dood van mijn vader had gesloten. Ik bracht The Water Check terug en begon dromen op te pakken die ik al sinds mijn jeugd met me meedroeg."
+  },
+  "draft": {
+    "label": "Hoofdstuk 03 / Het concept",
+    "title": "„De waarheid achter de code”"
+  },
+  "venom": {
+    "title": "Het digitale gif",
+    "first": "Het gebeurt op de seconde dat we wakker worden. Nog voordat onze voeten de vloer raken, reikt de hand al. Je pakt je telefoon. We doen het allemaal. Maar die ene reflexmatige beweging verstoort meteen de neurale banen van je brein en brengt je in een kritieke, angstige toestand voordat de dag zelfs maar is begonnen.",
+    "second": "Als solo softwareontwikkelaar sinds 10 jaar, met een vader die als solo cybersecurityhacker werkte en me de duistere en mysterieuze uithoeken van het internet leerde kennen, zie ik de code achter het scherm. Ik weet precies hoe het algoritme werkt, en de waarheid is: het is gif. De overweldigende toxiciteit die je online voelt, is eigenlijk niet de menselijke natuur, maar een gefabriceerde illusie. We worden voortdurend aangevallen door ‘pseudoïsme’: overspoelde, vijandige reactiesecties zijn zelden spontane uitbarstingen van willekeurige, gewone internetgebruikers. Ze maken juist deel uit van een bewuste, systematische strategie van computationele propaganda. Nepaccounts en botnetwerken worden ingezet om kunstmatige verhalen in je feed te injecteren, speciaal ontworpen om de publieke opinie te manipuleren, onze verdeeldheid te vergroten en je online gedrag te beïnvloeden.",
+    "third": "Het maakt niet uit hoe zuiver jouw zoekgeschiedenis of die van je kinderen is, of hoe schoon je feed lijkt; het systeem is ontworpen om je terug te trekken. Het trekt je naar negativiteit, naar oppervlakkigheid en naar snel-rijk-goeroes die ons dwingen geld boven God te stellen (<strong>1 Timotheüs 6:10</strong>), en zo mensen met de geest van de mammon creëren. Het zorgt ervoor dat onze prachtige zussen niet weten dat hun echte schoonheid niet hun make-up is, niet wat een jongen van haar vindt en niet hoeveel Instagram-likes ze krijgt… het is haar hart en haar engelachtige omgang met God. Het is een machine die gebouwd is om je geest te kapen en je gewoonten te sturen.",
+    "fourth": "Die constante stroom van kunstmatigheid houdt ons gevangen in een gehaast bestaan en maakt ons blind voor het feit dat echte dingen tijd kosten. Echte liefde, oprechte groei en authentieke verbindingen vragen geduld, niet de directe beloning die een telefoon geeft. Het laat het brein een constante dopaminekick van instemming verwachten. Net als de gecureerde algoritmes van een ‘Voor jou’-pagina geeft het mensen het gevoel dat ze blindelings recht hebben op hun eigen mening, waardoor ze zich afsluiten voor echte mensen en voor de realiteit dat niet iedereen het over hetzelfde eens zal zijn. Het is een langzame overgave, waarbij koude technologie en kunstmatigheid de menselijke geest volledig overnemen.",
+    "fifth": "Ze willen dat we afgeleid worden door deze gefabriceerde oorlogen. Ze willen dat de hersenen van onze kinderen veranderen in pap, voor altijd gevangen op het laagste niveau van de <strong><bloom>taxonomie van Bloom</bloom></strong>: alleen ‘onthouden’ en consumeren, nooit vragen stellen, nooit iets creëren, nooit dieper gaan. We zien een hele generatie de cruciale <strong><erikson>ontwikkelingsfasen van Erikson</erikson></strong> uitstellen, verlamd door de nep, gecureerde werkelijkheden die ze op schermen zien, doodsbang om echt volwassen te worden, omdat niets meer echt voelt. De wereld is de leugens helemaal spuugzat. Als jij de manipulatie in de code niet ziet, geen zorgen: mijn generatie ziet het wel, en de volgende generatie ook."
+  },
+  "crucible": {
+    "title": "De smeltkroes die mij vormde",
+    "first": "Ik heb dit niet alleen geleerd door data te bestuderen; ik heb het geleefd: dope verkopen om het leven op te bouwen dat ik mezelf had beloofd, een leven dat een stralende toekomst zou halen. Uit de huizen van geliefden gezet, dakloos. Een weg de seksindustrie in aangeboden gekregen toen ik het geld het hardst nodig had, 10k vlak voor mijn gezicht gezwaaid, maar mama heeft me met normen en waarden opgevoed. <court>Twee</court> rechtszaken <search>op</search> de middelbare school. In groep 7 begon ik mijn cijfers te hacken, omdat ik het zat was om steeds te zakken, vooral toen ik besefte dat ik in groep 4 was blijven zitten vanwege het accent waarmee ik binnenkwam. Later werd dat het hacken van nog veel meer… toen ik mijn <father>vader</father> op een dag echt leerde kennen, zag ik van wie ik het heb.",
+    "second": "Heel lang dacht ik dat God me na dat alles nooit meer terug zou nemen. Ik dacht dat ik te ver weg was. Maar toen leerde ik over de apostel Paulus. Paulus vermoordde letterlijk christenen, en toch keerde God zich naar hem toe en gaf hem een enorme gave. Toen drong het tot me door: als God een man als Paulus kon gebruiken, was mijn verleden nooit te veel voor Hem om er een toekomst mee te bouwen.",
+    "third": "Dat overlevingsinstinct begon vroeg. Opgroeien tussen 4 vrouwen, 16 jaar lang, heeft mijn psyche gevormd op manieren die ik nog steeds aan het uitpluizen ben. Mijn geest werd getraind om tegelijk op verschillende psychologische golflengtes te werken. Ik laveerde door verwrongen psychologie, complexe dynamieken en manipulatie die me hebben gevormd tot wie ik ben. En daar hou ik van ze om; het spaarde me energie met meisjes toen ik echt besloot na te denken over waar mijn moeder het over had. En na liefdesverdriet en bedrogen te zijn, geloof ik nog steeds in <chivalry>ridderlijkheid</chivalry>.",
+    "fourth": "Wat ik bedoel: om te overleven in een huis vol vrouwen moet je denken als een vrouw, en toen ik bij ze wegging, moest ik de jongeman worden die ik nu ben, met alle worstelingen die ik heb doorgemaakt. Het was een chaotische omgeving, en ik vond pas helderheid toen ik er bewust voor koos om mijn ene zonde, ‘lust’, en de ruis weg te nemen door gebed. Toen ik God eindelijk op de eerste plaats zette, besefte ik wie ik echt was. Ik zag de uitdagingen die me hadden gevormd niet als vloeken, maar als precies de training die ik nodig had om dichter bij God te komen en een uitweg voor anderen te bouwen.",
+    "fifth": "God vinden bracht me ertoe meer over mezelf te leren. God volgen leerde me over mijn wonden en mijn gaven, en mezelf begrijpen maakte dat ik Hem beter wilde kennen. Toen begon mijn leven te bloeien: ik had richting, een doel en een reden om te zorgen voor wat God me gaf. The Water Check hoort bij die missie. Letten op wat je lichaam beïnvloedt, kan je helpen de persoon te begrijpen en te verzorgen die God van je heeft gemaakt. Ik wil technologie bouwen die je helpt de meest capabele versie van die persoon te worden.",
+    "mission": "Alles wat ik binnen dit bedrijf bouw, wijst naar dezelfde missie: mensen dichter bij God brengen en ze helpen technologie te gebruiken om bewust te leven, te creëren, lief te hebben en te dienen. Dat is het einde en de verwachting waar ik naartoe werk.",
+    "connect": {
+      "label": "Volg Denzel Rigaud",
+      "youtube": "Expected End op YouTube",
+      "instagram": "Volg Denzel Rigaud op Instagram",
+      "linkedin": "Connect met Denzel Rigaud op LinkedIn"
+    }
+  },
+  "memory": {
+    "label": "Persoonlijk dossier / 04 herinneringen",
+    "title": "Herinneringsarchief",
+    "text": "De mensen, de ruimtes en het echte werk achter de code. Download elk beeld en bewaar het.",
+    "number": "Herinnering {{number}}",
+    "download": "Herinnering {{number}} downloaden: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel als kind met zijn vader",
+        "title": "Mijn vader en ik"
+      },
+      "work": {
+        "alt": "Denzel aan het werk op een laptop met twee medewerkers rond een tafel",
+        "title": "Het werk rond de tafel"
+      },
+      "workspace": {
+        "alt": "De werkplek van MyBibleLens en The Water Check",
+        "title": "Waar MyBibleLens vorm kreeg"
+      },
+      "archive": {
+        "alt": "Denzels videoarchief Real Work op zijn telefoon",
+        "title": "Het Real Work-archief"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Einde transmissie / Het werk gaat door",
+    "title": "Laten we iets bouwen dat mensen hun <em>leven teruggeeft.</em>",
+    "text": "Voor doordachte software, persgesprekken of het begin van een goed idee: open een kanaal via Expected End.",
+    "contact": "Contact met Expected End",
+    "back": "Terug naar het bedrijf"
+  },
+  "verse": {
+    "version": "Statenvertaling",
+    "reference": "Jeremia 29:11",
+    "text": "Want Ik weet de gedachten, die Ik over u denk, spreekt de HEERE, gedachten des vredes, en niet des kwaads, dat Ik u geve het einde en de verwachting.",
+    "close": "Bijbeltekst sluiten"
+  },
+  "bio": {
+    "eyebrow": "Van de oprichter",
+    "title": "Wat is er met @thewatercheck gebeurd?",
+    "close": "Bio sluiten",
+    "first": "Vanaf mijn 15e beheerde en liet ik pagina's van influencers en contentmakers groeien, terwijl ik ook mijn eigen project, @thewatercheck, uitbouwde.",
+    "second": "Op mijn 17e trok ik bij mijn vader in, en het account ging dood, want <em>„Wie twee hazen tegelijk najaagt, vangt er geen.”</em> <proverb>(Russisch spreekwoord)</proverb> Op die leeftijd gaf ik alleen om het geld. Ik gaf @thewatercheck niet alles.",
+    "third": "Toen overleed mijn <father>vader</father> onverwacht op <strong>10 juli 2021.</strong> Ik ging in overlevingsmodus en vroeg me af waar mijn leven naartoe ging. Om met de pijn van zijn dood om te gaan, sloot ik de deur naar de webtovenaar die mijn vader me ooit had leren zijn, tot <strong>januari 2026.</strong>",
+    "stat": {
+      "from": "200.000 volgers",
+      "to": "7.000",
+      "caption": "Daar staat het nu."
+    },
+    "what": {
+      "eyebrow": "Wat was het dan?",
+      "title": "Een simpele herinnering waar mensen van hielden.",
+      "first": "The Water Check was simpelweg dit: ik plaatste elke dag een foto om mensen eraan te herinneren water te drinken, en het hielp ze echt om water te drinken. De reacties werden <em>overspoeld</em> met mensen. Meer deed het niet, en mensen vonden het geweldig.",
+      "second": "Toen wiste een bot alles van de pagina, en vanaf daar ging het leven zijn gang."
+    }
+  },
+  "footer": {
+    "line": "Technologie is er niet om eindeloos te doomscrollen en andermans leven te leven. Ze hoort onze geest, ziel, verstand en lichaam te versterken.",
+    "sign": "Oprichter, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigatie in de footer",
+    "build": "Wat ik bouw",
+    "pressKit": "Perskit",
+    "find": "Vind me",
+    "finePrint": "De kleine lettertjes",
+    "terms": "Gebruiksvoorwaarden",
+    "privacy": "Privacyverklaring",
+    "accessibility": "Toegankelijkheid",
+    "contact": "Contact",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Alle rechten voorbehouden.",
+    "blessing": "Jezus houdt van je."
+  },
+  "egg": {
+    "label": "Betreed de verborgen kunstwereld",
+    "armed": "Nog één keer drukken om de verborgen kunstwereld te betreden."
+  }
+}

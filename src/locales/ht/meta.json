@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Objektif, bati ak bèlte",
+    "description": "Expected End kreye lojisyèl byen panse, zouti pwodiktivite, eksperyans dijital ak kominote."
+  },
+  "about": {
+    "title": "Sou nou | Expected End",
+    "description": "Istwa fondatè a, Denzel Rigaud, misyon ki dèyè Expected End, ak pwojè ki fèt ak lafwa e ak yon objektif."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Fondatè Expected End",
+    "description": "Denzel Rigaud se fondatè ak devlopè full-stack ki dèyè Expected End, MyBibleLens, Aplikasyon Sanktyè pou Krisyanis la, ak The Water Check."
+  },
+  "press": {
+    "title": "Laprès ak medya | Expected End",
+    "description": "Biyografi apwouve, enfòmasyon verifye, lyen antite ak medya ou ka telechaje pou pale sou Expected End ak Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Kondisyon itilizasyon sit entènèt la | Expected End",
+    "description": "Kondisyon ki gouvène itilizasyon sit entènèt Expected End."
+  },
+  "privacy": {
+    "title": "Deklarasyon sou konfidansyalite | Expected End",
+    "description": "Kijan Expected End jere enfòmasyon sou sit entènèt sa a."
+  },
+  "watercheck-privacy": {
+    "title": "Politik Konfidansyalite The Water Check | Expected End",
+    "description": "Sa The Water Check kolekte, sa ki rete sou telefòn ou, ki moun ki ede fè aplikasyon an mache, ak chwa ou genyen."
+  },
+  "watercheck-terms": {
+    "title": "Tèm ak Kondisyon The Water Check | Expected End",
+    "description": "Kondisyon pou itilize aplikasyon The Water Check, sa gen ladan sante ak sekirite, IA, règ Ekip yo ak acha."
+  },
+  "watercheck-health-data": {
+    "title": "Politik Konfidansyalite Done Sante Konsomatè The Water Check | Expected End",
+    "description": "Kijan The Water Check jere done sante konsomatè, ak kijan pou w jwenn aksè, efase oswa fè apèl."
+  },
+  "watercheck-delete-account": {
+    "title": "Efase kont ou | The Water Check",
+    "description": "Kijan pou efase kont The Water Check ou ak done ou yo, nan aplikasyon an oswa pa imèl."
+  },
+  "watercheck-community": {
+    "title": "Règ Kominote a | The Water Check",
+    "description": "Kijan Ekip yo nan The Water Check rete janti: règ yo, siyale ak bloke, ak sa k ap pase lè yon moun kraze règ yo."
+  },
+  "accessibility": {
+    "title": "Aksesiblite | Expected End",
+    "description": "Angajman Expected End pou yon eksperyans sit entènèt ki aksesib."
+  },
+  "mybiblelens-store": {
+    "title": "Boutik MyBibleLens | Expected End",
+    "description": "Bagay byen panse pou mache pi pre Pawòl la. Boutik MyBibleLens ap vini byento."
+  },
+  "watercheck-store": {
+    "title": "Boutik The Water Check | Expected End",
+    "description": "Bagay esansyèl ki enspire pa idratasyon, soti nan The Water Check. Premye koleksyon an ap vini byento."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Aplikasyon idratasyon ak kalkilatè gratis",
+    "description": "Dekouvri aplikasyon The Water Check epi eseye yon estimasyon idratasyon gratis e prive sou Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Kalkilatè idratasyon gratis | The Water Check",
+    "description": "Jwenn yon estimasyon idratasyon chak jou, gratis e prive, ak kalkilatè The Water Check la."
+  },
+  "not-found": {
+    "title": "Nou pa jwenn paj la | Expected End",
+    "description": "Nou pa t ka jwenn paj Expected End ou t ap chèche a."
+  }
+}

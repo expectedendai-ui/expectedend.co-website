@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Σκοπός, χτισμένος όμορφα",
+    "description": "Η Expected End δημιουργεί προσεγμένο λογισμικό, εργαλεία παραγωγικότητας, ψηφιακές εμπειρίες και κοινότητες."
+  },
+  "about": {
+    "title": "Σχετικά | Expected End",
+    "description": "Η ιστορία του ιδρυτή Denzel Rigaud, η αποστολή πίσω από την Expected End και τα έργα που γεννήθηκαν από πίστη και σκοπό."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Ιδρυτής της Expected End",
+    "description": "Ο Denzel Rigaud είναι ο ιδρυτής και full-stack προγραμματιστής πίσω από την Expected End, το MyBibleLens, την εφαρμογή-καταφύγιο για χριστιανούς, και το The Water Check."
+  },
+  "press": {
+    "title": "Τύπος και μέσα | Expected End",
+    "description": "Εγκεκριμένα βιογραφικά, επαληθευμένα στοιχεία, σύνδεσμοι σε επίσημες καταχωρίσεις και υλικό για λήψη για την κάλυψη της Expected End και του Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Όροι χρήσης ιστότοπου | Expected End",
+    "description": "Οι όροι που διέπουν τη χρήση του ιστότοπου της Expected End."
+  },
+  "privacy": {
+    "title": "Δήλωση απορρήτου | Expected End",
+    "description": "Πώς η Expected End χειρίζεται τις πληροφορίες σε αυτόν τον ιστότοπο."
+  },
+  "watercheck-privacy": {
+    "title": "Πολιτική απορρήτου του The Water Check | Expected End",
+    "description": "Τι συλλέγει το The Water Check, τι μένει στο τηλέφωνό σας, ποιος βοηθά στη λειτουργία της εφαρμογής και ποιες επιλογές έχετε."
+  },
+  "watercheck-terms": {
+    "title": "Όροι και προϋποθέσεις του The Water Check | Expected End",
+    "description": "Όροι χρήσης της εφαρμογής The Water Check, μεταξύ άλλων για υγεία και ασφάλεια, AI, κανόνες των Παρεών και αγορές."
+  },
+  "watercheck-health-data": {
+    "title": "Πολιτική απορρήτου δεδομένων υγείας καταναλωτών του The Water Check | Expected End",
+    "description": "Πώς το The Water Check χειρίζεται τα δεδομένα υγείας καταναλωτών και πώς να ζητήσετε πρόσβαση ή διαγραφή ή να υποβάλετε ένσταση."
+  },
+  "watercheck-delete-account": {
+    "title": "Διαγραφή λογαριασμού | The Water Check",
+    "description": "Πώς να διαγράψετε τον λογαριασμό και τα δεδομένα σας στο The Water Check, μέσα από την εφαρμογή ή με email."
+  },
+  "watercheck-community": {
+    "title": "Κατευθυντήριες γραμμές κοινότητας | The Water Check",
+    "description": "Πώς οι Παρέες στο The Water Check μένουν φιλικές: οι κανόνες, η αναφορά και ο αποκλεισμός, και τι συμβαίνει όταν παραβιάζονται οι κανόνες."
+  },
+  "accessibility": {
+    "title": "Προσβασιμότητα | Expected End",
+    "description": "Η δέσμευση της Expected End για έναν προσβάσιμο ιστότοπο."
+  },
+  "mybiblelens-store": {
+    "title": "Κατάστημα MyBibleLens | Expected End",
+    "description": "Προσεγμένα αντικείμενα για έναν πιο στενό περίπατο με τον Λόγο. Το κατάστημα του MyBibleLens έρχεται σύντομα."
+  },
+  "watercheck-store": {
+    "title": "Κατάστημα The Water Check | Expected End",
+    "description": "Απαραίτητα, εμπνευσμένα από την ενυδάτωση, από το The Water Check. Η πρώτη συλλογή έρχεται σύντομα."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Εφαρμογή ενυδάτωσης και δωρεάν υπολογιστής",
+    "description": "Εξερευνήστε την εφαρμογή The Water Check και δοκιμάστε μια δωρεάν, ιδιωτική εκτίμηση ενυδάτωσης στην Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Δωρεάν υπολογιστής ενυδάτωσης | The Water Check",
+    "description": "Λάβετε μια δωρεάν, ιδιωτική ημερήσια εκτίμηση ενυδάτωσης με τον υπολογιστή του The Water Check."
+  },
+  "not-found": {
+    "title": "Η σελίδα δεν βρέθηκε | Expected End",
+    "description": "Η σελίδα της Expected End που ζητήσατε δεν βρέθηκε."
+  }
+}

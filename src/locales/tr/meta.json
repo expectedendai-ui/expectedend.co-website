@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Amaçla, özenle inşa edildi",
+    "description": "Expected End; özenli yazılımlar, verimlilik araçları, dijital deneyimler ve topluluklar yaratır."
+  },
+  "about": {
+    "title": "Hakkında | Expected End",
+    "description": "Denzel Rigaud'nun kurucu hikâyesi, Expected End'in arkasındaki misyon ve iman ile amaçtan doğan projeler."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Expected End'in Kurucusu",
+    "description": "Denzel Rigaud; Expected End'in, Hristiyanlık için Sığınak Uygulaması MyBibleLens'in ve The Water Check'in arkasındaki kurucu ve full-stack geliştiricidir."
+  },
+  "press": {
+    "title": "Basın ve Medya | Expected End",
+    "description": "Expected End ve Denzel Rigaud haberleri için onaylı biyografiler, doğrulanmış bilgiler, varlık bağlantıları ve indirilebilir medya."
+  },
+  "terms": {
+    "title": "Web Sitesi Kullanım Koşulları | Expected End",
+    "description": "Expected End web sitesinin kullanımını düzenleyen koşullar."
+  },
+  "privacy": {
+    "title": "Gizlilik Bildirimi | Expected End",
+    "description": "Expected End'in bu web sitesindeki bilgileri nasıl işlediği."
+  },
+  "watercheck-privacy": {
+    "title": "The Water Check Gizlilik Politikası | Expected End",
+    "description": "The Water Check'in neleri topladığı, nelerin telefonunuzda kaldığı, uygulamayı çalıştırmaya kimlerin yardım ettiği ve seçenekleriniz."
+  },
+  "watercheck-terms": {
+    "title": "The Water Check Şartlar ve Koşullar | Expected End",
+    "description": "Sağlık ve güvenlik, yapay zekâ, Ekip kuralları ve satın almalar dahil, The Water Check uygulamasının kullanım koşulları."
+  },
+  "watercheck-health-data": {
+    "title": "The Water Check Tüketici Sağlık Verileri Gizlilik Politikası | Expected End",
+    "description": "The Water Check'in tüketici sağlık verilerini nasıl işlediği ve bu verilere nasıl erişebileceğiniz, nasıl silebileceğiniz veya itiraz edebileceğiniz."
+  },
+  "watercheck-delete-account": {
+    "title": "Hesabınızı silin | The Water Check",
+    "description": "The Water Check hesabınızı ve verilerinizi uygulamadan veya e-postayla nasıl silebileceğiniz."
+  },
+  "watercheck-community": {
+    "title": "Topluluk Kuralları | The Water Check",
+    "description": "The Water Check'teki Ekipler nasıl samimi kalır: kurallar, bildirme ve engelleme, kurallar çiğnendiğinde ne olduğu."
+  },
+  "accessibility": {
+    "title": "Erişilebilirlik | Expected End",
+    "description": "Expected End'in erişilebilir bir web sitesi deneyimine olan bağlılığı."
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens Mağazası | Expected End",
+    "description": "Kutsal Söz'le daha yakın bir yürüyüş için özenli ürünler. MyBibleLens mağazası çok yakında."
+  },
+  "watercheck-store": {
+    "title": "The Water Check Mağazası | Expected End",
+    "description": "The Water Check'ten hidrasyondan ilham alan temel ürünler. İlk koleksiyon çok yakında."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Hidrasyon Uygulaması ve Ücretsiz Hesaplayıcı",
+    "description": "The Water Check uygulamasını keşfedin ve Expected End'de ücretsiz, gizli bir su ihtiyacı tahmini deneyin."
+  },
+  "watercheck-calculator": {
+    "title": "Ücretsiz Su İhtiyacı Hesaplayıcısı | The Water Check",
+    "description": "The Water Check hesaplayıcısıyla ücretsiz ve gizli bir günlük su ihtiyacı tahmini alın."
+  },
+  "not-found": {
+    "title": "Sayfa bulunamadı | Expected End",
+    "description": "İstenen Expected End sayfası bulunamadı."
+  }
+}

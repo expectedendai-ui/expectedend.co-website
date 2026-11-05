@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Ο Denzel Rigaud είναι ο ιδρυτής και full-stack προγραμματιστής πίσω από την Expected End, το MyBibleLens, την εφαρμογή-καταφύγιο για χριστιανούς, και το The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Χριστιανική εφαρμογή",
+      "action": "Δείτε την εφαρμογή",
+      "tagline": "Η εφαρμογή-καταφύγιο για χριστιανούς.",
+      "secondary": "Βιογραφικό",
+      "badge": "Στο App Store"
+    },
+    "watercheck": {
+      "category": "Κοινότητα ενυδάτωσης",
+      "action": "Δείτε την εφαρμογή",
+      "tagline": "Καταλάβετε τι πίνετε. Η δική σας ποσότητα νερού, με ένα πάτημα.",
+      "badge": "Σε αξιολόγηση"
+    },
+    "mybiblelens-store": {
+      "category": "Κατάστημα · Έρχεται σύντομα",
+      "action": "Μπείτε στο κατάστημα",
+      "tagline": "Πίστη που μπορείτε να φορέσετε."
+    },
+    "watercheck-store": {
+      "category": "Κατάστημα · Έρχεται σύντομα",
+      "action": "Μπείτε στο κατάστημα",
+      "tagline": "Εξοπλισμός για το Τμήμα Ενυδάτωσης."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Εφαρμογή πίστης · iOS",
+      "status": "Στο App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Εφαρμογή ενυδάτωσης · iOS",
+      "status": "Σε αξιολόγηση"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens για Android",
+      "category": "Google Play",
+      "status": "Κλειστή δοκιμή"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Άπειρος καμβάς",
+      "status": "Σε λειτουργία"
+    },
+    "journey-plans": {
+      "name": "Πλάνα Journey",
+      "category": "Πλάνα ανάγνωσης + σφραγίδες",
+      "status": "Σε λειτουργία"
+    },
+    "water-check-crews": {
+      "name": "Παρέες του The Water Check",
+      "category": "Ενυδάτωση σε ομάδα",
+      "status": "Ολοκληρώθηκε"
+    },
+    "home-screen-widgets": {
+      "name": "Widget για την οθόνη Αφετηρίας",
+      "category": "Widget για iOS",
+      "status": "Ολοκληρώθηκε"
+    },
+    "hydration-calculator": {
+      "name": "Υπολογιστής ενυδάτωσης",
+      "category": "Εργαλείο web",
+      "status": "Σε λειτουργία"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Εφαρμογή διαχείρισης επιχείρησης",
+      "status": "Σε ανάπτυξη"
+    },
+    "43-language-rollout": {
+      "name": "Διάθεση σε 43 γλώσσες",
+      "category": "Τοπική προσαρμογή",
+      "status": "43 γλώσσες"
+    },
+    "mybiblelens-store": {
+      "name": "Κατάστημα MyBibleLens",
+      "category": "Merch",
+      "status": "Έρχεται σύντομα"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Ιστότοπος εφαρμογής",
+      "status": "Σε λειτουργία"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Εταιρικός ιστότοπος",
+      "status": "Σε λειτουργία"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Μελέτη της Βίβλου με AI",
+      "status": "Demo AI"
+    },
+    "hidden-art-world": {
+      "name": "Κρυφός κόσμος τέχνης",
+      "category": "Διαδραστική ψηφιακή τέχνη",
+      "status": "Κρυφή έκπληξη"
+    },
+    "sanctuary-stickers": {
+      "name": "Αυτοκόλλητα Καταφυγίου",
+      "category": "Σετ εικονογραφήσεων",
+      "status": "550+ αυτοκόλλητα"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Ταινία παρουσίασης του MyBibleLens",
+      "category": "Ταινία brand",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Βίντεο λειτουργιών",
+      "category": "Σειρά βίντεο",
+      "status": "10 βίντεο"
+    },
+    "look-closer-series": {
+      "name": "Σειρά Look Closer",
+      "category": "Σειρά για social media",
+      "status": "60 αναρτήσεις"
+    },
+    "25-week-campaign": {
+      "name": "Καμπάνια 25 εβδομάδων",
+      "category": "Πλάνο για Instagram",
+      "status": "100 αναρτήσεις"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Βιβλίο ασκήσεων",
+      "status": "33 ενότητες"
+    },
+    "water-check-store": {
+      "name": "Κατάστημα The Water Check",
+      "category": "Merch",
+      "status": "Έρχεται σύντομα"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Εφαρμογές",
+      "body": "Χρήσιμα, προσεγμένα προϊόντα σχεδιασμένα γύρω από πραγματικούς ανθρώπους.",
+      "interest": "Δημιουργία εφαρμογής ή ιδέας λογισμικού"
+    },
+    "02": {
+      "title": "Ιστότοποι",
+      "body": "Ξεχωριστά ψηφιακά σπίτια που μοιάζουν καθαρά, ζωντανά και φιλόξενα.",
+      "interest": "Ιστότοπος ή ψηφιακή εμπειρία"
+    },
+    "03": {
+      "title": "Συστήματα AI",
+      "body": "Πρακτική νοημοσύνη που βοηθά ιδέες και ομάδες να προχωρούν.",
+      "interest": "Σύστημα AI ή εργαλείο παραγωγικότητας"
+    },
+    "04": {
+      "title": "Δημιουργικό",
+      "body": "Ταυτότητα, κατεύθυνση και εμπειρίες με το νόημα στο κέντρο.",
+      "interest": "Δημιουργική κατεύθυνση ή σχεδιασμός"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Το δικό σας, προσαρμοσμένο επιχειρηματικό σπίτι. CRM, οικονομικά, έργα, εργαλεία ομάδας και ό,τι άλλο χρειαστείτε στη συνέχεια, όλα σε ένα μέρος.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Αυτοματισμοί",
+      "body": "Αντικαταστήστε την επαναλαμβανόμενη δουλειά με συνδεδεμένες ροές εργασίας που κρατούν την επιχείρησή σας σε κίνηση.",
+      "interest": "Αυτοματισμοί"
+    },
+    "07": {
+      "title": "Πύλες πελατών",
+      "body": "Δώστε στους πελάτες ή στα μέλη σας ένα προσεγμένο μέρος για να επικοινωνούν, να κάνουν κρατήσεις, να μοιράζονται αρχεία και να παρακολουθούν την πρόοδο.",
+      "interest": "Πύλες πελατών"
+    },
+    "08": {
+      "title": "Ψηφιακή διάσωση",
+      "body": "Επισκευάστε, εκσυγχρονίστε ή ξαναχτίστε λογισμικό που δεν εξυπηρετεί πια την επιχείρησή σας.",
+      "interest": "Ψηφιακή διάσωση"
+    }
+  }
+}

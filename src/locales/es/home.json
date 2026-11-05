@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, fundador de Expected End",
+    "stats": {
+      "projects": "PROYECTOS CREADOS",
+      "languages": "IDIOMAS",
+      "appStore": "EN EL APP STORE"
+    },
+    "eyebrow": "La puerta al <em>fin que esperas</em>",
+    "title": "Propósito, <break/>creado <break/>con arte.",
+    "intro": "¡Expected End crea software bien pensado, herramientas de productividad, experiencias digitales y comunidades que acercan a las personas a Dios de formas emocionantes y sencillas!",
+    "cta": "Ver el trabajo",
+    "lensHint": "Mueve el cursor para leer el código"
+  },
+  "projects": {
+    "eyebrow": "01 / Proyectos",
+    "title": "Dos apps en el App Store. <break/><em>Android, muy pronto.</em>",
+    "visit": "Visitar {{name}}",
+    "android": "Android, muy pronto",
+    "bio": "Bio",
+    "actionFor": "{{action}}: {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Detrás del trabajo",
+    "title": "Cada producto de aquí empezó con una pregunta en un <em>salón de quinto grado.</em>",
+    "lead": "Entre esa pregunta y estas apps hubo duelo, fe y muchas noches en vela. El resto de la historia tiene su propia página.",
+    "cta": "Leer la historia"
+  },
+  "proof": {
+    "caption": "Proyectos creados",
+    "eyebrow": "03 / Trabajo realizado",
+    "title": "Construido desde cero. <em>El trabajo habla por sí solo.</em>",
+    "lead": "Apps, sitios web, herramientas de IA, películas y campañas, diseñados, programados y lanzados en casa. Aquí tienes una muestra.",
+    "stats": {
+      "apps": "<strong>2 apps</strong> en el App Store",
+      "languages": "<strong>43 idiomas</strong> en MyBibleLens",
+      "years": "<strong>10 años</strong> escribiendo código",
+      "inHouse": "<strong>De la idea al lanzamiento</strong>, todo en casa"
+    },
+    "bigline": "<count>20+</count> PROYECTOS <star>✦</star> CREADOS <star>✦</star> LANZADOS <star>✦</star> EN VIVO <star>✦</star>",
+    "rows": {
+      "products": "Apps y productos",
+      "creative": "Sitios web, IA y trabajo creativo"
+    },
+    "next": "Tu proyecto podría ser el <em>próximo.</em>",
+    "cta": "Empieza el tuyo"
+  },
+  "services": {
+    "eyebrow": "04 / Servicios selectos",
+    "title": "Tú lo sueñas, <em>yo lo construyo.</em>",
+    "lead": "Los productos van primero. Cuando hay buena sintonía, ese mismo cuidado se pone en proyectos selectos para otros.",
+    "note": "Incluye un rango de precio en todas las consultas e indica en tu mensaje si necesitas un acuerdo de confidencialidad (NDA).",
+    "count": "Servicio {{number}} / {{total}}",
+    "start": "Empezar este proyecto"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, fondateur d’Expected End",
+    "stats": {
+      "projects": "PROJETS RÉALISÉS",
+      "languages": "LANGUES",
+      "appStore": "SUR L’APP STORE"
+    },
+    "eyebrow": "La porte vers <em>l’avenir que vous espérez</em>",
+    "title": "Du sens, <break/>conçu <break/>avec élégance.",
+    "intro": "Expected End crée des logiciels réfléchis, des outils de productivité, des expériences numériques et des communautés qui rapprochent les gens de Dieu, de façon simple et enthousiasmante !",
+    "cta": "Voir les projets",
+    "lensHint": "Déplacez le curseur pour lire le code"
+  },
+  "projects": {
+    "eyebrow": "01 / Projets",
+    "title": "Deux applis sur l’App Store. <break/><em>Android arrive bientôt.</em>",
+    "visit": "Visiter {{name}}",
+    "android": "Android arrive bientôt",
+    "bio": "Bio",
+    "actionFor": "{{action}} : {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Les coulisses",
+    "title": "Chaque produit présenté ici est né d’une question posée dans une <em>classe de CM2.</em>",
+    "lead": "Entre cette question et ces applis, il y a eu le deuil, la foi et beaucoup de nuits blanches. La suite de l’histoire a sa propre page.",
+    "cta": "Lire l’histoire"
+  },
+  "proof": {
+    "caption": "Projets réalisés",
+    "eyebrow": "03 / Preuves à l’appui",
+    "title": "Construit à partir de zéro. <em>Le travail parle de lui-même.</em>",
+    "lead": "Applis, sites web, outils d’IA, films et campagnes, conçus, codés et lancés en interne. En voici une partie.",
+    "stats": {
+      "apps": "<strong>2 applis</strong> sur l’App Store",
+      "languages": "<strong>43 langues</strong> dans MyBibleLens",
+      "years": "<strong>10 ans</strong> à écrire du code",
+      "inHouse": "<strong>De l’idée au lancement</strong>, tout en interne"
+    },
+    "bigline": "<count>20+</count> PROJETS <star>✦</star> CONÇUS <star>✦</star> LIVRÉS <star>✦</star> EN LIGNE <star>✦</star>",
+    "rows": {
+      "products": "Applis et produits",
+      "creative": "Sites web, IA et création"
+    },
+    "next": "Votre projet pourrait être le <em>prochain.</em>",
+    "cta": "Lancez le vôtre"
+  },
+  "services": {
+    "eyebrow": "04 / Services sélectionnés",
+    "title": "Vous le rêvez, <em>je le construis.</em>",
+    "lead": "Les produits passent en premier. Quand le projet s’y prête, le même soin est mis au service de missions choisies pour d’autres.",
+    "note": "Merci d’indiquer une fourchette de prix pour toute demande et de préciser dans votre message si un accord de confidentialité (NDA) est nécessaire.",
+    "count": "Service {{number}} / {{total}}",
+    "start": "Démarrer ce projet"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Tujuan, dibangun dengan indah",
+    "description": "Expected End menciptakan perangkat lunak yang dipikirkan matang, alat produktivitas, pengalaman digital, dan komunitas."
+  },
+  "about": {
+    "title": "Tentang | Expected End",
+    "description": "Kisah pendiri Denzel Rigaud, misi di balik Expected End, dan proyek-proyek yang lahir dari iman dan tujuan."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Pendiri Expected End",
+    "description": "Denzel Rigaud adalah pendiri sekaligus full-stack developer di balik Expected End, MyBibleLens (Aplikasi Sanctuary untuk Umat Kristiani), dan The Water Check."
+  },
+  "press": {
+    "title": "Pers & Media | Expected End",
+    "description": "Biografi resmi, fakta terverifikasi, tautan entitas, dan media yang dapat diunduh untuk liputan tentang Expected End dan Denzel Rigaud."
+  },
+  "terms": {
+    "title": "Ketentuan Penggunaan Situs Web | Expected End",
+    "description": "Ketentuan yang mengatur penggunaan situs web Expected End."
+  },
+  "privacy": {
+    "title": "Pernyataan Privasi | Expected End",
+    "description": "Cara Expected End menangani informasi di situs web ini."
+  },
+  "watercheck-privacy": {
+    "title": "Kebijakan Privasi The Water Check | Expected End",
+    "description": "Apa yang dikumpulkan The Water Check, apa yang tetap tersimpan di ponsel Anda, siapa yang membantu menjalankan aplikasi, dan pilihan Anda."
+  },
+  "watercheck-terms": {
+    "title": "Syarat dan Ketentuan The Water Check | Expected End",
+    "description": "Ketentuan penggunaan aplikasi The Water Check, termasuk kesehatan dan keselamatan, AI, aturan Geng, dan pembelian."
+  },
+  "watercheck-health-data": {
+    "title": "Kebijakan Privasi Data Kesehatan Konsumen The Water Check | Expected End",
+    "description": "Cara The Water Check menangani data kesehatan konsumen, serta cara mengakses, menghapus, atau mengajukan banding."
+  },
+  "watercheck-delete-account": {
+    "title": "Hapus akun Anda | The Water Check",
+    "description": "Cara menghapus akun dan data The Water Check Anda, di aplikasi atau melalui email."
+  },
+  "watercheck-community": {
+    "title": "Pedoman Komunitas | The Water Check",
+    "description": "Cara Geng di The Water Check tetap ramah: aturannya, cara melapor dan memblokir, serta apa yang terjadi jika aturan dilanggar."
+  },
+  "accessibility": {
+    "title": "Aksesibilitas | Expected End",
+    "description": "Komitmen Expected End untuk pengalaman situs web yang mudah diakses."
+  },
+  "mybiblelens-store": {
+    "title": "Toko MyBibleLens | Expected End",
+    "description": "Barang-barang bermakna untuk berjalan lebih dekat dengan Firman. Toko MyBibleLens segera hadir."
+  },
+  "watercheck-store": {
+    "title": "Toko The Water Check | Expected End",
+    "description": "Perlengkapan esensial bertema hidrasi dari The Water Check. Rilisan pertama segera hadir."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Aplikasi Hidrasi & Kalkulator Gratis",
+    "description": "Jelajahi aplikasi The Water Check dan coba perkiraan hidrasi yang gratis dan privat di Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Kalkulator Hidrasi Gratis | The Water Check",
+    "description": "Dapatkan perkiraan hidrasi harian yang gratis dan privat dengan kalkulator The Water Check."
+  },
+  "not-found": {
+    "title": "Halaman tidak ditemukan | Expected End",
+    "description": "Halaman Expected End yang diminta tidak dapat ditemukan."
+  }
+}
