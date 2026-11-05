@@ -1,4 +1,5 @@
 import type * as React from "react";
+import { useTranslation } from "react-i18next";
 import type { LegalPageContent } from "./legal-content";
 import styles from "./style.module.css";
 
@@ -17,6 +18,7 @@ const slug = (heading: string) =>
 const TOC_AFTER = 6;
 
 export function InfoPage({ content, onNavigate }: InfoPageProps) {
+  const { t, i18n } = useTranslation();
   return (
     <main className={styles.infoMain} id="top">
       <article className={styles.infoArticle}>
@@ -24,9 +26,14 @@ export function InfoPage({ content, onNavigate }: InfoPageProps) {
           <p className={styles.kicker}>{content.eyebrow}</p>
           <h1>{content.title}</h1>
           <p>{content.intro}</p>
-          <span>Effective {content.effectiveDate}</span>
+          <span>{t("legal.effective", { date: content.effectiveDate })}</span>
+          {i18n.language !== "en" && (
+            <p className={styles.infoLanguageNote} data-testid="legal-english-only">
+              {t("legal.englishOnly")}
+            </p>
+          )}
           {content.related && (
-            <nav className={styles.infoRelated} aria-label="Related pages">
+            <nav className={styles.infoRelated} aria-label={t("legal.related")}>
               {content.related.map((link) => (
                 <a key={link.href} href={link.href} onClick={onNavigate}>
                   {link.label}
@@ -36,8 +43,8 @@ export function InfoPage({ content, onNavigate }: InfoPageProps) {
           )}
         </header>
         {content.sections.length > TOC_AFTER && (
-          <nav className={styles.infoToc} aria-label="On this page">
-            <p>On this page</p>
+          <nav className={styles.infoToc} aria-label={t("legal.onThisPage")}>
+            <p>{t("legal.onThisPage")}</p>
             <ol>
               {content.sections.map((section) => (
                 <li key={section.heading}>

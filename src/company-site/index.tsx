@@ -1,9 +1,11 @@
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import { AboutPage } from "./about";
 import { DenzelPage } from "./denzel-page";
 import { Footer } from "./footer";
 import { HomePage } from "./home";
 import { InfoPage } from "./info-page";
+import { LanguageChooser } from "./language-chooser";
 import { LEGAL_CONTENT, type LegalPageKey } from "./legal-content";
 import { Navigation } from "./navigation";
 import { FOUNDER_NAV, HOME_NAV, PillNavigation } from "./pill-navigation";
@@ -21,8 +23,16 @@ type CompanySiteProps = {
   onOpenArtWorld: () => void;
 };
 
-const updateDocumentMetadata = (pathname: string) => {
-  const metadata = getRouteMetadata(pathname);
+type Translate = ReturnType<typeof useTranslation>["t"];
+
+const updateDocumentMetadata = (pathname: string, t: Translate) => {
+  const { key, ...english } = getRouteMetadata(pathname);
+  // The title and description follow the chosen language (meta.json); English stays the source of truth.
+  const metadata = {
+    ...english,
+    title: t(`meta:${key}.title`, { defaultValue: english.title }),
+    description: t(`meta:${key}.description`, { defaultValue: english.description }),
+  };
   document.title = metadata.title;
 
   let description = document.querySelector<HTMLMetaElement>('meta[name="description"]');
@@ -84,10 +94,11 @@ const scrollToHash = (hash: string) => {
 
 export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   const [route, setRoute] = React.useState(() => getRoute(window.location.pathname));
+  const { t, i18n } = useTranslation();
 
   React.useEffect(() => {
-    updateDocumentMetadata(route.path);
-  }, [route.path]);
+    updateDocumentMetadata(route.path, t);
+  }, [route.path, t, i18n.language]);
 
   React.useEffect(() => {
     const onPopState = () => {
@@ -125,9 +136,9 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
     return (
       <main className={styles.notFound}>
         <p className={styles.kicker}>404</p>
-        <h1>That page isn’t here.</h1>
+        <h1>{t("notFound.title")}</h1>
         <a href="/" onClick={onNavigate}>
-          Return home
+          {t("notFound.home")}
         </a>
       </main>
     );
@@ -154,6 +165,7 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
       ) : (
         route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && route.key !== "watercheck-page" && <Footer onNavigate={onNavigate} />
       )}
+      {!leaving && <LanguageChooser theme={route.navTheme === "water" || route.key === "watercheck-store" ? "water" : "gold"} />}
     </div>
   );
 }

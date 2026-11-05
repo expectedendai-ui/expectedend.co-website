@@ -1,0 +1,346 @@
+{
+  "en": {
+    "title": "Choose your language",
+    "intro": "Choose the language you want to use. You can change it anytime.",
+    "list": "Available languages",
+    "close": "Close language settings",
+    "selected": "Selected",
+    "languages": "Languages"
+  },
+  "es": {
+    "title": "Elige tu idioma",
+    "intro": "Elige el idioma que deseas utilizar. Puedes cambiarlo en cualquier momento.",
+    "list": "Idiomas disponibles",
+    "close": "Cerrar configuración de idioma",
+    "selected": "Seleccionado",
+    "languages": "Idiomas"
+  },
+  "pt": {
+    "title": "Escolha seu idioma",
+    "intro": "Escolha o idioma que deseja usar. Você pode alterá-lo a qualquer momento.",
+    "list": "Idiomas disponíveis",
+    "close": "Fechar configurações de idioma",
+    "selected": "Selecionado",
+    "languages": "Idiomas"
+  },
+  "fr": {
+    "title": "Choisissez votre langue",
+    "intro": "Choisissez la langue que vous souhaitez utiliser. Vous pouvez le modifier à tout moment.",
+    "list": "Langues disponibles",
+    "close": "Fermer les paramètres de langue",
+    "selected": "Sélectionné",
+    "languages": "Langues"
+  },
+  "de": {
+    "title": "Wählen Sie Ihre Sprache",
+    "intro": "Wählen Sie die Sprache aus, die Sie verwenden möchten. Sie können es jederzeit ändern.",
+    "list": "Verfügbare Sprachen",
+    "close": "Spracheinstellungen schließen",
+    "selected": "Ausgewählt",
+    "languages": "Sprachen"
+  },
+  "it": {
+    "title": "Scegli la tua lingua",
+    "intro": "Scegli la lingua che desideri utilizzare. Puoi cambiarla in qualsiasi momento.",
+    "list": "Lingue disponibili",
+    "close": "Chiudi le impostazioni della lingua",
+    "selected": "Selezionato",
+    "languages": "Lingue"
+  },
+  "nl": {
+    "title": "Kies uw taal",
+    "intro": "Kies de taal die u wilt gebruiken. Je kunt het op elk moment wijzigen.",
+    "list": "Beschikbare talen",
+    "close": "Taalinstellingen sluiten",
+    "selected": "Geselecteerd",
+    "languages": "Talen"
+  },
+  "pl": {
+    "title": "Wybierz swój język",
+    "intro": "Wybierz język, którego chcesz używać. Możesz to zmienić w dowolnym momencie.",
+    "list": "Dostępne języki",
+    "close": "Zamknij ustawienia języka",
+    "selected": "Wybrano",
+    "languages": "Języki"
+  },
+  "ro": {
+    "title": "Alegeți limba",
+    "intro": "Alegeți limba pe care doriți să o utilizați. Îl poți schimba oricând.",
+    "list": "Limbi disponibile",
+    "close": "Închideți setările de limbă",
+    "selected": "Selectat",
+    "languages": "Limbi"
+  },
+  "ru": {
+    "title": "Выберите язык",
+    "intro": "Выберите язык, который вы хотите использовать. Вы можете изменить его в любое время.",
+    "list": "Доступные языки",
+    "close": "Закрыть настройки языка",
+    "selected": "Выбрано",
+    "languages": "Языки"
+  },
+  "uk": {
+    "title": "Виберіть свою мову",
+    "intro": "Виберіть мову, яку хочете використовувати. Ви можете будь-коли змінити його.",
+    "list": "Доступні мови",
+    "close": "Закрити налаштування мови",
+    "selected": "Вибрано",
+    "languages": "Мови"
+  },
+  "zh": {
+    "title": "选择您的语言",
+    "intro": "选择您要使用的语言。您可以随时更改它。",
+    "list": "可用语言",
+    "close": "关闭语言设置",
+    "selected": "已选择",
+    "languages": "语言"
+  },
+  "ko": {
+    "title": "언어를 선택하세요",
+    "intro": "사용하고 싶은 언어를 선택하세요. 언제든지 변경할 수 있습니다.",
+    "list": "사용 가능한 언어",
+    "close": "언어 설정 닫기",
+    "selected": "선택됨",
+    "languages": "언어"
+  },
+  "ja": {
+    "title": "言語を選択してください",
+    "intro": "使用する言語を選択してください。いつでも変更できます。",
+    "list": "利用可能な言語",
+    "close": "言語設定を閉じる",
+    "selected": "選択済み",
+    "languages": "言語"
+  },
+  "vi": {
+    "title": "Chọn ngôn ngữ của bạn",
+    "intro": "Chọn ngôn ngữ bạn muốn sử dụng. Bạn có thể thay đổi nó bất cứ lúc nào.",
+    "list": "Ngôn ngữ có sẵn",
+    "close": "Đóng cài đặt ngôn ngữ",
+    "selected": "Đã chọn",
+    "languages": "Ngôn ngữ"
+  },
+  "id": {
+    "title": "Pilih bahasa Anda",
+    "intro": "Pilih bahasa yang ingin Anda gunakan. Anda dapat mengubahnya kapan saja.",
+    "list": "Bahasa yang tersedia",
+    "close": "Tutup pengaturan bahasa",
+    "selected": "Terpilih",
+    "languages": "Bahasa"
+  },
+  "tl": {
+    "title": "Piliin ang iyong wika",
+    "intro": "Piliin ang wikang gusto mong gamitin. Maaari mo itong baguhin anumang oras.",
+    "list": "Mga magagamit na wika",
+    "close": "Isara ang mga setting ng wika",
+    "selected": "Napili",
+    "languages": "Mga Wika"
+  },
+  "hi": {
+    "title": "अपनी भाषा चुनें",
+    "intro": "वह भाषा चुनें जिसका आप उपयोग करना चाहते हैं। आप इसे कभी भी बदल सकते हैं.",
+    "list": "उपलब्ध भाषाएँ",
+    "close": "भाषा सेटिंग बंद करें",
+    "selected": "चयनित",
+    "languages": "भाषाएँ"
+  },
+  "sw": {
+    "title": "Chagua lugha yako",
+    "intro": "Chagua lugha unayotaka kutumia. Unaweza kuibadilisha wakati wowote.",
+    "list": "Lugha zinazopatikana",
+    "close": "Funga mipangilio ya lugha",
+    "selected": "Imechaguliwa",
+    "languages": "Lugha"
+  },
+  "ht": {
+    "title": "Chwazi lang ou",
+    "intro": "Chwazi lang ou vle itilize a. Ou ka chanje li nenpòt lè.",
+    "list": "Lang ki disponib",
+    "close": "Fèmen paramèt lang yo",
+    "selected": "Chwazi",
+    "languages": "Lang"
+  },
+  "tr": {
+    "title": "Dilinizi seçin",
+    "intro": "Kullanmak istediğiniz dili seçin. İstediğiniz zaman değiştirebilirsiniz.",
+    "list": "Mevcut diller",
+    "close": "Dil ayarlarını kapat",
+    "selected": "Seçildi",
+    "languages": "Diller"
+  },
+  "am": {
+    "title": "ቋንቋዎን ይምረጡ",
+    "intro": "መጠቀም የሚፈልጉትን ቋንቋ ይምረጡ። በማንኛውም ጊዜ ሊቀይሩት ይችላሉ.",
+    "list": "የሚገኙ ቋንቋዎች",
+    "close": "የቋንቋ ቅንብሮችን ዝጋ",
+    "selected": "ተመርጧል",
+    "languages": "ቋንቋዎች"
+  },
+  "yo": {
+    "title": "Yan ede rẹ",
+    "intro": "Yan ede ti o fẹ lo. O le yipada nigbakugba.",
+    "list": "Awọn ede ti o wa",
+    "close": "Pade awọn eto ede",
+    "selected": "Ti yan",
+    "languages": "Awọn ede"
+  },
+  "ig": {
+    "title": "Họrọ asụsụ gị",
+    "intro": "Họrọ asụsụ ịchọrọ iji. Ị nwere ike ịgbanwe ya oge ọ bụla.",
+    "list": "Asụsụ ndị dịnụ",
+    "close": "Mechie ntọala asụsụ",
+    "selected": "ahọpụtara",
+    "languages": "Asụsụ"
+  },
+  "so": {
+    "title": "Dooro luqadaada",
+    "intro": "Dooro luqadda aad rabto inaad isticmaasho. Waad bedeli kartaa wakhti kasta.",
+    "list": "Luuqadaha la heli karo",
+    "close": "Xir dejinta luqadda",
+    "selected": "la doortay",
+    "languages": "Luuqadaha"
+  },
+  "bn": {
+    "title": "আপনার ভাষা চয়ন করুন",
+    "intro": "আপনি যে ভাষাটি ব্যবহার করতে চান তা চয়ন করুন। আপনি যেকোনো সময় এটি পরিবর্তন করতে পারেন।",
+    "list": "উপলব্ধ ভাষা",
+    "close": "ভাষা সেটিংস বন্ধ করুন",
+    "selected": "নির্বাচিত",
+    "languages": "ভাষা"
+  },
+  "ta": {
+    "title": "உங்கள் மொழியை தேர்வு செய்யவும்",
+    "intro": "நீங்கள் பயன்படுத்த விரும்பும் மொழியைத் தேர்ந்தெடுக்கவும். நீங்கள் எப்போது வேண்டுமானாலும் மாற்றலாம்.",
+    "list": "கிடைக்கக்கூடிய மொழிகள்",
+    "close": "மொழி அமைப்புகளை மூடு",
+    "selected": "தேர்ந்தெடுக்கப்பட்டது",
+    "languages": "மொழிகள்"
+  },
+  "te": {
+    "title": "మీ భాషను ఎంచుకోండి",
+    "intro": "మీరు ఉపయోగించాలనుకుంటున్న భాషను ఎంచుకోండి. మీరు దీన్ని ఎప్పుడైనా మార్చవచ్చు.",
+    "list": "అందుబాటులో ఉన్న భాషలు",
+    "close": "భాష సెట్టింగ్‌లను మూసివేయండి",
+    "selected": "ఎంచుకోబడింది",
+    "languages": "భాషలు"
+  },
+  "th": {
+    "title": "เลือกภาษาของคุณ",
+    "intro": "เลือกภาษาที่คุณต้องการใช้ คุณสามารถเปลี่ยนได้ตลอดเวลา",
+    "list": "ภาษาที่ใช้ได้",
+    "close": "ปิดการตั้งค่าภาษา",
+    "selected": "เลือกแล้ว",
+    "languages": "ภาษา"
+  },
+  "my": {
+    "title": "သင့်ဘာသာစကားကို ရွေးချယ်ပါ။",
+    "intro": "သင်အသုံးပြုလိုသောဘာသာစကားကို ရွေးချယ်ပါ။ ၎င်းကို အချိန်မရွေး ပြောင်းလဲနိုင်သည်။",
+    "list": "ရနိုင်သောဘာသာစကားများ",
+    "close": "ဘာသာစကားဆက်တင်များကို ပိတ်ပါ။",
+    "selected": "ရွေးချယ်ခဲ့သည်။",
+    "languages": "ဘာသာစကားများ"
+  },
+  "km": {
+    "title": "ជ្រើសរើសភាសារបស់អ្នក។",
+    "intro": "ជ្រើសរើសភាសាដែលអ្នកចង់ប្រើ។ អ្នកអាចផ្លាស់ប្តូរវាបានគ្រប់ពេល។",
+    "list": "ភាសាដែលអាចប្រើបាន",
+    "close": "បិទការកំណត់ភាសា",
+    "selected": "បានជ្រើសរើស",
+    "languages": "ភាសា"
+  },
+  "ms": {
+    "title": "Pilih bahasa anda",
+    "intro": "Pilih bahasa yang anda mahu gunakan. Anda boleh menukarnya pada bila-bila masa.",
+    "list": "Bahasa yang tersedia",
+    "close": "Tutup tetapan bahasa",
+    "selected": "Dipilih",
+    "languages": "Bahasa"
+  },
+  "pa": {
+    "title": "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ",
+    "intro": "ਉਹ ਭਾਸ਼ਾ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਤੁਸੀਂ ਇਸਨੂੰ ਕਿਸੇ ਵੀ ਸਮੇਂ ਬਦਲ ਸਕਦੇ ਹੋ।",
+    "list": "ਉਪਲਬਧ ਭਾਸ਼ਾਵਾਂ",
+    "close": "ਭਾਸ਼ਾ ਸੈਟਿੰਗਾਂ ਬੰਦ ਕਰੋ",
+    "selected": "ਚੁਣਿਆ ਗਿਆ",
+    "languages": "ਭਾਸ਼ਾਵਾਂ"
+  },
+  "ne": {
+    "title": "आफ्नो भाषा छान्नुहोस्",
+    "intro": "तपाईले प्रयोग गर्न चाहनुभएको भाषा छान्नुहोस्। तपाईं यसलाई जुनसुकै बेला परिवर्तन गर्न सक्नुहुन्छ।",
+    "list": "उपलब्ध भाषाहरू",
+    "close": "भाषा सेटिङहरू बन्द गर्नुहोस्",
+    "selected": "चयन गरियो",
+    "languages": "भाषाहरू"
+  },
+  "el": {
+    "title": "Επιλέξτε τη γλώσσα σας",
+    "intro": "Επιλέξτε τη γλώσσα που θέλετε να χρησιμοποιήσετε. Μπορείτε να το αλλάξετε ανά πάσα στιγμή.",
+    "list": "Διαθέσιμες γλώσσες",
+    "close": "Κλείσιμο ρυθμίσεων γλώσσας",
+    "selected": "Επιλέχτηκε",
+    "languages": "Γλώσσες"
+  },
+  "cs": {
+    "title": "Vyberte si svůj jazyk",
+    "intro": "Vyberte jazyk, který chcete používat. Můžete to kdykoli změnit.",
+    "list": "Dostupné jazyky",
+    "close": "Zavřete nastavení jazyka",
+    "selected": "Vybráno",
+    "languages": "Jazyky"
+  },
+  "hu": {
+    "title": "Válassza ki a nyelvet",
+    "intro": "Válassza ki a használni kívánt nyelvet. Bármikor megváltoztathatod.",
+    "list": "Elérhető nyelvek",
+    "close": "Zárja be a nyelvi beállításokat",
+    "selected": "Kijelölve",
+    "languages": "Nyelvek"
+  },
+  "sv": {
+    "title": "Välj ditt språk",
+    "intro": "Välj det språk du vill använda. Du kan ändra det när som helst.",
+    "list": "Tillgängliga språk",
+    "close": "Stäng språkinställningar",
+    "selected": "Vald",
+    "languages": "Språk"
+  },
+  "no": {
+    "title": "Velg ditt språk",
+    "intro": "Velg språket du vil bruke. Du kan endre det når som helst.",
+    "list": "Tilgjengelige språk",
+    "close": "Lukk språkinnstillinger",
+    "selected": "Valgt",
+    "languages": "Språk"
+  },
+  "sr": {
+    "title": "Изаберите свој језик",
+    "intro": "Изаберите језик који желите да користите. Можете га променити било када.",
+    "list": "Доступни језици",
+    "close": "Затворите подешавања језика",
+    "selected": "Изабрано",
+    "languages": "Језици"
+  },
+  "bg": {
+    "title": "Изберете вашия език",
+    "intro": "Изберете езика, който искате да използвате. Можете да го промените по всяко време.",
+    "list": "Налични езици",
+    "close": "Затворете езиковите настройки",
+    "selected": "Избрано",
+    "languages": "Езици"
+  },
+  "hr": {
+    "title": "Odaberite svoj jezik",
+    "intro": "Odaberite jezik koji želite koristiti. Možete ga promijeniti bilo kada.",
+    "list": "Dostupni jezici",
+    "close": "Zatvori jezične postavke",
+    "selected": "Odabrano",
+    "languages": "jezici"
+  },
+  "ceb": {
+    "title": "Pilia ang imong pinulongan",
+    "intro": "Pilia ang lengguwahe nga gusto nimong gamiton. Mahimo nimo kini usbon bisan unsang orasa.",
+    "list": "Anaa nga mga pinulongan",
+    "close": "Isira ang mga setting sa pinulongan",
+    "selected": "Gipili",
+    "languages": "Mga pinulongan"
+  }
+}

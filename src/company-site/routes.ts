@@ -181,6 +181,7 @@ export const getRouteMetadata = (pathname: string) => {
   const route = getRoute(pathname);
   const canonicalPath = route.key === "not-found" ? "/" : route.path;
   return {
+    key: route.key,
     title: route.title,
     description: route.description,
     canonical: `https://expectedend.co${canonicalPath === "/" ? "/" : canonicalPath}`,
