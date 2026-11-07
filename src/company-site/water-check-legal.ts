@@ -7,8 +7,8 @@ import type { LegalPageContent } from "./legal-content";
  */
 
 const EFFECTIVE = "November 4, 2026";
-/** The cycle answer stays on the phone; the legal name is as registered. */
-const HEALTH_UPDATE = "November 4, 2026";
+/** The cycle answer stays on the phone; the legal name is as registered; where you play your sports (6 November). */
+const HEALTH_UPDATE = "November 6, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -41,7 +41,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Information you give us",
         paragraphs: [
           "Account. When you sign in with Apple or Google, we receive an account identifier and the name, email address and basic profile details that provider shares. Apple may give us a private relay email instead of your real one. We use these to create, secure and restore your account. If you sign in with Apple, we also keep the token Apple gives us, only so we can revoke it when you delete your account.",
-          "Sign-up answers. To work out your daily water number, the app asks for your age range, sex (and whether you are pregnant or breastfeeding, if you choose to say), weight, height, activity level, the sports you play, whether you drink coffee, and your climate. Some of these answers are health information, and we ask for your consent on a screen of its own, with a box you tick, before the first question. You can skip the optional ones and change any of them later in Details and Settings.",
+          "Sign-up answers. To work out your daily water number, the app asks for your age range, sex (and whether you are pregnant or breastfeeding, if you choose to say), weight, height, activity level, the sports you play (and, for a sport that can go either way or one you type in, whether you play it indoors or outside), whether you drink coffee, and your climate. Some of these answers are health information, and we ask for your consent on a screen of its own, with a box you tick, before the first question. You can skip the optional ones and change any of them later in Details and Settings.",
           "Later questions. On Today the app may ask what you want to feel and how often you feel bloated. Both are optional and only show in Your details; your number and tips do not use them.",
           "Drinks and foods you log. Each entry is kept with your account: its time, what it was (such as a glass, a food, or a drink's name, including a name you typed or one Gemini read), its water amount, and any serving and caffeine. This is so your history and streaks follow you to a new phone. Alcohol is different: it goes only to the Drink Journal on your phone, and adding water with it logs only a plain glass.",
           "Daily totals. For each day you log, your account keeps the total from drinks, the total from food and your goal for that day, so your calendar and streaks survive a new phone.",
@@ -357,7 +357,7 @@ export const WATER_CHECK_LEGAL = {
         bullets: [
           "body measurements you enter (weight and height), age range and sex;",
           "whether you are pregnant or breastfeeding, if you choose to say;",
-          "activity level, sports, whether you drink coffee, and your climate;",
+          "activity level, sports and whether you play them indoors or outside, whether you drink coffee, and your climate;",
           "each drink and food you log, with its time, amount and any name, serving and caffeine;",
           "your daily water goal and each day's totals from drinks and food;",
           "how often you feel bloated and what you want to feel, if you choose to answer;",
