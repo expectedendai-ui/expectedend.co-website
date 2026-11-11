@@ -87,8 +87,8 @@
     },
     "widgets": {
       "kicker": "Widgetek",
-      "title": "<count>89</count> stílus a Főképernyőre.",
-      "lede": "Sportok, helyek, évszakok, tengeri élővilág és designok, kicsi, közepes és nagy méretben, a gyűrűtől a hullámig terjedő elrendezésekkel. Regisztráláskor adja meg a sportágát, és az ahhoz tartozó widget jelenik meg elsőként. Italt közvetlenül a Főképernyőről is rögzíthet.",
+      "title": "<count>94</count> stílus a Főképernyőre.",
+      "lede": "Sportok, helyek, évszakok, gyümölcsök, tengeri élővilág és designok, kicsi, közepes és nagy méretben, a gyűrűtől a hullámig terjedő elrendezésekkel. Regisztráláskor adja meg a sportágát, és az ahhoz tartozó widget jelenik meg elsőként. Italt közvetlenül a Főképernyőről is rögzíthet.",
       "ticks": {
         "body": "Test: a körvonala megtelik a napi vízzel. Szikra: egy akkumulátor töltődik a mai töltéssel.",
         "charge": "Tegye a Töltés mérőt bármelyik widgetre, és a víz helyett az elektrolitjait követheti."
