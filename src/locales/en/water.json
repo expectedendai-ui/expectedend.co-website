@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Who is it for?",
-          "a": "Anyone 13 or older. If you are under 18, use it with a parent's or guardian's permission. Fruit Fast, alcohol logging and photo scans are only for adults. The app goes by the age range you give, so please answer truthfully. If you are 13 to 17, check your number with a parent or clinician."
+          "a": "Anyone 13 or older. If you are under 18, use it with a parent's or guardian's permission. Alcohol logging and photo scans are only for adults. The app goes by the age range you give, so please answer truthfully. If you are 13 to 17, check your number with a parent or clinician."
         },
         "cost": {
           "q": "What does it cost?",

@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Voor wie is het?",
-          "a": "Voor iedereen van 13 jaar en ouder. Ben je jonger dan 18, gebruik de app dan met toestemming van een ouder of voogd. Fruitvasten, alcohol loggen en fotoscans zijn alleen voor volwassenen. De app gaat uit van de leeftijdsgroep die je opgeeft, dus antwoord alsjeblieft eerlijk. Ben je 13 tot 17, bespreek je getal dan met een ouder of zorgverlener."
+          "a": "Voor iedereen van 13 jaar en ouder. Ben je jonger dan 18, gebruik de app dan met toestemming van een ouder of voogd. Alcohol loggen en fotoscans zijn alleen voor volwassenen. De app gaat uit van de leeftijdsgroep die je opgeeft, dus antwoord alsjeblieft eerlijk. Ben je 13 tot 17, bespreek je getal dan met een ouder of zorgverlener."
         },
         "cost": {
           "q": "Wat kost het?",

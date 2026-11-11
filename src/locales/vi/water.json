@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Ứng dụng dành cho ai?",
-          "a": "Bất kỳ ai từ 13 tuổi trở lên. Nếu bạn dưới 18 tuổi, hãy dùng ứng dụng với sự cho phép của cha mẹ hoặc người giám hộ. Nhịn ăn bằng trái cây, ghi lại đồ uống có cồn và quét ảnh chỉ dành cho người lớn. Ứng dụng dựa vào nhóm tuổi bạn cung cấp, nên hãy trả lời trung thực. Nếu bạn từ 13 đến 17 tuổi, hãy kiểm tra con số của mình với cha mẹ hoặc bác sĩ."
+          "a": "Bất kỳ ai từ 13 tuổi trở lên. Nếu bạn dưới 18 tuổi, hãy dùng ứng dụng với sự cho phép của cha mẹ hoặc người giám hộ. Ghi lại đồ uống có cồn và quét ảnh chỉ dành cho người lớn. Ứng dụng dựa vào nhóm tuổi bạn cung cấp, nên hãy trả lời trung thực. Nếu bạn từ 13 đến 17 tuổi, hãy kiểm tra con số của mình với cha mẹ hoặc bác sĩ."
         },
         "cost": {
           "q": "Ứng dụng có giá bao nhiêu?",

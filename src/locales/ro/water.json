@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Cui se adresează?",
-          "a": "Oricui are 13 ani sau mai mult. Dacă aveți sub 18 ani, folosiți-o cu permisiunea unui părinte sau tutore. Postul cu fructe, înregistrarea alcoolului și scanările foto sunt doar pentru adulți. Aplicația se bazează pe intervalul de vârstă pe care îl indicați, așa că vă rugăm să răspundeți sincer. Dacă aveți între 13 și 17 ani, verificați-vă numărul cu un părinte sau cu un medic."
+          "a": "Oricui are 13 ani sau mai mult. Dacă aveți sub 18 ani, folosiți-o cu permisiunea unui părinte sau tutore. Înregistrarea alcoolului și scanările foto sunt doar pentru adulți. Aplicația se bazează pe intervalul de vârstă pe care îl indicați, așa că vă rugăm să răspundeți sincer. Dacă aveți între 13 și 17 ani, verificați-vă numărul cu un părinte sau cu un medic."
         },
         "cost": {
           "q": "Cât costă?",

@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Za koga je?",
-          "a": "Za sve od 13 godina naviše. Ako imate manje od 18 godina, koristite je uz dopuštenje roditelja ili skrbnika. Voćni post, bilježenje alkohola i skeniranje fotografijom samo su za odrasle. Aplikacija se ravna prema dobnoj skupini koju navedete, pa vas molimo da odgovorite iskreno. Ako imate između 13 i 17 godina, provjerite svoj broj s roditeljem ili liječnikom."
+          "a": "Za sve od 13 godina naviše. Ako imate manje od 18 godina, koristite je uz dopuštenje roditelja ili skrbnika. Bilježenje alkohola i skeniranje fotografijom samo su za odrasle. Aplikacija se ravna prema dobnoj skupini koju navedete, pa vas molimo da odgovorite iskreno. Ako imate između 13 i 17 godina, provjerite svoj broj s roditeljem ili liječnikom."
         },
         "cost": {
           "q": "Koliko košta?",
