@@ -184,7 +184,7 @@ export function WaterCheckLanding({ onNavigate }: Props) {
 
           <div className="wrap wcl-stats" data-rise>
             <p>
-              <strong>89</strong>
+              <strong>94</strong>
               <span>{t("landing.stats.widgetStyles")}</span>
             </p>
             <p>
