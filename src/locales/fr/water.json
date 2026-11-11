@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "À qui s’adresse l’appli ?",
-          "a": "À toute personne de 13 ans ou plus. Si vous avez moins de 18 ans, utilisez-la avec la permission d’un parent ou d’un tuteur. Le Jeûne fruité, l’enregistrement de l’alcool et les scans photo sont réservés aux adultes. L’appli se base sur la tranche d’âge que vous indiquez : merci de répondre honnêtement. Si vous avez entre 13 et 17 ans, vérifiez votre chiffre avec un parent ou un professionnel de santé."
+          "a": "À toute personne de 13 ans ou plus. Si vous avez moins de 18 ans, utilisez-la avec la permission d’un parent ou d’un tuteur. L’enregistrement de l’alcool et les scans photo sont réservés aux adultes. L’appli se base sur la tranche d’âge que vous indiquez : merci de répondre honnêtement. Si vous avez entre 13 et 17 ans, vérifiez votre chiffre avec un parent ou un professionnel de santé."
         },
         "cost": {
           "q": "Combien ça coûte ?",

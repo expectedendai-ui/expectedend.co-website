@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Hvem er den for?",
-          "a": "Alle som er 13 år eller eldre. Hvis du er under 18, bruk den med tillatelse fra en forelder eller verge. Fruktfaste, logging av alkohol og bildeskanninger er bare for voksne. Appen går ut fra aldersgruppen du oppgir, så svar ærlig. Hvis du er 13 til 17 år, sjekk tallet ditt med en forelder eller helsepersonell."
+          "a": "Alle som er 13 år eller eldre. Hvis du er under 18, bruk den med tillatelse fra en forelder eller verge. Logging av alkohol og bildeskanninger er bare for voksne. Appen går ut fra aldersgruppen du oppgir, så svar ærlig. Hvis du er 13 til 17 år, sjekk tallet ditt med en forelder eller helsepersonell."
         },
         "cost": {
           "q": "Hva koster den?",

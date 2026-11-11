@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Vem är den för?",
-          "a": "Alla som är 13 år eller äldre. Om du är under 18, använd den med tillstånd från en förälder eller vårdnadshavare. Fruktfasta, loggning av alkohol och fotoskanningar är bara för vuxna. Appen utgår från det åldersintervall du anger, så svara ärligt. Om du är 13 till 17, kolla din siffra med en förälder eller vårdpersonal."
+          "a": "Alla som är 13 år eller äldre. Om du är under 18, använd den med tillstånd från en förälder eller vårdnadshavare. Loggning av alkohol och fotoskanningar är bara för vuxna. Appen utgår från det åldersintervall du anger, så svara ärligt. Om du är 13 till 17, kolla din siffra med en förälder eller vårdpersonal."
         },
         "cost": {
           "q": "Vad kostar den?",

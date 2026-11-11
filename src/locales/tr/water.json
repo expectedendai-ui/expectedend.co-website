@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Kimler için?",
-          "a": "13 yaş ve üzeri herkes için. 18 yaşından küçükseniz bir ebeveyn veya vasinin izniyle kullanın. Meyve Orucu, alkol kaydı ve fotoğraf taramaları yalnızca yetişkinler içindir. Uygulama verdiğiniz yaş aralığını esas alır; bu yüzden lütfen dürüstçe yanıtlayın. 13 ile 17 yaş arasındaysanız miktarınızı bir ebeveyn veya hekimle birlikte kontrol edin."
+          "a": "13 yaş ve üzeri herkes için. 18 yaşından küçükseniz bir ebeveyn veya vasinin izniyle kullanın. Alkol kaydı ve fotoğraf taramaları yalnızca yetişkinler içindir. Uygulama verdiğiniz yaş aralığını esas alır; bu yüzden lütfen dürüstçe yanıtlayın. 13 ile 17 yaş arasındaysanız miktarınızı bir ebeveyn veya hekimle birlikte kontrol edin."
         },
         "cost": {
           "q": "Ücreti ne kadar?",

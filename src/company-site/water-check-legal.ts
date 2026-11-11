@@ -6,9 +6,9 @@ import type { LegalPageContent } from "./legal-content";
  * it collects or how it works, update both on the same day and move the effective date.
  */
 
-const EFFECTIVE = "November 4, 2026";
-/** The cycle answer stays on the phone; the legal name is as registered; where you play your sports (6 November). */
-const HEALTH_UPDATE = "November 6, 2026";
+const EFFECTIVE = "November 11, 2026";
+/** Sex is optional, Apple sign-ins are not asked their name, and Fruit Fast is gone (11 November). */
+const HEALTH_UPDATE = "November 11, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -40,12 +40,11 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "Information you give us",
         paragraphs: [
-          "Account. When you sign in with Apple or Google, we receive an account identifier and the name, email address and basic profile details that provider shares. Apple may give us a private relay email instead of your real one. We use these to create, secure and restore your account. If you sign in with Apple, we also keep the token Apple gives us, only so we can revoke it when you delete your account.",
-          "Sign-up answers. To work out your daily water number, the app asks for your age range, sex (and whether you are pregnant or breastfeeding, if you choose to say), weight, height, activity level, the sports you play (and, for a sport that can go either way or one you type in, whether you play it indoors or outside), whether you drink coffee, and your climate. Some of these answers are health information, and we ask for your consent on a screen of its own, with a box you tick, before the first question. You can skip the optional ones and change any of them later in Details and Settings.",
+          "Account. When you sign in with Apple or Google, we receive an account identifier and the name, email address and basic profile details that provider shares. Apple may give us a private relay email instead of your real one. We use these to create, secure and restore your account. If you sign in with Apple, the app uses the name Apple shares and never asks for it again; if Apple shares none, you can add a name in Details. We also keep the token Apple gives us, only so we can revoke it when you delete your account.",
+          "Sign-up answers. To work out your daily water number, the app asks for your age range, sex (optional: you can choose Prefer not to say, and the app then uses a middle value; and whether you are pregnant or breastfeeding, if you choose to say), weight, height, activity level, the sports you play (and, for a sport that can go either way or one you type in, whether you play it indoors or outside), whether you drink coffee, and your climate. Some of these answers are health information, and we ask for your consent on a screen of its own, with a box you tick, before the first question. You can skip the optional ones and change any of them later in Details and Settings.",
           "Later questions. On Progress the app may ask what you want to feel and how often you feel bloated. Both are optional and only show in Your details; your number and tips do not use them.",
           "Drinks and foods you log. Each entry is kept with your account: its time, what it was (such as a glass, a food, or a drink's name, including a name you typed or one Gemini read), its water amount, and any serving and caffeine. This is so your history and streaks follow you to a new phone. Alcohol is different: it goes only to the Drink Journal on your phone, and adding water with it logs only a plain glass.",
           "Daily totals. For each day you log, your account keeps the total from drinks, the total from food and your goal for that day, so your calendar and streaks survive a new phone.",
-          "Fruit Fast. When an adult starts Fruit Fast, we keep a record that the safety note was read and accepted, with the date and the version of the note.",
           "Crew. If you use Crew, we store the Crews you make or join, your first name and widget colors as your Crew sees them, your percent of goal and streak, the quick messages and cheers you send, and any blocks and reports.",
           "Language. We keep your language choice with your account, so the app opens in it on a new phone.",
           "Support. If you email us, we receive your email address and whatever you include.",
@@ -75,7 +74,7 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Camera. Used only when you choose to scan a barcode or take a photo of a drink or food.",
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
-          "Notifications. Fruit Fast reminders are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent, and when you open one, so we can keep them rare. Records older than 90 days are deleted the next time we send you a push, and all of them when you delete your account. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
+          "Notifications. Water reminders you choose are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent, and when you open one, so we can keep them rare. Records older than 90 days are deleted the next time we send you a push, and all of them when you delete your account. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
           "You can turn Crew notifications and streak reminders off separately in the app's Settings, or all of them in your device settings. Signing out or deleting your account removes your phone's push token.",
         ],
       },
@@ -109,7 +108,7 @@ export const WATER_CHECK_LEGAL = {
           "work out your daily water number and personalize the app (for example, showing caffeine tracking only to coffee drinkers);",
           "on your phone, suggest water after a workout and raise today's number, from workouts you allow the app to read from Apple Health;",
           "show your history, calendar, streaks and widgets;",
-          "keep adult-only features such as Fruit Fast, alcohol logging and photo scans for adults;",
+          "keep adult-only features such as alcohol logging and photo scans for adults;",
           "run Drink Check and apply its free allowance;",
           "run Crew, including filtering names, reviewing reports and acting on abuse;",
           "unlock and restore purchases;",
@@ -160,7 +159,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Children and teens",
         paragraphs: [
           "The Water Check is not for children under 13, and we do not knowingly collect information from them. If we learn that a child under 13 has an account, we will delete it. A parent or guardian who believes this has happened can email us.",
-          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. If you choose the 13 to 17 age range, the app does not offer Fruit Fast, alcohol logging or photo scans. These go by the age range you give, which can be changed in Details, so please answer truthfully. Your water number is an estimate made for adults, so check it with a parent or clinician.",
+          "If you are 13 to 17, please use the app with a parent's or guardian's permission and read this notice with them. If you choose the 13 to 17 age range, the app does not offer alcohol logging or photo scans. These go by the age range you give, which can be changed in Details, so please answer truthfully. Your water number is an estimate made for adults, so check it with a parent or clinician.",
         ],
       },
       {
@@ -221,9 +220,8 @@ export const WATER_CHECK_LEGAL = {
         ],
       },
       {
-        heading: "Fruit Fast and alcohol",
+        heading: "Alcohol",
         paragraphs: [
-          "Fruit Fast is for adults only. It is not for anyone who is pregnant or breastfeeding, has diabetes, kidney disease or a history of eating disorders, takes medicine that needs regular meals, or follows a diet set by a doctor. You choose to start it and can stop at any time; stop if you feel unwell.",
           "Alcohol logging is only for people of legal drinking age where they live, and the app asks you to confirm this first. The app does not encourage drinking alcohol, and alcohol adds nothing to your water for the day. Never drink and drive.",
         ],
       },
@@ -361,7 +359,7 @@ export const WATER_CHECK_LEGAL = {
           "each drink and food you log, with its time, amount and any name, serving and caffeine;",
           "your daily water goal and each day's totals from drinks and food;",
           "how often you feel bloated and what you want to feel, if you choose to answer;",
-          "a record that you accepted the Fruit Fast safety note;",
+          "a record that you accepted the Fruit Fast safety note, if you did before Fruit Fast was removed on November 11, 2026;",
           "your percent of goal and streak, which your Crew can see if you join one.",
         ],
       },
@@ -437,7 +435,7 @@ export const WATER_CHECK_LEGAL = {
       {
         heading: "What is deleted",
         paragraphs: [
-          "Your account, sign-up answers, each drink and food you logged, daily water totals, language choice, Fruit Fast record, Drink Check scan count, notification settings, records and push tokens, your Apple sign-in token, purchase status on our servers, and your Crew memberships. A Crew you captain passes to its next member and stays; if no one else is in it, it closes. Things that only lived on your phone go away when you delete the app or clear its data.",
+          "Your account, sign-up answers, each drink and food you logged, daily water totals, language choice, any Fruit Fast record from before November 11, 2026, Drink Check scan count, notification settings, records and push tokens, your Apple sign-in token, purchase status on our servers, and your Crew memberships. A Crew you captain passes to its next member and stays; if no one else is in it, it closes. Things that only lived on your phone go away when you delete the app or clear its data.",
         ],
       },
       {

@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Pro koho je určená?",
-          "a": "Pro každého od 13 let. Pokud ti ještě není 18, používej ji se svolením rodiče nebo zákonného zástupce. Ovocný půst, zapisování alkoholu a skeny fotek jsou jen pro dospělé. Aplikace se řídí věkovým rozmezím, které uvedeš, tak prosím odpovídej pravdivě. Pokud ti je 13 až 17, ověř si své číslo s rodičem nebo lékařem."
+          "a": "Pro každého od 13 let. Pokud ti ještě není 18, používej ji se svolením rodiče nebo zákonného zástupce. Zapisování alkoholu a skeny fotek jsou jen pro dospělé. Aplikace se řídí věkovým rozmezím, které uvedeš, tak prosím odpovídej pravdivě. Pokud ti je 13 až 17, ověř si své číslo s rodičem nebo lékařem."
         },
         "cost": {
           "q": "Kolik to stojí?",

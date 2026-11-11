@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Kinek szól?",
-          "a": "Mindenkinek, aki 13 éves vagy idősebb. Ha 18 év alatti, szülője vagy gondviselője engedélyével használja. A Gyümölcsböjt, az alkoholfogyasztás rögzítése és a fotós beolvasás csak felnőtteknek érhető el. Az alkalmazás a megadott korcsoport alapján működik, ezért kérjük, válaszoljon őszintén. Ha 13 és 17 év közötti, ellenőriztesse a mennyiségét egy szülővel vagy egészségügyi szakemberrel."
+          "a": "Mindenkinek, aki 13 éves vagy idősebb. Ha 18 év alatti, szülője vagy gondviselője engedélyével használja. Az alkoholfogyasztás rögzítése és a fotós beolvasás csak felnőtteknek érhető el. Az alkalmazás a megadott korcsoport alapján működik, ezért kérjük, válaszoljon őszintén. Ha 13 és 17 év közötti, ellenőriztesse a mennyiségét egy szülővel vagy egészségügyi szakemberrel."
         },
         "cost": {
           "q": "Mennyibe kerül?",

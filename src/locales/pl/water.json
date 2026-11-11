@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Dla kogo jest ta aplikacja?",
-          "a": "Dla każdego od 13. roku życia. Jeśli nie masz jeszcze 18 lat, korzystaj z niej za zgodą rodzica lub opiekuna. Post owocowy, zapisywanie alkoholu i skany zdjęć są tylko dla dorosłych. Aplikacja kieruje się podanym przez Ciebie przedziałem wiekowym, więc odpowiadaj zgodnie z prawdą. Jeśli masz od 13 do 17 lat, sprawdź swoją liczbę z rodzicem lub lekarzem."
+          "a": "Dla każdego od 13. roku życia. Jeśli nie masz jeszcze 18 lat, korzystaj z niej za zgodą rodzica lub opiekuna. Zapisywanie alkoholu i skany zdjęć są tylko dla dorosłych. Aplikacja kieruje się podanym przez Ciebie przedziałem wiekowym, więc odpowiadaj zgodnie z prawdą. Jeśli masz od 13 do 17 lat, sprawdź swoją liczbę z rodzicem lub lekarzem."
         },
         "cost": {
           "q": "Ile to kosztuje?",

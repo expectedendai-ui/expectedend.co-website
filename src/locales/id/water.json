@@ -228,7 +228,7 @@
         },
         "audience": {
           "q": "Untuk siapa aplikasi ini?",
-          "a": "Siapa saja yang berusia 13 tahun ke atas. Jika Anda di bawah 18 tahun, gunakan dengan izin orang tua atau wali. Puasa Buah, pencatatan alkohol, dan pindaian foto hanya untuk orang dewasa. Aplikasi mengikuti rentang usia yang Anda berikan, jadi mohon jawab dengan jujur. Jika Anda berusia 13 sampai 17 tahun, periksakan angka Anda bersama orang tua atau tenaga medis."
+          "a": "Siapa saja yang berusia 13 tahun ke atas. Jika Anda di bawah 18 tahun, gunakan dengan izin orang tua atau wali. Pencatatan alkohol dan pindaian foto hanya untuk orang dewasa. Aplikasi mengikuti rentang usia yang Anda berikan, jadi mohon jawab dengan jujur. Jika Anda berusia 13 sampai 17 tahun, periksakan angka Anda bersama orang tua atau tenaga medis."
         },
         "cost": {
           "q": "Berapa biayanya?",
