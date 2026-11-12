@@ -7,8 +7,8 @@ import type { LegalPageContent } from "./legal-content";
  */
 
 const EFFECTIVE = "November 11, 2026";
-/** Sex is optional, Apple sign-ins are not asked their name, and Fruit Fast is gone (11 November). */
-const HEALTH_UPDATE = "November 11, 2026";
+/** The workout card can also show on the Lock Screen for an hour, as a Live Activity (12 November). */
+const HEALTH_UPDATE = "November 12, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -84,7 +84,7 @@ export const WATER_CHECK_LEGAL = {
           "If you turn on Apple Health (iPhone) or Health Connect (Android) in Settings, the app adds the water you log and the caffeine in your log to it. With Everything Forever it also adds the sodium, potassium, magnesium, calcium and sugar from drinks you scan.",
           "What it adds is kept by Apple Health or Health Connect on your phone. We never sell it, use it for advertising or store it in iCloud. You can turn this off in Settings at any time, and delete what was added in the Health app.",
           "On iPhone, the app also reads your workouts from Apple Health, if you allow it. This is optional: Apple asks you first, and everything else in the app works the same if you say no. It reads workouts only: each one's type (such as a run or a walk), start and end time, length, active energy and distance. It does not read heart rate, sleep, weight or any other health data, and it does not read Health Connect.",
-          "The app uses your workouts on your phone for two things: a card on Today after a workout of 20 minutes or more, which suggests about how much to drink over the next hour, and raising today's water number on a day you move more than usual (it never lowers it). Your workouts stay on your phone. They are never sent to our servers or to anyone else, never shown to your Crew, and never logged as water unless you tap Log. The daily goal kept with your account stays the number from your sign-up answers, so nothing from Apple Health reaches us. You can stop it at any time in the Health app (your picture, Apps, The Water Check) or by turning Apple Health off in the app's Settings.",
+          "The app uses your workouts on your phone for two things: a card on Today after a workout of 20 minutes or more, which suggests about how much to drink over the next hour, and raising today's water number on a day you move more than usual (it never lowers it). For the hour after such a workout, the card can also show on your iPhone's Lock Screen and in the Dynamic Island, with the workout's type and length and how much you have drunk since; anyone who can see your phone can read it. It is made on your phone and sends nothing. You can turn it off in the app's Settings, under Apple Health, or in the iPhone's own Settings. Your workouts stay on your phone. They are never sent to our servers or to anyone else, never shown to your Crew, and never logged as water unless you tap Log. The daily goal kept with your account stays the number from your sign-up answers, so nothing from Apple Health reaches us. You can stop it at any time in the Health app (your picture, Apps, The Water Check) or by turning Apple Health off in the app's Settings.",
         ],
       },
       {
