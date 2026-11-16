@@ -87,7 +87,8 @@
 }
 .waterLanding .wcs-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
 .waterLanding .wcs-textlink { font-weight: 700; font-size: 17px; text-decoration: underline; text-underline-offset: 4px; }
-.waterLanding .wcs-ig { display: inline-flex; width: 40px; height: 40px; align-items: center; justify-content: center; border-radius: 12px; background: rgba(255, 255, 255, 0.14); }
+.waterLanding .wcs-ig { display: inline-flex; width: 40px; height: 40px; border-radius: 10px; box-shadow: 0 6px 16px rgba(0, 20, 50, 0.3); }
+.waterLanding .wcs-ig svg { display: block; }
 .waterLanding .wcs-stage { position: relative; display: flex; justify-content: center; min-width: 0; }
 .waterLanding .wcs-stage .wcs-phone { margin-top: 0; width: min(320px, 70vw); }
 .waterLanding .wcs-hero-fish {

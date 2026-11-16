@@ -12,7 +12,7 @@ const CALCULATOR = "/thewatercheck-calculator";
 function Phone({ screen, alt }: { screen: string; alt: string }) {
   return (
     <div className="wcs-phone">
-      <img src={`/media/water-check/screen-${screen}.webp`} alt={alt} width={660} height={1434} loading="lazy" decoding="async" />
+      <img src={`/media/water-check/2026-11/screen-${screen}.webp`} alt={alt} width={660} height={1434} loading="lazy" decoding="async" />
     </div>
   );
 }
@@ -103,10 +103,20 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                   {t("landing.hero.calculator")}
                 </a>
                 <a className="wcs-ig" href={INSTAGRAM} target="_blank" rel="noopener noreferrer" title={t("landing.hero.instagram")}>
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" aria-hidden="true">
-                    <rect x="3" y="3" width="18" height="18" rx="5" />
-                    <circle cx="12" cy="12" r="4" />
-                    <circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none" />
+                  <svg width="40" height="40" viewBox="0 0 24 24" aria-hidden="true">
+                    <defs>
+                      <radialGradient id="wcs-ig-glow" cx="30%" cy="107%" r="150%">
+                        <stop offset="0" stopColor="#FDF497" />
+                        <stop offset=".05" stopColor="#FDF497" />
+                        <stop offset=".45" stopColor="#FD5949" />
+                        <stop offset=".6" stopColor="#D6249F" />
+                        <stop offset=".9" stopColor="#285AEB" />
+                      </radialGradient>
+                    </defs>
+                    <rect x="0" y="0" width="24" height="24" rx="6" fill="url(#wcs-ig-glow)" />
+                    <rect x="5" y="5" width="14" height="14" rx="4" fill="none" stroke="#fff" strokeWidth="1.8" />
+                    <circle cx="12" cy="12" r="3.3" fill="none" stroke="#fff" strokeWidth="1.8" />
+                    <circle cx="16.4" cy="7.6" r="1.1" fill="#fff" />
                   </svg>
                   <span className="wcs-sr">{t("landing.hero.instagram")}</span>
                 </a>

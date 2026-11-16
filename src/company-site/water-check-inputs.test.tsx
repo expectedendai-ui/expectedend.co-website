@@ -30,7 +30,8 @@ describe("Water Check footer", () => {
 it("presents the app preview and keeps the free calculator reachable", () => {
   render(<WaterCheckPage />);
   expect(screen.getByRole("heading", { name: "Your water, day by day." })).toBeInTheDocument();
-  expect(screen.getAllByRole("img", { name: /The Water Check .* on an iPhone/ })).toHaveLength(5);
+  expect(screen.getAllByRole("img", { name: /The Water Check .* on an iPhone/ })).toHaveLength(4);
+  for (const image of screen.getAllByRole("img", { name: /The Water Check .* on an iPhone/ })) expect(image.getAttribute("src")).toMatch(/^\/media\/water-check\/2026-11\/screen-/);
   expect(screen.getByRole("link", { name: "Try the free calculator" })).toHaveAttribute("href", "#calculator");
   expect(screen.queryByRole("link", { name: /Download on the App Store/i })).not.toBeInTheDocument();
 });
