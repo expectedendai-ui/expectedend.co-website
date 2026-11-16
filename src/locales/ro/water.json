@@ -1,19 +1,9 @@
 {
   "brand": "The Water Check",
   "landing": {
-    "nav": {
-      "theApp": "Aplicația",
-      "drinkCheck": "Drink Check",
-      "guide": "Ghid",
-      "widgets": "Widgeturi",
-      "progress": "Progres",
-      "pricing": "Prețuri",
-      "faq": "Întrebări",
-      "calculator": "Calculator"
-    },
     "hero": {
       "title": "Beți apă.<break/>Noi <em>ținem socoteala</em>.",
-      "sub": "Propriul număr de apă, băuturi pe care le puteți scana, corpul dvs. care se încarcă, un widget pe care chiar îl veți păstra și un pește-balon pe nume Bubbles care vă arată totul. Fără regula galonului, fără influenceri, fără vinovăție.",
+      "sub": "Propriul număr zilnic de apă. Înregistrați o băutură dintr-o atingere. Fără regula galonului, fără vinovăție.",
       "comingSoon": "În curând",
       "appStoreLead": "Descărcați din",
       "appStore": "App Store",
@@ -21,131 +11,67 @@
       "googlePlay": "Google Play",
       "calculator": "Încercați calculatorul gratuit",
       "instagram": "Urmăriți The Water Check pe Instagram",
-      "note": "Acum în evaluare în App Store. Calculatorul este gratuit și nu necesită înregistrare.",
-      "todayAlt": "Ecranul Azi din The Water Check: 40 oz dintr-un obiectiv de 81,2 oz, cu butoane de adăugare rapidă și jurnalul de azi",
-      "widgetsAlt": "Studioul de widgeturi, cu un widget Corp în Hologramă și rânduri de stiluri de widget",
+      "todayAlt": "Ecranul Azi: 67% dintr-un obiectiv de 81,2 oz, cu băuturile de azi",
       "bubblesLabel": "Puneți-l pe Bubbles să facă un truc",
       "bubblesSay": "Salut, sunt Bubbles!"
     },
-    "stats": {
-      "widgetStyles": "stiluri de widget",
-      "pearls": "perle de găsit în Ghid",
-      "foods": "alimente bogate în apă, ilustrate",
-      "languages": "limbi"
-    },
-    "sixty": {
-      "kicker": "De ce contează",
-      "title": "Sunteți alcătuit în proporție de 60% din apă.",
-      "lede": "Nu este o țintă de atins. Apa aceea lucrează chiar acum: transportă oxigen, vă protejează articulațiile, vă răcorește și elimină ce nu vă trebuie. Nevoile dvs. se schimbă în funcție de activitate, vreme și sănătate.",
-      "pmeterKicker": "P-Meter",
-      "pmeterLabel": "Opt nuanțe, de la galben-pai pal la chihlimbar închis, grupate în bine hidratat, completează și bea acum",
-      "wellHydrated": "Bine hidratat",
-      "topUp": "Completează",
-      "drinkNow": "Bea acum",
-      "fine": "Un semn aproximativ, nu un diagnostic. Alimentele, vitaminele și medicamentele schimbă toate culoarea. Aplicația explică fiecare interval și când să discutați cu un cadru medical."
-    },
-    "drinkCheck": {
-      "kicker": "Drink Check",
-      "title": "Scanați o dată. Aflați. Adăugați dintr-o atingere, pentru totdeauna.",
-      "lede": "Scanați codul de bare, gratuit și de câte ori doriți. Nu are cod de bare? Dacă aveți 18 ani sau mai mult, faceți o fotografie și aplicația citește eticheta. Oricum ar fi, vedeți zahărul în lingurițe, cofeina, electroliții și fiecare ingredient marcat Bun, OK, Atenție sau Evitați.",
-      "scoresLabel": "Culorile scorului Drink Check",
-      "scores": {
-        "great": "Excelent",
-        "good": "Bun",
-        "okay": "Acceptabil",
-        "poor": "Slab"
+    "number": {
+      "title": "Un galon pe zi e o minciună.",
+      "p1": "Corpul, antrenamentele și vremea dvs. schimbă de câtă apă aveți nevoie.",
+      "p2": "Răspundeți la șase întrebări rapide și primiți un număr făcut pentru dvs.",
+      "label": "Numărul dvs.",
+      "amount": "81 oz pe zi",
+      "chips": {
+        "body": "Corpul dvs.",
+        "activity": "Activitatea dvs.",
+        "weather": "Vremea dvs."
       },
-      "ticks": {
-        "electrolytes": "Electroliții de pe etichetă: sodiu, potasiu, magneziu și calciu, cu valorile lor zilnice.",
-        "save": "Salvați-o (redenumiți-o dacă doriți), iar data viitoare e la o atingere pe ecranul de adăugare. Fără o nouă scanare.",
-        "food": "Adulții pot fotografia și un aliment: un mango se adaugă la mango-ul dvs., iar ceva nou devine propria bulă.",
-        "journal": "Jurnalul dvs. de băuturi păstrează cum v-ați simțit după fiecare băutură, pe telefonul dvs."
-      },
-      "fine": "O citire rapidă a etichetei, nu un test de laborator și nici o evaluare a vreunei mărci. Rezultatele codurilor de bare vin de la Open Food Facts, iar AI-ul poate greși, așa că verificați eticheta reală, mai ales în caz de alergii. Nu vă păstrăm fotografia.",
-      "alt": "Un rezultat Drink Check pentru o băutură sportivă: scor 66, Bun, cu zahărul, cofeina și electroliții de pe etichetă"
+      "cta": "Deschideți calculatorul"
     },
-    "foods": {
-      "kicker": "Și alimentele contează",
-      "title": "Aproximativ o cincime din apa dvs. vine din farfurie.",
-      "lede": "Ecranul de adăugare este o pagină cu bule de fructe ilustrate, câte trei pe rând: pepene verde, castravete, căpșuni, mango și altele. Atingeți plusul și s-a adăugat, cu Anulați chiar acolo. Alimentele pe care le adăugați cel mai des trec în față.",
-      "ticks": {
-        "amounts": "Pahar, sticlă sau orice cantitate, dintr-o singură atingere.",
-        "caffeine": "Cei care beau cafea primesc un card de cofeină care se completează singur.",
-        "ring": "Un inel în partea de sus arată cât contează alimentele pentru ziua dvs."
-      },
-      "alt": "Ecranul de adăugare: un inel sus, butoane pentru băuturi, un card de cofeină și bule de alimente bogate în apă"
+    "workout": {
+      "tag": "Nou",
+      "title": "V-ați antrenat? Iată apa dvs.",
+      "p1": "Terminați un antrenament și aplicația vă spune cam cât să beți în ora următoare.",
+      "p2": "Apare și pe ecranul de blocare, ca să puteți înregistra un pahar fără să deschideți aplicația.",
+      "small": "Funcționează cu aplicația Sănătate de la Apple și cu Health Connect. Antrenamentele rămân pe telefonul dvs.",
+      "alt": "Un ecran de blocare care arată: Alergare frumoasă, 48 de minute. Beți aproximativ 16 oz în ora următoare, cu butoane pentru a înregistra un pahar"
     },
-    "guide": {
-      "kicker": "Ghidul The Water Check",
-      "title": "Spargeți o bulă. Păstrați o perlă.",
-      "lede": "Fiecare capitol este o bulă cu o întrebare, și toate sunt gratuite. De ce vă simțiți „cu bateria descărcată”? Ce vă spune urina? Un galon pe zi, mit sau realitate? Citiți unul până la capăt și se transformă într-o perlă. Cam una din șase este o perlă aurie rară.",
-      "electric": "Corpul tău electric: șase capitole despre semnal, sodiu și potasiu, magneziu și calciu, și energie.",
-      "forHerKicker": "Pentru ea",
-      "forHer": "Capitole în nuanțe de roz despre corpul ei și apă: urină roz sau neon, senzația de umflare în jurul menstruației, de ce infecțiile urinare le afectează mai des pe femei, o mică scăpare când râdeți, sarcina și menopauza. Blânde, clare și cu surse.",
-      "fine": "Fiecare capitol își listează sursele și spune când să mergeți la medic. Recompensează înțelegerea, nu timpul petrecut pe ecran: fără serii, fără presiune.",
-      "alt": "Ghidul The Water Check: capitolele Corpul tău electric sub formă de bule cu întrebări"
+    "log": {
+      "title": "Înregistrați dintr-o atingere.",
+      "p1": "Atingeți + de pe orice pagină. Un pahar, o sticlă, băuturile obișnuite, chiar și pepene verde.",
+      "p2": "Ați greșit? Anulați e chiar acolo.",
+      "alt": "Panoul + cu băuturile recente și butoanele Pahar, Sticlă, Scanați o băutură și Mai mult"
+    },
+    "scan": {
+      "title": "Scanați o băutură. Aflați ce conține.",
+      "p1": "Scanați un cod de bare și vedeți zahărul în lingurițe, cofeina și fiecare ingredient, pe înțelesul tuturor.",
+      "p2": "Salvați-o o dată. Data viitoare e la o atingere.",
+      "fine": "O citire rapidă a etichetei, nu un sfat medical. Verificați eticheta reală, mai ales în caz de alergii.",
+      "alt": "Un rezultat Drink Check pentru o băutură sportivă albastră: scor 66, Bun, cu zahărul, cofeina și electroliții ei"
     },
     "widgets": {
-      "kicker": "Widgeturi",
       "title": "<count>94</count> de stiluri pentru ecranul principal.",
-      "lede": "Sporturi, locuri, anotimpuri, fructe, viață marină și designuri, în dimensiuni mică, medie și mare, cu aranjări de la inele la valuri. Spuneți-ne sportul dvs. la înregistrare și widgetul sportului dvs. apare primul. Înregistrați o băutură direct de pe ecranul principal.",
-      "ticks": {
-        "body": "Corp: silueta dvs. se umple cu apa zilei. Scânteie: o baterie se umple cu încărcarea de azi.",
-        "charge": "Puneți indicatorul Încărcare pe orice widget ca să urmăriți electroliții în loc de apă."
-      },
-      "chips": {
-        "body": "Corp",
-        "spark": "Scânteie",
-        "running": "Alergare",
-        "crossCountry": "Cros",
-        "volleyball": "Volei",
-        "basketball": "Baschet",
-        "seaTurtle": "Broască țestoasă marină",
-        "jellyfish": "Meduză",
-        "beach": "Plajă",
-        "girlypopslay": "girlypopslay",
-        "seasons": "Anotimpuri"
-      },
-      "alt": "Studioul de widgeturi cu widgetul Corp în Hologramă, variantele lui de culoare, aranjările și indicatorul Încărcare"
-    },
-    "progress": {
-      "kicker": "Progres",
-      "title": "Vedeți ce conțin băuturile dvs., bară cu bară.",
-      "lede": "Ziua de azi în bare simple care se umplu de la stânga la dreapta: apa față de numărul dvs., apoi sodiul, potasiul, magneziul și calciul din băuturile pe care le scanați, plus cofeina și zahărul. Atingeți orice bară ca să vedeți băuturile din spatele ei. Calendarul arată fiecare zi una lângă alta, cu seria dvs.",
-      "ticks": {
-        "dailyValues": "Electroliții sunt măsurați față de valorile zilnice de pe o etichetă nutrițională.",
-        "caffeine": "Cofeina față de 400 mg, cantitatea indicată de FDA pentru majoritatea adulților sănătoși, iar zahărul față de 50 g.",
-        "journal": "Jurnalul dvs. de băuturi este chiar sub bare: fiecare băutură scanată și cum v-ați simțit după ea.",
-        "real": "Fiecare cifră vine din ceva ce ați înregistrat sau scanat. Nimic nu e inventat."
-      },
-      "fine": "Repere, nu ținte, și nu sfaturi medicale. Dacă vă urmăriți sodiul sau potasiul din motive de sănătate, urmați recomandările medicului dvs.",
-      "alt": "Progres: apa la 83% din numărul zilei, apoi sodiul, potasiul, magneziul, calciul, cofeina și zahărul sub formă de bare"
+      "p1": "Apa dvs. pe ecranul principal, cu sportul, anotimpul sau stilul care vă place.",
+      "p2": "Înregistrați o băutură direct din widget.",
+      "alt": "Studioul de widgeturi cu un widget Toamnă și rânduri de stiluri cu sporturi, cărți poștale și fructe"
     },
     "crew": {
-      "kicker": "Luna dvs. și oamenii dvs.",
-      "title": "Vedeți cum se adună. Aduceți-vă prietenii.",
-      "calendarAlt": "Calendarul: fiecare zi se umple ca un pahar, cu zilele înregistrate, zilele la obiectiv și o serie",
-      "calendarTitle": "Apa dvs., zi de zi",
-      "calendarBody": "Fiecare zi înregistrată se umple ca un pahar. Zile la obiectiv, serii și semnele mareei, iar totul vă urmează pe un telefon nou.",
-      "crewAlt": "O Gașcă numită Track team cu mesaje rapide de încurajare",
-      "crewTitle": "Gașcă",
-      "crewBody": "Grupuri doar pe bază de invitație, în care oamenii se încurajează unii pe alții. Prietenii văd procentul din propriul obiectiv și seria dvs., niciodată uncii sau corpul dvs. Raportați și Blocați sunt mereu acolo."
+      "title": "Aduceți-vă Gașca.",
+      "p1": "Faceți un grup mic cu prieteni, colegi de cameră sau echipa dvs. Încurajați-vă unii pe alții.",
+      "p2": "Toți văd procentul și seria celorlalți. Niciodată uncii nimănui.",
+      "alt": "O Gașcă numită Roommates: Jordan la 64%, Ari la obiectiv, cu mesaje rapide de încurajare"
+    },
+    "days": {
+      "title": "Fiecare zi contează.",
+      "p1": "Fiecare zi se umple ca un pahar. Nu întrerupeți seria.",
+      "p2": "Totul vă urmează pe un telefon nou.",
+      "alt": "Calendarul pentru noiembrie: 17 zile înregistrate, 14 la obiectiv și o serie de 8 zile"
     },
     "bubbles": {
-      "kicker": "Faceți cunoștință cu Bubbles",
-      "title": "Ghidul dvs. este un pește-balon.",
-      "lede": "Bubbles este Responsabilul cu Starea de Bine al Departamentului. În prima zi vă face un tur al aplicației și nu se poate abține să se dea mare. Haideți, dați-i ceva de făcut.",
-      "tricksLegend": "Trucurile lui Bubbles",
-      "tricks": {
-        "puff": "Se umflă",
-        "spin": "Se învârte",
-        "flip": "Salt pe spate",
-        "wave": "Salută",
-        "cheer": "Marele final"
-      }
+      "title": "Faceți cunoștință cu Bubbles",
+      "p1": "Un pește-balon care vă arată totul în prima zi. Nu se poate abține să nu se dea mare, așa că atingeți-l."
     },
     "pricing": {
-      "kicker": "Prețuri",
       "title": "Gratuit la început. Totul, o singură dată.",
       "free": {
         "title": "Gratuit",
@@ -154,93 +80,43 @@
           "number": "Propriul număr de apă",
           "log": "Înregistrați băuturi și alimente bogate în apă",
           "barcode": "Scanări de coduri de bare, gratuite și nelimitate",
-          "photo": "O scanare foto gratuită (18 ani și peste)",
           "guide": "Toate capitolele Ghidului",
           "widgets": "Widgeturile Clasic, Anotimpuri, plus Corp și Scânteie simple",
           "crew": "Calendarul, seriile și Gașca unui prieten"
         }
       },
       "forever": {
-        "tag": "Anul lansării",
         "title": "Totul pentru totdeauna",
         "sub": "O singură achiziție, fără abonament.",
         "items": {
           "widgets": "Toate stilurile și variantele de culoare ale widgeturilor",
           "bars": "Barele de electroliți, cofeină și zahăr",
           "journal": "Jurnalul dvs. de băuturi",
-          "photos": "Mai multe scanări foto (18 ani și peste)",
           "summaries": "Rezumate PDF pe 30 și 90 de zile",
           "crews": "Creați-vă propriile Găști",
           "later": "Tot ce vom adăuga mai târziu"
         },
-        "note": "Oferit în anul lansării. După aceea, The Water Check ar putea trece la un plan lunar, iar o achiziție unică făcută înainte rămâne deblocată. Prețul este afișat în App Store sau Google Play înainte de cumpărare."
+        "note": "Prețul apare în magazin înainte să cumpărați."
       }
-    },
-    "privacy": {
-      "kicker": "Datele dvs.",
-      "title": "Ce rămâne pe telefonul dvs. și ce nu.",
-      "phoneTitle": "Rămâne pe telefonul dvs.",
-      "phoneBody": "Jurnalul de băuturi, băuturile și alimentele salvate, perlele din Ghid, sesiunile de antrenament, notițele despre ciclu și mementourile.",
-      "accountTitle": "Păstrat cu contul dvs.",
-      "accountBody": "Autentificarea, răspunsurile de la înregistrare, fiecare băutură și aliment înregistrate cu ora lor, totalurile zilnice de apă și Gașca dvs., ca să vă urmeze pe un telefon nou.",
-      "neverTitle": "Niciodată",
-      "neverBody": "Nu vă vindem informațiile și nu le partajăm cu rețele de publicitate. Nu vă păstrăm fotografiile Drink Check.",
-      "links": {
-        "privacy": "Politica de confidențialitate",
-        "healthData": "Politica privind datele de sănătate ale consumatorilor",
-        "deleteAccount": "Ștergeți-vă contul"
-      }
-    },
-    "calculator": {
-      "kicker": "Gratuit, fără înregistrare",
-      "title": "Începeți cu cifrele pe care le știți.",
-      "lede": "Greutatea, înălțimea, cât timp vă mișcați. Calculatorul vă dă un obiectiv zilnic în aproximativ douăzeci de secunde și își arată calculele, ca să le puteți contesta. Funcționează în browserul dvs.",
-      "chips": {
-        "weight": "Baza după greutate",
-        "height": "Înălțime și constituție",
-        "activity": "Ajustare pentru activitate",
-        "lifeStage": "Etapa de viață",
-        "heat": "Căldură și umiditate",
-        "electrolytes": "Verificarea electroliților"
-      },
-      "open": "Deschideți calculatorul",
-      "fine": "O estimare educativă de planificare pentru adulți, nu un diagnostic sau o prescripție. Nu vă forțați să beți lichide. Discutați cu un cadru medical dacă sunteți însărcinată sau alăptați, luați medicamente care influențează echilibrul lichidelor sau aveți o afecțiune renală sau cardiacă."
     },
     "faq": {
-      "kicker": "Întrebări",
       "title": "Răspunsurile sincere.",
       "items": {
         "medical": {
           "q": "The Water Check este un sfat medical?",
           "a": "Nu. Este o aplicație generală pentru starea de bine. Numărul dvs. de apă este o estimare educativă, nu o prescripție, și nimic din aplicație nu diagnostichează și nu tratează nimic. Dacă sunteți însărcinată sau alăptați, luați medicamente care influențează lichidele sau aveți o afecțiune renală, cardiacă sau de altă natură, întrebați-vă medicul ce este potrivit pentru dvs."
         },
-        "number": {
-          "q": "De unde vine numărul meu?",
-          "a": "Din greutate, înălțime, activitate, climă și etapa de viață, pornind de la recomandări publice precum valorile de referință pentru apă ale National Academies din SUA. Calculatorul gratuit își arată calculele, ca să vedeți fiecare pas. Este un punct de plecare, nu o regulă."
-        },
-        "scan": {
-          "q": "Ce se întâmplă când scanez o băutură?",
-          "a": "O scanare a codului de bare trimite doar numărul codului către Open Food Facts, o bază de date alimentară gratuită și deschisă, și primește înapoi ce scrie pe etichetă. O fotografie, pentru adulții de 18 ani și peste, trece prin serverul nostru către AI-ul Gemini de la Google, care citește eticheta și trimite înapoi ce a găsit. Nu vă păstrăm fotografia; Google poate păstra date pentru o perioadă limitată, conform termenilor săi. Etichetele și AI-ul pot greși, așa că verificați eticheta reală și nu folosiți niciodată Drink Check pentru alergii sau diete medicale."
-        },
         "phone": {
           "q": "Ce rămâne pe telefonul meu?",
-          "a": "Jurnalul de băuturi, băuturile și alimentele salvate, perlele din Ghid, sesiunile de antrenament, răspunsul despre ciclu și notițele despre ciclu, deși backupul propriului telefon le poate include. Pe iPhone, antrenamentele pe care permiteți aplicației să le citească din aplicația Sănătate de la Apple rămân și ele pe telefon și nu ne sunt trimise niciodată. Răspunsurile de la înregistrare, fiecare băutură și aliment înregistrate cu ora lor și totalurile zilnice sunt păstrate cu contul dvs., ca să vă urmeze pe un telefon nou. Nu vă vindem informațiile."
+          "a": "Jurnalul de băuturi, băuturile și alimentele salvate, perlele din Ghid, mementourile și antrenamentele pe care permiteți aplicației să le citească. Băuturile și totalurile zilnice sunt păstrate cu contul dvs., ca să vă urmeze pe un telefon nou. Nu vă vindem niciodată informațiile."
         },
         "audience": {
           "q": "Cui se adresează?",
           "a": "Oricui are 13 ani sau mai mult. Dacă aveți sub 18 ani, folosiți-o cu permisiunea unui părinte sau tutore. Înregistrarea alcoolului și scanările foto sunt doar pentru adulți. Aplicația se bazează pe intervalul de vârstă pe care îl indicați, așa că vă rugăm să răspundeți sincer. Dacă aveți între 13 și 17 ani, verificați-vă numărul cu un părinte sau cu un medic."
         },
-        "cost": {
-          "q": "Cât costă?",
-          "a": "Aplicația este gratuită la început: aflați-vă numărul, înregistrați apa și alimentele, scanați orice cod de bare, citiți toate capitolele Ghidului, intrați într-o Gașcă și folosiți widgeturile Clasic, Anotimpuri, Corp și Scânteie. În anul lansării, o achiziție opțională deblochează totul, o singură dată, fără abonament. App Store sau Google Play vă arată prețul în moneda dvs. înainte de cumpărare."
-        },
         "deleteAccount": {
           "q": "Cum îmi șterg contul?",
-          "a": "În aplicație: Profil, apoi Setări, apoi Șterge contul. Dispare imediat. Nu aveți aplicația? Pagina noastră Ștergeți-vă contul explică cum să cereți acest lucru prin e-mail."
-        },
-        "download": {
-          "q": "Când o pot descărca?",
-          "a": "The Water Check este în evaluare în App Store și în testare pe Google Play, și vine în curând pe ambele. Urmăriți @thewatercheck pe Instagram ca să aflați primii."
+          "a": "În aplicație: Profil, apoi Șterge contul. Dispare imediat. Nu aveți aplicația? Pagina noastră Ștergeți-vă contul explică cum să cereți acest lucru prin e-mail."
         }
       }
     },
