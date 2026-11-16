@@ -17,5 +17,5 @@
 .waterAppScreens figure { margin: 0; scroll-snap-align: start; }
 .waterAppScreens img { aspect-ratio: 660 / 1434; border: 1px solid #3e759b; border-radius: 1.4rem; box-shadow: 0 1rem 2.5rem #001a36a8; display: block; height: auto; width: 100%; }
 .waterAppScreens figcaption { color: #d2eaf5; font-size: .9rem; font-weight: 700; padding: .8rem .2rem 0; text-align: center; }
-@media (min-width: 1150px) { .waterAppScreens { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+@media (min-width: 1150px) { .waterAppScreens { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 @media (prefers-reduced-motion: reduce) { .waterAppScreens { scroll-behavior: auto; } }

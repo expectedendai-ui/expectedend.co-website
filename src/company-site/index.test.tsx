@@ -316,7 +316,7 @@ describe("Expected End public site", () => {
     for (const name of ["A gallon a day is a lie.", "Worked out? Here's your water.", "Log it in one tap.", "Scan a drink. Know what's in it.", "Bring your Crew.", "Every day counts."]) {
       expect(screen.getByRole("heading", { level: 2, name })).toBeInTheDocument();
     }
-    expect(screen.getByRole("img", { name: /Nice run, 48 minutes/ })).toHaveAttribute("src", "/media/water-check/screen-lock.webp");
+    expect(screen.getByRole("img", { name: /Nice run, 48 minutes/ })).toHaveAttribute("src", "/media/water-check/2026-11/screen-lock.webp");
     expect(screen.getAllByRole("group")).toHaveLength(4);
     for (const link of screen.getAllByRole("link", { name: "Delete your account" })) {
       expect(link).toHaveAttribute("href", "/thewatercheck/delete-account");

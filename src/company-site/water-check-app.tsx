@@ -2,11 +2,10 @@ import { useTranslation } from "react-i18next";
 import "./water-check-app.css";
 
 const screens = [
-  { file: "appstore-01", id: "number" },
-  { file: "appstore-02", id: "log" },
-  { file: "appstore-03", id: "widgets" },
-  { file: "appstore-04", id: "wellness" },
-  { file: "appstore-05", id: "calendar" },
+  { file: "2026-11/screen-today", id: "number" },
+  { file: "2026-11/screen-add", id: "log" },
+  { file: "2026-11/screen-widgets", id: "widgets" },
+  { file: "2026-11/screen-calendar", id: "calendar" },
 ] as const;
 
 export function WaterCheckApp() {
