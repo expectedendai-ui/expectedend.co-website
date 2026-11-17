@@ -7,8 +7,8 @@ import type { LegalPageContent } from "./legal-content";
  */
 
 const EFFECTIVE = "November 11, 2026";
-/** Workouts from Health Connect on Android, and the workout card on the Lock Screen for an hour (12 November). */
-const HEALTH_UPDATE = "November 12, 2026";
+// November 12, 2026: workouts from Health Connect on Android, and the workout card on the Lock Screen for an
+// hour. Both pages that carried that date have moved on to later ones below.
 /** History: every drink you scan, saved with your account; a photo you take stays on your phone (16 November). */
 const HISTORY_UPDATE = "November 16, 2026";
 /** Crew nudges, buzzes, water times and the nudger of the week, with at most 6 pushes a day in all (17 November). */
