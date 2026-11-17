@@ -4,7 +4,7 @@
     "hero": {
       "title": "Drink up.<break/>We'll <em>keep count</em>.",
       "sub": "Your own daily water number. Log a drink in one tap. No gallon rules, no guilt.",
-      "comingSoon": "Coming soon",
+      "comingSoon": "In testing",
       "appStoreLead": "Download on the",
       "appStore": "App Store",
       "googlePlayLead": "Get it on",
@@ -145,7 +145,7 @@
     "eyebrow": "The app",
     "title": "Your water, day by day.",
     "body": "Start with a personal estimate, then log drinks and water-rich food as your day unfolds. See your progress in the app, on your Home Screen, and across the month.",
-    "comingSoon": "Coming soon to the App Store",
+    "comingSoon": "In testing on iPhone and Android",
     "calculator": "Try the free calculator",
     "caveat": "The calculator works here without an account. App screenshots show a preview build; features and availability may change before release.",
     "screens": {

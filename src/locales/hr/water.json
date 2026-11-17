@@ -4,7 +4,7 @@
     "hero": {
       "title": "Pijte.<break/>Mi ćemo <em>brojati</em>.",
       "sub": "Vaš vlastiti dnevni broj za vodu. Zabilježite piće jednim dodirom. Bez pravila o galonu, bez krivnje.",
-      "comingSoon": "Uskoro",
+      "comingSoon": "U testiranju",
       "appStoreLead": "Preuzmite na",
       "appStore": "App Store",
       "googlePlayLead": "Nabavite na",
@@ -145,7 +145,7 @@
     "eyebrow": "Aplikacija",
     "title": "Vaša voda, dan po dan.",
     "body": "Počnite s osobnom procjenom, a zatim bilježite pića i hranu bogatu vodom kako vam dan teče. Pratite svoj napredak u aplikaciji, na početnom zaslonu i kroz cijeli mjesec.",
-    "comingSoon": "Uskoro u App Storeu",
+    "comingSoon": "U testiranju na iPhoneu i Androidu",
     "calculator": "Isprobajte besplatni kalkulator",
     "caveat": "Kalkulator ovdje radi bez računa. Snimke zaslona aplikacije prikazuju pretpremijernu verziju; značajke i dostupnost mogu se promijeniti prije izlaska.",
     "screens": {
