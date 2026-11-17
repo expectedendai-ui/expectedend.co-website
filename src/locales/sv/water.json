@@ -4,7 +4,7 @@
     "hero": {
       "title": "Drick på.<break/>Vi <em>håller räkningen</em>.",
       "sub": "Din egen dagliga vattensiffra. Logga en dryck med ett tryck. Inga gallonregler, inget dåligt samvete.",
-      "comingSoon": "Under test",
+      "comingSoon": "På gång",
       "appStoreLead": "Hämta i",
       "appStore": "App Store",
       "googlePlayLead": "Ladda ned på",
@@ -145,7 +145,7 @@
     "eyebrow": "Appen",
     "title": "Ditt vatten, dag för dag.",
     "body": "Börja med en personlig uppskattning och logga sedan drycker och vattenrik mat under dagen. Se dina framsteg i appen, på hemskärmen och över hela månaden.",
-    "comingSoon": "Under test på iPhone och Android",
+    "comingSoon": "På gång för iPhone och Android",
     "calculator": "Testa den gratis kalkylatorn",
     "caveat": "Kalkylatorn fungerar här utan konto. Skärmbilderna från appen visar en förhandsversion; funktioner och tillgänglighet kan ändras före lansering.",
     "screens": {
