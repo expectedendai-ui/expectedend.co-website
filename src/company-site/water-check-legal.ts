@@ -9,6 +9,8 @@ import type { LegalPageContent } from "./legal-content";
 const EFFECTIVE = "November 11, 2026";
 /** Workouts from Health Connect on Android, and the workout card on the Lock Screen for an hour (12 November). */
 const HEALTH_UPDATE = "November 12, 2026";
+/** History: every drink you scan, saved with your account; a photo you take stays on your phone (16 November). */
+const HISTORY_UPDATE = "November 16, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -17,7 +19,7 @@ export const WATER_CHECK_LEGAL = {
     title: "The Water Check Privacy Policy",
     intro:
       "This policy explains what The Water Check app collects, where it is kept, who helps us run it, and the choices you have. The app is made by EXPECTEDEND LLC, a Florida company. Our Expected End website has its own privacy statement.",
-    effectiveDate: HEALTH_UPDATE,
+    effectiveDate: HISTORY_UPDATE,
     related: [
       { label: "Consumer Health Data Privacy Policy", href: "/thewatercheck/consumer-health-data" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
@@ -28,11 +30,11 @@ export const WATER_CHECK_LEGAL = {
         heading: "The short version",
         paragraphs: ["The details are below, but these are the main points:"],
         bullets: [
-          "Your account, your sign-up answers, each drink and food you log with its time, your daily water totals and your Crew live on our servers so they follow you to a new phone.",
+          "Your account, your sign-up answers, each drink and food you log with its time, the drinks you scan (your History), your daily water totals and your Crew live on our servers so they follow you to a new phone.",
           "Your Drink Journal, saved drinks and foods, Guide pearls, training sessions, your cycle answer and cycle notes stay on your phone.",
           "On iPhone, if you allow it, the app reads your workouts from Apple Health, and nothing else from it. They stay on your phone and are never sent to us.",
           "Barcode scans look a drink up in Open Food Facts, a free, open food database. Only the barcode number is sent.",
-          "Drink Check photo scans are for adults 18 and over. Google's Gemini AI reads the photo, and we do not keep it.",
+          "Drink Check photo scans are for adults 18 and over. Google's Gemini AI reads the photo. We do not keep it on our servers; a small copy stays on your phone, in your History.",
           "We do not sell your information or share it with advertising networks.",
           "You can delete your account and its data at any time, in the app or by email.",
         ],
@@ -44,6 +46,7 @@ export const WATER_CHECK_LEGAL = {
           "Sign-up answers. To work out your daily water number, the app asks for your age range, sex (optional: you can choose Prefer not to say, and the app then uses a middle value; and whether you are pregnant or breastfeeding, if you choose to say), weight, height, activity level, the sports you play (and, for a sport that can go either way or one you type in, whether you play it indoors or outside), whether you drink coffee, and your climate. Some of these answers are health information, and we ask for your consent on a screen of its own, with a box you tick, before the first question. You can skip the optional ones and change any of them later in Details and Settings.",
           "Later questions. On Progress the app may ask what you want to feel and how often you feel bloated. Both are optional and only show in Your details; your number and tips do not use them.",
           "Drinks and foods you log. Each entry is kept with your account: its time, what it was (such as a glass, a food, or a drink's name, including a name you typed or one Gemini read), its water amount, and any serving and caffeine. This is so your history and streaks follow you to a new phone. Alcohol is different: it goes only to the Drink Journal on your phone, and adding water with it logs only a plain glass.",
+          "History. Every drink you scan is kept with your account, newest first, so you can find it and log it again: what its label said (name, brand, size, sugar, caffeine, electrolytes and ingredients), its score or, for alcohol, its standard drinks, its type, when you scanned it, and for a barcode scan the web address of its product photo from Open Food Facts. A photo you took is never sent to us: a small copy stays on your phone. You can remove a drink or clear your whole History in the app (Progress, History), which removes it from your account too.",
           "Daily totals. For each day you log, your account keeps the total from drinks, the total from food and your goal for that day, so your calendar and streaks survive a new phone.",
           "Crew. If you use Crew, we store the Crews you make or join, your first name and widget colors as your Crew sees them, your percent of goal and streak, the quick messages and cheers you send, and any blocks and reports.",
           "Language. We keep your language choice with your account, so the app opens in it on a new phone.",
@@ -65,7 +68,7 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "When you scan a drink's barcode, or type one in, the app sends only the barcode number from your phone to Open Food Facts (world.openfoodfacts.org), a free, open food database, and gets back what its label says: the drink's name, size, sugar, caffeine, carbohydrate and electrolytes (sodium, potassium, magnesium and calcium). To suggest similar drinks, the app may also ask Open Food Facts for other drinks in the same category. No account details, photos or location are sent. Open Food Facts receives the request the way any website does, under its own privacy policy.",
           "Photo scans are for adults 18 and over. We check your age range on our server before a photo is read, and ages 13 to 17 can still scan barcodes and type. When you take a photo of a drink or a food, the app makes the image smaller and sends it through our server to Google's Gemini API. Gemini reads it and returns what it found: for a drink, its name, size, sugar, caffeine and ingredients; for a food, what it is and about how much water it holds. The app asks before your first scan.",
-          "We do not keep your photo. Google receives it, and may retain data for a limited time under its own terms for the Gemini API. Our server keeps a count of how many scans your account used, so the free allowance works.",
+          "We do not keep your photo on our servers. A small copy stays on your phone, in your History, and is never sent to us. Google receives the photo, and may retain data for a limited time under its own terms for the Gemini API. Our server keeps a count of how many scans your account used, so the free allowance works.",
           "AI can be wrong. A Drink Check result is a quick read of a label, not a lab test, a health rating of a product or medical advice. Always check the real label, and never rely on Drink Check for allergies or medical diets.",
         ],
       },
@@ -343,7 +346,7 @@ export const WATER_CHECK_LEGAL = {
     title: "Consumer Health Data Privacy Policy",
     intro:
       "Some states, including Washington, Nevada and Connecticut, give extra protection to information about your health. This policy explains how The Water Check, made by EXPECTEDEND LLC, handles that kind of information. It adds to our Privacy Policy.",
-    effectiveDate: HEALTH_UPDATE,
+    effectiveDate: HISTORY_UPDATE,
     related: [
       { label: "Privacy Policy", href: "/thewatercheck/privacy" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
@@ -357,6 +360,7 @@ export const WATER_CHECK_LEGAL = {
           "whether you are pregnant or breastfeeding, if you choose to say;",
           "activity level, sports and whether you play them indoors or outside, whether you drink coffee, and your climate;",
           "each drink and food you log, with its time, amount and any name, serving and caffeine;",
+          "each drink you scan (your History): what its label said, including sugar, caffeine and electrolytes, its score or standard drinks, and when you scanned it;",
           "your daily water goal and each day's totals from drinks and food;",
           "how often you feel bloated and what you want to feel, if you choose to answer;",
           "a record that you accepted the Fruit Fast safety note, if you did before Fruit Fast was removed on November 11, 2026;",
@@ -367,7 +371,7 @@ export const WATER_CHECK_LEGAL = {
         heading: "Health data that stays on your phone",
         paragraphs: [
           "Your Drink Journal (including how drinks made you feel, the electrolytes in them, and any alcohol you log), your cycle answer, cycle notes, activity notes, training sessions, saved drinks and Guide pearls stay in the app's storage on your device. We do not collect them. They may be included in your own phone backup (iCloud or Google) if you use one.",
-          "Drink Check photo scans are for adults 18 and over. The photo is sent through our server to Google's Gemini API to be read. We do not keep your photo; Google may retain data for a limited time under its terms. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
+          "Drink Check photo scans are for adults 18 and over. The photo is sent through our server to Google's Gemini API to be read. We do not keep your photo on our servers: a small copy stays on your phone, in your History. Google may retain data for a limited time under its terms. What Gemini reads (such as sugar and caffeine) comes back to your phone.",
           "If you turn on Apple Health or Health Connect, the app adds your water and caffeine to it, and with Everything Forever the electrolytes and sugar from drinks you scan. That copy is kept by Apple Health or Health Connect on your phone, under your control. We do not receive it from there.",
           "Workouts from Apple Health on iPhone, or from Health Connect on Android, if you allow it. The app reads workouts and nothing else: on iPhone each one's type, start and end time, length, active energy and distance; on Android only each one's type and start and end time. It uses them on your phone to suggest about how much to drink after a workout, including on your Lock Screen for the hour after it, and to raise, never lower, today's water number. Reading them is optional and needs your permission in your phone's own prompt; you can stop it in the Health app or Health Connect, or by turning Apple Health or Health Connect off in the app's Settings. Your workouts stay on your phone: we never receive them, they are never shared with anyone, including your Crew, and the daily goal kept with your account does not include them.",
         ],
