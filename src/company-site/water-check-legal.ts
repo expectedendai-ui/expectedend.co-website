@@ -11,6 +11,8 @@ const EFFECTIVE = "November 11, 2026";
 const HEALTH_UPDATE = "November 12, 2026";
 /** History: every drink you scan, saved with your account; a photo you take stays on your phone (16 November). */
 const HISTORY_UPDATE = "November 16, 2026";
+/** Crew nudges, buzzes, water times and the nudger of the week, with at most 6 pushes a day in all (17 November). */
+const CREW_CALLS_UPDATE = "November 17, 2026";
 const EMAIL = "expectedendai@gmail.com";
 
 export const WATER_CHECK_LEGAL = {
@@ -19,7 +21,7 @@ export const WATER_CHECK_LEGAL = {
     title: "The Water Check Privacy Policy",
     intro:
       "This policy explains what The Water Check app collects, where it is kept, who helps us run it, and the choices you have. The app is made by EXPECTEDEND LLC, a Florida company. Our Expected End website has its own privacy statement.",
-    effectiveDate: HISTORY_UPDATE,
+    effectiveDate: CREW_CALLS_UPDATE,
     related: [
       { label: "Consumer Health Data Privacy Policy", href: "/thewatercheck/consumer-health-data" },
       { label: "Delete your account", href: "/thewatercheck/delete-account" },
@@ -77,7 +79,7 @@ export const WATER_CHECK_LEGAL = {
         paragraphs: [
           "Camera. Used only when you choose to scan a barcode or take a photo of a drink or food.",
           "Location. If you ask the app to use your current weather, it requests your approximate location, rounds the coordinates and sends them to Open-Meteo for temperature and humidity. We save the resulting climate category, not your coordinates. You can pick your climate by hand instead.",
-          "Notifications. Water reminders you choose are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads and streaks we use the daily totals already kept with your account. Pushes come in your language, never between 9 PM and 8 AM your time, and at most one a day besides cheers. We keep a record of each push sent, and when you open one, so we can keep them rare. Records older than 90 days are deleted the next time we send you a push, and all of them when you delete your account. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
+          "Notifications. Water reminders you choose are scheduled on your phone. If you allow push notifications, we keep your phone's push token, its language and its time zone with your account, so we can tell you when someone in your Crew cheers you on or nudges you to drink, when your Crew leader buzzes the Crew, at your Crew's water times, on Monday when it is your week to be your Crew's nudger, who is on top of your Crew each week, when you take the lead in your Crew today, and when a streak of 3 or more days is about to end. For leads, streaks, buzzes and water times we use the daily totals already kept with your account, so a buzz or a water time skips you once you have reached your number. Pushes come in your language, never between 9 PM and 8 AM your time, and at most 6 a day in all: up to 2 cheers, up to 2 nudges, buzzes or water times together, and at most one of each other kind. You can turn nudges, water times and buzzes off in Settings, apart from the rest, and mute one Crew's water times and buzzes on its page. We keep a record of each push sent, and when you open one, so we can keep them rare. Records older than 90 days are deleted the next time we send you a push, and all of them when you delete your account. Google's Firebase Cloud Messaging, and Apple for iPhones, deliver them.",
           "You can turn Crew notifications and streak reminders off separately in the app's Settings, or all of them in your device settings. Signing out or deleting your account removes your phone's push token.",
         ],
       },
