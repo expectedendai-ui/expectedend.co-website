@@ -4,7 +4,7 @@
     "hero": {
       "title": "Toma agua.<break/>Nosotros <em>llevamos la cuenta</em>.",
       "sub": "Tu propio número de agua al día. Registra una bebida con un toque. Sin reglas del galón, sin culpa.",
-      "comingSoon": "Muy pronto",
+      "comingSoon": "En pruebas",
       "appStoreLead": "Descárgalo en el",
       "appStore": "App Store",
       "googlePlayLead": "Disponible en",
@@ -145,7 +145,7 @@
     "eyebrow": "La app",
     "title": "Tu agua, día a día.",
     "body": "Empieza con una estimación personal y luego registra bebidas y alimentos ricos en agua a medida que avanza tu día. Mira tu progreso en la app, en tu pantalla de inicio y a lo largo del mes.",
-    "comingSoon": "Muy pronto en el App Store",
+    "comingSoon": "En pruebas en iPhone y Android",
     "calculator": "Prueba la calculadora gratis",
     "caveat": "La calculadora funciona aquí sin cuenta. Las capturas de la app muestran una versión preliminar; las funciones y la disponibilidad pueden cambiar antes del lanzamiento.",
     "screens": {
