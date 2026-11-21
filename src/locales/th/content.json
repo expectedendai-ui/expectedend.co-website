@@ -20,7 +20,7 @@
       "tagline": "ความเชื่อที่คุณสวมใส่ได้"
     },
     "watercheck-store": {
-      "category": "ร้านค้า · เร็วๆ นี้",
+      "category": "ร้านค้า · กำลังพัฒนา",
       "action": "เข้าสู่ร้านค้า",
       "tagline": "อุปกรณ์สำหรับแผนกดื่มน้ำ"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "ร้านค้า Water Check",
       "category": "สินค้าที่ระลึก",
-      "status": "เร็วๆ นี้"
+      "status": "กำลังพัฒนา"
     }
   },
   "services": {

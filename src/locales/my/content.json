@@ -20,7 +20,7 @@
       "tagline": "ဝတ်ဆင်နိုင်သော ယုံကြည်ခြင်း။"
     },
     "watercheck-store": {
-      "category": "စတိုး · မကြာမီ",
+      "category": "စတိုး · ပြုလုပ်နေဆဲ",
       "action": "စတိုးသို့ ဝင်ရန်",
       "tagline": "ရေဓာတ်ဌာနအတွက် ပစ္စည်းများ။"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check စတိုး",
       "category": "အမှတ်တံဆိပ် ပစ္စည်း",
-      "status": "မကြာမီ"
+      "status": "ပြုလုပ်နေဆဲ"
     }
   },
   "services": {

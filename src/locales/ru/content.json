@@ -20,7 +20,7 @@
       "tagline": "Вера, которую можно носить."
     },
     "watercheck-store": {
-      "category": "Магазин · Скоро",
+      "category": "Магазин · В работе",
       "action": "Перейти в магазин",
       "tagline": "Экипировка для отдела гидратации."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Магазин Water Check",
       "category": "Мерч",
-      "status": "Скоро"
+      "status": "В работе"
     }
   },
   "services": {

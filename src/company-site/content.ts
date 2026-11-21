@@ -53,7 +53,7 @@ export const PROJECTS = [
   },
   {
     name: "The Water Check Store",
-    category: "Store · Coming soon",
+    category: "Store · In the works",
     destination: {
       href: "/thewatercheckstore",
       actionLabel: "Enter store",
@@ -127,7 +127,7 @@ export const PROOF_OF_WORK: ReadonlyArray<{ id: string; items: readonly ProofIte
       { name: "Look Closer series", category: "Social series", status: "60 posts", tone: "count", icon: "search" },
       { name: "25-week campaign", category: "Instagram plan", status: "100 posts", tone: "count", icon: "calendar" },
       { name: "Renewed Strength", category: "Workbook", status: "33 blocks", tone: "count", icon: "book" },
-      { name: "Water Check Store", category: "Merch", status: "Coming soon", tone: "soon", icon: "bag" },
+      { name: "Water Check Store", category: "Merch", status: "In the works", tone: "soon", icon: "bag" },
     ],
   },
 ];

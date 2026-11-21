@@ -20,7 +20,7 @@
       "tagline": "Iimaan aad xidhan karto."
     },
     "watercheck-store": {
-      "category": "Dukaan · Dhowaan",
+      "category": "Dukaan · Waa la samaynayaa",
       "action": "Gal dukaanka",
       "tagline": "Qalabka Waaxda Biyaha."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Dukaanka Water Check",
       "category": "Alaab summad leh",
-      "status": "Dhowaan"
+      "status": "Waa la samaynayaa"
     }
   },
   "services": {

@@ -20,7 +20,7 @@
       "tagline": "Lafwa ou ka mete sou ou."
     },
     "watercheck-store": {
-      "category": "Boutik · Ap vini byento",
+      "category": "Boutik · N ap travay sou li",
       "action": "Antre nan boutik la",
       "tagline": "Ekipman ofisyèl Depatman Idratasyon an."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Boutik Water Check",
       "category": "Machandiz",
-      "status": "Ap vini byento"
+      "status": "N ap travay sou li"
     }
   },
   "services": {

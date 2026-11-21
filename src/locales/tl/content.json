@@ -20,7 +20,7 @@
       "tagline": "Pananampalatayang puwede mong isuot."
     },
     "watercheck-store": {
-      "category": "Tindahan · Malapit na",
+      "category": "Tindahan · Ginagawa pa",
       "action": "Pumasok sa tindahan",
       "tagline": "Gamit para sa Departamento ng Hydration."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Tindahan ng Water Check",
       "category": "Merch",
-      "status": "Malapit na"
+      "status": "Ginagawa pa"
     }
   },
   "services": {

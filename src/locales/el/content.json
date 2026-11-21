@@ -20,7 +20,7 @@
       "tagline": "Πίστη που μπορείτε να φορέσετε."
     },
     "watercheck-store": {
-      "category": "Κατάστημα · Έρχεται σύντομα",
+      "category": "Κατάστημα · Σε εξέλιξη",
       "action": "Μπείτε στο κατάστημα",
       "tagline": "Εξοπλισμός για το Τμήμα Ενυδάτωσης."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Κατάστημα The Water Check",
       "category": "Merch",
-      "status": "Έρχεται σύντομα"
+      "status": "Σε εξέλιξη"
     }
   },
   "services": {

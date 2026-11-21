@@ -20,7 +20,7 @@
       "tagline": "Đức tin bạn có thể mặc."
     },
     "watercheck-store": {
-      "category": "Cửa hàng · Sắp ra mắt",
+      "category": "Cửa hàng · Đang thực hiện",
       "action": "Vào cửa hàng",
       "tagline": "Đồ nghề cho Ban Uống Nước."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Cửa hàng Water Check",
       "category": "Đồ lưu niệm",
-      "status": "Sắp ra mắt"
+      "status": "Đang thực hiện"
     }
   },
   "services": {

@@ -20,7 +20,7 @@
       "tagline": "ሊለብሱት የሚችሉት እምነት።"
     },
     "watercheck-store": {
-      "category": "መደብር · በቅርቡ ይመጣል",
+      "category": "መደብር · በሥራ ላይ ነው",
       "action": "ወደ መደብሩ ይግቡ",
       "tagline": "ለውሃ መምሪያው የሚሆኑ ዕቃዎች።"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "የWater Check መደብር",
       "category": "የብራንድ ዕቃዎች",
-      "status": "በቅርቡ ይመጣል"
+      "status": "በሥራ ላይ ነው"
     }
   },
   "services": {

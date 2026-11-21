@@ -20,7 +20,7 @@
       "tagline": "身につける信仰。"
     },
     "watercheck-store": {
-      "category": "ストア · 近日オープン",
+      "category": "ストア · 開発中",
       "action": "ストアへ",
       "tagline": "水分補給部のためのギア。"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check ストア",
       "category": "グッズ",
-      "status": "近日オープン"
+      "status": "開発中"
     }
   },
   "services": {

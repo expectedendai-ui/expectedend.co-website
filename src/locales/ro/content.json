@@ -20,7 +20,7 @@
       "tagline": "Credință pe care o puteți purta."
     },
     "watercheck-store": {
-      "category": "Magazin · În curând",
+      "category": "Magazin · În lucru",
       "action": "Intrați în magazin",
       "tagline": "Echipamentul oficial al Departamentului de Hidratare."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Magazinul Water Check",
       "category": "Merch",
-      "status": "În curând"
+      "status": "În lucru"
     }
   },
   "services": {

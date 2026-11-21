@@ -20,7 +20,7 @@
       "tagline": "विश्वास, जिसे आप पहन सकें।"
     },
     "watercheck-store": {
-      "category": "स्टोर · जल्द आ रहा है",
+      "category": "स्टोर · तैयार हो रहा है",
       "action": "स्टोर में जाएँ",
       "tagline": "हाइड्रेशन विभाग का गियर।"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check स्टोर",
       "category": "मर्चेंडाइज़",
-      "status": "जल्द आ रहा है"
+      "status": "तैयार हो रहा है"
     }
   },
   "services": {

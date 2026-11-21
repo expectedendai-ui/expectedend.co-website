@@ -20,7 +20,7 @@
       "tagline": "Faith you can wear."
     },
     "watercheck-store": {
-      "category": "Store · Coming soon",
+      "category": "Store · In the works",
       "action": "Enter store",
       "tagline": "Gear for the Hydration Dept."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check Store",
       "category": "Merch",
-      "status": "Coming soon"
+      "status": "In the works"
     }
   },
   "services": {

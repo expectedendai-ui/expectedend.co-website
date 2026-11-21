@@ -20,7 +20,7 @@
       "tagline": "ជំនឿដែលអ្នកអាចពាក់បាន។"
     },
     "watercheck-store": {
-      "category": "ហាង · នឹងមកដល់ឆាប់ៗ",
+      "category": "ហាង · កំពុងរៀបចំ",
       "action": "ចូលហាង",
       "tagline": "សម្ភារៈសម្រាប់នាយកដ្ឋានជាតិទឹក។"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "ហាង Water Check",
       "category": "ទំនិញម៉ាក",
-      "status": "នឹងមកដល់ឆាប់ៗ"
+      "status": "កំពុងរៀបចំ"
     }
   },
   "services": {

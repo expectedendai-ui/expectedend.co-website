@@ -20,7 +20,7 @@
       "tagline": "Hit, amit viselhet."
     },
     "watercheck-store": {
-      "category": "Bolt · Hamarosan",
+      "category": "Bolt · Készülőben",
       "action": "Belépés a boltba",
       "tagline": "Felszerelés a Hidratációs Osztálynak."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check bolt",
       "category": "Ajándéktárgyak",
-      "status": "Hamarosan"
+      "status": "Készülőben"
     }
   },
   "services": {

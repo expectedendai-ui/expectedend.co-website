@@ -20,7 +20,7 @@
       "tagline": "Pagtuo nga imong masul-ob."
     },
     "watercheck-store": {
-      "category": "Tindahan · Hapit na",
+      "category": "Tindahan · Ginabuhat pa",
       "action": "Sulod sa tindahan",
       "tagline": "Gamit alang sa Departamento sa Hydration."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Tindahan sa Water Check",
       "category": "Merch",
-      "status": "Hapit na"
+      "status": "Ginabuhat pa"
     }
   },
   "services": {
