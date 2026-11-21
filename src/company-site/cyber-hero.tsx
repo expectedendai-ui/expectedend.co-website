@@ -8,12 +8,14 @@ export type ArcStat = { value: string; suffix?: string; label: string };
 const ARC_LABEL_MAX = 15;
 const splitArcLabel = (label: string): string[] => {
   if (label.length <= ARC_LABEL_MAX || !label.includes(" ")) return [label];
-  const middle = label.length / 2;
-  let best = -1;
-  for (let index = label.indexOf(" "); index !== -1; index = label.indexOf(" ", index + 1)) {
-    if (best === -1 || Math.abs(index - middle) < Math.abs(best - middle)) best = index;
+  // Fill each line up to the limit, breaking only at spaces, so long labels stack down instead of running off screen.
+  const lines: string[] = [];
+  for (const word of label.split(" ")) {
+    const last = lines.length - 1;
+    if (last >= 0 && lines[last].length + 1 + word.length <= ARC_LABEL_MAX) lines[last] += ` ${word}`;
+    else lines.push(word);
   }
-  return [label.slice(0, best), label.slice(best + 1)];
+  return lines;
 };
 type Variant = "home" | "founder";
 // ax/ay mark where the face sits in each photo; that point is lined up with the centre of the arcs.
@@ -21,7 +23,8 @@ type Photo = { src: string; width: number; height: number; ax: number; ay: numbe
 type Placement = { photo: Photo; x: number; y: number; w: number; h: number; feather: boolean };
 
 const PORTRAIT: Photo = { src: "/media/denzel-rigaud-founder-hero.jpg", width: 1058, height: 1487, ax: 0.51, ay: 0.33 };
-const CLOSEUP: Photo = { src: "/media/denzel-founder-scroll-poster.jpg", width: 2560, height: 1136, ax: 0.5, ay: 0.47 };
+// The founder page close-up, with the lenses toned to a natural dark tint (the home page keeps the original poster).
+const CLOSEUP: Photo = { src: "/media/denzel-founder-closeup-shades.jpg", width: 2560, height: 1136, ax: 0.5, ay: 0.47 };
 const CLOSEUP_MEDIA = "(min-width: 640px) and (min-aspect-ratio: 11/10)";
 
 const ARCS = [
@@ -204,7 +207,7 @@ function ArcStats({ stats, id }: { stats: readonly ArcStat[]; id: string }) {
               </text>
               <text className={`${styles.arcText} ${styles.arcLabel}`} x={round(dx + 18)} y={round(dy + 22)} style={{ animationDelay: `${round(markDelay + 0.3)}s` }}>
                 {splitArcLabel(stat.label).map((line, lineIndex) => (
-                  <tspan key={line} x={round(dx + 18)} dy={lineIndex === 0 ? 0 : 12}>
+                  <tspan key={`${lineIndex}-${line}`} x={round(dx + 18)} dy={lineIndex === 0 ? 0 : 12}>
                     {line}
                   </tspan>
                 ))}
@@ -295,7 +298,7 @@ export function CyberHero({ variant, labelledBy, photoAlt, stats, lens = false, 
       if (!rect.width || !rect.height) return false;
       state.width = rect.width;
       state.height = rect.height;
-      const shown = (photo.currentSrc || photo.src).includes("scroll-poster") ? CLOSEUP : PORTRAIT;
+      const shown = (photo.currentSrc || photo.src).includes(CLOSEUP.src) ? CLOSEUP : PORTRAIT;
       const placement = placePhoto(variant, shown, rect.width, rect.height);
       state.placement = placement;
       Object.assign(photo.style, {

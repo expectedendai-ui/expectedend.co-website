@@ -94,7 +94,7 @@ describe("Expected End About page", () => {
     expect(screen.getByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).toBeInTheDocument();
     const founderPortrait = screen.getByRole("img", { name: "Denzel Rigaud in orange-tinted glasses" });
     expect(founderPortrait).toHaveAttribute("src", "/media/denzel-rigaud-founder-hero.jpg");
-    expect(founderPortrait.closest("picture")?.querySelector("source")).toHaveAttribute("srcset", "/media/denzel-founder-scroll-poster.jpg");
+    expect(founderPortrait.closest("picture")?.querySelector("source")).toHaveAttribute("srcset", "/media/denzel-founder-closeup-shades.jpg");
     expect(founderPortrait.closest("section")).toHaveAttribute("data-cyber-hero", "founder");
     expect(document.querySelector("video[data-scroll-scrub='founder']")).not.toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Read the story" })).toHaveAttribute("href", "#memoir");
