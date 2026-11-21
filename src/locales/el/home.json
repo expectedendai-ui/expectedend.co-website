@@ -4,7 +4,7 @@
     "stats": {
       "projects": "ΕΡΓΑ",
       "languages": "ΓΛΩΣΣΕΣ",
-      "appStore": "ΣΤΟ APP STORE"
+      "years": "ΧΡΟΝΙΑ ΔΗΜΙΟΥΡΓΙΑΣ ONLINE"
     },
     "eyebrow": "Η πύλη προς το <em>προσδοκώμενο τέλος</em> σας",
     "title": "Σκοπός, <break/>χτισμένος <break/>όμορφα.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Έργα",
-    "title": "Δύο εφαρμογές στο App Store. <break/><em>Σύντομα και για Android.</em>",
+    "title": "Το MyBibleLens στο App Store. <break/><em>The Water Check: Σε εξέλιξη.</em>",
     "visit": "Επισκεφθείτε το {{name}}",
     "android": "Σύντομα για Android",
     "bio": "Βιογραφικό",
@@ -32,9 +32,9 @@
     "title": "Χτισμένο από το μηδέν. <em>Η δουλειά μιλά από μόνη της.</em>",
     "lead": "Εφαρμογές, ιστότοποι, εργαλεία AI, ταινίες και καμπάνιες, σχεδιασμένα, προγραμματισμένα και λανσαρισμένα εξ ολοκλήρου εσωτερικά. Ιδού ένα μέρος τους.",
     "stats": {
-      "apps": "<strong>2 εφαρμογές</strong> στο App Store",
+      "apps": "Το <strong>MyBibleLens</strong> στο App Store",
       "languages": "<strong>43 γλώσσες</strong> στο MyBibleLens",
-      "years": "<strong>10 χρόνια</strong> γράφοντας κώδικα",
+      "years": "<strong>10 χρόνια</strong> δημιουργίας online",
       "inHouse": "<strong>Από την ιδέα ως την κυκλοφορία</strong>, όλα εσωτερικά"
     },
     "bigline": "<count>20+</count> ΕΡΓΑ <star>✦</star> ΔΗΜΙΟΥΡΓΗΘΗΚΑΝ <star>✦</star> ΚΥΚΛΟΦΟΡΗΣΑΝ <star>✦</star> ΣΕ ΛΕΙΤΟΥΡΓΙΑ <star>✦</star>",

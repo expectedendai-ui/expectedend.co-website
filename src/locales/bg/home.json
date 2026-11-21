@@ -4,7 +4,7 @@
     "stats": {
       "projects": "СЪЗДАДЕНИ ПРОЕКТА",
       "languages": "ЕЗИКА",
-      "appStore": "В APP STORE"
+      "years": "ГОДИНИ ТВОРЕНЕ ОНЛАЙН"
     },
     "eyebrow": "Вратата към <em>бъдещето, което очаквате</em>",
     "title": "Смисъл, <break/>изграден <break/>красиво.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Проекти",
-    "title": "Две приложения в App Store. <break/><em>Скоро и за Android.</em>",
+    "title": "MyBibleLens е в App Store. <break/><em>The Water Check: В процес на създаване.</em>",
     "visit": "Към {{name}}",
     "android": "Скоро за Android",
     "bio": "Биография",
@@ -32,9 +32,9 @@
     "title": "Създадено от нулата. <em>Работата говори сама за себе си.</em>",
     "lead": "Приложения, уебсайтове, ИИ инструменти, филми и кампании, проектирани, програмирани и пуснати със собствени сили. Ето част от тях.",
     "stats": {
-      "apps": "<strong>2 приложения</strong> в App Store",
+      "apps": "<strong>MyBibleLens</strong> в App Store",
       "languages": "<strong>43 езика</strong> в MyBibleLens",
-      "years": "<strong>10 години</strong> писане на код",
+      "years": "<strong>10 години</strong> творене онлайн",
       "inHouse": "<strong>От идеята до пускането</strong>, всичко със собствени сили"
     },
     "bigline": "<count>20+</count> ПРОЕКТА <star>✦</star> СЪЗДАДЕНИ <star>✦</star> ПУСНАТИ <star>✦</star> НА ЖИВО <star>✦</star>",

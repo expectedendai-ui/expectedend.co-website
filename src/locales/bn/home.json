@@ -4,7 +4,7 @@
     "stats": {
       "projects": "তৈরি প্রজেক্ট",
       "languages": "ভাষা",
-      "appStore": "App Store-এ"
+      "years": "বছর ধরে অনলাইনে তৈরি"
     },
     "eyebrow": "আপনার <em>আশাভরা ভবিষ্যতের</em> দুয়ার",
     "title": "উদ্দেশ্য, <break/>সুন্দর করে <break/>গড়া।",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / প্রজেক্ট",
-    "title": "App Store-এ দুটি অ্যাপ। <break/><em>Android আসছে শিগগিরই।</em>",
+    "title": "MyBibleLens এখন App Store-এ। <break/><em>The Water Check: তৈরি হচ্ছে.</em>",
     "visit": "{{name}} দেখুন",
     "android": "Android আসছে শিগগিরই",
     "bio": "বায়ো",
@@ -32,9 +32,9 @@
     "title": "শূন্য থেকে গড়া। <em>কাজই কথা বলে।</em>",
     "lead": "অ্যাপ, ওয়েবসাইট, AI টুল, ফিল্ম আর ক্যাম্পেইন, সবকিছু নিজেরাই ডিজাইন, কোড আর লঞ্চ করা। এখানে তার কিছু অংশ।",
     "stats": {
-      "apps": "App Store-এ <strong>2টি অ্যাপ</strong>",
+      "apps": "App Store-এ <strong>MyBibleLens</strong>",
       "languages": "MyBibleLens-এ <strong>43টি ভাষা</strong>",
-      "years": "<strong>10 বছর</strong> ধরে কোড লেখা",
+      "years": "<strong>10 বছর</strong> ধরে অনলাইনে তৈরি",
       "inHouse": "<strong>আইডিয়া থেকে লঞ্চ</strong>, সবই নিজেরা"
     },
     "bigline": "<count>20+</count> প্রজেক্ট <star>✦</star> তৈরি <star>✦</star> লঞ্চ <star>✦</star> লাইভ <star>✦</star>",

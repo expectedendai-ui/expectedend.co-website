@@ -4,7 +4,7 @@
     "stats": {
       "projects": "IZRAĐENIH PROJEKATA",
       "languages": "JEZIKA",
-      "appStore": "U APP STOREU"
+      "years": "GODINA STVARANJA NA INTERNETU"
     },
     "eyebrow": "Vrata prema <em>budućnosti kojoj se nadate</em>",
     "title": "Svrha, <break/>lijepo <break/>izgrađena.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Projekti",
-    "title": "Dvije aplikacije u App Storeu. <break/><em>Android uskoro.</em>",
+    "title": "MyBibleLens u App Storeu. <break/><em>The Water Check: U izradi.</em>",
     "visit": "Posjetite {{name}}",
     "android": "Android uskoro",
     "bio": "Biografija",
@@ -32,9 +32,9 @@
     "title": "Izgrađeno od nule. <em>Rad govori sam za sebe.</em>",
     "lead": "Aplikacije, web-stranice, AI alati, filmovi i kampanje, osmišljeni, programirani i pokrenuti vlastitim snagama. Evo dijela toga.",
     "stats": {
-      "apps": "<strong>2 aplikacije</strong> u App Storeu",
+      "apps": "<strong>MyBibleLens</strong> u App Storeu",
       "languages": "<strong>43 jezika</strong> u aplikaciji MyBibleLens",
-      "years": "<strong>10 godina</strong> pisanja koda",
+      "years": "<strong>10 godina</strong> stvaranja na internetu",
       "inHouse": "<strong>Od ideje do lansiranja</strong>, sve vlastitim snagama"
     },
     "bigline": "<count>20+</count> PROJEKATA <star>✦</star> IZGRAĐENO <star>✦</star> ISPORUČENO <star>✦</star> AKTIVNO <star>✦</star>",

@@ -4,7 +4,7 @@
     "stats": {
       "projects": "HOTOVÝCH PROJEKTŮ",
       "languages": "JAZYKŮ",
-      "appStore": "V APP STORE"
+      "years": "LET TVORBY NA WEBU"
     },
     "eyebrow": "Tvoje brána k <em>naději a budoucnosti</em>",
     "title": "Smysl, <break/>krásně <break/>postavený.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Projekty",
-    "title": "Dvě aplikace v App Store. <break/><em>Android už brzy.</em>",
+    "title": "MyBibleLens je v App Store. <break/><em>The Water Check: Pracujeme na tom.</em>",
     "visit": "Navštívit {{name}}",
     "android": "Android už brzy",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Postaveno od nuly. <em>Práce mluví sama za sebe.</em>",
     "lead": "Aplikace, weby, AI nástroje, filmy a kampaně, navržené, naprogramované a spuštěné vlastními silami. Tady je jejich část.",
     "stats": {
-      "apps": "<strong>2 aplikace</strong> v App Store",
+      "apps": "<strong>MyBibleLens</strong> v App Store",
       "languages": "<strong>43 jazyků</strong> v MyBibleLens",
-      "years": "<strong>10 let</strong> psaní kódu",
+      "years": "<strong>10 let</strong> tvorby na webu",
       "inHouse": "<strong>Od nápadu po spuštění</strong>, vše vlastními silami"
     },
     "bigline": "<count>20+</count> PROJEKTŮ <star>✦</star> POSTAVENO <star>✦</star> SPUŠTĚNO <star>✦</star> ŽIVĚ <star>✦</star>",

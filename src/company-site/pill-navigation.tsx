@@ -8,8 +8,8 @@ import styles from "./pill-navigation.module.css";
 type NavLink = { id: string; label: string; href: string; current?: boolean };
 
 export const HOME_NAV: readonly NavLink[] = [
-  { id: "projects", label: "Projects", href: "#projects" },
-  { id: "services", label: "Services", href: "#services" },
+  { id: "projects", label: "Projects", href: "/#projects" },
+  { id: "services", label: "Services", href: "/#services" },
   { id: "story", label: "Story", href: "/denzel-rigaud" },
   { id: "about", label: "About", href: "/about" },
   { id: "press", label: "Press", href: "/press" },
@@ -27,11 +27,13 @@ type PillNavigationProps = {
   contactHref?: string;
   /** Marks the founder page variant (kept for the story page's own anchors). */
   founder?: boolean;
+  /** The page being shown (for example "/about"); its link is marked as the current page. */
+  currentHref?: string;
   onNavigate: (event: React.MouseEvent<HTMLAnchorElement>) => void;
 };
 
 /** Floating pill nav for the home and founder pages; phones get a logo pill, a menu button and a drop-down. */
-export function PillNavigation({ links, contactHref = CONTACT_HREF, founder = false, onNavigate }: PillNavigationProps) {
+export function PillNavigation({ links, contactHref = CONTACT_HREF, founder = false, currentHref, onNavigate }: PillNavigationProps) {
   const { t } = useTranslation("shell");
   const [open, setOpen] = React.useState(false);
   const menuId = React.useId();
@@ -59,7 +61,7 @@ export function PillNavigation({ links, contactHref = CONTACT_HREF, founder = fa
           {logo}
         </a>
         {links.map((link) => (
-          <a key={link.href} className={styles.link} href={link.href} onClick={follow} aria-current={link.current ? "page" : undefined}>
+          <a key={link.href} className={styles.link} href={link.href} onClick={follow} aria-current={link.current || link.href === currentHref ? "page" : undefined}>
             {label(link)}
           </a>
         ))}
@@ -84,7 +86,7 @@ export function PillNavigation({ links, contactHref = CONTACT_HREF, founder = fa
 
       <div className={styles.menu} id={menuId} hidden={!open}>
         {links.map((link) => (
-          <a key={link.href} className={styles.menuLink} href={link.href} onClick={follow} aria-current={link.current ? "page" : undefined}>
+          <a key={link.href} className={styles.menuLink} href={link.href} onClick={follow} aria-current={link.current || link.href === currentHref ? "page" : undefined}>
             {label(link)}
           </a>
         ))}

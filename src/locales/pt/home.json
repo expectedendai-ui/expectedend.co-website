@@ -4,7 +4,7 @@
     "stats": {
       "projects": "PROJETOS CRIADOS",
       "languages": "IDIOMAS",
-      "appStore": "NA APP STORE"
+      "years": "ANOS CRIANDO ONLINE"
     },
     "eyebrow": "A porta para o <em>fim que você espera</em>",
     "title": "Propósito, <break/>feito <break/>com arte.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Projetos",
-    "title": "Dois apps na App Store. <break/><em>Android em breve.</em>",
+    "title": "MyBibleLens na App Store. <break/><em>The Water Check: Em preparação.</em>",
     "visit": "Visitar {{name}}",
     "android": "Android em breve",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Feito do zero. <em>O trabalho fala por si.</em>",
     "lead": "Apps, sites, ferramentas de IA, filmes e campanhas, criados, programados e lançados dentro de casa. Veja um pouco.",
     "stats": {
-      "apps": "<strong>2 apps</strong> na App Store",
+      "apps": "<strong>MyBibleLens</strong> na App Store",
       "languages": "<strong>43 idiomas</strong> no MyBibleLens",
-      "years": "<strong>10 anos</strong> escrevendo código",
+      "years": "<strong>10 anos</strong> criando online",
       "inHouse": "<strong>Da ideia ao lançamento</strong>, tudo feito em casa"
     },
     "bigline": "<count>20+</count> PROJETOS <star>✦</star> CRIADOS <star>✦</star> LANÇADOS <star>✦</star> NO AR <star>✦</star>",

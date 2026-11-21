@@ -5,7 +5,7 @@ import CHOOSER from "~/src/i18n/chooser.json";
 import { browserLanguage, isLanguageId, LANGUAGES, type LanguageId } from "~/src/i18n/languages";
 import styles from "./language-chooser.module.css";
 
-type Theme = "gold" | "water";
+type Theme = "gold" | "water" | "dark";
 
 const words = (id: LanguageId) => CHOOSER[id] ?? CHOOSER.en;
 

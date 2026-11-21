@@ -4,7 +4,7 @@
     "stats": {
       "projects": "တည်ဆောက်ပြီး ပရောဂျက်",
       "languages": "ဘာသာစကား",
-      "appStore": "App Store ပေါ်တွင်"
+      "years": "နှစ် အွန်လိုင်းပေါ်တွင် ဖန်တီးခဲ့"
     },
     "eyebrow": "<em>မြော်လင့်သော အကျိုး</em>ဆီသို့ တံခါးဝ",
     "title": "ရည်ရွယ်ချက်ကို <break/>လှပစွာ <break/>တည်ဆောက်သည်။",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / ပရောဂျက်များ",
-    "title": "App Store ပေါ်တွင် အက်ပ် နှစ်ခု။ <break/><em>Android မကြာမီ လာမည်။</em>",
+    "title": "MyBibleLens သည် App Store ပေါ်တွင်။ <break/><em>The Water Check: ပြုလုပ်နေဆဲ.</em>",
     "visit": "{{name}} သို့ သွားရန်",
     "android": "Android မကြာမီ လာမည်",
     "bio": "ကိုယ်ရေးအကျဉ်း",
@@ -32,9 +32,9 @@
     "title": "သုညမှ တည်ဆောက်ခဲ့သည်။ <em>လက်ရာက ကိုယ်တိုင် ပြောပြပါသည်။</em>",
     "lead": "အက်ပ်များ၊ ဝဘ်ဆိုက်များ၊ AI ကိရိယာများ၊ ရုပ်ရှင်များနှင့် ကမ်ပိန်းများကို အတွင်း၌ပင် ဒီဇိုင်းဆွဲ၊ ကုဒ်ရေးပြီး ထုတ်ဝေခဲ့ပါသည်။ အချို့ကို ဤတွင် ကြည့်ပါ။",
     "stats": {
-      "apps": "App Store ပေါ်တွင် <strong>အက်ပ် ၂ ခု</strong>",
+      "apps": "App Store ပေါ်တွင် <strong>MyBibleLens</strong>",
       "languages": "MyBibleLens တွင် <strong>ဘာသာစကား ၄၃ မျိုး</strong>",
-      "years": "<strong>၁၀ နှစ်</strong> ကုဒ်ရေးသားခဲ့",
+      "years": "<strong>၁၀ နှစ်</strong> အွန်လိုင်းပေါ်တွင် ဖန်တီးခဲ့",
       "inHouse": "<strong>အကြံအစည်မှ ထုတ်ဝေမှုအထိ</strong> အားလုံး အတွင်း၌ပင်"
     },
     "bigline": "<count>20+</count> ပရောဂျက် <star>✦</star> တည်ဆောက်ပြီး <star>✦</star> ထုတ်ဝေပြီး <star>✦</star> အသုံးပြုနိုင်ပြီ <star>✦</star>",

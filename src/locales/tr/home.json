@@ -4,7 +4,7 @@
     "stats": {
       "projects": "TAMAMLANAN PROJE",
       "languages": "DİL",
-      "appStore": "APP STORE'DA"
+      "years": "YILDIR ÇEVRİMİÇİ ÜRETİM"
     },
     "eyebrow": "<em>Umutlu bir geleceğe</em> açılan kapı",
     "title": "Amaçla, <break/>özenle <break/>inşa edildi.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Projeler",
-    "title": "App Store'da iki uygulama. <break/><em>Android çok yakında.</em>",
+    "title": "MyBibleLens App Store'da. <break/><em>The Water Check: Hazırlanıyor.</em>",
     "visit": "Ziyaret edin: {{name}}",
     "android": "Android çok yakında",
     "bio": "Biyografi",
@@ -32,9 +32,9 @@
     "title": "Sıfırdan inşa edildi. <em>İşler kendini anlatıyor.</em>",
     "lead": "Uygulamalar, web siteleri, yapay zekâ araçları, filmler ve kampanyalar; hepsi şirket içinde tasarlandı, kodlandı ve yayına alındı. İşte bazıları.",
     "stats": {
-      "apps": "App Store'da <strong>2 uygulama</strong>",
+      "apps": "App Store'da <strong>MyBibleLens</strong>",
       "languages": "MyBibleLens'te <strong>43 dil</strong>",
-      "years": "<strong>10 yıllık</strong> kodlama deneyimi",
+      "years": "<strong>10 yıllık</strong> çevrimiçi üretim",
       "inHouse": "<strong>Fikirden lansmana</strong>, her şey şirket içinde"
     },
     "bigline": "<count>20+</count> PROJE <star>✦</star> GELİŞTİRİLDİ <star>✦</star> TESLİM EDİLDİ <star>✦</star> YAYINDA <star>✦</star>",

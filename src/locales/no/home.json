@@ -4,7 +4,7 @@
     "stats": {
       "projects": "PROSJEKTER BYGGET",
       "languages": "SPRÅK",
-      "appStore": "PÅ APP STORE"
+      "years": "ÅR MED BYGGING PÅ NETT"
     },
     "eyebrow": "Din vei til <em>fremtid og håp</em>",
     "title": "Mening, <break/>vakkert <break/>bygget.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Prosjekter",
-    "title": "To apper på App Store. <break/><em>Android kommer snart.</em>",
+    "title": "MyBibleLens på App Store. <break/><em>The Water Check: Under arbeid.</em>",
     "visit": "Besøk {{name}}",
     "android": "Android kommer snart",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Bygget fra null. <em>Arbeidet taler for seg selv.</em>",
     "lead": "Apper, nettsider, AI-verktøy, filmer og kampanjer, designet, kodet og lansert helt internt. Her er noe av det.",
     "stats": {
-      "apps": "<strong>2 apper</strong> på App Store",
+      "apps": "<strong>MyBibleLens</strong> på App Store",
       "languages": "<strong>43 språk</strong> i MyBibleLens",
-      "years": "<strong>10 år</strong> med koding",
+      "years": "<strong>10 år</strong> med bygging på nett",
       "inHouse": "<strong>Fra idé til lansering</strong>, alt internt"
     },
     "bigline": "<count>20+</count> PROSJEKTER <star>✦</star> BYGGET <star>✦</star> LANSERT <star>✦</star> LIVE <star>✦</star>",

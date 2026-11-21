@@ -4,7 +4,7 @@
     "stats": {
       "projects": "GEBOUWDE PROJECTEN",
       "languages": "TALEN",
-      "appStore": "IN DE APP STORE"
+      "years": "JAAR ONLINE BOUWEN"
     },
     "eyebrow": "Jouw poort naar <em>toekomst en hoop</em>",
     "title": "Met een doel, <break/>prachtig <break/>gebouwd.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Projecten",
-    "title": "Twee apps in de App Store. <break/><em>Android komt binnenkort.</em>",
+    "title": "MyBibleLens in de App Store. <break/><em>The Water Check: In de maak.</em>",
     "visit": "Bezoek {{name}}",
     "android": "Android komt binnenkort",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Vanaf nul gebouwd. <em>Het werk spreekt voor zich.</em>",
     "lead": "Apps, websites, AI-tools, films en campagnes, volledig in eigen huis ontworpen, gebouwd en gelanceerd. Hier is een deel ervan.",
     "stats": {
-      "apps": "<strong>2 apps</strong> in de App Store",
+      "apps": "<strong>MyBibleLens</strong> in de App Store",
       "languages": "<strong>43 talen</strong> in MyBibleLens",
-      "years": "<strong>10 jaar</strong> programmeren",
+      "years": "<strong>10 jaar</strong> online bouwen",
       "inHouse": "<strong>Van idee tot lancering</strong>, alles in eigen huis"
     },
     "bigline": "<count>20+</count> PROJECTEN <star>✦</star> GEBOUWD <star>✦</star> GELANCEERD <star>✦</star> LIVE <star>✦</star>",

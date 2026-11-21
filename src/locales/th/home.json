@@ -4,7 +4,7 @@
     "stats": {
       "projects": "โปรเจกต์ที่สร้าง",
       "languages": "ภาษา",
-      "appStore": "บน App Store"
+      "years": "ปีแห่งการสร้างสรรค์ออนไลน์"
     },
     "eyebrow": "ประตูสู่<em>อนาคตและความหวัง</em>ของคุณ",
     "title": "มีเป้าหมาย<break/>สร้างสรรค์<break/>อย่างงดงาม",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / โปรเจกต์",
-    "title": "สองแอปบน App Store <break/><em>Android เร็วๆ นี้</em>",
+    "title": "MyBibleLens บน App Store <break/><em>The Water Check: กำลังพัฒนา.</em>",
     "visit": "ไปที่ {{name}}",
     "android": "Android เร็วๆ นี้",
     "bio": "ประวัติ",
@@ -32,9 +32,9 @@
     "title": "สร้างจากศูนย์ <em>ผลงานพูดแทนตัวเอง</em>",
     "lead": "แอป เว็บไซต์ เครื่องมือ AI ภาพยนตร์ และแคมเปญ ออกแบบ เขียนโค้ด และเปิดตัวเองทั้งหมด นี่คือส่วนหนึ่ง",
     "stats": {
-      "apps": "<strong>2 แอป</strong> บน App Store",
+      "apps": "<strong>MyBibleLens</strong> บน App Store",
       "languages": "<strong>43 ภาษา</strong> ใน MyBibleLens",
-      "years": "เขียนโค้ดมา <strong>10 ปี</strong>",
+      "years": "สร้างสรรค์ออนไลน์มา <strong>10 ปี</strong>",
       "inHouse": "<strong>จากไอเดียสู่การเปิดตัว</strong> ทำเองทั้งหมด"
     },
     "bigline": "<count>20+</count> โปรเจกต์ <star>✦</star> สร้าง <star>✦</star> ส่งมอบ <star>✦</star> ใช้งานจริง <star>✦</star>",

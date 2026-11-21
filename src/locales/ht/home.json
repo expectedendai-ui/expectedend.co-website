@@ -4,7 +4,7 @@
     "stats": {
       "projects": "PWOJÈ NOU BATI",
       "languages": "LANG",
-      "appStore": "SOU APP STORE"
+      "years": "ANE AP KREYE SOU ENTÈNÈT"
     },
     "eyebrow": "Pòtay pou <em>avni w ap espere a</em>",
     "title": "Objektif, <break/>bati <break/>ak bèlte.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Pwojè",
-    "title": "De aplikasyon sou App Store. <break/><em>Android ap vini byento.</em>",
+    "title": "MyBibleLens sou App Store. <break/><em>The Water Check: N ap travay sou li.</em>",
     "visit": "Vizite {{name}}",
     "android": "Android ap vini byento",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Bati soti nan zewo. <em>Travay la pale pou kont li.</em>",
     "lead": "Aplikasyon, sit entènèt, zouti IA, fim ak kanpay, ki fèt, kode e lanse lakay nou. Men yon pati ladan yo.",
     "stats": {
-      "apps": "<strong>2 aplikasyon</strong> sou App Store",
+      "apps": "<strong>MyBibleLens</strong> sou App Store",
       "languages": "<strong>43 lang</strong> nan MyBibleLens",
-      "years": "<strong>10 ane</strong> ap ekri kòd",
+      "years": "<strong>10 ane</strong> ap kreye sou entènèt",
       "inHouse": "<strong>Depi lide a rive nan lansman</strong>, tout fèt lakay nou"
     },
     "bigline": "<count>20+</count> PWOJÈ <star>✦</star> BATI <star>✦</star> LANSE <star>✦</star> AN LIY <star>✦</star>",

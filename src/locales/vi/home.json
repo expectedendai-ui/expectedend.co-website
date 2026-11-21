@@ -4,7 +4,7 @@
     "stats": {
       "projects": "DỰ ÁN ĐÃ XÂY DỰNG",
       "languages": "NGÔN NGỮ",
-      "appStore": "TRÊN APP STORE"
+      "years": "NĂM SÁNG TẠO TRỰC TUYẾN"
     },
     "eyebrow": "Cánh cửa dẫn đến <em>tương lai đầy trông cậy</em> của bạn",
     "title": "Mục đích,<break/>kiến tạo<break/>thật đẹp.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Dự án",
-    "title": "Hai ứng dụng trên App Store. <break/><em>Android sắp ra mắt.</em>",
+    "title": "MyBibleLens trên App Store. <break/><em>The Water Check: Đang thực hiện.</em>",
     "visit": "Truy cập {{name}}",
     "android": "Android sắp ra mắt",
     "bio": "Tiểu sử",
@@ -32,9 +32,9 @@
     "title": "Xây dựng từ con số không. <em>Thành quả tự nói lên tất cả.</em>",
     "lead": "Ứng dụng, website, công cụ AI, phim và chiến dịch, tất cả đều được thiết kế, lập trình và ra mắt bởi chính chúng tôi. Đây là một phần trong số đó.",
     "stats": {
-      "apps": "<strong>2 ứng dụng</strong> trên App Store",
+      "apps": "<strong>MyBibleLens</strong> trên App Store",
       "languages": "<strong>43 ngôn ngữ</strong> trong MyBibleLens",
-      "years": "<strong>10 năm</strong> viết mã",
+      "years": "<strong>10 năm</strong> sáng tạo trực tuyến",
       "inHouse": "<strong>Từ ý tưởng đến ra mắt</strong>, tất cả đều tự làm"
     },
     "bigline": "<count>20+</count> DỰ ÁN <star>✦</star> XÂY DỰNG <star>✦</star> PHÁT HÀNH <star>✦</star> ĐANG CHẠY <star>✦</star>",

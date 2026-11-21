@@ -5,11 +5,13 @@ import styles from "./style.module.css";
 
 type ContactDialogProps = {
   initialReason: string;
+  /** Services start on "A new idea"; the site-wide Contact button leaves it for the visitor to choose. */
+  initialProject?: string;
   onClose: () => void;
   returnFocusTo: HTMLElement;
 };
 
-export function ContactDialog({ initialReason, onClose, returnFocusTo }: ContactDialogProps) {
+export function ContactDialog({ initialReason, initialProject = "A new idea", onClose, returnFocusTo }: ContactDialogProps) {
   const { t } = useTranslation("contact");
   const dialogRef = React.useRef<HTMLDialogElement>(null);
   const closeRef = React.useRef<HTMLButtonElement>(null);
@@ -40,7 +42,7 @@ export function ContactDialog({ initialReason, onClose, returnFocusTo }: Contact
       <button ref={closeRef} className={styles.contactDialogClose} type="button" aria-label={t("dialog.close")} onClick={onClose}>
         ×
       </button>
-      <ContactForm initialReason={initialReason} initialProject="A new idea" />
+      <ContactForm initialReason={initialReason} initialProject={initialProject} />
     </dialog>
   );
 }
