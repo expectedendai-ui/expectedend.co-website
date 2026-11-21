@@ -20,7 +20,7 @@
       "tagline": "लगाउन मिल्ने विश्वास।"
     },
     "watercheck-store": {
-      "category": "स्टोर · छिट्टै आउँदैछ",
+      "category": "स्टोर · तयार हुँदैछ",
       "action": "स्टोरमा जानुहोस्",
       "tagline": "हाइड्रेसन विभागका लागि गियर।"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check स्टोर",
       "category": "मर्चेन्डाइज",
-      "status": "छिट्टै आउँदैछ"
+      "status": "तयार हुँदैछ"
     }
   },
   "services": {

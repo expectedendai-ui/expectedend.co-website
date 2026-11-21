@@ -20,7 +20,7 @@
       "tagline": "Üzerinizde taşıyabileceğiniz inanç."
     },
     "watercheck-store": {
-      "category": "Mağaza · Çok yakında",
+      "category": "Mağaza · Hazırlanıyor",
       "action": "Mağazaya gir",
       "tagline": "Hidrasyon Departmanı için ekipman."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check Mağazası",
       "category": "Ürünler",
-      "status": "Çok yakında"
+      "status": "Hazırlanıyor"
     }
   },
   "services": {

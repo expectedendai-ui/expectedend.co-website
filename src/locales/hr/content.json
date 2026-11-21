@@ -20,7 +20,7 @@
       "tagline": "Vjera koju možete nositi."
     },
     "watercheck-store": {
-      "category": "Trgovina · Uskoro",
+      "category": "Trgovina · U izradi",
       "action": "Uđite u trgovinu",
       "tagline": "Oprema za Odjel hidratacije."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Trgovina The Water Check",
       "category": "Merch",
-      "status": "Uskoro"
+      "status": "U izradi"
     }
   },
   "services": {

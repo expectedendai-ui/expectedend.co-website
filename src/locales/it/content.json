@@ -20,7 +20,7 @@
       "tagline": "Una fede da indossare."
     },
     "watercheck-store": {
-      "category": "Negozio · In arrivo",
+      "category": "Negozio · In lavorazione",
       "action": "Entra nel negozio",
       "tagline": "L’equipaggiamento ufficiale del Reparto Idratazione."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Negozio Water Check",
       "category": "Merchandising",
-      "status": "In arrivo"
+      "status": "In lavorazione"
     }
   },
   "services": {

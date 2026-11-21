@@ -20,7 +20,7 @@
       "tagline": "입을 수 있는 믿음."
     },
     "watercheck-store": {
-      "category": "스토어 · 곧 오픈",
+      "category": "스토어 · 준비 중",
       "action": "스토어 입장",
       "tagline": "수분 보충부를 위한 장비."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check 스토어",
       "category": "굿즈",
-      "status": "곧 오픈"
+      "status": "준비 중"
     }
   },
   "services": {

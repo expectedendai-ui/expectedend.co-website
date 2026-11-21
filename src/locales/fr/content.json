@@ -20,7 +20,7 @@
       "tagline": "La foi, à porter."
     },
     "watercheck-store": {
-      "category": "Boutique · Bientôt",
+      "category": "Boutique · En préparation",
       "action": "Entrer dans la boutique",
       "tagline": "L’équipement officiel du Service Hydratation."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Boutique Water Check",
       "category": "Produits dérivés",
-      "status": "Bientôt"
+      "status": "En préparation"
     }
   },
   "services": {

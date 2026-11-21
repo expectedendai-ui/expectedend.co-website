@@ -20,7 +20,7 @@
       "tagline": "Iman yang boleh anda pakai."
     },
     "watercheck-store": {
-      "category": "Kedai · Akan datang",
+      "category": "Kedai · Sedang diusahakan",
       "action": "Masuk kedai",
       "tagline": "Kelengkapan untuk Jabatan Penghidratan."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Kedai Water Check",
       "category": "Barangan",
-      "status": "Akan datang"
+      "status": "Sedang diusahakan"
     }
   },
   "services": {

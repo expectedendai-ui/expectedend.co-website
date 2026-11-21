@@ -20,7 +20,7 @@
       "tagline": "পরার মতো বিশ্বাস।"
     },
     "watercheck-store": {
-      "category": "স্টোর · শিগগিরই আসছে",
+      "category": "স্টোর · তৈরি হচ্ছে",
       "action": "স্টোরে ঢুকুন",
       "tagline": "হাইড্রেশন বিভাগের সাজসরঞ্জাম।"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check স্টোর",
       "category": "মার্চেন্ডাইজ",
-      "status": "শিগগিরই আসছে"
+      "status": "তৈরি হচ্ছে"
     }
   },
   "services": {

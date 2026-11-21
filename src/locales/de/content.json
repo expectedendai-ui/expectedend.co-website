@@ -20,7 +20,7 @@
       "tagline": "Glauben zum Anziehen."
     },
     "watercheck-store": {
-      "category": "Store · Bald erhältlich",
+      "category": "Store · In Arbeit",
       "action": "Zum Store",
       "tagline": "Ausrüstung für die Trink-Abteilung."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check Store",
       "category": "Merch",
-      "status": "Bald erhältlich"
+      "status": "In Arbeit"
     }
   },
   "services": {

@@ -20,7 +20,7 @@
       "tagline": "Geloof dat je kunt dragen."
     },
     "watercheck-store": {
-      "category": "Store · Binnenkort",
+      "category": "Store · In de maak",
       "action": "Naar de store",
       "tagline": "Uitrusting voor de afdeling Hydratatie."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check Store",
       "category": "Merch",
-      "status": "Binnenkort"
+      "status": "In de maak"
     }
   },
   "services": {

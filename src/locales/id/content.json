@@ -20,7 +20,7 @@
       "tagline": "Iman yang bisa Anda kenakan."
     },
     "watercheck-store": {
-      "category": "Toko · Segera hadir",
+      "category": "Toko · Sedang dikerjakan",
       "action": "Masuk toko",
       "tagline": "Perlengkapan untuk Departemen Hidrasi."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Toko Water Check",
       "category": "Merchandise",
-      "status": "Segera hadir"
+      "status": "Sedang dikerjakan"
     }
   },
   "services": {

@@ -20,7 +20,7 @@
       "tagline": "Víra, kterou můžeš nosit."
     },
     "watercheck-store": {
-      "category": "Obchod · Už brzy",
+      "category": "Obchod · Pracujeme na tom",
       "action": "Vstoupit do obchodu",
       "tagline": "Výbava pro Oddělení hydratace."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Obchod Water Check",
       "category": "Merch",
-      "status": "Už brzy"
+      "status": "Pracujeme na tom"
     }
   },
   "services": {

@@ -20,7 +20,7 @@
       "tagline": "Imani unayoweza kuivaa."
     },
     "watercheck-store": {
-      "category": "Duka · Linakuja hivi karibuni",
+      "category": "Duka · Inaandaliwa",
       "action": "Ingia dukani",
       "tagline": "Vifaa vya Idara ya Maji."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Duka la Water Check",
       "category": "Bidhaa za chapa",
-      "status": "Linakuja hivi karibuni"
+      "status": "Inaandaliwa"
     }
   },
   "services": {

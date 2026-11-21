@@ -20,7 +20,7 @@
       "tagline": "Tro du kan ha på deg."
     },
     "watercheck-store": {
-      "category": "Butikk · Kommer snart",
+      "category": "Butikk · Under arbeid",
       "action": "Gå til butikken",
       "tagline": "Utstyr til Væskeavdelingen."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check Store",
       "category": "Merch",
-      "status": "Kommer snart"
+      "status": "Under arbeid"
     }
   },
   "services": {

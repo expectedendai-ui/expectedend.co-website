@@ -20,7 +20,7 @@
       "tagline": "Wiara, którą możesz nosić."
     },
     "watercheck-store": {
-      "category": "Sklep · Już wkrótce",
+      "category": "Sklep · W przygotowaniu",
       "action": "Wejdź do sklepu",
       "tagline": "Sprzęt dla Działu Nawodnienia."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Sklep Water Check",
       "category": "Merch",
-      "status": "Już wkrótce"
+      "status": "W przygotowaniu"
     }
   },
   "services": {

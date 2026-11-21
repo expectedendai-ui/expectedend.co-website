@@ -20,7 +20,7 @@
       "tagline": "可以穿在身上的信仰。"
     },
     "watercheck-store": {
-      "category": "商店 · 即将推出",
+      "category": "商店 · 正在打造中",
       "action": "进入商店",
       "tagline": "补水部专属装备。"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check 商店",
       "category": "周边商品",
-      "status": "即将推出"
+      "status": "正在打造中"
     }
   },
   "services": {

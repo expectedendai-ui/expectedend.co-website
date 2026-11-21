@@ -20,7 +20,7 @@
       "tagline": "Okwukwe ị nwere ike iyi."
     },
     "watercheck-store": {
-      "category": "Ụlọ ahịa · Ọ na-abịa n'oge na-adịghị anya",
+      "category": "Ụlọ ahịa · A na-arụ ya",
       "action": "Banye n'ụlọ ahịa",
       "tagline": "Uwe na ihe maka Ngalaba Ịṅụ Mmiri."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Ụlọ ahịa Water Check",
       "category": "Ngwaahịa akara",
-      "status": "Ọ na-abịa n'oge na-adịghị anya"
+      "status": "A na-arụ ya"
     }
   },
   "services": {

@@ -20,7 +20,7 @@
       "tagline": "ధరించగలిగే విశ్వాసం."
     },
     "watercheck-store": {
-      "category": "స్టోర్ · త్వరలో",
+      "category": "స్టోర్ · తయారవుతోంది",
       "action": "స్టోర్‌లోకి వెళ్లండి",
       "tagline": "హైడ్రేషన్ విభాగానికి గేర్."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check స్టోర్",
       "category": "మర్చండైజ్",
-      "status": "త్వరలో"
+      "status": "తయారవుతోంది"
     }
   },
   "services": {

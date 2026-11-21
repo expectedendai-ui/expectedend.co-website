@@ -20,7 +20,7 @@
       "tagline": "Вера коју можете да носите."
     },
     "watercheck-store": {
-      "category": "Продавница · Ускоро",
+      "category": "Продавница · У изради",
       "action": "Уђи у продавницу",
       "tagline": "Опрема за Одељење хидратације."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Продавница Water Check",
       "category": "Мерч",
-      "status": "Ускоро"
+      "status": "У изради"
     }
   },
   "services": {

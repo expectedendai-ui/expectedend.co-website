@@ -20,7 +20,7 @@
       "tagline": "Fé para vestir."
     },
     "watercheck-store": {
-      "category": "Loja · Em breve",
+      "category": "Loja · Em preparação",
       "action": "Entrar na loja",
       "tagline": "Equipamento oficial do Departamento de Hidratação."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Loja Water Check",
       "category": "Produtos oficiais",
-      "status": "Em breve"
+      "status": "Em preparação"
     }
   },
   "services": {

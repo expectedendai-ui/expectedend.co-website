@@ -20,7 +20,7 @@
       "tagline": "Fe que puedes llevar puesta."
     },
     "watercheck-store": {
-      "category": "Tienda · Muy pronto",
+      "category": "Tienda · En proceso",
       "action": "Entrar a la tienda",
       "tagline": "Equipo oficial del Departamento de Hidratación."
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Tienda Water Check",
       "category": "Merch",
-      "status": "Muy pronto"
+      "status": "En proceso"
     }
   },
   "services": {

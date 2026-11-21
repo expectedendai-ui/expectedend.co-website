@@ -20,7 +20,7 @@
       "tagline": "ਵਿਸ਼ਵਾਸ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਪਹਿਨ ਸਕੋ।"
     },
     "watercheck-store": {
-      "category": "ਸਟੋਰ · ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ",
+      "category": "ਸਟੋਰ · ਤਿਆਰ ਹੋ ਰਿਹਾ ਹੈ",
       "action": "ਸਟੋਰ ਵਿੱਚ ਜਾਓ",
       "tagline": "ਹਾਈਡ੍ਰੇਸ਼ਨ ਵਿਭਾਗ ਦਾ ਗੀਅਰ।"
     }
@@ -134,7 +134,7 @@
     "water-check-store": {
       "name": "Water Check ਸਟੋਰ",
       "category": "ਮਰਚੈਂਡਾਈਜ਼",
-      "status": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ"
+      "status": "ਤਿਆਰ ਹੋ ਰਿਹਾ ਹੈ"
     }
   },
   "services": {
