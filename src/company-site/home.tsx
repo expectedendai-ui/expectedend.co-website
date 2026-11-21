@@ -18,7 +18,7 @@ type HomePageProps = {
 const HERO_STATS = [
   { key: "projects", value: "20", suffix: "+" },
   { key: "languages", value: "43" },
-  { key: "appStore", value: "2" },
+  { key: "years", value: "10" },
 ] as const;
 
 export function HomePage({ onNavigate }: HomePageProps) {
@@ -91,7 +91,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   <div className={styles.meta}>
                     {project.badge ? (
                       <span className={styles.chip}>
-                        <AppStoreMark />
+                        {project.artVariant === "mybiblelens" ? <AppStoreMark /> : null}
                         {project.badge}
                       </span>
                     ) : null}

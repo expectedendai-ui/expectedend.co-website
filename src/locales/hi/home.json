@@ -4,7 +4,7 @@
     "stats": {
       "projects": "बनाए गए प्रोजेक्ट",
       "languages": "भाषाएँ",
-      "appStore": "App Store पर"
+      "years": "साल से ऑनलाइन निर्माण"
     },
     "eyebrow": "आपके <em>आशा भरे भविष्य</em> का द्वार",
     "title": "मक़सद, <break/>खूबसूरती से <break/>साकार।",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / प्रोजेक्ट",
-    "title": "App Store पर दो ऐप। <break/><em>Android जल्द आ रहा है।</em>",
+    "title": "MyBibleLens App Store पर। <break/><em>The Water Check: तैयार हो रहा है.</em>",
     "visit": "{{name}} देखें",
     "android": "Android जल्द आ रहा है",
     "bio": "बायो",
@@ -32,9 +32,9 @@
     "title": "शून्य से बनाया। <em>काम खुद बोलता है।</em>",
     "lead": "ऐप, वेबसाइट, AI टूल, फ़िल्में और कैंपेन, सब इन-हाउस डिज़ाइन, कोड और लॉन्च किए गए। यह रहे उनमें से कुछ।",
     "stats": {
-      "apps": "App Store पर <strong>2 ऐप</strong>",
+      "apps": "App Store पर <strong>MyBibleLens</strong>",
       "languages": "MyBibleLens में <strong>43 भाषाएँ</strong>",
-      "years": "<strong>10 साल</strong> से कोडिंग",
+      "years": "<strong>10 साल</strong> से ऑनलाइन निर्माण",
       "inHouse": "<strong>आइडिया से लॉन्च तक</strong>, सब इन-हाउस"
     },
     "bigline": "<count>20+</count> प्रोजेक्ट <star>✦</star> बनाए <star>✦</star> लॉन्च किए <star>✦</star> लाइव <star>✦</star>",

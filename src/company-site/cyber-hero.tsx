@@ -3,6 +3,18 @@ import { useTranslation } from "react-i18next";
 import styles from "./cyber.module.css";
 
 export type ArcStat = { value: string; suffix?: string; label: string };
+
+/** Long arc labels ("YEARS BUILDING ONLINE", and longer in some languages) break onto two lines so they stay on screen. */
+const ARC_LABEL_MAX = 15;
+const splitArcLabel = (label: string): string[] => {
+  if (label.length <= ARC_LABEL_MAX || !label.includes(" ")) return [label];
+  const middle = label.length / 2;
+  let best = -1;
+  for (let index = label.indexOf(" "); index !== -1; index = label.indexOf(" ", index + 1)) {
+    if (best === -1 || Math.abs(index - middle) < Math.abs(best - middle)) best = index;
+  }
+  return [label.slice(0, best), label.slice(best + 1)];
+};
 type Variant = "home" | "founder";
 // ax/ay mark where the face sits in each photo; that point is lined up with the centre of the arcs.
 type Photo = { src: string; width: number; height: number; ax: number; ay: number };
@@ -191,7 +203,11 @@ function ArcStats({ stats, id }: { stats: readonly ArcStat[]; id: string }) {
                 ) : null}
               </text>
               <text className={`${styles.arcText} ${styles.arcLabel}`} x={round(dx + 18)} y={round(dy + 22)} style={{ animationDelay: `${round(markDelay + 0.3)}s` }}>
-                {stat.label}
+                {splitArcLabel(stat.label).map((line, lineIndex) => (
+                  <tspan key={line} x={round(dx + 18)} dy={lineIndex === 0 ? 0 : 12}>
+                    {line}
+                  </tspan>
+                ))}
               </text>
             </g>
           );

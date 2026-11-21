@@ -4,7 +4,7 @@
     "stats": {
       "projects": "ỌRỤ E WURU",
       "languages": "ASỤSỤ",
-      "appStore": "NA APP STORE"
+      "years": "AFỌ NKE IWU IHE N'ỊNTANETỊ"
     },
     "eyebrow": "Ọnụ ụzọ gaa na <em>ọdịnihu gị na olileanya</em>",
     "title": "Ebumnuche, <break/>e wuru <break/>n'ịma mma.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Ọrụ",
-    "title": "Ngwa abụọ dị na App Store. <break/><em>Android na-abịa n'oge na-adịghị anya.</em>",
+    "title": "MyBibleLens dị na App Store. <break/><em>The Water Check: A na-arụ ya.</em>",
     "visit": "Gaa na {{name}}",
     "android": "Android na-abịa n'oge na-adịghị anya",
     "bio": "Akụkọ ndụ",
@@ -32,9 +32,9 @@
     "title": "E wuru ya site na efu. <em>Ọrụ ahụ na-ekwuru onwe ya.</em>",
     "lead": "Ngwa, weebụsaịtị, ngwaọrụ AI, fim na mgbasa ozi, e mere, dee koodu ha ma wepụta ha n'ime ụlọ ọrụ anyị. Nke a bụ ụfọdụ n'ime ha.",
     "stats": {
-      "apps": "<strong>Ngwa 2</strong> na App Store",
+      "apps": "<strong>MyBibleLens</strong> na App Store",
       "languages": "<strong>Asụsụ 43</strong> na MyBibleLens",
-      "years": "<strong>Afọ 10</strong> nke ide koodu",
+      "years": "<strong>Afọ 10</strong> nke iwu ihe n'ịntanetị",
       "inHouse": "<strong>Site n'echiche ruo mwepụta</strong>, ha niile n'ime ụlọ"
     },
     "bigline": "<count>20+</count> ỌRỤ <star>✦</star> E WURU <star>✦</star> E WEPỤTARA <star>✦</star> NA-ARỤ ỌRỤ <star>✦</star>",

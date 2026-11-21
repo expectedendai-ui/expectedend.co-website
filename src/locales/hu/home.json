@@ -4,7 +4,7 @@
     "stats": {
       "projects": "MEGÉPÍTETT PROJEKT",
       "languages": "NYELV",
-      "appStore": "AZ APP STORE-BAN"
+      "years": "ÉV ONLINE ALKOTÁS"
     },
     "eyebrow": "Kapu a <em>remélt jövőjéhez</em>",
     "title": "Cél, <break/>gyönyörűen <break/>megépítve.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Projektek",
-    "title": "Két alkalmazás az App Store-ban. <break/><em>Hamarosan Androidon is.</em>",
+    "title": "A MyBibleLens az App Store-ban. <break/><em>The Water Check: Készülőben.</em>",
     "visit": "{{name}} megtekintése",
     "android": "Hamarosan Androidon",
     "bio": "Életrajz",
@@ -32,9 +32,9 @@
     "title": "A nulláról építve. <em>A munka önmagáért beszél.</em>",
     "lead": "Alkalmazások, weboldalak, AI-eszközök, filmek és kampányok, házon belül tervezve, kódolva és elindítva. Íme egy részük.",
     "stats": {
-      "apps": "<strong>2 alkalmazás</strong> az App Store-ban",
+      "apps": "A <strong>MyBibleLens</strong> az App Store-ban",
       "languages": "<strong>43 nyelv</strong> a MyBibleLensben",
-      "years": "<strong>10 év</strong> kódolás",
+      "years": "<strong>10 év</strong> online alkotás",
       "inHouse": "<strong>Az ötlettől az indulásig</strong>, mind házon belül"
     },
     "bigline": "<count>20+</count> PROJEKT <star>✦</star> MEGÉPÍTVE <star>✦</star> KIADVA <star>✦</star> ÉLESBEN <star>✦</star>",

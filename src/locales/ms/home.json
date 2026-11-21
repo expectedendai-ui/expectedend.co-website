@@ -4,7 +4,7 @@
     "stats": {
       "projects": "PROJEK DIBINA",
       "languages": "BAHASA",
-      "appStore": "DI APP STORE"
+      "years": "TAHUN BERKARYA DALAM TALIAN"
     },
     "eyebrow": "Pintu menuju <em>masa depan dan harapan</em> anda",
     "title": "Bermatlamat, <break/>dibina <break/>dengan indah.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Projek",
-    "title": "Dua aplikasi di App Store. <break/><em>Android akan datang.</em>",
+    "title": "MyBibleLens di App Store. <break/><em>The Water Check: Sedang diusahakan.</em>",
     "visit": "Lawati {{name}}",
     "android": "Android akan datang",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Dibina dari sifar. <em>Hasilnya bercakap sendiri.</em>",
     "lead": "Aplikasi, laman web, alat AI, filem dan kempen, direka, dikod dan dilancarkan secara dalaman. Inilah sebahagiannya.",
     "stats": {
-      "apps": "<strong>2 aplikasi</strong> di App Store",
+      "apps": "<strong>MyBibleLens</strong> di App Store",
       "languages": "<strong>43 bahasa</strong> dalam MyBibleLens",
-      "years": "<strong>10 tahun</strong> menulis kod",
+      "years": "<strong>10 tahun</strong> berkarya dalam talian",
       "inHouse": "<strong>Dari idea hingga pelancaran</strong>, semuanya secara dalaman"
     },
     "bigline": "<count>20+</count> PROJEK <star>✦</star> DIBINA <star>✦</star> DILANCARKAN <star>✦</star> AKTIF <star>✦</star>",

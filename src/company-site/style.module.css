@@ -142,18 +142,17 @@
   line-height: .94;
 }
 
-.aboutMain, .infoMain, .notFound { min-height: 78svh; padding: 10rem 1.5rem 7rem; }
-.aboutLayout { width: min(940px, 100%); margin: 5vh auto 0; }
-.aboutLayout h1, .infoHeader h1, .notFound h1 { margin: 0; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(4rem, 9vw, 8rem); font-weight: 400; letter-spacing: -.05em; line-height: .9; }
-.aboutLayout h1 { max-width: 900px; font-size: clamp(3.8rem, 8vw, 7.3rem); }
+.infoMain, .notFound { min-height: 78svh; padding: 10rem 1.5rem 7rem; }
+
+.infoHeader h1, .notFound h1 { margin: 0; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(4rem, 9vw, 8rem); font-weight: 400; letter-spacing: -.05em; line-height: .9; }
+
 .aboutCopy { display: grid; max-width: 680px; gap: 1.15rem; margin: 3rem 0 0 auto; color: var(--muted); font-size: 1.05rem; line-height: 1.75; }
 .aboutCopy p { margin: 0; }
 .aboutCopy .aboutLead { color: var(--ink); font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.15; }
 
-.aboutStory { display: grid; width: min(940px, 100%); gap: clamp(3.5rem, 7vw, 6rem); margin: clamp(5rem, 9vw, 7rem) auto 0; }
 .storyChapter { display: grid; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 7vw, 6rem); align-items: start; }
 .storyHeading { position: sticky; top: 8rem; }
-.storyHeading h2, .storyHeading h3, .missionStory h2, .pressSection h2 {
+.storyHeading h2, .storyHeading h3 {
   margin: .6rem 0 0;
   font-family: "Instrument Serif", Georgia, serif;
   font-size: clamp(2.8rem, 5.5vw, 5rem);
@@ -163,21 +162,6 @@
 }
 .storyCopy { display: grid; gap: 1.35rem; color: var(--muted); font-size: 1.03rem; line-height: 1.8; }
 .storyCopy p { margin: 0; }
-
-.missionStory {
-  display: grid;
-  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
-  gap: clamp(2rem, 7vw, 6rem);
-  padding: clamp(2rem, 6vw, 5rem);
-  scroll-margin-top: 7rem;
-  border: 1px solid var(--line);
-  border-radius: 38px;
-  background: linear-gradient(140deg, var(--surface), color-mix(in srgb, var(--surface) 45%, transparent));
-  box-shadow: var(--shadow);
-}
-.missionCopy { display: grid; gap: 1.35rem; color: var(--muted); line-height: 1.8; }
-.missionCopy p { margin: 0; }
-.missionCopy .missionLine { color: var(--ink); font-family: "Instrument Serif", Georgia, serif; font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1.2; }
 
 .projectOrigins { display: grid; gap: 3rem; }
 .projectOrigins .storyHeading { position: static; max-width: 580px; }
@@ -190,28 +174,7 @@
 .originGrid a { display: inline-block; margin-top: 1.5rem; color: var(--gold-soft); font-size: .78rem; font-weight: 800; }
 .site[data-site-theme="white"] .originGrid a { color: #8d651d; }
 
-.pressSection {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr);
-  gap: clamp(2rem, 7vw, 6rem);
-  align-items: end;
-  padding-block: 4rem;
-  scroll-margin-top: 7rem;
-  border-block: 1px solid var(--line);
-}
-.pressSection div:last-child { color: var(--muted); line-height: 1.75; }
-.pressSection div:last-child p { margin: 0; }
-.pressSection a { display: inline-flex; align-items: center; gap: .7rem; margin-top: 1.4rem; color: var(--ink); font-size: .78rem; font-weight: 800; }
-
-.founderReveal {
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 34px;
-  background: linear-gradient(140deg, var(--surface), color-mix(in srgb, var(--surface) 48%, transparent));
-  box-shadow: var(--shadow);
-}
-.founderRevealIntro { max-width: 700px; padding: clamp(2rem, 5vw, 4rem); padding-bottom: 2rem; }
-.founderRevealIntro h2, .founderIntro h2 {
+.founderIntro h2 {
   margin: .6rem 0 0;
   font-family: "Instrument Serif", Georgia, serif;
   font-size: clamp(2.8rem, 6vw, 5.2rem);
@@ -219,30 +182,6 @@
   letter-spacing: -.04em;
   line-height: .96;
 }
-.founderRevealIntro > p:last-child { max-width: 600px; margin: 1.25rem 0 0; color: var(--muted); line-height: 1.7; }
-.founderReadMore { color: var(--gold-soft); font-weight: 700; }
-.founderToggle {
-  display: flex;
-  width: auto;
-  min-height: 64px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  margin: 0 clamp(2rem, 5vw, 4rem) clamp(2rem, 5vw, 4rem);
-  padding: 0 1.25rem;
-  border: 1px solid var(--gold);
-  border-radius: 18px;
-  color: #15285d;
-  background: var(--gold-soft);
-  cursor: pointer;
-  font: 800 13px/1 "DM Sans", sans-serif;
-  text-align: left;
-  transition: transform 180ms ease, box-shadow 180ms ease;
-}
-.founderToggle > span, .founderToggleIcon { color: var(--blue-deep); }
-.founderToggle:hover { box-shadow: 0 14px 35px rgba(0, 5, 30, .2); transform: translateY(-2px); }
-.founderToggleIcon { width: 1.6rem; height: 1.6rem; flex: 0 0 auto; transition: transform 180ms ease; }
-.founderToggle[aria-expanded="true"] .founderToggleIcon { transform: rotate(180deg); }
 
 .founderPanel { display: grid; gap: clamp(3.5rem, 7vw, 5.5rem); padding: clamp(2rem, 5vw, 4rem); border-top: 1px solid var(--line); }
 .founderPanel .storyHeading { position: static; }
@@ -300,7 +239,6 @@
 }
 .truthCopy .inlineVerse:hover { color: var(--ink); }
 .truthCopy .inlineVerse:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 4px; }
-.aboutMain .contactSection { margin-top: clamp(4rem, 8vw, 6rem); }
 
 .contactSection {
   width: min(940px, 100%);
@@ -401,6 +339,25 @@
 .contactDialog .contactSection { width: 100%; margin: 0; padding: clamp(1.5rem, 5vw, 3.5rem); border: 0; border-radius: 0; background: transparent; box-shadow: none; }
 .contactDialog .contactHeader { padding-right: 3rem; }
 
+/* On the dark pages (home, About, Press) the contact popup follows the near-black look. */
+.site[data-page="home"] .contactDialog {
+  --ink: #f4f2ee;
+  --muted: rgba(244, 242, 238, .62);
+  --line: rgba(255, 255, 255, .12);
+  --surface: #111118;
+  --surface-solid: #0b0b10;
+  border-color: rgba(255, 255, 255, .15);
+  background: radial-gradient(circle at 0% 0%, rgba(255, 106, 43, .1), transparent 45%), #0b0b10;
+  box-shadow: 0 40px 120px rgba(0, 0, 0, .7);
+}
+.site[data-page="home"] .contactDialog::backdrop { background: rgba(3, 3, 6, .78); }
+.site[data-page="home"] .contactDialog .contactHeader h2 { font-family: "JetBrains Mono", ui-monospace, monospace; letter-spacing: -.075em; }
+.site[data-page="home"] .contactDialog .contactField input,
+.site[data-page="home"] .contactDialog .contactField select,
+.site[data-page="home"] .contactDialog .contactField textarea { color: #f4f2ee; background: #111118; }
+.site[data-page="home"] .contactDialog .contactField select option { color: #f4f2ee; background: #111118; }
+.site[data-page="home"] .contactDialog .contactSubmit button { border-color: #fff; color: #111827; background: #fff; }
+
 .bioDialog { width: min(680px, calc(100% - 32px)); max-height: min(92svh, 920px); padding: 0; overflow-y: auto; border: 1px solid var(--line); border-radius: 24px; color: var(--ink); background: var(--surface-solid); box-shadow: 0 34px 100px rgba(0, 5, 30, .5); }
 .bioDialog::backdrop { background: rgba(3, 10, 31, .66); backdrop-filter: blur(8px); }
 .bioDialogInner { padding: clamp(1.4rem, 4vw, 2.5rem); }
@@ -456,11 +413,10 @@
   
   
   
-  .aboutMain, .infoMain { padding-inline: 1rem; }
-  .storyChapter, .missionStory, .pressSection, .truthChapter { grid-template-columns: 1fr; }
+  .infoMain { padding-inline: 1rem; }
+  .storyChapter, .truthChapter { grid-template-columns: 1fr; }
   .storyHeading { position: static; }
-  .founderReveal { border-radius: 28px; }
-  .founderToggle { margin-inline: 2rem; }
+
   .originGrid { grid-template-columns: 1fr; }
   .originGrid article { min-height: 280px; }
   .originGrid h3 { margin-top: 2.8rem; }

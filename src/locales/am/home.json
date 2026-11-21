@@ -4,7 +4,7 @@
     "stats": {
       "projects": "የተሠሩ ፕሮጀክቶች",
       "languages": "ቋንቋዎች",
-      "appStore": "በApp Store ላይ"
+      "years": "ዓመታት በኢንተርኔት ላይ በመገንባት"
     },
     "eyebrow": "ወደ <em>ፍጻሜዎና ተስፋዎ</em> መግቢያ",
     "title": "ዓላማ፣ <break/>በውበት <break/>የተገነባ።",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / ፕሮጀክቶች",
-    "title": "በApp Store ላይ ሁለት መተግበሪያዎች። <break/><em>Android በቅርቡ ይመጣል።</em>",
+    "title": "MyBibleLens በApp Store ላይ። <break/><em>The Water Check: በሥራ ላይ ነው.</em>",
     "visit": "{{name}}ን ይጎብኙ",
     "android": "Android በቅርቡ ይመጣል",
     "bio": "የሕይወት ታሪክ",
@@ -32,9 +32,9 @@
     "title": "ከዜሮ የተገነባ። <em>ሥራው ራሱ ይናገራል።</em>",
     "lead": "መተግበሪያዎች፣ ድረ-ገጾች፣ የAI መሣሪያዎች፣ ፊልሞችና ዘመቻዎች፣ ሁሉም በራሳችን የተነደፉ፣ ኮድ የተጻፈላቸውና ለሕዝብ የቀረቡ። ከእነዚህ ጥቂቶቹ እነሆ።",
     "stats": {
-      "apps": "<strong>2 መተግበሪያዎች</strong> በApp Store ላይ",
+      "apps": "<strong>MyBibleLens</strong> በApp Store ላይ",
       "languages": "<strong>43 ቋንቋዎች</strong> በMyBibleLens ውስጥ",
-      "years": "<strong>10 ዓመታት</strong> ኮድ በመጻፍ",
+      "years": "<strong>10 ዓመታት</strong> በኢንተርኔት ላይ በመገንባት",
       "inHouse": "<strong>ከሐሳብ እስከ ምርቃት</strong>፣ ሁሉም በራሳችን"
     },
     "bigline": "<count>20+</count> ፕሮጀክቶች <star>✦</star> ተሠርተዋል <star>✦</star> ተለቀዋል <star>✦</star> በሥራ ላይ <star>✦</star>",

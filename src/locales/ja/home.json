@@ -4,7 +4,7 @@
     "stats": {
       "projects": "つくったプロジェクト",
       "languages": "言語",
-      "appStore": "App Store で配信中"
+      "years": "年、オンラインでものづくり"
     },
     "eyebrow": "あなたの<em>将来と希望</em>への入り口",
     "title": "目的を持って、<break/>美しく<break/>つくる。",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / プロジェクト",
-    "title": "App Store で2つのアプリを配信中。<break/><em>Android 版も近日登場。</em>",
+    "title": "MyBibleLens を App Store で配信中。 <break/><em>The Water Check: 開発中。</em>",
     "visit": "{{name}}を見る",
     "android": "Android 版は近日登場",
     "bio": "紹介",
@@ -32,9 +32,9 @@
     "title": "ゼロからつくりました。<em>作品がすべてを語ります。</em>",
     "lead": "アプリ、Web サイト、AI ツール、映像、キャンペーン。すべて自社で設計、開発、リリースしています。その一部をご紹介します。",
     "stats": {
-      "apps": "App Store で<strong>2つのアプリ</strong>",
+      "apps": "<strong>MyBibleLens</strong> を App Store で配信中",
       "languages": "MyBibleLens は<strong>43言語</strong>に対応",
-      "years": "コードを書いて<strong>10年</strong>",
+      "years": "オンラインでものづくり<strong>10年</strong>",
       "inHouse": "<strong>アイデアからリリースまで</strong>、すべて自社で"
     },
     "bigline": "<count>20+</count> プロジェクト <star>✦</star> 開発 <star>✦</star> リリース <star>✦</star> 公開中 <star>✦</star>",

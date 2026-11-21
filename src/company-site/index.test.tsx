@@ -386,16 +386,27 @@ describe("Expected End public site", () => {
     expect(screen.queryByRole("group", { name: "Color theme" })).not.toBeInTheDocument();
   });
 
-  it("routes the footer Contact link to the guided About form", async () => {
+  it("opens the guided contact form as a popup from the footer Contact link, without leaving the page", async () => {
     const user = userEvent.setup();
     vi.spyOn(window, "scrollTo").mockImplementation(() => undefined);
     render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
 
     const footerNavigation = screen.getByRole("navigation", { name: "Footer navigation" });
-    await user.click(within(footerNavigation).getByRole("link", { name: "Contact" }));
-    expect(window.location.pathname).toBe("/about");
-    expect(window.location.hash).toBe("#contact");
-    expect(screen.getByRole("heading", { level: 2, name: "Start with a little context." })).toBeInTheDocument();
-    expect(screen.getByLabelText("Price range")).toBeRequired();
+    const contactLink = within(footerNavigation).getByRole("link", { name: "Contact" });
+    await user.click(contactLink);
+    expect(window.location.pathname).toBe("/");
+    const dialog = screen.getByRole("dialog", { name: "Start with a little context." });
+    expect(within(dialog).getByLabelText("Which project?")).toHaveValue("");
+    expect(within(dialog).getByLabelText("Price range")).toBeRequired();
+
+    await user.click(within(dialog).getByRole("button", { name: "Close contact form" }));
+    expect(screen.queryByRole("dialog", { name: "Start with a little context." })).not.toBeInTheDocument();
+    expect(contactLink).toHaveFocus();
+  });
+
+  it("opens the contact popup when a page is loaded at #contact (links from older pages)", () => {
+    window.history.replaceState({}, "", "/about#contact");
+    render(<CompanySite leaving={false} onOpenArtWorld={vi.fn()} />);
+    expect(within(screen.getByRole("dialog", { name: "Start with a little context." })).getByLabelText("Price range")).toBeRequired();
   });
 });

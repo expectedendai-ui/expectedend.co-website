@@ -4,7 +4,7 @@
     "stats": {
       "projects": "IṢẸ́ ÀKÀNṢE TÍ A TI ṢE",
       "languages": "ÈDÈ",
-      "appStore": "LÓRÍ APP STORE"
+      "years": "ỌDÚN TI ṢÍṢẸ̀DÁ LÓRÍ ÍNTÁNẸ́Ẹ̀TÌ"
     },
     "eyebrow": "Ẹnu-ọ̀nà sí <em>ìgbà ìkẹyìn àti ìrètí rẹ</em>",
     "title": "Ète, <break/>tí a kọ́ <break/>lọ́nà ẹlẹ́wà.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Àwọn iṣẹ́ àkànṣe",
-    "title": "Áàpù méjì lórí App Store. <break/><em>Android ń bọ̀ láìpẹ́.</em>",
+    "title": "MyBibleLens wà lórí App Store. <break/><em>The Water Check: A ń ṣiṣẹ́ lórí rẹ̀.</em>",
     "visit": "Ṣàbẹ̀wò sí {{name}}",
     "android": "Android ń bọ̀ láìpẹ́",
     "bio": "Ìtàn ṣókí",
@@ -32,9 +32,9 @@
     "title": "A kọ́ ọ láti òdo. <em>Iṣẹ́ náà ń sọ̀rọ̀ fúnra rẹ̀.</em>",
     "lead": "Áàpù, ojú òpó wẹ́ẹ̀bù, irinṣẹ́ AI, fíìmù àti ìpolongo, tí a ṣe àpẹẹrẹ wọn, tí a kọ kóòdù wọn, tí a sì gbé wọn jáde nínú ilé. Díẹ̀ nínú wọn nìyí.",
     "stats": {
-      "apps": "<strong>Áàpù 2</strong> lórí App Store",
+      "apps": "<strong>MyBibleLens</strong> lórí App Store",
       "languages": "<strong>Èdè 43</strong> nínú MyBibleLens",
-      "years": "<strong>Ọdún 10</strong> ti kíkọ kóòdù",
+      "years": "<strong>Ọdún 10</strong> ti ṣíṣẹ̀dá lórí íntánẹ́ẹ̀tì",
       "inHouse": "<strong>Láti èrò dé ìfilọ́lẹ̀</strong>, gbogbo rẹ̀ nínú ilé"
     },
     "bigline": "<count>20+</count> IṢẸ́ ÀKÀNṢE <star>✦</star> A KỌ́ WỌN <star>✦</star> A GBÉ WỌN JÁDE <star>✦</star> WỌ́N WÀ NÍTA <star>✦</star>",

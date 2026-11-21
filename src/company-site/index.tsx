@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useTranslation } from "react-i18next";
 import { AboutPage } from "./about";
+import { ContactDialog } from "./contact-dialog";
 import { DenzelPage } from "./denzel-page";
 import { Footer } from "./footer";
 import { HomePage } from "./home";
@@ -92,8 +93,19 @@ const scrollToHash = (hash: string) => {
   window.requestAnimationFrame(() => document.getElementById(hash.slice(1))?.scrollIntoView?.({ block: "start" }));
 };
 
+/** Any link to #contact (the nav, footers, "/about#contact" from older pages) opens the contact form as a popup. */
+const CONTACT_HASH = "#contact";
+
+/** Pages in the new dark look: they share the pill menu and the dark footer. */
+const DARK_PAGES = new Set(["home", "about", "press"]);
+
+type ContactRequest = { reason: string; opener: HTMLElement };
+
 export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   const [route, setRoute] = React.useState(() => getRoute(window.location.pathname));
+  const [contact, setContact] = React.useState<ContactRequest | null>(() =>
+    window.location.hash === CONTACT_HASH ? { reason: "", opener: document.body } : null,
+  );
   const { t, i18n } = useTranslation();
 
   React.useEffect(() => {
@@ -103,7 +115,8 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   React.useEffect(() => {
     const onPopState = () => {
       setRoute(getRoute(window.location.pathname));
-      scrollToHash(window.location.hash);
+      if (window.location.hash === CONTACT_HASH) setContact({ reason: "", opener: document.body });
+      else scrollToHash(window.location.hash);
     };
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
@@ -115,6 +128,10 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
     if (!href || !isInternalHref(href)) return;
     event.preventDefault();
     const url = new URL(href, window.location.href);
+    if (url.hash === CONTACT_HASH) {
+      setContact({ reason: event.currentTarget.dataset.contactReason ?? "", opener: event.currentTarget });
+      return;
+    }
     const destination = `${url.pathname}${url.hash}`;
     if (`${window.location.pathname}${window.location.hash}` !== destination) window.history.pushState({}, "", destination);
     setRoute(getRoute(url.pathname));
@@ -145,9 +162,9 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
   };
 
   return (
-    <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue" data-page={route.key === "home" ? "home" : undefined}>
-      {route.key === "home" ? (
-        <PillNavigation links={HOME_NAV} onNavigate={onNavigate} />
+    <div className={`${styles.site} ${leaving ? styles.leaving : ""}`} data-site-theme="blue" data-page={DARK_PAGES.has(route.key) ? "home" : undefined}>
+      {DARK_PAGES.has(route.key) ? (
+        <PillNavigation links={HOME_NAV} currentHref={route.path} onNavigate={onNavigate} />
       ) : route.key === "denzel-rigaud" ? (
         <PillNavigation links={FOUNDER_NAV} contactHref="#channel-title" founder onNavigate={onNavigate} />
       ) : (
@@ -165,7 +182,18 @@ export function CompanySite({ leaving, onOpenArtWorld }: CompanySiteProps) {
       ) : (
         route.key !== "mybiblelens-store" && route.key !== "watercheck-store" && route.key !== "watercheck-page" && <Footer onNavigate={onNavigate} />
       )}
-      {!leaving && <LanguageChooser theme={route.navTheme === "water" || route.key === "watercheck-store" ? "water" : "gold"} />}
+      {contact && (
+        <ContactDialog
+          initialReason={contact.reason}
+          initialProject=""
+          returnFocusTo={contact.opener}
+          onClose={() => {
+            setContact(null);
+            if (window.location.hash === CONTACT_HASH) window.history.replaceState({}, "", window.location.pathname);
+          }}
+        />
+      )}
+      {!leaving && <LanguageChooser theme={route.navTheme === "water" || route.key === "watercheck-store" ? "water" : "dark"} />}
     </div>
   );
 }

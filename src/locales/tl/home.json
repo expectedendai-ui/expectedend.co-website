@@ -4,7 +4,7 @@
     "stats": {
       "projects": "PROYEKTONG NABUO",
       "languages": "WIKA",
-      "appStore": "NASA APP STORE"
+      "years": "TAON NG PAGBUO ONLINE"
     },
     "eyebrow": "Pintuan patungo sa <em>inaasahang kinabukasan</em> mo",
     "title": "Layunin, <break/>binuo <break/>nang maganda.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Mga Proyekto",
-    "title": "Dalawang app sa App Store. <break/><em>Malapit na sa Android.</em>",
+    "title": "Nasa App Store na ang MyBibleLens. <break/><em>The Water Check: Ginagawa pa.</em>",
     "visit": "Bisitahin ang {{name}}",
     "android": "Malapit na sa Android",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Binuo mula sa wala. <em>Ang gawa na ang nagsasalita.</em>",
     "lead": "Mga app, website, AI tool, pelikula, at kampanya, na dinisenyo, kinode, at inilunsad nang in-house. Narito ang ilan.",
     "stats": {
-      "apps": "<strong>2 app</strong> sa App Store",
+      "apps": "<strong>MyBibleLens</strong> sa App Store",
       "languages": "<strong>43 wika</strong> sa MyBibleLens",
-      "years": "<strong>10 taon</strong> ng pagko-code",
+      "years": "<strong>10 taon</strong> ng pagbuo online",
       "inHouse": "<strong>Mula ideya hanggang launch</strong>, lahat in-house"
     },
     "bigline": "<count>20+</count> PROYEKTO <star>✦</star> BINUO <star>✦</star> INILUNSAD <star>✦</star> LIVE <star>✦</star>",

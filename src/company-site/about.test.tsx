@@ -79,9 +79,11 @@ describe("Expected End About page", () => {
     expect(screen.getByRole("heading", { name: "Help tell the story." })).toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "Hi, my name is Denzel Rigaud." })).not.toBeInTheDocument();
 
-    const founderStory = screen.getByRole("region", { name: "The story behind Expected End." });
+    // The mission leads; the founder story is a card that links to its own page (no repeated story or inline form).
     const missionStory = screen.getByRole("region", { name: "Technology should help you return to your life." });
-    expect(founderStory.compareDocumentPosition(missionStory) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    const founderStory = screen.getByRole("article", { name: "The story behind Expected End." });
+    expect(missionStory.compareDocumentPosition(founderStory) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(screen.queryByLabelText("Price range")).not.toBeInTheDocument();
 
     const storyLink = screen.getByRole("link", { name: "The Founder Story, Denzel Rigaud" });
     expect(storyLink).toHaveAttribute("href", "/denzel-rigaud");
@@ -255,7 +257,7 @@ describe("Expected End About page", () => {
 
     expect(container.textContent).not.toContain("↓");
     expect(pressLink).toHaveAttribute("href", "/press");
-    expect(pressLink.querySelector('svg[data-action-icon="down"]')).toBeInTheDocument();
+    expect(pressLink.querySelector('svg[data-action-icon="up-right"]')).toBeInTheDocument();
   });
 
   it.each(["/", "/about"])("does not show the egg on %s", (path) => {

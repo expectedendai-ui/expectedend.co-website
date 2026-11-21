@@ -4,7 +4,7 @@
     "stats": {
       "projects": "PROYEKTO NGA NAHIMO",
       "languages": "PINULONGAN",
-      "appStore": "ANAA SA APP STORE"
+      "years": "KA TUIG SA PAGHIMO ONLINE"
     },
     "eyebrow": "Pultahan paingon sa <em>kaugmaon nga imong gilauman</em>",
     "title": "Katuyoan, <break/>gitukod <break/>nga matahom.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Mga Proyekto",
-    "title": "Duha ka app sa App Store. <break/><em>Hapit na sa Android.</em>",
+    "title": "Ang MyBibleLens anaa na sa App Store. <break/><em>The Water Check: Ginabuhat pa.</em>",
     "visit": "Bisitaha ang {{name}}",
     "android": "Hapit na sa Android",
     "bio": "Bio",
@@ -32,9 +32,9 @@
     "title": "Gitukod gikan sa wala. <em>Ang buhat na ang nagsulti.</em>",
     "lead": "Mga app, website, AI tool, pelikula, ug kampanya, gidisenyo, gi-code, ug gilansad in-house. Ania ang pipila.",
     "stats": {
-      "apps": "<strong>2 ka app</strong> sa App Store",
+      "apps": "<strong>MyBibleLens</strong> anaa sa App Store",
       "languages": "<strong>43 ka pinulongan</strong> sa MyBibleLens",
-      "years": "<strong>10 ka tuig</strong> sa pag-code",
+      "years": "<strong>10 ka tuig</strong> sa paghimo online",
       "inHouse": "<strong>Gikan sa ideya hangtod sa launch</strong>, tanan in-house"
     },
     "bigline": "<count>20+</count> KA PROYEKTO <star>✦</star> GITUKOD <star>✦</star> GILANSAD <star>✦</star> LIVE <star>✦</star>",

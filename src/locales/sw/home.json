@@ -4,7 +4,7 @@
     "stats": {
       "projects": "MIRADI ILIYOJENGWA",
       "languages": "LUGHA",
-      "appStore": "KWENYE APP STORE"
+      "years": "MIAKA YA KUJENGA MTANDAONI"
     },
     "eyebrow": "Lango la kuelekea <em>mwisho wako unaotarajiwa</em>",
     "title": "Kusudi, <break/>lililojengwa <break/>kwa uzuri.",
@@ -14,7 +14,7 @@
   },
   "projects": {
     "eyebrow": "01 / Miradi",
-    "title": "Programu mbili kwenye App Store. <break/><em>Android inakuja hivi karibuni.</em>",
+    "title": "MyBibleLens iko kwenye App Store. <break/><em>The Water Check: Inaandaliwa.</em>",
     "visit": "Tembelea {{name}}",
     "android": "Android inakuja hivi karibuni",
     "bio": "Wasifu",
@@ -32,9 +32,9 @@
     "title": "Imejengwa kutoka sifuri. <em>Kazi inajieleza yenyewe.</em>",
     "lead": "Programu, tovuti, zana za AI, filamu na kampeni, zilizobuniwa, kuandikiwa msimbo na kuzinduliwa ndani ya kampuni. Hii ni sehemu yake.",
     "stats": {
-      "apps": "<strong>Programu 2</strong> kwenye App Store",
+      "apps": "<strong>MyBibleLens</strong> kwenye App Store",
       "languages": "<strong>Lugha 43</strong> ndani ya MyBibleLens",
-      "years": "<strong>Miaka 10</strong> ya kuandika msimbo",
+      "years": "<strong>Miaka 10</strong> ya kujenga mtandaoni",
       "inHouse": "<strong>Kutoka wazo hadi uzinduzi</strong>, vyote ndani ya kampuni"
     },
     "bigline": "<count>20+</count> MIRADI <star>✦</star> IMEJENGWA <star>✦</star> IMEZINDULIWA <star>✦</star> IKO HEWANI <star>✦</star>",

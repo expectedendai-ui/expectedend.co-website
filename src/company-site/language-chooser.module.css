@@ -23,6 +23,30 @@
   --lc-line: rgba(143, 230, 255, .38);
 }
 
+/* Home, About and Press: the near-black look with a warm gold accent. */
+.globe[data-theme="dark"],
+.dialog[data-theme="dark"] {
+  --lc-accent: #f2d98b;
+  --lc-accent-soft: #fff1c4;
+  --lc-ink: #f4f2ee;
+  --lc-muted: rgba(244, 242, 238, .64);
+  --lc-card: radial-gradient(circle at 0% 0%, rgba(255, 106, 43, .12), transparent 55%), linear-gradient(180deg, #0e0e14 0%, #060609 100%);
+  --lc-glass: rgba(6, 6, 9, .72);
+  --lc-line: rgba(255, 255, 255, .15);
+  --lc-option: rgba(255, 255, 255, .03);
+  --lc-option-line: rgba(255, 255, 255, .08);
+}
+
+.dialog[data-theme="dark"]::backdrop {
+  background: rgba(3, 3, 6, .78);
+}
+
+.dialog[data-theme="dark"] .title {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-weight: 500;
+  letter-spacing: -.06em;
+}
+
 .globe {
   position: fixed;
   left: max(16px, env(safe-area-inset-left, 0px));

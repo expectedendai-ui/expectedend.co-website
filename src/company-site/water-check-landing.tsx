@@ -314,7 +314,8 @@ export function WaterCheckLanding({ onNavigate }: Props) {
                   </a>
                 </li>
                 <li>
-                  <a href="/about#contact">{t("landing.foot.contact")}</a>
+                  {/* biome-ignore lint/a11y/useValidAnchor: opens the contact popup (CompanySite handles #contact) */}
+                  <a href="/about#contact" onClick={onNavigate}>{t("landing.foot.contact")}</a>
                 </li>
               </ul>
             </div>
