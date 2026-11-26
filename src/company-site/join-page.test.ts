@@ -22,7 +22,7 @@ describe("Crew invite page languages", () => {
   it("asks on a first visit with the browser's language lit, and closing keeps English for good", () => {
     const { dom, document, chooser } = open("ABCD-EFG", { languages: ["es-MX", "en"] });
     expect(chooser.hidden).toBe(false);
-    expect(document.querySelectorAll("#chooser-list button")).toHaveLength(43);
+    expect(document.querySelectorAll("#chooser-list button")).toHaveLength(44);
     expect(document.querySelector('#chooser-list [aria-pressed="true"]')?.getAttribute("lang")).toBe("es");
     expect(document.getElementById("chooser-title")?.textContent).toBe("Elige tu idioma");
 

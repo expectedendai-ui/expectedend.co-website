@@ -20,8 +20,8 @@ describe("language chooser", () => {
       localStorage.removeItem(LANGUAGE_KEY);
       const { unmount } = visit(path);
       const dialog = screen.getByRole("dialog", { name: "Choose your language" });
-      // 43 languages and the close button.
-      expect(within(dialog).getAllByRole("button"), path).toHaveLength(44);
+      // 44 languages and the close button.
+      expect(within(dialog).getAllByRole("button"), path).toHaveLength(45);
       unmount();
     }
   }, 20_000);

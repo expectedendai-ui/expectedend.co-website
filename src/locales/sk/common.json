@@ -1,0 +1,12 @@
+{
+  "notFound": {
+    "title": "Táto stránka tu nie je.",
+    "home": "Späť na úvod"
+  },
+  "legal": {
+    "englishOnly": "Táto stránka je zobrazená v angličtine a záväzná je anglická verzia.",
+    "effective": "Platné od {{date}}",
+    "onThisPage": "Na tejto stránke",
+    "related": "Súvisiace stránky"
+  }
+}

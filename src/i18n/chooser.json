@@ -287,6 +287,14 @@
     "selected": "Vybráno",
     "languages": "Jazyky"
   },
+  "sk": {
+    "title": "Vyberte si svoj jazyk",
+    "intro": "Vyberte jazyk, ktorý chcete používať. Môžete ho kedykoľvek zmeniť.",
+    "list": "Dostupné jazyky",
+    "close": "Zatvoriť výber jazyka",
+    "selected": "Vybraté",
+    "languages": "Jazyky"
+  },
   "hu": {
     "title": "Válassza ki a nyelvet",
     "intro": "Válassza ki a használni kívánt nyelvet. Bármikor megváltoztathatod.",

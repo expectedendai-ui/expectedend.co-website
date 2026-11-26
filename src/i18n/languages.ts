@@ -1,5 +1,5 @@
 /**
- * The 43 languages the site speaks: the same list, names and flags as The Water Check and MyBibleLens apps.
+ * The 44 languages the site speaks: the same list, names and flags as The Water Check and MyBibleLens apps, plus Slovak.
  * A language is not a country, so each gets the flag of the place most people know it from.
  */
 export const LANGUAGES = [
@@ -39,6 +39,7 @@ export const LANGUAGES = [
   { id: "ne", nativeName: "नेपाली", englishName: "Nepali", flag: "🇳🇵" },
   { id: "el", nativeName: "Ελληνικά", englishName: "Greek", flag: "🇬🇷" },
   { id: "cs", nativeName: "Čeština", englishName: "Czech", flag: "🇨🇿" },
+  { id: "sk", nativeName: "Slovenčina", englishName: "Slovak", flag: "🇸🇰" },
   { id: "hu", nativeName: "Magyar", englishName: "Hungarian", flag: "🇭🇺" },
   { id: "sv", nativeName: "Svenska", englishName: "Swedish", flag: "🇸🇪" },
   { id: "no", nativeName: "Norsk", englishName: "Norwegian", flag: "🇳🇴" },
