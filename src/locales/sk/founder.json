@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud v okuliaroch s oranžovým nádychom",
+    "stats": {
+      "gradeValue": "5.",
+      "gradeSuffix": "",
+      "grade": "TRIEDA · ZVEDAVOSŤ",
+      "grief": "SMÚTOK",
+      "faith": "VIERA · NÁVRAT"
+    },
+    "identity": "Identita <b>/ Denzel Rigaud</b>",
+    "founded": "Založené / <time>3. marca 2026</time>",
+    "eyebrow": "Denzel Rigaud / <em>Zakladateľ a samostatný full-stack vývojár</em>",
+    "title": "Myseľ <br/>za <br/>Expected End",
+    "text": "Príbeh o zvedavosti, smútku, viere a o tom, ako sa z technológie stala cesta vpred.",
+    "cta": "Prečítať príbeh"
+  },
+  "ticker": {
+    "curiosity": "Zvedavosť",
+    "grief": "Smútok",
+    "faith": "Viera",
+    "code": "Kód",
+    "purpose": "Zmysel"
+  },
+  "coordinates": {
+    "eyebrow": "Tri súradnice",
+    "title": "Cesta sem nebola <em>priamka.</em>",
+    "curiosity": {
+      "label": "01 / Piata trieda",
+      "title": "Zvedavosť sa stala zručnosťou na prežitie.",
+      "body": "Začal som tým, že som odmietol nechať jedno zlyhanie definovať zvyšok môjho života.",
+      "big": "5."
+    },
+    "grief": {
+      "label": "02 / 2021",
+      "title": "Smútok zavrel dvere technológiám.",
+      "body": "Po strate otca sa mi zdalo nemožné dotknúť sa čohokoľvek, čo ma naučil."
+    },
+    "faith": {
+      "label": "03 / 25. februára 2026",
+      "title": "Viera dala práci zmysel.",
+      "body": "Vrátil som sa, aby som tvoril nástroje, ktoré ľudí zanechajú silnejších, než akých ich našli."
+    }
+  },
+  "memoir": {
+    "eyebrow": "Príbeh zakladateľa / V prvej osobe",
+    "title": "Ahoj, volám sa <em>Denzel Rigaud.</em>",
+    "intro": {
+      "first": "Technológie sú súčasťou môjho života od piatej triedy. Škola ma frustrovala odmalička. Druhú triedu som opakoval, keď som zápasil s jazykovou bariérou, a neveril som, že by ma to zlyhanie malo definovať. Rozhodol som sa začať tým, že si hacknem známky. Začalo to v malom, ale keď som zistil, ako hlboko dokážem preniknúť do systémov a jailbreaknúť technológie, začali ma zaujímať systémy okolo mňa a začal som sa baviť.",
+      "second": "Tá zvedavosť ma priviedla k farmám botov na Instagrame, programovaniu, automatizácii, strojovému učeniu, online komunitám, digitálnemu rastu a do najtemnejších kútov internetu. Naučil som sa, akú silu technológie majú. Niektoré rozhodnutia ma tiež naučili lepšie sa rozhodovať."
+    },
+    "socials": {
+      "label": "Profily Denzela Rigauda na sociálnych sieťach",
+      "instagram": "Denzel Rigaud na Instagrame",
+      "linkedin": "Denzel Rigaud na LinkedIne",
+      "youtube": "Denzel Rigaud na YouTube"
+    },
+    "records": {
+      "label": "Nezávislé záznamy o identite",
+      "heading": "Externé záznamy",
+      "worldAthletics": "Profil na World Athletics",
+      "lynn": "Profil športovca na Lynn University",
+      "wikidata": "Wikidata"
+    }
+  },
+  "family": {
+    "number": "Kapitola 01",
+    "kicker": "Ľudia, ktorí ma učili",
+    "title": "Môj prvý webový čarodejník.",
+    "first": "Môj otec a <brother>brat</brother> boli najmúdrejší ľudia, akých som poznal, ale videl som ich len zriedka. Náš vzťah bol cez telefón. Každú sekundu, keď som s nimi mohol hovoriť, ma naučili niečo, čo som potreboval vedieť. Časom som pochopil, že sa aj tak musím sám rozhodnúť, čo je pre mňa správne. Môj otec bol webový čarodejník a ja som sa na internete cítil nezastaviteľný. Môj brat pracuje pre NSA.",
+    "second": "V roku 2021 som sa po 17 rokoch života s mojimi dvoma mamami a dvoma sestrami presťahoval na Floridu. Prežil som, haha. Potom som mohol prvýkrát žiť so svojím otcom. O šesť mesiacov neskôr zomrel, a tak som zavrel dvere technológiám, pretože mi ho pripomínala každá zručnosť.",
+    "third": "Môj otec bol väčšinu života moslim. Islam som nasledoval čiastočne preto, že som chcel byť ako on. Predtým, ako zomrel, odovzdal svoj život Kristovi. Jeho rozhodnutie vo mne zostalo dlho potom, čo som svoje nástroje odložil."
+  },
+  "return": {
+    "number": "Kapitola 02",
+    "kicker": "Návrat",
+    "title": "Znovu som otvoril dvere.",
+    "first": "Roky som sa vyhýbal tej časti seba, ktorá mi pripomínala otca. Technológií som sa z času na čas stále dotkol, ale smútok mi sťažoval zostať. Tú prázdnotu som vyplnil hriechom žiadostivosti a vzďaľoval som sa od človeka, ktorým som sa mohol stať.",
+    "second": "V januári 2026 som vedel, že sa musím zmeniť. Rozhodol som sa znova otvoriť toho webového čarodejníka, ktorým ma otec naučil byť, prestať byť telesným človekom, ktorý neveril v Boha, a namiesto toho nasledovať Jeho. Keď som to urobil, môj život začal prekvitať.",
+    "third": "MyBibleLens vznikla z toho rozhodnutia. Nemal som hotový plán. Začal som tvoriť a pokračoval som ďalej. Práca mi umožnila otvoriť dvere, ktoré som zavrel po otcovej smrti. Vrátil som The Water Check a začal som zbierať sny, ktoré som nosil od detstva."
+  },
+  "draft": {
+    "label": "Kapitola 03 / Koncept",
+    "title": "„Pravda za kódom“"
+  },
+  "venom": {
+    "title": "Digitálny jed",
+    "first": "Deje sa to v sekunde, keď sa zobudíme. Ešte než sa naše nohy dotknú podlahy, ruka sa natiahne. Chytíte telefón. Robíme to všetci. Ale ten jediný reflexný pohyb okamžite naruší nervové dráhy vášho mozgu a uvrhne vás do kritického, úzkostného stavu skôr, než sa deň vôbec začal.",
+    "second": "Ako samostatný softvérový vývojár 10 rokov, a s otcom, ktorý bol samostatný kybernetický hacker a naučil ma temné a tajomné kúty internetu, vidím kód za obrazovkou. Presne viem, ako algoritmus funguje, a pravdou je, že je to jed. Drvivá toxicita, ktorú na internete cítite, v skutočnosti nie je ľudská prirodzenosť: je to skonštruovaná ilúzia. Sme pod neustálym útokom „pseudoizmu“, kde zaplavené, nepriateľské sekcie komentárov sú len zriedka spontánnymi výbuchmi náhodných, bežných používateľov internetu. Namiesto toho sú súčasťou zámernej, systematickej stratégie výpočtovej propagandy. Falošné účty a siete botov sa nasadzujú, aby do vášho feedu vpichli umelé naratívy, navrhnuté priamo na manipuláciu verejnej mienky, prehlbovanie našich rozdelení a ovplyvňovanie vášho správania online.",
+    "third": "Nezáleží na tom, aká čistá je história vyhľadávania vaša alebo vašich detí, ani ako čistý sa zdá váš feed; systém je navrhnutý tak, aby vás stiahol späť. Ťahá vás k negativite, k povrchnosti a ku guruom rýchleho zbohatnutia, ktorí nás nútia dať peniaze nad Boha (<strong>1 Timotejovi 6:10</strong>), a vytvára ľudí s duchom mamony. Spôsobuje, že naše krásne sestry nevedia, že ich skutočná krása nie je make-up, nie je to, čo si o nich myslí nejaký chalan, ani koľko lajkov dostanú na Instagrame… je to ich srdce a ich anjelské spôsoby s Bohom. Je to stroj postavený na to, aby uniesol vašu myseľ a ovládol vaše návyky.",
+    "fourth": "Tento neustály prúd umelosti nás uväzňuje v uponáhľanej existencii a zaslepuje nás pred tým, že skutočné veci potrebujú čas. Skutočná láska, opravdivý rast a autentické vzťahy si vyžadujú trpezlivosť, nie okamžité uspokojenie, ktoré dodáva telefón. Klame mozog, aby očakával neustály dopamínový príval súhlasu. Presne ako starostlivo vyladené algoritmy stránky „Pre vás“ spôsobuje, že ľudia sa cítia slepo oprávnení na svoje vlastné názory, uzatvára ich pred skutočnými ľuďmi a pred realitou, že nie každý bude súhlasiť s tým istým. Je to pomalá kapitulácia, ktorá dovoľuje chladnej technológii a umelosti úplne ovládnuť ľudskú myseľ.",
+    "fifth": "Chcú, aby nás rozptyľovali tieto vyrobené vojny. Chcú, aby sa mozgy našich detí menili na kašu, navždy uväznené na najnižšej úrovni <strong><bloom>Bloomovej taxonómie</bloom></strong>: len „zapamätať si“ a konzumovať, nikdy sa nepýtať, nikdy netvoriť, nikdy nejsť hlbšie. Sledujeme, ako celá generácia odkladá kľúčové <strong><erikson>Eriksonove štádiá života</erikson></strong>, ochromená falošnými, upravenými realitami, ktoré vidí na obrazovkách, a vydesená z toho, že by naozaj dospela, pretože už nič nepôsobí autenticky. Svet má lží úplne dosť. Ak tú manipuláciu v kóde nevidíte, nevadí; moja generácia ju vidí a budúca generácia ju uvidí tiež."
+  },
+  "crucible": {
+    "title": "Skúška ohňom, ktorá ma sformovala",
+    "first": "Nenaučil som sa to len štúdiom dát; žil som to: predával som drogy, len aby som si vybudoval život, ktorý som si sľúbil, taký, čo dôjde k svetlej budúcnosti. Vyhodili ma z domovov blízkych, bol som bez domova. Keď som peniaze potreboval najviac, ponúkli mi cestu do priemyslu pre dospelých, 10 tisíc mi mávali priamo pred tvárou, ale mama ma vychovala s morálkou. <court>Dva</court> súdne spory <search>na</search> strednej škole. V 5. triede som si začal hackovať známky, pretože ma už nebavilo stále prepadať, najmä keď som zistil, že v 2. triede ma nechali opakovať pre prízvuk, s ktorým som prišiel. Neskôr sa z toho stalo hackovanie oveľa viac vecí… keď som jedného dňa naozaj spoznal svojho <father>otca</father>, pochopil som, po kom to mám.",
+    "second": "Dlho som si myslel, že ma Boh po tom všetkom už nikdy neprijme späť. Myslel som si, že som zašiel príliš ďaleko. Ale potom som sa dozvedel o apoštolovi Pavlovi. Pavol doslova vraždil kresťanov, a Boh sa aj tak obrátil a dal mu obrovský dar. A vtedy mi to došlo: ak Boh dokázal použiť človeka ako Pavol, moja minulosť nikdy nebola príliš veľa na to, aby s ňou postavil budúcnosť.",
+    "third": "Ten inštinkt prežitia sa začal skoro. Vyrastať 16 rokov obklopený 4 ženami formovalo moju psychiku spôsobmi, ktoré stále rozbaľujem. Moja myseľ bola trénovaná pracovať súčasne na rôznych psychologických vlnových dĺžkach. Prechádzal som pokrútenou psychológiou, zložitou dynamikou a manipuláciou, ktoré ma vytvarovali do toho, kým som. A ľúbim ich za to; ušetrilo mi to energiu s dievčatami, keď som sa naozaj rozhodol premýšľať o tom, o čom mama hovorila. A aj po zlomených srdciach a nevere stále verím v <chivalry>rytierskosť</chivalry>.",
+    "fourth": "Chcem tým povedať, že ak chceš prežiť v dome plnom žien, musíš myslieť ako ony, a keď som od nich odišiel, musel som sa stať mladým mužom, ktorým som dnes, so všetkými zápasmi, ktorými som prešiel. Bolo to chaotické prostredie a jasno som našiel, až keď som sa aktívne rozhodol odstrániť svoj jediný hriech, „žiadostivosť“, a hluk cez modlitbu. Keď som konečne dal Boha na prvé miesto, uvedomil som si, kým naozaj som. Výzvy, ktoré ma formovali, som nevidel ako kliatby, ale ako presne ten tréning, ktorý som potreboval, aby som sa priblížil k Bohu a vybudoval cestu von pre iných.",
+    "fifth": "Nájdenie Boha ma viedlo k tomu, aby som sa viac dozvedel o sebe. Nasledovanie Boha ma naučilo o mojich ranách aj daroch, a pochopenie seba samého vo mne vzbudilo túžbu poznať Ho viac. Vtedy môj život začal prekvitať: mal som smer, zmysel a dôvod starať sa o to, čo mi Boh dal. The Water Check patrí k tomuto poslaniu. Venovať pozornosť tomu, čo ovplyvňuje vaše telo, vám môže pomôcť pochopiť človeka, ktorého z vás Boh urobil, a starať sa oňho. Chcem tvoriť technológie, ktoré vám pomôžu stať sa najschopnejšou verziou toho človeka.",
+    "mission": "Všetko, čo pod touto firmou tvorím, smeruje k rovnakému poslaniu: priblížiť ľudí k Bohu a pomôcť im používať technológie na to, aby žili, tvorili, milovali a slúžili zámerne. To je ten očakávaný koniec, ku ktorému smerujem.",
+    "connect": {
+      "label": "Sledujte Denzela Rigauda",
+      "youtube": "Expected End na YouTube",
+      "instagram": "Sledujte Denzela Rigauda na Instagrame",
+      "linkedin": "Spojte sa s Denzelom Rigaudom na LinkedIne"
+    }
+  },
+  "memory": {
+    "label": "Osobný spis / 04 spomienky",
+    "title": "Archív spomienok",
+    "text": "Ľudia, miestnosti a skutočná práca za kódom. Stiahnite si ktorýkoľvek záber a nechajte si ho.",
+    "number": "Spomienka {{number}}",
+    "download": "Stiahnuť spomienku {{number}}: {{title}}",
+    "photos": {
+      "father": {
+        "alt": "Denzel ako dieťa so svojím otcom",
+        "title": "Môj otec a ja"
+      },
+      "work": {
+        "alt": "Denzel pracuje na notebooku s dvoma spolupracovníkmi okolo stola",
+        "title": "Práca okolo stola"
+      },
+      "workspace": {
+        "alt": "Pracovný priestor MyBibleLens a The Water Check",
+        "title": "Kde MyBibleLens dostala tvar"
+      },
+      "archive": {
+        "alt": "Denzelov videoarchív Real Work v jeho telefóne",
+        "title": "Archív Real Work"
+      }
+    }
+  },
+  "channel": {
+    "eyebrow": "Koniec prenosu / Práca pokračuje",
+    "title": "Postavme niečo, čo ľuďom vráti ich <em>život.</em>",
+    "text": "Pre premyslený softvér, rozhovory s médiami alebo začiatok dobrého nápadu otvorte kanál cez Expected End.",
+    "contact": "Kontaktovať Expected End",
+    "back": "Späť na firmu"
+  },
+  "verse": {
+    "version": "Preklad kráľa Jakuba",
+    "reference": "Jeremiáš 29:11",
+    "text": "Lebo ja poznám myšlienky, ktoré myslím o vás, hovorí Pán, myšlienky pokoja, a nie zla, aby som vám dal očakávaný koniec.",
+    "close": "Zavrieť biblický verš"
+  },
+  "bio": {
+    "eyebrow": "Od zakladateľa",
+    "title": "Čo sa stalo s @thewatercheck?",
+    "close": "Zavrieť bio",
+    "first": "Od 15 rokov som spravoval a rozširoval stránky influencerov a obsahové stránky a popritom som stále budoval aj svoj vlastný projekt, @thewatercheck.",
+    "second": "Neskôr, v 17 rokoch, som sa presťahoval k otcovi a účet umieral, pretože <em>„Kto naháňa dvoch zajacov, nechytí ani jedného.“</em> <proverb>(ruské príslovie)</proverb> V tom veku mi išlo len o peniaze. Nedával som @thewatercheck všetko.",
+    "third": "Potom môj <father>otec</father> nečakane zomrel <strong>10. júla 2021.</strong> Prepol som do režimu prežitia a premýšľal som, kam môj život smeruje. Aby som sa vyrovnal s bolesťou z jeho smrti, zavrel som dvere tomu webovému čarodejníkovi, ktorým ma otec kedysi naučil byť, až do <strong>januára 2026.</strong>",
+    "stat": {
+      "from": "200 000 sledovateľov",
+      "to": "7 000",
+      "caption": "Tam je to teraz."
+    },
+    "what": {
+      "eyebrow": "Tak čo to bolo?",
+      "title": "Jednoduchá pripomienka, ktorú ľudia milovali.",
+      "first": "The Water Check bol jednoducho toto: každý jeden deň som zverejnil obrázok, aby som ľuďom pripomenul piť vodu, a naozaj im to pomáhalo piť vodu. Komentáre boli <em>zaplavené</em> ľuďmi. Nič viac to nerobilo a ľudia to milovali.",
+      "second": "Potom bot zo stránky všetko vymazal a potom prišiel život."
+    }
+  },
+  "footer": {
+    "line": "Technológie tu nie sú na to, aby sme nekonečne scrollovali a žili životy iných ľudí. Mali by zlepšovať nášho ducha, dušu, myseľ a telo.",
+    "sign": "Zakladateľ, EXPECTEDEND LLC. Boca Raton, Florida.",
+    "label": "Navigácia v päte stránky",
+    "build": "Čo tvorím",
+    "pressKit": "Tlačový balík",
+    "find": "Kde ma nájdete",
+    "finePrint": "Drobné písmo",
+    "terms": "Podmienky používania",
+    "privacy": "Vyhlásenie o ochrane súkromia",
+    "accessibility": "Prístupnosť",
+    "contact": "Kontakt",
+    "copyright": "© {{year}} EXPECTEDEND LLC. Všetky práva vyhradené.",
+    "blessing": "Ježiš ťa miluje."
+  },
+  "egg": {
+    "label": "Vstúpiť do skrytého sveta umenia",
+    "armed": "Ešte jedno stlačenie a vstúpite do skrytého sveta umenia."
+  }
+}

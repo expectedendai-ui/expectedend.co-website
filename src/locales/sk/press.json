@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "kicker": "Tlač a médiá",
+    "title": "Tlačové materiály Expected End.",
+    "intro": "Schválené životopisy, overené fakty a médiá na stiahnutie pre články o Expected End a zakladateľovi Denzelovi Rigaudovi.",
+    "downloadPortrait": "Stiahnuť portrét"
+  },
+  "inquiry": "Poslať novinársky dopyt",
+  "role": "Zakladateľ a full-stack vývojár",
+  "portrait": {
+    "alt": "Denzel Rigaud v tmavomodrom obleku a okuliaroch s oranžovým nádychom"
+  },
+  "contents": {
+    "label": "Sekcie tlačovej stránky",
+    "kit": "Tlačový balík / 2026",
+    "biographies": "Životopisy",
+    "facts": "Overené fakty",
+    "projects": "Projekty",
+    "licensing": "Použitie médií"
+  },
+  "bios": {
+    "kicker": "Schválený text",
+    "title": "Životopisy",
+    "text": "Tieto verzie možno citovať alebo upraviť pre redakčné články.",
+    "shortLabel": "Krátky životopis / 24 slov",
+    "fullLabel": "Celý životopis",
+    "fullFirst": "Denzel Rigaud založil EXPECTEDEND LLC a samostatne vytvoril MyBibleLens a The Water Check. Vo firme pôsobí ako full-stack vývojár a každý produkt formuje od konceptu cez dizajn a vývoj až po vydanie.",
+    "fullSecond": "Jeho práca sa zameriava na softvér s vierou v strede, digitálnu pohodu a praktické nástroje, ktoré ľuďom pomáhajú používať technológie zámerne. MyBibleLens je aplikácia Sanctuary pre kresťanstvo. The Water Check spája súkromný odhad pitného režimu, praktické návyky pri pití vody a komunitu zameranú na každodennú vytrvalosť."
+  },
+  "facts": {
+    "kicker": "Prehľad faktov",
+    "title": "Overené fakty",
+    "text": "Oficiálne údaje pre profily, články, popisky a databázy.",
+    "company": "Spoločnosť",
+    "founder": "Zakladateľ",
+    "role": "Rola",
+    "products": "Produkty",
+    "productsValue": "MyBibleLens a The Water Check",
+    "website": "Oficiálny web",
+    "profile": "Profil zakladateľa",
+    "entityLabel": "{{name}} na Wikidata"
+  },
+  "projects": {
+    "kicker": "Produkty",
+    "title": "Práca",
+    "text": "Dva produkty, vytvorené samostatne pod Expected End.",
+    "mybiblelens": {
+      "alt": "Ikona aplikácie MyBibleLens",
+      "kicker": "Softvér s vierou v strede",
+      "text": "Aplikácia Sanctuary pre kresťanstvo.",
+      "visit": "Navštíviť MyBibleLens"
+    },
+    "watercheck": {
+      "alt": "Ikona aplikácie The Water Check",
+      "kicker": "Pitný režim a komunita",
+      "text": "Súkromný odhad pitného režimu, praktické návyky pri pití vody a komunita.",
+      "visit": "Navštíviť The Water Check"
+    }
+  },
+  "license": {
+    "kicker": "Použitie médií",
+    "title": "Portrét zakladateľa",
+    "text": "Portrét možno zdieľať a upravovať podľa licencie <license>Creative Commons Attribution-ShareAlike 4.0</license>. Autor: Denzel Rigaud / Expected End. Úpravy musia používať rovnakú licenciu.",
+    "download": "Stiahnuť portrét zakladateľa"
+  },
+  "contact": {
+    "kicker": "Kontakt pre médiá",
+    "title": "Potrebujete rozhovor, citát alebo ďalší súbor?"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "brand": "The Water Check",
+  "landing": {
+    "hero": {
+      "title": "Pite.<break/>My to <em>zrátame</em>.",
+      "sub": "Vaše vlastné denné číslo pre vodu. Nápoj zapíšete jedným ťuknutím. Žiadne pravidlá o galónoch, žiadne výčitky.",
+      "comingSoon": "Vychádza v roku 2027",
+      "appStoreLead": "Stiahnite si v",
+      "appStore": "App Store",
+      "googlePlayLead": "Získajte na",
+      "googlePlay": "Google Play",
+      "calculator": "Vyskúšať bezplatnú kalkulačku",
+      "instagram": "Sledujte The Water Check na Instagrame",
+      "todayAlt": "Obrazovka Dnes: 67 % z cieľa 81,2 oz s dnešnými nápojmi",
+      "bubblesLabel": "Nechajte Bubblesa predviesť trik",
+      "bubblesSay": "Ahoj, ja som Bubbles!"
+    },
+    "number": {
+      "title": "Galón denne je lož.",
+      "p1": "Vaše telo, vaše tréningy a vaše počasie menia to, koľko vody potrebujete.",
+      "p2": "Odpovedzte na šesť rýchlych otázok a získajte číslo, ktoré je urobené pre vás.",
+      "label": "Vaše číslo",
+      "amount": "81 oz denne",
+      "chips": {
+        "body": "Vaše telo",
+        "activity": "Vaša aktivita",
+        "weather": "Vaše počasie"
+      },
+      "cta": "Otvoriť kalkulačku"
+    },
+    "workout": {
+      "tag": "Novinka",
+      "title": "Po tréningu? Tu je vaša voda.",
+      "p1": "Dokončite tréning a aplikácia vám povie, približne koľko vypiť počas nasledujúcej hodiny.",
+      "p2": "Zobrazí sa aj na zamknutej obrazovke, takže pohár zapíšete bez otvorenia aplikácie.",
+      "small": "Funguje s Apple Health a Health Connect. Vaše tréningy zostávajú vo vašom telefóne.",
+      "alt": "Zamknutá obrazovka so správou: Pekný beh, 48 minút. Vypite približne 16 oz počas nasledujúcej hodiny, s tlačidlami na zapísanie pohára"
+    },
+    "log": {
+      "title": "Zapíšte to jedným ťuknutím.",
+      "p1": "Ťuknite na + na ktorejkoľvek stránke. Pohár, fľaša, vaše obvyklé nápoje, dokonca aj melón.",
+      "p2": "Pomýlili ste sa? Späť je hneď poruke.",
+      "alt": "Panel + s vašimi nedávnymi nápojmi: Pohár, Fľaša, Naskenovať nápoj a Viac"
+    },
+    "scan": {
+      "title": "Naskenujte nápoj. Zistite, čo v ňom je.",
+      "p1": "Naskenujte čiarový kód a uvidíte cukor v čajových lyžičkách, kofeín a každú zložku jednoduchými slovami.",
+      "p2": "Uložte si ho raz. Nabudúce stačí jedno ťuknutie.",
+      "fine": "Rýchle prečítanie etikety, nie lekárska rada. Skontrolujte skutočnú etiketu, najmä pri alergiách.",
+      "alt": "Výsledok Drink Check pre modrý športový nápoj: skóre 66, Dobré, s cukrom, kofeínom a elektrolytmi"
+    },
+    "widgets": {
+      "title": "<count>94</count> štýlov pre vašu plochu.",
+      "p1": "Vaša voda na ploche, vo vašom športe, vašom ročnom období alebo vašom štýle.",
+      "p2": "Nápoj zapíšete priamo z widgetu.",
+      "alt": "Štúdio widgetov s jesenným widgetom a radmi športových, pohľadnicových a ovocných štýlov"
+    },
+    "crew": {
+      "title": "Priveďte svoju Crew.",
+      "p1": "Vytvorte malú skupinu s priateľmi, spolubývajúcimi alebo tímom. Povzbudzujte sa navzájom.",
+      "p2": "Každý vidí percentá a sériu ostatných. Nikdy nie niečie unce.",
+      "alt": "Crew s názvom Spolubývajúci: Jordan na 64 %, Ari v cieli, s rýchlymi povzbudzujúcimi správami"
+    },
+    "days": {
+      "title": "Každý deň sa počíta.",
+      "p1": "Každý deň sa napĺňa ako pohár. Udržte svoju sériu.",
+      "p2": "Všetko vás nasleduje aj do nového telefónu.",
+      "alt": "Kalendár za november: 17 zapísaných dní, 14 v cieli a séria 8 dní"
+    },
+    "bubbles": {
+      "title": "Zoznámte sa s Bubblesom",
+      "p1": "Rybka štvorzubec, ktorý vás v prvý deň prevedie aplikáciou. Nedokáže sa nepredvádzať, tak naňho ťuknite."
+    },
+    "pricing": {
+      "title": "Zadarmo na začiatok. Všetko, jedným nákupom.",
+      "free": {
+        "title": "Zadarmo",
+        "sub": "Všetko, čo potrebujete na sledovanie vody.",
+        "items": {
+          "number": "Vaše vlastné číslo pre vodu",
+          "log": "Zapisovanie nápojov a jedla bohatého na vodu",
+          "barcode": "Skenovanie čiarových kódov, zadarmo a bez obmedzení",
+          "guide": "Každá kapitola Sprievodcu",
+          "widgets": "Widgety Classic, Seasons a jednoduché Body a Spark",
+          "crew": "Váš kalendár, série a Crew priateľa"
+        }
+      },
+      "forever": {
+        "title": "Všetko navždy",
+        "sub": "Jeden nákup, žiadne predplatné.",
+        "items": {
+          "widgets": "Každý štýl a farebná verzia widgetov",
+          "bars": "Pruhy pre elektrolyty, kofeín a cukor",
+          "journal": "Váš denník nápojov",
+          "summaries": "PDF súhrny za 30 a 90 dní",
+          "crews": "Vytváranie vlastných Crews",
+          "later": "Všetko, čo pridáme neskôr"
+        },
+        "note": "Cena sa zobrazí v obchode pred nákupom."
+      }
+    },
+    "faq": {
+      "title": "Úprimné odpovede.",
+      "items": {
+        "medical": {
+          "q": "Je The Water Check lekárska rada?",
+          "a": "Nie. Je to všeobecná wellness aplikácia. Vaše číslo pre vodu je vzdelávací odhad, nie predpis, a nič v aplikácii nič nediagnostikuje ani nelieči. Ak ste tehotná alebo dojčíte, užívate lieky, ktoré ovplyvňujú tekutiny, alebo máte ochorenie obličiek, srdca či iné ochorenie, opýtajte sa svojho lekára, čo je pre vás správne."
+        },
+        "phone": {
+          "q": "Čo zostáva v mojom telefóne?",
+          "a": "Váš denník nápojov, uložené nápoje a jedlá, perly zo Sprievodcu, vaše pripomienky a tréningy, ktoré aplikácii dovolíte čítať. Vaše nápoje a denné súčty sa ukladajú s vaším účtom, takže vás nasledujú aj do nového telefónu. Vaše informácie nikdy nepredávame."
+        },
+        "audience": {
+          "q": "Pre koho je určená?",
+          "a": "Pre každého od 13 rokov. Ak máte menej ako 18 rokov, používajte ju so súhlasom rodiča alebo zákonného zástupcu. Zapisovanie alkoholu a skenovanie fotiek je len pre dospelých. Aplikácia sa riadi vekovým rozpätím, ktoré zadáte, preto odpovedajte pravdivo. Ak máte 13 až 17 rokov, overte si svoje číslo s rodičom alebo lekárom."
+        },
+        "deleteAccount": {
+          "q": "Ako odstránim svoj účet?",
+          "a": "V aplikácii: Profil, potom Odstrániť účet. Účet zmizne okamžite. Nemáte aplikáciu? Na našej stránke Odstránenie účtu sa dozviete, ako o to požiadať e-mailom."
+        }
+      }
+    },
+    "foot": {
+      "blurb": "Pochopte, čo pijete. Vytvorené na Floride jednočlennou firmou. Pre vek od 13 rokov.",
+      "legal": "Právne informácie",
+      "privacy": "Zásady ochrany súkromia The Water Check",
+      "terms": "Zmluvné podmienky The Water Check",
+      "community": "Pravidlá komunity",
+      "healthData": "Zásady ochrany zdravotných údajov spotrebiteľov",
+      "deleteAccount": "Odstránenie účtu",
+      "sitePrivacy": "Súkromie na webe",
+      "explore": "Preskúmať",
+      "calculator": "Kalkulačka pitného režimu",
+      "store": "Obchod The Water Check",
+      "instagram": "@thewatercheck na Instagrame",
+      "expectedEnd": "Expected End",
+      "help": "Pomoc",
+      "email": "Podpora e-mailom",
+      "accessibility": "Prístupnosť",
+      "contact": "Kontakt",
+      "note": "The Water Check je všeobecná wellness aplikácia. Nediagnostikuje, nelieči ani nepredchádza žiadnemu ochoreniu a nenahrádza radu zdravotníckeho odborníka. V núdzi volajte 911 alebo miestne číslo tiesňového volania. Obrazovky aplikácie zobrazujú testovaciu verziu s vymyslenými údajmi; funkcie sa môžu pred vydaním zmeniť."
+    }
+  },
+  "app": {
+    "eyebrow": "Aplikácia",
+    "title": "Vaša voda, deň po dni.",
+    "body": "Začnite osobným odhadom a potom zapisujte nápoje a jedlo bohaté na vodu tak, ako plynie váš deň. Svoj pokrok uvidíte v aplikácii, na ploche aj za celý mesiac.",
+    "comingSoon": "Vychádza v roku 2027 pre iPhone a Android",
+    "calculator": "Vyskúšať bezplatnú kalkulačku",
+    "caveat": "Kalkulačka tu funguje bez účtu. Snímky obrazovky aplikácie ukazujú ukážkovú verziu; funkcie a dostupnosť sa môžu pred vydaním zmeniť.",
+    "screens": {
+      "number": {
+        "alt": "Osobný denný odhad vody v The Water Check na iPhone",
+        "caption": "Vaše číslo"
+      },
+      "log": {
+        "alt": "Denný záznam v The Water Check s nápojmi a jedlom na iPhone",
+        "caption": "Dnešný záznam"
+      },
+      "widgets": {
+        "alt": "Nastavenia widgetov na ploche v The Water Check na iPhone",
+        "caption": "Widgety"
+      },
+      "calendar": {
+        "alt": "Mesačný kalendár vody v The Water Check na iPhone",
+        "caption": "Kalendár"
+      }
+    }
+  },
+  "footer": {
+    "note": "Bezplatná kalkulačka nepotrebuje účet. Beží vo vašom prehliadači a vaše čísla nám neposiela.",
+    "navLabel": "Navigácia v päte stránky",
+    "calculator": "Kalkulačka pitného režimu",
+    "explore": "Preskúmať aplikáciu",
+    "instagram": "@thewatercheck na Instagrame",
+    "store": "Obchod",
+    "builder": "Kto to vytvoril",
+    "finePrint": "Drobné písmo",
+    "terms": "Zmluvné podmienky",
+    "privacy": "Zásady ochrany súkromia",
+    "community": "Pravidlá komunity",
+    "healthData": "Zdravotné údaje spotrebiteľov",
+    "deleteAccount": "Odstránenie účtu",
+    "accessibility": "Prístupnosť",
+    "contact": "Kontakt",
+    "project": "Projekt <company>EXPECTEDEND LLC</company>. Vzdelávací odhad, nie lekárska rada.",
+    "backToTop": "Späť hore ↑"
+  }
+}

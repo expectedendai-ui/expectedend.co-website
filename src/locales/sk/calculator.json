@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "kicker": "The Water Check",
+    "title": "Zabudnite na influencerov. Spoznajte svoju skutočnú biológiu.",
+    "lead": "Vyskúšajte bezplatnú kalkulačku bez účtu a potom preskúmajte aplikáciu, ktorú tvoríme na každodenné sledovanie.",
+    "appLink": "Preskúmať aplikáciu ↓",
+    "logoLabel": "Použiť kalkulačku Water Check"
+  },
+  "intro": {
+    "kicker": "Kalkulačka pitného režimu",
+    "title": "Začnite číslami, ktoré poznáte."
+  },
+  "units": {
+    "legend": "Jednotka hmotnosti",
+    "pounds": "Libry (lb)",
+    "kilograms": "Kilogramy (kg)"
+  },
+  "weight": {
+    "labelLb": "Hmotnosť (lb)",
+    "labelKg": "Hmotnosť (kg)",
+    "valueTextLb": "{{value}} libier",
+    "valueTextKg": "{{value}} kilogramov"
+  },
+  "height": {
+    "legend": "Výška",
+    "feet": "Výška (ft)",
+    "inches": "Výška (in)",
+    "centimeters": "Výška (cm)",
+    "note": "Potreba tekutín sa riadi čistou svalovou hmotou, takže výška je najdôležitejšia vtedy, keď je hmotnosť na vašu postavu vysoká."
+  },
+  "activity": {
+    "label": "Denná aktivita (minúty)",
+    "value": "{{minutes}} min",
+    "valueText": "{{minutes}} minút"
+  },
+  "factors": {
+    "legend": "Faktory, ktoré môžu zmeniť potrebu tekutín",
+    "intro": "Číslo pripočítame iba tam, kde existuje obhájiteľná denná úprava. Ostatné odpovede prispôsobia vaše odporúčania bez predstierania, že veda podporuje presnú dávku.",
+    "age": {
+      "label": "Vek",
+      "hint": "Vek poskytuje kontext; nediagnostikuje menopauzu."
+    },
+    "lifeStage": {
+      "label": "Životné obdobie",
+      "hint": "Používa transparentnú úpravu pre tehotenstvo alebo tvorbu mlieka.",
+      "options": {
+        "standard": "Štandardné",
+        "pregnant": "Tehotenstvo",
+        "breastfeeding": "Dojčenie"
+      }
+    },
+    "sex": {
+      "label": "Pohlavie",
+      "hint": "Voliteľné. Spresňuje výpočet ideálnej hmotnosti a referenčného príjmu.",
+      "options": {
+        "unspecified": "Radšej neuvádzam",
+        "woman": "Žena",
+        "man": "Muž"
+      }
+    },
+    "luteal": {
+      "label": "Týždeň pred menštruáciou",
+      "hint": "Sleduje zadržiavanie vody v luteálnej fáze a hormonálne nafukovanie. Pevná prirážka neplatí pre každého."
+    },
+    "heat": {
+      "label": "Horúce alebo vlhké podmienky",
+      "hint": "Odporúčania pri horúčave závisia od vystavenia a potenia, nielen od miesta."
+    }
+  },
+  "result": {
+    "goal": "Váš denný cieľ: {{ounces}} uncí",
+    "breakdown": "Rozpis výpočtu",
+    "weightBaseline": "Základ podľa hmotnosti",
+    "heightAndBuild": "Výška a postava",
+    "sexReference": "Referencia podľa pohlavia",
+    "notSet": "Nenastavené",
+    "activity": "Úprava za aktivitu",
+    "lifeStage": {
+      "standard": "Úprava za životné obdobie",
+      "pregnant": "Úprava za tehotenstvo",
+      "breastfeeding": "Úprava za dojčenie"
+    },
+    "luteal": "Odporúčania pre luteálnu fázu",
+    "noFixedOunces": "Bez pevných +oz",
+    "electrolytes": "Kontrola elektrolytov",
+    "electrolytesAfterSweat": "Zvážte po silnom potení",
+    "electrolytesFromFood": "Jedlo to zvyčajne pokryje",
+    "guidance": "Toto je vzdelávací plánovací odhad pre dospelých, nie diagnóza, liečba ani klinický predpis. Vodu dodáva aj jedlo a individuálne potreby sa líšia. Nenúťte sa do tekutín. Ak ste tehotná alebo dojčíte, užívate lieky ovplyvňujúce rovnováhu tekutín, máte ochorenie obličiek alebo srdca, máte obmedzený príjem tekutín alebo znepokojujúce príznaky, poraďte sa o svojich potrebách so zdravotníckym odborníkom."
+  },
+  "equivalents": {
+    "title": "To je približne",
+    "cups": "{{value}} hrnčekov",
+    "cupsNote": "každý 8 oz",
+    "liters": "{{value}} litrov",
+    "litersNote": "metrické",
+    "bottles": "{{value}} fliaš",
+    "bottlesNote": "veľkosť 16,9 oz"
+  },
+  "eatYourWater": {
+    "kicker": "Jedzte svoju vodu",
+    "title": "Nie všetka musí pochádzať z pohára.",
+    "copy": "Asi pätina dennej vody väčšiny ľudí prichádza z jedla. Väčšina čerstvého ovocia a zeleniny obsahuje 70 až 95 percent vody, a keď sa dostane do krvného obehu, hydratuje vás presne ako nápoj.",
+    "drink": "Pite",
+    "drinkNote": "{{cups}} hrnčekov vody, čaju alebo mlieka",
+    "eat": "Jedzte",
+    "eatNote": "z jedla bohatého na vodu",
+    "pickLegend": "Podiel z jedla si predstavte ako",
+    "estimate": "≈ {{amount}} {{food}}",
+    "detail": "{{serving}} obsahuje približne {{ounces}} oz vody ({{water}})."
+  },
+  "foods": {
+    "watermelon": {
+      "label": "hrnčekov melónu",
+      "serving": "1 hrnček nakrájaného",
+      "water": "92 % vody"
+    },
+    "cucumber": {
+      "label": "uhoriek",
+      "serving": "1 stredná",
+      "water": "95 % vody"
+    },
+    "strawberries": {
+      "label": "hrnčekov jahôd",
+      "serving": "1 hrnček",
+      "water": "91 % vody"
+    },
+    "oranges": {
+      "label": "pomarančov",
+      "serving": "1 stredný",
+      "water": "87 % vody"
+    },
+    "salad": {
+      "label": "misiek šalátu",
+      "serving": "2 hrnčeky miešaného",
+      "water": "približne 94 % vody"
+    },
+    "soup": {
+      "label": "misiek vývaru",
+      "serving": "1 hrnček",
+      "water": "približne 92 % vody"
+    },
+    "tomatoes": {
+      "label": "paradajok",
+      "serving": "1 stredná",
+      "water": "95 % vody"
+    },
+    "grapes": {
+      "label": "hrnčekov hrozna",
+      "serving": "1 hrnček",
+      "water": "81 % vody"
+    },
+    "peaches": {
+      "label": "broskýň",
+      "serving": "1 stredná",
+      "water": "89 % vody"
+    },
+    "cantaloupe": {
+      "label": "hrnčekov cukrového melónu",
+      "serving": "1 hrnček nakrájaného",
+      "water": "90 % vody"
+    }
+  },
+  "foodNotes": {
+    "kicker": "Prečo sa voda z jedla počíta",
+    "title": "Voda z melónu je tá istá voda.",
+    "sameMolecule": "<strong>Rovnaká molekula.</strong> H2O z uhorky a H2O z kohútika sú totožné. Keď prejde z čreva do krvného obehu, telo ju posiela do svalov rovnakým spôsobom.",
+    "slowRelease": "<strong>Pomalé uvoľňovanie.</strong> Voda v ovocí a zelenine je uzavretá vo vláknine a bunkových stenách, takže sa vstrebáva postupnejšie ako rýchlo vypitý pohár, ktorý obličky zvyčajne rýchlo vylúčia.",
+    "electrolytes": "<strong>Prichádza s elektrolytmi.</strong> Uhorky, špenát, melón a bobuľové ovocie obsahujú draslík a horčík, minerály, ktoré bunky využívajú na udržanie vody.",
+    "glycogen": "<strong>Palivo aj zásoba naraz.</strong> Svaly ukladajú sacharidy ako glykogén a každý gram glykogénu sa ukladá s približne tromi gramami vody. Jedlá bohaté na vodu a sacharidy dodajú oboje.",
+    "caveat": "Piť stále musíte. Jedlo zvyčajne pokryje asi pätinu celku; zvyšok pochádza z vody a iných nápojov. Sušené ovocie, orechy a chlieb obsahujú veľmi málo vody."
+  },
+  "grace": {
+    "kicker": "Láskavosť k telu",
+    "title": "Krátka poznámka o tom, ako byť k sebe zhovievavý",
+    "body": "Odraz v zrkadle aj to, ako vám sedí oblečenie, sa môžu meniť pre zadržiavanie vody, trávenie, hormóny, spánok a iné bežné výkyvy. Jeden nafúknutý deň nedefinuje vaše telo. Pite s rozvahou, doprajte si čas a nechajte zvedavosť nahradiť hanbu. Pretrvávajúce nafukovanie, opuchy, rýchle zmeny hmotnosti alebo príznaky, ktoré vás znepokojujú, si zaslúžia rozhovor so zdravotníckym odborníkom."
+  },
+  "overhydration": {
+    "title": "Nebezpečenstvo vynútenej hydratácie",
+    "kidneys": "Obličky potrebujú čas, aby vodu vylúčili. Pri dlhotrvajúcom cvičení môže pitie rýchlejšie, než tekutiny strácate, zriediť sodík v krvi a spôsobiť hyponatriémiu spojenú s cvičením. Prvé príznaky môžu zahŕňať bolesť hlavy, nevoľnosť, závrat, únavu alebo zmätenosť. Ťažké prípady môžu spôsobiť opuch mozgu, záchvaty, kómu a smrť.",
+    "pacing": "Nedoháňajte tento odhad hltaním. Rozložte pitie počas dňa. Pri cvičení prispôsobte príjem smädu, podmienkam a vlastným stratám potom. Pri zmätenosti, záchvate, kolapse alebo ťažkých príznakoch vyhľadajte urgentnú lekársku pomoc.",
+    "sources": "Zdroje: <nih>odporúčania NIH k hyponatriémii spojenej s cvičením</nih> a <academies>odporúčania National Academies k tekutinám</academies>."
+  },
+  "notes": {
+    "title": "Vaše poznámky k dôkazom",
+    "sexMan": "<strong>Pohlavie:</strong> Referenčné príjmy National Academies sú približne 3,7 litra celkovej vody denne pre mužov a 2,7 pre ženy. Väčšinu tohto rozdielu vysvetľuje telesná hmotnosť, takže zvyšok sa tu prejaví ako 4-percentné zvýšenie základu podľa hmotnosti a kontrola výšky a postavy používa vzorec ideálnej hmotnosti pre mužov.",
+    "sexWoman": "<strong>Pohlavie:</strong> Referenčné príjmy National Academies sú približne 3,7 litra celkovej vody denne pre mužov a 2,7 pre ženy. Väčšinu tohto rozdielu vysvetľuje telesná hmotnosť, takže zvyšok sa tu prejaví ako 4-percentné zníženie základu podľa hmotnosti a kontrola výšky a postavy používa vzorec ideálnej hmotnosti pre ženy.",
+    "height": "<strong>Výška a postava:</strong> Potreba tekutín sleduje čistú svalovú hmotu viac než celkovú hmotnosť. Keďže vaša hmotnosť je nad bežným rozsahom pre vašu výšku, odhad používa upravenú telesnú hmotnosť (ideálna hmotnosť plus 40 percent rozdielu), bežnú klinickú konvenciu. Je to hrubé plánovacie číslo, nie súd o vašom tele.",
+    "cycle": "<strong>Fáza cyklu:</strong> Presuny tekutín súvisiace s cyklom sú skutočné, ale štúdie nepotvrdzujú univerzálne pevné zvýšenie v unciach. Žiadne unce sa automaticky nepridali. Pravidelné jedlá zvyčajne pokryjú elektrolyty; doplnky horčíka alebo draslíka nie sú univerzálnym odporúčaním.",
+    "age": "<strong>Vek a menopauza:</strong> Samotný vek neurčuje, či ste v menopauze. Hormonálne zmeny môžu ovplyvniť smäd a reguláciu tekutín, ale neexistuje overená úprava „nad 45“ v unciach, takže váš vek celkový súčet nezmenil.",
+    "heat": "<strong>Horúčava:</strong> Pevný klimatický bonus môže vaše potreby podceniť alebo preceniť. Pri miernej práci v horúčave do dvoch hodín NIOSH odporúča približne 8 uncí každých 15 až 20 minút; dlhšie silné potenie si vyžaduje individuálny plán náhrady."
+  },
+  "evidence": {
+    "label": "Dôkazy:",
+    "academies": "Odporúčania National Academies k príjmu vody",
+    "harvard": "Harvard Health o jedle a hydratácii",
+    "cycle": "Štúdia osmoregulácie počas menštruačného cyklu",
+    "menopause": "Prehľad regulácie tekutín v menopauze",
+    "niosh": "Odporúčania CDC/NIOSH pri horúčave"
+  },
+  "tips": {
+    "kicker": "Užitočné, nie posadnuté",
+    "title": "Tri kontroly pre skutočný život.",
+    "schedule": {
+      "title": "Rozvrh",
+      "body": "Začnite ráno vodou, popíjajte pri jedle a zvyšok nechajte na smäde, počasí a aktivite."
+    },
+    "electrolytes": {
+      "title": "Elektrolyty",
+      "body": "Väčšina ľudí dopĺňa elektrolyty bežným jedlom. Po dlhom alebo silnom potení si vyberte vyvážený elektrolytový nápoj; ak vám odporučili obmedziť sodík, nepridávajte si soľ bežne."
+    },
+    "visualCheck": {
+      "title": "Vizuálna kontrola",
+      "body": "Svetložltý moč môže byť jedným hrubým znakom hydratácie. Jedlo, vitamíny, lieky a zdravotné ťažkosti môžu farbu zmeniť, takže nejde o diagnózu."
+    }
+  },
+  "author": {
+    "kicker": "Od človeka, ktorý to vytvoril",
+    "title": "Prečo som to vytvoril (a prečo by ste nemali počúvať len mňa)",
+    "athlete": "Volám sa Denzel Rigaud. Viac ako deväť rokov som behal 400 metrov a prekážky, takže hydratácia sa stala súčasťou toho, ako som trénoval, regeneroval a učil sa čítať svoje telo.",
+    "purpose": "The Water Check som vytvoril, aby som vám pomohol počuť svoje telo cez hluk internetu. Nechcem, aby ste moju skúsenosť brali ako predpis. To, čo potrebujete, formuje vaša biológia, prostredie, zdravotná história a životné obdobie.",
+    "technology": "Technológie tu nie sú na to, aby sme nekonečne scrollovali a žili životy iných ľudí. Mali by udržiavať naše životy produktívne a zlepšovať nášho ducha, dušu, myseľ a telo, aby sme sa stali najlepšou verziou toho, kým chceme byť. Tak prestaňte počúvať všetkých ostatných, pretože čo funguje pre vás, funguje pre vás.",
+    "faith": "Spoznajte svoje vzorce a so zdravotnými obavami sa obráťte na kvalifikovaného odborníka. Starostlivosť o svoju telesnú schránku vás môže priblížiť k sebe samým aj k Bohu, ktorý do každého z nás vložil iskru, o ktorú sa oplatí starať.",
+    "motto": "Nenasledujte influencerov. Spoznajte sami seba.",
+    "date": "15. marca 2021",
+    "founderPage": "Stránka zakladateľa"
+  },
+  "community": {
+    "kicker": "Ľudsky",
+    "title": "Pridajte sa ku skutočnej komunite.",
+    "instagram": "Sledujte @thewatercheck na Instagrame",
+    "reelSoon": "Instagram Reel čoskoro",
+    "story": "Príbeh z komunity {{position}}"
+  }
+}

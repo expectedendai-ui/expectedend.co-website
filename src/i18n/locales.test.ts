@@ -21,8 +21,8 @@ const PLURAL = /_(zero|one|two|few|many|other)$/;
 const tokens = (text: string) => [...text.matchAll(/\{\{\s*\w+\s*\}\}|<\/?\w+\s*\/?>/g)].map(([token]) => token.replace(/\s/g, "")).sort();
 
 describe("every language has every line", () => {
-  it("lists 43 languages, each with its chooser words", () => {
-    expect(LANGUAGES).toHaveLength(43);
+  it("lists 44 languages, each with its chooser words", () => {
+    expect(LANGUAGES).toHaveLength(44);
     for (const { id } of LANGUAGES) expect(Object.values(CHOOSER[id]).every(Boolean), id).toBe(true);
   });
 

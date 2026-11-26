@@ -1,0 +1,182 @@
+{
+  "founderDescription": "Denzel Rigaud je zakladateľ a full-stack vývojár, ktorý stojí za Expected End, MyBibleLens, aplikáciou Sanctuary pre kresťanstvo, a The Water Check.",
+  "projects": {
+    "mybiblelens": {
+      "category": "Kresťanská aplikácia",
+      "action": "Navštíviť aplikáciu",
+      "tagline": "Aplikácia Sanctuary pre kresťanstvo.",
+      "secondary": "Bio",
+      "badge": "V App Store"
+    },
+    "watercheck": {
+      "category": "Komunita pitného režimu",
+      "action": "Navštíviť aplikáciu",
+      "tagline": "Pochopte, čo pijete. Vaše vlastné číslo pre vodu, jedným ťuknutím.",
+      "badge": "Vychádza v roku 2027"
+    },
+    "mybiblelens-store": {
+      "category": "Obchod · Čoskoro",
+      "action": "Vstúpiť do obchodu",
+      "tagline": "Viera, ktorú môžete nosiť."
+    },
+    "watercheck-store": {
+      "category": "Obchod · Pripravujeme",
+      "action": "Vstúpiť do obchodu",
+      "tagline": "Výbava pre oddelenie hydratácie."
+    }
+  },
+  "proof": {
+    "mybiblelens": {
+      "name": "MyBibleLens",
+      "category": "Aplikácia viery · iOS",
+      "status": "V App Store"
+    },
+    "the-water-check": {
+      "name": "The Water Check",
+      "category": "Aplikácia na pitný režim · iOS",
+      "status": "Vychádza v roku 2027"
+    },
+    "mybiblelens-for-android": {
+      "name": "MyBibleLens pre Android",
+      "category": "Google Play",
+      "status": "Uzavreté testovanie"
+    },
+    "scripture-canvas": {
+      "name": "Scripture Canvas",
+      "category": "Nekonečné plátno",
+      "status": "Spustené"
+    },
+    "journey-plans": {
+      "name": "Plány Journey",
+      "category": "Čitateľské plány + pečate",
+      "status": "Spustené"
+    },
+    "water-check-crews": {
+      "name": "Water Check Crews",
+      "category": "Tímový pitný režim",
+      "status": "Hotové"
+    },
+    "home-screen-widgets": {
+      "name": "Widgety na plochu",
+      "category": "Widgety pre iOS",
+      "status": "Hotové"
+    },
+    "hydration-calculator": {
+      "name": "Kalkulačka pitného režimu",
+      "category": "Webový nástroj",
+      "status": "Spustené"
+    },
+    "expected-end-hq": {
+      "name": "Expected End HQ",
+      "category": "Aplikácia firemného centra",
+      "status": "Vo vývoji"
+    },
+    "43-language-rollout": {
+      "name": "Spustenie v 43 jazykoch",
+      "category": "Lokalizácia",
+      "status": "43 jazykov"
+    },
+    "mybiblelens-store": {
+      "name": "MyBibleLens Store",
+      "category": "Merch",
+      "status": "Čoskoro"
+    },
+    "mybiblelens-us": {
+      "name": "mybiblelens.us",
+      "category": "Web aplikácie",
+      "status": "Spustené"
+    },
+    "expectedend-co": {
+      "name": "expectedend.co",
+      "category": "Firemný web",
+      "status": "Spustené"
+    },
+    "scripture-studio": {
+      "name": "Scripture Studio",
+      "category": "Štúdium Biblie s AI",
+      "status": "AI demo"
+    },
+    "hidden-art-world": {
+      "name": "Skrytý svet umenia",
+      "category": "Interaktívne webové umenie",
+      "status": "Easter egg"
+    },
+    "sanctuary-stickers": {
+      "name": "Nálepky Sanctuary",
+      "category": "Sada ilustrácií",
+      "status": "550+ nálepiek"
+    },
+    "mybiblelens-pitch-film": {
+      "name": "Prezentačný film MyBibleLens",
+      "category": "Značkový film",
+      "status": "2:51"
+    },
+    "feature-reels": {
+      "name": "Videá o funkciách",
+      "category": "Séria videí",
+      "status": "10 videí"
+    },
+    "look-closer-series": {
+      "name": "Séria Look Closer",
+      "category": "Séria na sociálnych sieťach",
+      "status": "60 príspevkov"
+    },
+    "25-week-campaign": {
+      "name": "25-týždňová kampaň",
+      "category": "Plán pre Instagram",
+      "status": "100 príspevkov"
+    },
+    "renewed-strength": {
+      "name": "Renewed Strength",
+      "category": "Pracovný zošit",
+      "status": "33 blokov"
+    },
+    "water-check-store": {
+      "name": "Water Check Store",
+      "category": "Merch",
+      "status": "Pripravujeme"
+    }
+  },
+  "services": {
+    "01": {
+      "title": "Aplikácie",
+      "body": "Užitočné, premyslené produkty navrhnuté okolo skutočných ľudí.",
+      "interest": "Vývoj aplikácie alebo softvérového nápadu"
+    },
+    "02": {
+      "title": "Weby",
+      "body": "Osobité digitálne domovy, ktoré pôsobia jasne, živo a prívetivo.",
+      "interest": "Web alebo digitálny zážitok"
+    },
+    "03": {
+      "title": "AI systémy",
+      "body": "Praktická inteligencia, ktorá posúva nápady a tímy dopredu.",
+      "interest": "AI systém alebo nástroj na produktivitu"
+    },
+    "04": {
+      "title": "Kreatíva",
+      "body": "Identita, smerovanie a zážitky, v ktorých strede je zmysel.",
+      "interest": "Kreatívne smerovanie alebo dizajn"
+    },
+    "05": {
+      "title": "HeadQuarters",
+      "body": "Váš firemný domov na mieru. CRM, financie, projekty, tímové nástroje a čokoľvek ďalšie budete potrebovať, všetko na jednom mieste.",
+      "interest": "HeadQuarters"
+    },
+    "06": {
+      "title": "Automatizácie",
+      "body": "Nahraďte opakujúcu sa prácu prepojenými pracovnými postupmi, ktoré udržia vašu firmu v pohybe.",
+      "interest": "Automatizácie"
+    },
+    "07": {
+      "title": "Klientske portály",
+      "body": "Dajte zákazníkom alebo členom jedno vyladené miesto na komunikáciu, rezervácie, zdieľanie súborov a sledovanie postupu.",
+      "interest": "Klientske portály"
+    },
+    "08": {
+      "title": "Digitálna záchrana",
+      "body": "Opravíme, zmodernizujeme alebo prestavíme softvér, ktorý vašej firme už neslúži.",
+      "interest": "Digitálna záchrana"
+    }
+  }
+}

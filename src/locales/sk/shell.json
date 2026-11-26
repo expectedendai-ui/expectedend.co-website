@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "label": "Hlavná navigácia",
+    "projects": "Projekty",
+    "services": "Služby",
+    "company": "Poslanie · O nás · Médiá",
+    "contact": "Kontakt",
+    "home": "Úvod Expected End",
+    "openMenu": "Otvoriť menu",
+    "closeMenu": "Zavrieť menu",
+    "links": {
+      "projects": "Projekty",
+      "services": "Služby",
+      "story": "Príbeh",
+      "about": "O nás",
+      "press": "Médiá",
+      "founder": "Denzel Rigaud",
+      "waterCheck": "Water Check"
+    }
+  },
+  "footer": {
+    "label": "Navigácia v päte stránky",
+    "home": "Úvod",
+    "about": "O nás",
+    "press": "Médiá",
+    "terms": "Podmienky používania",
+    "privacy": "Vyhlásenie o ochrane súkromia",
+    "accessibility": "Prístupnosť",
+    "contact": "Kontakt",
+    "mission": "Všetko, čo pod touto firmou tvorím, smeruje k rovnakému poslaniu: priblížiť ľudí k Bohu a pomôcť im používať technológie na to, aby žili, tvorili, milovali a slúžili zámerne. To je ten očakávaný koniec, ku ktorému smerujem.",
+    "verse": "Jeremiáš 29:11",
+    "copyright": "© 2026 EXPECTED END LLC. Všetky práva vyhradené.",
+    "blessing": "Ježiš ťa miluje."
+  }
+}

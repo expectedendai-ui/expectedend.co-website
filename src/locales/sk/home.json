@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "photoAlt": "Denzel Rigaud, zakladateľ Expected End",
+    "stats": {
+      "projects": "VYTVORENÝCH PROJEKTOV",
+      "languages": "JAZYKOV",
+      "years": "ROKOV TVORBY ONLINE, OD POVRCHU AŽ PO DEEP WEB"
+    },
+    "eyebrow": "Brána k vášmu <em>očakávanému koncu</em>",
+    "title": "Zmysel, <break/>postavený <break/>nádherne.",
+    "intro": "Expected End tvorí premyslený softvér, nástroje na produktivitu, digitálne zážitky a komunity, ktoré približujú ľudí k Bohu zábavne a jednoducho!",
+    "cta": "Pozrieť si prácu",
+    "lensHint": "Pohnite kurzorom a prečítajte si kód"
+  },
+  "projects": {
+    "eyebrow": "01 / Projekty",
+    "title": "MyBibleLens v App Store. <break/><em>The Water Check: Vychádza v roku 2027.</em>",
+    "visit": "Navštíviť {{name}}",
+    "android": "Android čoskoro",
+    "bio": "Bio",
+    "actionFor": "{{action}} pre {{name}}"
+  },
+  "behind": {
+    "eyebrow": "02 / Za prácou",
+    "title": "Každý produkt tu sa začal otázkou v <em>triede piatakov.</em>",
+    "lead": "Medzi tou otázkou a týmito aplikáciami bol smútok, viera a veľa nocí dlho do rána. Zvyšok príbehu má vlastnú stránku.",
+    "cta": "Prečítať príbeh"
+  },
+  "proof": {
+    "caption": "Vytvorené projekty",
+    "eyebrow": "03 / Dôkaz práce",
+    "title": "Postavené od nuly. <em>Práca hovorí sama za seba.</em>",
+    "lead": "Aplikácie, weby, AI nástroje, filmy a kampane, navrhnuté, naprogramované a spustené vo vlastnej réžii. Tu je ich časť.",
+    "stats": {
+      "apps": "<strong>MyBibleLens</strong> dostupná v App Store",
+      "languages": "<strong>43 jazykov</strong> v MyBibleLens",
+      "years": "<strong>10 rokov</strong> tvorby online, od povrchu až po deep web",
+      "inHouse": "<strong>Od nápadu po spustenie</strong>, všetko vo vlastnej réžii"
+    },
+    "bigline": "<count>20+</count> PROJEKTOV <star>✦</star> POSTAVENÝCH <star>✦</star> VYDANÝCH <star>✦</star> NAŽIVO <star>✦</star>",
+    "rows": {
+      "products": "Aplikácie a produkty",
+      "creative": "Weby, AI a kreatívna práca"
+    },
+    "next": "Váš projekt môže byť <em>ďalší.</em>",
+    "cta": "Začnite ten svoj"
+  },
+  "services": {
+    "eyebrow": "04 / Vybrané služby",
+    "title": "Vy to vysníte, <em>ja to postavím.</em>",
+    "lead": "Produkty sú na prvom mieste. Keď to sedí, rovnaká starostlivosť ide aj do vybranej práce pre iných.",
+    "note": "Pri každom dopyte uveďte prosím cenové rozpätie a v správe spomeňte, ak je potrebná NDA.",
+    "count": "Služba {{number}} / {{total}}",
+    "start": "Začať tento projekt"
+  }
+}

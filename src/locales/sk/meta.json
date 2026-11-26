@@ -1,0 +1,70 @@
+{
+  "home": {
+    "title": "Expected End | Zmysel, postavený nádherne",
+    "description": "Expected End tvorí premyslený softvér, nástroje na produktivitu, digitálne zážitky a komunity."
+  },
+  "about": {
+    "title": "O nás | Expected End",
+    "description": "Príbeh zakladateľa Denzela Rigauda, poslanie Expected End a projekty postavené z viery a zmyslu."
+  },
+  "denzel-rigaud": {
+    "title": "Denzel Rigaud | Zakladateľ Expected End",
+    "description": "Denzel Rigaud je zakladateľ a full-stack vývojár, ktorý stojí za Expected End, MyBibleLens, aplikáciou Sanctuary pre kresťanstvo, a The Water Check."
+  },
+  "press": {
+    "title": "Tlač a médiá | Expected End",
+    "description": "Schválené životopisy, overené fakty, odkazy na entity a médiá na stiahnutie pre články o Expected End a Denzelovi Rigaudovi."
+  },
+  "terms": {
+    "title": "Podmienky používania webu | Expected End",
+    "description": "Podmienky, ktorými sa riadi používanie webu Expected End."
+  },
+  "privacy": {
+    "title": "Vyhlásenie o ochrane súkromia | Expected End",
+    "description": "Ako Expected End zaobchádza s informáciami na tomto webe."
+  },
+  "watercheck-privacy": {
+    "title": "Zásady ochrany súkromia The Water Check | Expected End",
+    "description": "Čo The Water Check zbiera, čo zostáva vo vašom telefóne, kto pomáha aplikáciu prevádzkovať a aké máte možnosti."
+  },
+  "watercheck-terms": {
+    "title": "Zmluvné podmienky The Water Check | Expected End",
+    "description": "Podmienky používania aplikácie The Water Check vrátane zdravia a bezpečnosti, AI, pravidiel Crew a nákupov."
+  },
+  "watercheck-health-data": {
+    "title": "Zásady ochrany zdravotných údajov spotrebiteľov The Water Check | Expected End",
+    "description": "Ako The Water Check zaobchádza so zdravotnými údajmi spotrebiteľov a ako k nim získať prístup, vymazať ich alebo sa odvolať."
+  },
+  "watercheck-delete-account": {
+    "title": "Odstránenie účtu | The Water Check",
+    "description": "Ako odstrániť svoj účet a údaje v The Water Check, v aplikácii alebo e-mailom."
+  },
+  "watercheck-community": {
+    "title": "Pravidlá komunity | The Water Check",
+    "description": "Ako zostávajú Crews v The Water Check priateľské: pravidlá, nahlasovanie a blokovanie a čo sa stane pri porušení pravidiel."
+  },
+  "accessibility": {
+    "title": "Prístupnosť | Expected End",
+    "description": "Záväzok Expected End k prístupnému webu."
+  },
+  "mybiblelens-store": {
+    "title": "MyBibleLens Store | Expected End",
+    "description": "Premyslené veci pre bližšiu cestu so Slovom. Obchod MyBibleLens už čoskoro."
+  },
+  "watercheck-store": {
+    "title": "The Water Check Store | Expected End",
+    "description": "Nevyhnutnosti inšpirované pitným režimom od The Water Check. Prvá kolekcia už čoskoro."
+  },
+  "watercheck-page": {
+    "title": "The Water Check | Aplikácia na pitný režim a bezplatná kalkulačka",
+    "description": "Spoznajte aplikáciu The Water Check a vyskúšajte bezplatný, súkromný odhad pitného režimu na Expected End."
+  },
+  "watercheck-calculator": {
+    "title": "Bezplatná kalkulačka pitného režimu | The Water Check",
+    "description": "Získajte bezplatný, súkromný denný odhad pitného režimu s kalkulačkou The Water Check."
+  },
+  "not-found": {
+    "title": "Stránka sa nenašla | Expected End",
+    "description": "Požadovaná stránka Expected End sa nenašla."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "header": {
+    "kicker": "Kontaktujte Expected End",
+    "title": "Začnite trochou <em>kontextu.</em>",
+    "intro": "Vyberte pár údajov a pripravíme vám prehľadný e-mail. Vaša e-mailová aplikácia sa otvorí skôr, než sa čokoľvek odošle."
+  },
+  "fields": {
+    "name": "Vaše meno",
+    "email": "Váš e-mail",
+    "reason": "O čo ide?",
+    "project": "Ktorý projekt?",
+    "priceRange": "Cenové rozpätie",
+    "timeline": "Ideálny časový rámec",
+    "discovery": "Ako ste našli Expected End?",
+    "message": "Čo máte na mysli?",
+    "chooseOne": "Vyberte jednu možnosť"
+  },
+  "reasons": {
+    "partnership": "Partnerstvo alebo spolupráca",
+    "press": "Tlač alebo médiá",
+    "general": "Všeobecná otázka"
+  },
+  "projects": {
+    "waterCheckCommunity": "Komunita The Water Check",
+    "newIdea": "Nový nápad"
+  },
+  "timelines": {
+    "exploring": "Zatiaľ sa len rozhliadam",
+    "month": "Do mesiaca",
+    "threeMonths": "Do troch mesiacov",
+    "laterThisYear": "Neskôr tento rok",
+    "notSure": "Ešte neviem"
+  },
+  "discovery": {
+    "waterCheckCommunity": "Komunita The Water Check",
+    "search": "Vyhľadávanie",
+    "referral": "Odporúčanie",
+    "elsewhere": "Niekde inde"
+  },
+  "submit": {
+    "note": "Nič sa neodošle, kým si správu neskontrolujete a nestlačíte Odoslať vo svojej e-mailovej aplikácii.",
+    "apps": "Vyberte <app>svoju e-mailovú aplikáciu</app>, <gmail>Gmail</gmail>, <outlook>Outlook</outlook> alebo <yahoo>Yahoo Mail</yahoo>.",
+    "button": "Pripraviť e-mail"
+  },
+  "dialog": {
+    "close": "Zavrieť kontaktný formulár"
+  }
+}
